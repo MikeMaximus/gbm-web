@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Game Backup Monitor - Automatically backup your save games and add cloud support to any game for free!" />
+	<title>Game Backup Monitor</title>
+	<script type="text/javascript" language="javascript" src="script/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" language="javascript" src="script/jquery.hoverIntent.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+	<link rel="shortcut icon" href="images/gbm.ico" />
+</head>
+<body>
+
+<div id="top">
+
+	<!--Include the Header (Starts Content)-->
+	<script>
+    	$(function(){
+      		$("#header").load("header.html");
+    	});
+	</script>
+	<div id="header"></div>
+
+	<div id="content">
+
+	<div id="leftcontent">
+    	<div id="pageSection"><div id="pageSectionHeader">Known Issues & Solutions (v0.93)</div>
+		<div id="pageSectionContent">
+		<h3>Add Game Wizard</h3>
+		<ul>
+            <li>The Drag n' Drop shortcuts feature doesn't work when running GBM as Administrator.</li>
+            <ul>
+                <li>Run GBM with UAC (User Access Control) off or run it with normal permissions.</li>
+            </ul>
+            <li>The Drag n' Drop shortcut feature doesn't work when dragging shortcuts from the start menu on Windows 10.</li>
+			<ul>
+				<li>Right-click the desired shortcut, choose "Open File Location", and drag the shortcut from the explorer window instead.  You can also replace the terrible Windows 10 start menu with <a href="http://www.classicshell.net/">Classic Shell</a> to solve this issue.</li>
+            </ul>
+		</ul>
+		<h3>Game Detection</h3>
+		<ul>
+            <li>Very rarely GBM will stop detecting games, even when monitoring is enabled.</li>
+            <ul>
+                <li>Quit and restart GBM.  We've been unable to consistently replicate this problem, if you have any information on this issue please <a href="mailto:gamebackupmonitor@gmail.com">contact us</a>.</li>
+            </ul>
+            <li>GBM keeps asking for the executable path when a game is detected, even after it's already been set.</li>
+            <ul>
+                <li>Open and close the Game Manager to force a reload after the game has ended. (Fixed in v0.94)</li>
+            </ul>
+            <li>GBM may detect the incorrect game is running when games that share the same process name are running as administrator.</li>
+            <ul>
+                <li>This is a bug with no acceptable workaround. (Fixed in v0.94)</li>
+            </ul>
+		</ul>
+		<h3>Settings</h3>
+		<ul>
+            <li>The "Start with Windows" setting is on, but GBM isn't starting with Windows. </li>
+            <ul>
+                <li>Open the Settings, untick "Start with Windows", then click Save.  Open the Settings again, tick "Start with Windows" then click Save.</li>
+            </ul>
+		</ul>
+		<!--<h3>Known Errors</h3>-->
+
+        <p class="boldtitle center">If your issue isn't listed here, please <a href="mailto:gamebackupmonitor@gmail.com">let us know</a> about it.</p>
+		</div>
+	   </div>
+	<!--End Left Panel-->
+	</div>
+
+	<!--Include the Footer-->
+	<script>
+  		$(function(){
+     			$("#footer").load("footer.html");
+   		});
+	</script>
+	<div id="footer"></div>
+
+	<!--End Content-->
+	</div>
+
+<!--End Top-->
+</div>
+</body>
+</html>

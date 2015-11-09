@@ -1,5 +1,85 @@
+<!doctype html>
 <html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Game Backup Monitor - Automatically backup your save games and add cloud support to any game for free!" />
+	<title>Game Backup Monitor</title>
+	<script type="text/javascript" language="javascript" src="script/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" language="javascript" src="script/jquery.hoverIntent.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+	<link rel="shortcut icon" href="images/gbm.ico" />
+</head>
 <body>
-<p>test</p>
+
+<div id="top">
+
+	<!--Include the Header (Starts Content)-->
+	<script>
+    	$(function(){
+      		$("#header").load("header.html");
+    	});
+	</script>
+	<div id="header"></div>
+
+	<div id="content">
+
+	<div id="leftcontent">
+    	<div id="pageSection"><div id="pageSectionHeader">Game Backup Monitor</div>
+				<div id="pageSectionContent">
+						<img class="centered" src="images/screens/gbm_ss8.jpg" width="534" height="221" alt="Splash Screen" /><br />
+						<p class="center">GBM works great on Windows 10!</p>
+						<p class="center">Automatically backup your saved games with optional cloud support.</p>
+						<p class="center small">Cloud support requires any service that offers a folder synchronizing client, such as <a href="https://www.dropbox.com/install">Dropbox</a>.</p>
+				</div>
+		</div>
+    	<div id="pageSection"><div id="pageSectionHeader">Latest Information</div>
+               <div id="pageSectionContent">
+				 		<h3>Important News</h3>
+				 		<ul>
+                            <li><a href="https://sourceforge.net/projects/backupmonitor/files/0.93/">v0.93</a> stable has been released!  Check out the <a href="versionhistory.php">Version History</a> section to read about the changes.</li>
+                            <li>Added a <a href="wishlist.php">feature wishlist</a> section.</li>
+                            <li>The <a href="manual.php">manual</a> has been updated for v0.93.</li>
+                            <li>Added a <a href="faq.php">F.A.Q</a> section to answer some common questions about GBM.</li>
+				 		</ul>
+				 		<h3>Notices</h3>
+				 		<ul>
+				 			<li>Please be wary of downloading GBM from <b>anywhere other than Sourceforge</b>.  I've noticed more than a few scam sites now listing GBM, but they are NOT providing my packages.</li>
+				 			<li>If you're upgrading from an alpha version prior to 0.81, you should <a href="https://sourceforge.net/projects/backupmonitor/files/Legacy/0.81/">install & run 0.81</a> first to upgrade your existing settings.  Future versions will not recognize data from versions prior to 0.81.</li>
+				 		</li>
+                        </ul>
+                        <h3>Updated October 13, 2015</h3>
+				 </div>
+		</div>
+        <div id="pageSection"><div id="pageSectionHeader">Coming Soon</div>
+	   		 <div id="pageSectionContent">
+                 <p>The next version (v0.94) is under development.<!--and a <a href="https://sourceforge.net/projects/backupmonitor/files/Preview/">preview release</a> is now available.--></p>
+	   		 		<h3>New in 0.94</h3>
+					<ul>
+                        <li>Fixed a few detection issues.</li>
+                        <li>Added the ability to restart GBM as Administrator from the status bar.</li>
+					</ul>
+                    <h3>Notices</h3>
+                    <ul>
+                    <li>The changes listed are not final or complete.  Preview releases may not contain all changes listed above.</li>
+                    </ul>
+
+		 	</div>
+		</div>
+	<!--End Left Panel-->
+	</div>
+
+	<!--Include the Footer-->
+	<script>
+  		$(function(){
+     			$("#footer").load("footer.html");
+   		});
+	</script>
+	<div id="footer"></div>
+
+	<!--End Content-->
+	</div>
+
+<!--End Top-->
+</div>
 </body>
 </html>

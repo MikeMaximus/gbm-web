@@ -1,0 +1,381 @@
+/*
+Author: Michael J. Seiferling
+Project: GBM Website
+*/
+
+/* Global Styles */
+
+html {     
+    background-color: #363636;
+}
+
+body {
+    padding: 0;
+    font-family: Verdana, Lucida Console, Tahoma;
+    margin: 10px; 
+    color:#FFF;
+}
+
+a.stealthlink:visited {
+    text-decoration: none;
+    color:#FFF;   
+}
+
+a.stealthlink:link {
+    text-decoration: none;
+    color:#FFF;   
+}
+
+a.stealthlink:hover {
+    color:#C8C8C8;
+}
+
+a.stealthlink:active {
+    color:#C8C8C8;
+}
+
+a img {
+    border:0;
+}
+
+a:link {
+    text-decoration: underline;
+    color:#FFF;   
+}
+
+a:visited {
+    text-decoration: none;
+    color:#FFF;   
+}
+
+a:hover {
+    color:#C8C8C8; 
+}  
+
+a:active {
+    color:#C8C8C8;   
+}  
+
+h1 {
+    margin:0;
+    padding:0;
+}
+
+h2 {
+    margin:0;
+    padding:0;
+}
+
+p {
+    margin:0;
+    padding:0;
+}
+
+p.center {
+    text-align: center;
+}
+
+p.right {
+    text-align: right;
+}
+
+p.bold {
+    font-weight: bold;
+}
+
+.boldtitle {
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.hugetitle {
+    font-size: 50pt;
+}
+
+.large {
+    font-size: 13pt;
+}
+
+.small {
+    font-size: 10pt;
+}
+
+.underline {
+    text-decoration:underline
+}
+
+li {
+    margin: 0;
+    padding: 3pt;
+}
+
+img.centered {
+    margin: 0 auto;
+    display: block;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+/* Form Class Styles */
+
+
+/* Main Layout Styles */
+
+#top {
+    width: 1024px;
+    margin: auto;
+}
+
+#logobar {
+    width: 1024px;
+    height: 185px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+#content {
+    background-color: #444649;
+    border-radius: 10px;
+}
+
+#leftcontent {    
+    width: 1024px;
+}
+
+#rightcontent { 
+    width: 200px;
+    float: right;
+}
+
+/* Sidebar Styles */
+
+#twitterContainer {
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    width:185px;
+}
+
+.sideSectionHeader {
+    padding: 2px;
+    font-size: 14pt;
+    text-align: center;
+    background-color: #2D2D2D;
+    color: #FFF;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.sideSectionFooter {
+    padding: 2px;
+    font-size: 12pt;
+    text-align: center;
+    background-color: #2D2D2D;
+    color: #FFF;
+    cursor: pointer;
+}
+
+
+.sideSection {
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    width:185px;
+    border-style:solid; 
+    border-width:1px;
+    border-color: #2D2D2D;
+    background-color: #202020;
+    border-radius: 20px;
+    
+}
+
+.sideSectionContent {
+    padding: 10px; 
+    font-size: 12pt;
+}
+
+.sideSectionFixedContent {
+    padding: 10px; 
+    font-size: 12pt;
+    height: 125px;
+    overflow: hidden;
+}
+
+.sideSectionContent img.centered {
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.sideSectionContent img.slightrounding {
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+
+/* Main Content Styles */
+
+#pageSectionHeader {
+    padding: 2px;
+    font-size: 14pt;
+    background-color: #2D2D2D;
+    color: #FFF;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#pageSection {
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    width: 1000px;
+    border-style:solid; 
+    border-width:1px;
+    border-color: #2D2D2D;
+    background-color: #202020;
+    border-radius: 20px;
+    
+}
+
+#pageSectionFooter {
+    padding: 2px;
+    font-size: 12pt;
+    background-color: #2D2D2D;
+    color: #FFF;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#pageSectionContent p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+}
+
+#pageSectionContent {
+    padding: 10px;
+    font-size: 12pt;
+}
+
+/* Navbar Styles */
+
+ul.topnav {
+	list-style: none;
+	padding: 0 20px;	
+	margin: 0;
+	float: left;
+	width: 984px;
+	background: #2D2D2D;
+	font-size: 14pt;
+	border-top-left-radius: 10px;
+    	border-top-right-radius: 10px;
+}
+ul.topnav li {
+	float: left;
+	margin: 0;	
+	padding: 0 15px 0 0;
+	position: relative; /*--Declare X and Y axis base for sub navigation--*/
+}
+ul.topnav li a{
+	padding: 10px 5px;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	float: left;
+}
+ul.topnav li a:hover{
+	background: #202020;
+}
+
+ul.topnav li.menuhover a:hover{
+	background: #202020;
+}
+ul.topnav li span.subhover {background: url(../images/sub_menu_hover.gif) no-repeat center; cursor: pointer;} /*--Hover effect for trigger--*/
+ul.topnav li span { /*--Drop down trigger styles--*/
+	width: 18px;
+	height: 35px;
+	float: left;
+	background: url(../images/sub_menu.gif) no-repeat center;
+}
+
+ul.topnav li ul.subnav {
+	list-style: none;
+	position: absolute; /*--Important - Keeps subnav from affecting main navigation flow--*/
+	left: 0; top: 35px;
+	background: #2D2D2D;
+	margin: 0; padding: 0;
+	display: none;
+	float: left;
+	width: 170px;
+	border: 1px solid #111;
+	z-index:20;
+}
+ul.topnav li ul.subnav li{
+	margin: 0; padding: 0;
+	border-top: 1px solid #252525; /*--Create bevel effect--*/
+	border-bottom: 1px solid #444; /*--Create bevel effect--*/
+	clear: both;
+	width: 170px;
+}
+html ul.topnav li ul.subnav li a {
+	float: left;
+	width: 145px;
+	background: #333 10px center;
+	padding-left: 20px;
+}
+html ul.topnav li ul.subnav li a:hover { /*--Hover effect for subnav links--*/
+	background: #202020 10px center; 
+}
+
+/* Bottom Navigation */
+
+#navbar-bottom {
+    position: relative;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12pt;
+    background-color: #2D2D2D; 
+    height:25px;
+    text-align: right;
+    color: #FFF;
+    clear:right;
+}
+
+#footer {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #FFF;
+    background-color: #2D2D2D;
+    font-size: 12pt;
+    text-align: right;
+    clear: right;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+/* Link Styles */
+
+
+/* Legacy Styles */

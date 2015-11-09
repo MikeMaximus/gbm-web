@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Game Backup Monitor - Automatically backup your save games and add cloud support to any game for free!" />
+	<title>Game Backup Monitor</title>
+	<script type="text/javascript" language="javascript" src="script/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" language="javascript" src="script/jquery.hoverIntent.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+	<link rel="shortcut icon" href="images/gbm.ico" />
+</head>
+<body>
+
+<div id="top">
+
+	<!--Include the Header (Starts Content)-->
+	<script>
+    	$(function(){
+      		$("#header").load("header.html");
+    	});
+	</script>
+	<div id="header"></div>
+
+	<div id="content">
+
+	<div id="leftcontent">
+    	<div id="pageSection"><div id="pageSectionHeader">What is Game Backup Monitor?</div>
+			<div id="pageSectionContent">
+				<p>Game Backup Monitor is a Windows system tray application that automatically detects games as you play them. When you're finished playing, a compressed backup of the save data will be automatically created in a location you've specified, such as a cloud folder, network folder or external drive.</p>
+				<p>If you use Game Backup Monitor on multiple computers and share the same backup folder, you can effectively add cloud save support to any game or application.  GBM can notify you of new save games to be restored when you move to each computer.</p>
+				<p>Game Backup Monitor was designed with classic DRM-free gaming in mind,  but it can be used to monitor any application on your PC!</p>
+				<h3>Game Backup Monitor is completely free and open source software.</h3>
+				<h4>Game Backup Monitor is currently only available in English.</h4>
+		  	</div>
+	   </div>
+
+		<div id="pageSection"><div id="pageSectionHeader">Requirements</div>
+			<div id="pageSectionContent">
+				<h4>Supported Operating Systems:</h4>
+				<p>Windows 10, Windows 8, Windows 7, Windows Vista SP1, Windows XP SP3</p>
+
+				<h4>Recommended Minimum:</h4>
+				<p>Pentium 1 GHz or higher with 512 MB RAM or more</p>
+
+				<h4>Disk Space:</h4>
+				<p>2 - 3 MB (This does not include the .NET 4 installation)</p>
+                <br />
+                <p>This software requires <a href="http://www.microsoft.com/en-ca/download/details.aspx?id=24872">.NET 4 (Client Profile)</a></p>
+				<p class="bold">Windows 8 & 10 users do not need to install .NET 4.</p>
+		  	</div>
+	   </div>
+
+	   <div id="pageSection"><div id="pageSectionHeader">Game Backup Monitor Features</div>
+		 <div id="pageSectionContent">
+	   		<ul>
+	 			<li>Detects games as you play them and handles the backup automatically and immediately when you finish. No scheduling or input required.</li>
+	   	   		<li>Track the hours that you've played any monitored game, similar to Steam.</li>
+	   	   		<li>A growing list of automatically configured games.</li>
+	   	   		<li>Backup to a cloud folder and add cloud save support to any game.</li>
+	   	   	 	<li>Easily setup an unlimited number of games to monitor, each with their own specific settings.</li>
+	   	   	 	<li>GBM can detect and backup classic DOS games running in DOSBox or ScummVM.</li>
+	   	   	 	<li>Game settings are designed to be easily portable and shared.</li>
+	   	   	</ul>
+	   	 </div>
+	   </div>
+	<!--End Left Panel-->
+	</div>
+
+	<!--Include the Footer-->
+	<script>
+  		$(function(){
+     			$("#footer").load("footer.html");
+   		});
+	</script>
+	<div id="footer"></div>
+
+	<!--End Content-->
+	</div>
+
+<!--End Top-->
+</div>
+</body>
+</html>
