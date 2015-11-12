@@ -79,7 +79,6 @@
 					<tr><td><b>Save Entire Folder:</b></td><td><xsl:if test="foldersave = 'True'">Yes</xsl:if><xsl:if test="foldersave = 'False'">No</xsl:if></td></tr>
 					<tr><td><b>Include Files:</b></td><td><xsl:if test="filetype = ''">None</xsl:if><xsl:value-of select="filetype" /></td></tr>
 					<tr><td><b>Exclude Files:</b></td><td><xsl:if test="excludelist = ''">None</xsl:if><xsl:value-of select="excludelist" /></td></tr>
-                    <tr><td><b>Incremental Backup:</b></td><td><xsl:if test="appendtimestamp = 'True'">Yes</xsl:if><xsl:if test="appendtimestamp = 'False'">No</xsl:if></td></tr>
 					</table></div><br />
                     <script type="text/javascript" language="javascript">                                        
                         iCount++;
