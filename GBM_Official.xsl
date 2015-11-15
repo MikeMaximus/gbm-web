@@ -1,7 +1,7 @@
 <?xml version="1.0" ?> 
 <xsl:stylesheet xmlns:xsl = "http://www.w3.org/1999/XSL/Transform" version = "1.0" > 
 
-<xsl:template match="aMon">
+<xsl:template match="gbm">
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -61,26 +61,31 @@
 				}
                 </style>
 				
-                <h3>Updated: November 11, 2015</h3>				
+                <h3>Updated: November 14, 2015</h3>				
                 <script type="text/javascript" language="javascript">
                     var iCount=0;
                     var dVar;
                     var bVar;                    
                 </script>
-                <xsl:for-each select="app">
-                    <xsl:sort select="@name"/>                                        
-                    <xsl:value-of select="@name" /> (<xsl:value-of select="process" />)
+                <xsl:for-each select="Game">
+                    <xsl:sort select="Name"/>                                        
+                    <xsl:value-of select="Name" /> (<xsl:value-of select="ProcessName" />)
                     <div id="gButton" class="myButton" onmousedown="buttonpressdown(this);" onmouseup="buttonpressup(this);">+</div>
 				    <div class="infodiv" style ="display:none" id="gData">
 				    <table border="0">
-					<tr><td><b>Process Name:</b></td><td><xsl:value-of select="process" /></td></tr>
-					<tr><td><b>Save Location:</b></td><td><xsl:value-of select="savelocation" /></td></tr>
-					<tr><td><b>Absolute Path:</b></td><td><xsl:if test="absolutepath = 'True'">Yes</xsl:if><xsl:if test="absolutepath = 'False'">No</xsl:if></td></tr>
-					<tr><td><b>Save Entire Folder:</b></td><td><xsl:if test="foldersave = 'True'">Yes</xsl:if><xsl:if test="foldersave = 'False'">No</xsl:if></td></tr>
-					<tr><td><b>Include Files:</b></td><td><xsl:if test="filetype = ''">None</xsl:if><xsl:value-of select="filetype" /></td></tr>
-					<tr><td><b>Exclude Files:</b></td><td><xsl:if test="excludelist = ''">None</xsl:if><xsl:value-of select="excludelist" /></td></tr>
-                    <tr><td><b>Incremental Backup:</b></td><td><xsl:if test="appendtimestamp = 'True'">Yes</xsl:if><xsl:if test="appendtimestamp = 'False'">No</xsl:if></td></tr>
-					</table></div><br />
+					<tr><td><b>Process Name:</b></td><td><xsl:value-of select="ProcessName" /></td></tr>
+					<tr><td><b>Save Location:</b></td><td><xsl:value-of select="Path" /></td></tr>
+					<tr><td><b>Absolute Path:</b></td><td><xsl:if test="AbsolutePath = 'True'">Yes</xsl:if><xsl:if test="AbsolutePath = 'False'">No</xsl:if></td></tr>
+					<tr><td><b>Save Entire Folder:</b></td><td><xsl:if test="FolderSave = 'True'">Yes</xsl:if><xsl:if test="FolderSave = 'False'">No</xsl:if></td></tr>
+					<tr><td><b>Include Files:</b></td><td><xsl:if test="FileType = ''">None</xsl:if><xsl:value-of select="FileType" /></td></tr>
+					<tr><td><b>Exclude Files:</b></td><td><xsl:if test="ExcludeList = ''">None</xsl:if><xsl:value-of select="ExcludeList" /></td></tr>
+                    <tr><td><b>Tags:</b></td><td>
+                    <xsl:for-each select="Tags">
+                        <xsl:for-each select="Tag">
+                            #<xsl:value-of select="Name" />
+                        </xsl:for-each>
+                    </xsl:for-each>
+					</td></tr></table></div><br />
                     <script type="text/javascript" language="javascript">                                        
                         iCount++;
                         dVar = "d" + iCount;

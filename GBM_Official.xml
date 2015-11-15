@@ -1,1563 +1,2950 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<!--GBM Export: 27/10/2015 5:13:10 PM-->
-<!--Entries: 174-->
-<aMon>
-  <app name="Star Wars - Battlefront 2">
-    <process>BattlefrontII</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>savegames</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="The Elder Scrolls II - Daggerfall">
-    <process>dosbox:FALL</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>..\</savelocation>
-    <foldersave>False</foldersave>
-    <filetype>SAVE?</filetype>
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Legend of Grimrock II">
-    <process>grimrock2</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\Almost Human\Legend of Grimrock 2</savelocation>
-    <foldersave>False</foldersave>
-    <filetype>*.sav</filetype>
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Bioshock 2">
-    <process>Bioshock2</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\Bioshock2\SaveGames</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Cossacks - European Wars">
-    <process>dmcr</process>
-    <absolutepath>False</absolutepath>
-    <savelocation />
-    <foldersave>False</foldersave>
-    <filetype>*.sav</filetype>
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Heroes of Might and Magic 3 Complete (HD3)">
-    <process>Heroes3</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>..\games</savelocation>
-    <foldersave>False</foldersave>
-    <filetype>*.CGM</filetype>
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Sid Meier's Alien Crossfire">
-    <process>terranx</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>saves</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Divinity - Original Sin Enhanced Edition">
-    <process>EoCApp</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\Larian Studios\Divinity Original Sin Enhanced Edition\PlayerProfiles</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Realms of Chaos">
-    <process>dosbox:ROC</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>..\</savelocation>
-    <foldersave>False</foldersave>
-    <filetype>ROC.S*</filetype>
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Shadowrun - Hong Kong">
-    <process>SRHK</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*appdatalocal*\Harebrained Schemes\Shadowrun Hong Kong\Saves</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Mark of the Ninja">
-    <process>game</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>..\users</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>*.ini</excludelist>
-  </app>
-  <app name="Betrayal in Antara">
-    <process>ANTARAR</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>SAVE</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Clive Barker's Undying">
-    <process>Undying</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>..\Save</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Dragon Age - Origins">
-    <process>daorigins</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\BioWare\Dragon Age\Characters</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="S.T.A.L.K.E.R. Shadow of Chernobyl">
-    <process>XR_3DA</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*publicdocs*\STALKER-SHOC\savedgames</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="F.E.A.R. Extraction Point">
-    <process>FEARXP</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*publicdocs*\TimeGate Studios\FEARXP</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>settings.cfg</excludelist>
-  </app>
-  <app name="Inquisitor">
-    <process>Inquisitor</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\Inquisitor_SaveGames</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>*.ini</excludelist>
-  </app>
-  <app name="Icewind Dale">
-    <process>IDMain</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>mpsave</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Blitzkrieg">
-    <process>game</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>saves</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Populous - Undiscovered Worlds">
-    <process>popTBUW</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>save</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>CONFIG00.*</excludelist>
-  </app>
-  <app name="Star Wars - Dark Forces">
-    <process>dosbox:DARK</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>..\</savelocation>
-    <foldersave>False</foldersave>
-    <filetype>DARKPILO.CFG</filetype>
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Anachronox">
-    <process>anox</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>anoxdata\SAVE</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="American Conquest">
-    <process>DMCR</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>save</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Dark Souls 2">
-    <process>DarkSoulsII</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*appdataroaming*\DarkSoulsII</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>True</appendtimestamp>
-    <excludelist>*.xml</excludelist>
-  </app>
-  <app name="Hitman - Contracts">
-    <process>HitmanContracts</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>save</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Majesty HD">
-    <process>MajestyHD</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\My Games\MajestyHD</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>MajXPrefs</excludelist>
-  </app>
-  <app name="Assassin's Creed">
-    <process>AssassinsCreed_Dx10</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*appdataroaming*\Ubisoft\Assassin's Creed\Saved Games</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Capitalism 2">
-    <process>Cap2</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\My Games\Capitalism 2\SAVE</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Gothic 3">
-    <process>Gothic3</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\gothic3</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>*.ini</excludelist>
-  </app>
-  <app name="Hitman 2 Silent Assassin">
-    <process>hitman2</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>save</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Door Kickers">
-    <process>DoorKickers</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\KillHouseGames\DoorKickers</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>options.xml</excludelist>
-  </app>
-  <app name="Shadowrun Returns">
-    <process>Shadowrun</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*appdatalocal*\Harebrained Schemes\Shadowrun Returns\Saves</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Grand Theft Auto - San Andreas">
-    <process>gta-sa</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\GTA San Andreas User Files</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>Gallery:User Tracks</excludelist>
-  </app>
-  <app name="Wasteland 2 - Director's Cut">
-    <process>WL2</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\My Games\Wasteland2DC</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="The Elder Scrolls V - Skyrim">
-    <process>TESV</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\My Games\Skyrim\Saves</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Heroes of Might and Magic 3 Complete">
-    <process>Heroes3</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>games</savelocation>
-    <foldersave>False</foldersave>
-    <filetype>*.CGM</filetype>
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Fahrenheit - Indigo Prophecy">
-    <process>Fahrenheit</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\atari\Fahrenheit Profile</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Populous - The Beginning">
-    <process>D3DPopTB</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>save</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>CONFIG00.*</excludelist>
-  </app>
-  <app name="Assassin's Creed">
-    <process>AssassinsCreed_Dx9</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*appdataroaming*\Ubisoft\Assassin's Creed\Saved Games</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Euro Truck Simulator 2">
-    <process>eurotrucks2</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\Euro Truck Simulator 2\profiles</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Gray Matter">
-    <process>Game</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\GrayMatter</savelocation>
-    <foldersave>False</foldersave>
-    <filetype>*.sav</filetype>
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Caesar 3">
-    <process>c3</process>
-    <absolutepath>False</absolutepath>
-    <savelocation />
-    <foldersave>False</foldersave>
-    <filetype>*.sav</filetype>
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Prison Architect">
-    <process>Prison Architect</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*appdatalocal*\Introversion\Prison Architect\saves</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="FlatOut 2">
-    <process>FlatOut2</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>Savegame</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>*.cfg</excludelist>
-  </app>
-  <app name="Space Colony HD">
-    <process>Space Colony</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\Space Colony\users</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Blackwell Unbound">
-    <process>Unbound</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*currentuser*\Saved Games\Blackwell Unbound</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Pillars of Eternity">
-    <process>PillarsOfEternity</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*currentuser*\Saved Games\Pillars of Eternity</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>2.0 Save Games Backup</excludelist>
-  </app>
-  <app name="Wasteland 2">
-    <process>WL2</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\My Games\Wasteland2\Save Games</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="F.E.A.R. First Encounter Assault Recon">
-    <process>FEAR</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*publicdocs*\Monolith Productions\FEAR</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>settings.cfg</excludelist>
-  </app>
-  <app name="Call of Cthulhu - Dark Corners of The Earth">
-    <process>CoCMainWin32</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\Bethesda\Call of Cthulhu</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>Options</excludelist>
-  </app>
-  <app name="Shadowgate">
-    <process>Shadowgate</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\Zojoi\Shadowgate</savelocation>
-    <foldersave>False</foldersave>
-    <filetype>*</filetype>
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Age of Wonders - Shadow Magic">
-    <process>AoWSMCompat</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>Save</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Betrayal at Krondor">
-    <process>dosbox:KRONDOR</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>..\Betrayal at Krondor\GAMES</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Blitzkrieg 2 - Liberation">
-    <process>Game</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>..\Profiles</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Shattered Haven">
-    <process>ShatteredHaven</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>runtimedata\save</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Wargame - European Escalation">
-    <process>wargame</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*currentuser*\Saved Games\EugenSystems\WarGame</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>*.ini</excludelist>
-  </app>
-  <app name="Omerta - City of Gangsters">
-    <process>Omerta</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*appdataroaming*\Omerta\save</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Capitalism Plus">
-    <process>dosbox:CAPPLUS</process>
-    <absolutepath>False</absolutepath>
-    <savelocation />
-    <foldersave>False</foldersave>
-    <filetype>*.sav</filetype>
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Banished">
-    <process>Application</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\Banished\Save</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Hitman Codename 47">
-    <process>hitman</process>
-    <absolutepath>False</absolutepath>
-    <savelocation />
-    <foldersave>False</foldersave>
-    <filetype>Hitman.sav</filetype>
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Conquest of the New World">
-    <process>dosbox:CNWMAIN</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>..\</savelocation>
-    <foldersave>False</foldersave>
-    <filetype>*.?E2</filetype>
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Populous - Undiscovered Worlds">
-    <process>D3DPopTBUW</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>save</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>CONFIG00.*</excludelist>
-  </app>
-  <app name="Cossacks - Art Of War">
-    <process>dmcr</process>
-    <absolutepath>False</absolutepath>
-    <savelocation />
-    <foldersave>False</foldersave>
-    <filetype>*.sav</filetype>
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Dragon Age 2">
-    <process>DragonAge2</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\BioWare\Dragon Age 2\Characters</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Blackwell Epiphany, The">
-    <process>epiphany</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*currentuser*\Saved Games\Blackwell Epiphany</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>*.bwe</excludelist>
-  </app>
-  <app name="The Ultimate DOOM">
-    <process>dosbox:DOOM</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>..\</savelocation>
-    <foldersave>False</foldersave>
-    <filetype>DEFAULT.CFG:DOOMSAV?.DSG</filetype>
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Xenonauts">
-    <process>Xenonauts</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\Xenonauts</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="The Witcher 2 Enhanced Edition">
-    <process>witcher2</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\Witcher 2\gamesaves</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>True</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="POD Gold">
-    <process>PODX3Dfx</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>data</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>BINARY:loader.exe</excludelist>
-  </app>
-  <app name="Blood Bowl - Chaos Edition">
-    <process>BB_Chaos</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\bloodbowlchaos\saves</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Fallout 3">
-    <process>Fallout3</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\My Games\Fallout3\Saves</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>*.bak:*.ini</excludelist>
-  </app>
-  <app name="Shadowrun Dragonfall - Director's Cut">
-    <process>Dragonfall</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*appdatalocal*\Harebrained Schemes\Shadowrun Dragonfall\Saves</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="American Conquest - Fight Back">
-    <process>dmcr</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>save</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="The Witcher 3">
-    <process>witcher3</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\The Witcher 3\gamesaves</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Wolfenstein 3D">
-    <process>dosbox:WOLF3D</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>..\</savelocation>
-    <foldersave>False</foldersave>
-    <filetype>CONFIG.WL6:SAVEGAM?.WL6</filetype>
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Expeditions - Conquistador">
-    <process>Expeditions Conquistador</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\My Games\Expeditions Conquistador\Saves</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Red Faction">
-    <process>RF</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>savegame</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Ironclad Tactics">
-    <process>Game</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\My Games\Ironclad Tactics\profile</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Hotline Miami">
-    <process>HotlineGL</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\My Games\HotlineMiami</savelocation>
-    <foldersave>False</foldersave>
-    <filetype>SaveData.sav</filetype>
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Star Wars - Knights of the Old Republic 2">
-    <process>swkotor2</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>saves</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="The Witcher Enhanced Edition">
-    <process>witcher</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\The Witcher\saves</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Battle Realms Complete">
-    <process>Battle_Realms_F</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>Saved Games</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Starpoint Gemini II">
-    <process>StarpointGemini2</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>Saves</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Shadow Warrior 2013 (DX 11)">
-    <process>sw.Win32</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\Shadow Warrior DX11\profiles</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Another World 20th Anniversary Edition">
-    <process>anowor</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\Another World</savelocation>
-    <foldersave>False</foldersave>
-    <filetype>progression.dat</filetype>
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Tropico 4">
-    <process>Tropico4</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*appdataroaming*\Tropico 4</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>Logs:ShaderCache:*.bik:DeveloperStorage.lua</excludelist>
-  </app>
-  <app name="Omikron - The Nomad Soul">
-    <process>Runtime</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>IAM</savelocation>
-    <foldersave>False</foldersave>
-    <filetype>GAMES</filetype>
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Baldur's Gate II - Enhanced Edition">
-    <process>Baldur</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\Baldur's Gate II - Enhanced Edition\save</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Children of the Nile Complete">
-    <process>CotN</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\Tilted Mill\Children of the Nile</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>*.log:*.ini</excludelist>
-  </app>
-  <app name="Commandos 2 - Men of Courage">
-    <process>comm2</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>OUTPUT</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Carmageddon">
-    <process>dosbox:CARMA</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>..\CARMA\DATA\SAVEGAME</savelocation>
-    <foldersave>False</foldersave>
-    <filetype>*</filetype>
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Battle Worlds - Kronos">
-    <process>BattleWorldsKronos</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\BattleWorldsKronos</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="F.E.A.R. Perseus Mandate">
-    <process>FEARXP2</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*publicdocs*\TimeGate Studios\FEARXP2</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>settings.cfg</excludelist>
-  </app>
-  <app name="Divinity - Original Sin">
-    <process>EoCApp</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\Larian Studios\Divinity Original Sin\PlayerProfiles</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>True</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Blitzkrieg 2">
-    <process>Game</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>..\Profiles</savelocation>
-    <foldersave>False</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Deus Ex - Invisible War">
-    <process>DX2Main</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\Deus Ex - Invisible War\SaveGames</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Blackwell Legacy, The">
-    <process>blackwell1</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*currentuser*\Saved Games\Blackwell Legacy v1.7</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Star Wars Jedi Knight - Mysteries of the Sith">
-    <process>JKM</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>player</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="The Elder Scrolls - Arena">
-    <process>dosbox:ACD</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>..\</savelocation>
-    <foldersave>False</foldersave>
-    <filetype>*.64:*.00:*.01:NAMES.DAT:VISION.EMS</filetype>
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Dead State">
-    <process>ZRPG</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\My Games\Dead State</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>crash_reports:prefs.cs:console.log</excludelist>
-  </app>
-  <app name="Star Wars - Empire At War">
-    <process>sweaw</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*appdataroaming*\Petroglyph\Empire At War\Save</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Ghostbusters - The Video Game">
-    <process>ghost_w32</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\GHOSTBUSTERS (tm)</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Dragon Age Inquisition">
-    <process>DragonAgeInquisition</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\BioWare\Dragon Age Inquisition\Save</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Neverwinter Nights 2">
-    <process>nwn2</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\Neverwinter Nights 2\saves</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Blood II - The Chosen">
-    <process>BLOOD2</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>Save</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Divinity - Dragon Commander">
-    <process>DragonCommander</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\Larian Studios\Dragon Commander\Savegames</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Metro 2033 Redux">
-    <process>metro</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\4A Games\Metro 2033</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Carmageddon">
-    <process>dosbox:VOODO2C</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>..\CARMA\DATA\SAVEGAME</savelocation>
-    <foldersave>False</foldersave>
-    <filetype>*</filetype>
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="F.E.A.R. 2">
-    <process>FEAR2</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\WBGames\FEAR2</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>settings.cfg</excludelist>
-  </app>
-  <app name="Rise of the Triad">
-    <process>dosbox:ROTT</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>..\</savelocation>
-    <foldersave>False</foldersave>
-    <filetype>ROTTGAM?.ROT</filetype>
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Sid Meier's Pirates!">
-    <process>Pirates!</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\My Games\Sid Meier's Pirates!</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>*.ini</excludelist>
-  </app>
-  <app name="Condemned">
-    <process>Condemned</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*publicdocs*\Monolith Productions\Condemned\Save</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Stronghold HD">
-    <process>Stronghold</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\Stronghold\Saves</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Return to Castle Wolfenstein">
-    <process>WolfSP</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>main\save</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Dark Souls">
-    <process>DARKSOULS</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\nbgi\darksouls</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>True</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Star Wars - Galactic Battlegrounds">
-    <process>battlegrounds_x1</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>savegame</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Amnesia - The Dark Descent">
-    <process>Amnesia</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\Amnesia\Main</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Max Payne 3">
-    <process>MaxPayne3</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\Rockstar Games\Max Payne 3\Profiles</savelocation>
-    <foldersave>False</foldersave>
-    <filetype>*</filetype>
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Dust - An Elysian Tail">
-    <process>DustAET</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\SavedGames\DustAET\Save Files</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>Settings.sav</excludelist>
-  </app>
-  <app name="Sin Gold">
-    <process>sin</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>base\players</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Beyond Divinity">
-    <process>div</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>savegames</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Star Wars - Knights of the Old Republic">
-    <process>swkotor</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>saves</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Project Eden">
-    <process>Eden</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>saved games</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Aarklash - Legacy">
-    <process>Aarklash</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\Aarklash Legacy\Profiles</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Shadow Warrior 2013 (DX 9)">
-    <process>sw</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\Shadow Warrior\profiles</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Simcity 4 Deluxe">
-    <process>SimCity 4</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\SimCity 4\Regions</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>Berlin:Downloads:Fairview:London:New York:San Francisco:Timbuktu</excludelist>
-  </app>
-  <app name="Shadow Warrior 2013 (DX 11)">
-    <process>sw.x64</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\Shadow Warrior DX11\profiles</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Rogue Legacy">
-    <process>RogueLegacy</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\SavedGames\RogueLegacy</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Sid Meier's Alpha Centauri">
-    <process>terran</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>saves</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Metro Last Light Redux">
-    <process>metro</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\4A Games\Metro Last Light</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="State of Decay - YOSE">
-    <process>StateOfDecay</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>user</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>True</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Elminage Gothic">
-    <process>Elminage</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\My Games\Ghostlight Ltd\Elminage Gothic</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Populous - The Beginning">
-    <process>popTB</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>save</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>CONFIG00.*</excludelist>
-  </app>
-  <app name="Blitzkrieg - Rolling Thunder">
-    <process>game</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>saves</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Victor Vran">
-    <process>VictorVran</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*appdataroaming*\Victor Vran</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>logs:DeveloperStorage.lua</excludelist>
-  </app>
-  <app name="Mount and Blade - Warband">
-    <process>mb_warband</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\Mount&amp;Blade Warband Savegames</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="AI War Fleet Command">
-    <process>AIWar</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>runtimedata\save</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Blitzkrieg 2 - Fall of the Reich">
-    <process>game</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>..\Profiles</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Carmageddon">
-    <process>CARM95</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>DATA\SAVEGAME</savelocation>
-    <foldersave>False</foldersave>
-    <filetype>*</filetype>
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Gangsters">
-    <process>gangsters</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>Saved Games</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="The Settlers - Rise of an Empire">
-    <process>Settlers6</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\THE SETTLERS - Rise of an Empire</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>Config:Screenshots:Temp:UserMaps</excludelist>
-  </app>
-  <app name="Silver">
-    <process>silver</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>savegame</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>SILVER.OPT</excludelist>
-  </app>
-  <app name="Cities - Skylines">
-    <process>Cities</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*appdatalocal*\Colossal Order\Cities_Skylines\Saves</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Trine 2">
-    <process>trine2_32bit</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*appdataroaming*\Trine2</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>*.txt</excludelist>
-  </app>
-  <app name="Kerbal Space Program">
-    <process>KSP</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>saves</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>scenarios:training</excludelist>
-  </app>
-  <app name="Lords of Xulima">
-    <process>LoX</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\My Games\Lords of Xulima</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>*.txt</excludelist>
-  </app>
-  <app name="No One Lives Forever 2">
-    <process>Lithtech</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>Save</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="FlatOut">
-    <process>flatout</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>Savegame</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>*.cfg</excludelist>
-  </app>
-  <app name="Hotline Miami">
-    <process>HotlineMiami_Original</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\My Games\HotlineMiami</savelocation>
-    <foldersave>False</foldersave>
-    <filetype>SaveData.sav</filetype>
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Terraria">
-    <process>Terraria</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\My Games\Terraria</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>*.json:*.bak:*.dat</excludelist>
-  </app>
-  <app name="Indiana Jones and the Fate of Atlantis">
-    <process>scummvm</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>..\</savelocation>
-    <foldersave>False</foldersave>
-    <filetype>atlantis.*</filetype>
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>*.0??:*.ini:*.exe:*.ico</excludelist>
-  </app>
-  <app name="System Shock - Enhanced Edition">
-    <process>sshock</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>res\data</savelocation>
-    <foldersave>False</foldersave>
-    <filetype>currsave.dat:savgam??.dat</filetype>
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="BloodRayne">
-    <process>rayne</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>savegame</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Cossacks - Back To War">
-    <process>dmcr</process>
-    <absolutepath>False</absolutepath>
-    <savelocation />
-    <foldersave>False</foldersave>
-    <filetype>*.sav</filetype>
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Interstate '76">
-    <process>i76</process>
-    <absolutepath>False</absolutepath>
-    <savelocation />
-    <foldersave>False</foldersave>
-    <filetype>*.def:input.map:histogram.txt:reconfig.spc:user.rpr:savegame.dir:save*.cmp:NSCR.DAT:user.mel</filetype>
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>input.def:gamekey.def</excludelist>
-  </app>
-  <app name="Baldur's Gate - Enhanced Edition">
-    <process>Baldur</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\Baldur's Gate - Enhanced Edition\save</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Colonization">
-    <process>dosbox:OPENING</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>..\MPS\COLONIZE</savelocation>
-    <foldersave>False</foldersave>
-    <filetype>*.SAV</filetype>
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Satellite Reign">
-    <process>SatelliteReignWindows</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*appdatalocal*\SatelliteReign\users</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Vampire - The Masquerade Bloodlines">
-    <process>vampire</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>Vampire\save</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Icewind Dale Enhanced Edition">
-    <process>icewind</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\Icewind Dale - Enhanced Edition\save</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Star Wars Jedi Knight II - Jedi Outcast">
-    <process>jk2sp</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>base\saves</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Baldur's Gate II">
-    <process>BGMain</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>save</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="SpaceChem">
-    <process>SpaceChem</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*appdatalocal*\Zachtronics Industries\SpaceChem\save</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Star Wars - Dark Forces 2 Jedi Knight">
-    <process>JK</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>player</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="HuniePop">
-    <process>HuniePop</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*appdatalocal*Low\HuniePot\HuniePop</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Commandos - Behind Enemy Lines">
-    <process>Comandos</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>OUTPUT</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>*.CFG</excludelist>
-  </app>
-  <app name="Legend of Grimrock">
-    <process>grimrock</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\Almost Human\Legend of Grimrock</savelocation>
-    <foldersave>False</foldersave>
-    <filetype>*.sav</filetype>
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="BloodRayne 2">
-    <process>br2</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>savegame</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Fallen Enchantress - Legendary Heroes">
-    <process>LegendaryHeroes</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\My Games\LegendaryHeroes</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>*.err:Prefs.ini</excludelist>
-  </app>
-  <app name="Ultima IX - Ascension">
-    <process>u9</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>savegame</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Beyond Good and Evil">
-    <process>BGE</process>
-    <absolutepath>False</absolutepath>
-    <savelocation />
-    <foldersave>False</foldersave>
-    <filetype>*.sav</filetype>
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Arcanum">
-    <process>Arcanum</process>
-    <absolutepath>False</absolutepath>
-    <savelocation>modules\Arcanum\Save</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist />
-  </app>
-  <app name="Democracy 3">
-    <process>Democracy3</process>
-    <absolutepath>True</absolutepath>
-    <savelocation>*mydocs*\My Games\democracy3</savelocation>
-    <foldersave>True</foldersave>
-    <filetype />
-    <appendtimestamp>False</appendtimestamp>
-    <excludelist>prefs.ini:mod_status.ini:config.txt:debug:screenshots:steamfriends:webdebug</excludelist>
-  </app>
-</aMon>
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Game>
+    <Name>AI War Fleet Command</Name>
+    <ProcessName>AIWar</ProcessName>
+    <Path>runtimedata\save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Aarklash - Legacy</Name>
+    <ProcessName>Aarklash</ProcessName>
+    <Path>C:\Users\Michael\Documents\Aarklash Legacy\Profiles</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Age of Wonders - Shadow Magic</Name>
+    <ProcessName>AoWSMCompat</ProcessName>
+    <Path>Save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>American Conquest</Name>
+    <ProcessName>DMCR</ProcessName>
+    <Path>save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>American Conquest - Fight Back</Name>
+    <ProcessName>dmcr</ProcessName>
+    <Path>save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Amnesia - The Dark Descent</Name>
+    <ProcessName>Amnesia</ProcessName>
+    <Path>C:\Users\Michael\Documents\Amnesia\Main</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Anachronox</Name>
+    <ProcessName>anox</ProcessName>
+    <Path>anoxdata\SAVE</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Another World 20th Anniversary Edition</Name>
+    <ProcessName>anowor</ProcessName>
+    <Path>C:\Users\Michael\Documents\Another World</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>progression.dat</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Arcanum</Name>
+    <ProcessName>Arcanum</ProcessName>
+    <Path>modules\Arcanum\Save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Assassin's Creed</Name>
+    <ProcessName>AssassinsCreed_Dx9</ProcessName>
+    <Path>C:\Users\Michael\AppData\Roaming\Ubisoft\Assassin's Creed\Saved Games</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Assassin's Creed</Name>
+    <ProcessName>AssassinsCreed_Dx10</ProcessName>
+    <Path>C:\Users\Michael\AppData\Roaming\Ubisoft\Assassin's Creed\Saved Games</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Baldur's Gate - Enhanced Edition</Name>
+    <ProcessName>Baldur</ProcessName>
+    <Path>C:\Users\Michael\Documents\Baldur's Gate - Enhanced Edition\save</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Baldur's Gate II</Name>
+    <ProcessName>BGMain</ProcessName>
+    <Path>save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Baldur's Gate II - Enhanced Edition</Name>
+    <ProcessName>Baldur</ProcessName>
+    <Path>C:\Users\Michael\Documents\Baldur's Gate II - Enhanced Edition\save</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Banished</Name>
+    <ProcessName>Application</ProcessName>
+    <Path>C:\Users\Michael\Documents\Banished\Save</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Battle Realms Complete</Name>
+    <ProcessName>Battle_Realms_F</ProcessName>
+    <Path>Saved Games</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Battle Worlds - Kronos</Name>
+    <ProcessName>BattleWorldsKronos</ProcessName>
+    <Path>C:\Users\Michael\Documents\BattleWorldsKronos</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Betrayal at Krondor</Name>
+    <ProcessName>dosbox:KRONDOR</ProcessName>
+    <Path>..\Betrayal at Krondor\GAMES</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Betrayal in Antara</Name>
+    <ProcessName>ANTARAR</ProcessName>
+    <Path>SAVE</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Beyond Divinity</Name>
+    <ProcessName>div</ProcessName>
+    <Path>savegames</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Beyond Good and Evil</Name>
+    <ProcessName>BGE</ProcessName>
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Bioshock 2</Name>
+    <ProcessName>Bioshock2</ProcessName>
+    <Path>C:\Users\Michael\Documents\Bioshock2\SaveGames</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Blackwell Epiphany, The</Name>
+    <ProcessName>epiphany</ProcessName>
+    <Path>C:\Users\Michael\Saved Games\Blackwell Epiphany</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>*.bwe</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Blackwell Legacy, The</Name>
+    <ProcessName>blackwell1</ProcessName>
+    <Path>C:\Users\Michael\Saved Games\Blackwell Legacy v1.7</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Blackwell Unbound</Name>
+    <ProcessName>Unbound</ProcessName>
+    <Path>C:\Users\Michael\Saved Games\Blackwell Unbound</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Blitzkrieg</Name>
+    <ProcessName>game</ProcessName>
+    <Path>saves</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Blitzkrieg - Rolling Thunder</Name>
+    <ProcessName>game</ProcessName>
+    <Path>saves</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Blitzkrieg 2</Name>
+    <ProcessName>Game</ProcessName>
+    <Path>..\Profiles</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Blitzkrieg 2 - Fall of the Reich</Name>
+    <ProcessName>game</ProcessName>
+    <Path>..\Profiles</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Blitzkrieg 2 - Liberation</Name>
+    <ProcessName>Game</ProcessName>
+    <Path>..\Profiles</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Blood Bowl - Chaos Edition</Name>
+    <ProcessName>BB_Chaos</ProcessName>
+    <Path>C:\Users\Michael\Documents\bloodbowlchaos\saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Blood II - The Chosen</Name>
+    <ProcessName>BLOOD2</ProcessName>
+    <Path>Save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>BloodRayne</Name>
+    <ProcessName>rayne</ProcessName>
+    <Path>savegame</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>BloodRayne 2</Name>
+    <ProcessName>br2</ProcessName>
+    <Path>savegame</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Caesar 3</Name>
+    <ProcessName>c3</ProcessName>
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Call of Cthulhu - Dark Corners of The Earth</Name>
+    <ProcessName>CoCMainWin32</ProcessName>
+    <Path>C:\Users\Michael\Documents\Bethesda\Call of Cthulhu</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>Options</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Retail</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Capitalism 2</Name>
+    <ProcessName>Cap2</ProcessName>
+    <Path>C:\Users\Michael\Documents\My Games\Capitalism 2\SAVE</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Capitalism Plus</Name>
+    <ProcessName>dosbox:CAPPLUS</ProcessName>
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Carmageddon</Name>
+    <ProcessName>dosbox:CARMA</ProcessName>
+    <Path>..\CARMA\DATA\SAVEGAME</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Carmageddon</Name>
+    <ProcessName>CARM95</ProcessName>
+    <Path>DATA\SAVEGAME</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Carmageddon</Name>
+    <ProcessName>dosbox:VOODO2C</ProcessName>
+    <Path>..\CARMA\DATA\SAVEGAME</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Children of the Nile Complete</Name>
+    <ProcessName>CotN</ProcessName>
+    <Path>C:\Users\Michael\Documents\Tilted Mill\Children of the Nile</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>*.log:*.ini</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Cities - Skylines</Name>
+    <ProcessName>Cities</ProcessName>
+    <Path>C:\Users\Michael\AppData\Local\Colossal Order\Cities_Skylines\Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Clive Barker's Undying</Name>
+    <ProcessName>Undying</ProcessName>
+    <Path>..\Save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Colonization</Name>
+    <ProcessName>dosbox:OPENING</ProcessName>
+    <Path>..\MPS\COLONIZE</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.SAV</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Commandos - Behind Enemy Lines</Name>
+    <ProcessName>Comandos</ProcessName>
+    <Path>OUTPUT</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>*.CFG</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Commandos 2 - Men of Courage</Name>
+    <ProcessName>comm2</ProcessName>
+    <Path>OUTPUT</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Condemned</Name>
+    <ProcessName>Condemned</ProcessName>
+    <Path>C:\Users\Public\Documents\Monolith Productions\Condemned\Save</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Retail</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Conquest of the New World</Name>
+    <ProcessName>dosbox:CNWMAIN</ProcessName>
+    <Path>..\</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.?E2</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Cossacks - Art Of War</Name>
+    <ProcessName>dmcr</ProcessName>
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Cossacks - Back To War</Name>
+    <ProcessName>dmcr</ProcessName>
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Cossacks - European Wars</Name>
+    <ProcessName>dmcr</ProcessName>
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Dark Souls</Name>
+    <ProcessName>DARKSOULS</ProcessName>
+    <Path>C:\Users\Michael\Documents\nbgi\darksouls</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Dark Souls 2</Name>
+    <ProcessName>DarkSoulsII</ProcessName>
+    <Path>C:\Users\Michael\AppData\Roaming\DarkSoulsII</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>*.xml</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Dead State</Name>
+    <ProcessName>ZRPG</ProcessName>
+    <Path>C:\Users\Michael\Documents\My Games\Dead State</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>crash_reports:prefs.cs:console.log</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Democracy 3</Name>
+    <ProcessName>Democracy3</ProcessName>
+    <Path>C:\Users\Michael\Documents\My Games\democracy3</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>prefs.ini:mod_status.ini:config.txt:debug:screenshots:steamfriends:webdebug</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Deus Ex - Invisible War</Name>
+    <ProcessName>DX2Main</ProcessName>
+    <Path>C:\Users\Michael\Documents\Deus Ex - Invisible War\SaveGames</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Divinity - Dragon Commander</Name>
+    <ProcessName>DragonCommander</ProcessName>
+    <Path>C:\Users\Michael\Documents\Larian Studios\Dragon Commander\Savegames</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Divinity - Original Sin</Name>
+    <ProcessName>EoCApp</ProcessName>
+    <Path>C:\Users\Michael\Documents\Larian Studios\Divinity Original Sin\PlayerProfiles</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Divinity - Original Sin Enhanced Edition</Name>
+    <ProcessName>EoCApp</ProcessName>
+    <Path>C:\Users\Michael\Documents\Larian Studios\Divinity Original Sin Enhanced Edition\PlayerProfiles</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Door Kickers</Name>
+    <ProcessName>DoorKickers</ProcessName>
+    <Path>C:\Users\Michael\Documents\KillHouseGames\DoorKickers</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>options.xml</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Dragon Age - Origins</Name>
+    <ProcessName>daorigins</ProcessName>
+    <Path>C:\Users\Michael\Documents\BioWare\Dragon Age\</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>Characters:Profile.dap</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Origin</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Dragon Age 2</Name>
+    <ProcessName>DragonAge2</ProcessName>
+    <Path>C:\Users\Michael\Documents\BioWare\Dragon Age 2\Characters</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Origin</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Dragon Age Inquisition</Name>
+    <ProcessName>DragonAgeInquisition</ProcessName>
+    <Path>C:\Users\Michael\Documents\BioWare\Dragon Age Inquisition\Save</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Origin</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Dust - An Elysian Tail</Name>
+    <ProcessName>DustAET</ProcessName>
+    <Path>C:\Users\Michael\Documents\SavedGames\DustAET\Save Files</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>Settings.sav</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Elminage Gothic</Name>
+    <ProcessName>Elminage</ProcessName>
+    <Path>C:\Users\Michael\Documents\My Games\Ghostlight Ltd\Elminage Gothic</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Euro Truck Simulator 2</Name>
+    <ProcessName>eurotrucks2</ProcessName>
+    <Path>C:\Users\Michael\Documents\Euro Truck Simulator 2\profiles</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Expeditions - Conquistador</Name>
+    <ProcessName>Expeditions Conquistador</ProcessName>
+    <Path>C:\Users\Michael\Documents\My Games\Expeditions Conquistador\Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>F.E.A.R. 2</Name>
+    <ProcessName>FEAR2</ProcessName>
+    <Path>C:\Users\Michael\Documents\WBGames\FEAR2</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>settings.cfg</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>F.E.A.R. Extraction Point</Name>
+    <ProcessName>FEARXP</ProcessName>
+    <Path>C:\Users\Public\Documents\TimeGate Studios\FEARXP</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>settings.cfg</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>F.E.A.R. First Encounter Assault Recon</Name>
+    <ProcessName>FEAR</ProcessName>
+    <Path>C:\Users\Public\Documents\Monolith Productions\FEAR</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>settings.cfg</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>F.E.A.R. Perseus Mandate</Name>
+    <ProcessName>FEARXP2</ProcessName>
+    <Path>C:\Users\Public\Documents\TimeGate Studios\FEARXP2</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>settings.cfg</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Fahrenheit - Indigo Prophecy</Name>
+    <ProcessName>Fahrenheit</ProcessName>
+    <Path>C:\Users\Michael\Documents\atari\Fahrenheit Profile</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Fallen Enchantress - Legendary Heroes</Name>
+    <ProcessName>LegendaryHeroes</ProcessName>
+    <Path>C:\Users\Michael\Documents\My Games\LegendaryHeroes</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>*.err:Prefs.ini</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Fallout 3</Name>
+    <ProcessName>Fallout3</ProcessName>
+    <Path>C:\Users\Michael\Documents\My Games\Fallout3\Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>*.bak:*.ini</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>FlatOut</Name>
+    <ProcessName>flatout</ProcessName>
+    <Path>Savegame</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>*.cfg</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>FlatOut 2</Name>
+    <ProcessName>FlatOut2</ProcessName>
+    <Path>Savegame</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>*.cfg</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Gangsters</Name>
+    <ProcessName>gangsters</ProcessName>
+    <Path>Saved Games</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Ghostbusters - The Video Game</Name>
+    <ProcessName>ghost_w32</ProcessName>
+    <Path>C:\Users\Michael\Documents\GHOSTBUSTERS (tm)</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Gothic 3</Name>
+    <ProcessName>Gothic3</ProcessName>
+    <Path>C:\Users\Michael\Documents\gothic3</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>*.ini</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Grand Theft Auto - San Andreas</Name>
+    <ProcessName>gta-sa</ProcessName>
+    <Path>C:\Users\Michael\Documents\GTA San Andreas User Files</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>Gallery:User Tracks</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Gray Matter</Name>
+    <ProcessName>Game</ProcessName>
+    <Path>C:\Users\Michael\Documents\GrayMatter</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Heroes of Might and Magic 3 Complete</Name>
+    <ProcessName>Heroes3</ProcessName>
+    <Path>games</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.CGM</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Hitman - Contracts</Name>
+    <ProcessName>HitmanContracts</ProcessName>
+    <Path>save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Hitman 2 Silent Assassin</Name>
+    <ProcessName>hitman2</ProcessName>
+    <Path>save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Hitman Codename 47</Name>
+    <ProcessName>hitman</ProcessName>
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>Hitman.sav</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Hotline Miami</Name>
+    <ProcessName>HotlineMiami_Original</ProcessName>
+    <Path>C:\Users\Michael\Documents\My Games\HotlineMiami</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>SaveData.sav</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Hotline Miami</Name>
+    <ProcessName>HotlineGL</ProcessName>
+    <Path>C:\Users\Michael\Documents\My Games\HotlineMiami</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>SaveData.sav</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>HuniePop</Name>
+    <ProcessName>HuniePop</ProcessName>
+    <Path>C:\Users\Michael\AppData\LocalLow\HuniePot\HuniePop</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Icewind Dale</Name>
+    <ProcessName>IDMain</ProcessName>
+    <Path>mpsave</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Icewind Dale Enhanced Edition</Name>
+    <ProcessName>icewind</ProcessName>
+    <Path>C:\Users\Michael\Documents\Icewind Dale - Enhanced Edition\save</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Indiana Jones and the Fate of Atlantis</Name>
+    <ProcessName>scummvm</ProcessName>
+    <Path>..\</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>atlantis.*</FileType>
+    <ExcludeList>*.0??:*.ini:*.exe:*.ico</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Inquisitor</Name>
+    <ProcessName>Inquisitor</ProcessName>
+    <Path>C:\Users\Michael\Documents\Inquisitor_SaveGames</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>*.ini</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Interstate '76</Name>
+    <ProcessName>i76</ProcessName>
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.def:input.map:histogram.txt:reconfig.spc:user.rpr:savegame.dir:save*.cmp:NSCR.DAT:user.mel</FileType>
+    <ExcludeList>input.def:gamekey.def</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Ironclad Tactics</Name>
+    <ProcessName>Game</ProcessName>
+    <Path>C:\Users\Michael\Documents\My Games\Ironclad Tactics\profile</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Kerbal Space Program</Name>
+    <ProcessName>KSP</ProcessName>
+    <Path>saves</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>scenarios:training</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Legend of Grimrock</Name>
+    <ProcessName>grimrock</ProcessName>
+    <Path>C:\Users\Michael\Documents\Almost Human\Legend of Grimrock</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Legend of Grimrock II</Name>
+    <ProcessName>grimrock2</ProcessName>
+    <Path>C:\Users\Michael\Documents\Almost Human\Legend of Grimrock 2</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Lords of Xulima</Name>
+    <ProcessName>LoX</ProcessName>
+    <Path>C:\Users\Michael\Documents\My Games\Lords of Xulima</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>*.txt</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Majesty HD</Name>
+    <ProcessName>MajestyHD</ProcessName>
+    <Path>C:\Users\Michael\Documents\My Games\MajestyHD</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>MajXPrefs</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Mark of the Ninja</Name>
+    <ProcessName>game</ProcessName>
+    <Path>..\users</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>*.ini</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Max Payne 3</Name>
+    <ProcessName>MaxPayne3</ProcessName>
+    <Path>C:\Users\Michael\Documents\Rockstar Games\Max Payne 3\Profiles</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Metro 2033 Redux</Name>
+    <ProcessName>metro</ProcessName>
+    <Path>C:\Users\Michael\Documents\4A Games\Metro 2033</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Metro Last Light Redux</Name>
+    <ProcessName>metro</ProcessName>
+    <Path>C:\Users\Michael\Documents\4A Games\Metro Last Light</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Mount and Blade - Warband</Name>
+    <ProcessName>mb_warband</ProcessName>
+    <Path>C:\Users\Michael\Documents\Mount&amp;Blade Warband Savegames</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Neverwinter Nights 2</Name>
+    <ProcessName>nwn2</ProcessName>
+    <Path>C:\Users\Michael\Documents\Neverwinter Nights 2\saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>No One Lives Forever 2</Name>
+    <ProcessName>Lithtech</ProcessName>
+    <Path>Save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Omerta - City of Gangsters</Name>
+    <ProcessName>Omerta</ProcessName>
+    <Path>C:\Users\Michael\AppData\Roaming\Omerta\save</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Omikron - The Nomad Soul</Name>
+    <ProcessName>Runtime</ProcessName>
+    <Path>IAM</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>GAMES</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>POD Gold</Name>
+    <ProcessName>PODX3Dfx</ProcessName>
+    <Path>data</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>BINARY:loader.exe</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Pillars of Eternity</Name>
+    <ProcessName>PillarsOfEternity</ProcessName>
+    <Path>C:\Users\Michael\Saved Games\Pillars of Eternity</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>2.0 Save Games Backup</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Populous - The Beginning</Name>
+    <ProcessName>D3DPopTB</ProcessName>
+    <Path>save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>CONFIG00.*</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Populous - The Beginning</Name>
+    <ProcessName>popTB</ProcessName>
+    <Path>save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>CONFIG00.*</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Populous - Undiscovered Worlds</Name>
+    <ProcessName>D3DPopTBUW</ProcessName>
+    <Path>save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>CONFIG00.*</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Populous - Undiscovered Worlds</Name>
+    <ProcessName>popTBUW</ProcessName>
+    <Path>save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>CONFIG00.*</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Prison Architect</Name>
+    <ProcessName>Prison Architect</ProcessName>
+    <Path>C:\Users\Michael\AppData\Local\Introversion\Prison Architect\saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Project Eden</Name>
+    <ProcessName>Eden</ProcessName>
+    <Path>saved games</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Realms of Chaos</Name>
+    <ProcessName>dosbox:ROC</ProcessName>
+    <Path>..\</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>ROC.S*</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Red Faction</Name>
+    <ProcessName>RF</ProcessName>
+    <Path>savegame</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Return to Castle Wolfenstein</Name>
+    <ProcessName>WolfSP</ProcessName>
+    <Path>main\save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Rise of the Triad</Name>
+    <ProcessName>dosbox:ROTT</ProcessName>
+    <Path>..\</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>ROTTGAM?.ROT</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Rogue Legacy</Name>
+    <ProcessName>RogueLegacy</ProcessName>
+    <Path>C:\Users\Michael\Documents\SavedGames\RogueLegacy</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>S.T.A.L.K.E.R. Shadow of Chernobyl</Name>
+    <ProcessName>XR_3DA</ProcessName>
+    <Path>C:\Users\Public\Documents\STALKER-SHOC\savedgames</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Satellite Reign</Name>
+    <ProcessName>SatelliteReignWindows</ProcessName>
+    <Path>C:\Users\Michael\AppData\Local\SatelliteReign\users</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Shadow Warrior 2013 (DX 11)</Name>
+    <ProcessName>sw.Win32</ProcessName>
+    <Path>C:\Users\Michael\Documents\Shadow Warrior DX11\profiles</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Shadow Warrior 2013 (DX 11)</Name>
+    <ProcessName>sw.x64</ProcessName>
+    <Path>C:\Users\Michael\Documents\Shadow Warrior DX11\profiles</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Shadow Warrior 2013 (DX 9)</Name>
+    <ProcessName>sw</ProcessName>
+    <Path>C:\Users\Michael\Documents\Shadow Warrior\profiles</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Shadowgate</Name>
+    <ProcessName>Shadowgate</ProcessName>
+    <Path>C:\Users\Michael\Documents\Zojoi\Shadowgate</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Shadowrun - Hong Kong</Name>
+    <ProcessName>SRHK</ProcessName>
+    <Path>C:\Users\Michael\AppData\Local\Harebrained Schemes\Shadowrun Hong Kong\Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Shadowrun Dragonfall - Director's Cut</Name>
+    <ProcessName>Dragonfall</ProcessName>
+    <Path>C:\Users\Michael\AppData\Local\Harebrained Schemes\Shadowrun Dragonfall\Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Shadowrun Returns</Name>
+    <ProcessName>Shadowrun</ProcessName>
+    <Path>C:\Users\Michael\AppData\Local\Harebrained Schemes\Shadowrun Returns\Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Shattered Haven</Name>
+    <ProcessName>ShatteredHaven</ProcessName>
+    <Path>runtimedata\save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Sid Meier's Alien Crossfire</Name>
+    <ProcessName>terranx</ProcessName>
+    <Path>saves</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Sid Meier's Alpha Centauri</Name>
+    <ProcessName>terran</ProcessName>
+    <Path>saves</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Sid Meier's Pirates!</Name>
+    <ProcessName>Pirates!</ProcessName>
+    <Path>C:\Users\Michael\Documents\My Games\Sid Meier's Pirates!</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>*.ini</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Silver</Name>
+    <ProcessName>silver</ProcessName>
+    <Path>savegame</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>SILVER.OPT</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Simcity 4 Deluxe</Name>
+    <ProcessName>SimCity 4</ProcessName>
+    <Path>C:\Users\Michael\Documents\SimCity 4\Regions</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>Berlin:Downloads:Fairview:London:New York:San Francisco:Timbuktu</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Sin Gold</Name>
+    <ProcessName>sin</ProcessName>
+    <Path>base\players</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Space Colony HD</Name>
+    <ProcessName>Space Colony</ProcessName>
+    <Path>C:\Users\Michael\Documents\Space Colony\users</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>SpaceChem</Name>
+    <ProcessName>SpaceChem</ProcessName>
+    <Path>C:\Users\Michael\AppData\Local\Zachtronics Industries\SpaceChem\save</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Star Wars - Battlefront 2</Name>
+    <ProcessName>BattlefrontII</ProcessName>
+    <Path>savegames</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Star Wars - Dark Forces</Name>
+    <ProcessName>dosbox:DARK</ProcessName>
+    <Path>..\</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>DARKPILO.CFG</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Star Wars - Dark Forces 2 Jedi Knight</Name>
+    <ProcessName>JK</ProcessName>
+    <Path>player</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Star Wars - Empire At War</Name>
+    <ProcessName>sweaw</ProcessName>
+    <Path>C:\Users\Michael\AppData\Roaming\Petroglyph\Empire At War\Save</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Star Wars - Galactic Battlegrounds</Name>
+    <ProcessName>battlegrounds_x1</ProcessName>
+    <Path>savegame</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Star Wars - Knights of the Old Republic</Name>
+    <ProcessName>swkotor</ProcessName>
+    <Path>saves</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Star Wars - Knights of the Old Republic 2</Name>
+    <ProcessName>swkotor2</ProcessName>
+    <Path>saves</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Star Wars Jedi Knight - Mysteries of the Sith</Name>
+    <ProcessName>JKM</ProcessName>
+    <Path>player</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Star Wars Jedi Knight II - Jedi Outcast</Name>
+    <ProcessName>jk2sp</ProcessName>
+    <Path>base\saves</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Starpoint Gemini II</Name>
+    <ProcessName>StarpointGemini2</ProcessName>
+    <Path>Saves</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>State of Decay - YOSE</Name>
+    <ProcessName>StateOfDecay</ProcessName>
+    <Path>user</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Stronghold HD</Name>
+    <ProcessName>Stronghold</ProcessName>
+    <Path>C:\Users\Michael\Documents\Stronghold\Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>System Shock - Enhanced Edition</Name>
+    <ProcessName>sshock</ProcessName>
+    <Path>res\data</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>currsave.dat:savgam??.dat</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Terraria</Name>
+    <ProcessName>Terraria</ProcessName>
+    <Path>C:\Users\Michael\Documents\My Games\Terraria</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>*.json:*.bak:*.dat</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>The Elder Scrolls - Arena</Name>
+    <ProcessName>dosbox:ACD</ProcessName>
+    <Path>..\</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.64:*.00:*.01:NAMES.DAT:VISION.EMS</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>The Elder Scrolls II - Daggerfall</Name>
+    <ProcessName>dosbox:FALL</ProcessName>
+    <Path>..\</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>SAVE?</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>The Elder Scrolls V - Skyrim</Name>
+    <ProcessName>TESV</ProcessName>
+    <Path>C:\Users\Michael\Documents\My Games\Skyrim\Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>The Settlers - Rise of an Empire</Name>
+    <ProcessName>Settlers6</ProcessName>
+    <Path>C:\Users\Michael\Documents\THE SETTLERS - Rise of an Empire</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>Config:Screenshots:Temp:UserMaps</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>The Ultimate DOOM</Name>
+    <ProcessName>dosbox:DOOM</ProcessName>
+    <Path>..\</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>DEFAULT.CFG:DOOMSAV?.DSG</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>The Witcher 2 Enhanced Edition</Name>
+    <ProcessName>witcher2</ProcessName>
+    <Path>C:\Users\Michael\Documents\Witcher 2\gamesaves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>The Witcher 3</Name>
+    <ProcessName>witcher3</ProcessName>
+    <Path>C:\Users\Michael\Documents\The Witcher 3\gamesaves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>The Witcher Enhanced Edition</Name>
+    <ProcessName>witcher</ProcessName>
+    <Path>C:\Users\Michael\Documents\The Witcher\saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Trine 2</Name>
+    <ProcessName>trine2_32bit</ProcessName>
+    <Path>C:\Users\Michael\AppData\Roaming\Trine2</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>*.txt</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Tropico 4</Name>
+    <ProcessName>Tropico4</ProcessName>
+    <Path>C:\Users\Michael\AppData\Roaming\Tropico 4</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>Logs:ShaderCache:*.bik:DeveloperStorage.lua</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Ultima IX - Ascension</Name>
+    <ProcessName>u9</ProcessName>
+    <Path>savegame</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Vampire - The Masquerade Bloodlines</Name>
+    <ProcessName>vampire</ProcessName>
+    <Path>Vampire\save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Retail</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Vampire - The Masquerade Bloodlines (Unofficial Patch)</Name>
+    <ProcessName>Vampire</ProcessName>
+    <Path>unofficial_patch\save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Retail</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Vampire - The Masquerade Redemption</Name>
+    <ProcessName>Vampire</ProcessName>
+    <Path>savegames</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Victor Vran</Name>
+    <ProcessName>VictorVran</ProcessName>
+    <Path>C:\Users\Michael\AppData\Roaming\Victor Vran</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>logs:DeveloperStorage.lua</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Wargame - European Escalation</Name>
+    <ProcessName>wargame</ProcessName>
+    <Path>C:\Users\Michael\Saved Games\EugenSystems\WarGame</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>*.ini</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Wasteland 2</Name>
+    <ProcessName>WL2</ProcessName>
+    <Path>C:\Users\Michael\Documents\My Games\Wasteland2\Save Games</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Wasteland 2 - Director's Cut</Name>
+    <ProcessName>WL2</ProcessName>
+    <Path>C:\Users\Michael\Documents\My Games\Wasteland2DC</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Wolfenstein 3D</Name>
+    <ProcessName>dosbox:WOLF3D</ProcessName>
+    <Path>..\</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>CONFIG.WL6:SAVEGAM?.WL6</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Xenonauts</Name>
+    <ProcessName>Xenonauts</ProcessName>
+    <Path>C:\Users\Michael\Documents\Xenonauts</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+</gbm>
