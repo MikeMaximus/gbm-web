@@ -24,15 +24,15 @@
 	<div id="content">
 
 	<div id="leftcontent">
-	    	<div id="pageSection"><div id="pageSectionHeader">Game Backup Monitor v0.93 Manual</div>
+	    	<div id="pageSection"><div id="pageSectionHeader">Game Backup Monitor v0.94 Manual</div>
 				<div id="pageSectionContent">
-					<h3>Updated September 11, 2015</h3>
+					<h3>Updated November 15, 2015</h3>
 
 					<h3>Disclaimer:</h3>
+                    
+                    <p>This manual may contain information about features not available in the current stable release.</p>
 
 					<p>This is beta release software. You may encounter bugs.</p>
-
-                    <p>This manual may contain information about features not available in the current stable release.</p>
 
 					<p>If you are having a specific problem, please check the <a href="https://github.com/MikeMaximus/gbm/issues">issues</a> list.
 
@@ -56,10 +56,10 @@
 	 		</div>
 
 	    	<div id="pageSection"><div id="pageSectionHeader"><a name="whatis">What is Game Backup Monitor?</a></div>
-				<div id="pageSectionContent">
-					<p>Game Backup Monitor is a Windows system tray application that automatically detects games as you play them. When you're finished playing, a compressed backup of the save data will be automatically created in a location you've specified, such as a cloud folder, network folder or external drive.</p>
-					<p>If you use Game Backup Monitor on multiple computers and share the same backup folder, you can effectively add cloud save support to any game or application.  GBM can notify you of new save games to be restored when you move to each computer.</p>
-					<p>Game Backup Monitor was designed with classic DRM-free gaming in mind,  but it can be used to monitor any application on your PC!</p>
+				<div id="pageSectionContent">                                        
+                    <img class="manual" src="images/manual/manual_01.jpg" width="536" height="223" alt="Detection" /><br />
+                    <p>Game Backup Monitor is a simple, but flexible application that detects games as you play them. Once you finish playing a game, a backup of the saved games will be made automatically using 7-Zip compression.  GBM can be used on a single computer, or on multiple computers to effectively add cloud support to any Windows game or application.</p>                    
+                    <p>Game Backup Monitor was designed with classic DRM-free gaming in mind,  but it can be used to monitor any application on your PC!</p>
 					<h3>Game Backup Monitor is completely free and open source software.</h3>
 					<h4>Game Backup Monitor is currently only available in English.</h4>
 			  	</div>
@@ -88,6 +88,8 @@
 				<div id="pageSectionContent">
 					<p>When the Start-up Wizard appears read the instructions and follow along.</p>
 
+                    <img class="manual" src="images/manual/manual_02.jpg" width="361" height="264" alt="Wizard" /><br />
+                    
 					<p>You'll need to set a backup folder in which GBM will store all game backups, as well as single data file (gbm.s3db) for tracking and syncing.</p>
 
 					<p>If you're planning to use GBM to sync save games between multiple computers this can be set to a cloud folder, network folder, or even a folder on a thumb drive.  All computers you're planning to use should be set to this folder in the wizard.</p>
@@ -106,49 +108,57 @@
 								<p>The main GBM window is mostly for information display, but has some important functions.</p>
 								<p>The core portion of the window displays information about any game that has been detected, or information about a backup or restore operation currently being performed.</p>
 								<p>You can view a detailed log of all the actions GBM has performed in the current session by clicking "Show Log".</p>
-								<p>The status bar shows what GBM is currently doing, as well as the monitor status.</p>
-								<p>The monitor status button can be used to control starting, stopping and cancelling game detection.  This can also be accomplished with the File menu and system tray menu.</p>
+								<img class="manual" src="images/manual/manual_03.jpg" width="536" height="408" alt="Main Screen" /><br />
+                                <p>The status bar shows what GBM is currently doing, as well as the monitor status.</p>
+								<p>The monitor status button on the right can be used to control starting, stopping and cancelling game detection.  This can also be accomplished with the File menu and system tray menu.</p>
+                                <p>The button on the left of the status bar indicates if GBM is running in normal mode or as Administrator.  GBM can handle most situations running with normal mode, clicking this button lets you switch to Administrator quickly when it's required.</p>
 								<p>A "Cancel" button will appear on the main window during backup & restore operations, clicking this will attempt to cancel the current operation.  Please note that clicking Cancel may not have an immediate response, it can take some time before the operation reaches a point where it will be terminated.</p>
-								<p>The "Cancel" button does NOT undo the operation, cancelling an operation will result in an unusable backup file or a corrupted save game when cancelling a restore operation.  The "Cancel" button is intended for emergencies only, such as an incorrect configuration causing a lengthy backup of the wrong folder.</p>
+                                <img class="manual" src="images/manual/manual_04.jpg" width="536" height="223" alt="Main Screen" /><br />
+								<p>The "Cancel" button does NOT undo the operation, cancelling an operation may result in an unusable backup file or a corrupted save game.  The "Cancel" button is intended for emergencies only, such as an incorrect configuration causing a lengthy backup of the wrong folder.</p>
 							</div>
 							<div id="pageSectionFooter"><a href="#toc">Back to Contents</a></div>
 	 		</div>
 
-	 		<div id="pageSection"><div id="pageSectionHeader"><a name="othertips">Other Interface Tips</a></div>
-										<div id="pageSectionContent">
-										<ul>
-											<li>GBM may need to search your hard drive for the location of a game.  If you know the game isn't on the drive GBM is currently searching just click "Cancel" and GBM will move onto the next drive.</li>
-										</ul>
-										<ul>
-											<li>When viewing "Backups Only" in the Game Manager you may come across a game you thought you deleted from the game list.  This happens when backup data still exists for that game, simply click "Delete Backup" from the backup panel and the game will disappear entirely from GBM.</li>
-										</ul>
-										</div>
-										<div id="pageSectionFooter"><a href="#toc">Back to Contents</a></div>
+	 		<div id="pageSection"><div id="pageSectionHeader"><a name="othertips">Interface Quick Tips</a></div>
+				            <div id="pageSectionContent">
+								<ul>
+								    <li>GBM may need to search your hard drive for the location of a game.  If you know the game isn't on the drive GBM is currently searching just click "Cancel" and GBM will move onto the next drive.</li>
+								</ul>
+                                <img class="manual" src="images/manual/manual_05.jpg" width="486" height="104" alt="Search" />
+								<ul>
+								    <li>When viewing "Backups Only" in the Game Manager you may come across a game you thought you deleted from the game list.  This happens when backup data still exists for that game, simply click "Delete Backup" from the backup panel and the game will disappear entirely from GBM.</li>
+								</ul>
+				            </div>
+				            <div id="pageSectionFooter"><a href="#toc">Back to Contents</a></div>
 	 		</div>
 
 	 		<div id="pageSection"><div id="pageSectionHeader"><a name="gamemanager">The Game Manager</a></div>
-				<div id="pageSectionContent">
-					<h3>Game Manager Functions:</h3>
-
+				<div id="pageSectionContent">					
+                    <img class="manual" src="images/manual/manual_06.jpg" width="786" height="588" alt="Game Manager" />
+                    <h3>Game Manager Quick Overview:</h3>
 					<ul>
 						<li>Add a new game to monitor by clicking the "+" (plus) button below the list box.</li>
 						<li>Delete a game by selecting the game(s) from the list and clicking the the "-" (minus) button below the list box.</li>
 						<li>Show all games by clicking the "All" option above the list box.</li>
 						<li>Show only games with backup data by clicking the "Backups Only" option above the list box.</li>
 						<li>Show only games with new save data to restore by clicking the "Pending Restore" option above the list box.</li>
+                        <li>Show only games with specific Tags by clicking the "Tags" option above the list box.</li>
+                        <li>You can edit the Tags for one or more games but selecting them and clicking the "Tags..." button.</li>
 						<li>Restore an existing backup for a game by selecting the game(s) from the list and clicking the "Restore" button.</li>
 						<li>You can mark a game as restored without restoring the data by selecting the game(s) from the list and clicking the "Mark as Restored" button.</li>
 						<li>You can backup immediately without playing a game by selecting the game(s) from the list and click the "Backup" button.</li>
-						<li>You can delete a backup for a game by selecting the game from the list and clicking the "Delete Backup" button.</li>
-						<li>You can locate the backup file for a game by selecting the game and clicking the "Open in Explorer" button.</li>
+						<li>You can delete a backup by selecting the game from the list and clicking the "Delete Backup" button.</li>
+						<li>You can locate the backup file by selecting the game and clicking the "Open in Explorer" button.</li>
+                        <li>You can view the restore location of the backup file by selecting the game and clicking the "Open Restore Path" button.</li>
 					</ul>
 
 					<p>The Game Manager is a central hub for all important GBM functions.  However, i'd highly recommend the "Add Game Wizard" to add new games to monitor until you become familiar with GBM.</p>
 
+                    <img class="manual" src="images/manual/manual_07.jpg" width="536" height="223" alt="Wizard" />
+                    
+					<h3>Game Manager Detailed Overview:</h3>
 
-					<h3>Game Configuration</h3>
-
-					<p>The following is advanced detail on each field used to setup a game to monitor.</p>
+					<p>The following is advanced information on each field used to configure a game.</p>
 
 					<h4>Name:</h4>
 
@@ -186,7 +196,7 @@
 
                     <h4>Time Stamp:</h4>
 
-					<p>This indicates if you want GBM to attach a time stamp to your backup files. This allows you to have incremental backups for that application.</p>
+					<p>This indicates if you want GBM to attach a time stamp to your backup files. This allows you to have incremental backups for that game.</p>
 
 					<h4>Include:</h4>
 
@@ -196,7 +206,7 @@
 
 					<p>Example: *.00:*.01</p>
 
-                    <p>Note:  Prior to v0.93 this field is named File Type and only one entry is allowed.</p>
+                    <p>Note:  Prior to v0.93 this field was "File Type" and only one entry was allowed.</p>
 
 					<h4>Exclude:</h4>
 
@@ -233,6 +243,18 @@
 
 					<p>You can manually set a icon to be displayed when the game is detected.  This takes priority over the icon used by the game's executable.</p>
 
+                    <h3>Tags</h3>
+                                        
+                    <p>You can use Tags to organize your game list.  You can manage the tags you want to use from the Setup menu or inside the Game Manager.</p>
+                    
+                    <p>Tags allow you to filter the games you want to view in the Game Manager or the configurations you may want to Export to an XML file.</p>
+                    
+                    <img class="manual" src="images/manual/manual_08.jpg" width="386" height="287" alt="Tags" /><br />
+                    
+                    <p>Simply select the tags and use the appropriate buttons to add or remove them.</p>
+                    
+                    <p>Please note that when you're modifying tags for multiple games, the "Current Tags" list shows every tags used by each game you have selected, this doesn't mean those tags are already applied to every game selected.  If you'd like to apply a tag to each selected game and it's already used, simply remove it then re-add it.</p>
+                    
 					<h3>Monitor Settings</h3>
 
 					<h4>Monitor this Game:</h4>
@@ -265,6 +287,8 @@
 				<div id="pageSectionContent">
 					<p>This screen allows you add an unlimited number of custom path variables to use in the configuration of your games.</p>
 
+                    <img class="manual" src="images/manual/manual_09.jpg" width="586" height="288" alt="Tags" /><br />
+                    
 					<p>Some applications and games store save files in common locations that can be slightly different on each computer, this feature allows you account for that and share configurations between any computer.</p>
 
 					<p>For example, games designed for Valve's Steam service can use the Steam "userdata" folder as a common save location.</p>
@@ -292,6 +316,8 @@
 
 					<p>"Tools -> Game List -> Export Game List" is used to create an XML copy of your game list. This would be mainly used as a backup method or for sharing configurations with your friends.</p>
 
+                    <img class="manual" src="images/manual/manual_10.jpg" width="536" height="223" alt="Tools" /><br />
+                    
 					<p>"Tools -> Sync Manifests" is used to clean up the local manifest of any backup information that is no longer relevant, based on the information in the current backup folder. When backup data is deleted from one computer, other computers using GBM may still be storing data about the deleted backup that is no longer useful. The only time this tool shouldn't be used is if you are alternating between backup folders, such as using a cloud folder for small backups and external drive for large backups.</p>
 
 					<p>"Tools -> Compact Databases" is used to rebuild GBM's databases to use an optimal amount of disk space. It should only be used when databases are reaching a noticably large size.</p>
@@ -321,16 +347,14 @@
 
 			<div id="pageSection"><div id="pageSectionHeader"><a name="limitations">Current Limitations</a></div>
 				<div id="pageSectionContent">
-						<p>Only one game can be detected at a time and most GBM features are locked until that game is closed.</p>
-                        <p>Read the <a href="knownissues.php">Known Issues</a> section for other possible limitations.</p>
+						<p>Only one game can be detected at a time and most GBM features are locked until that game is closed.</p>                       
 				</div>
 				<div id="pageSectionFooter"><a href="#toc">Back to Contents</a></div>
 	 		</div>
 
 			<div id="pageSection"><div id="pageSectionHeader"><a name="techdetails">Technical Details</a></div>
 				<div id="pageSectionContent">
-						<p>All configuration data for this application is located in \Users\*Your User Name*\AppData\Local\gbm as well as a remote data file (gbm.s3db) being stored in the backup folder.</p>
-
+						<p>All configuration data for this application is located in \Users\*Your User Name*\AppData\Local\gbm as well as a remote data file (gbm.s3db) being stored in the backup folder.</p>                        
 						<p>GBM must use it's own packaged copy of 7za.exe (7-zip).  This may change in a future release.</p>
 				</div>
 				<div id="pageSectionFooter"><a href="#toc">Back to Contents</a></div>
