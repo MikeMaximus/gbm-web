@@ -75,8 +75,8 @@
 				    <table border="0">
 					<tr><td><b>Process Name:</b></td><td><xsl:value-of select="ProcessName" /></td></tr>
 					<tr><td><b>Save Location:</b></td><td><xsl:value-of select="Path" /></td></tr>
-					<tr><td><b>Absolute Path:</b></td><td><xsl:if test="AbsolutePath = 'True'">Yes</xsl:if><xsl:if test="AbsolutePath = 'False'">No</xsl:if></td></tr>
-					<tr><td><b>Save Entire Folder:</b></td><td><xsl:if test="FolderSave = 'True'">Yes</xsl:if><xsl:if test="FolderSave = 'False'">No</xsl:if></td></tr>
+					<tr><td><b>Absolute Path:</b></td><td><xsl:if test="AbsolutePath = 'true'">Yes</xsl:if><xsl:if test="AbsolutePath = 'false'">No</xsl:if></td></tr>
+					<tr><td><b>Save Entire Folder:</b></td><td><xsl:if test="FolderSave = 'true'">Yes</xsl:if><xsl:if test="FolderSave = 'false'">No</xsl:if></td></tr>
 					<tr><td><b>Include Files:</b></td><td><xsl:if test="FileType = ''">None</xsl:if><xsl:value-of select="FileType" /></td></tr>
 					<tr><td><b>Exclude Files:</b></td><td><xsl:if test="ExcludeList = ''">None</xsl:if><xsl:value-of select="ExcludeList" /></td></tr>
                     <tr><td><b>Tags:</b></td><td>
