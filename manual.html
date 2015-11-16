@@ -26,7 +26,7 @@
 	<div id="leftcontent">
 	    	<div id="pageSection"><div id="pageSectionHeader">Game Backup Monitor v0.94 Manual</div>
 				<div id="pageSectionContent">
-					<h3>Updated November 15, 2015</h3>
+					<h3>Updated November 16, 2015</h3>
 
 					<h3>Disclaimer:</h3>
                     
@@ -47,6 +47,7 @@
 						<li><a href="#gamemanager">The Game Manager</a></li>
 						<li><a href="#customvariables">Custom Path Variables</a></li>
 						<li><a href="#tools">Tools & Features</a></li>
+                        <li><a href="#filtering">Filtering with Tags</a></li>
 						<li><a href="#syncing">Automatic Syncing (Game List)</a></li>
 						<li><a href="#limitations">Current Limitations</a></li>
 						<li><a href="#techdetails">Technical Details</a></li>
@@ -247,12 +248,12 @@
                     
                     <p>Tags allow you to filter the games you want to view in the Game Manager or the configurations you may want to Export to an XML file.</p>
                     
-                    <img class="manual" src="images/manual/manual_08.jpg" width="386" height="287" alt="Tags" /><br />
+                    <img class="manual" src="images/manual/manual_08.jpg" width="386" height="287" alt="Tags" /><br />                    
                     
-                    <p>Simply select the tags and use the appropriate buttons to add or remove them.</p>
+                    <p>Select the tags and use the appropriate buttons to add or remove them.</p>
                     
                     <p>Please note that when you're modifying tags for multiple games, the "Current Tags" list shows every tags used by each game you have selected, this doesn't mean those tags are already applied to every game selected.  If you'd like to apply a tag to each selected game and it's already used, simply remove it then re-add it.</p>
-                    
+                                                                                
 					<h3>Monitor Settings</h3>
 
 					<h4>Monitor this Game:</h4>
@@ -312,7 +313,7 @@
 
 					<p>"Tools -> Game List -> Import Game List" is used to add entries to your game list from an exported XML file.  Games that already exist in the Game Manager will not be listed to import.</p>
 
-					<p>"Tools -> Game List -> Export Game List" is used to create an XML copy of your game list. This would be mainly used as a backup method or for sharing configurations with your friends.</p>
+					<p>"Tools -> Game List -> Export Game List" is used to create an XML copy of your game list, you can filter this list by Tag. Exports would be mainly used as a backup method or for sharing configurations with your friends.</p>
 
                     <img class="manual" src="images/manual/manual_10.jpg" width="536" height="223" alt="Tools" /><br />
                     
@@ -323,6 +324,26 @@
 				<div id="pageSectionFooter"><a href="#toc">Back to Contents</a></div>
 	 		</div>
 
+			<div id="pageSection"><div id="pageSectionHeader"><a name="filtering">Filtering with Tags</a></div>
+				<div id="pageSectionContent">
+					<p>When using the Game Manager or exporting your game list to an XML file, you'll have the option to filter the game list by tag.</p>
+
+                    <img class="manual" src="images/manual/manual_11.jpg" width="386" height="288" alt="Filter" /><br />
+                    
+                    <ul>
+					   <li>If you don't want to filter the list at all, simply click OK and you'll receive the full game list.</li>
+                       <li>Choose the Tags you want to filter by and use the appropriate buttons to add or remove them.</li>
+                       <li>Currently, there are two Matching Options when filtering by tag:
+                           <ul>
+                               <li>Any Tag - This will include games using ANY of the tags you chosen to filter by.</li>
+                               <li>All Tags - This will only include games using ALL of the tags you have chosen to filter by.</li>
+                           </ul>
+                       </li>
+                    </ul>                    
+				</div>
+				<div id="pageSectionFooter"><a href="#toc">Back to Contents</a></div>
+	 		</div>        
+        
 			<div id="pageSection"><div id="pageSectionHeader"><a name="syncing">Automatic Syncing (Game List)</a></div>
 				<div id="pageSectionContent">
 					<p>GBM has an optional feature that will sync all applicable game list data between computers that share the same backup folder.</p>
