@@ -109,8 +109,9 @@
 								<p>You can view a detailed log of all the actions GBM has performed in the current session by clicking "Show Log".</p>
 								<img class="manual" src="images/manual/manual_03.jpg" width="536" height="408" alt="Main Screen" /><br />
                                 <p>The status bar shows what GBM is currently doing, as well as the monitor status.</p>
-								<p>The monitor status button on the right can be used to control starting, stopping and cancelling game detection.  This can also be accomplished with the File menu and system tray menu.</p>
-                                <p>The button on the left of the status bar indicates if GBM is running in normal mode or as Administrator.  GBM can handle most situations running with normal mode, clicking this button lets you switch to Administrator quickly when it's required.</p>
+								<p>The monitor status button on the right can be used to control starting, stopping and cancelling game detection.  This can also be accomplished with the File menu and system tray menu.</p>                                
+                                <p>The button on the left of the status bar indicates if GBM is running in normal mode (Blue User Icon) or as Administrator (Shield Icon).  GBM can handle most situations running with normal mode, clicking this button lets you switch to Administrator quickly when it's required.</p>
+                                <img class="manual" src="images/manual/manual_12.jpg" width="536" height="256" alt="Main Screen" /><br />
 								<p>A "Cancel" button will appear on the main window during backup & restore operations, clicking this will attempt to cancel the current operation.  Please note that clicking Cancel may not have an immediate response, it can take some time before the operation reaches a point where it will be terminated.</p>
                                 <img class="manual" src="images/manual/manual_04.jpg" width="536" height="223" alt="Main Screen" /><br />
 								<p>The "Cancel" button does NOT undo the operation, cancelling an operation may result in an unusable backup file or a corrupted save game.  The "Cancel" button is intended for emergencies only, such as an incorrect configuration causing a lengthy backup of the wrong folder.</p>
@@ -244,7 +245,9 @@
 
                     <h3>Tags</h3>
                                         
-                    <p>You can use Tags to organize your game list.  You can manage the tags you want to use from the Setup menu or inside the Game Manager.</p>
+                    <p>You can use Tags to organize your game list.  You can manage (Create, Edit or Delete) any Tags you want to use from the Setup menu or inside the Game Manager.</p>
+                    
+                    <img class="manual" src="images/manual/manual_13.jpg" width="586" height="288" alt="Tags" /><br />
                     
                     <p>Tags allow you to filter the games you want to view in the Game Manager or the configurations you may want to Export to an XML file.</p>
                     
@@ -252,7 +255,8 @@
                     
                     <p>Select the tags and use the appropriate buttons to add or remove them.</p>
                     
-                    <p>Please note that when you're modifying tags for multiple games, the "Current Tags" list shows every tag used by each game you have selected, this doesn't mean those tags are already applied to every game selected.  If you'd like to apply a tag to each selected game and it's already used, simply remove it then re-add it.</p>
+                    <h4>Important notice regarding tagging multiple games:</h4>  
+                    <p>When you're modifying tags for multiple games, the "Current Tags" list shows every tag used by each game you have selected, this doesn't mean those tags are already applied to every game selected.  If you'd like to apply a tag to each selected game and it's already used, simply remove it then re-add it.</p>
                     
 					<h3>Monitor Settings</h3>
 
@@ -333,10 +337,12 @@
                     <ul>
 					   <li>If you don't want to filter the list at all, simply click OK and you'll receive the full game list.</li>
                        <li>Choose the Tags you want to filter by and use the appropriate buttons to add or remove them.</li>
-                       <li>Currently, there are two Matching Options when filtering by tag:
+                       <li>There are different Matching Options available when filtering by tag:
                            <ul>
-                               <li>Any Tag - This will only include games using ANY of the tags you have chosen to filter by.</li>
-                               <li>All Tags - This will only include games using ALL of the tags you have chosen to filter by.</li>
+                               <li>Any Tag - This will include games using ANY of the tags you have chosen to filter by.
+                                   <ul><li>Example: You have two games tagged as #Official, one game is also tagged as #GOG and the other is also tagged as #Steam.  If you filter by "Any Tag" and choose #Official and #GOG, both games will be included since both included #Official.</li></ul></li>
+                               <li>All Tags - This will only include games using ALL of the tags you have chosen to filter by.
+                                   <ul><li>Example:  Using the same example games above, if you filter by "All Tags" and choose #Official and #GOG only one game will be shown, since only one game included both the #Official and #GOG tag.</li></ul></li>
                            </ul>
                        </li>
                     </ul>                    
