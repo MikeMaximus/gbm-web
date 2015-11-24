@@ -61,7 +61,7 @@
 				}
                 </style>
 				
-                <h3>Updated: November 14, 2015</h3>
+                <h3>Updated: November 24, 2015</h3>
                 <h4>The tags indicate the version of the game that was tested with GBM.</h4>
                 <script type="text/javascript" language="javascript">
                     var iCount=0;
