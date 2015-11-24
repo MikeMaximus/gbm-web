@@ -1,5 +1,4 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
 <gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Game>
     <Name>AI War Fleet Command</Name>
@@ -8,7 +7,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -25,7 +24,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -42,7 +41,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -59,7 +58,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -76,7 +75,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -93,7 +92,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -110,7 +109,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -127,7 +126,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>progression.dat</FileType>
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -144,7 +143,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -161,7 +160,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -178,7 +177,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -195,7 +194,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -212,7 +211,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -229,7 +228,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -246,7 +245,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -263,7 +262,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -280,7 +279,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -297,7 +296,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -314,7 +313,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -331,7 +330,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -348,7 +347,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -365,7 +364,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -382,7 +381,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>*.bwe</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -399,7 +398,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -416,7 +415,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -433,7 +432,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -450,7 +449,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -467,7 +466,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -484,7 +483,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -501,7 +500,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -518,7 +517,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -535,7 +534,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -552,7 +551,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -569,7 +568,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -586,7 +585,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -603,13 +602,13 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>Options</ExcludeList>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Retail</Name>
       </Tag>
       <Tag>
-        <Name>Retail</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -620,7 +619,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -637,7 +636,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -654,7 +653,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*</FileType>
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -671,7 +670,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*</FileType>
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -688,7 +687,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*</FileType>
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -705,7 +704,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>*.log:*.ini</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -722,7 +721,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -739,7 +738,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -756,7 +755,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.SAV</FileType>
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -773,7 +772,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>*.CFG</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -790,7 +789,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -807,13 +806,13 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Retail</Name>
       </Tag>
       <Tag>
-        <Name>Retail</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -824,7 +823,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.?E2</FileType>
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -841,7 +840,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -858,7 +857,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -875,7 +874,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -892,7 +891,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>True</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -909,7 +908,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>True</ExcludeList>
+    <ExcludeList>*.xml</ExcludeList>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -926,7 +925,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>crash_reports:prefs.cs:console.log</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -943,7 +942,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>prefs.ini:mod_status.ini:config.txt:debug:screenshots:steamfriends:webdebug</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -960,7 +959,24 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Din's Curse</Name>
+    <ProcessName>DinsCurse</ProcessName>
+    <Path>*appdatalocal*\DinsCurse\User\chars</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -977,7 +993,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -994,7 +1010,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>True</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1011,7 +1027,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1028,7 +1044,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>options.xml</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1045,13 +1061,13 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>Characters:Profile.dap</FileType>
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Origin</Name>
       </Tag>
       <Tag>
-        <Name>Origin</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1062,13 +1078,13 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Origin</Name>
       </Tag>
       <Tag>
-        <Name>Origin</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1079,13 +1095,13 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Origin</Name>
       </Tag>
       <Tag>
-        <Name>Origin</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1096,7 +1112,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>Settings.sav</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1113,7 +1129,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1130,7 +1146,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1147,7 +1163,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1164,7 +1180,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>settings.cfg</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1181,7 +1197,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>settings.cfg</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1198,7 +1214,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>settings.cfg</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1215,7 +1231,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>settings.cfg</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1232,7 +1248,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1249,7 +1265,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>*.err:Prefs.ini</ExcludeList>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1266,7 +1282,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>*.bak:*.ini</ExcludeList>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1283,7 +1299,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>*.cfg</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1300,7 +1316,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>*.cfg</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1317,7 +1333,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1334,7 +1350,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1351,7 +1367,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>*.ini</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1368,7 +1384,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>Gallery:User Tracks</ExcludeList>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1385,7 +1401,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1402,7 +1418,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.CGM</FileType>
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1419,7 +1435,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1436,7 +1452,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1453,7 +1469,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>Hitman.sav</FileType>
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1470,7 +1486,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>SaveData.sav</FileType>
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1487,7 +1503,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>SaveData.sav</FileType>
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1504,7 +1520,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1521,7 +1537,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1538,7 +1554,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1555,7 +1571,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>atlantis.*</FileType>
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>*.0??:*.ini:*.exe:*.ico</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1572,7 +1588,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>*.ini</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1589,7 +1605,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.def:input.map:histogram.txt:reconfig.spc:user.rpr:savegame.dir:save*.cmp:NSCR.DAT:user.mel</FileType>
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>input.def:gamekey.def</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1606,7 +1622,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1623,7 +1639,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1640,7 +1656,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>scenarios:training</ExcludeList>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1657,7 +1673,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1674,7 +1690,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1691,7 +1707,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>*.txt</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1708,7 +1724,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>MajXPrefs</ExcludeList>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1725,7 +1741,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>*.ini</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1742,7 +1758,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*</FileType>
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1756,7 +1772,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1773,7 +1789,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1790,7 +1806,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1804,7 +1820,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1821,7 +1837,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1835,7 +1851,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1852,7 +1868,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>GAMES</FileType>
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1869,7 +1885,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>BINARY:loader.exe</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1886,7 +1902,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>2.0 Save Games Backup</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1903,7 +1919,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>CONFIG00.*</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1920,7 +1936,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>CONFIG00.*</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1937,7 +1953,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>CONFIG00.*</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1954,7 +1970,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>CONFIG00.*</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1971,7 +1987,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1988,7 +2004,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2005,7 +2021,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>ROC.S*</FileType>
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2022,7 +2038,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2039,7 +2055,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2056,7 +2072,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>ROTTGAM?.ROT</FileType>
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2073,7 +2089,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2090,7 +2106,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2107,7 +2123,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2124,7 +2140,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2141,7 +2157,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2158,7 +2174,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2175,7 +2191,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*</FileType>
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2192,7 +2208,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2209,7 +2225,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2226,7 +2242,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2243,7 +2259,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2260,7 +2276,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2277,7 +2293,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2294,7 +2310,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>*.ini</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2311,7 +2327,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>SILVER.OPT</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2328,7 +2344,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>Berlin:Downloads:Fairview:London:New York:San Francisco:Timbuktu</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2345,7 +2361,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2362,7 +2378,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2379,7 +2395,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2396,7 +2412,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2413,7 +2429,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2430,7 +2446,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>DARKPILO.CFG</FileType>
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2447,7 +2463,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2464,7 +2480,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2481,7 +2497,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2498,7 +2514,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2515,7 +2531,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2532,7 +2548,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2549,7 +2565,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2566,7 +2582,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2583,7 +2599,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>True</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2600,7 +2616,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2617,7 +2633,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>currsave.dat:savgam??.dat</FileType>
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2634,7 +2650,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>*.json:*.bak:*.dat</ExcludeList>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2651,7 +2667,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.64:*.00:*.01:NAMES.DAT:VISION.EMS</FileType>
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2668,7 +2684,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>SAVE?</FileType>
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2685,7 +2701,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2702,7 +2718,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>Config:Screenshots:Temp:UserMaps</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2719,7 +2735,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>DEFAULT.CFG:DOOMSAV?.DSG</FileType>
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2736,7 +2752,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>True</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2753,7 +2769,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2770,7 +2786,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2787,7 +2803,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>*.txt</ExcludeList>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2804,7 +2820,24 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>Logs:ShaderCache:*.bik:DeveloperStorage.lua</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Tropico 5</Name>
+    <ProcessName>Tropico5</ProcessName>
+    <Path>*appdataroaming*\Tropico 5</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>logs:DeveloperStorage.lua</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2821,13 +2854,13 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Retail</Name>
       </Tag>
       <Tag>
-        <Name>Retail</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2838,13 +2871,13 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Retail</Name>
       </Tag>
       <Tag>
-        <Name>Retail</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2855,13 +2888,13 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Retail</Name>
       </Tag>
       <Tag>
-        <Name>Retail</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2872,7 +2905,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2889,7 +2922,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>logs:DeveloperStorage.lua</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2906,7 +2939,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList>*.ini</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2923,7 +2956,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2940,7 +2973,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2957,7 +2990,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>CONFIG.WL6:SAVEGAM?.WL6</FileType>
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2974,7 +3007,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2991,7 +3024,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>False</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
