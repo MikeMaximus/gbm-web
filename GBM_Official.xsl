@@ -63,6 +63,7 @@
 				
                 <h3>Updated: November 24, 2015</h3>
                 <h4>The tags indicate the version of the game that was tested with GBM.</h4>
+                <h4>Official backup configurations exclude graphics settings, logs, screenshots and other extras when possible.</h4>
                 <script type="text/javascript" language="javascript">
                     var iCount=0;
                     var dVar;
