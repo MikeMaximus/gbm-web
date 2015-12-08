@@ -35,6 +35,7 @@
                <div id="pageSectionContent">
 			<h3>Important News</h3>
 			<ul>
+                <li>v0.95 stable is scheduled for release on January 1, 2016.  A feature complete pre-release may be available as early as December 15th.  You can <a href="#comingsoon">read about v0.95</a> below.</li>
 				<li><a href="https://github.com/MikeMaximus/gbm/releases/tag/v0.94-beta">v0.94</a> stable is now available!</li>
 				<li>GBM has a new home on <a href="https://github.com/MikeMaximus/gbm">GitHub</a>, the latest packages will no longer be available on Sourceforge.</li>
                 <li>The <a href="manual.html">manual</a> has been updated for v0.94 features.</li>
@@ -45,19 +46,21 @@
 				<li>The <a href="GBM_Official.xml">official game list</a> can now be viewed from the web site again.</li>
 				<li>Do not download GBM from anywhere other than GitHub or legacy releases from <a href="https://sourceforge.net/projects/backupmonitor/">Sourceforge</a>.</li>
             </ul>
-            <h3>Updated December 4, 2015</h3>
+            <h3>Updated December 8, 2015</h3>
         </div>
 		</div>
-        <div id="pageSection"><div id="pageSectionHeader">Coming Soon</div>
+        <div id="pageSection"><div id="pageSectionHeader"><a name="comingsoon">Coming Soon</a></div>
 	   		<div id="pageSectionContent">
             <p>The next version (v0.95) is under development.</p>
 	   		<h3>New in 0.95</h3>
                         <ul>
-                            <li><a href="https://github.com/MikeMaximus/gbm/issues?q=milestone%3Av0.95+is%3Aclosed">Bug Fixes</a></li>
+                            <li><a href="https://github.com/MikeMaximus/gbm/issues?q=label%3Abug+is%3Aclosed+milestone%3Av0.95">Bug Fixes</a></li>
+                            <li>The "Check for new backups" feature has been renamed and redesigned.  Instead of an annoying pop-up, it now shows a simple notification in the main menu or tray menu.</li>
+                            <li>Added the ability to trigger backups only after a certain session time has elapsed (Global Setting), this setting will be disabled by default.</li>
                             <li>You can now cancel out of the "Choose Game" window when GBM detects multiple games may be running.</li>                            
-                            <li>Many minor UI improvements and fixes with tag filtering, such as the ability to filter by games with no tags.</li>
-                            <li>Updated the "Add Game Wizard" to use the new include / exclude and tagging features .</li>
-                            <li>Added the ability to trigger backups only after a certain session time has elapsed (Global Setting)</li>
+                            <li>Many UI improvements and fixes with filtering, such as the ability to filter by games with no tags.</li>
+                            <li>Added ability to filter by game name or process.</li>
+                            <li>Updated the "Add Game Wizard" to use the new include / exclude and tagging features .</li>                            
                             <li>Removed the special handling of DOSBox games for future proofing, DOSBox games will now be handled like all other games.
                                 <ul>
                                     <li>Due to this change, GBM will only detect DOS games that are using their own copy of DOSBox in a unique location.  Classic games sold online are already pre-packaged in this format.</li>
