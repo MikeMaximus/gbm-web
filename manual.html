@@ -41,6 +41,7 @@
 						<li><a href="#requirements">Requirements</a></li>
 						<li><a href="#quickstart">Quick Start</a></li>
 						<li><a href="#mainoverview">Main Window Overview</a></li>
+                        <li><a href="#settings">Settings</a></li>
 						<li><a href="#othertips">Other Interface Tips</a></li>
 						<li><a href="#gamemanager">The Game Manager</a></li>
 						<li><a href="#customvariables">Custom Path Variables</a></li>
@@ -118,6 +119,47 @@
 							<div id="pageSectionFooter"><a href="#toc">Back to Contents</a></div>
 	 		</div>
 
+            <div id="pageSection"><div id="pageSectionHeader"><a name="settings">Settings</a></div>
+				            <div id="pageSectionContent">
+                                <p>The Settings can be found in the File menu.</p>
+                                <p>On this screen you can change core settings like your backup folder, or tweak a variety of minor settings to customize your experience.</p>
+                                <img class="manual" src="images/manual/manual_15.jpg" width="386" height="493" alt="Settings" /><br />
+                                <h3>General</h3>
+                                <h4>Start with Windows:</h4>
+                                <p>This indicates if you want GBM to start automatically when Windows starts.  This setting applies to the current user only.</p>
+                                <h4>Start to system tray:</h4>
+                                <p>This makes GBM minimize to the system tray immediately, instead of showing the main window when it starts.  Recommended if you're using the Start with Windows setting.</p>
+                                <h4>Start monitoring at launch:</h4>
+                                <p>GBM will start detecting games immediately with this setting enabled, otherwise game detection has to be manually started each time you load GBM.</p>
+                                <h4>Show detection notifications:</h4>
+                                <p>This will require GBM to show a standard Windows notification when a game is detected.</p>
+                                <h4>Enable time tracking:</h4>
+                                <p>GBM will record and display game session times when this is enabled.  When it's disabled no time data is recorded or displayed.  Toggling this setting has no effect on time data that's already been recorded.</p>
+                                <h4>Sync game list data with backup folder:</h4>
+                                <p>When sharing a backup folder with multiple computers using GBM, this setting allows you to automatically keep your game data in sync between these computers.  It can be disabled if you're using GBM on a single computer for a slight performance boost.</p>
+                                <h3>Backup and Restore</h3>
+                                <h4>Create a sub-folder for each game:</h4>
+                                <p>This indicates if you want GBM to create a sub-folder in the backup folder for each game.  This is handy for keeping your backup folder more organized.</p>
+                                <h4>Disable backup confirmation:</h4>
+                                <p>This will stop GBM from showing a backup confirmation after each game session.</p>
+                                <h4>Show overwrite warning:</h4>
+                                <p>This will require GBM to show a confirmation before overwriting any backup file.</p>
+                                <h4>Verify backup files with a checksum:</h4>
+                                <p>GBM can verify every backup you restore against a checksum made the time the backup was created.  It's highly recommended to leave this enabled to protect you from incorrect or corrupted backup files.</p>
+                                <h4>Notify when there are new backup files to restore:</h4>
+                                <p>GBM can inform you when there are new saved game backups to restore.  This is only useful when you're sharing a backup folder with multiple computers.</p>
+                                <h4>Backup only when session time exceeds X minutes</h4>
+                                <p>GBM can supress backups when a session time doesn't exceed a specific time frame.  This is useful to prevent unwanted backups just because you loaded a game for a few minutes.  This setting isn't related to "Enable time tracking" and works independently.</p>
+                                <h3>Paths</h3>
+                                <h4>Backup Folder:</h4>
+                                <p>This is the backup folder where GBM stores all game backups and it's remote database.</p>
+                                <h4>Important:</h4>
+                                <p>When switching between backup folders and using the "Sync game list data with backup folder" setting be sure to read any warning messages careful.</p>
+				            </div>
+				            <div id="pageSectionFooter"><a href="#toc">Back to Contents</a></div>
+	 		</div>
+
+        
 	 		<div id="pageSection"><div id="pageSectionHeader"><a name="othertips">Interface Quick Tips</a></div>
 				            <div id="pageSectionContent">
 								<ul>
