@@ -24,15 +24,13 @@
 	<div id="content">
 
 	<div id="leftcontent">
-	    	<div id="pageSection"><div id="pageSectionHeader">Game Backup Monitor v0.94 Manual</div>
+	    	<div id="pageSection"><div id="pageSectionHeader">Game Backup Monitor v0.95 Manual</div>
 				<div id="pageSectionContent">
-					<h3>Updated November 16, 2015</h3>
+					<h3>Updated December 14, 2015</h3>
 
 					<h3>Disclaimer:</h3>
                     
-                    <p>This manual may contain information about features not available in the current stable release.</p>
-
-					<p>This is beta release software. You may encounter bugs.</p>
+                    <p>This manual may contain information about features not available in the current stable release.</p>					
 
 					<p>If you are having a specific problem, please check the <a href="https://github.com/MikeMaximus/gbm/issues">issues</a> list.
 
@@ -47,7 +45,7 @@
 						<li><a href="#gamemanager">The Game Manager</a></li>
 						<li><a href="#customvariables">Custom Path Variables</a></li>
 						<li><a href="#tools">Tools & Features</a></li>
-                        <li><a href="#filtering">Filtering with Tags</a></li>
+                        <li><a href="#filtering">Custom Filters</a></li>
 						<li><a href="#syncing">Automatic Syncing (Game List)</a></li>
 						<li><a href="#limitations">Current Limitations</a></li>
 						<li><a href="#techdetails">Technical Details</a></li>
@@ -58,7 +56,7 @@
 
 	    	<div id="pageSection"><div id="pageSectionHeader"><a name="whatis">What is Game Backup Monitor?</a></div>
 				<div id="pageSectionContent">                                        
-                    <img class="manual" src="images/manual/manual_01.jpg" width="536" height="223" alt="Detection" /><br />
+                    <img class="manual" src="images/manual/manual_01.jpg" width="536" height="243" alt="Detection" /><br />
                     <p>Game Backup Monitor is a simple, but flexible application that detects games as you play them. Once you finish playing a game, a backup of the saved games will be made automatically using 7-Zip compression.  GBM can be used on a single computer, or on multiple computers to effectively add cloud support to any Windows game or application.</p>                    
                     <p>Game Backup Monitor was designed with classic DRM-free gaming in mind,  but it can be used to monitor any application on your PC!</p>
 					<h3>Game Backup Monitor is completely free and open source software.</h3>
@@ -107,7 +105,8 @@
 								<p>The main GBM window is mostly for information display, but has some important functions.</p>
 								<p>The core portion of the window displays information about any game that has been detected, or information about a backup or restore operation currently being performed.</p>
 								<p>You can view a detailed log of all the actions GBM has performed in the current session by clicking "Show Log".</p>
-								<img class="manual" src="images/manual/manual_03.jpg" width="536" height="408" alt="Main Screen" /><br />
+								<img class="manual" src="images/manual/manual_03.jpg" width="536" height="423" alt="Main Screen" /><br />
+                                <p>The right side of the menu bar will show notifications(if enabled) about new saved games to restore.  Clicking the notification will clear it for the current session and bring you directly to the Game Manager.</p>
                                 <p>The status bar shows what GBM is currently doing, as well as the monitor status.</p>
 								<p>The monitor status button on the right can be used to control starting, stopping and cancelling game detection.  This can also be accomplished with the File menu and system tray menu.</p>                                
                                 <p>The button on the left of the status bar indicates if GBM is running in normal mode (Blue User Icon) or as Administrator (Shield Icon).  GBM can handle most situations running with normal mode, clicking this button lets you switch to Administrator quickly when it's required.</p>
@@ -141,25 +140,29 @@
 						<li>Delete a game by selecting the game(s) from the list and clicking the the "-" (minus) button below the list box.</li>
 						<li>Show all games by clicking the "All" option above the list box.</li>
 						<li>Show only games with backup data by clicking the "Backups Only" option above the list box.</li>
-						<li>Show only games with new save data to restore by clicking the "Pending Restore" option above the list box.</li>
-                        <li>Show only games with specific Tags by clicking the "Tags" option above the list box.</li>
+						<li>Show only games with new save data to restore by clicking the "New Saves Pending" option above the list box.</li>
+                        <li>You can customize a list of games to display by clicking the "Custom" option above the list box.</li>
                         <li>You can edit the Tags for one or more games by selecting them and clicking the "Tags..." button.</li>
 						<li>Restore an existing backup for a game by selecting the game(s) from the list and clicking the "Restore" button.</li>
 						<li>You can mark a game as restored without restoring the data by selecting the game(s) from the list and clicking the "Mark as Restored" button.</li>
 						<li>You can backup immediately without playing a game by selecting the game(s) from the list and click the "Backup" button.</li>
 						<li>You can delete a backup by selecting the game from the list and clicking the "Delete Backup" button.</li>
-						<li>You can locate the backup file by selecting the game and clicking the "Open in Explorer" button.</li>
+						<li>You can locate the backup file by selecting the game and clicking the "Open Backup File" button.</li>
                         <li>You can view the restore location of the backup file by selecting the game and clicking the "Open Restore Path" button.</li>
+                        <li>You can import new game configurations from the <a href="GBM_Official.xml">official list</a> or an XML file using the Import button.</li>
+                        <li>You can export your game configurations to an XML file using the Export button.</li>
 					</ul>
 
 					<p>The Game Manager is a central hub for all important GBM functions.  However, i'd highly recommend the "Add Game Wizard" to add new games to monitor until you become familiar with GBM.</p>
 
-                    <img class="manual" src="images/manual/manual_07.jpg" width="536" height="223" alt="Wizard" />
+                    <img class="manual" src="images/manual/manual_07.jpg" width="536" height="243" alt="Wizard" />
                     
 					<h3>Game Manager Detailed Overview:</h3>
 
 					<p>The following is advanced information on each field used to configure a game.</p>
 
+                    <h3>Game Configuration</h3>
+                    
 					<h4>Name:</h4>
 
 					<p>The name of the game to monitor. The name must conform to Windows file name standards, it will be automatically filtered for length and any bad characters.</p>
@@ -168,17 +171,13 @@
 
 					<h4>Process:</h4>
 
-					<p>The name of the game's executable file, without the extension. This IS case-sensitive (except in the case of dosbox.exe), if entered incorrectly the game will not be detected. Extensions will be automatically filtered off.</p>
+					<p>The name of the game's executable file, without the extension. This IS case-sensitive, if entered incorrectly the game will not be detected. Extensions will be automatically filtered off.</p>
 
 					<p>If you don't know what to put here, check the game's "target" in the shortcut or game's folder. Beware of games that use launchers, you do NOT want to monitor the launcher, you want to detect and monitor the game itself.</p>
 
 					<p>Multiple entries with the same process are allowed, this is to handle games that use the same name for their executable.</p>
-
-					<p>GBM has been designed to monitor DOSBOX applications as well. The process name needs to indicate the dosbox process and the name of the DOS executable separated by a colon. Ex. dosbox:CAPPLUS</p>
-
-					<p>It's highly recommended to use the "Add Game Wizard" to configure a DOS game if you're unsure of what you're doing.</p>
-
-					<p>ScummVM games are also supported, but on the specific condition that each game uses it's own copy of ScummVM in a unique location. No special setup is required, you simply need to use "scummvm" as the process name.</p>
+					
+					<p>DOSBox and ScummVM games are also supported, but on the specific condition that each game uses it's own copy of DOSBox or ScummVM in a unique location. No special setup is required, you simply need to use "DOSBox" or "scummvm" as the process name and set the "Game Path" under Game Information.</p>
 
 					<h4>Path:</h4>
 
@@ -189,47 +188,48 @@
 					<p>This path can be absolute, or relative to the game's executable.</p>
 
 					<p>GBM will automatically determine absolute or relative path settings. If the save games are located in the game folder itself, you should always strive to use a path relative to the game's executable, this way your configuration will work on any PC regardless of where a game is installed. If you don't know what that means then I highly recommend using the "Add Game Wizard" to add new games.</p>
+					
+                    <h4>Save Entire Folder:</h4>
 
-					<h4>Folder Save:</h4>
+					<p>This indicates if GBM should backup the entire folder indicated in the path. If you don't really know what files are important to be saving, just tick this box.  Choosing this option will disable and clear any Include Items.</p>
 
-					<p>This indicates if GBM should backup the entire folder indicated in the path. If you don't really know what files are important to be saving, just tick this box.</p>
-
-                    <h4>Time Stamp:</h4>
+                    <h4>Time stamp each backup:</h4>
 
 					<p>This indicates if you want GBM to attach a time stamp to your backup files. This allows you to have incremental backups for that game.</p>
+                    
+					<h4>Include and Exclude Items:</h4>
 
-					<h4>Include:</h4>
-
-					<p>This indicates what file types, specific files or sub-folders should be included in the backup. This setting is ignored if Folder Save is enabled.  You can include multiple entries by separating them with a colon.</p>
-
-					<p>An example where this setting would be used would be with an old PC game that uses save files with specific extensions inside the installation folder, such as "save.00" and "save.01".</p>
-
-					<p>Example: *.00:*.01</p>
-
-                    <p>Note:  Prior to v0.93 this field was "File Type" and only one entry was allowed.</p>
-
-					<h4>Exclude:</h4>
-
-					<p>The exclude list is an advanced feature that allows you exclude specific files, folders or types of files from the backup. You can exclude multiple entries by separating them with a colon.</p>
-
-					<p>This would be used when the save location contains other files you don't want included. An example would be Simcity 4, which includes 100 MB of example cities in the save folder.</p>
-
-					<p>The following example excludes all that useless data from the backup file.</p>
-
-				    <p>Example: Berlin:Downloads:Fairview:London:New York:San Francisco:Timbuktu</p>
-
-                    <h4>Important notice regarding Include & Exclude:</h4>
-
-                    <p>As of v0.93 you no longer need to use wildcards or trailing slashes to include or exclude sub-folders,  doing so may cause the backup to fail or not properly include or exclude the indicated folder.</p>
-
-                    <p>As of v0.93 entries with spaces no longer need to enclosed in double quotes.</p>
-
-				    <h3>Extra Information</h3>
+					<p>You can configure which file types, specific files or sub-folders should be included in or excluded from the backup using the Include / Exclude Builder.</p>
+                    
+                    <p>Click the Include Items... or Exclude Items.. button to launch the builder.</p>
+                    
+                    <p>A value in brackets on the button indicates the amount of items being included or excluded.  If either button is <b>bold</b>, this indicates that there are changes that haven't been saved.</p>
+                    
+                    <img class="manual" src="images/manual/manual_14.jpg" width="586" height="488" alt="Builder" /><br />
+                    
+                    <p>The left side of the window (Saved Game Explorer) shows the current game's save folder in a Windows Explorer type view.  If this area is blank it's because GBM couldn't determine the save folder or it doesn't currently exist.</p>
+                    
+                    <p>The right side of the window (Current Items) shows any items being included or excluded.</p>
+                    
+                    <p>You can add new items to include or exclude by ticking the check boxes beside any files or folders in the Saved Game Explorer, and using the right arrow button to move them into the Current Items list.</p>
+                    
+                    <p>When you choose a file to include or exclude, GBM will use the file type extension instead of the individual file name.  You can toggle this behavior using the "Options" section under the Saved Game Explorer.</p>
+                    
+                    <p>You can remove any items you've added to the Current Items list by selecting them and using the left arrow button.  You can also right-click items and use the "Remove" command.</p>
+                    
+                    <p>You can edit any items you've added by right-clicking them and choosing Edit.  Advanced users may want to edit items and add wildcards to refine their configuration.</p>
+                    
+                    <p>You can add custom items by right-clicking on any blank part of the Current Items list and choosing "Add Custom Item"</p>
+                    
+                    <p>And finally if you prefer the old hardcore way of doing things, you can click "Raw Edit" and simply edit a colon delimited list of items.</p>					                  
+                    
+				    <h3>Game Information</h3>
 
 					<h4>Game Path:</h4>
 
 					<p>This is the path to the game's executable file.  In most cases GBM will auto-detect this information, but it can be set manually.</p>
-					<p>The path is used to determine the save location for games with a relative save path.  It is also used to properly detect games that share process names, like ScummVM games.</p>
+                    
+					<p>The path is used to determine the save location for games with a relative save path.  It is also used to properly detect games that share process names, like DOSBox and ScummVM games.</p>
 
 					<h4>Company:</h4>
 
@@ -251,7 +251,7 @@
                     
                     <p>Tags allow you to filter the games you want to view in the Game Manager or the configurations you may want to Export to an XML file.</p>
                     
-                    <img class="manual" src="images/manual/manual_08.jpg" width="386" height="287" alt="Tags" /><br />                    
+                    <img class="manual" src="images/manual/manual_08.jpg" width="386" height="288" alt="Tags" /><br />                    
                     
                     <p>Select the tags and use the appropriate buttons to add or remove them.</p>
                     
@@ -278,9 +278,13 @@
 
 					<p>This displays information about the last backup or restore on the current computer.</p>
 
-					<h4>Backup Size</h4>
+					<h4>Backup Size:</h4>
 
 					<p>This displays the backup file size.</p>
+                    
+                    <h4>Restore Path:</h4>
+
+					<p>This displays the location the backup file will restore to, this may be an absolute or relative path.</p>
 
 				</div>
 				<div id="pageSectionFooter"><a href="#toc">Back to Contents</a></div>
@@ -309,42 +313,49 @@
 				<div id="pageSectionFooter"><a href="#toc">Back to Contents</a></div>
 	 		</div>
 
-			<div id="pageSection"><div id="pageSectionHeader"><a name="tools">Tools & Features</a></div>
+			<div id="pageSection"><div id="pageSectionHeader"><a name="tools">Advanced Tools</a></div>
 				<div id="pageSectionContent">
 					<h3>Tools</h3>
-
-					<p>"Tools -> Game List -> Import Official Game List" is used to import games from the official preconfigured list. Games that already exist in the Game Manager will not be listed to import.</p>
-
-					<p>"Tools -> Game List -> Import Game List" is used to add entries to your game list from an exported XML file.  Games that already exist in the Game Manager will not be listed to import.</p>
-
-					<p>"Tools -> Game List -> Export Game List" is used to create an XML copy of your game list, you can filter this list by Tag. Exports would be mainly used as a backup method or for sharing configurations with your friends.</p>
-
-                    <img class="manual" src="images/manual/manual_10.jpg" width="536" height="223" alt="Tools" /><br />
                     
-					<p>"Tools -> Sync Manifests" is used to clean up the local manifest of any backup information that is no longer relevant, based on the information in the current backup folder. When backup data is deleted from one computer, other computers using GBM may still be storing data about the deleted backup that is no longer useful. The only time this tool shouldn't be used is if you are alternating between backup folders, such as using a cloud folder for small backups and external drive for large backups.</p>
+					<p>"Tools -> Clean Local Manifest" is used to clean up the local manifest of any backup information that is no longer relevant, based on the information in the current backup folder. When backup data is deleted from one computer, other computers using GBM may still be storing data about the deleted backup that is no longer useful. The only time this tool shouldn't be used is if you are alternating between backup folders, such as using a cloud folder for small backups and external drive for large backups.</p>
 
+                    <img class="manual" src="images/manual/manual_10.jpg" width="536" height="243" alt="Tools" /><br />
+                    
 					<p>"Tools -> Compact Databases" is used to rebuild GBM's databases to use an optimal amount of disk space. It should only be used when databases are reaching a noticably large size.</p>
 				</div>
 				<div id="pageSectionFooter"><a href="#toc">Back to Contents</a></div>
 	 		</div>
 
-			<div id="pageSection"><div id="pageSectionHeader"><a name="filtering">Filtering with Tags</a></div>
+			<div id="pageSection"><div id="pageSectionHeader"><a name="filtering">Custom Filters</a></div>
 				<div id="pageSectionContent">
-					<p>When using the Game Manager or exporting your game list to an XML file, you'll have the option to filter the game list by tag.</p>
-
-                    <img class="manual" src="images/manual/manual_11.jpg" width="386" height="288" alt="Filter" /><br />
+					<p>While using the Game Manager or exporting your game list to an XML file, you'll have the option to use a custom filter.</p>
+                                    
+                    <p>You can choose to filter by Game Information OR by Tag, you can't filter by both at the same time.</p>
+                                        
+                    <h4>Game Information</h4>
                     
-                    <ul>
-					   <li>If you don't want to filter the list at all, simply click OK and you'll receive the full game list.</li>
-                       <li>Choose the Tags you want to filter by and use the appropriate buttons to add or remove them.</li>
-                       <li>There are different Matching Options available when filtering by tag:
+                    <ul>                        
+                        <li>You can filter by the Name, Process and/or Company fields.</li>
+                        <li>GBM uses a case-insensitive partial search to match any text you've entered in the filter fields.</li>
+                        <li>You can choose between the AND / OR options to further refine your filter.</li>
+                        <li>If no text is entered on any field in this filter, GBM will return all games.</li>
+                    </ul>
+                    
+                    <img class="manual" src="images/manual/manual_11.jpg" width="411" height="543" alt="Filter" /><br />
+                    
+                    <h4>Tag</h4>
+                    
+                    <ul>                        					    
+                        <li>Choose the Tags you want to filter by and use the appropriate buttons to add or remove them.</li>
+                        <li>There are different options available when filtering by tag:
                            <ul>
                                <li>Any Tag - This will include games using ANY of the tags you have chosen to filter by.
                                    <ul><li>Example: You have two games tagged as #Official, one game is also tagged as #GOG and the other is also tagged as #Steam.  If you filter by "Any Tag" and choose #Official and #GOG, both games will be included since both included #Official.</li></ul></li>
                                <li>All Tags - This will only include games using ALL of the tags you have chosen to filter by.
                                    <ul><li>Example:  Using the same example games above, if you filter by "All Tags" and choose #Official and #GOG only one game will be shown, since only one game included both the #Official and #GOG tag.</li></ul></li>
                            </ul>
-                       </li>
+                        </li>
+                        <li>If you choose no tags to filter by, GBM will return all games with no tags.</li>
                     </ul>                    
 				</div>
 				<div id="pageSectionFooter"><a href="#toc">Back to Contents</a></div>
