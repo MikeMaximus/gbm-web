@@ -61,9 +61,7 @@
 				}
                 </style>
 				
-                <h3>Updated: November 24, 2015</h3>
-                <h4>The tags indicate the version of the game that was tested with GBM.</h4>
-                <h4>Official backup configurations exclude graphics settings, logs, screenshots and other extras when possible.</h4>
+                <h3>Updated: January 1, 2016</h3>                
                 <script type="text/javascript" language="javascript">
                     var iCount=0;
                     var dVar;
@@ -96,7 +94,10 @@
                         document.getElementById("gButton").onclick = new Function("expandcollapse('" + dVar +"',this)");                                                
                         document.getElementById("gButton").id = bVar;                        
                     </script>
-                </xsl:for-each>                
+                </xsl:for-each>
+                <br />
+                <p class="small">Tags indicate the version(s) of the game tested with GBM.</p>
+                <p class="small">Official backup configurations exclude graphics settings, logs, screenshots and other extras when possible.</p>
 		  	</div>
 	   </div>
 

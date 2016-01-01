@@ -2,6 +2,23 @@
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
 <gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Game>
+    <Name>1954 Alcatraz</Name>
+    <ProcessName>Alcatraz</ProcessName>
+    <Path>*appdatalocal*Low\Daedalic Entertainment\1954 Alcatraz\Savegames</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>AI War Fleet Command</Name>
     <ProcessName>AIWar</ProcessName>
     <Path>runtimedata\save</Path>
@@ -27,6 +44,26 @@
     <FileType />
     <ExcludeList />
     <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Afterlife</Name>
+    <ProcessName>DOSBox</ProcessName>
+    <Path>..\save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
@@ -292,13 +329,16 @@
   </Game>
   <Game>
     <Name>Betrayal at Krondor</Name>
-    <ProcessName>dosbox:KRONDOR</ProcessName>
+    <ProcessName>DOSBox</ProcessName>
     <Path>..\Betrayal at Krondor\GAMES</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
@@ -359,6 +399,26 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Bio Menace</Name>
+    <ProcessName>DOSBox</ProcessName>
+    <Path>..\</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>SAVEGAM*.BM1</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Bioshock 2</Name>
     <ProcessName>Bioshock2</ProcessName>
     <Path>*mydocs*\Bioshock2\SaveGames</Path>
@@ -372,6 +432,23 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Blackguards Special Edition</Name>
+    <ProcessName>Blackguards</ProcessName>
+    <Path>*appdatalocal*\Daedalic Entertainment GmbH\Blackguards</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -465,7 +542,7 @@
     <ProcessName>Game</ProcessName>
     <Path>..\Profiles</Path>
     <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
+    <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <Tags>
@@ -632,13 +709,16 @@
   </Game>
   <Game>
     <Name>Capitalism Plus</Name>
-    <ProcessName>dosbox:CAPPLUS</ProcessName>
+    <ProcessName>DOSBox</ProcessName>
     <Path />
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
     <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
@@ -649,13 +729,16 @@
   </Game>
   <Game>
     <Name>Carmageddon</Name>
-    <ProcessName>dosbox:CARMA</ProcessName>
+    <ProcessName>DOSBox</ProcessName>
     <Path>..\CARMA\DATA\SAVEGAME</Path>
     <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*</FileType>
+    <FolderSave>true</FolderSave>
+    <FileType />
     <ExcludeList />
     <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
@@ -669,8 +752,8 @@
     <ProcessName>CARM95</ProcessName>
     <Path>DATA\SAVEGAME</Path>
     <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*</FileType>
+    <FolderSave>true</FolderSave>
+    <FileType />
     <ExcludeList />
     <Tags>
       <Tag>
@@ -682,12 +765,12 @@
     </Tags>
   </Game>
   <Game>
-    <Name>Carmageddon</Name>
-    <ProcessName>dosbox:VOODO2C</ProcessName>
-    <Path>..\CARMA\DATA\SAVEGAME</Path>
+    <Name>Carmageddon 2 - Carpocalypse Now</Name>
+    <ProcessName>CARMA2_HW</ProcessName>
+    <Path>data\savegame</Path>
     <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*</FileType>
+    <FolderSave>true</FolderSave>
+    <FileType />
     <ExcludeList />
     <Tags>
       <Tag>
@@ -751,13 +834,16 @@
   </Game>
   <Game>
     <Name>Colonization</Name>
-    <ProcessName>dosbox:OPENING</ProcessName>
+    <ProcessName>DOSBox</ProcessName>
     <Path>..\MPS\COLONIZE</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.SAV</FileType>
     <ExcludeList />
     <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
@@ -819,13 +905,16 @@
   </Game>
   <Game>
     <Name>Conquest of the New World</Name>
-    <ProcessName>dosbox:CNWMAIN</ProcessName>
+    <ProcessName>DOSBox</ProcessName>
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.?E2</FileType>
     <ExcludeList />
     <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
@@ -926,7 +1015,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>crash_reports:prefs.cs:console.log</ExcludeList>
+    <ExcludeList>crash_reports:prefs.cs:console.log:*.jpg</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1103,6 +1192,83 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Duke Nukem</Name>
+    <ProcessName>DOSBox</ProcessName>
+    <Path>..\</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>HIGHS.DN?:KEYS.DN?:MY_DEMO.DN?:SPEED.DN?:USERDEMO.DN?:SAVED?.DN?</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Duke Nukem 2</Name>
+    <ProcessName>DOSBox</ProcessName>
+    <Path>..\</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.-GT:*.-NM:*.-S1:*.-V1</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Dungeon Keeper 2</Name>
+    <ProcessName>DKII-DX</ProcessName>
+    <Path>data</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>Save:HiScores.dat</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Dungeon Keeper Gold</Name>
+    <ProcessName>DOSBox</ProcessName>
+    <Path>..\save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1294,6 +1460,23 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Fallout 4</Name>
+    <ProcessName>Fallout4</ProcessName>
+    <Path>*mydocs*\My Games\Fallout4\Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>FlatOut</Name>
     <ProcessName>flatout</ProcessName>
     <Path>Savegame</Path>
@@ -1403,6 +1586,23 @@
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Guacamelee! Super Turbo Championship Edition</Name>
+    <ProcessName>GameDRMFree</ProcessName>
+    <Path>*mydocs*\GuacameleeSTCE</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>LOCALSETTINGS.DAT</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1566,6 +1766,23 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Indiana Jones and the Emperor's Tomb</Name>
+    <ProcessName>indy</ProcessName>
+    <Path>..\indy</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>binds.cfg:saves</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Indiana Jones and the Fate of Atlantis</Name>
     <ProcessName>scummvm</ProcessName>
     <Path>..\</Path>
@@ -1574,6 +1791,9 @@
     <FileType>atlantis.*</FileType>
     <ExcludeList>*.0??:*.ini:*.exe:*.ico</ExcludeList>
     <Tags>
+      <Tag>
+        <Name>ScummVM</Name>
+      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
@@ -1757,10 +1977,13 @@
     <ProcessName>MaxPayne3</ProcessName>
     <Path>*mydocs*\Rockstar Games\Max Payne 3\Profiles</Path>
     <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*</FileType>
+    <FolderSave>true</FolderSave>
+    <FileType />
     <ExcludeList />
     <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
@@ -1810,6 +2033,9 @@
     <ExcludeList />
     <Tags>
       <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
     </Tags>
@@ -1841,7 +2067,27 @@
     <ExcludeList />
     <Tags>
       <Tag>
+        <Name>Retail</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>OlliOlli</Name>
+    <ProcessName>olliolli</ProcessName>
+    <Path>*appdataroaming*\olliolli</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>olliolli.ini</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1880,6 +2126,23 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Outlaws</Name>
+    <ProcessName>olwin</ProcessName>
+    <Path>save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>POD Gold</Name>
     <ProcessName>PODX3Dfx</ProcessName>
     <Path>data</Path>
@@ -1904,6 +2167,40 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>2.0 Save Games Backup</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>PixelJunk Monsters HD</Name>
+    <ProcessName>Monsters</ProcessName>
+    <Path>*appdataroaming*\PJMonsters</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>MONSTERSPROFILE_MONSTERSAVEGAME</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>PixelJunk Shooter</Name>
+    <ProcessName>CaveShooter</ProcessName>
+    <Path>*appdataroaming*\PJShooter</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2017,13 +2314,16 @@
   </Game>
   <Game>
     <Name>Realms of Chaos</Name>
-    <ProcessName>dosbox:ROC</ProcessName>
+    <ProcessName>DOSBox</ProcessName>
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>ROC.S*</FileType>
     <ExcludeList />
     <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
@@ -2068,13 +2368,16 @@
   </Game>
   <Game>
     <Name>Rise of the Triad</Name>
-    <ProcessName>dosbox:ROTT</ProcessName>
+    <ProcessName>DOSBox</ProcessName>
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>ROTTGAM?.ROT</FileType>
     <ExcludeList />
     <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
@@ -2122,6 +2425,23 @@
     <ProcessName>SatelliteReignWindows</ProcessName>
     <Path>*appdatalocal*\SatelliteReign\users</Path>
     <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Sea Dogs</Name>
+    <ProcessName>ENGINE</ProcessName>
+    <Path>resource\saves</Path>
+    <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
@@ -2190,8 +2510,8 @@
     <ProcessName>Shadowgate</ProcessName>
     <Path>*mydocs*\Zojoi\Shadowgate</Path>
     <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*</FileType>
+    <FolderSave>true</FolderSave>
+    <FileType />
     <ExcludeList />
     <Tags>
       <Tag>
@@ -2373,6 +2693,23 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Sins of a Solar Empire - Rebellion</Name>
+    <ProcessName>Sins of a Solar Empire Rebellion</ProcessName>
+    <Path>*mydocs*\My Games\Ironclad Games\Sins of a Solar Empire Rebellion</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>Save*</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Space Colony HD</Name>
     <ProcessName>Space Colony</ProcessName>
     <Path>*mydocs*\Space Colony\users</Path>
@@ -2442,13 +2779,16 @@
   </Game>
   <Game>
     <Name>Star Wars - Dark Forces</Name>
-    <ProcessName>dosbox:DARK</ProcessName>
+    <ProcessName>DOSBox</ProcessName>
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>DARKPILO.CFG</FileType>
     <ExcludeList />
     <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
@@ -2529,6 +2869,40 @@
     <Name>Star Wars - Knights of the Old Republic 2</Name>
     <ProcessName>swkotor2</ProcessName>
     <Path>saves</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Star Wars - Republic Commando</Name>
+    <ProcessName>SWRepublicCommando</ProcessName>
+    <Path>..\save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>System.ini</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Star Wars Jedi Knight - Jedi Academy</Name>
+    <ProcessName>jasp</ProcessName>
+    <Path>base\saves</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
@@ -2663,13 +3037,16 @@
   </Game>
   <Game>
     <Name>The Elder Scrolls - Arena</Name>
-    <ProcessName>dosbox:ACD</ProcessName>
+    <ProcessName>DOSBox</ProcessName>
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.64:*.00:*.01:NAMES.DAT:VISION.EMS</FileType>
     <ExcludeList />
     <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
@@ -2680,13 +3057,16 @@
   </Game>
   <Game>
     <Name>The Elder Scrolls II - Daggerfall</Name>
-    <ProcessName>dosbox:FALL</ProcessName>
+    <ProcessName>DOSBox</ProcessName>
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>SAVE?</FileType>
     <ExcludeList />
     <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
@@ -2731,13 +3111,16 @@
   </Game>
   <Game>
     <Name>The Ultimate DOOM</Name>
-    <ProcessName>dosbox:DOOM</ProcessName>
+    <ProcessName>DOSBox</ProcessName>
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>DEFAULT.CFG:DOOMSAV?.DSG</FileType>
     <ExcludeList />
     <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
@@ -2788,6 +3171,23 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>This War of Mine</Name>
+    <ProcessName>This War of Mine</ProcessName>
+    <Path>*appdataroaming*\11bitstudios\This War Of Mine</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>config.bin3</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2849,6 +3249,23 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Turok</Name>
+    <ProcessName>sobek</ProcessName>
+    <Path>saves</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Ultima IX - Ascension</Name>
     <ProcessName>u9</ProcessName>
     <Path>savegame</Path>
@@ -2862,6 +3279,43 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>UnderRail</Name>
+    <ProcessName>underrail</ProcessName>
+    <Path>*mydocs*\My Games\Underrail\Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Valdis Story - Abyssal City</Name>
+    <ProcessName>Valdis_Story_AC</ProcessName>
+    <Path>*appdatalocal*\Valdis_Story_AC</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2986,11 +3440,31 @@
   </Game>
   <Game>
     <Name>Wolfenstein 3D</Name>
-    <ProcessName>dosbox:WOLF3D</ProcessName>
+    <ProcessName>DOSBox</ProcessName>
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>CONFIG.WL6:SAVEGAM?.WL6</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>World in Conflict - Complete Edition</Name>
+    <ProcessName>wic</ProcessName>
+    <Path>*mydocs*\World in Conflict\</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>Savegames:Player Profile.txt:Controller Options.txt</FileType>
     <ExcludeList />
     <Tags>
       <Tag>
