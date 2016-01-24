@@ -61,7 +61,6 @@
     <ExcludeList />
     <Tags>
       <Tag>
-<<<<<<< HEAD
         <Name>Official</Name>
       </Tag>
       <Tag>
@@ -69,15 +68,6 @@
       </Tag>
       <Tag>
         <Name>DOSBox</Name>
-=======
-        <Name>DOSBox</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>GOG</Name>
->>>>>>> 17800e78833247cbc731bd93cc947da72edd8d11
       </Tag>
     </Tags>
   </Game>
@@ -346,9 +336,6 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
-      </Tag>
-      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
@@ -420,7 +407,6 @@
     <ExcludeList />
     <Tags>
       <Tag>
-<<<<<<< HEAD
         <Name>Official</Name>
       </Tag>
       <Tag>
@@ -428,15 +414,6 @@
       </Tag>
       <Tag>
         <Name>DOSBox</Name>
-=======
-        <Name>DOSBox</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>GOG</Name>
->>>>>>> 17800e78833247cbc731bd93cc947da72edd8d11
       </Tag>
     </Tags>
   </Game>
@@ -739,9 +716,6 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
-      </Tag>
-      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
@@ -761,9 +735,6 @@
     <FileType />
     <ExcludeList />
     <Tags>
-      <Tag>
-        <Name>DOSBox</Name>
-      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
@@ -870,9 +841,6 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
-      </Tag>
-      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
@@ -960,9 +928,6 @@
     <FileType>*.?E2</FileType>
     <ExcludeList />
     <Tags>
-      <Tag>
-        <Name>DOSBox</Name>
-      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
@@ -1256,7 +1221,6 @@
     <ExcludeList />
     <Tags>
       <Tag>
-<<<<<<< HEAD
         <Name>Official</Name>
       </Tag>
       <Tag>
@@ -1276,10 +1240,6 @@
     <FileType>save:state</FileType>
     <ExcludeList />
     <Tags>
-=======
-        <Name>DOSBox</Name>
-      </Tag>
->>>>>>> 17800e78833247cbc731bd93cc947da72edd8d11
       <Tag>
         <Name>Official</Name>
       </Tag>
@@ -1298,7 +1258,6 @@
     <ExcludeList />
     <Tags>
       <Tag>
-<<<<<<< HEAD
         <Name>Official</Name>
       </Tag>
       <Tag>
@@ -1306,15 +1265,6 @@
       </Tag>
       <Tag>
         <Name>DOSBox</Name>
-=======
-        <Name>DOSBox</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>GOG</Name>
->>>>>>> 17800e78833247cbc731bd93cc947da72edd8d11
       </Tag>
     </Tags>
   </Game>
@@ -1345,7 +1295,6 @@
     <ExcludeList />
     <Tags>
       <Tag>
-<<<<<<< HEAD
         <Name>Official</Name>
       </Tag>
       <Tag>
@@ -1353,15 +1302,6 @@
       </Tag>
       <Tag>
         <Name>DOSBox</Name>
-=======
-        <Name>DOSBox</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>GOG</Name>
->>>>>>> 17800e78833247cbc731bd93cc947da72edd8d11
       </Tag>
     </Tags>
   </Game>
@@ -1884,9 +1824,6 @@
     <FileType>atlantis.*</FileType>
     <ExcludeList>*.0??:*.ini:*.exe:*.ico</ExcludeList>
     <Tags>
-      <Tag>
-        <Name>ScummVM</Name>
-      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
@@ -2435,9 +2372,6 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
-      </Tag>
-      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
@@ -2491,9 +2425,6 @@
     <FileType>ROTTGAM?.ROT</FileType>
     <ExcludeList />
     <Tags>
-      <Tag>
-        <Name>DOSBox</Name>
-      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
@@ -2906,9 +2837,6 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
-      </Tag>
-      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
@@ -3167,9 +3095,6 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
-      </Tag>
-      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
@@ -3189,9 +3114,6 @@
     <FileType>SAVE?</FileType>
     <ExcludeList />
     <Tags>
-      <Tag>
-        <Name>DOSBox</Name>
-      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
@@ -3280,9 +3202,6 @@
     <FileType>DEFAULT.CFG:DOOMSAV?.DSG</FileType>
     <ExcludeList />
     <Tags>
-      <Tag>
-        <Name>DOSBox</Name>
-      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
@@ -3690,26 +3609,6 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>CONFIG.WL6:SAVEGAM?.WL6</FileType>
-    <ExcludeList />
-    <Tags>
-      <Tag>
-        <Name>DOSBox</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>World in Conflict - Complete Edition</Name>
-    <ProcessName>wic</ProcessName>
-    <Path>*mydocs*\World in Conflict\</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>Savegames:Player Profile.txt:Controller Options.txt</FileType>
     <ExcludeList />
     <Tags>
       <Tag>
