@@ -30,8 +30,7 @@
 		<div id="pageSection"><div id="pageSectionHeader">Information</div>
 				<div id="pageSectionContent">
 					<p>This list includes games that are already pre-configured to work with GBM.</p>
-					<p>GBM supports ANY game or application once configured!</p>
-					<p>Use the <b>Import from Official List</b> option from the "Tools" menu in GBM to import from this list.</p>
+					<p>GBM supports ANY game or application once configured!</p>					
 				</div>
 		</div>
 
@@ -61,9 +60,7 @@
 				}
                 </style>
 				
-                <h3>Updated: November 24, 2015</h3>
-                <h4>The tags indicate the version of the game that was tested with GBM.</h4>
-                <h4>Official backup configurations exclude graphics settings, logs, screenshots and other extras when possible.</h4>
+                <h3>Updated: January 1, 2016 (203 Configs)</h3>                
                 <script type="text/javascript" language="javascript">
                     var iCount=0;
                     var dVar;
@@ -96,7 +93,10 @@
                         document.getElementById("gButton").onclick = new Function("expandcollapse('" + dVar +"',this)");                                                
                         document.getElementById("gButton").id = bVar;                        
                     </script>
-                </xsl:for-each>                
+                </xsl:for-each>
+                <br />
+                <p class="small">Tags indicate the version(s) of the game tested with GBM.</p>
+                <p class="small">Official backup configurations exclude graphics settings, logs, screenshots and other extras when possible.</p>
 		  	</div>
 	   </div>
 
