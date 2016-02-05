@@ -62,13 +62,13 @@
     <ExcludeList />
     <Tags>
       <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -337,13 +337,13 @@
     <ExcludeList />
     <Tags>
       <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -408,13 +408,13 @@
     <ExcludeList />
     <Tags>
       <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -717,13 +717,13 @@
     <ExcludeList />
     <Tags>
       <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -737,13 +737,13 @@
     <ExcludeList />
     <Tags>
       <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -842,13 +842,13 @@
     <ExcludeList />
     <Tags>
       <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -930,13 +930,13 @@
     <ExcludeList />
     <Tags>
       <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1222,13 +1222,13 @@
     <ExcludeList />
     <Tags>
       <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1259,13 +1259,13 @@
     <ExcludeList />
     <Tags>
       <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1296,13 +1296,13 @@
     <ExcludeList />
     <Tags>
       <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1826,13 +1826,13 @@
     <ExcludeList>*.0??:*.ini:*.exe:*.ico</ExcludeList>
     <Tags>
       <Tag>
+        <Name>ScummVM</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>ScummVM</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2313,6 +2313,23 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Prey</Name>
+    <ProcessName>PREY</ProcessName>
+    <Path>*mydocs*\My Games\PREY\base\savegames</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Retail</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Prison Architect</Name>
     <ProcessName>Prison Architect</ProcessName>
     <Path>*appdatalocal*\Introversion\Prison Architect\saves</Path>
@@ -2373,13 +2390,13 @@
     <ExcludeList />
     <Tags>
       <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2427,13 +2444,13 @@
     <ExcludeList />
     <Tags>
       <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2676,6 +2693,40 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Sid Meier's Civilization - Beyond Earth</Name>
+    <ProcessName>CivilizationBE_Mantle</ProcessName>
+    <Path>*mydocs*\My Games\Sid Meier's Civilization Beyond Earth</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>Saves:UserSettings.ini</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Sid Meier's Civilization - Beyond Earth</Name>
+    <ProcessName>CivilizationBE_DX11</ProcessName>
+    <Path>*mydocs*\My Games\Sid Meier's Civilization Beyond Earth</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>Saves:UserSettings.ini</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Sid Meier's Pirates!</Name>
     <ProcessName>Pirates!</ProcessName>
     <Path>*mydocs*\My Games\Sid Meier's Pirates!</Path>
@@ -2838,13 +2889,13 @@
     <ExcludeList />
     <Tags>
       <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3096,13 +3147,13 @@
     <ExcludeList />
     <Tags>
       <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3116,13 +3167,13 @@
     <ExcludeList />
     <Tags>
       <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3204,13 +3255,13 @@
     <ExcludeList />
     <Tags>
       <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3613,13 +3664,13 @@
     <ExcludeList />
     <Tags>
       <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
