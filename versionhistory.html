@@ -26,18 +26,34 @@
 	<div id="leftcontent">
 		<div id="pageSection"><div id="pageSectionHeader">Archived Version History</div>
 				<div id="pageSectionContent">
-                    <h3>0.94</h3>
-                    <ul>                              
-                        <li>Added the ability to organize your games with Tags.  Users can create and customize their own list of Tags.</li>
-                        <li>Added the ability to filter by Tag in the Game Manager.</li>
-                        <li>Added the ability to filter by Tag when doing an XML export.</li>
-                        <li>Added the ability to disable Time Tracking.  Enabling or disabling this setting has no effect on data already recorded.</li>
-                        <li>Added the ability to restart GBM as Administrator from the status bar.</li>
-                        <li>Redesigned notifications, GBM is now silent unless a problem occurs.</li>
-                        <li>Enhanced the sync logic and performance.</li>
-                        <li>The backup "Timestamp" setting is no longer included in XML imports or exports.</li>
-                        <li>Redesigned the XML import and export core.  Sorry, this invalidates all prior XML exports files, but it will ensure future backwards compatability.</li>                        
-                    </ul>
+                <h3>0.95</h3>
+                <ul>
+                    <li>Fixed a regression that caused non-critical fields (Game Path, Company, Version, Icon, Enabled, Monitor Only) to be wiped or reset on sync.</li>
+                    <li>The "Check for new backups" feature has been renamed and redesigned. Instead of an annoying pop-up, it now shows a simple notification in the main menu or tray menu.</li>
+                    <li>Added the ability to trigger backups only after a certain session time has elapsed (Global Setting), this setting will be disabled by default.</li>
+                    <li>You can now cancel out of the "Choose Game" window when GBM detects multiple games may be running.</li>
+                    <li>Added the ability to filter by game information such as name, process and company.</li>
+                    <li>Many UI improvements and fixes with filtering.  The "Tag" filter is now called "Custom" filter, due to the new options available.</li>
+                    <li>Added a new, more intuitive way of including and excluding items in a backup.  See the Game Manager section of the GBM manual for details.</li>
+                    <li>Updated the "Add Game Wizard" to use the new include / exclude and tagging features.</li>
+                    <li>Removed the special handling of DOSBox games for future proofing, DOSBox games will now be handled like all other games.</li>
+                    <li>Moved the import and export game list features from the Tools menu into the Game Manager.</li>
+                    <li>Made some visual improvements to the main app window.</li>
+                    <li>Made changes that will allow GBM to be easily translated to other languages.</li>
+                    <li>Many minor UI improvements and bug fixes.</li>
+                </ul>
+                <h3>0.94</h3>
+                <ul>                              
+                    <li>Added the ability to organize your games with Tags.  Users can create and customize their own list of Tags.</li>
+                    <li>Added the ability to filter by Tag in the Game Manager.</li>
+                    <li>Added the ability to filter by Tag when doing an XML export.</li>
+                    <li>Added the ability to disable Time Tracking.  Enabling or disabling this setting has no effect on data already recorded.</li>
+                    <li>Added the ability to restart GBM as Administrator from the status bar.</li>
+                    <li>Redesigned notifications, GBM is now silent unless a problem occurs.</li>
+                    <li>Enhanced the sync logic and performance.</li>
+                    <li>The backup "Timestamp" setting is no longer included in XML imports or exports.</li>
+                    <li>Redesigned the XML import and export core.  Sorry, this invalidates all prior XML exports files, but it will ensure future backwards compatability.</li>                        
+                </ul>
                 <h3>0.93</h3>
                 <ul>
                     <li>GBM now handles date/time fields in an efficient manner, this will solve all issues with regional date formats.</li>
