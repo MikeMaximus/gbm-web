@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Game Backup Monitor - Automatically backup your save games and add cloud support to any game for free!" />
+	<title>Game Backup Monitor</title>
+	<script type="text/javascript" language="javascript" src="script/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" language="javascript" src="script/jquery.hoverIntent.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+	<link rel="shortcut icon" href="images/gbm.ico" />
+</head>
+<body>
+
+<div id="top">
+
+	<!--Include the Header (Starts Content)-->
+	<script>
+    	$(function(){
+      		$("#header").load("header.html");
+    	});
+	</script>
+	<div id="header"></div>
+
+	<div id="content">
+
+	<div id="leftcontent">
+    	<div id="pageSection"><div id="pageSectionHeader">Wine F.A.Q</div>
+			<div id="pageSectionContent">
+                <p class="large">What is Wine?</p>
+                <ul>
+                    <li><a href="https://www.winehq.org/">Wine</a> is a compatibility layer for Linux, Mac OS and other operating systems that allows you to run Microsoft Windows applications or games.</li>
+                </ul>
+                <p class="large">Can I run GBM in Linux or other operating systems with Wine?</p>
+                <ul>
+                    <li>Yes it *should* work just fine, with some limitations.</li>
+                    <li>GBM requires .NET 4 to be installed in the Wine prefix it's running in.  The 64-bit edition of GBM will also require a 64-bit prefix.</li>                    
+                </ul>
+                <p class="large">What are the limitations of GBM while it's running in Wine?</p>
+                    <ul>
+                        <li>GBM can only detect games that are running in the same Wine prefix.  It will not be able to detect any native games or games running in a separate prefix.</li>                        
+                    </ul>
+                <p class="large">I'm having a problem while running GBM in Wine! What can I do?</p>
+                    <ul>
+                        <li>Wine is extremely good at what it does, but you may still encounter some glitches with the GBM interface or other problems.  Any major issues can be reported via github or email, but I can't promise they'll be fixed.</li> 
+                    </ul>            
+                <p class="large">Why can't I get GBM working in Wine?</p>
+                    <ul>
+                        <li>GBM is not tested with, nor designed to run on Wine.  I can make no guarantee that it's going to work well, or even at all with the various versions of Wine and operating systems available.</li>  
+                    </ul>                
+		  	</div>
+	   </div>
+	<!--End Left Panel-->
+	</div>
+
+	<!--Include the Footer-->
+	<script>
+  		$(function(){
+     			$("#footer").load("footer.html");
+   		});
+	</script>
+	<div id="footer"></div>
+
+	<!--End Content-->
+	</div>
+
+<!--End Top-->
+</div>
+</body>
+</html>
