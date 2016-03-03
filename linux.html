@@ -28,7 +28,7 @@
 			<div id="pageSectionContent">
                 <p class="large">Can I run GBM on Linux?</p>
                 <ul>
-                    <li>As of the latest v0.96 pre-release, GBM will run on Linux using Mono.</li>
+                    <li>As of the latest v0.96 pre-release, GBM will run on Linux using Mono.  You can detect and backup Linux native games and games running in Wine.</li>
                 </ul>
                 <p class="large">What's required to run GBM on Linux?</p>
                 <ul>
@@ -61,6 +61,21 @@
                     <ul>
                         <li>Download the latest package from <a href="https://github.com/MikeMaximus/gbm/releases">Releases</a> and extract it to a folder.  Navigate to the folder in a terminal and use the command <b>mono GBM.exe</b> to run it.</li>   
                     </ul>
+                <p class="large">Are there any limitations while running in Linux?</p>
+                    <ul>
+                        <li>Unfortunately there's a few:
+                            <ul>
+                                <li>The tray icon and menu will not function in Linux and are disabled.  You can minimize GBM to the task bar instead.</li>                                
+                                <li>You may encounter slight visual glitches with the interface, mostly with listbox controls.  These glitches are related to Mono and your video driver or version.</li>
+                                <li>GBM may not exit cleanly if a critical error occurs, the process will need to be killed.</li>
+                            </ul> 
+                        </li>  
+                    </ul>
+                <p class="large">How do I configure GBM to detect Wine games?</p>
+                    <ul>
+                        <li>You don't need to do anything special.  Simply set the process to the game's executable name (without the extension), exactly like you do while using GBM on Windows.</li>
+                        <li>Please note that while GBM will display the game running as "wine-preloader", it still knows game's actual working directory and will properly backup a relative path configuration.</li>
+                    </ul>
                 <p class="large">I'm getting an error message when I run GBM!</p>
                     <ul>
                         <li>The following are some common errors and the reason:
@@ -83,17 +98,7 @@
                             </ul>
                         </li>                            
                     </ul>            
-                <p class="large">Are there any limitations while running in Linux?</p>
-                    <ul>
-                        <li>Unfortunately there's a few:
-                            <ul>
-                                <li>The tray icon and menu will not function in Linux and are disabled.  You can minimize GBM to the task bar instead.</li>
-                                <li>GBM will not detect games running in Wine at this time.  You can install GBM in <a href="wine.html">Wine</a> or detect wineserver as a work around.</li>
-                                <li>You may encounter slight visual glitches with the interface, mostly with listbox controls.  These glitches are related to Mono and your video driver or version.</li>
-                                <li>GBM may not exit cleanly if a critical error occurs, the process will need to be killed.</li>
-                            </ul> 
-                        </li>  
-                    </ul>
+             
                 <p class="large">I'm having other problems running GBM in Linux!</p>
                 <ul>
                     <li>GBM in Linux is very much experimental at this time.  Please <a href="https://github.com/MikeMaximus/gbm/issues?q=is%3Aissue">report any issues</a>!</li>
