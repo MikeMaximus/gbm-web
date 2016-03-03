@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Game Backup Monitor - Automatically backup your save games and add cloud support to any game for free!" />
+	<title>Game Backup Monitor</title>
+	<script type="text/javascript" language="javascript" src="script/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" language="javascript" src="script/jquery.hoverIntent.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+	<link rel="shortcut icon" href="images/gbm.ico" />
+</head>
+<body>
+
+<div id="top">
+
+	<!--Include the Header (Starts Content)-->
+	<script>
+    	$(function(){
+      		$("#header").load("header.html");
+    	});
+	</script>
+	<div id="header"></div>
+
+	<div id="content">
+
+	<div id="leftcontent">
+    	<div id="pageSection"><div id="pageSectionHeader">Linux F.A.Q</div>
+			<div id="pageSectionContent">
+                <p class="large">Can I run GBM on Linux?</p>
+                <ul>
+                    <li>As of the latest v0.96 pre-release, GBM will run on Linux using Mono.</li>
+                </ul>
+                <p class="large">What's required to run GBM on Linux?</p>
+                <ul>
+                    <li>GBM requires a few prerequisites to be installed.  Some of these may be pre-installed on your distribution.
+                        <ul>                            
+                            <li>Mono Framework
+                                <ul>
+                                    <li>Visit <a href="http://www.mono-project.com/download/">mono-project.com</a> for the best way to install this on your distro.</li>                                    
+                                </ul>
+                            </li>
+                            <li>Mono Visual Basic .NET support and WinForms
+                                <ul>
+                                    <li>The <b>mono-vbnc</b> package and it's dependencies will cover this on Debain based distros.</li>
+                                </ul>
+                            </li>
+                            <li>SQLite3 library
+                                <ul>
+                                    <li>The <b>libsqlite3-0</b> package on Debain based distros.</li>
+                                </ul>
+                            </li>
+                            <li>7-Zip
+                                <ul>
+                                    <li>The <b>p7zip-full</b> package on Debain based distros.</li>                            
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>                    
+                </ul>
+                <p class="large">How do I install and run GBM on Linux?</p>
+                    <ul>
+                        <li>Download the latest package from <a href="https://github.com/MikeMaximus/gbm/releases">Releases</a> and extract it to a folder.  Navigate to the folder in a terminal and use the command <b>mono GBM.exe</b> to run it.</li>   
+                    </ul>
+                <p class="large">I'm getting an error message when I run GBM!</p>
+                    <ul>
+                        <li>The following are some common errors and the reason:
+                            <ul>
+                                <li>The entry point method could not be loaded.
+                                    <ul>
+                                        <li>This indicates that Mono Visual Basic or WinForms support is not installed.</li>
+                                    </ul>
+                                </li>
+                                <li>7-Zip was not found.  The application cannot continue.
+                                    <ul>
+                                        <li>This indicates that 7-Zip is not installed or that 7za is not located in /usr/bin.</li>
+                                    </ul>
+                                </li>
+                                <li>Other exceptions or crashes on startup.
+                                    <ul>
+                                        <li>Any other error message is probably related to SQLite3 not being installed or detected by Mono.</li>
+                                    </ul>
+                                </li>                                
+                            </ul>
+                        </li>                            
+                    </ul>            
+                <p class="large">Are there any limitations while running in Linux?</p>
+                    <ul>
+                        <li>Unfortunately there's a few:
+                            <ul>
+                                <li>The tray icon and menu will not function in Linux and are disabled.  You can minimize GBM to the task bar instead.</li>
+                                <li>GBM will not detect games running in Wine at this time.  You can install GBM in <a href="wine.html">Wine</a> or detect wineserver as a work around.</li>
+                                <li>You may encounter slight visual glitches with the interface, mostly with listbox controls.  These glitches are related to Mono and your video driver or version.</li>
+                                <li>GBM may not exit cleanly if a critical error occurs, the process will need to be killed.</li>
+                            </ul> 
+                        </li>  
+                    </ul>
+                <p class="large">I'm having other problems running GBM in Linux!</p>
+                <ul>
+                    <li>GBM in Linux is very much experimental at this time.  Please <a href="https://github.com/MikeMaximus/gbm/issues?q=is%3Aissue">report any issues</a>!</li>
+                </ul>
+                
+		  	</div>
+	   </div>
+	<!--End Left Panel-->
+	</div>
+
+	<!--Include the Footer-->
+	<script>
+  		$(function(){
+     			$("#footer").load("footer.html");
+   		});
+	</script>
+	<div id="footer"></div>
+
+	<!--End Content-->
+	</div>
+
+<!--End Top-->
+</div>
+</body>
+</html>
