@@ -28,7 +28,7 @@
 			<div id="pageSectionContent">
                 <p class="large">Can I run GBM on Linux?</p>
                 <ul>
-                    <li>As of the latest v0.96 pre-release, GBM will run on Linux using Mono.  You can detect and backup Linux native games and games running in Wine.</li>
+                    <li>As of the latest v0.96 pre-release, GBM will run on Linux using Mono.  You can detect and backup saved games from Linux native games and games running in Wine.</li>
                 </ul>
                 <p class="large">What's required to run GBM on Linux?</p>
                 <ul>
@@ -74,15 +74,15 @@
                     </ul>
                 <p class="large">How do I configure GBM to detect Wine games?</p>
                     <ul>
-                        <li>You don't need to do anything special.  Simply set the process to the game's executable name (without the extension), exactly like you do while using GBM on Windows.</li>
-                        <li>Please note that while GBM will display the game running as "wine-preloader", it still knows game's actual working directory and will properly backup a relative path configuration.</li>
+                        <li>You don't need to do anything special.  Simply set the configuration "Process" field to the game's Windows executable name (without the extension), exactly the same as configuring a game on Windows.</li>
+                        <li>Please note that while GBM displays games running as "wine-preloader" from the Wine folder, it still knows the game's actual working directory and will properly backup a relative path configuration.</li>                        
                     </ul>
                 <p class="large">Can GBM share the same backup folder between Linux and Windows?</p>
                     <ul>
-                        <li>Yes it can, you can play a game on Linux and restore your saved games to continue on your Windows machine and vice versa.</li>
+                        <li>Yes it can, you can play a game on Linux and have GBM restore your saved games to continue on Windows and vice versa.</li>
                         <li>There are some important tips you should know before doing this.</li>
                             <ol>
-                            	<li>Linux and Windows will very rarely share the same game configurations.  Disable the "Sync game list data with backup folder" option in Settings, then use seperate configurations on each OS with matching names.</li>
+                            	<li>Linux and Windows will rarely ever share the same backup configurations.  Disable the "Sync game list data with backup folder" option in Settings, then use seperate configurations on each OS with matching names.  This ensures you can share your saved games, but backup configurations will remain separate.</li>
                             	<li>The restore path will be displayed incorrectly when restoring saved games between operating systems, but GBM will automatically detect and fix the path when you do a restore, just choose Yes to the confirmation!</li>
                             </ol>
                         </li>
