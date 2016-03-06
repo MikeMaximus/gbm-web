@@ -28,7 +28,7 @@
 			<div id="pageSectionContent">
                 <p class="large">Can I run GBM on Linux?</p>
                 <ul>
-                    <li>As of the latest v0.96 pre-release, GBM will run on Linux using Mono.  You can detect and backup saved games from Linux native games and games running in Wine.</li>
+                    <li>As of v0.96, GBM will run on Linux using Mono.  You can detect and backup saved games from Linux native games and games running in Wine.</li>
                 </ul>
                 <p class="large">What's required to run GBM on Linux?</p>
                 <ul>
@@ -63,15 +63,10 @@
                     </ul>
                 <p class="large">Are there any limitations while running in Linux?</p>
                     <ul>
-                        <li>Unfortunately there's a few:
-                            <ul>
-                                <li>The tray icon and menu will not function in Linux and are disabled.  You can minimize GBM to the task bar instead.</li>
-                                <li>All automatic file/folder searches are disabled in Linux due to being unreliable.  This feature will be enabled again once I get around to fixing it in Mono.</li>
-                                <li>You may encounter slight visual glitches with the interface, mostly with listbox controls.  These glitches are related to Mono and your video driver or version.</li>
-                                <li>GBM may not exit cleanly if a critical error occurs, the process will need to be killed.</li>
-                            </ul> 
-                        </li>  
-                    </ul>
+                        <li>The tray icon and menu will not function in Linux and are disabled.  You can minimize GBM to the task bar instead.</li>
+                        <li>You may encounter slight visual glitches with the interface, mostly with listbox controls.  These glitches are related to Mono and your video driver/version.</li>
+                        <li>GBM may not exit cleanly if a critical error occurs, the process will need to be killed.</li>
+                    </ul> 
                 <p class="large">How do I configure GBM to detect Wine games?</p>
                     <ul>
                         <li>You don't need to do anything special.  Simply set the configuration "Process" field to the game's Windows executable name (without the extension), exactly the same as configuring a game on Windows.</li>
