@@ -8,8 +8,8 @@
 	<meta name="description" content="Game Backup Monitor - Automatically backup your save games and add cloud support to any game for free!" />
 	<title>Game Backup Monitor</title>
 	<script type="text/javascript" language="javascript" src="script/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" language="javascript" src="script/jquery.hoverIntent.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    	<script type="text/javascript" language="javascript" src="script/jquery.hoverIntent.min.js"></script>
+    	<link rel="stylesheet" type="text/css" href="styles/styles.css" />
 	<link rel="shortcut icon" href="images/gbm.ico" />
 </head>
 <body>
@@ -63,7 +63,7 @@
 				}
                 </style>
 				
-                <h3>Updated: March 8, 2016 (227 Configs)</h3>
+                <h3 class="notop">Updated: March 8, 2016 (227 Configs)</h3>
                 <script type="text/javascript" language="javascript">
                     var iCount=0;
                     var dVar;

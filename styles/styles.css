@@ -66,6 +66,16 @@ h2 {
     padding:0;
 }
 
+h3.notop {
+    margin-top:0;
+    padding-top:0;
+}
+
+h4.notop {
+    margin-top:0;
+    padding-top:0;
+}
+
 p {
     margin:0;
     padding:0;
@@ -102,6 +112,11 @@ p.bold {
 
 .underline {
     text-decoration:underline
+}
+
+ul.notop {
+    margin-top: 0;
+    padding-top: 0;
 }
 
 li {
