@@ -1,162 +1,259 @@
-<!doctype html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="description" content="Game Backup Monitor - Automatically backup your save games and add cloud support to any game for free!" />
-	<title>Game Backup Monitor</title>
-	<script type="text/javascript" language="javascript" src="script/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" language="javascript" src="script/jquery.hoverIntent.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
-	<link rel="shortcut icon" href="images/gbm.ico" />
+  <meta name="generator" content="HTML Tidy for Linux/x86 (vers 25 March 2009), see www.w3.org" />
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+  <meta name="description" content="Game Backup Monitor - Automatically backup your save games and add cloud support to any game for free!" />
+
+  <title>Game Backup Monitor</title>
+  <script type="text/javascript" language="javascript" src="script/jquery-1.10.2.min.js">
+</script>
+  <script type="text/javascript" language="javascript" src="script/jquery.hoverIntent.min.js">
+</script>
+  <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+  <link rel="shortcut icon" href="images/gbm.ico" />
 </head>
+
 <body>
+  <div id="top">
+    <!--Include the Header (Starts Content)-->
+    <script type="text/javascript">
+//<![CDATA[
+        $(function(){
+                $("#header").load("header.html");
+        });
+    //]]>
+    </script>
 
-<div id="top">
+    <div id="header"></div>
 
-	<!--Include the Header (Starts Content)-->
-	<script>
-    	$(function(){
-      		$("#header").load("header.html");
-    	});
-	</script>
-	<div id="header"></div>
+    <div id="content">
+      <div id="leftcontent">
+        <div id="pageSection">
+          <div id="pageSectionHeader">
+            Archived Version History
+          </div>
 
-	<div id="content">
+          <div id="pageSectionContent">
+            <h3>0.95</h3>
 
-	<div id="leftcontent">
-		<div id="pageSection"><div id="pageSectionHeader">Archived Version History</div>
-				<div id="pageSectionContent">
-                <h3>0.95</h3>
-                <ul>
-                    <li>Fixed a regression that caused non-critical fields (Game Path, Company, Version, Icon, Enabled, Monitor Only) to be wiped or reset on sync.</li>
-                    <li>The "Check for new backups" feature has been renamed and redesigned. Instead of an annoying pop-up, it now shows a simple notification in the main menu or tray menu.</li>
-                    <li>Added the ability to trigger backups only after a certain session time has elapsed (Global Setting), this setting will be disabled by default.</li>
-                    <li>You can now cancel out of the "Choose Game" window when GBM detects multiple games may be running.</li>
-                    <li>Added the ability to filter by game information such as name, process and company.</li>
-                    <li>Many UI improvements and fixes with filtering.  The "Tag" filter is now called "Custom" filter, due to the new options available.</li>
-                    <li>Added a new, more intuitive way of including and excluding items in a backup.  See the Game Manager section of the GBM manual for details.</li>
-                    <li>Updated the "Add Game Wizard" to use the new include / exclude and tagging features.</li>
-                    <li>Removed the special handling of DOSBox games for future proofing, DOSBox games will now be handled like all other games.</li>
-                    <li>Moved the import and export game list features from the Tools menu into the Game Manager.</li>
-                    <li>Made some visual improvements to the main app window.</li>
-                    <li>Made changes that will allow GBM to be easily translated to other languages.</li>
-                    <li>Many minor UI improvements and bug fixes.</li>
-                </ul>
-                <h3>0.94</h3>
-                <ul>                              
-                    <li>Added the ability to organize your games with Tags.  Users can create and customize their own list of Tags.</li>
-                    <li>Added the ability to filter by Tag in the Game Manager.</li>
-                    <li>Added the ability to filter by Tag when doing an XML export.</li>
-                    <li>Added the ability to disable Time Tracking.  Enabling or disabling this setting has no effect on data already recorded.</li>
-                    <li>Added the ability to restart GBM as Administrator from the status bar.</li>
-                    <li>Redesigned notifications, GBM is now silent unless a problem occurs.</li>
-                    <li>Enhanced the sync logic and performance.</li>
-                    <li>The backup "Timestamp" setting is no longer included in XML imports or exports.</li>
-                    <li>Redesigned the XML import and export core.  Sorry, this invalidates all prior XML exports files, but it will ensure future backwards compatability.</li>                        
-                </ul>
-                <h3>0.93</h3>
-                <ul>
-                    <li>GBM now handles date/time fields in an efficient manner, this will solve all issues with regional date formats.</li>
-                    <li>GBM will now gracefully exit with an error message if it detects a database version is newer than the program version itself.</li>
-                    <li>"Access Denied" errors should no longer occur when dragging shortcuts into the Add Game Wizard.</li>
-                    <li>Redesigned how the backup includes and excludes files. The changes allow for more complex backup configurations.</li>
-                    <li>Added an "Open Restore Path" button to the Game Manager, this will automatically open the current backup's restore location in Windows Explorer.</li>
-                    <li>Game names are now cropped in many places to prevent errors when messages and/or notifications exceed control limits.</li>
-                </ul>
-				<h3>0.92</h3>
-				<ul>
-					<li>GBM now properly handles detecting games in DOSBox that share the same DOS executable name.</li>
-					<li>"Start with Windows" toggle is now available in settings.  Defaults to off and applies to Current User only.</li>
-					<li>Added "Backups Only" filter option to the Game Manager, this lets you view only games that have backups.</li>
-					<li>"Backups Only" and "Pending Restore" filters will now list existing backup data for games that have been deleted from the game list.</li>
-					<li>The game list sync is now more verbose in the log.</li>
-					<li>GBM now triggers a master to local sync when the master data is changed by another application, such as your cloud client downloading an updated version of the master data after GBM is already running.</li>
-					<li>When importing game configurations, you can now choose exactly which game configurations to import.  This applies to the official list or importing an xml file.</li>
-					<li>Added a Sync toggle to Settings. Disabling sync will speed up the application for users that use GBM on a single computer.</li>
-					<li>GBM should now properly display a wait cursor in instances that the UI is unavailable.</li>
-					<li>Added a "Compact Databases" tool, this is used to rebuild GBM's databases to use an optimal amount of disk space. It shouldn't be needed often.</li>
-					<li>Game detection has been changed. It will take slightly longer for GBM detect a game but this should fix a few long outstanding issues.</li>
-					<li>Backup & Restore has been optimized to handle everything more efficiently.</li>
-					<li>GBM will now use the 2015 build of 7-Zip for compression, as well use the 64-bit version of 7z when using the 64-bit version of GBM. 64-bit users will see a huge speed improvement when backing up games with large complex saves, such as Divinity: Original Sin.</li>
-					<li>GBM now allows you to cancel monitoring via the File menu, system tray menu and monitor status button. You can also now exit the application while a game is being monitored.</li>
-					<li>The GBM system tray icon tooltip will now display it's current task.</li>
-					<li>Replaced the icons in GBM with some better looking ones, the system tray icon will now visually represent GBM's current action.</li>
-					<li>You can now cancel a backup or restore operation in progress. Intended for emergency situations only, cancelling will not undo any actions completed before the operation terminated.</li>
-					<li>GBM now uses SHA-256 to verify your backup files before restoring them. This is optional, but will be enabled by default.</li>
-					<li>Overhauled the backend, GBM will use more space to store records, but the improved database design will prevent future bugs.</li>
-					<li>GBM will now back up your configuration data automatically on a version upgrade.</li>
-					<li>Another ton of minor fixes and tweaks too various to list.</li>
-				</ul>
-				<h3>0.84</h3>
-					<ul>
-						<li>Tons of bug fixes and tweaks, GBM is stable enough to move to Beta!</li>
-						<li>Removed Backup Manager and Restore Manager.  All backup & restore functionality is now integrated into the Game Manager.</li>
-						<li>You can now backup and restore mutliple games at the same time.</li>
-						<li>You can now edit multiple games at the same time, only on toggle fields for now.</li>
-						<li>Added a "Monitor Only" option.  GBM can only monitor the time you've played a game and not trigger a backup when it's closed.</li>
-						<li>Deleting a backup will now delete the sub-folder for the game, if it's not empty a confirmation will be displayed first.</li>
-						<li>Since it can't reliably find them, GBM will no longer attempt to automatically search for dosbox games or games that share a process name.</li>
-						<li>Executing a manual backup for a game that has the same executable name as another game will no longer crash GBM.</li>
-						<li>You can now multi-select on the Game Manager screen to delete multiple games.</li>
-					</ul>
-				<h3>0.81</h3>
-					<ul>
-					    <li>Fixed a critical bug with the Game Manager which allowed you to add duplicate entries. This resulted in a crash and the inability start the app again. 0.81 fixes this bug and will repair any database broken by this issue so the app will function again. (Thanks Nirth from GOG.com)</li>
-					    <li>Fixed an annoying bug where extra game data was being lost when syncing hours spent between computers.</li>
-					    <li>Fixed a potential issue with changing the backup folder.</li>
-					    <li>The Add Game Wizard will now properly handle entries with spaces while working with the Exclude and File Type helper.</li>
-		    		</ul>
+            <ul>
+              <li>Fixed a regression that caused non-critical fields (Game Path, Company, Version, Icon, Enabled, Monitor Only) to be wiped or reset on sync.</li>
 
-				<h3>0.8</h3>
-					<ul>
-					    <li>Since it's all about the games anyway, re-branded ABM to GBM - Game Backup Monitor.</li>
-					    <li>Removed confusing utilities and screens and replaced them with a user friendly Game Manager.</li>
-					    <li>Rebuilt the Custom Path Variable screen with the new Game Manager look.</li>
-					    <li>64-bit build available, this will allow GBM to fully detect 64 bit and 32 bit applications. (32-bit will be default download)</li>
-					    <li>Switched back-end from XML to SQLite 3. Old configurations will be imported and upgraded.</li>
-					    <li>Automatic syncing of game list and applicable extra data (such as Hours played) between computers sharing the same backup folder. See "Notes on Automatic Syncing" in the manual.</li>
-					    <li>All import features redesigned to work more consistently. Added export feature.</li>
-					    <li>In the rare instance the user is asked to manually find a path, GBM will now search for the location automatically.</li>
-					</ul>
-				<h3>0.7.1.2</h3>
-					<ul>
-					    <li>Better Monitoring: You no longer need to run ABM as Administrator to monitor certain applications in 99% of situations. See "Current Limitations" for details.</li>
-					    <li>Time Tracking: ABM now tracks the amount of time spent in each application, similar to Steam.</li>
-					    <li>Search: You can now search for a specific application using the new search feature on all applicable forms.</li>
-					    <li>Application Data: You can now add or override application details by using the new "Edit Application Cache" feature.</li>
-					</ul>
+              <li>The "Check for new backups" feature has been renamed and redesigned. Instead of an annoying pop-up, it now shows a simple notification in the main menu or tray menu.</li>
 
-				<h3>0.7.0.7</h3>
-					<ul>
-					    <li>Fixed some monitor list saving and validation issues.</li>
-					    <li>Fixed the manual backup feature, required application data wasn't being cached.</li>
-						<li>Fixed possible issue with official import.</li>
-					</ul>
-				<h3>0.7.0.5</h3>
-					<ul>
-					    <li>Start-up Wizard: A simple guide to setup the basics when first starting the program.</li>
-						<li>Add Application Wizard: A more user friendly way to add applications to monitor and backup. The classic monitor list is still available for more advanced configurations and management.</li>
-					    <li>Custom Path Variables: An advanced feature to allow the configuration for more applications to be shared between computers.</li>
-					    <li>Manual Backups: Execute a backup for any monitored application on demand (some applications will be need to be detected by ABM at least once to use this feature)</li>
-						<li>Various tweaks to make things look and run a little better.</li>
-					</ul>
-				</div>
-	 	</div>
-	<!--End Left Panel-->
-	</div>
+              <li>Added the ability to trigger backups only after a certain session time has elapsed (Global Setting), this setting will be disabled by default.</li>
 
-	<!--Include the Footer-->
-	<script>
-  		$(function(){
-     			$("#footer").load("footer.html");
-   		});
-	</script>
-	<div id="footer"></div>
+              <li>You can now cancel out of the "Choose Game" window when GBM detects multiple games may be running.</li>
 
-	<!--End Content-->
-	</div>
+              <li>Added the ability to filter by game information such as name, process and company.</li>
 
-<!--End Top-->
-</div>
+              <li>Many UI improvements and fixes with filtering. The "Tag" filter is now called "Custom" filter, due to the new options available.</li>
+
+              <li>Added a new, more intuitive way of including and excluding items in a backup. See the Game Manager section of the GBM manual for details.</li>
+
+              <li>Updated the "Add Game Wizard" to use the new include / exclude and tagging features.</li>
+
+              <li>Removed the special handling of DOSBox games for future proofing, DOSBox games will now be handled like all other games.</li>
+
+              <li>Moved the import and export game list features from the Tools menu into the Game Manager.</li>
+
+              <li>Made some visual improvements to the main app window.</li>
+
+              <li>Made changes that will allow GBM to be easily translated to other languages.</li>
+
+              <li>Many minor UI improvements and bug fixes.</li>
+            </ul>
+
+            <h3>0.94</h3>
+
+            <ul>
+              <li>Added the ability to organize your games with Tags. Users can create and customize their own list of Tags.</li>
+
+              <li>Added the ability to filter by Tag in the Game Manager.</li>
+
+              <li>Added the ability to filter by Tag when doing an XML export.</li>
+
+              <li>Added the ability to disable Time Tracking. Enabling or disabling this setting has no effect on data already recorded.</li>
+
+              <li>Added the ability to restart GBM as Administrator from the status bar.</li>
+
+              <li>Redesigned notifications, GBM is now silent unless a problem occurs.</li>
+
+              <li>Enhanced the sync logic and performance.</li>
+
+              <li>The backup "Timestamp" setting is no longer included in XML imports or exports.</li>
+
+              <li>Redesigned the XML import and export core. Sorry, this invalidates all prior XML exports files, but it will ensure future backwards compatability.</li>
+            </ul>
+
+            <h3>0.93</h3>
+
+            <ul>
+              <li>GBM now handles date/time fields in an efficient manner, this will solve all issues with regional date formats.</li>
+
+              <li>GBM will now gracefully exit with an error message if it detects a database version is newer than the program version itself.</li>
+
+              <li>"Access Denied" errors should no longer occur when dragging shortcuts into the Add Game Wizard.</li>
+
+              <li>Redesigned how the backup includes and excludes files. The changes allow for more complex backup configurations.</li>
+
+              <li>Added an "Open Restore Path" button to the Game Manager, this will automatically open the current backup's restore location in Windows Explorer.</li>
+
+              <li>Game names are now cropped in many places to prevent errors when messages and/or notifications exceed control limits.</li>
+            </ul>
+
+            <h3>0.92</h3>
+
+            <ul>
+              <li>GBM now properly handles detecting games in DOSBox that share the same DOS executable name.</li>
+
+              <li>"Start with Windows" toggle is now available in settings. Defaults to off and applies to Current User only.</li>
+
+              <li>Added "Backups Only" filter option to the Game Manager, this lets you view only games that have backups.</li>
+
+              <li>"Backups Only" and "Pending Restore" filters will now list existing backup data for games that have been deleted from the game list.</li>
+
+              <li>The game list sync is now more verbose in the log.</li>
+
+              <li>GBM now triggers a master to local sync when the master data is changed by another application, such as your cloud client downloading an updated version of the master data after GBM is already running.</li>
+
+              <li>When importing game configurations, you can now choose exactly which game configurations to import. This applies to the official list or importing an xml file.</li>
+
+              <li>Added a Sync toggle to Settings. Disabling sync will speed up the application for users that use GBM on a single computer.</li>
+
+              <li>GBM should now properly display a wait cursor in instances that the UI is unavailable.</li>
+
+              <li>Added a "Compact Databases" tool, this is used to rebuild GBM's databases to use an optimal amount of disk space. It shouldn't be needed often.</li>
+
+              <li>Game detection has been changed. It will take slightly longer for GBM detect a game but this should fix a few long outstanding issues.</li>
+
+              <li>Backup &amp; Restore has been optimized to handle everything more efficiently.</li>
+
+              <li>GBM will now use the 2015 build of 7-Zip for compression, as well use the 64-bit version of 7z when using the 64-bit version of GBM. 64-bit users will see a huge speed improvement when backing up games with large complex saves, such as Divinity: Original Sin.</li>
+
+              <li>GBM now allows you to cancel monitoring via the File menu, system tray menu and monitor status button. You can also now exit the application while a game is being monitored.</li>
+
+              <li>The GBM system tray icon tooltip will now display it's current task.</li>
+
+              <li>Replaced the icons in GBM with some better looking ones, the system tray icon will now visually represent GBM's current action.</li>
+
+              <li>You can now cancel a backup or restore operation in progress. Intended for emergency situations only, cancelling will not undo any actions completed before the operation terminated.</li>
+
+              <li>GBM now uses SHA-256 to verify your backup files before restoring them. This is optional, but will be enabled by default.</li>
+
+              <li>Overhauled the backend, GBM will use more space to store records, but the improved database design will prevent future bugs.</li>
+
+              <li>GBM will now back up your configuration data automatically on a version upgrade.</li>
+
+              <li>Another ton of minor fixes and tweaks too various to list.</li>
+            </ul>
+
+            <h3>0.84</h3>
+
+            <ul>
+              <li>Tons of bug fixes and tweaks, GBM is stable enough to move to Beta!</li>
+
+              <li>Removed Backup Manager and Restore Manager. All backup &amp; restore functionality is now integrated into the Game Manager.</li>
+
+              <li>You can now backup and restore mutliple games at the same time.</li>
+
+              <li>You can now edit multiple games at the same time, only on toggle fields for now.</li>
+
+              <li>Added a "Monitor Only" option. GBM can only monitor the time you've played a game and not trigger a backup when it's closed.</li>
+
+              <li>Deleting a backup will now delete the sub-folder for the game, if it's not empty a confirmation will be displayed first.</li>
+
+              <li>Since it can't reliably find them, GBM will no longer attempt to automatically search for dosbox games or games that share a process name.</li>
+
+              <li>Executing a manual backup for a game that has the same executable name as another game will no longer crash GBM.</li>
+
+              <li>You can now multi-select on the Game Manager screen to delete multiple games.</li>
+            </ul>
+
+            <h3>0.81</h3>
+
+            <ul>
+              <li>Fixed a critical bug with the Game Manager which allowed you to add duplicate entries. This resulted in a crash and the inability start the app again. 0.81 fixes this bug and will repair any database broken by this issue so the app will function again. (Thanks Nirth from GOG.com)</li>
+
+              <li>Fixed an annoying bug where extra game data was being lost when syncing hours spent between computers.</li>
+
+              <li>Fixed a potential issue with changing the backup folder.</li>
+
+              <li>The Add Game Wizard will now properly handle entries with spaces while working with the Exclude and File Type helper.</li>
+            </ul>
+
+            <h3>0.8</h3>
+
+            <ul>
+              <li>Since it's all about the games anyway, re-branded ABM to GBM - Game Backup Monitor.</li>
+
+              <li>Removed confusing utilities and screens and replaced them with a user friendly Game Manager.</li>
+
+              <li>Rebuilt the Custom Path Variable screen with the new Game Manager look.</li>
+
+              <li>64-bit build available, this will allow GBM to fully detect 64 bit and 32 bit applications. (32-bit will be default download)</li>
+
+              <li>Switched back-end from XML to SQLite 3. Old configurations will be imported and upgraded.</li>
+
+              <li>Automatic syncing of game list and applicable extra data (such as Hours played) between computers sharing the same backup folder. See "Notes on Automatic Syncing" in the manual.</li>
+
+              <li>All import features redesigned to work more consistently. Added export feature.</li>
+
+              <li>In the rare instance the user is asked to manually find a path, GBM will now search for the location automatically.</li>
+            </ul>
+
+            <h3>0.7.1.2</h3>
+
+            <ul>
+              <li>Better Monitoring: You no longer need to run ABM as Administrator to monitor certain applications in 99% of situations. See "Current Limitations" for details.</li>
+
+              <li>Time Tracking: ABM now tracks the amount of time spent in each application, similar to Steam.</li>
+
+              <li>Search: You can now search for a specific application using the new search feature on all applicable forms.</li>
+
+              <li>Application Data: You can now add or override application details by using the new "Edit Application Cache" feature.</li>
+            </ul>
+
+            <h3>0.7.0.7</h3>
+
+            <ul>
+              <li>Fixed some monitor list saving and validation issues.</li>
+
+              <li>Fixed the manual backup feature, required application data wasn't being cached.</li>
+
+              <li>Fixed possible issue with official import.</li>
+            </ul>
+
+            <h3>0.7.0.5</h3>
+
+            <ul>
+              <li>Start-up Wizard: A simple guide to setup the basics when first starting the program.</li>
+
+              <li>Add Application Wizard: A more user friendly way to add applications to monitor and backup. The classic monitor list is still available for more advanced configurations and management.</li>
+
+              <li>Custom Path Variables: An advanced feature to allow the configuration for more applications to be shared between computers.</li>
+
+              <li>Manual Backups: Execute a backup for any monitored application on demand (some applications will be need to be detected by ABM at least once to use this feature)</li>
+
+              <li>Various tweaks to make things look and run a little better.</li>
+            </ul>
+          </div>
+        </div><!--End Left Panel-->
+      </div><!--Include the Footer-->
+      <script type="text/javascript">
+//<![CDATA[
+                $(function(){
+                        $("#footer").load("footer.html");
+                });
+      //]]>
+      </script>
+
+      <div id="footer"></div><!--End Content-->
+    </div><!--End Top-->
+  </div>
 </body>
 </html>
+

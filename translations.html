@@ -1,90 +1,123 @@
-<!doctype html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="description" content="Game Backup Monitor - Automatically backup your save games and add cloud support to any game for free!" />
-	<title>Game Backup Monitor</title>
-	<script type="text/javascript" language="javascript" src="script/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" language="javascript" src="script/jquery.hoverIntent.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
-	<link rel="shortcut icon" href="images/gbm.ico" />
+  <meta name="generator" content="HTML Tidy for Linux/x86 (vers 25 March 2009), see www.w3.org" />
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+  <meta name="description" content="Game Backup Monitor - Automatically backup your save games and add cloud support to any game for free!" />
+
+  <title>Game Backup Monitor</title>
+  <script type="text/javascript" language="javascript" src="script/jquery-1.10.2.min.js">
+</script>
+  <script type="text/javascript" language="javascript" src="script/jquery.hoverIntent.min.js">
+</script>
+  <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+  <link rel="shortcut icon" href="images/gbm.ico" />
 </head>
+
 <body>
+  <div id="top">
+    <!--Include the Header (Starts Content)-->
+    <script type="text/javascript">
+//<![CDATA[
+        $(function(){
+                $("#header").load("header.html");
+        });
+    //]]>
+    </script>
 
-<div id="top">
+    <div id="header"></div>
 
-	<!--Include the Header (Starts Content)-->
-	<script>
-    	$(function(){
-      		$("#header").load("header.html");
-    	});
-	</script>
-	<div id="header"></div>
+    <div id="content">
+      <div id="leftcontent">
+        <div id="pageSection">
+          <div id="pageSectionHeader">
+            Translation F.A.Q
+          </div>
 
-	<div id="content">
+          <div id="pageSectionContent">
+            <p class="large">Why don't YOU just translate this to other languages?</p>
 
-	<div id="leftcontent">
-    	<div id="pageSection"><div id="pageSectionHeader">Translation F.A.Q</div>
-			<div id="pageSectionContent">
-                <p class="large">Why don't YOU just translate this to other languages?</p>
-                <ul>
-                    <li>As a primary English speaker (and a little French) I just don't have the expertise, nor the money to pay someone to do this properly.</li>
-                </ul>
-                <p class="large">What do I need to start a translation project?</p>
-                <ul>
-                    <li>You'll want to install the latest version of <a href="https://www.visualstudio.com/products/visual-studio-express-vs">Visual Studio (Express or Community)</a> then <a href="https://github.com/MikeMaximus/gbm">download or clone</a> the source code of the master branch.</li>
-                </ul>
-                <p class="large">How do I get started on translating?</p>
-                    <ol>
-                        <li>Start Visual Studio.</li>
-                        <li>Open the Game Backup Monitor.sln file.</li>
-                        <li>Press ALT + F7 to open the project properties.</li>
-                        <li>Choose the "Resources" section of the properties window.</li>
-                        <li>Press ALT + 1 to choose the String resources.</li>
-                        <li>A spreadsheet will be displayed showing all the English text in the application.</li>
-                    </ol>
-                <p class="large">What's the deal with this Resources spreadsheet?</p>
-                    <ol>
-                        <li>The "Name" column is simply an identifier, and doesn't need to be changed or translated.</li>
-                        <li>The "Value" column is the actual text used by the application, this is where you translate and insert your new text for each item.</li>
-                        <li>The "Comment" column may list details to help you translate the item.</li>
-                    </ol>            
-                <p class="large">Why do some strings have [BR] and/or [PARAM] in them?</p>
-                    <ol>
-                        <li>[PARAM] indicates that variable text will be inserted into that part of string.  [PARAM] usually indicates the name of an item or a numeric value and can be determined based on the context of the string.  Feel free to <a href="mailto:gamebackupmonitor@gmail.com">ask for help</a> if you can't figure out what a [PARAM] is referring to.</li>
-                        <li>[BR] indicates a line break, which is used to help make some messages more readable.</li>
-                        <li>Please be aware that not all strings support the use of [BR] and [PARAM], do not add them to strings that don't currently use them.</li>
-                        <li>If you want to add more parameters or breaks to a string that doesn't currently support them, you'll need to modify the source code that displays that particular string.</li>
-                    </ol>
-                <p class="large">Why are there duplicates of the same string with different identifiers?</p>
-                <ul>
-                    <li>It's just easier to manage that way in the source code, and allows for certain areas of the application to have slightly different strings if it ever becomes necessary.</li>
-                </ul>
-                <p class="large">What do I do once everything is translated?</p>
-                <ul>
-                    <li>Press F5 or F7 to build the application and test it out.  You may have issues with translated text isn't fitting on certain forms, this will require you to resize some controls in the form designer.</li>
-                </ul>
-                <p class="large">Can I provide my translation to include in the official build?</p>
-                <ul>
-                    <li>I'll consider adding multi-language support to the official build, if there are enough translations to be worth the effort.  Once you're finished translating, you can <a href="mailto:gamebackupmonitor@gmail.com">email me</a> the "Resources.resx" file from your source code folder.</li>
-                </ul>                
-		  	</div>
-	   </div>
-	<!--End Left Panel-->
-	</div>
+            <ul>
+              <li>As a primary English speaker (and a little French) I just don't have the expertise, nor the money to pay someone to do this properly.</li>
+            </ul>
 
-	<!--Include the Footer-->
-	<script>
-  		$(function(){
-     			$("#footer").load("footer.html");
-   		});
-	</script>
-	<div id="footer"></div>
+            <p class="large">What do I need to start a translation project?</p>
 
-	<!--End Content-->
-	</div>
+            <ul>
+              <li>You'll want to install the latest version of <a href="https://www.visualstudio.com/products/visual-studio-express-vs">Visual Studio (Express or Community)</a> then <a href="https://github.com/MikeMaximus/gbm">download or clone</a> the source code of the master branch.</li>
+            </ul>
 
-<!--End Top-->
-</div>
+            <p class="large">How do I get started on translating?</p>
+
+            <ol>
+              <li>Start Visual Studio.</li>
+
+              <li>Open the Game Backup Monitor.sln file.</li>
+
+              <li>Press ALT + F7 to open the project properties.</li>
+
+              <li>Choose the "Resources" section of the properties window.</li>
+
+              <li>Press ALT + 1 to choose the String resources.</li>
+
+              <li>A spreadsheet will be displayed showing all the English text in the application.</li>
+            </ol>
+
+            <p class="large">What's the deal with this Resources spreadsheet?</p>
+
+            <ol>
+              <li>The "Name" column is simply an identifier, and doesn't need to be changed or translated.</li>
+
+              <li>The "Value" column is the actual text used by the application, this is where you translate and insert your new text for each item.</li>
+
+              <li>The "Comment" column may list details to help you translate the item.</li>
+            </ol>
+
+            <p class="large">Why do some strings have [BR] and/or [PARAM] in them?</p>
+
+            <ol>
+              <li>[PARAM] indicates that variable text will be inserted into that part of string. [PARAM] usually indicates the name of an item or a numeric value and can be determined based on the context of the string. Feel free to <a href="mailto:gamebackupmonitor@gmail.com">ask for help</a> if you can't figure out what a [PARAM] is referring to.</li>
+
+              <li>[BR] indicates a line break, which is used to help make some messages more readable.</li>
+
+              <li>Please be aware that not all strings support the use of [BR] and [PARAM], do not add them to strings that don't currently use them.</li>
+
+              <li>If you want to add more parameters or breaks to a string that doesn't currently support them, you'll need to modify the source code that displays that particular string.</li>
+            </ol>
+
+            <p class="large">Why are there duplicates of the same string with different identifiers?</p>
+
+            <ul>
+              <li>It's just easier to manage that way in the source code, and allows for certain areas of the application to have slightly different strings if it ever becomes necessary.</li>
+            </ul>
+
+            <p class="large">What do I do once everything is translated?</p>
+
+            <ul>
+              <li>Press F5 or F7 to build the application and test it out. You may have issues with translated text isn't fitting on certain forms, this will require you to resize some controls in the form designer.</li>
+            </ul>
+
+            <p class="large">Can I provide my translation to include in the official build?</p>
+
+            <ul>
+              <li>I'll consider adding multi-language support to the official build, if there are enough translations to be worth the effort. Once you're finished translating, you can <a href="mailto:gamebackupmonitor@gmail.com">email me</a> the "Resources.resx" file from your source code folder.</li>
+            </ul>
+          </div>
+        </div><!--End Left Panel-->
+      </div><!--Include the Footer-->
+      <script type="text/javascript">
+//<![CDATA[
+                $(function(){
+                        $("#footer").load("footer.html");
+                });
+      //]]>
+      </script>
+
+      <div id="footer"></div><!--End Content-->
+    </div><!--End Top-->
+  </div>
 </body>
 </html>
+

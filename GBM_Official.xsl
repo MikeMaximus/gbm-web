@@ -29,8 +29,11 @@
 	<div id="leftcontent">
 		<div id="pageSection"><div id="pageSectionHeader">Information</div>
 				<div id="pageSectionContent">
-					<p>This list includes games that are already pre-configured to work with GBM.</p>
-					<p>GBM supports ANY game or application once configured!</p>					
+					<p>The official list includes games that are pre-configured to work with GBM.</p>
+					<p>GBM supports ANY game or application once configured!</p>
+					<h4>The official list contains game configurations for Microsoft Windows.  Linux is not yet supported.</h4>
+					<p class="small">Tags indicate the version(s) of the game tested with GBM.</p>
+			                <p class="small">Official backup configurations exclude graphics settings, logs, screenshots and other extras when possible.</p>
 				</div>
 		</div>
 
@@ -94,10 +97,8 @@
                         document.getElementById("gButton").id = bVar;                        
                     </script>
                 </xsl:for-each>
-                <br />
-                <p class="small">Tags indicate the version(s) of the game tested with GBM.</p>
-                <p class="small">Official backup configurations exclude graphics settings, logs, screenshots and other extras when possible.</p>
-		  	</div>
+                                
+		</div>
 	   </div>
 
 
