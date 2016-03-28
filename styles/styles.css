@@ -112,9 +112,9 @@ li {
 img.centered {
     margin: 0 auto;
     display: block;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
 }
 
 img.manual {
