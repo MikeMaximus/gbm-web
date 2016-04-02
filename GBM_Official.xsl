@@ -7,7 +7,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="description" content="Game Backup Monitor - Automatically backup your save games and add cloud support to any game for free!" />
     <meta name="keywords" content="Game, Games, Save, Saves, Saved, Backup, Restore, Sync, Download, Cloud, Dropbox, GOG, Steam, Origin, Time, Monitor, PC" />
-    <meta name="author" content="Michael J. Seiferling">
+    <meta name="author" content="Michael J. Seiferling" />
         
 	<title>Game Backup Monitor [Official Game List]</title>
 	<script type="text/javascript" language="javascript" src="script/jquery-1.10.2.min.js"></script>
