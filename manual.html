@@ -28,11 +28,11 @@
     <div id="header"></div>
     <div id="content">
       <div id="leftcontent">
-        <div id="pageSection">
-          <div id="pageSectionHeader">
+        <div class="pageSection">
+          <div class="pageSectionHeader">
             Game Backup Monitor v0.96 Manual
           </div>
-          <div id="pageSectionContent">
+          <div class="pageSectionContent">
             <h3 class="notop">Updated March 27, 2015</h3>
             <h3>Disclaimer:</h3>
             <p>This manual may contain information about features not available in the current stable release.</p>
@@ -56,26 +56,26 @@
             </ol>
           </div>
         </div>
-        <div id="pageSection">
-          <div id="pageSectionHeader">
+        <div class="pageSection">
+          <div class="pageSectionHeader">
             <a name="whatis" id="whatis">What is Game Backup Monitor?</a>
           </div>
-          <div id="pageSectionContent">
+          <div class="pageSectionContent">
             <img class="manual" src="images/manual/manual_01.jpg" width="536" height="243" alt="Detection" /><br />
             <p>Game Backup Monitor is a simple, but flexible application that detects games as you play them. Once you finish playing a game, a backup of the saved games will be made automatically using 7-Zip compression. GBM can be used on a single computer, or on multiple computers to effectively add cloud support to any Windows game or application.</p>
             <p>Game Backup Monitor was designed with gaming in mind, but it can be used to monitor any application on your PC!</p>
             <h3>Game Backup Monitor is completely free and open source software.</h3>
             <h4>Game Backup Monitor is currently only available in English.</h4>
           </div>
-          <div id="pageSectionFooter">
+          <div class="PageSectionFooter">
             <a href="#toc">Back to Contents</a>
           </div>
         </div>
-        <div id="pageSection">
-          <div id="pageSectionHeader">
+        <div class="pageSection">
+          <div class="pageSectionHeader">
             <a name="requirements" id="requirements">Requirements</a>
           </div>
-          <div id="pageSectionContent">
+          <div class="pageSectionContent">
             <h4 class="notop">Verified Operating Systems:</h4>
             <p>Windows 10</p>
             <p>Ubuntu 16.04 Xenial, Linux Mint 17 Rosa</p><a href="http://www.microsoft.com/en-us/windows/default.aspx"><img class="logo" src="images/win10_logo.png" width="64" height="64" alt="Windows 10" /></a><a href="http://www.ubuntu.com"><img class="logo" src="images/ubuntu_logo.png" width="64" height="64" alt="Ubuntu" /></a><a href="http://www.linuxmint.com"><img class="logo" src="images/mint_logo.png" width="64" height="64" alt="Mint" /></a>
@@ -90,30 +90,30 @@
             <p>Windows 7 or older requires the <a href="http://www.microsoft.com/en-ca/download/details.aspx?id=24872">.NET 4 (Client Profile)</a></p>
             <p>Linux users, please read the <a href="linux.html">FAQ</a> for package requirements.</p>
           </div>
-          <div id="pageSectionFooter">
+          <div class="PageSectionFooter">
             <a href="#toc">Back to Contents</a>
           </div>
         </div>
-        <div id="pageSection">
-          <div id="pageSectionHeader">
+        <div class="pageSection">
+          <div class="pageSectionHeader">
             <a name="quickstart" id="quickstart">Quick Start</a>
           </div>
-          <div id="pageSectionContent">
+          <div class="pageSectionContent">
             <p>When the Start-up Wizard appears read the instructions and follow along.</p><img class="manual" src="images/manual/manual_02.jpg" width="361" height="264" alt="Wizard" /><br />
             <p>You'll need to set a backup folder in which GBM will store all game backups, as well as single data file (gbm.s3db) for tracking and syncing.</p>
             <p>If you're planning to use GBM to sync save games between multiple computers this can be set to a cloud folder, network folder, or even a folder on a thumb drive. All computers you're planning to use should be set to this folder in the wizard.</p>
             <p>GBM needs to know which games you want to monitor for and how to handle them. The Start-Up Wizard will allow you to download game configurations of your choosing from the official list (work in progress), or set them up yourself via the Add Game Wizard or Game Manager.</p>
             <p>Once you have a list of games setup the work is done! GBM will now monitor for each game and run a backup when it's completed.</p>
           </div>
-          <div id="pageSectionFooter">
+          <div class="PageSectionFooter">
             <a href="#toc">Back to Contents</a>
           </div>
         </div>
-        <div id="pageSection">
-          <div id="pageSectionHeader">
+        <div class="pageSection">
+          <div class="pageSectionHeader">
             <a name="mainoverview" id="mainoverview">Main Window Overview</a>
           </div>
-          <div id="pageSectionContent">
+          <div class="pageSectionContent">
             <p>The main GBM window is mostly for information display, but has some important functions.</p>
             <p>The core portion of the window displays information about any game that has been detected, or information about a backup or restore operation currently being performed.</p>
             <p>You can view a detailed log of all the actions GBM has performed in the current session by clicking "Show Log". If this log becomes too large over a session it will be auto-saved and cleared.</p><img class="manual" src="images/manual/manual_03.jpg" width="536" height="423" alt="Main Screen" /><br />
@@ -125,15 +125,15 @@
             <p>The "Cancel" button does NOT undo the operation, cancelling an operation may result in an unusable backup file or a corrupted save game. The "Cancel" button is intended for emergencies only, such as an incorrect configuration causing a lengthy backup of the wrong folder.</p>
             <p>This window can be closed the system tray, all important menu options are available from the system tray menu. The system tray icon and menu are not available in Linux.</p>
           </div>
-          <div id="pageSectionFooter">
+          <div class="PageSectionFooter">
             <a href="#toc">Back to Contents</a>
           </div>
         </div>
-        <div id="pageSection">
-          <div id="pageSectionHeader">
+        <div class="pageSection">
+          <div class="pageSectionHeader">
             <a name="settings" id="settings">Settings</a>
           </div>
-          <div id="pageSectionContent">
+          <div class="pageSectionContent">
             <p>The Settings can be found in the File menu.</p>
             <p>On this screen you can change core settings like your backup folder, or tweak a variety of minor settings to customize your experience.</p><img class="manual" src="images/manual/manual_15.jpg" width="386" height="538" alt="Settings" />
             <h3>General</h3>
@@ -171,15 +171,15 @@
             <h4>Important:</h4>
             <p>When switching between backup folders and using the "Sync game list data with backup folder" setting be sure to read any warning messages careful.</p>
           </div>
-          <div id="pageSectionFooter">
+          <div class="PageSectionFooter">
             <a href="#toc">Back to Contents</a>
           </div>
         </div>
-        <div id="pageSection">
-          <div id="pageSectionHeader">
+        <div class="pageSection">
+          <div class="pageSectionHeader">
             <a name="gamemanager" id="gamemanager">The Game Manager</a>
           </div>
-          <div id="pageSectionContent">
+          <div class="pageSectionContent">
             <img class="manual" src="images/manual/manual_06.jpg" width="786" height="588" alt="Game Manager" />
             <h3>Game Manager Quick Overview:</h3>
             <ul>
@@ -263,15 +263,15 @@
             <h4>Restore Path:</h4>
             <p>This displays the location the backup file will restore to, this may be an absolute or relative path.</p>
           </div>
-          <div id="pageSectionFooter">
+          <div class="PageSectionFooter">
             <a href="#toc">Back to Contents</a>
           </div>
         </div>
-        <div id="pageSection">
-          <div id="pageSectionHeader">
+        <div class="pageSection">
+          <div class="pageSectionHeader">
             <a name="search" id="search">Search</a>
           </div>
-          <div id="pageSectionContent">
+          <div class="pageSectionContent">
             <p>GBM has the ability to automatically search your hard drive for a specific game when it's required.</p><img class="manual" src="images/manual/manual_05.jpg" width="486" height="208" alt="Search" />
             <ul>
               <li>GBM begins searching your root drive immediately.</li>
@@ -280,15 +280,15 @@
               <li>Choose the correct path from the list box and click OK.</li>
             </ul>
           </div>
-          <div id="pageSectionFooter">
+          <div class="PageSectionFooter">
             <a href="#toc">Back to Contents</a>
           </div>
         </div>
-        <div id="pageSection">
-          <div id="pageSectionHeader">
+        <div class="pageSection">
+          <div class="pageSectionHeader">
             <a name="import" id="import">Importing Game Configurations</a>
           </div>
-          <div id="pageSectionContent">
+          <div class="pageSectionContent">
             <p>You can import pre-made backup configurations from the <a href="GBM_official.xml">official list</a> or an XML file exported from GBM.</p><img class="manual" src="images/manual/manual_16.jpg" width="586" height="438" alt="Import" />
             <ul>
               <li>The import window only shows new configurations, it will not display games you've already configured.</li>
@@ -298,15 +298,15 @@
               <li>GBM remembers all configurations you've selected, even if they are not displayed by your current filter.</li>
             </ul>
           </div>
-          <div id="pageSectionFooter">
+          <div class="PageSectionFooter">
             <a href="#toc">Back to Contents</a>
           </div>
         </div>
-        <div id="pageSection">
-          <div id="pageSectionHeader">
+        <div class="pageSection">
+          <div class="pageSectionHeader">
             <a name="customvariables" id="customvariables">Custom Path Variables</a>
           </div>
-          <div id="pageSectionContent">
+          <div class="pageSectionContent">
             <p>This screen allows you add an unlimited number of custom path variables to use in the configuration of your games.</p><img class="manual" src="images/manual/manual_09.jpg" width="586" height="288" alt="Tags" /><br />
             <p>Some applications and games store save files in common locations that can be slightly different on each computer, this feature allows you account for that and share configurations between any computer.</p>
             <p>For example, games designed for Valve's Steam service can use the Steam "userdata" folder as a common save location.</p>
@@ -316,15 +316,15 @@
             <p>Any another computer using that configuration simply has to setup the same variable and point it to the proper folder on their computer.</p>
             <p>This is an advanced feature and can be completely ignored by most users, the official pre-configured list will never contain games that use a custom path variable.</p>
           </div>
-          <div id="pageSectionFooter">
+          <div class="PageSectionFooter">
             <a href="#toc">Back to Contents</a>
           </div>
         </div>
-        <div id="pageSection">
-          <div id="pageSectionHeader">
+        <div class="pageSection">
+          <div class="pageSectionHeader">
             <a name="tools" id="tools">Tools</a>
           </div>
-          <div id="pageSectionContent">
+          <div class="pageSectionContent">
             <h4 class="notop">Clean Local Manifest</h4>
             <p>This is used to clean up the local manifest of any backup information that is no longer relevant, based on the information in the current backup folder. When backup data is deleted from one computer, other computers using GBM may still be storing data about the deleted backup that is no longer useful. The only time this tool shouldn't be used is if you are alternating between backup folders, such as using a cloud folder for small backups and external drive for large backups.</p><img class="manual" src="images/manual/manual_10.jpg" width="536" height="243" alt="Tools" />
             <h4>Compact Databases</h4>
@@ -334,15 +334,15 @@
             <h4>Log -&gt; Save</h4>
             <p>This is used to save the current session log to a text file.</p>
           </div>
-          <div id="pageSectionFooter">
+          <div class="PageSectionFooter">
             <a href="#toc">Back to Contents</a>
           </div>
         </div>
-        <div id="pageSection">
-          <div id="pageSectionHeader">
+        <div class="pageSection">
+          <div class="pageSectionHeader">
             <a name="filtering" id="filtering">Custom Filters</a>
           </div>
-          <div id="pageSectionContent">
+          <div class="pageSectionContent">
             <p>While using the Game Manager or exporting your game list to an XML file, you'll have the option to use a custom filter.</p>
             <p>You can choose to filter by Game Information OR by Tag, you can't filter by both at the same time.</p>
             <h4>Game Information</h4>
@@ -372,15 +372,15 @@
               <li>If you choose no tags to filter by, GBM will return all games with no tags.</li>
             </ul>
           </div>
-          <div id="pageSectionFooter">
+          <div class="PageSectionFooter">
             <a href="#toc">Back to Contents</a>
           </div>
         </div>
-        <div id="pageSection">
-          <div id="pageSectionHeader">
+        <div class="pageSection">
+          <div class="pageSectionHeader">
             <a name="syncing" id="syncing">Automatic Syncing (Game List)</a>
           </div>
-          <div id="pageSectionContent">
+          <div class="pageSectionContent">
             <p>GBM has an optional feature that will sync all applicable game list data between computers that share the same backup folder.</p>
             <p>All computers are synced to a single master list stored in the backup folder.</p>
             <p>This allows all computers with GBM to use the same game list and session time information!</p>
@@ -392,30 +392,30 @@
               <li>A sync from local to the master occurs anytime the local game list is changed or when the session time for a game is updated.</li>
             </ul>
           </div>
-          <div id="pageSectionFooter">
+          <div class="PageSectionFooter">
             <a href="#toc">Back to Contents</a>
           </div>
         </div>
-        <div id="pageSection">
-          <div id="pageSectionHeader">
+        <div class="pageSection">
+          <div class="pageSectionHeader">
             <a name="limitations" id="limitations">Current Limitations</a>
           </div>
-          <div id="pageSectionContent">
+          <div class="pageSectionContent">
             <p>Only one game can be detected at a time and most GBM features are locked until that game is closed.</p>
           </div>
-          <div id="pageSectionFooter">
+          <div class="PageSectionFooter">
             <a href="#toc">Back to Contents</a>
           </div>
         </div>
-        <div id="pageSection">
-          <div id="pageSectionHeader">
+        <div class="pageSection">
+          <div class="pageSectionHeader">
             <a name="techdetails" id="techdetails">Technical Details</a>
           </div>
-          <div id="pageSectionContent">
+          <div class="pageSectionContent">
             <p>All configuration data for this application is located in \Users\*Your User Name*\AppData\Local\gbm (Windows) /home/*Your User Name*/.local/share/gbm (Linux) as well as a remote data file (gbm.s3db) being stored in the backup folder.</p>
             <p>GBM must use it's own packaged copy of 7za.exe on Windows and /usr/bin/7za on Linux. This may change in a future release.</p>
           </div>
-          <div id="pageSectionFooter">
+          <div class="PageSectionFooter">
             <a href="#toc">Back to Contents</a>
           </div>
         </div><!--End Left Panel-->

@@ -268,7 +268,7 @@ td.indent {
 
 /* Main Content Styles */
 
-#pageSectionHeader {
+.pageSectionHeader {
     padding: 2px;
     font-size: 14pt;
     background-color: #2D2D2D;
@@ -278,7 +278,7 @@ td.indent {
     border-top-right-radius: 20px;
 }
 
-#pageSection {
+.pageSection {
     margin-left: 10px;
     margin-right: 5px;
     margin-top: 5px;
@@ -293,7 +293,7 @@ td.indent {
     
 }
 
-#pageSectionFooter {
+.pageSectionFooter {
     padding: 2px;
     font-size: 12pt;
     background-color: #2D2D2D;
@@ -303,7 +303,7 @@ td.indent {
     border-bottom-right-radius: 20px;
 }
 
-#pageSectionContent p {
+.pageSectionContent p {
     margin-top: 0px;
     margin-bottom: 10px;
     margin-left: 0px;
@@ -311,7 +311,7 @@ td.indent {
     padding: 0px;
 }
 
-#pageSectionContent {
+.pageSectionContent {
     padding: 10px;
     font-size: 12pt;
 }
