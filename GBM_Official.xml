@@ -62,10 +62,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -269,10 +269,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -303,10 +303,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -955,6 +955,23 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Company of Heroes (Steam Edition)</Name>
+    <ProcessName>RelicCOH</ProcessName>
+    <Path>*mydocs*\My Games\Company of Heroes Relaunch</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>Savegames:playercfg.lua</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Condemned</Name>
     <ProcessName>Condemned</ProcessName>
     <Path>*publicdocs*\Monolith Productions\Condemned\Save</Path>
@@ -1277,6 +1294,40 @@
       </Tag>
       <Tag>
         <Name>Origin</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Dreamfall</Name>
+    <ProcessName>dreamfall</ProcessName>
+    <Path>saves</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Retail</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Dreamfall Chapters</Name>
+    <ProcessName>Dreamfall Chapters</ProcessName>
+    <Path>*appdatalocal*Low\Red Thread Games\Dreamfall Chapters</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1698,6 +1749,40 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Grey Goo</Name>
+    <ProcessName>GooG</ProcessName>
+    <Path>*mydocs*\Petroglyph\Goo\Save</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Grim Dawn</Name>
+    <ProcessName>Grim Dawn</ProcessName>
+    <Path>*mydocs*\My Games\Grim Dawn\save</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Guacamelee! Super Turbo Championship Edition</Name>
     <ProcessName>GameDRMFree</ProcessName>
     <Path>*mydocs*\GuacameleeSTCE</Path>
@@ -2058,6 +2143,23 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Magicka 2</Name>
+    <ProcessName>Magicka2</ProcessName>
+    <Path>*appdataroaming*\ParadoxInteractive\Magicka2</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Majesty HD</Name>
     <ProcessName>MajestyHD</ProcessName>
     <Path>*mydocs*\My Games\MajestyHD</Path>
@@ -2190,6 +2292,23 @@
       </Tag>
       <Tag>
         <Name>Retail</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Oceanhorn - Monster of Uncharted Seas</Name>
+    <ProcessName>Oceanhorn</ProcessName>
+    <Path>SaveFiles</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3412,6 +3531,23 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>The Longest Journey</Name>
+    <ProcessName>game</ProcessName>
+    <Path>Save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
