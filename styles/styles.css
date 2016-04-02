@@ -137,6 +137,11 @@ img.manual {
     display: block;
 }
 
+img.logo {
+    margin: 0;
+    padding: 5px;
+}
+
 /* Form Class Styles */
 
 
