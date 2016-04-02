@@ -143,8 +143,8 @@
                               <tr>
                                 <td class="indent">
                                   <xsl:for-each select="Tags">
-                                    <xsl:for-each select="Tag">#
-                                    <xsl:value-of select="Name" /></xsl:for-each>
+                                    <xsl:for-each select="Tag">
+                                    #<xsl:value-of select="Name" /></xsl:for-each>
                                   </xsl:for-each>
                                 </td>
                               </tr>
