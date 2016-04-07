@@ -25,7 +25,8 @@
                 <div class="pageSectionContent">
                   <p>The official list includes games that are pre-configured to work with GBM.</p>
                   <p>GBM supports ANY game or application once configured!</p>
-                  <p>The official list contains game configurations for Microsoft Windows. Linux is not yet supported.</p>
+                  <p>Check the <a href="manual.html#import">manual</a> to learn how to easily import configurations on this list.</p>
+                  <p>The official list contains game configurations for Microsoft Windows. Linux is not yet supported.</p>                  
                 </div>
               </div>
               <div class="pageSection">
