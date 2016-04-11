@@ -90,7 +90,8 @@
                               </tr>
                               <tr>
                                 <td class="indent">
-                                  <xsl:value-of select="Path" />
+                                  <xsl:if test="Path = ''">*Process Location*</xsl:if>
+                                  <xsl:if test="Path != ''"><xsl:value-of select="Path" /></xsl:if>
                                 </td>
                               </tr>
                               <tr>
