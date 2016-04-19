@@ -245,10 +245,10 @@
   <Game>
     <Name>Baldur's Gate - Enhanced Edition</Name>
     <ProcessName>Baldur</ProcessName>
-    <Path>*mydocs*\Baldur's Gate - Enhanced Edition\save</Path>
+    <Path>*mydocs*\Baldur's Gate - Enhanced Edition</Path>
     <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
+    <FolderSave>false</FolderSave>
+    <FileType>portraits:save</FileType>
     <ExcludeList />
     <Tags>
       <Tag>
@@ -1084,6 +1084,23 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.xml</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Dark Souls 3</Name>
+    <ProcessName>DarkSoulsIII</ProcessName>
+    <Path>*appdataroaming*\DarkSoulsIII</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>GraphicsConfig.xml</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
