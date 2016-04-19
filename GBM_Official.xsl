@@ -34,8 +34,7 @@
                 <div class="pageSectionContent">
                   <script type="text/javascript" language="javascript" src="script/divexpander.js"></script>
                   <style>.myButton { background-color: #2D2D2D; width: 10px; padding-left: 1px; padding-right: 1px; margin-left: 5px; margin-right: 5px; border-style: outset; border-width: 2px; font-size: 8pt; font-family: Arial; text-align: center; display: inline-block; cursor: pointer; } .infodiv { font-size: 10pt; }</style>
-                  <h3 class="notop">Updated: April 2, 2016 (235 Configs)</h3>
-                  <p class="small bold">Click <div id="eButton" class="myButton">+</div> to view a game's save path and other configuration details.</p>
+                  <h3 class="notop">Updated: April 2, 2016 (235 Configs)</h3>                  
                   <p class="small">Official backup configurations exclude graphics settings, logs, screenshots and other extras when possible.</p>
                   <p class="small">Icons indicate the version(s) of the game tested with GBM.</p>
                   <script type="text/javascript" language="javascript">var iCount=0; var dVar; var bVar;</script>
