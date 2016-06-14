@@ -33,7 +33,7 @@
             Game Backup Monitor v0.96 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated March 27, 2015</h3>
+            <h3 class="notop">Updated June 14, 2016</h3>
             <h3>Disclaimer:</h3>
             <p>This manual may contain information about features not available in the current stable release.</p>
             <p>If you are having a specific problem, please check the <a href="https://github.com/MikeMaximus/gbm/issues">issues</a> list.</p>
@@ -134,22 +134,34 @@
             <a name="settings" id="settings">Settings</a>
           </div>
           <div class="pageSectionContent">
-            <p>The Settings can be found in the File menu.</p>
-            <p>On this screen you can change core settings like your backup folder, or tweak a variety of minor settings to customize your experience.</p><img class="manual" src="images/manual/manual_15.jpg" width="386" height="538" alt="Settings" />
+            <p>The Settings screen can be found in the File menu.</p>
+            <p>On this screen you can change core settings like your backup folder, or tweak a variety of minor settings to customize your experience.</p>
+            <p>Choose a category of settings by using the list panel on the left side of the window.</p>
+            <p>The "Set Defaults" button will revert ALL settings to their default.</p>
+            <p>Clicking Cancel or closing the window will cancel any changes made on this screen.</p>
+            <p>When modifying the backup folder or any sync settings, be sure to read any warning messages careful.</p>
             <h3>General</h3>
+            <img class="manual" src="images/manual/manual_15.jpg" width="556" height="393" alt="Settings" />
             <h4>Start with Windows:</h4>
             <p>This indicates if you want GBM to start automatically when Windows starts. This setting applies to the current user only. This setting is disabled in Linux.</p>
             <h4>Start to system tray:</h4>
             <p>This makes GBM minimize to the system tray immediately, instead of showing the main window when it starts. Recommended if you're using the Start with Windows setting. This setting is disabled in Linux.</p>
             <h4>Start monitoring at launch:</h4>
-            <p>GBM will start detecting games immediately with this setting enabled, otherwise game detection has to be manually started each time you load GBM.</p>
-            <h4>Show detection notifications:</h4>
-            <p>This will require GBM to show a standard Windows notification when a game is detected.</p>
+            <p>GBM will start detecting games immediately with this setting enabled, otherwise game detection has to be manually started each time you load GBM.</p>            
             <h4>Enable time tracking:</h4>
             <p>GBM will record and display game session times when this is enabled. When it's disabled no time data is recorded or displayed. Toggling this setting has no effect on time data that's already been recorded.</p>
-            <h4>Sync game list data with backup folder:</h4>
+            <h4>Enable Syncing:</h4>
             <p>When sharing a backup folder with multiple computers using GBM, this setting allows you to automatically keep your game data in sync between these computers. It can be disabled if you're using GBM on a single computer for a slight performance boost.</p>
+            <h4>Choose Optional Fields:</h4>
+            <p>Use this button to choose any extra data you'd like to keep in sync between computers.  Fields such as Game Path and Icon are not recommended because they may be different on each PC.</p>
+            <h4>Show detection notifications:</h4>
+            <p>This will require GBM to show a standard Windows notification when a game is detected.</p>
+            <h4>Autosave log when max length is exceeded</h4>
+            <p>This will automatically save a copy of the session log each time it's automatically cleared.</p>            
             <h3>Backup and Restore</h3>
+            <img class="manual" src="images/manual/manual_17.jpg" width="556" height="393" alt="Settings" />
+            <h4>Backup Folder:</h4>
+            <p>This is the backup folder where GBM stores all game backups and it's remote database.</p>
             <h4>Create a sub-folder for each game:</h4>
             <p>This indicates if you want GBM to create a sub-folder in the backup folder for each game. This is handy for keeping your backup folder more organized.</p>
             <h4>Disable backup confirmation:</h4>
@@ -161,15 +173,21 @@
             <h4>Notify when there are new backup files to restore:</h4>
             <p>GBM can inform you when there are new saved game backups to restore. This is only useful when you're sharing a backup folder with multiple computers.</p>
             <h4>Backup only when session time exceeds X minutes</h4>
-            <p>GBM can supress backups when a session time doesn't exceed a specific time frame. This is useful to prevent unwanted backups just because you loaded a game for a few minutes. This setting isn't related to "Enable time tracking" and works independently.</p>
-            <h3>7z Options</h3>
+            <p>GBM can suppress backups when a session time doesn't exceed a specific time frame. This is useful to prevent unwanted backups just because you loaded a game for a few minutes. This setting isn't related to "Enable time tracking" and works independently.</p>            
+            <h3>7-Zip</h3>
+            <img class="manual" src="images/manual/manual_18.jpg" width="556" height="393" alt="Settings" />
             <h4>Compression:</h4>
             <p>This allows you to set the compression level of your backups. The default is Normal. Ultra is highly recommended if you're using a modern PC.</p>
-            <h3>Paths</h3>
-            <h4>Backup Folder:</h4>
-            <p>This is the backup folder where GBM stores all game backups and it's remote database.</p>
-            <h4>Important:</h4>
-            <p>When switching between backup folders and using the "Sync game list data with backup folder" setting be sure to read any warning messages careful.</p>
+            <h4>Custom Arguments:</h4>
+            <p>This is an advanced feature that allows you to add custom arguments to GBM's 7za commands.</p>
+            <p>For example, you could add the argument "-bb1" to make 7-Zip more verbose in the session log.</p>
+            <p>Please review any available 7za documentation before adding your own arguments.</p>
+            <p class="bold">This feature should be used with caution as some arguments will interfere with the normal usage of GBM.</p>            
+            <h4>Custom Location:</h4>
+            <p>This setting allows the use of a custom version of 7-Zip Console (7za).</p>
+            <p>When left blank the default version of 7za will be used.</p>            
+            <h4>Version Information:</h4>
+            <p>This shows the product name, version and copyright information of the 7-Zip utility currently being used by GBM.</p>
           </div>
           <div class="pageSectionFooter">
             <a href="#toc">Back to Contents</a>
@@ -180,7 +198,7 @@
             <a name="gamemanager" id="gamemanager">The Game Manager</a>
           </div>
           <div class="pageSectionContent">
-            <img class="manual" src="images/manual/manual_06.jpg" width="786" height="588" alt="Game Manager" />
+            <img class="manual" src="images/manual/manual_06.jpg" width="786" height="593" alt="Game Manager" />
             <h3>Game Manager Quick Overview:</h3>
             <ul>
               <li>Add a new game to monitor by clicking the "+" (plus) button below the list box.</li>
@@ -189,6 +207,7 @@
               <li>Show only games with backup data by clicking the "Backups Only" option above the list box. This filter displays ALL games with backup data, even games that are not currently configured.</li>
               <li>Show only games with new save data to restore by clicking the "New Saves Pending" option above the list box.</li>
               <li>You can customize a list of games to display by clicking the "Custom" option above the list box.</li>
+              <li>Quickly find games by typing the name in the Quick Filter.  This filter is applied on top of any other filter you may be using.</li>
               <li>You can edit the Tags for one or more games by selecting them and clicking the "Tags..." button.</li>
               <li>Restore an existing backup for a game by selecting the game(s) from the list and clicking the "Restore" button.</li>
               <li>You can mark a game as restored without restoring the data by selecting the game(s) from the list and clicking the "Mark as Restored" button.</li>
@@ -387,8 +406,8 @@
             <p>This allows all computers with GBM to use the same game list and session time information!</p>
             <p>Syncing is enabled by default but can be disabled if you're using GBM on a single computer.</p>
             <ul>
-              <li>The sync feature can be disabled from the "Settings" screen.</li>
-              <li>When changing the location of your backup folder, GBM will detect if game list data exists and ask how you'd like sync it.</li>
+              <li>The sync feature can be disabled or modified from the "Settings" screen.</li>
+              <li>When changing any sync settings, GBM will detect if game list data exists and ask how you'd like sync it.</li>
               <li>A sync from master to local occurs when GBM is loaded, and any time GBM detects another application has changed the master list.</li>
               <li>A sync from local to the master occurs anytime the local game list is changed or when the session time for a game is updated.</li>
             </ul>
@@ -414,7 +433,7 @@
           </div>
           <div class="pageSectionContent">
             <p>All configuration data for this application is located in \Users\*Your User Name*\AppData\Local\gbm (Windows) /home/*Your User Name*/.local/share/gbm (Linux) as well as a remote data file (gbm.s3db) being stored in the backup folder.</p>
-            <p>GBM must use it's own packaged copy of 7za.exe on Windows and /usr/bin/7za on Linux. This may change in a future release.</p>
+            <p>GBM's copy of 7za.exe (Windows) or /usr/bin/7za (Linux) must exist for the application to start.</p>
           </div>
           <div class="pageSectionFooter">
             <a href="#toc">Back to Contents</a>
