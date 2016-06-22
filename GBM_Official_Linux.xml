@@ -1,6 +1,40 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
+<?xml-stylesheet type="text/xsl" href="GBM_Official_Linux.xsl"?>
 <gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Game>
+    <Name>AI War - Fleet Command</Name>
+    <ProcessName>AIWarLinux.x86_64</ProcessName>
+    <Path>RuntimeData/Save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Battle Worlds - Kronos</Name>
+    <ProcessName>BattleWorldsKronos.x86_64</ProcessName>
+    <Path>*mydocs*/Documents/BattleWorldsKronos/Profiles</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
   <Game>
     <Name>Big Pharma</Name>
     <ProcessName>Big Pharma.x86</ProcessName>
@@ -15,6 +49,23 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Din's Curse</Name>
+    <ProcessName>DinsCurse</ProcessName>
+    <Path>*mydocs*/.local/DinsCurse/User/chars</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -73,6 +124,77 @@
     </Tags>
   </Game>
   <Game>
+    <Name>I Have No Mouth and I Must Scream</Name>
+    <ProcessName>dosbox_x86_64</ProcessName>
+    <Path>../data/SCREAM</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.SAV</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>OlliOlli</Name>
+    <ProcessName>linux32</ProcessName>
+    <Path>*mydocs*/.olliolli</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>olliolli.ini</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>OlliOlli2 - Welcome to Olliwood</Name>
+    <ProcessName>olliolli2</ProcessName>
+    <Path>*mydocs*/.olliolli2</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>config.dat</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Papers, Please</Name>
+    <ProcessName>PapersPlease</ProcessName>
+    <Path>*appdatalocal*/3909/PapersPlease</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Pillars of Eternity</Name>
     <ProcessName>PillarsOfEternity</ProcessName>
     <Path>*appdatalocal*/PillarsOfEternity/SavedGames</Path>
@@ -90,9 +212,60 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Primordia</Name>
+    <ProcessName>Primordia.bin.x86_64</ProcessName>
+    <Path>*appdatalocal*/Primordia</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Project Zomboid</Name>
     <ProcessName>ProjectZomboid64</ProcessName>
     <Path>*mydocs*/Zomboid/Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Resonance</Name>
+    <ProcessName>Resonance.bin.x86_64</ProcessName>
+    <Path>*appdatalocal*/Resonance</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Rogue Legacy</Name>
+    <ProcessName>RogueCastle.bin.x86_64</ProcessName>
+    <Path>*appdatalocal*/RogueLegacyStorageContainer</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
@@ -141,6 +314,74 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Shadowgate</Name>
+    <ProcessName>Shadowgate.x86</ProcessName>
+    <Path>*appdatalocal*/Zojoi/Shadowgate</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>Settings.xml</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Shadowrun Dragonfall - Director's Cut</Name>
+    <ProcessName>Dragonfall</ProcessName>
+    <Path>*appdataroaming*/Harebrained Schemes/Shadowrun Dragonfall/Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Shadowrun Hong Kong - Extended Edition</Name>
+    <ProcessName>SRHK</ProcessName>
+    <Path>*appdataroaming*/Harebrained Schemes/Shadowrun Hong Kong/Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Shadowrun Returns</Name>
+    <ProcessName>Shadowrun</ProcessName>
+    <Path>/.config/Harebrained Schemes/Shadowrun Returns/Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Shadwen</Name>
     <ProcessName>shadwen_linux_64bit</ProcessName>
     <Path>*appdatalocal*/frozenbyte/Shadwen</Path>
@@ -148,6 +389,165 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.txt</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Shattered Haven</Name>
+    <ProcessName>ShatteredHavenLinux.x86_64</ProcessName>
+    <Path>RuntimeData/Save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Star Trek - 25th Anniversary</Name>
+    <ProcessName>dosbox_x86_64</ProcessName>
+    <Path>../data/ENG/TREKCD</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>SAVEGAME.*</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Star Trek - Judgement Rites</Name>
+    <ProcessName>dosbox_x86_64</ProcessName>
+    <Path>../data/TREK2</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>SAVEGAME.*</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>The Original Strife - Veteran Edition</Name>
+    <ProcessName>strife-ve</ProcessName>
+    <Path>*appdatalocal*/strife-ve/savegames</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>This War of Mine</Name>
+    <ProcessName>This War of Mine</ProcessName>
+    <Path>*mydocs*/.This War of Mine</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>iPhoneProfiles</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Trine 2 - Complete Story</Name>
+    <ProcessName>trine2_linux_32bit</ProcessName>
+    <Path>*mydocs*/.frozenbyte/Trine2</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.fbs</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Unepic</Name>
+    <ProcessName>unepic64gog</ProcessName>
+    <Path>*appdatalocal*/Unepic/unepic</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>config.cfg</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Volgarr the Viking</Name>
+    <ProcessName>Volgarr</ProcessName>
+    <Path>*appdataroaming*/Crazy Viking Studios/Volgarr the Viking</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>user.ini</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Xenonauts</Name>
+    <ProcessName>Xenonauts.bin.x86</ProcessName>
+    <Path>*appdatalocal*/Goldhawk Interactive/Xenonauts</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>

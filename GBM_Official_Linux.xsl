@@ -26,16 +26,17 @@
                   <p>The official list includes games that are pre-configured to work with GBM.</p>
                   <p>GBM supports ANY game or application once configured!</p>
                   <p>Check the <a href="manual.html#import">manual</a> to learn how to easily import configurations on this list.</p>
-                  <p>This list contains game configurations for Microsoft Windows.</p>                  
+                  <p>This list contains game configurations for Linux.</p>
                 </div>
               </div>
               <div class="pageSection">
-                <div class="pageSectionHeader">Game Configurations (Windows)</div>
+                <div class="pageSectionHeader">Game Configurations (Linux)</div>
                 <div class="pageSectionContent">
                   <script type="text/javascript" language="javascript" src="script/divexpander.js"></script>
                   <style>.myButton { background-color: #2D2D2D; width: 10px; padding-left: 1px; padding-right: 1px; margin-left: 5px; margin-right: 5px; border-style: outset; border-width: 2px; font-size: 8pt; font-family: Arial; text-align: center; display: inline-block; cursor: pointer; } .infodiv { font-size: 10pt; }</style>
-                  <h3 class="notop">Updated: May 18, 2016 (242 Configs)</h3>                  
+                  <h3 class="notop">Updated: June 21, 2016 (32 Configs)</h3>                  
                   <p class="small">Official backup configurations exclude graphics settings, logs, screenshots and other extras when possible.</p>
+                  <p class="small">Linux configurations always use a game's 64-bit executable when applicable.</p>
                   <p class="small">Icons indicate the version(s) of the game tested with GBM.</p>
                   <script type="text/javascript" language="javascript">var iCount=0; var dVar; var bVar;</script>
                   <table border="0">
