@@ -4,7 +4,7 @@
    
    <url>
       <loc>http://mikemaximus.github.io/gbm-web/</loc>
-      <lastmod>2016-04-02</lastmod>
+      <lastmod>2016-06-23</lastmod>
       <changefreq>always</changefreq>
       <priority>1.0</priority>
    </url>
@@ -19,6 +19,10 @@
 
    <url>
       <loc>http://mikemaximus.github.io/gbm-web/GBM_Official.xml</loc>  
+   </url>
+    
+   <url>
+      <loc>http://mikemaximus.github.io/gbm-web/GBM_Official_Linux.xml</loc>  
    </url> 
     
    <url>

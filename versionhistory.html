@@ -32,8 +32,27 @@
           <div class="pageSectionHeader">
             Archived Version History
           </div>
-          <div class="pageSectionContent">
-            <h3 class="notop">0.95</h3>
+          <div cass="pageSectionContent">
+            <h3 class="notop">0.96</h3>
+            <ul>
+              <li>(All) Modified backup and restore logic for better usability when doing batch operations and to fix Mono related issues.</li>
+              <li>(All) Overhauled the Search screen for better usability and to fix Mono related issues.</li>
+              <li>(All) Overhauled the Import screen for better usability. Added game tags, simple filtering, sorting and general fixes.</li>
+              <li>(Linux) Fixed some bad code causing the "Official Import" connection to time out when making multiple connections in the same session.</li>
+              <li>(Linux) Fixed cross-platform issues with opening backup files and restore locations from the Game Manager.</li>
+              <li>(All) Backup files opened from the Game Manager will now open directly in the app they are associated with, like 7-Zip GUI or File Roller.</li>
+              <li>(Linux) Fixed cross-platform issues with automatic file/folder searching. It's now enabled on Linux.</li>
+              <li>(All) GBM now restores saved games to the currently configured saved game path by default. The stored manfiest location is only used when there's no configuration for the game.</li>
+              <li>(Linux) Added Linux support via Mono!</li>
+              <li>(All) Replaced System.Data.SQLite with the Mono.Data.Sqlite for cross-platform support.</li>
+              <li>(Windows) Updated GBM's version of 7-Zip to 15.14 (2015-12-31)</li>
+              <li>(All) Added the ability to set the 7-Zip compression level on the Settings screen.</li>
+              <li>(Windows) GBM now deletes all user files to the Windows recycle bin by default.</li>
+              <li>(All) Added the ability to clear and save the session log from the Tools menu.</li>
+              <li>(All) GBM now auto-saves and clears the session log to %localappdata%\gbm if it reaches it's limit (2 MB).</li>
+              <li>(All) The file size will be displayed in the session log after each backup.</li>
+            </ul>    
+            <h3>0.95</h3>
             <ul>
               <li>Fixed a regression that caused non-critical fields (Game Path, Company, Version, Icon, Enabled, Monitor Only) to be wiped or reset on sync.</li>
               <li>The "Check for new backups" feature has been renamed and redesigned. Instead of an annoying pop-up, it now shows a simple notification in the main menu or tray menu.</li>
