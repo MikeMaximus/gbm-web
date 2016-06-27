@@ -11,6 +11,57 @@
     <ExcludeList />
     <Tags>
       <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>American Truck Simulator</Name>
+    <ProcessName>amtrucks</ProcessName>
+    <Path>*appdatalocal*/American Truck Simulator/profiles</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Baldur's Gate - Enhanced Edition</Name>
+    <ProcessName>BaldursGate</ProcessName>
+    <Path>*appdatalocal*/Baldur's Gate - Enhanced Edition</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>portraits:save</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Baldur's Gate 2 - Enhanced Edition</Name>
+    <ProcessName>BaldursGateII</ProcessName>
+    <Path>*appdatalocal*/Baldur's Gate II - Enhanced Edition</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
@@ -28,6 +79,23 @@
     <ExcludeList />
     <Tags>
       <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Big Pharma</Name>
+    <ProcessName>Big Pharma.x86</ProcessName>
+    <Path>*appdatalocal*/Big Pharma/Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
@@ -36,9 +104,26 @@
     </Tags>
   </Game>
   <Game>
-    <Name>Big Pharma</Name>
-    <ProcessName>Big Pharma.x86</ProcessName>
-    <Path>*appdatalocal*/Big Pharma/Saves</Path>
+    <Name>Cities - Skylines</Name>
+    <ProcessName>Cities.x64</ProcessName>
+    <Path>*appdatalocal*/Colossal Order/Cities_Skylines/Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Din's Curse</Name>
+    <ProcessName>DinsCurse</ProcessName>
+    <Path>*mydocs*/.local/DinsCurse/User/chars</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
@@ -53,13 +138,13 @@
     </Tags>
   </Game>
   <Game>
-    <Name>Din's Curse</Name>
-    <ProcessName>DinsCurse</ProcessName>
-    <Path>*mydocs*/.local/DinsCurse/User/chars</Path>
+    <Name>Divinity Original Sin - Enhanced Edition</Name>
+    <ProcessName>EoCApp</ProcessName>
+    <Path>*mydocs*/Larian Studios/Divinity Original Sin Enhanced Edition/PlayerProfiles</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList />
+    <ExcludeList>config.lsx:modsettings.lsx</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -79,10 +164,10 @@
     <ExcludeList>options.xml</ExcludeList>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -113,13 +198,13 @@
     <ExcludeList />
     <Tags>
       <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
         <Name>DOSBox</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -133,13 +218,30 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Invisible Inc</Name>
+    <ProcessName>InvisibleInc</ProcessName>
+    <Path>*appdatalocal*/Klei/InvisibleInc/saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -170,10 +272,10 @@
     <ExcludeList>config.dat</ExcludeList>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -238,10 +340,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -272,10 +374,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -289,10 +391,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -306,10 +408,10 @@
     <ExcludeList>config.cfg</ExcludeList>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -357,10 +459,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -374,10 +476,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -391,10 +493,10 @@
     <ExcludeList>*.txt</ExcludeList>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -416,6 +518,23 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Sid Meier's Civilization - Beyond Earth</Name>
+    <ProcessName>CivBE</ProcessName>
+    <Path>*appdatalocal*/aspyr-media/Sid Meier's Civilization Beyond Earth</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>Saves:UserSettings.ini</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Star Trek - 25th Anniversary</Name>
     <ProcessName>dosbox_x86_64</ProcessName>
     <Path>../data/ENG/TREKCD</Path>
@@ -428,10 +547,10 @@
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>DOSBox</Name>
       </Tag>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -445,13 +564,13 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>DOSBox</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -465,10 +584,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -482,10 +601,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -516,10 +635,10 @@
     <ExcludeList>config.cfg</ExcludeList>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
