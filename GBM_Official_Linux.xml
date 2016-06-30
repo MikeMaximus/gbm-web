@@ -1,5 +1,4 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" href="GBM_Official_Linux.xsl"?>
 <gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Game>
     <Name>AI War - Fleet Command</Name>
@@ -11,10 +10,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -28,10 +27,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -79,10 +78,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -96,10 +95,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -130,10 +129,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -147,10 +146,10 @@
     <ExcludeList>config.lsx:modsettings.lsx</ExcludeList>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -164,10 +163,10 @@
     <ExcludeList>options.xml</ExcludeList>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -198,13 +197,13 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
         <Name>DOSBox</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -218,13 +217,13 @@
     <ExcludeList />
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>DOSBox</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -242,6 +241,23 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Mark of the Ninja</Name>
+    <ProcessName>ninja-bin64</ProcessName>
+    <Path>*mydocs*/.klei/ninja/users</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>graphics.ini</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -272,10 +288,10 @@
     <ExcludeList>config.dat</ExcludeList>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -340,10 +356,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -374,10 +390,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -391,10 +407,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -408,10 +424,10 @@
     <ExcludeList>config.cfg</ExcludeList>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -459,10 +475,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -476,10 +492,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -493,10 +509,10 @@
     <ExcludeList>*.txt</ExcludeList>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -527,10 +543,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -547,10 +563,10 @@
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -564,13 +580,13 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -584,10 +600,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -601,10 +617,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -635,10 +651,10 @@
     <ExcludeList>config.cfg</ExcludeList>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
