@@ -141,6 +141,23 @@
     </Tags>
   </Game>
   <Game>
+    <Name>American Truck Simulator</Name>
+    <ProcessName>amtrucks</ProcessName>
+    <Path>*mydocs*\American Truck Simulator\profiles</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Amnesia - The Dark Descent</Name>
     <ProcessName>Amnesia</ProcessName>
     <Path>*mydocs*\Amnesia\Main</Path>
@@ -295,7 +312,7 @@
   </Game>
   <Game>
     <Name>Banished</Name>
-    <ProcessName>Application</ProcessName>
+    <ProcessName>Application-x64</ProcessName>
     <Path>*mydocs*\Banished\Save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
@@ -307,6 +324,23 @@
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Banished</Name>
+    <ProcessName>Application-x32</ProcessName>
+    <Path>*mydocs*\Banished\Save</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -698,6 +732,23 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Broforce</Name>
+    <ProcessName>Broforce_beta</ProcessName>
+    <Path>saves</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>Options.xml</ExcludeList>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1145,6 +1196,26 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Dead Space</Name>
+    <ProcessName>Dead Space</ProcessName>
+    <Path>*mydocs*\Electronic Arts\Dead Space</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>joypad_example.txt</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Origin</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Dead State</Name>
     <ProcessName>ZRPG</ProcessName>
     <Path>*mydocs*\My Games\Dead State</Path>
@@ -1282,7 +1353,7 @@
   </Game>
   <Game>
     <Name>Dragon Age - Origins</Name>
-    <ProcessName>daorigins</ProcessName>
+    <ProcessName>DAOrigins</ProcessName>
     <Path>*mydocs*\BioWare\Dragon Age\</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -1294,6 +1365,9 @@
       </Tag>
       <Tag>
         <Name>Origin</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1664,6 +1738,20 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Fallout Shelter</Name>
+    <ProcessName>FalloutShelter</ProcessName>
+    <Path>*mydocs*\My Games\Fallout Shelter</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>Fallout Shelter.log</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>FlatOut</Name>
     <ProcessName>flatout</ProcessName>
     <Path>Savegame</Path>
@@ -1834,13 +1922,13 @@
     </Tags>
   </Game>
   <Game>
-    <Name>Grim Dawn</Name>
-    <ProcessName>Grim Dawn</ProcessName>
-    <Path>*mydocs*\My Games\Grim Dawn\save</Path>
+    <Name>Guacamelee! Super Turbo Championship Edition</Name>
+    <ProcessName>GameDRMFree</ProcessName>
+    <Path>*mydocs*\GuacameleeSTCE</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList />
+    <ExcludeList>LOCALSETTINGS.DAT</ExcludeList>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1851,13 +1939,30 @@
     </Tags>
   </Game>
   <Game>
-    <Name>Guacamelee! Super Turbo Championship Edition</Name>
-    <ProcessName>GameDRMFree</ProcessName>
-    <Path>*mydocs*\GuacameleeSTCE</Path>
+    <Name>Hard Reset Redux</Name>
+    <ProcessName>hr.Win32</ProcessName>
+    <Path>*mydocs*\Hard Reset Redux\profiles</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>LOCALSETTINGS.DAT</ExcludeList>
+    <ExcludeList>config.cfg</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Hard Reset Redux</Name>
+    <ProcessName>hr.x64</ProcessName>
+    <Path>*mydocs*\Hard Reset Redux\profiles</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>config.cfg</ExcludeList>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2049,6 +2154,23 @@
       <Tag>
         <Name>ScummVM</Name>
       </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Industry Giant 2</Name>
+    <ProcessName>ig2_AddOn</ProcessName>
+    <Path>save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
       <Tag>
         <Name>GOG</Name>
       </Tag>
@@ -2670,6 +2792,26 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Project Zomboid</Name>
+    <ProcessName>java</ProcessName>
+    <Path>*currentuser*\Zomboid\Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Punch Club</Name>
     <ProcessName>Punch Club</ProcessName>
     <Path>*appdatalocal*Low\Lazy Bear Games\Punch Club</Path>
@@ -2852,7 +2994,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList />
+    <ExcludeList>config.cfg</ExcludeList>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2869,7 +3011,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList />
+    <ExcludeList>config.cfg</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2886,7 +3028,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList />
+    <ExcludeList>config.cfg</ExcludeList>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3484,6 +3626,26 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Stronghold - Kingdom Simulator</Name>
+    <ProcessName>DOSBox</ProcessName>
+    <Path>..\strong\strong.sav</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Stronghold HD</Name>
     <ProcessName>Stronghold</ProcessName>
     <Path>*mydocs*\Stronghold\Saves</Path>
@@ -3677,6 +3839,23 @@
     </Tags>
   </Game>
   <Game>
+    <Name>The Original Strife - Veteran Edition</Name>
+    <ProcessName>strife-ve</ProcessName>
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>strfsav?.ssg</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>The Settlers - Rise of an Empire</Name>
     <ProcessName>Settlers6</ProcessName>
     <Path>*mydocs*\THE SETTLERS - Rise of an Empire</Path>
@@ -3772,6 +3951,23 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>config.bin3</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>This is the Police</Name>
+    <ProcessName>Police</ProcessName>
+    <Path>*appdatalocal*Low\Weappy\This Is The Police</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>Save.xml</FileType>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>GOG</Name>
