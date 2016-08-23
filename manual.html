@@ -30,10 +30,10 @@
       <div id="leftcontent">
         <div class="pageSection">
           <div class="pageSectionHeader">
-            Game Backup Monitor v0.97 Manual
+            Game Backup Monitor v0.98 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated June 14, 2016</h3>
+            <h3 class="notop">Updated August 22, 2016</h3>
             <h3>Disclaimer:</h3>
             <p>This manual may contain information about features not available in the current stable release.</p>
             <p>If you are having a specific problem, please check the <a href="https://github.com/MikeMaximus/gbm/issues">issues</a> list.</p>
@@ -212,7 +212,7 @@
               <li>Restore an existing backup for a game by selecting the game(s) from the list and clicking the "Restore" button.</li>
               <li>You can mark a game as restored without restoring the data by selecting the game(s) from the list and clicking the "Mark as Restored" button.</li>
               <li>You can backup immediately without playing a game by selecting the game(s) from the list and click the "Backup" button.</li>
-              <li>You can delete a backup by selecting the game from the list and clicking the "Delete Backup" button.</li>
+              <li>You can delete a backup file by selecting the game from the list, choosing a specific backup and clicking the "Delete Backup" button.  You may also delete all backups for that specific game.</li>
               <li>You can locate the backup file by selecting the game and clicking the "Open Backup File" button.</li>
               <li>You can view the restore location of the backup file by selecting the game and clicking the "Open Restore Path" button.</li>
               <li>You can <a href="#import">import new game configurations</a> from the <a href="GBM_Official.xml">official list</a> or an XML file using the Import button.</li>
@@ -237,8 +237,8 @@
             <p>GBM will automatically determine absolute or relative path settings. If the save games are located in the game folder itself, you should always strive to use a path relative to the game's executable, this way your configuration will work on any PC regardless of where a game is installed. If you don't know what that means then I highly recommend using the "Add Game Wizard" to add new games.</p>
             <h4>Save Entire Folder:</h4>
             <p>This indicates if GBM should backup the entire folder indicated in the path. If you don't really know what files are important to be saving, just tick this box. Choosing this option will disable and clear any Include Items.</p>
-            <h4>Time stamp each backup:</h4>
-            <p>This indicates if you want GBM to attach a time stamp to your backup files. This allows you to have incremental backups for that game.</p>
+            <h4>Save Multiple Backups:</h4>
+            <p>This indicates if you want GBM to keep multiple backups for that game.  When using this option you can set a limit on the amount of backups to keep, this defaults to 5.  GBM will delete the oldest backup(s) automatically when new ones are made or if the limit is reduced.</p>
             <h4>Include and Exclude Items:</h4>
             <p>You can configure which file types, specific files or sub-folders should be included in or excluded from the backup using the Include / Exclude Builder.</p>
             <p>Click the Include Items... or Exclude Items.. button to launch the builder.</p>
@@ -273,12 +273,12 @@
             <h4>Monitor Only (No Backup):</h4>
             <p>This box indicates that GBM will not trigger a backup when the game is closed.</p>
             <h3>Backup Information</h3>
-            <h4>Current Backup:</h4>
-            <p>This displays information about the most current backup file.</p>
-            <h4>Local Backup:</h4>
-            <p>This displays information about the last backup or restore on the current computer.</p>
-            <h4>Backup Size:</h4>
-            <p>This displays the backup file size.</p>
+            <h4>Backup Data:</h4>
+            <p>This field lists all the available backup data.  You may select older entries if you need to restore or delete it.</p>
+            <h4>Local Data:</h4>
+            <p>This displays information about the last backup made or restored on the current computer.</p>
+            <h4>Backup File:</h4>
+            <p>This displays the backup file name and file size.</p>
             <h4>Restore Path:</h4>
             <p>This displays the location the backup file will restore to, this may be an absolute or relative path.</p>
           </div>
