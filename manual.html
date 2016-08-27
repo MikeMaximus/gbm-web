@@ -33,7 +33,7 @@
             Game Backup Monitor v0.98 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated August 25, 2016</h3>
+            <h3 class="notop">Updated August 27, 2016</h3>
             <h3>Disclaimer:</h3>
             <p>This manual may contain information about features not available in the current stable release.</p>
             <p>If you are having a specific problem, please check the <a href="https://github.com/MikeMaximus/gbm/issues">issues</a> list.</p>
@@ -238,7 +238,10 @@
             <h4>Save Entire Folder:</h4>
             <p>This indicates if GBM should backup the entire folder indicated in the path. If you don't really know what files are important to be saving, just tick this box. Choosing this option will disable and clear any Include Items.</p>
             <h4>Save Multiple Backups:</h4>
-            <p>This indicates if you want GBM to keep multiple backups for that game.  When using this option you can set a limit on the amount of backups to keep, this defaults to 5.  GBM will delete the oldest backup(s) automatically when new ones are made or if the limit is reduced.</p>
+            <p>This indicates if you want GBM to keep multiple backups for that game.  When using this option you can set a limit on the amount of backups to keep, this defaults to 5.  GBM will delete the oldest backup(s) automatically when new ones are made or if the limit is reduced.</p>            
+            <p>Expired backups are only deleted when a new backup for that particular game is made, not at the time a setting is changed.</p>
+            <p>Expired backups are not deleted automatically if the "Save multiple backups" option is disabled after being used.</p>
+            <p>All expired backups go to the Recycle Bin in Windows, but are permenantly deleted in Linux.</p>            
             <h4>Include and Exclude Items:</h4>
             <p>You can configure which file types, specific files or sub-folders should be included in or excluded from the backup using the Include / Exclude Builder.</p>
             <p>Click the Include Items... or Exclude Items.. button to launch the builder.</p>
