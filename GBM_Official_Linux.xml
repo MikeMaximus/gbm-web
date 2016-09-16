@@ -189,6 +189,23 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Euro Truck Simulator 2</Name>
+    <ProcessName>eurotrucks2</ProcessName>
+    <Path>*appdatalocal*/Euro Truck Simulator 2/profiles</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Eye of the Beholder</Name>
     <ProcessName>dosbox_x86_64</ProcessName>
     <Path>../data</Path>
@@ -263,6 +280,23 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Mount and Blade - Warband</Name>
+    <ProcessName>mb_warband_linux</ProcessName>
+    <Path>*mydocs*/.mbwarband/Savegames</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>OlliOlli</Name>
     <ProcessName>linux32</ProcessName>
     <Path>*mydocs*/.olliolli</Path>
@@ -331,6 +365,23 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Prey</Name>
+    <ProcessName>prey.x86</ProcessName>
+    <Path>*mydocs*/.prey/base</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>savegames:preykey</FileType>
+    <ExcludeList>AutoSave*:QuickSave*</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Retail</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Primordia</Name>
     <ProcessName>Primordia.bin.x86_64</ProcessName>
     <Path>*appdatalocal*/Primordia</Path>
@@ -344,6 +395,23 @@
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Prison Architect</Name>
+    <ProcessName>PrisonArchitect.x86_64</ProcessName>
+    <Path>*mydocs*/.Prison Architect</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>Campaign:saves:unlocked.txt</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -535,6 +603,23 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Shovel Knight</Name>
+    <ProcessName>ShovelKnight</ProcessName>
+    <Path>*appdatalocal*/Yacht Club Games/Shovel Knight</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>render.bin</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Sid Meier's Civilization - Beyond Earth</Name>
     <ProcessName>CivBE</ProcessName>
     <Path>*appdatalocal*/aspyr-media/Sid Meier's Civilization Beyond Earth</Path>
@@ -622,6 +707,23 @@
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>This is the Police</Name>
+    <ProcessName>Police.x86_64</ProcessName>
+    <Path>*appdataroaming*/unity3d/Weappy/This Is The Police</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>Save.xml</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
