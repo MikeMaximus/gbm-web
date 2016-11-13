@@ -28,10 +28,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -62,10 +62,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -90,10 +90,44 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Age of Decadence</Name>
+    <ProcessName>AoD64</ProcessName>
+    <Path>*mydocs*\My Games\Age Of Decadence</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Age of Wonders - Shadow Magic</Name>
     <ProcessName>AoWSMCompat</ProcessName>
     <Path>Save</Path>
     <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Alan Wake</Name>
+    <ProcessName>alanwake</ProcessName>
+    <Path>*mydocs*\Remedy\AlanWake_GOG_Version\savegames</Path>
+    <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
@@ -116,10 +150,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -133,10 +167,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -150,10 +184,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -167,10 +201,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -184,10 +218,27 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Anno 1602 - Creation of a New World</Name>
+    <ProcessName>1602</ProcessName>
+    <Path>savegame</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -218,10 +269,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -269,10 +320,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -286,10 +337,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -303,10 +354,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -320,10 +371,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -371,10 +422,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -388,13 +439,13 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -408,10 +459,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -476,30 +527,47 @@
     <ExcludeList />
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>DOSBox</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
     </Tags>
   </Game>
   <Game>
-    <Name>Bioshock 2</Name>
+    <Name>Bioshock 2 Remastered</Name>
     <ProcessName>Bioshock2</ProcessName>
-    <Path>*mydocs*\Bioshock2\SaveGames</Path>
+    <Path>*mydocs*\BioshockHD\Bioshock2\SaveGames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Bioshock Remastered</Name>
+    <ProcessName>Bioshock</ProcessName>
+    <Path>*mydocs*\BioshockHD\BioShock\SaveGames</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -530,10 +598,10 @@
     <ExcludeList>*.bwe</ExcludeList>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -547,10 +615,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -564,10 +632,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -581,10 +649,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -598,10 +666,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -649,10 +717,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -666,10 +734,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -700,10 +768,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -768,10 +836,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -785,10 +853,10 @@
     <ExcludeList>Options</ExcludeList>
     <Tags>
       <Tag>
-        <Name>Retail</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Retail</Name>
       </Tag>
     </Tags>
   </Game>
@@ -812,7 +880,7 @@
   <Game>
     <Name>Capitalism Plus</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Path />
+    <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
@@ -839,10 +907,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>DOSBox</Name>
@@ -893,10 +961,10 @@
     <ExcludeList>*.log:*.ini</ExcludeList>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -910,10 +978,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -944,13 +1012,13 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
-      </Tag>
-      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -981,10 +1049,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1015,10 +1083,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1032,10 +1100,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Retail</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Retail</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1052,10 +1120,10 @@
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1086,10 +1154,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1103,10 +1171,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1154,10 +1222,10 @@
     <ExcludeList>GraphicsConfig.xml</ExcludeList>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1171,10 +1239,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1225,10 +1293,10 @@
     <ExcludeList>crash_reports:prefs.cs:console.log:*.jpg</ExcludeList>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1242,10 +1310,10 @@
     <ExcludeList>prefs.ini:mod_status.ini:config.txt:debug:screenshots:steamfriends:webdebug</ExcludeList>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1290,13 +1358,13 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList />
+    <ExcludeList>AutoSave*:QuickSave*</ExcludeList>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1310,10 +1378,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1324,7 +1392,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>config.lsx:modsettings.lsx</ExcludeList>
+    <ExcludeList>AutoSave*:QuickSave*:config.lsx:modsettings.lsx</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1344,10 +1412,10 @@
     <ExcludeList>options.xml</ExcludeList>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1432,10 +1500,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1449,13 +1517,13 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>DOSBox</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1469,10 +1537,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1486,13 +1554,13 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1534,6 +1602,23 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Dungeon Rats</Name>
+    <ProcessName>DR64</ProcessName>
+    <Path>*mydocs*\My Games\Dungeon Rats</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Dust - An Elysian Tail</Name>
     <ProcessName>DustAET</ProcessName>
     <Path>*mydocs*\SavedGames\DustAET\Save Files</Path>
@@ -1543,10 +1628,10 @@
     <ExcludeList>Settings.sav</ExcludeList>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1568,6 +1653,23 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Enclave</Name>
+    <ProcessName>Enclave</ProcessName>
+    <Path>sbz1\save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Euro Truck Simulator 2</Name>
     <ProcessName>eurotrucks2</ProcessName>
     <Path>*mydocs*\Euro Truck Simulator 2\profiles</Path>
@@ -1577,10 +1679,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1594,10 +1696,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1611,10 +1713,10 @@
     <ExcludeList>settings.cfg</ExcludeList>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1628,10 +1730,10 @@
     <ExcludeList>settings.cfg</ExcludeList>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1679,10 +1781,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1713,10 +1815,10 @@
     <ExcludeList>*.bak:*.ini</ExcludeList>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1795,6 +1897,23 @@
     <ExcludeList />
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Freedom Force vs the 3rd Reich</Name>
+    <ProcessName>ffvt3r</ProcessName>
+    <Path>*appdatalocal*\Irrational Games\Freedom Force vs the 3rd Reich\User\SaveGames</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
@@ -1803,9 +1922,9 @@
     </Tags>
   </Game>
   <Game>
-    <Name>Freedom Force vs the 3rd Reich</Name>
-    <ProcessName>ffvt3r</ProcessName>
-    <Path>*appdatalocal*\Irrational Games\Freedom Force vs the 3rd Reich\User\SaveGames</Path>
+    <Name>Gabriel Knight - Sins of the Fathers 20th Anniversary Edition</Name>
+    <ProcessName>GK1</ProcessName>
+    <Path>*appdatalocal*Low\Phoenix Online Studios\GK1</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
@@ -1846,10 +1965,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1863,10 +1982,10 @@
     <ExcludeList>*.ini</ExcludeList>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1897,27 +2016,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Grey Goo</Name>
-    <ProcessName>GooG</ProcessName>
-    <Path>*mydocs*\Petroglyph\Goo\Save</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <Tags>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1931,10 +2033,10 @@
     <ExcludeList>LOCALSETTINGS.DAT</ExcludeList>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1948,10 +2050,10 @@
     <ExcludeList>config.cfg</ExcludeList>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1965,10 +2067,10 @@
     <ExcludeList>config.cfg</ExcludeList>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1999,10 +2101,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2033,10 +2135,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2050,10 +2152,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2084,10 +2186,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2152,13 +2254,13 @@
     <ExcludeList>*.0??:*.ini:*.exe:*.ico</ExcludeList>
     <Tags>
       <Tag>
-        <Name>ScummVM</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>ScummVM</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2189,10 +2291,10 @@
     <ExcludeList>*.ini</ExcludeList>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2248,6 +2350,26 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Jagged Alliance</Name>
+    <ProcessName>DOSBox</ProcessName>
+    <Path>..\</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.SAV</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Kerbal Space Program</Name>
     <ProcessName>KSP</ProcessName>
     <Path>saves</Path>
@@ -2274,10 +2396,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2291,10 +2413,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2325,10 +2447,10 @@
     <ExcludeList>*.txt</ExcludeList>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2376,10 +2498,10 @@
     <ExcludeList>*.ini</ExcludeList>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2410,10 +2532,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2444,10 +2566,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2459,6 +2581,23 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>No Man's Sky</Name>
+    <ProcessName>NMS</ProcessName>
+    <Path>*appdataroaming*\HelloGames\NMS</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>cache</ExcludeList>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2495,10 +2634,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2512,10 +2651,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2546,10 +2685,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2597,10 +2736,10 @@
     <ExcludeList>BINARY:loader.exe</ExcludeList>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2665,10 +2804,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2716,10 +2855,10 @@
     <ExcludeList>CONFIG00.*</ExcludeList>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2733,10 +2872,10 @@
     <ExcludeList>CONFIG00.*</ExcludeList>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2754,6 +2893,23 @@
       </Tag>
       <Tag>
         <Name>Retail</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Prince of Persia - The Sands of Time</Name>
+    <ProcessName>PrinceOfPersia</ProcessName>
+    <Path>profiles</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>SafeProfile.DAT</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2821,10 +2977,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2841,10 +2997,10 @@
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2875,10 +3031,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2892,10 +3048,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>DOSBox</Name>
@@ -2946,10 +3102,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2963,10 +3119,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2997,10 +3153,10 @@
     <ExcludeList>config.cfg</ExcludeList>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3031,10 +3187,10 @@
     <ExcludeList>config.cfg</ExcludeList>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3082,10 +3238,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3133,6 +3289,23 @@
     <ExcludeList />
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Shovel Knight</Name>
+    <ProcessName>ShovelKnight</ProcessName>
+    <Path>*appdataroaming*\Yacht Club Games\Shovel Knight</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>render.bin</ExcludeList>
+    <Tags>
+      <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
@@ -3150,10 +3323,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3218,10 +3391,10 @@
     <ExcludeList>*.ini</ExcludeList>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3233,6 +3406,23 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>SILVER.OPT</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>SimCity 3000 Unlimited</Name>
+    <ProcessName>SC3U</ProcessName>
+    <Path>..\cities</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>Scenarios:StarterTowns:Terrains:Berlin, Germany.sc3:Craterville.sc3:Europolis.sc3:Farmsville.sc3:Frankfurt, Germany.sc3:Liverpool, England.sc3:London, England.sc3:Madison, WI.sc3:Madrid, Spain.sc3:Moscow, Russia.sc3:Mount Herrang.sc3:Roadless Paradise.sc3:Sacramento, CA.sc3:Seoul, Korea.sc3:TUTORIAL.SC3</ExcludeList>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3252,10 +3442,10 @@
     <ExcludeList>Berlin:Downloads:Fairview:London:New York:San Francisco:Timbuktu</ExcludeList>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3286,10 +3476,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3303,10 +3493,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3337,10 +3527,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3354,10 +3544,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>DOSBox</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -3374,10 +3564,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>DOSBox</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -3411,13 +3601,13 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
-      </Tag>
-      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3482,10 +3672,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3499,10 +3689,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3550,10 +3740,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3567,10 +3757,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3635,10 +3825,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>DOSBox</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -3672,10 +3862,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3740,13 +3930,13 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3822,6 +4012,23 @@
     </Tags>
   </Game>
   <Game>
+    <Name>The Elder Scrolls V - Skyrim SE</Name>
+    <ProcessName>SkyrimSE</ProcessName>
+    <Path>*mydocs*\My Games\Skyrim Special Edition\Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>The Longest Journey</Name>
     <ProcessName>game</ProcessName>
     <Path>Save</Path>
@@ -3831,10 +4038,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3848,10 +4055,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3865,10 +4072,10 @@
     <ExcludeList>Config:Screenshots:Temp:UserMaps</ExcludeList>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3882,10 +4089,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>DOSBox</Name>
@@ -3902,10 +4109,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3919,10 +4126,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3936,10 +4143,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3974,6 +4181,23 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Titan Quest - Anniversary Edition</Name>
+    <ProcessName>TQ</ProcessName>
+    <Path>*mydocs*\My Games\Titan Quest - Immortal Throne\SaveData\Main</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4055,10 +4279,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Retail</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Retail</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4069,13 +4293,13 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList />
+    <ExcludeList>autosave*:quicksave*</ExcludeList>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
@@ -4092,10 +4316,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4143,10 +4367,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Retail</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Retail</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4194,10 +4418,10 @@
     <ExcludeList>*.ini</ExcludeList>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4231,13 +4455,13 @@
     <ExcludeList>wxp</ExcludeList>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Retail</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4271,13 +4495,13 @@
     <ExcludeList>w40k</ExcludeList>
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>Retail</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4291,10 +4515,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4325,10 +4549,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>DOSBox</Name>
@@ -4362,10 +4586,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4379,10 +4603,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
