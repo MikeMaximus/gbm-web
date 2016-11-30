@@ -91,7 +91,7 @@
   </Game>
   <Game>
     <Name>Age of Decadence</Name>
-    <ProcessName>AoD64</ProcessName>
+    <ProcessName>AoD</ProcessName>
     <Path>*mydocs*\My Games\Age Of Decadence</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -278,23 +278,6 @@
   </Game>
   <Game>
     <Name>Assassin's Creed</Name>
-    <ProcessName>AssassinsCreed_Dx9</ProcessName>
-    <Path>*appdataroaming*\Ubisoft\Assassin's Creed\Saved Games</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <Tags>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Assassin's Creed</Name>
     <ProcessName>AssassinsCreed_Dx10</ProcessName>
     <Path>*appdataroaming*\Ubisoft\Assassin's Creed\Saved Games</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -364,23 +347,6 @@
   <Game>
     <Name>Banished</Name>
     <ProcessName>Application-x64</ProcessName>
-    <Path>*mydocs*\Banished\Save</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Banished</Name>
-    <ProcessName>Application-x32</ProcessName>
     <Path>*mydocs*\Banished\Save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
@@ -1264,6 +1230,40 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Darksiders - Warmastered Edition</Name>
+    <ProcessName>darksiders1</ProcessName>
+    <Path>*currentuser*\Saved Games\darksiders1.exe</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Darksiders 2 - Deathinitive Edition</Name>
+    <ProcessName>Darksiders2</ProcessName>
+    <Path>*mydocs*\My Games\Darksiders2</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Dead Space</Name>
     <ProcessName>Dead Space</ProcessName>
     <Path>*mydocs*\Electronic Arts\Dead Space</Path>
@@ -2042,23 +2042,6 @@
   </Game>
   <Game>
     <Name>Hard Reset Redux</Name>
-    <ProcessName>hr.Win32</ProcessName>
-    <Path>*mydocs*\Hard Reset Redux\profiles</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList>config.cfg</ExcludeList>
-    <Tags>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Hard Reset Redux</Name>
     <ProcessName>hr.x64</ProcessName>
     <Path>*mydocs*\Hard Reset Redux\profiles</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -2132,23 +2115,6 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>Hitman.sav</FileType>
-    <ExcludeList />
-    <Tags>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Hotline Miami</Name>
-    <ProcessName>HotlineMiami_Original</ProcessName>
-    <Path>*mydocs*\My Games\HotlineMiami</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>SaveData.sav</FileType>
     <ExcludeList />
     <Tags>
       <Tag>
@@ -2659,6 +2625,23 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Offworld Trading Company</Name>
+    <ProcessName>Offworld</ProcessName>
+    <Path>*mydocs*\My Games\Offworld\Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>OlliOlli</Name>
     <ProcessName>olliolli</ProcessName>
     <Path>*appdataroaming*\olliolli</Path>
@@ -2829,42 +2812,8 @@
     </Tags>
   </Game>
   <Game>
-    <Name>Populous - The Beginning</Name>
-    <ProcessName>popTB</ProcessName>
-    <Path>save</Path>
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList>CONFIG00.*</ExcludeList>
-    <Tags>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
     <Name>Populous - Undiscovered Worlds</Name>
     <ProcessName>D3DPopTBUW</ProcessName>
-    <Path>save</Path>
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList>CONFIG00.*</ExcludeList>
-    <Tags>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Populous - Undiscovered Worlds</Name>
-    <ProcessName>popTBUW</ProcessName>
     <Path>save</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
@@ -3005,6 +2954,23 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Rebel Galaxy</Name>
+    <ProcessName>RebelGalaxyGOG</ProcessName>
+    <Path>*mydocs*\My Games\Double Damage Games\RebelGalaxy</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>screenshots:local_settings.txt:ogre.log:microcodecache11_m.bin</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Red Faction</Name>
     <ProcessName>RF</ProcessName>
     <Path>savegame</Path>
@@ -3140,23 +3106,6 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Shadow Warrior 2013 (DX 11)</Name>
-    <ProcessName>sw.Win32</ProcessName>
-    <Path>*mydocs*\Shadow Warrior DX11\profiles</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList>config.cfg</ExcludeList>
-    <Tags>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3344,23 +3293,6 @@
       </Tag>
       <Tag>
         <Name>GOG</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Sid Meier's Civilization - Beyond Earth</Name>
-    <ProcessName>CivilizationBE_Mantle</ProcessName>
-    <Path>*mydocs*\My Games\Sid Meier's Civilization Beyond Earth</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>Saves:UserSettings.ini</FileType>
-    <ExcludeList />
-    <Tags>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
