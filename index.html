@@ -44,14 +44,15 @@
           </div>
           <div class="pageSectionContent">
             <h3 class="notop">Important News</h3>
-            <ul>                
+            <ul>
+              <li>A pre-release of v1.01 will be available on or before April 1, 2017.  v1.01 has some handy new features you can read about <a href="#comingsoon">below</a>.</li>
               <li><a href="https://github.com/MikeMaximus/gbm/releases/tag/v1.0">v1.0</a> has been released! </li>              
             </ul>
             <h3>Notices</h3>
             <ul>
                 <li>Game Backup Monitor may not be fully compatible with the new Dropbox <a href="https://blogs.dropbox.com/business/2017/01/introducing-smart-sync-and-new-collaboration-tools/" target="_blank">Smart Sync</a> feature.  If you use this feature, be sure the Smart Sync setting for your GBM backup folder is set to <b>Local</b> and not Online Only.</li>
             </ul>
-            <h3>Updated February 2, 2017</h3>
+            <h3>Updated February 28, 2017</h3>
           </div>
         </div>
         <div class="pageSection">
@@ -59,19 +60,20 @@
               <a name="comingsoon">Coming Soon</a>
           </div>
           <div class="pageSectionContent">
-            <p>v1.01 is in development and will contain some great new features.</p>
 			<h3>Changes in 1.01</h3>
             <ul>
-              <li>(All) Add "Clean folder on restore" configuration option.
+              <li>(All) Add "Delete folder on restore" configuration option.
 			  <ul>
-				<li>Some games are always changing the names of their save files, resulting in a confusing mess when syncing saved games between computers over time.</li>
-				<li>This feature will recycle/trash the prior saved game folder before doing a restore.</li>
-				<li>This feature is a "per game" configuration option and comes with restrictions that will be detailed at release.</li>				
+				<li>Some games are always changing the names of their save files, resulting in a mix of old and new saved games when syncing between computers.</li>
+				<li>This feature will recycle/trash the prior saved game folder before restoring your latest saves.</li>
+				<li>You can set this option on a per game basis.</li>
+                <li>This feature can only be used on configurations that backup an entire saved game folder and do not exclude any files.</li>
 			  </ul></li>
-			  <li>(All) Add "Automatically handle new backup files" configuration option.
+			  <li>(All) Add feature(s) to automatically handle new backups when they are detected.
 			  <ul>
-				<li>This feature will automatically and intelligently handle new saved games when they are detected.</li>
-				<li>This feature is still under design and details are forthcoming.</li>
+				<li>Add option to automatically restore any new backup files when pre-requisites are met.</li>
+				<li>Add option to automatically mark new backups as restored when a game isn't currently installed.</li>
+                <li>These options are global and will be disabled by default.  For more detailed information, see the <a href="manual.html">manual</a> after v1.01 is released.</li>
 			  </ul></li>			  
             </ul>
             <h3>Notices</h3>
