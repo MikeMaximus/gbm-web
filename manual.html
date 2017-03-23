@@ -33,7 +33,7 @@
             Game Backup Monitor v1.01 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated March 15, 2017</h3>
+            <h3 class="notop">Updated March 23, 2017</h3>
             <h3>Disclaimer:</h3>
             <p>This manual may contain information about features not available in the current stable release.</p>
             <p>If you are having a specific problem, please check the <a href="https://github.com/MikeMaximus/gbm/issues">issues</a> list.</p>
@@ -165,7 +165,12 @@
             <h4>Create a sub-folder for each game:</h4>
             <p>This indicates if you want GBM to create a sub-folder in the backup folder for each game. This is handy for keeping your backup folder more organized.</p>
             <h4>Display notifications about new backups:</h4>
-            <p>This indicates if you want GBM to display a small notification on the menu bar and system tray menu when new backups are detected or restored.<br /><br />Clicking the notification will clear it and open the Game Manager when backups are manually handled.</p>
+            <p>This indicates if you want GBM to display notifications when new backups are detected or restored.<br /><br />These notifications are presented differently depending on your other settings:
+				<ul>
+					<li>When automatically restoring new backup files, standard Windows notifications are used.  These notifications are not stored in the action center when using Windows 10, this is a known issue that may be addressed in a future release.</li>
+					<li>When manually handling new backup files, a small notification will appear on the menu bar and GBM system tray menu.  Clicking this notification will take you directly to the Game Manager, where you can restore your backups as you see fit.</li>
+				</ul>
+			</p>
             <h4>Automatically restore new backups:</h4>
             <p>This indicates if GBM will automatically restore new backup files when they are detected.  GBM will automatically restore backup files only if the save folder for the game currently exists.</p>
             <p>When using cloud software (such as Dropbox) it's possible that the new backup file won't be ready to restore at the time it's detected.  GBM will check once every minute and restore the backup once it's ready, after 15 minutes this operation will time out.</p>
