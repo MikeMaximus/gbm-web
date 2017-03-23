@@ -708,6 +708,23 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Blood Bowl 2</Name>
+    <ProcessName>BloodBowl2_DX_32</ProcessName>
+    <Path>*mydocs*\BloodBowl2</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>*.log:Config.xml</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Blood II - The Chosen</Name>
     <ProcessName>BLOOD2</ProcessName>
     <Path>Save</Path>
@@ -1463,7 +1480,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList />
+    <ExcludeList>ProfileOptions_profile</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2216,8 +2233,8 @@
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
-    <FileType>atlantis.*</FileType>
-    <ExcludeList>*.0??:*.ini:*.exe:*.ico</ExcludeList>
+    <FileType>*.s??</FileType>
+    <ExcludeList>MONSTER.SOU</ExcludeList>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2227,6 +2244,26 @@
       </Tag>
       <Tag>
         <Name>ScummVM</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Indiana Jones and the Last Crusade</Name>
+    <ProcessName>scummvm</ProcessName>
+    <Path>..\</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.s??</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>ScummVM</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2353,6 +2390,23 @@
     </Tags>
   </Game>
   <Game>
+    <Name>LIMBO</Name>
+    <ProcessName>limbo</ProcessName>
+    <Path>save_game</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Legend of Grimrock</Name>
     <ProcessName>grimrock</ProcessName>
     <Path>*mydocs*\Almost Human\Legend of Grimrock</Path>
@@ -2468,6 +2522,57 @@
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Mass Effect</Name>
+    <ProcessName>MassEffect</ProcessName>
+    <Path>*mydocs*\BioWare\Mass Effect\Save</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Origin</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Mass Effect 2</Name>
+    <ProcessName>ME2Game</ProcessName>
+    <Path>*mydocs*\BioWare\Mass Effect 2\Save</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>ME1</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Origin</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Mass Effect 3</Name>
+    <ProcessName>MassEffect3</ProcessName>
+    <Path>*mydocs*\BioWare\Mass Effect 3\Save</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Origin</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2750,7 +2855,7 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
-    <ExcludeList>2.0 Save Games Backup</ExcludeList>
+    <ExcludeList />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2782,6 +2887,23 @@
     <ProcessName>CaveShooter</ProcessName>
     <Path>*appdataroaming*\PJShooter</Path>
     <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Planescape Torment</Name>
+    <ProcessName>Torment</ProcessName>
+    <Path>save</Path>
+    <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
@@ -2893,6 +3015,23 @@
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Project Highrise</Name>
+    <ProcessName>Game</ProcessName>
+    <Path>*appdatalocal*Low\SomaSim\Project Highrise</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>prefs.txt:saves</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3140,6 +3279,23 @@
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Shadow Warrior Classic Redux</Name>
+    <ProcessName>swcr</ProcessName>
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4134,6 +4290,23 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Torment - Tides of Numenera</Name>
+    <ProcessName>TidesOfNumenera</ProcessName>
+    <Path>*appdatalocal*Low\InXile Entertainment\Torment</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Trine 2</Name>
     <ProcessName>trine2_32bit</ProcessName>
     <Path>*appdataroaming*\Trine2</Path>
@@ -4187,6 +4360,23 @@
   <Game>
     <Name>Turok</Name>
     <ProcessName>sobek</ProcessName>
+    <Path>saves</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Turok 2</Name>
+    <ProcessName>horus_x64</ProcessName>
     <Path>saves</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
@@ -4522,6 +4712,23 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>XCOM 2</Name>
+    <ProcessName>XCom2</ProcessName>
+    <Path>*mydocs*\My Games\XCOM2\XComGame\SaveData</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
