@@ -2,6 +2,23 @@
 <?xml-stylesheet type="text/xsl" href="GBM_Official_Linux.xsl"?>
 <gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Game>
+    <Name>0 AD</Name>
+    <ProcessName>pyrogenesis</ProcessName>
+    <Path>*appdatalocal*/0ad/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>saves</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>AI War - Fleet Command</Name>
     <ProcessName>AIWarLinux.x86_64</ProcessName>
     <Path>RuntimeData/Save</Path>
@@ -11,10 +28,27 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Abuse</Name>
+    <ProcessName>abuse.elf</ProcessName>
+    <Path>*mydocs*/.abuse/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>save*.spe</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -28,7 +62,44 @@
     <ExcludeList />
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Arx Libertatis</Name>
+    <ProcessName>arx</ProcessName>
+    <Path>*appdatalocal*/arx</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>save</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Remake</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Astromenace</Name>
+    <ProcessName>astromenace</ProcessName>
+    <Path>*appdataroaming*/astromenace/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>amconfig.xml</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -45,10 +116,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -62,10 +133,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -79,10 +150,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -97,6 +168,23 @@
     <Tags>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Bloboats</Name>
+    <ProcessName>bloboats</ProcessName>
+    <Path>*mydocs*/.bloboats/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>players.dat</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -121,6 +209,26 @@
     </Tags>
   </Game>
   <Game>
+    <Name>CorsixTH</Name>
+    <ProcessName>CorsixTH</ProcessName>
+    <Path>*appdataroaming*/CorsixTH/Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList>Autosaves</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Remake</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Din's Curse</Name>
     <ProcessName>DinsCurse</ProcessName>
     <Path>*mydocs*/.local/DinsCurse/User/chars</Path>
@@ -130,10 +238,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -164,10 +272,10 @@
     <ExcludeList>options.xml</ExcludeList>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -181,10 +289,10 @@
     <ExcludeList>prefs</ExcludeList>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -218,10 +326,112 @@
         <Name>DOSBox</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Flare RPG</Name>
+    <ProcessName>flare</ProcessName>
+    <Path>*appdatalocal*/flare</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>saves</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Freedroid RPG</Name>
+    <ProcessName>freedroidRPG</ProcessName>
+    <Path>*mydocs*/.freedroid_rpg/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.gz:*.shp:*.png:*.bmp</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Frogatto</Name>
+    <ProcessName>game</ProcessName>
+    <Path>*mydocs*/.frogatto/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>save.cfg</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Frozen Bubble</Name>
+    <ProcessName>frozen-bubble</ProcessName>
+    <Path>*mydocs*/.frozen-bubble/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>highlevelshistory:highscores</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Gunroar</Name>
+    <ProcessName>gunroar</ProcessName>
+    <Path>*mydocs*/.gunroar/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Hedgewars</Name>
+    <ProcessName>hedgewars</ProcessName>
+    <Path>*mydocs*/.hedgewars/Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.hws</FileType>
+    <ExcludeList>LastRound*.hws</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -235,13 +445,13 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>DOSBox</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -272,10 +482,61 @@
     <ExcludeList>graphics.ini</ExcludeList>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>MegaGlest</Name>
+    <ProcessName>megaglest</ProcessName>
+    <Path>*mydocs*/.megaglest/saved</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.xml:*.jpg</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Minetest</Name>
+    <ProcessName>minetest</ProcessName>
+    <Path>*mydocs*/.minetest/worlds/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Mirror Magic</Name>
+    <ProcessName>mirrormagic</ProcessName>
+    <Path>*mydocs*/.mirrormagic/scores</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.score</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -297,6 +558,40 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Neverball</Name>
+    <ProcessName>neverball</ProcessName>
+    <Path>*mydocs*/.neverball/Scores</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.txt</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Neverputt</Name>
+    <ProcessName>neverputt</ProcessName>
+    <Path>*mydocs*/.neverball/Scores</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.txt</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>OlliOlli</Name>
     <ProcessName>linux32</ProcessName>
     <Path>*mydocs*/.olliolli</Path>
@@ -306,10 +601,10 @@
     <ExcludeList>olliolli.ini</ExcludeList>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -323,10 +618,50 @@
     <ExcludeList>config.dat</ExcludeList>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>OpenRCT2</Name>
+    <ProcessName>openrct2</ProcessName>
+    <Path>*appdataroaming*/OpenRCT2/save/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sv6</FileType>
+    <ExcludeList>autosave.sv6</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Remake</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>OpenTTD</Name>
+    <ProcessName>openttd</ProcessName>
+    <Path>*mydocs*/.openttd/save/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList>autosave</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Remake</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -340,10 +675,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -357,10 +692,27 @@
     <ExcludeList>2.0 Save Games Backup</ExcludeList>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Pingus</Name>
+    <ProcessName>pingus.bin</ProcessName>
+    <Path>*mydocs*/.pingus/savegames</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.scm</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -391,10 +743,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -425,10 +777,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -442,10 +794,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -459,10 +811,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -476,10 +828,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -493,10 +845,10 @@
     <ExcludeList>config.cfg</ExcludeList>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -510,10 +862,10 @@
     <ExcludeList>Settings.xml</ExcludeList>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -527,10 +879,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -544,10 +896,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -561,10 +913,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -578,10 +930,10 @@
     <ExcludeList>*.txt</ExcludeList>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -595,10 +947,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -612,10 +964,10 @@
     <ExcludeList>render.bin</ExcludeList>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -629,7 +981,27 @@
     <ExcludeList />
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Spring RTS</Name>
+    <ProcessName>spring</ProcessName>
+    <Path>*mydocs*/.spring</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav:Savegames</FileType>
+    <ExcludeList>AutoSave.sav</ExcludeList>
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Remake</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -646,13 +1018,13 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>DOSBox</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -666,13 +1038,64 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>DOSBox</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>SuperTux 2</Name>
+    <ProcessName>supertux2</ProcessName>
+    <Path>*appdatalocal*/supertux2/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>profile1</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>SuperTuxKart</Name>
+    <ProcessName>supertuxkart</ProcessName>
+    <Path>*appdatalocal*/supertuxkart</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>grandprix</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>The Battle for Wesnoth</Name>
+    <ProcessName>wesnoth</ProcessName>
+    <Path>*appdatalocal*/wesnoth/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>saves</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -686,10 +1109,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -703,10 +1126,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -728,6 +1151,40 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Titanion</Name>
+    <ProcessName>titanion</ProcessName>
+    <Path>*mydocs*/.titanion</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Torus Trooper</Name>
+    <ProcessName>torus-trooper</ProcessName>
+    <Path>*mydocs*/.torus-trooper</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Trine 2 - Complete Story</Name>
     <ProcessName>trine2_linux_32bit</ProcessName>
     <Path>*mydocs*/.frozenbyte/Trine2</Path>
@@ -737,10 +1194,10 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -754,10 +1211,27 @@
     <ExcludeList>config.cfg</ExcludeList>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Valyria Tear</Name>
+    <ProcessName>valyriatear</ProcessName>
+    <Path>*appdatalocal*/valyriatear/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>saved_game_*.lua</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -771,10 +1245,44 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Voxelands</Name>
+    <ProcessName>voxelands</ProcessName>
+    <Path>*appdatalocal*/voxelands</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Widelands</Name>
+    <ProcessName>widelands</ProcessName>
+    <Path>*mydocs*/.widelands/save</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.wgf</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -788,10 +1296,84 @@
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Xmoto</Name>
+    <ProcessName>xmoto</ProcessName>
+    <Path>*appdatalocal*/xmoto</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.db</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Xonotic</Name>
+    <ProcessName>xonotic-glx</ProcessName>
+    <Path>*mydocs*/.xonotic/data/data</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>campaign.cfg</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Zelda Mystery of Solarus DX</Name>
+    <ProcessName>solarus-run</ProcessName>
+    <Path>*mydocs*/.solarus/zsdx</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>save*.dat</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Remake</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Zelda Mystery of Solarus XD</Name>
+    <ProcessName>solarus-run</ProcessName>
+    <Path>*mydocs*/.solarus/zsxd</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>save*.dat</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Remake</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
