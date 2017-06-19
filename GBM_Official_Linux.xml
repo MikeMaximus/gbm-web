@@ -70,6 +70,40 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Amnesia The Dark descent</Name>
+    <ProcessName>Amnesia.bin.x86_64</ProcessName>
+    <Path>*mydocs*/.frictionalgames/Amnesia</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Antichamber</Name>
+    <ProcessName>UDKGame-Linux</ProcessName>
+    <Path>*appdatalocal*/AlexanderBruce/Antichamber</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>SavedGame.bin</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Arx Libertatis</Name>
     <ProcessName>arx</ProcessName>
     <Path>*appdatalocal*/arx</Path>
@@ -82,10 +116,10 @@
         <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>Remake</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Remake</Name>
       </Tag>
     </Tags>
   </Game>
@@ -192,6 +226,23 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Borderlands 2</Name>
+    <ProcessName>Borderlands2</ProcessName>
+    <Path>*appdatalocal*/aspyr-media/borderlands 2/willowgame/savedata</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>profile.bin:*.sav</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Cities - Skylines</Name>
     <ProcessName>Cities.x64</ProcessName>
     <Path>*appdatalocal*/Colossal Order/Cities_Skylines/Saves</Path>
@@ -221,7 +272,24 @@
         <Name>FLOSS</Name>
       </Tag>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>Remake</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Deponia The Complete Journey</Name>
+    <ProcessName>deponia_tcj</ProcessName>
+    <Path>*appdatalocal*/Daedalic Entertainment GmbH/Deponia The Complete Journey/Savegames</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.dat</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -290,6 +358,40 @@
     <Tags>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Dungeons of Dredmor</Name>
+    <ProcessName>Dredmor-x86</ProcessName>
+    <Path>*appdatalocal*/Dredmor</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>achievements.dat:collections.dat:hiscores.txt:last.txt:magicbox.dat</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Dust An Elysian Tail</Name>
+    <ProcessName>DustAET.bin.x86_64</ProcessName>
+    <Path>*appdatalocal*/DustAET</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -402,6 +504,23 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Gone Home</Name>
+    <ProcessName>GoneHome.x86_64</ProcessName>
+    <Path>*appdataroaming*/unity3d/The Fullbright Company/Gone Home</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Gunroar</Name>
     <ProcessName>gunroar</ProcessName>
     <Path>*mydocs*/.gunroar/</Path>
@@ -412,6 +531,23 @@
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Harvest Massive Encounter</Name>
+    <ProcessName>Harvest</ProcessName>
+    <Path>*mydocs*/.Harvest/profiles</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.hsg:Profile-*.cfg</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -456,6 +592,23 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Iesabel</Name>
+    <ProcessName>Iesabel.x86</ProcessName>
+    <Path>*mydocs*/.steam/steam/steamapps/common/Iesabel/Iesabel_Data/Save</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.save</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Invisible Inc</Name>
     <ProcessName>InvisibleInc</ProcessName>
     <Path>*appdatalocal*/Klei/InvisibleInc/saves</Path>
@@ -469,6 +622,74 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Kingdom Rush</Name>
+    <ProcessName>Kingdom Rush.x86</ProcessName>
+    <Path>*mydocs*/.steam/steam/steamapps/common/Kingdom Rush</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>slot*.data</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Knights of Pen and Paper +1</Name>
+    <ProcessName>knightspp.x86</ProcessName>
+    <Path>*mydocs*/.steam/steam/steamapps/common/Knights of Pen and Paper/knightspp_Data</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>data.kopp</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Knights of Pen and Paper 2</Name>
+    <ProcessName>kopp2.x86</ProcessName>
+    <Path>*appdataroaming*/unity3d/Kyy Games/Knights of Pen and Paper 2</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Little Inferno</Name>
+    <ProcessName>LittleInferno.bin.x86</ProcessName>
+    <Path>*appdatalocal*/littleinferno</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>profiles.bin</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -558,6 +779,23 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Munin</Name>
+    <ProcessName>Munin.x86_64</ProcessName>
+    <Path>*appdataroaming*/unity3d/GOJIRA/Munin</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>prefs</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Neverball</Name>
     <ProcessName>neverball</ProcessName>
     <Path>*mydocs*/.neverball/Scores</Path>
@@ -638,10 +876,10 @@
         <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>Remake</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Remake</Name>
       </Tag>
     </Tags>
   </Game>
@@ -658,10 +896,10 @@
         <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>Remake</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Remake</Name>
       </Tag>
     </Tags>
   </Game>
@@ -717,6 +955,23 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Pony Island</Name>
+    <ProcessName>PonyIsland.x86</ProcessName>
+    <Path>*appdataroaming*/unity3d/Daniel Mullins Games/Pony Island</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>prefs</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Prey</Name>
     <ProcessName>prey.x86</ProcessName>
     <Path>*mydocs*/.prey/base</Path>
@@ -756,14 +1011,14 @@
     <Path>*mydocs*/.Prison Architect</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
-    <FileType>Campaign:saves:unlocked.txt</FileType>
+    <FileType>saves:Campaign:unlocked.txt</FileType>
     <ExcludeList />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -802,6 +1057,23 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Retro City Rampage</Name>
+    <ProcessName>retrocityrampage</ProcessName>
+    <Path>*mydocs*/.steam/steam/steamapps/common/Retro City Rampage</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.rsv</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Rogue Legacy</Name>
     <ProcessName>RogueCastle.bin.x86_64</ProcessName>
     <Path>*appdatalocal*/RogueLegacyStorageContainer</Path>
@@ -812,6 +1084,23 @@
     <Tags>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Saints Row IV</Name>
+    <ProcessName>SaintsRow4.i386</ProcessName>
+    <Path>*mydocs*/.steam/steam/userdata/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>206420</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -1001,10 +1290,10 @@
         <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>Remake</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Remake</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1110,6 +1399,23 @@
     <Tags>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>The Swapper</Name>
+    <ProcessName>TheSwapper.bin.x86_64</ProcessName>
+    <Path>*appdatalocal*/Facepalm Games/The Swapper 1000/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.ini:*.pro</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -1287,6 +1593,23 @@
     </Tags>
   </Game>
   <Game>
+    <Name>World of Goo</Name>
+    <ProcessName>WorldOfGoo</ProcessName>
+    <Path>*mydocs*/.WorldOfGoo</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Xenonauts</Name>
     <ProcessName>Xenonauts.bin.x86</ProcessName>
     <Path>*appdatalocal*/Goldhawk Interactive/Xenonauts</Path>
@@ -1350,10 +1673,10 @@
         <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>Remake</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Remake</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1370,10 +1693,10 @@
         <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>Remake</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Remake</Name>
       </Tag>
     </Tags>
   </Game>
