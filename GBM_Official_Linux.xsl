@@ -34,7 +34,7 @@
                 <div class="pageSectionContent">
                   <script type="text/javascript" language="javascript" src="script/divexpander.js"></script>
                   <style>.myButton { background-color: #2D2D2D; width: 10px; padding-left: 1px; padding-right: 1px; margin-left: 5px; margin-right: 5px; border-style: outset; border-width: 2px; font-size: 8pt; font-family: Arial; text-align: center; display: inline-block; cursor: pointer; } .infodiv { font-size: 10pt; }</style>
-                  <h3 class="notop">Updated: September 15, 2016 (46 Configs)</h3>                  
+                  <h3 class="notop">Updated: June 19, 2017 (98 Configs)</h3>                  
                   <p class="small">Official configurations exclude graphics settings, logs, screenshots and other extras when possible.</p>
 				  <p class="small">Official configurations may exclude autosaves and/or quicksaves when they greatly increase backup size.</p>
                   <p class="small">Official configurations will only detect the game's default executable when multiple versions are available.</p>
