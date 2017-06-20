@@ -8,13 +8,13 @@
   <meta name="keywords" content="Game, Games, Save, Saves, Saved, Backup, Restore, Sync, Download, Cloud, Dropbox, GOG, Steam, Origin, Time, Monitor, PC" />
   <meta name="author" content="Michael J. Seiferling" />
   <title>Game Backup Monitor [Home]</title>
-
   <link rel="stylesheet" type="text/css" href="styles/styles.css" />
   <link rel="shortcut icon" href="images/gbm.ico" />
 </head>
 <body>
   <div id="top">
-    {% include header.html %}
+    <!--Include the Header (Starts Content)-->
+    {% include_relative header.html %}
     <div id="header"></div>
     <div id="content">
       <div id="leftcontent">
@@ -85,7 +85,7 @@
         </div>          
       <!--End Left Panel-->
       </div><!--Include the Footer-->
-      {% include footer.html %}
+      {% include_relative footer.html %}
       <div id="footer"></div><!--End Content-->
     </div><!--End Top-->
   </div>
