@@ -32,14 +32,11 @@
               <div class="pageSection">
                 <div class="pageSectionHeader">Game Configurations (Linux)</div>
                 <div class="pageSectionContent">
-                  <script type="text/javascript" language="javascript" src="script/divexpander.js"></script>
-                  <style>.myButton { background-color: #2D2D2D; width: 10px; padding-left: 1px; padding-right: 1px; margin-left: 5px; margin-right: 5px; border-style: outset; border-width: 2px; font-size: 8pt; font-family: Arial; text-align: center; display: inline-block; cursor: pointer; } .infodiv { font-size: 10pt; }</style>
                   <h3 class="notop">Updated: June 19, 2017 (98 Configs)</h3>                  
                   <p class="small">Official configurations exclude graphics settings, logs, screenshots and other extras when possible.</p>
 				          <p class="small">Official configurations may exclude autosaves and/or quicksaves when they greatly increase backup size.</p>
                   <p class="small">Official configurations will only detect the game's default executable when multiple versions are available.</p>
                   <p class="small">Icons indicate the version(s) of the game tested with GBM.</p>
-                  <script type="text/javascript" language="javascript">var iCount=0; var dVar; var bVar;</script>
                   <table border="0">
                     <xsl:for-each select="Game">
                       <xsl:sort select="Name" />
@@ -72,94 +69,24 @@
                             </xsl:for-each>
                           </xsl:for-each>
                         </td>
-                        <td>
-                          <xsl:value-of select="Name" />
-                          <div id="gButton" class="myButton" onmousedown="buttonpressdown(this);" onmouseup="buttonpressup(this);">+</div>
-                          <div class="infodiv" style="display:none" id="gData">
-                            <table border="0">
-                              <tr>
-                                <td>
-                                  <b>Monitored Process</b>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td class="indent">
-                                  <xsl:value-of select="ProcessName" />
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>
-                                  <b>Save Location</b>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td class="indent">
-                                  <xsl:if test="Path = ''">*Process Location*</xsl:if>
-                                  <xsl:if test="Path != ''"><xsl:value-of select="Path" /></xsl:if>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>
-                                  <b>Absolute Path</b>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td class="indent">
-                                  <xsl:if test="AbsolutePath = 'true'">Yes</xsl:if>
-                                  <xsl:if test="AbsolutePath = 'false'">No</xsl:if>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>
-                                  <b>Save Entire Folder</b>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td class="indent">
-                                  <xsl:if test="FolderSave = 'true'">Yes</xsl:if>
-                                  <xsl:if test="FolderSave = 'false'">No</xsl:if>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>
-                                  <b>Include Specific Files</b>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td class="indent">
-                                  <xsl:if test="FileType = ''">None</xsl:if>
-                                  <xsl:value-of select="FileType" />
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>
-                                  <b>Exclude Specific Files</b>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td class="indent">
-                                  <xsl:if test="ExcludeList = ''">None</xsl:if>
-                                  <xsl:value-of select="ExcludeList" />
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>
-                                  <b>Tags</b>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td class="indent">
-                                  <xsl:for-each select="Tags">
-                                    <xsl:for-each select="Tag">
-                                    #<xsl:value-of select="Name" /></xsl:for-each>
-                                  </xsl:for-each>
-                                </td>
-                              </tr>
-                            </table>
-                          </div>
+                        <td>                          
+                          <ul class="tree">
+                          <li>
+                            <input type="checkbox"><xsl:attribute name="id"><xsl:value-of select="Name"/><xsl:value-of select="ProcessName"/></xsl:attribute></input>
+                            <label class="tree_label"><xsl:attribute name="for"><xsl:value-of select="Name"/><xsl:value-of select="ProcessName"/></xsl:attribute><xsl:value-of select="Name" /></label>
+                            <ul>
+                              <li><span class="tree_label"><b>Monitored Process</b></span><div class="indent"><xsl:value-of select="ProcessName" /></div></li>
+                              <li><span class="tree_label"><b>Save Location</b></span><div class="indent"><xsl:if test="Path = ''">*Process Location*</xsl:if><xsl:if test="Path != ''"><xsl:value-of select="Path" /></xsl:if></div></li>
+                              <li><span class="tree_label"><b>Absolute Path</b></span><div class="indent"><xsl:if test="AbsolutePath = 'true'">Yes</xsl:if><xsl:if test="AbsolutePath = 'false'">No</xsl:if></div></li>
+                              <li><span class="tree_label"><b>Save Entire Folder</b></span><div class="indent"><xsl:if test="FolderSave = 'true'">Yes</xsl:if><xsl:if test="FolderSave = 'false'">No</xsl:if></div></li>
+                              <li><span class="tree_label"><b>Include Specific Files</b></span><div class="indent"><xsl:if test="FileType = ''">None</xsl:if><xsl:value-of select="FileType" /></div></li>
+                              <li><span class="tree_label"><b>Exclude Specific Files</b></span><div class="indent"><xsl:if test="ExcludeList = ''">None</xsl:if><xsl:value-of select="ExcludeList" /></div></li>
+                              <li><span class="tree_label"><b>Tags</b></span><div class="indent"><xsl:for-each select="Tags"><xsl:for-each select="Tag">#<xsl:value-of select="Name" />&#160;</xsl:for-each></xsl:for-each></div></li>   
+                            </ul>
+                          </li>
+                          </ul>
                         </td>
                       </tr>
-                      <script type="text/javascript" language="javascript">iCount++; dVar = "d" + iCount; bVar = "b" + iCount; document.getElementById("gData").id = dVar; document.getElementById("gButton").onclick = new Function("expandcollapse('" + dVar +"',this)"); document.getElementById("gButton").id = bVar;</script>
                     </xsl:for-each>
                   </table>
                 </div>

@@ -160,7 +160,7 @@ td.list_logos {
     text-align: right;
 }
 
-td.indent {
+.indent {
     padding-left: 15px;
 }
 
@@ -422,6 +422,69 @@ html ul.topnav li ul.subnav li a:hover { /*--Hover effect for subnav links--*/
     border-bottom-right-radius: 10px;
 }
 
+/* ————————————————————–
+  Tree core styles
+*/
+.tree { 
+  margin: 2px; 
+  list-style: none;
+  }
+
+.tree input {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  }
+
+.tree input ~ ul { display: none; }
+
+.tree input:checked ~ ul { display: block; }
+
+/* ————————————————————–
+  Tree rows
+*/
+.tree li {
+  line-height: 1.2;
+  position: relative;
+  padding: 0 0 2px 2px;
+  }
+
+.tree ul li {
+  margin-left: -2.5em; 
+  padding: 5px 0 0 2px; 
+  list-style: none;
+  }
+
+.tree > li:last-child { padding-bottom: 0; }
+
+/* ————————————————————–
+  Tree labels
+*/
+.tree_label {
+  position: relative;
+  display: inline-block;
+  background: #202020;
+  }
+
+label.tree_label { cursor: pointer; }
+
+/* ————————————————————–
+  Tree expanded icon
+*/
+label.tree_label:before {
+  background: #fff;
+  color: #000;
+  position: relative;
+  z-index: 1;
+  float: left;
+  margin: 0 1em 0 -2em;
+  width: 1em;
+  height: 1em;
+  content: '+';
+  text-align: center;
+  line-height: .9em;
+  }
+
+:checked ~ label.tree_label:before { content: '–'; }
 
 /* Link Styles */
 
