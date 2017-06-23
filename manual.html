@@ -241,10 +241,10 @@
             <p>Multiple entries with the same process are allowed, this is to handle games that use the same name for their executable.</p>
             <p>Games running in emulators, interpreters and virtual machines such as DOSBox and ScummVM are also supported. But must meet specific conditions to be detected: 
             <ol>
-              <li>Each game uses it's own copy of the emulator software in a unique location, major retailers such as GOG and Steam do this by default.  No special setup is required, you simply need to use the process name (Ex. DOSBox / scummvm) and set the "Game Path" under Game Information.</li>
+              <li>Each game uses it's own copy of the emulator software in a unique location, major retailers such as GOG and Steam do this by default.  No special setup is required, you simply need to use the process name of the emulator (Ex. DOSBox or scummvm).</li>
               <li>You may also set an appropriate value in the "Parameter" field so GBM can determine exactly which game is running. See the "Parameter" section below for more details.</li>
             </ol></p>
-            <p>On Linux, games running in Wine are special case.  Please see the <a href="linux.html">Linux FAQ</a> for more details.</p>
+            <p>On Linux, games running in Wine are a special case.  Please see the <a href="linux.html">Linux FAQ</a> for more details.</p>
             <h4>Parameter:</h4>
             <p>A command parameter value to match on when detecting the game.  This is an optional field mostly used for detecting games running in emulator software.</p>
             <p>GBM will detect the "Process", then match the "Parameter" to any part of the full command.  This IS case-sensitive.</p>
