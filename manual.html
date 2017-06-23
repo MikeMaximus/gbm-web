@@ -30,10 +30,10 @@
       <div id="leftcontent">
         <div class="pageSection">
           <div class="pageSectionHeader">
-            Game Backup Monitor v1.01 Manual
+            Game Backup Monitor v1.02 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated March 23, 2017</h3>
+            <h3 class="notop">Updated June 23, 2017</h3>
             <h3>Disclaimer:</h3>
             <p>This manual may contain information about features not available in the current stable release.</p>
             <p>If you are having a specific problem, please check the <a href="https://github.com/MikeMaximus/gbm/issues">issues</a> list.</p>
@@ -61,7 +61,7 @@
             <a name="whatis" id="whatis">What is Game Backup Monitor?</a>
           </div>
           <div class="pageSectionContent">
-            <img class="manual" src="images/manual/manual_01.jpg" width="536" height="243" alt="Detection" /><br />
+            <img class="manual" src="images/manual/manual_01.jpg" width="526" height="247" alt="Detection" /><br />
             <p>Game Backup Monitor is a simple, but flexible application that detects games as you play them. Once you finish playing a game, a backup of the saved games will be made automatically using 7-Zip compression. GBM can be used on a single computer, or on multiple computers to effectively add cloud support to any Windows game or application.</p>
             <p>Game Backup Monitor was designed with gaming in mind, but it can be used to monitor any application on your PC!</p>
             <h3>Game Backup Monitor is completely free and open source software.</h3>
@@ -116,12 +116,12 @@
           <div class="pageSectionContent">
             <p>The main GBM window is mostly for information display, but has some important functions.</p>
             <p>The core portion of the window displays information about any game that has been detected, or information about a backup or restore operation currently being performed.</p>
-            <p>You can view a detailed log of all the actions GBM has performed in the current session by clicking "Show Log". If this log becomes too large over a session it will be auto-saved and cleared.</p><img class="manual" src="images/manual/manual_03.jpg" width="536" height="423" alt="Main Screen" /><br />
+            <p>A detailed log of all the actions GBM has performed in the current session is also displayed, this log can be hidden by resizing the window. If this log becomes too large over a session it will be auto-saved and cleared.</p><img class="manual" src="images/manual/manual_03.jpg" width="526" height="430" alt="Main Screen" /><br />
             <p>The right side of the menu bar will show notifications(if enabled) about new saved games to restore. Clicking the notification will clear it for the current session and bring you directly to the Game Manager.</p>
             <p>The status bar shows what GBM is currently doing, as well as the monitor status.</p>
             <p>The monitor status button on the right can be used to control starting, stopping and cancelling game detection. This can also be accomplished with the File menu and system tray menu.</p>
-            <p>The button on the left of the status bar indicates if GBM is running in normal mode (Blue User Icon) or as Administrator (Shield Icon). GBM can handle most situations running with normal mode, clicking this button lets you switch to Administrator quickly when it's required. This feature is not available when running in Linux.</p><img class="manual" src="images/manual/manual_12.jpg" width="536" height="256" alt="Main Screen" /><br />
-            <p>A "Cancel" button will appear on the main window during backup &amp; restore operations, clicking this will attempt to cancel the current operation. Please note that clicking Cancel may not have an immediate response, it can take some time before the operation reaches a point where it will be terminated.</p><img class="manual" src="images/manual/manual_04.jpg" width="536" height="223" alt="Main Screen" /><br />
+            <p>The button on the left of the status bar indicates if GBM is running in normal mode (Blue User Icon) or as Administrator (Shield Icon). GBM can handle most situations running with normal mode, clicking this button lets you switch to Administrator quickly when it's required. This feature is not available when running in Linux.</p><img class="manual" src="images/manual/manual_12.jpg" width="526" height="286" alt="Main Screen" /><br />
+            <p>A "Cancel" button will appear on the main window during backup &amp; restore operations, clicking this will attempt to cancel the current operation. Please note that clicking Cancel may not have an immediate response, it can take some time before the operation reaches a point where it will be terminated.</p><img class="manual" src="images/manual/manual_04.jpg" width="526" height="247" alt="Main Screen" /><br />
             <p>The "Cancel" button does NOT undo the operation, cancelling an operation may result in an unusable backup file or a corrupted save game. The "Cancel" button is intended for emergencies only, such as an incorrect configuration causing a lengthy backup of the wrong folder.</p>
             <p>This window can be closed the system tray, all important menu options are available from the system tray menu. The system tray icon and menu are not available in Linux.</p>
           </div>
@@ -228,7 +228,7 @@
               <li>You can <a href="#import">import new game configurations</a> from the <a href="GBM_Official.xml">official list</a> or an XML file using the Import button.</li>
               <li>You can export your game configurations to an XML file using the Export button.</li>
             </ul>
-            <p>The Game Manager is a central hub for all important GBM functions. However, i'd highly recommend the "Add Game Wizard" to add new games to monitor until you become familiar with GBM.</p><img class="manual" src="images/manual/manual_07.jpg" width="536" height="243" alt="Wizard" />
+            <p>The Game Manager is a central hub for all important GBM functions. However, i'd highly recommend the "Add Game Wizard" to add new games to monitor until you become familiar with GBM.</p><img class="manual" src="images/manual/manual_07.jpg" width="526" height="247" alt="Wizard" />
             <h3>Game Manager Detailed Overview:</h3>
             <p>The following is advanced information on each field used to configure a game.</p>
             <h3>Game Configuration</h3>
@@ -236,10 +236,22 @@
             <p>The name of the game to monitor. The name must conform to Windows file name standards, it will be automatically filtered for length and any bad characters.</p>
             <p>Multiple entries with the same name are allowed to handle games that run from multiple executable files (many older PC games in the 3DFX era for example).</p>
             <h4>Process:</h4>
-            <p>The name of the game's executable file, without the extension. This IS case-sensitive, if entered incorrectly the game will not be detected. Extensions will be automatically filtered off.</p>
-            <p>If you don't know what to put here, check the game's "target" in the shortcut or game's folder. Beware of games that use launchers, you do NOT want to monitor the launcher, you want to detect and monitor the game itself.</p>
+            <p>The name of the game's executable file, without the extension. This IS case-sensitive, if entered incorrectly the game will not be detected.  Extensions will be automatically filtered off.</p>
+            <p>If you don't know what to put here, check the game's "target" in the shortcut or game folder. Beware of games that use launchers, you do NOT want to monitor the launcher, you want to detect and monitor the game itself.</p>
             <p>Multiple entries with the same process are allowed, this is to handle games that use the same name for their executable.</p>
-            <p>DOSBox and ScummVM games are also supported, but on the specific condition that each game uses it's own copy of DOSBox or ScummVM in a unique location. No special setup is required, you simply need to use "DOSBox" or "scummvm" as the process name and set the "Game Path" under Game Information.</p>
+            <p>Games running in emulators, interpreters and virtual machines such as DOSBox and ScummVM are also supported. But must meet specific conditions to be detected: 
+            <ol>
+              <li>Each game uses it's own copy of the emulator software in a unique location, major retailers such as GOG and Steam do this by default.  No special setup is required, you simply need to use the process name (Ex. DOSBox / scummvm) and set the "Game Path" under Game Information.</li>
+              <li>You may also set an appropriate value in the "Parameter" field so GBM can determine exactly which game is running. See the "Parameter" section below for more details.</li>
+            </ol></p>
+            <p>On Linux, games running in Wine are special case.  Please see the <a href="linux.html">Linux FAQ</a> for more details.</p>
+            <h4>Parameter:</h4>
+            <p>A command parameter value to match on when detecting the game.  This is an optional field mostly used for detecting games running in emulator software.</p>
+            <p>GBM will detect the "Process", then match the "Parameter" to any part of the full command.  This IS case-sensitive.</p>
+            <p>As an example, lets use GOG's version of "An Elder Scroll Legend: Battlespire".</p>
+            <p>The full command is: "C:\GOG Games\Battlespire\DOSBOX\DOSBox.exe" -conf "..\dosbox_battlespire.conf" -conf "..\dosbox_battlespire_single.conf" -noconsole -c exit</p>
+            <p>We need to set the "Parameter" to something unique in the command, that no other game would be using.  "dosbox_battlespire.conf" or "dosbox_battlespire_single" would work.</p>
+            <p>Please note that GBM cannot detect based on only the Parameter, the correct Process must also be used.</p>
             <h4>Path:</h4>
             <p>The location of the save files for the game.</p>
             <p>Most games don't tell you where they save. I highly recommend using PC Gaming Wiki or searching common locations such as the game's installation folder, My Documents or AppData for the location of game saves.</p>
@@ -366,7 +378,7 @@
           </div>
           <div class="pageSectionContent">
             <h4 class="notop">Clean Local Manifest</h4>
-            <p>This is used to clean up the local manifest of any backup information that is no longer relevant, based on the information in the current backup folder. When backup data is deleted from one computer, other computers using GBM may still be storing data about the deleted backup that is no longer useful. The only time this tool shouldn't be used is if you are alternating between backup folders, such as using a cloud folder for small backups and external drive for large backups.</p><img class="manual" src="images/manual/manual_10.jpg" width="536" height="243" alt="Tools" />
+            <p>This is used to clean up the local manifest of any backup information that is no longer relevant, based on the information in the current backup folder. When backup data is deleted from one computer, other computers using GBM may still be storing data about the deleted backup that is no longer useful. The only time this tool shouldn't be used is if you are alternating between backup folders, such as using a cloud folder for small backups and external drive for large backups.</p><img class="manual" src="images/manual/manual_10.jpg" width="526" height="247" alt="Tools" />
             <h4>Compact Databases</h4>
             <p>This is used to rebuild GBM's databases to use an optimal amount of disk space. It should only be used when databases are reaching a noticably large size.</p>
             <h4>Log -&gt; Clear</h4>
