@@ -33,27 +33,44 @@
             Archived Version History
           </div>
           <div cass="pageSectionContent">
-            <h3 class="notop">1.0</h3>
+            <h3 class="notop">1.01</h3>
+            <ul>
+              <li>(All) Added features to automatically handle new backup files.</li>
+              <ul>
+                <li>Automatically restore new backup files when they are detected.</li>
+                <li>Automatically mark new backup files as restored if the game isn't installed on the current PC.</li>
+                <li>These new features are available in the "Backup and Restore" section of the Settings. They are optional and disabled by default.</li>
+              </ul>
+              <li>(All) Added new configuration option to delete saved game folder on restore.</li>
+              <ul>
+                <li>This option is used for games that change the file names of their saves, which results in a mix of old and new saved games if the old saves aren't deleted first.</li>
+                <li>This option has limitations and is not part of official configurations or import/export features.</li>
+              </ul>
+              <li>(All) The "Verify backup files with a checksum" option has been removed. This feature is now baked into GBM and cannot be disabled.</li>
+              <li>(All) GBM will now behave consistently across different configurations (such as LAN) when performing sync operations.</li>
+              <li>(Windows) Fixed rare issue related to DPI display scaling.</li>
+            </ul>
+            <h3>1.0</h3>
             <ul>
                 <li>(Windows) Resolved issues related to DPI display scaling. GBM looks best with scaling disabled via the Compatability tab.</li>
                 <li>(All) Very minor bug fixes and tweaks.</li>
-			</ul>
-		    <h3>0.98</h3>
+			      </ul>
+		        <h3>0.98</h3>
             <ul>
-				<li>(All) Redesigned GBM's ability to manage multiple backups per game.
-				<ul>
-					<li>The "Timestamp each backup" option has been renamed "Save multiple backups".</li>
-					<li>You can limit the amount of backups you keep for each game by setting a limit (2 to 100).</li>
-					<li>GBM will keep your backup folder clean by automatically deleting old backups as limits are reached or modified.</li>
-					<li>The Game Manager now allows you to browse and manage ALL backups for each game, not just the latest backup.</li>
-				</ul></li>
-				<li>(All) Using "Monitor Only" no longer puts any limitations on the game configuration or available features.</li>
-				<li>(Windows Installer) The installer will now properly go into upgrade mode if a prior version of GBM is installed. Note: 32-bit and 64-bit qualify as different versions.</li>
-				<li>(Windows Installer) The installer will now create an uninstall entry in Add/Remove Programs (Apps & Features).</li>
-				<li>(Linux) 64-bit games running in Wine will now be properly detected.</li>
-				<li>(Linux) Add Game Wizard will no longer remove all extensions when selecting an executable.</li>
-				<li>(Linux) GBM now prefers to use an absolute path when creating Linux game configurations.</li>
-			</ul>
+				      <li>(All) Redesigned GBM's ability to manage multiple backups per game.
+				      <ul>
+					      <li>The "Timestamp each backup" option has been renamed "Save multiple backups".</li>
+					      <li>You can limit the amount of backups you keep for each game by setting a limit (2 to 100).</li>
+					      <li>GBM will keep your backup folder clean by automatically deleting old backups as limits are reached or modified.</li>
+					      <li>The Game Manager now allows you to browse and manage ALL backups for each game, not just the latest backup.</li>
+				      </ul></li>
+				      <li>(All) Using "Monitor Only" no longer puts any limitations on the game configuration or available features.</li>
+				      <li>(Windows Installer) The installer will now properly go into upgrade mode if a prior version of GBM is installed. Note: 32-bit and 64-bit qualify as different versions.</li>
+				      <li>(Windows Installer) The installer will now create an uninstall entry in Add/Remove Programs (Apps & Features).</li>
+				      <li>(Linux) 64-bit games running in Wine will now be properly detected.</li>
+				      <li>(Linux) Add Game Wizard will no longer remove all extensions when selecting an executable.</li>
+				      <li>(Linux) GBM now prefers to use an absolute path when creating Linux game configurations.</li>
+			      </ul>
             <h3>0.97</h3>
             <ul>
                 <li>(All) Re-designed the Settings screen as a standard preference panel interface.</li>
