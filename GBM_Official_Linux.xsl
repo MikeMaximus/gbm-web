@@ -75,7 +75,7 @@
                             <input type="checkbox"><xsl:attribute name="id"><xsl:value-of select="Name"/><xsl:value-of select="ProcessName"/></xsl:attribute></input>
                             <label class="tree_label"><xsl:attribute name="for"><xsl:value-of select="Name"/><xsl:value-of select="ProcessName"/></xsl:attribute><xsl:value-of select="Name" /></label>
                             <ul>
-                              <li><span class="tree_label"><b>Monitored Process</b></span><div class="indent"><xsl:value-of select="ProcessName" /></div></li>
+                              <li><span class="tree_label"><b>Monitored Process</b></span><div class="indent"><xsl:value-of select="ProcessName" /><xsl:if test="Parameter != ''"> (<xsl:value-of select="Parameter" />)</xsl:if></div></li>
                               <li><span class="tree_label"><b>Save Location</b></span><div class="indent"><xsl:if test="Path = ''">*Process Location*</xsl:if><xsl:if test="Path != ''"><xsl:value-of select="Path" /></xsl:if></div></li>
                               <li><span class="tree_label"><b>Absolute Path</b></span><div class="indent"><xsl:if test="AbsolutePath = 'true'">Yes</xsl:if><xsl:if test="AbsolutePath = 'false'">No</xsl:if></div></li>
                               <li><span class="tree_label"><b>Save Entire Folder</b></span><div class="indent"><xsl:if test="FolderSave = 'true'">Yes</xsl:if><xsl:if test="FolderSave = 'false'">No</xsl:if></div></li>
