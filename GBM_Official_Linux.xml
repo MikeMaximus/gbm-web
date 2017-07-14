@@ -19,6 +19,24 @@
     </Tags>
   </Game>
   <Game>
+    <Name>A Wizard’s Lizard</Name>
+    <ProcessName>nw</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/A Wizard's Lizard/Local Storage</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>AI War - Fleet Command</Name>
     <ProcessName>AIWarLinux.x86_64</ProcessName>
     <Path>RuntimeData/Save</Path>
@@ -89,6 +107,7 @@
   <Game>
     <Name>Antichamber</Name>
     <ProcessName>UDKGame-Linux</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/AlexanderBruce/Antichamber</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -106,6 +125,7 @@
   <Game>
     <Name>Arx Libertatis</Name>
     <ProcessName>arx</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/arx</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -185,6 +205,24 @@
     <Tags>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Beneath a Steel Sky</Name>
+    <ProcessName>scummvm</ProcessName>
+    <Parameter>sky</Parameter>
+    <Path>*mydocs*/.scummvm</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>SKY-VM.*</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>ScummVM</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -280,6 +318,27 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Covert Action</Name>
+    <ProcessName>dosbox</ProcessName>
+    <Parameter>dosbox_smcovert.conf</Parameter>
+    <Path>../MPS/COVERT</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>CV*.SVE</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Deponia The Complete Journey</Name>
     <ProcessName>deponia_tcj</ProcessName>
     <Path>*appdatalocal*/Daedalic Entertainment GmbH/Deponia The Complete Journey/Savegames</Path>
@@ -341,6 +400,24 @@
     <Tags>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Drascula The Vampire Strikes Back</Name>
+    <ProcessName>scummvm</ProcessName>
+    <Parameter>drascula</Parameter>
+    <Path>*mydocs*/.scummvm</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>drascula.*</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>ScummVM</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -446,6 +523,24 @@
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Flight of the Amazon Queen</Name>
+    <ProcessName>scummvm</ProcessName>
+    <Parameter>queen</Parameter>
+    <Path>*mydocs*/.scummvm</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>queen.*</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>ScummVM</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -592,6 +687,24 @@
     </Tags>
   </Game>
   <Game>
+    <Name>INK</Name>
+    <ProcessName>runner</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/INK</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>DontModifyThis.ini</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Iesabel</Name>
     <ProcessName>Iesabel.x86</ProcessName>
     <Path>*mydocs*/.steam/steam/steamapps/common/Iesabel/Iesabel_Data/Save</Path>
@@ -628,6 +741,7 @@
   <Game>
     <Name>Kingdom Rush</Name>
     <ProcessName>Kingdom Rush.x86</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.steam/steam/steamapps/common/Kingdom Rush</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -677,6 +791,24 @@
     </Tags>
   </Game>
   <Game>
+    <Name>LIMBO</Name>
+    <ProcessName>limbo</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.limbo/limbo/drive_c/Program Files/limbo/save_game/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>savegame.txt</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Little Inferno</Name>
     <ProcessName>LittleInferno.bin.x86</ProcessName>
     <Path>*appdatalocal*/littleinferno</Path>
@@ -687,6 +819,24 @@
     <Tags>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Lure of the Temptress</Name>
+    <ProcessName>scummvm</ProcessName>
+    <Parameter>lure</Parameter>
+    <Path>*mydocs*/.scummvm</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>lure.*</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>ScummVM</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -713,6 +863,7 @@
   <Game>
     <Name>MegaGlest</Name>
     <ProcessName>megaglest</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.megaglest/saved</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -724,6 +875,9 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -779,8 +933,27 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Mr Rescue</Name>
+    <ProcessName>love</ProcessName>
+    <Parameter>mrrescue-1.02e.love</Parameter>
+    <Path>*appdatalocal*/love/mrrescue/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>highscores:stats</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Munin</Name>
     <ProcessName>Munin.x86_64</ProcessName>
+    <Parameter />
     <Path>*appdataroaming*/unity3d/GOJIRA/Munin</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -798,6 +971,7 @@
   <Game>
     <Name>Neverball</Name>
     <ProcessName>neverball</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.neverball/Scores</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -830,8 +1004,27 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Nuclear Throne</Name>
+    <ProcessName>nuclearthrone</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/nuclearthrone/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>OlliOlli</Name>
     <ProcessName>linux32</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.olliolli</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
@@ -866,6 +1059,7 @@
   <Game>
     <Name>OpenRCT2</Name>
     <ProcessName>openrct2</ProcessName>
+    <Parameter />
     <Path>*appdataroaming*/OpenRCT2/save/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -886,6 +1080,7 @@
   <Game>
     <Name>OpenTTD</Name>
     <ProcessName>openttd</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.openttd/save/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -948,6 +1143,42 @@
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>PixelJunk Monsters Ultimate</Name>
+    <ProcessName>Monsters</ProcessName>
+    <Parameter />
+    <Path>../savegame</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*_MONSTERSAVEGAME</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>PixelJunk Shooter</Name>
+    <ProcessName>CaveShooter</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/PJShooter</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*_SHOOTERSAVEGAME</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -1059,6 +1290,7 @@
   <Game>
     <Name>Retro City Rampage</Name>
     <ProcessName>retrocityrampage</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.steam/steam/steamapps/common/Retro City Rampage</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -1244,6 +1476,42 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Shattered Pixel Dungeon</Name>
+    <ProcessName>java</ProcessName>
+    <Parameter>shattered-pixel-dungeon.jar</Parameter>
+    <Path>*mydocs*/.shatteredpixel/shattered-pixel-dungeon</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.dat</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Shonen Idle Z</Name>
+    <ProcessName>shonenidlez</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/shonenidlez/Default</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>Web Data:Web Data-journal</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Shovel Knight</Name>
     <ProcessName>ShovelKnight</ProcessName>
     <Path>*appdatalocal*/Yacht Club Games/Shovel Knight</Path>
@@ -1274,6 +1542,24 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>SpeedRunners</Name>
+    <ProcessName>SpeedRunners.bin.x86_64</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/SpeedRunners/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>SpeedRunnerHDGameStore:SpeedRunnerHDProgressionStore_*</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1338,6 +1624,60 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Stardew Valley</Name>
+    <ProcessName>StardewValley.bin.x86_64</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/StardewValley/Saves/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Super Hexagon</Name>
+    <ProcessName>SuperHexagon</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/SuperHexagon</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>settings.dat</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Super Meat Boy</Name>
+    <ProcessName>SuperMeatBoy</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/SuperMeatBoy/UserData</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>savegame.dat</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>SuperTux 2</Name>
     <ProcessName>supertux2</ProcessName>
     <Path>*appdatalocal*/supertux2/</Path>
@@ -1357,6 +1697,7 @@
   <Game>
     <Name>SuperTuxKart</Name>
     <ProcessName>supertuxkart</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/supertuxkart</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -1374,6 +1715,7 @@
   <Game>
     <Name>The Battle for Wesnoth</Name>
     <ProcessName>wesnoth</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/wesnoth/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -1474,6 +1816,42 @@
     </Tags>
   </Game>
   <Game>
+    <Name>To The Moon</Name>
+    <ProcessName>ToTheMoon.bin.x86_64</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/freebirdgames/tothemoon</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.rxdata</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Tomb Raider</Name>
+    <ProcessName>TombRaider</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/feral-interactive/Tomb Raider/SaveData</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.macdat</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Torus Trooper</Name>
     <ProcessName>torus-trooper</ProcessName>
     <Path>*mydocs*/.torus-trooper</Path>
@@ -1491,6 +1869,24 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Total War Warhammer</Name>
+    <ProcessName>TotalWarhammer</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/feral-interactive/Total War Warhammer/SaveData</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Trine 2 - Complete Story</Name>
     <ProcessName>trine2_linux_32bit</ProcessName>
     <Path>*mydocs*/.frozenbyte/Trine2</Path>
@@ -1501,6 +1897,42 @@
     <Tags>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>TripleA</Name>
+    <ProcessName>java</ProcessName>
+    <Parameter>triplea.jar</Parameter>
+    <Path>*mydocs*/triplea/savedGames</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.tsvg</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Tumblestone</Name>
+    <ProcessName>tumblestone.x86_64</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/The Quantum Astrophysicists Guild/Tumblestone</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.local</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -1646,6 +2078,7 @@
   <Game>
     <Name>Xonotic</Name>
     <ProcessName>xonotic-glx</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.xonotic/data/data</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -1663,6 +2096,7 @@
   <Game>
     <Name>Zelda Mystery of Solarus DX</Name>
     <ProcessName>solarus-run</ProcessName>
+    <Parameter>zsdx</Parameter>
     <Path>*mydocs*/.solarus/zsdx</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -1683,6 +2117,7 @@
   <Game>
     <Name>Zelda Mystery of Solarus XD</Name>
     <ProcessName>solarus-run</ProcessName>
+    <Parameter>zsxd</Parameter>
     <Path>*mydocs*/.solarus/zsxd</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
