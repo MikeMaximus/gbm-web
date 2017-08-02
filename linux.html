@@ -37,6 +37,10 @@
             <ul>
               <li>GBM will run on Linux using Mono. You can detect and backup saved games from Linux native games and games running in Wine.</li>
             </ul><img class="centered" src="images/screens/gbm_linux_native.jpg" width="611" height="443" alt="Native Example" /><br />
+            <p class="large">Can I compile the GBM source code with Mono?</p>
+            <ul>
+              <li>No, not without significant work.  GBM was initially created on Windows using .NET 4.  It uses syntax and features that are not currently supported by the vbnc compiler.</li>
+            </ul>
             <p class="large">What's required to run GBM on Linux?</p>
             <ul>
               <li>GBM requires a few prerequisites to be installed. Many of these may be pre-installed on your distribution.
@@ -60,6 +64,11 @@
                   <li>readlink
                     <ul>
                       <li>readlink is part of the <b>coreutils</b> package and should be installed by default on debian based distros.</li>
+                    </ul>
+                  </li>
+                  <li>df
+                    <ul>
+                      <li>df is part of the <b>coreutils</b> package and should be installed by default on debian based distros.</li>
                     </ul>
                   </li>
                 </ul>

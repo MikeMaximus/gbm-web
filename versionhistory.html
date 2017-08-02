@@ -33,7 +33,31 @@
             Archived Version History
           </div>
           <div cass="pageSectionContent">
-            <h3 class="notop">1.01</h3>
+            <h3 class="notop">1.02</h3>
+            <ul>
+              <li>(Windows) Upgraded SQLite to 3.19.3.</li>
+              <li>(All) The SQLite version is displayed on the "About" screen.</li>
+              <li>(All) Added the ability to detect command parameters.
+                <ul>
+                  <li>Use parameter detection for better detection of games running in emulators or interpreters like DOSBox.</li>                  
+                  <li>This is an advanced optional feature and is not available in the "Add Game Wizard", please read the manual (http://mikemaximus.github.io/gbm-web/manual.html) for more details.</li>
+                  <li>(Linux) Please note that Wine detection is still handled automatically by GBM and only requires a Windows process name.  But this feature does work with Wine if you need to detect parameters!</li>
+                </ul></li>	            
+              <li>(All) Added the ability to resize and maximize the main program window.
+                <ul>
+                  <li>The log is now displayed by default and resizes with the window.</li>
+	                <li>The "Show/Hide Log" button has been removed due to technical issues with this change.</li>
+                  <li>The minimum window size will let you easily hide the log as in past versions.</li>
+                </ul></li>
+              <li>(All) The last browse location in various dialogs is now saved, such as when using the Import/Export feature.</li>
+              <li>(All) Available disk space is checked before attempting a backup.  The log now displays available disk space and save folder size.</li>
+              <li>(Linux) Using the keyboard to navigate the game list in the Game Manager now works correctly.</li>
+              <li>(All) Tags can now be added to a new game configuration before saving on the Game Manager.</li>
+              <li>(All) Fixed various issues when adding new game configurations while using filters on the Game Manager.</li>
+              <li>(All) Added better handling of 7-Zip warnings and errors.</li>
+              <li>(Linux) GBM now requires the "readlink" utility to properly handle Wine games.  However bash, ls and grep are no longer required.</li>
+            </ul>
+            <h3>1.01</h3>
             <ul>
               <li>(All) Added features to automatically handle new backup files.</li>
               <ul>
