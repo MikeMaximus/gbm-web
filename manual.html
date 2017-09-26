@@ -30,10 +30,10 @@
       <div id="leftcontent">
         <div class="pageSection">
           <div class="pageSectionHeader">
-            Game Backup Monitor v1.02 Manual
+            Game Backup Monitor v1.04 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated June 23, 2017</h3>
+            <h3 class="notop">Updated September 26, 2017</h3>
             <h3>Disclaimer:</h3>
             <p>This manual may contain information about features not available in the current stable release.</p>
             <p>If you are having a specific problem, please check the <a href="https://github.com/MikeMaximus/gbm/issues">issues</a> list.</p>
@@ -302,7 +302,7 @@
             <h3>Monitor Settings</h3>
             <h4>Monitor this Game:</h4>
             <p>This box indicates that GBM will actively monitor for this game.</p>
-            <h4>Monitor Only (No Backup):</h4>
+            <h4>Monitor Only:</h4>
             <p>This box indicates that GBM will not trigger a backup when the game is closed.</p>
             <h3>Backup Information</h3>
             <h4>Backup Data:</h4>
@@ -343,6 +343,7 @@
             <p>Importing game configurations is done from the <a href="#gamemanager">Game Manager</a>.</p>
             <p>You can import pre-made backup configurations from the <a href="GBM_official.xml">official list</a> or an XML file exported from GBM.</p><img class="manual" src="images/manual/manual_16.jpg" width="586" height="438" alt="Import" /></p>
             <ul>
+              <li>The import window detects saved games currently on your PC and will automatically select valid configurations by default.</li>
               <li>The import window only shows new configurations, it will not display games you've already configured.</li>
               <li>You can toggle selecting and de-selecting all available configurations by clicking the Select All checkbox.</li>
               <li>You can search for specific games or by tag using the "Filter" field. The filter is applied as you type, remove all text from the field to clear the filter.</li>
@@ -395,15 +396,23 @@
             <a name="filtering" id="filtering">Custom Filters</a>
           </div>
           <div class="pageSectionContent">
-            <p>While using the Game Manager or exporting your game list to an XML file, you'll have the option to use a custom filter.</p>
-            <p>You can choose to filter by Game Information OR by Tag, you can't filter by both at the same time.</p>
+            <p>When using the Game Manager or exporting your game list to an XML file, you'll have the option to use a custom filter.</p>
+            <p>You can choose to filter by Game Information and by Tag.</p>
             <h4>Game Information</h4>
             <ul>
-              <li>You can filter by the Name, Process and/or Company fields.</li>
-              <li>GBM uses a case-insensitive partial search to match any text you've entered in the filter fields.</li>
-              <li>You can choose between the AND / OR options to further refine your filter.</li>
-              <li>If no text is entered on any field in this filter, GBM will return all games.</li>
-            </ul><img class="manual" src="images/manual/manual_11.jpg" width="411" height="543" alt="Filter" />
+              <li>Choose an available field to filter on, depending on the field you will have different filter options.</li>
+              <li>Click the "Add" button to add the filter to the list.  You can add as many as you wish.</li>
+              <li>To delete a filter, select it from the list and click "Remove".</li>
+              <li>Select a Filter Type.
+                <ul>
+                  <li>"Any" - Games that match ANY of the filters will be included in the results.</li>
+                  <li>"All" - Only games that match ALL of the filters will be included in the results.</li>                  
+                </ul></li>
+              <li>GBM always uses a case-insensitive partial search to match on text fields.</li>
+              <li>Due to the way GBM stores data, certain fields may give unpredictable results when used in a filter.  These fields are marked with an asterisk.</li>
+            </ul>
+
+            </ul><img class="manual" src="images/manual/manual_11.jpg" width="411" height="588" alt="Filter" />
             <h4>Tag</h4>
             <ul>
               <li>Choose the Tags you want to filter by and use the appropriate buttons to add or remove them.</li>
@@ -421,7 +430,11 @@
                   </li>
                 </ul>
               </li>
-              <li>If you choose no tags to filter by, GBM will return all games with no tags.</li>
+              <li>If you choose to filter by Tag but choose no tags to filter by, GBM will assume that means all games with no tags.</li>
+            </ul>
+            <h4>Sorting</h4>
+            <ul>
+              <li>The filter results can be sorted by any of the available fields in ascending or descending order.</li>
             </ul>
           </div>
           <div class="pageSectionFooter">
