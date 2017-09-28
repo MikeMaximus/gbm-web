@@ -9,6 +9,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -26,6 +27,7 @@
     <FolderSave>false</FolderSave>
     <FileType>savedata.vfs</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -43,6 +45,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -60,6 +63,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -77,6 +81,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -97,6 +102,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -114,6 +120,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -131,6 +138,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -148,6 +156,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -165,6 +174,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -182,6 +192,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -199,6 +210,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -216,6 +228,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -233,6 +246,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -250,6 +264,7 @@
     <FolderSave>false</FolderSave>
     <FileType>progression.dat</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -267,6 +282,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -284,6 +300,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -301,6 +318,7 @@
     <FolderSave>false</FolderSave>
     <FileType>portraits:save</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -318,6 +336,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -335,6 +354,7 @@
     <FolderSave>false</FolderSave>
     <FileType>portraits:save</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -352,6 +372,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -369,6 +390,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -386,6 +408,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -403,6 +426,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -423,6 +447,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -440,6 +465,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -457,6 +483,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -474,6 +501,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -491,6 +519,7 @@
     <FolderSave>false</FolderSave>
     <FileType>SAVEGAM*.BM1</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -511,6 +540,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -528,6 +558,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -545,6 +576,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -562,6 +594,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.bwe</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -579,6 +612,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -596,6 +630,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -613,6 +648,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -630,6 +666,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -647,6 +684,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -664,6 +702,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -681,6 +720,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -698,6 +738,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -715,6 +756,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.log:Config.xml</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -732,6 +774,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -749,6 +792,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -766,6 +810,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -783,6 +828,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -800,6 +846,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>Options.xml</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -817,6 +864,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -834,6 +882,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>Options</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Retail</Name>
@@ -851,6 +900,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -868,6 +918,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -888,6 +939,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -908,6 +960,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -925,6 +978,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -942,6 +996,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.log:*.ini</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -959,6 +1014,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -976,6 +1032,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -993,6 +1050,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.SAV</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1013,6 +1071,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.CFG</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1030,6 +1089,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1047,6 +1107,7 @@
     <FolderSave>false</FolderSave>
     <FileType>Savegames:playercfg.lua</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1064,6 +1125,7 @@
     <FolderSave>false</FolderSave>
     <FileType>Savegames:playercfg.lua</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1081,6 +1143,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Retail</Name>
@@ -1098,6 +1161,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.?E2</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -1118,6 +1182,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1135,6 +1200,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1152,6 +1218,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1169,6 +1236,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1186,6 +1254,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.xml</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1203,6 +1272,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>GraphicsConfig.xml</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1220,6 +1290,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1237,6 +1308,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1254,6 +1326,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1271,6 +1344,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1288,6 +1362,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>joypad_example.txt</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1308,6 +1383,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>crash_reports:prefs.cs:console.log:*.jpg</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1325,6 +1401,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>prefs.ini:mod_status.ini:config.txt:debug:screenshots:steamfriends:webdebug</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1342,12 +1419,35 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Diablo 3</Name>
+    <ProcessName>Diablo III64</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Tags>
+      <Tag>
+        <Name>Tracking</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Blizzard</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1359,6 +1459,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1376,6 +1477,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>AutoSave*:QuickSave*</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1393,6 +1495,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1405,11 +1508,13 @@
   <Game>
     <Name>Divinity - Original Sin Enhanced Edition</Name>
     <ProcessName>EoCApp</ProcessName>
+    <Parameter />
     <Path>*mydocs*\Larian Studios\Divinity Original Sin Enhanced Edition\PlayerProfiles</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>AutoSave*:QuickSave*:config.lsx:modsettings.lsx</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1427,6 +1532,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>options.xml</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1444,6 +1550,7 @@
     <FolderSave>false</FolderSave>
     <FileType>Characters:Profile.dap</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1464,6 +1571,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Origin</Name>
@@ -1481,6 +1589,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>ProfileOptions_profile</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1493,11 +1602,13 @@
   <Game>
     <Name>Dragon's Dogma - Dark Arisen</Name>
     <ProcessName>DDDA</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*\GOG.com\Galaxy\Applications\49987265717041704\Storage\Shared\Files</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1515,6 +1626,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1532,6 +1644,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1549,6 +1662,7 @@
     <FolderSave>false</FolderSave>
     <FileType>HIGHS.DN?:KEYS.DN?:MY_DEMO.DN?:SPEED.DN?:USERDEMO.DN?:SAVED?.DN?</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -1569,6 +1683,7 @@
     <FolderSave>false</FolderSave>
     <FileType>save:state</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1586,6 +1701,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.-GT:*.-NM:*.-S1:*.-V1</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -1606,6 +1722,7 @@
     <FolderSave>false</FolderSave>
     <FileType>Save:HiScores.dat</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1623,6 +1740,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1643,6 +1761,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1660,6 +1779,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>Settings.sav</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1672,11 +1792,13 @@
   <Game>
     <Name>Elder Scrolls Adventures - Redguard</Name>
     <ProcessName>dosbox</ProcessName>
+    <Parameter>redguard</Parameter>
     <Path>..\redguard\savegame</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -1697,6 +1819,7 @@
     <FolderSave>false</FolderSave>
     <FileType>SAVE*</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -1717,6 +1840,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1734,6 +1858,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1751,6 +1876,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1768,6 +1894,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1785,6 +1912,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>settings.cfg</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1802,6 +1930,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>settings.cfg</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1819,6 +1948,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>settings.cfg</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1836,6 +1966,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>settings.cfg</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1853,6 +1984,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1870,6 +2002,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.err:Prefs.ini</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1887,6 +2020,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.bak:*.ini</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1899,11 +2033,13 @@
   <Game>
     <Name>Fallout 4</Name>
     <ProcessName>Fallout4</ProcessName>
+    <Parameter />
     <Path>*mydocs*\My Games\Fallout4\Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1921,6 +2057,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>Fallout Shelter.log</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1935,6 +2072,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.cfg</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1952,6 +2090,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.cfg</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1969,6 +2108,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1986,6 +2126,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2003,6 +2144,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2020,6 +2162,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2037,6 +2180,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2054,6 +2198,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.ini</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2071,6 +2216,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>Gallery:User Tracks</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2088,6 +2234,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2105,12 +2252,32 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>LOCALSETTINGS.DAT</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Guild Wars 2</Name>
+    <ProcessName>Gw2-64</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Tags>
+      <Tag>
+        <Name>Tracking</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2122,12 +2289,35 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>config.cfg</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Hearthstone</Name>
+    <ProcessName>Hearthstone</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Tags>
+      <Tag>
+        <Name>Tracking</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Blizzard</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2139,6 +2329,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.CGM</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2156,6 +2347,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2173,6 +2365,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2190,6 +2383,7 @@
     <FolderSave>false</FolderSave>
     <FileType>Hitman.sav</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2207,6 +2401,7 @@
     <FolderSave>false</FolderSave>
     <FileType>SaveData.sav</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2224,6 +2419,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2241,6 +2437,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2258,6 +2455,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2275,6 +2473,7 @@
     <FolderSave>false</FolderSave>
     <FileType>binds.cfg:saves</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2292,6 +2491,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.s??</FileType>
     <ExcludeList>MONSTER.SOU</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2312,6 +2512,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.s??</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2332,6 +2533,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2349,6 +2551,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.ini</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2366,6 +2569,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.def:input.map:histogram.txt:reconfig.spc:user.rpr:savegame.dir:save*.cmp:NSCR.DAT:user.mel</FileType>
     <ExcludeList>input.def:gamekey.def</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2383,6 +2587,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2400,6 +2605,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2417,6 +2623,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.SAV</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -2437,6 +2644,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>scenarios:training</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2454,6 +2662,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2471,6 +2680,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2488,6 +2698,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2505,6 +2716,7 @@
     <FolderSave>false</FolderSave>
     <FileType>Profil:Save:SaveImage</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2522,6 +2734,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.txt</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2539,6 +2752,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2556,6 +2770,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>MajXPrefs</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2573,6 +2788,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.ini</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2590,6 +2806,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Origin</Name>
@@ -2607,6 +2824,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>ME1</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2624,6 +2842,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2641,6 +2860,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2658,6 +2878,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2675,12 +2896,32 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Mount &amp; Blade - With Fire and Sword</Name>
+    <ProcessName>mb_wfas</ProcessName>
+    <Parameter />
+    <Path>*mydocs*\Mount&amp;Blade With Fire and Sword\Savegames</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2692,6 +2933,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2709,6 +2951,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2726,6 +2969,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>cache</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2743,6 +2987,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2760,6 +3005,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2777,6 +3023,7 @@
     <FolderSave>false</FolderSave>
     <FileType>SLOT*</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2794,6 +3041,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2811,6 +3059,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>olliolli.ini</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2828,6 +3077,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2845,6 +3095,7 @@
     <FolderSave>false</FolderSave>
     <FileType>GAMES</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2862,6 +3113,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2879,6 +3131,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>BINARY:loader.exe</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2896,6 +3149,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2913,6 +3167,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2930,6 +3185,7 @@
     <FolderSave>false</FolderSave>
     <FileType>MONSTERSPROFILE_MONSTERSAVEGAME</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2947,6 +3203,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2964,6 +3221,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2981,6 +3239,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2998,6 +3257,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>CONFIG00.*</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3015,6 +3275,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>CONFIG00.*</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3032,6 +3293,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3049,6 +3311,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>SafeProfile.DAT</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3066,6 +3329,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -3083,6 +3347,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3095,11 +3360,13 @@
   <Game>
     <Name>Project Highrise</Name>
     <ProcessName>Game</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*Low\SomaSim\Project Highrise</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>prefs.txt:saves</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3112,11 +3379,13 @@
   <Game>
     <Name>Project Zomboid</Name>
     <ProcessName>java</ProcessName>
+    <Parameter>zomboid</Parameter>
     <Path>*currentuser*\Zomboid\Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3137,6 +3406,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.dat</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3154,6 +3424,7 @@
     <FolderSave>false</FolderSave>
     <FileType>ROC.S*</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3174,6 +3445,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>screenshots:local_settings.txt:ogre.log:microcodecache11_m.bin</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3191,6 +3463,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3208,12 +3481,32 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>RimWorld</Name>
+    <ProcessName>RimWorldWin</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*Low\Ludeon Studios\RimWorld by Ludeon Studios\Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3225,6 +3518,7 @@
     <FolderSave>false</FolderSave>
     <FileType>ROTTGAM?.ROT</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3245,6 +3539,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3262,6 +3557,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3279,6 +3575,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3296,6 +3593,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3313,6 +3611,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>settings.dat</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3330,6 +3629,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3347,6 +3647,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3364,6 +3665,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3381,6 +3683,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>config.cfg</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3398,6 +3701,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>config.cfg</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3415,6 +3719,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3432,6 +3737,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3444,11 +3750,13 @@
   <Game>
     <Name>Shadowrun - Hong Kong Extended Edition</Name>
     <ProcessName>SRHK</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*\Harebrained Schemes\Shadowrun Hong Kong\Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3459,13 +3767,37 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Shadowrun Chronicles - Boston Lockdown</Name>
+    <ProcessName>Shadowrun</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Tracking</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Shadowrun Dragonfall - Director's Cut</Name>
     <ProcessName>Dragonfall</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*\Harebrained Schemes\Shadowrun Dragonfall\Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3483,6 +3815,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3500,6 +3833,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.txt</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3517,6 +3851,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3534,6 +3869,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>render.bin</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3551,6 +3887,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3568,6 +3905,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3585,6 +3923,7 @@
     <FolderSave>false</FolderSave>
     <FileType>Saves:UserSettings.ini</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -3602,6 +3941,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.ini</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3619,6 +3959,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>SILVER.OPT</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3636,6 +3977,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>Scenarios:StarterTowns:Terrains:Berlin, Germany.sc3:Craterville.sc3:Europolis.sc3:Farmsville.sc3:Frankfurt, Germany.sc3:Liverpool, England.sc3:London, England.sc3:Madison, WI.sc3:Madrid, Spain.sc3:Moscow, Russia.sc3:Mount Herrang.sc3:Roadless Paradise.sc3:Sacramento, CA.sc3:Seoul, Korea.sc3:TUTORIAL.SC3</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3653,6 +3995,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>Berlin:Downloads:Fairview:London:New York:San Francisco:Timbuktu</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3670,6 +4013,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3687,12 +4031,32 @@
     <FolderSave>false</FolderSave>
     <FileType>Save*</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>South Park - The Stick of Truth</Name>
+    <ProcessName>South Park - The Stick of Truth</ProcessName>
+    <Parameter />
+    <Path>*mydocs*\My Games\South Park - The Stick of Truth\save</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3704,6 +4068,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3721,6 +4086,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3738,6 +4104,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3755,6 +4122,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3772,6 +4140,7 @@
     <FolderSave>false</FolderSave>
     <FileType>SAVEGAME.*</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3792,6 +4161,7 @@
     <FolderSave>false</FolderSave>
     <FileType>SAVEGAME.*</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3812,6 +4182,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3829,6 +4200,7 @@
     <FolderSave>false</FolderSave>
     <FileType>DARKPILO.CFG</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3849,6 +4221,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3866,6 +4239,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3883,6 +4257,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3900,6 +4275,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3917,6 +4293,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3934,6 +4311,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>System.ini</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3951,6 +4329,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3968,6 +4347,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3985,6 +4365,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3997,14 +4378,19 @@
   <Game>
     <Name>Starcraft</Name>
     <ProcessName>StarCraft</ProcessName>
+    <Parameter />
     <Path>*mydocs*\Starcraft</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>characters:save</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Blizzard</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4016,6 +4402,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4033,6 +4420,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4050,6 +4438,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -4067,6 +4456,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4084,6 +4474,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4104,6 +4495,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4121,6 +4513,7 @@
     <FolderSave>false</FolderSave>
     <FileType>currsave.dat:savgam??.dat</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4138,6 +4531,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>resolution.cfg:tome.gfx.cfg</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4155,6 +4549,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4172,6 +4567,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.json:*.bak:*.dat</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4189,6 +4585,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.64:*.00:*.01:NAMES.DAT:VISION.EMS</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4209,6 +4606,7 @@
     <FolderSave>false</FolderSave>
     <FileType>SAVE?</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4229,6 +4627,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4246,6 +4645,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.bak</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4263,6 +4663,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.bak</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4275,11 +4676,13 @@
   <Game>
     <Name>The Elder Scrolls V - Skyrim SE</Name>
     <ProcessName>SkyrimSE</ProcessName>
+    <Parameter />
     <Path>*mydocs*\My Games\Skyrim Special Edition\Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4297,6 +4700,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4314,6 +4718,7 @@
     <FolderSave>false</FolderSave>
     <FileType>strfsav?.ssg</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4331,6 +4736,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>Config:Screenshots:Temp:UserMaps</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4348,6 +4754,7 @@
     <FolderSave>false</FolderSave>
     <FileType>DEFAULT.CFG:DOOMSAV?.DSG</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -4368,6 +4775,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4385,6 +4793,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4402,6 +4811,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4414,11 +4824,13 @@
   <Game>
     <Name>This War of Mine</Name>
     <ProcessName>This War of Mine</ProcessName>
+    <Parameter />
     <Path>*appdataroaming*\11bitstudios\This War Of Mine</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>config.bin3</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4436,6 +4848,7 @@
     <FolderSave>false</FolderSave>
     <FileType>Save.xml</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4453,6 +4866,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4470,12 +4884,32 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Total War - Warhammer</Name>
+    <ProcessName>Warhammer</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*\The Creative Assembly\Warhammer\save_games</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4487,6 +4921,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.txt</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -4504,6 +4939,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>Logs:ShaderCache:*.bik:DeveloperStorage.lua</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4521,6 +4957,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>logs:DeveloperStorage.lua</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4538,6 +4975,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4555,6 +4993,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4567,11 +5006,13 @@
   <Game>
     <Name>Tyranny</Name>
     <ProcessName>Tyranny64</ProcessName>
+    <Parameter />
     <Path>*currentuser*\Saved Games\Tyranny</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4589,6 +5030,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4606,6 +5048,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>autosave*:quicksave*</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4626,6 +5069,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4643,6 +5087,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4660,6 +5105,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4677,6 +5123,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4694,6 +5141,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4711,6 +5159,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>logs:DeveloperStorage.lua</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4728,6 +5177,7 @@
     <FolderSave>false</FolderSave>
     <FileType>stat.txt:Saves</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4745,6 +5195,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.ini</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4762,6 +5213,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -4782,6 +5234,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>wxp</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Retail</Name>
@@ -4802,6 +5255,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Retail</Name>
@@ -4822,6 +5276,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>w40k</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -4842,6 +5297,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4859,6 +5315,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>TOC.txt</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4876,6 +5333,7 @@
     <FolderSave>false</FolderSave>
     <FileType>CONFIG.WL6:SAVEGAM?.WL6</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4896,6 +5354,7 @@
     <FolderSave>false</FolderSave>
     <FileType>Savegames:Player Profile.txt:Controller Options.txt</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4913,6 +5372,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4930,6 +5390,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4947,6 +5408,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>

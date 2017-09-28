@@ -54,6 +54,9 @@
                               <xsl:if test="contains(Name,'Origin')">
                                 <img class="logo_tiny" src="images/origin_logo_tiny.png" width="20" height="24" alt="Origin" />
                               </xsl:if>
+                              <xsl:if test="contains(Name,'Blizzard')">
+                                <img class="logo_tiny" src="images/bnet_logo_tiny.png" width="24" height="24" alt="Blizzard" />
+                              </xsl:if>
                               <xsl:if test="contains(Name,'Retail')">
                                 <img class="logo_tiny" src="images/retail_logo_tiny.png" width="24" height="24" alt="Retail" />
                               </xsl:if>
@@ -65,6 +68,9 @@
                               </xsl:if>
                               <xsl:if test="contains(Name,'FLOSS')">
                                 <img class="logo_tiny" src="images/floss_logo_tiny.png" width="24" height="24" alt="FLOSS" />
+                              </xsl:if>
+                              <xsl:if test="contains(Name,'Tracking')">
+                                <img class="logo_tiny" src="images/tracking_tiny.png" width="24" height="24" alt="Tracking" />
                               </xsl:if>
                             </xsl:for-each>
                           </xsl:for-each>

@@ -32,7 +32,7 @@
               <div class="pageSection">
                 <div class="pageSectionHeader">Game Configurations (Windows)</div>
                 <div class="pageSectionContent">
-                  <h3 class="notop">Updated: June 19, 2017 (286 Configs)</h3>                  
+                  <h3 class="notop">Updated: September 28, 2017 (294 Configs)</h3>                  
                   <p class="small">Official configurations exclude graphics settings, logs, screenshots and other extras when possible.</p>
 				          <p class="small">Official configurations may exclude autosaves and/or quicksaves when they greatly increase backup size.</p>
 				          <p class="small">Official configurations will only detect the game's default executable when multiple versions are available.</p>
@@ -54,6 +54,9 @@
                               <xsl:if test="contains(Name,'Origin')">
                                 <img class="logo_tiny" src="images/origin_logo_tiny.png" width="20" height="24" alt="Origin" />
                               </xsl:if>
+                              <xsl:if test="contains(Name,'Blizzard')">
+                                <img class="logo_tiny" src="images/bnet_logo_tiny.png" width="24" height="24" alt="Blizzard" />
+                              </xsl:if>
                               <xsl:if test="contains(Name,'Retail')">
                                 <img class="logo_tiny" src="images/retail_logo_tiny.png" width="24" height="24" alt="Retail" />
                               </xsl:if>
@@ -65,6 +68,9 @@
                               </xsl:if>
                               <xsl:if test="contains(Name,'FLOSS')">
                                 <img class="logo_tiny" src="images/floss_logo_tiny.png" width="24" height="24" alt="FLOSS" />
+                              </xsl:if>
+                              <xsl:if test="contains(Name,'Tracking')">
+                                <img class="logo_tiny" src="images/tracking_tiny.png" width="24" height="24" alt="Tracking" />
                               </xsl:if>
                             </xsl:for-each>
                           </xsl:for-each>
