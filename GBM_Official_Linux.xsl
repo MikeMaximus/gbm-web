@@ -32,7 +32,7 @@
               <div class="pageSection">
                 <div class="pageSectionHeader">Game Configurations (Linux)</div>
                 <div class="pageSectionContent">
-                  <h3 class="notop">Updated: July 14, 2017 (121 Configs)</h3>
+                  <h3 class="notop">Updated: November 12, 2017 (140 Configs)</h3>
                   <p class="small">Official configurations exclude graphics settings, logs, screenshots and other extras when possible.</p>
 				          <p class="small">Official configurations may exclude autosaves and/or quicksaves when they greatly increase backup size.</p>
                   <p class="small">Official configurations will only detect the game's default executable when multiple versions are available.</p>

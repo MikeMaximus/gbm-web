@@ -54,6 +54,24 @@
     </Tags>
   </Game>
   <Game>
+    <Name>AaaaaAAaaaAAAaaAAAAaAAAAA!!! for the Awesome</Name>
+    <ProcessName>Awesome.x86</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/Dejobaan Games/Awesome/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>prefs</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Abuse</Name>
     <ProcessName>abuse.elf</ProcessName>
     <Path>*mydocs*/.abuse/</Path>
@@ -281,6 +299,42 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Brogue</Name>
+    <ProcessName>brogue</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>CRYPTARK</Name>
+    <ProcessName>Cryptark.bin.x86_64</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/Cryptark/SavedGames</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Cities - Skylines</Name>
     <ProcessName>Cities.x64</ProcessName>
     <Path>*appdatalocal*/Colossal Order/Cities_Skylines/Saves</Path>
@@ -465,6 +519,24 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Eufloria</Name>
+    <ProcessName>EufloriaHD.bin.x86_64</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/EufloriaHD</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.bin</FileType>
     <ExcludeList />
     <Tags>
       <Tag>
@@ -722,6 +794,24 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Influent</Name>
+    <ProcessName>Influent.x86_64</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/Three Flip Studios/Influent</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>prefs</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Invisible Inc</Name>
     <ProcessName>InvisibleInc</ProcessName>
     <Path>*appdatalocal*/Klei/InvisibleInc/saves</Path>
@@ -735,6 +825,24 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Jotun</Name>
+    <ProcessName>Jotun.x86</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/Thunder Lotus Games/Jotun/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -878,6 +986,24 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Middle-earth Shadow of Mordor</Name>
+    <ProcessName>ShadowOfMordor</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/feral-interactive/ShadowOfMordor/SaveData</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1099,6 +1225,24 @@
     </Tags>
   </Game>
   <Game>
+    <Name>PONCHO</Name>
+    <ProcessName>Poncho.x86</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/Delve Interactive/Poncho</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>prefs</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Papers, Please</Name>
     <ProcessName>PapersPlease</ProcessName>
     <Path>*appdatalocal*/3909/PapersPlease</Path>
@@ -1271,6 +1415,24 @@
     </Tags>
   </Game>
   <Game>
+    <Name>ROCKETSROCKETSROCKETS</Name>
+    <ProcessName>Rockets.x86_64</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Resonance</Name>
     <ProcessName>Resonance.bin.x86_64</ProcessName>
     <Path>*appdatalocal*/Resonance</Path>
@@ -1323,8 +1485,45 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Roguelands</Name>
+    <ProcessName>Roguelands.x86</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/DefaultCompany/Roguelands</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>PlayerPrefs.txt</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>SOMA</Name>
+    <ProcessName>Soma.bin.x86_64</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/frictionalgames/Soma/Main/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Saints Row IV</Name>
     <ProcessName>SaintsRow4.i386</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.steam/steam/userdata/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -1546,6 +1745,63 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Sid Meier’s Civilization V</Name>
+    <ProcessName>Civ5XP</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/Aspyr/Sid Meier's Civilization 5/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>ModdedSaves:Saves</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Simutrans</Name>
+    <ProcessName>simutrans</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.simutrans/save</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sve</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Spec Ops The Line</Name>
+    <ProcessName>specops.i386</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>SpeedRunners</Name>
     <ProcessName>SpeedRunners.bin.x86_64</ProcessName>
     <Parameter />
@@ -1713,6 +1969,27 @@
     </Tags>
   </Game>
   <Game>
+    <Name>System Shock 2</Name>
+    <ProcessName>winewrapper</ProcessName>
+    <Parameter>Shock2.exe</Parameter>
+    <Path>*mydocs*/.systemshock2/systemshock2/drive_c/Program Files/SystemShock2/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>save_*</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Crossover</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>The Battle for Wesnoth</Name>
     <ProcessName>wesnoth</ProcessName>
     <Parameter />
@@ -1741,6 +2018,24 @@
     <Tags>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>The Stanley Parable</Name>
+    <ProcessName>stanley_linux</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -1852,6 +2147,24 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Torchlight II</Name>
+    <ProcessName>Torchlight2.bin.x86_64</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Torus Trooper</Name>
     <ProcessName>torus-trooper</ProcessName>
     <Path>*mydocs*/.torus-trooper</Path>
@@ -1897,6 +2210,24 @@
     <Tags>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Trine 3 The Artifacts of Power</Name>
+    <ProcessName>trine3_linux_64bit</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -1993,6 +2324,7 @@
   <Game>
     <Name>Voxelands</Name>
     <ProcessName>voxelands</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/voxelands</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
@@ -2087,6 +2419,24 @@
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>You Must Build A Boat</Name>
+    <ProcessName>YMBAB.x86</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
