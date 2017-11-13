@@ -89,6 +89,24 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Alien Arena</Name>
+    <ProcessName>alienarena</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>American Truck Simulator</Name>
     <ProcessName>amtrucks</ProcessName>
     <Path>*appdatalocal*/American Truck Simulator/profiles</Path>
@@ -130,6 +148,24 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>SavedGame.bin</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Apotheon</Name>
+    <ProcessName>Apotheon.bin.x86_64 </ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/Apotheon/SavedGames</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
     <ExcludeList />
     <Tags>
       <Tag>
@@ -206,6 +242,24 @@
     <Tags>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Barbie Seahorse Adventures</Name>
+    <ProcessName>barbie</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -393,6 +447,24 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Crawl</Name>
+    <ProcessName>Crawl.x86_64 </ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>Crawl.sav</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Deponia The Complete Journey</Name>
     <ProcessName>deponia_tcj</ProcessName>
     <Path>*appdatalocal*/Daedalic Entertainment GmbH/Deponia The Complete Journey/Savegames</Path>
@@ -489,6 +561,24 @@
     <Tags>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Dungeons 2</Name>
+    <ProcessName>Dungeons2.x86_64</ProcessName>
+    <Parameter />
+    <Path>savegames/</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -1148,6 +1238,24 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Octodad Dadliest Catch</Name>
+    <ProcessName>OctodadDadliestCatch</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.odad</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>OlliOlli</Name>
     <ProcessName>linux32</ProcessName>
     <Parameter />
@@ -1433,6 +1541,24 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Red Eclipse</Name>
+    <ProcessName>redeclipse</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Resonance</Name>
     <ProcessName>Resonance.bin.x86_64</ProcessName>
     <Path>*appdatalocal*/Resonance</Path>
@@ -1492,6 +1618,24 @@
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>PlayerPrefs.txt</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Rust</Name>
+    <ProcessName>rust</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
     <ExcludeList />
     <Tags>
       <Tag>
@@ -1626,7 +1770,8 @@
   <Game>
     <Name>Shadowrun Returns</Name>
     <ProcessName>Shadowrun</ProcessName>
-    <Path>/.config/Harebrained Schemes/Shadowrun Returns/Saves</Path>
+    <Parameter />
+    <Path>*appdataroaming*/Harebrained Schemes/Shadowrun Returns/Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
@@ -1637,6 +1782,9 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1990,6 +2138,27 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Teeworlds</Name>
+    <ProcessName>teeworlds</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>The Battle for Wesnoth</Name>
     <ProcessName>wesnoth</ProcessName>
     <Parameter />
@@ -2087,6 +2256,24 @@
     <Tags>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Tiny Echo</Name>
+    <ProcessName>TinyEcho.x86</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/Might and Delight/Tiny Echo</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>prefs</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -2288,6 +2475,24 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Unvanquished</Name>
+    <ProcessName>unvanquished</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Valyria Tear</Name>
     <ProcessName>valyriatear</ProcessName>
     <Path>*appdatalocal*/valyriatear/</Path>
@@ -2340,6 +2545,24 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Warsow</Name>
+    <ProcessName>warsow</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Widelands</Name>
     <ProcessName>widelands</ProcessName>
     <Path>*mydocs*/.widelands/save</Path>
@@ -2367,6 +2590,24 @@
     <Tags>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>World of Padman</Name>
+    <ProcessName>wop</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -2482,6 +2723,24 @@
       </Tag>
       <Tag>
         <Name>Remake</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Ziggurat</Name>
+    <ProcessName>Ziggurat.x86_64</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/Milkstone Studios/Ziggurat</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
