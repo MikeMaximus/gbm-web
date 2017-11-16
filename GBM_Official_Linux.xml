@@ -19,6 +19,87 @@
     </Tags>
   </Game>
   <Game>
+    <Name>3079 -- Block Action RPG</Name>
+    <ProcessName>java</ProcessName>
+    <Parameter>3079.jar</Parameter>
+    <Path>*mydocs*/3079Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>8-Bit Commando</Name>
+    <ProcessName>8bit_commando</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.agen/8-Bit Commando/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>records.xml</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>A Bird Story</Name>
+    <ProcessName>ABirdStory.amd64</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/freebirdgames/abirdstory/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.rxdata</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>A Virus Named TOM</Name>
+    <ProcessName>CircuitGame.bin.x86_64</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/CircuitGameData/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>A Wizard’s Lizard</Name>
     <ProcessName>nw</ProcessName>
     <Parameter />
@@ -30,6 +111,24 @@
     <Tags>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>A7xpg</Name>
+    <ProcessName>a7xpg</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -141,6 +240,27 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Anomaly 2</Name>
+    <ProcessName>Anomaly2Linux</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.Anomaly 2</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Antichamber</Name>
     <ProcessName>UDKGame-Linux</ProcessName>
     <Parameter />
@@ -173,6 +293,9 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -319,6 +442,69 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Blackwell Convergence</Name>
+    <ProcessName>Convergence.bin.x86_64</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/Blackwell Convergence</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>agssave.*</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Blackwell Legacy</Name>
+    <ProcessName>Legacy.bin.x86_64</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/Blackwell Legacy v1.7</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>agssave.*</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Blackwell Unbound</Name>
+    <ProcessName>Unbound.bin.x86_64</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/Blackwell Unbound</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>agssave.*</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Bloboats</Name>
     <ProcessName>bloboats</ProcessName>
     <Path>*mydocs*/.bloboats/</Path>
@@ -346,6 +532,30 @@
     <Tags>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Borderlands The Pre-Sequel</Name>
+    <ProcessName>BorderlandsPreSequel</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/aspyr-media/borderlands the pre-sequel/willowgame/savedata/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav:profile.bin</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -385,6 +595,27 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Castle Doctrine</Name>
+    <ProcessName>CastleDoctrineApp</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -462,6 +693,9 @@
       <Tag>
         <Name>Official</Name>
       </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -478,6 +712,9 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -568,6 +805,27 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Droid Assault</Name>
+    <ProcessName>java32</ProcessName>
+    <Parameter>DroidAssault.jar</Parameter>
+    <Path>*mydocs*/.droid_assault</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Dungeons 2</Name>
     <ProcessName>Dungeons2.x86_64</ProcessName>
     <Parameter />
@@ -600,6 +858,9 @@
       <Tag>
         <Name>Official</Name>
       </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -616,6 +877,9 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -937,6 +1201,30 @@
     </Tags>
   </Game>
   <Game>
+    <Name>KeeperRL</Name>
+    <ProcessName>keeper</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.kep:*.adv</FileType>
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Kingdom Rush</Name>
     <ProcessName>Kingdom Rush.x86</ProcessName>
     <Parameter />
@@ -1035,6 +1323,24 @@
     <Tags>
       <Tag>
         <Name>ScummVM</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Mana Plus</Name>
+    <ProcessName>manaplus</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -1213,6 +1519,27 @@
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>No Time To Explain Remastered</Name>
+    <ProcessName>NoTimeToExplain.x86</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/tinyBuild GAMES/No Time To Explain/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -1594,6 +1921,27 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Revenge of the Titans</Name>
+    <ProcessName>java32</ProcessName>
+    <Parameter>RevengeOfTheTitans.jar</Parameter>
+    <Path>*mydocs*/.revenge_of_the_titans</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Rogue Legacy</Name>
     <ProcessName>RogueCastle.bin.x86_64</ProcessName>
     <Path>*appdatalocal*/RogueLegacyStorageContainer</Path>
@@ -1679,6 +2027,9 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2084,6 +2435,7 @@
   <Game>
     <Name>SuperTux 2</Name>
     <ProcessName>supertux2</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/supertux2/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -2118,8 +2470,8 @@
   </Game>
   <Game>
     <Name>System Shock 2</Name>
-    <ProcessName>winewrapper</ProcessName>
-    <Parameter>Shock2.exe</Parameter>
+    <ProcessName>Shock2</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.systemshock2/systemshock2/drive_c/Program Files/SystemShock2/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -2277,6 +2629,27 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Titan Attacks</Name>
+    <ProcessName>java32</ProcessName>
+    <Parameter>TitanAttacks.jar</Parameter>
+    <Path>*mydocs*/.titan_attacks</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2454,6 +2827,27 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Ultratron</Name>
+    <ProcessName>java32</ProcessName>
+    <Parameter>Ultratron.jar</Parameter>
+    <Path>*mydocs*/.ultratron</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2738,6 +3132,27 @@
     <Tags>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Zombie Defense</Name>
+    <ProcessName>ZombieDefense.x86</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/Home Net Games/Zombie Defense</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
