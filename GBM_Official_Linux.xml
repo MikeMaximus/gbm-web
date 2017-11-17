@@ -1133,8 +1133,9 @@
   <Game>
     <Name>Iesabel</Name>
     <ProcessName>Iesabel.x86</ProcessName>
-    <Path>*mydocs*/.steam/steam/steamapps/common/Iesabel/Iesabel_Data/Save</Path>
-    <AbsolutePath>true</AbsolutePath>
+    <Parameter />
+    <Path>Iesabel_Data/Save</Path>
+    <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.save</FileType>
     <ExcludeList />
@@ -1228,8 +1229,8 @@
     <Name>Kingdom Rush</Name>
     <ProcessName>Kingdom Rush.x86</ProcessName>
     <Parameter />
-    <Path>*mydocs*/.steam/steam/steamapps/common/Kingdom Rush</Path>
-    <AbsolutePath>true</AbsolutePath>
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>slot*.data</FileType>
     <ExcludeList />
@@ -1245,8 +1246,9 @@
   <Game>
     <Name>Knights of Pen and Paper +1</Name>
     <ProcessName>knightspp.x86</ProcessName>
-    <Path>*mydocs*/.steam/steam/steamapps/common/Knights of Pen and Paper/knightspp_Data</Path>
-    <AbsolutePath>true</AbsolutePath>
+    <Parameter />
+    <Path>knightspp_Data</Path>
+    <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>data.kopp</FileType>
     <ExcludeList />
@@ -1906,8 +1908,8 @@
     <Name>Retro City Rampage</Name>
     <ProcessName>retrocityrampage</ProcessName>
     <Parameter />
-    <Path>*mydocs*/.steam/steam/steamapps/common/Retro City Rampage</Path>
-    <AbsolutePath>true</AbsolutePath>
+    <Path>../</Path>
+    <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.rsv</FileType>
     <ExcludeList />
@@ -2016,8 +2018,8 @@
     <Name>Saints Row IV</Name>
     <ProcessName>SaintsRow4.i386</ProcessName>
     <Parameter />
-    <Path>*mydocs*/.steam/steam/userdata/</Path>
-    <AbsolutePath>true</AbsolutePath>
+    <Path>../../../userdata/</Path>
+    <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>206420</FileType>
     <ExcludeList />
