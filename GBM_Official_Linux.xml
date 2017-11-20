@@ -319,6 +319,26 @@
     </Tags>
   </Game>
   <Game>
+    <Name>And Yet It Moves</Name>
+    <ProcessName>AndYetItMoves</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.Broken Rules/And Yet It Moves/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>ghosts:secretExternal*.aym</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Anodyne</Name>
     <ProcessName>Anodyne</ProcessName>
     <Parameter />
@@ -849,6 +869,29 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Blocks That Matter</Name>
+    <ProcessName>java</ProcessName>
+    <Parameter>BTM.jar</Parameter>
+    <Path>*mydocs*/.BlocksThatMatterUserDatas/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Borderlands 2</Name>
     <ProcessName>Borderlands2</ProcessName>
     <Path>*appdatalocal*/aspyr-media/borderlands 2/willowgame/savedata</Path>
@@ -879,6 +922,29 @@
     <FileType>*.sav:profile.bin</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Braid</Name>
+    <ProcessName>Braid.bin.x86</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/Braid</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -930,6 +996,29 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Canabalt</Name>
+    <ProcessName>Canabalt.x86_64</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Castle Doctrine</Name>
     <ProcessName>CastleDoctrineApp</ProcessName>
     <Parameter />
@@ -966,6 +1055,29 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Closure</Name>
+    <ProcessName>Closure.bin.x86</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/Eyebrow Interactive/Closure</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
