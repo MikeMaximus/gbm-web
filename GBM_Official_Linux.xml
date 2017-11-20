@@ -9,6 +9,7 @@
     <FolderSave>false</FolderSave>
     <FileType>saves</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -27,6 +28,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -45,6 +47,7 @@
     <FolderSave>false</FolderSave>
     <FileType>records.xml</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -66,6 +69,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.rxdata</FileType>
     <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -79,6 +83,28 @@
     </Tags>
   </Game>
   <Game>
+    <Name>A Story About My Uncle</Name>
+    <ProcessName>ASAMU</ProcessName>
+    <Parameter />
+    <Path>../../ASAMU/Saves</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.bin</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>A Virus Named TOM</Name>
     <ProcessName>CircuitGame.bin.x86_64</ProcessName>
     <Parameter />
@@ -87,6 +113,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -108,6 +135,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -126,6 +154,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -143,6 +172,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -161,6 +191,7 @@
     <FolderSave>false</FolderSave>
     <FileType>prefs</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -178,6 +209,7 @@
     <FolderSave>false</FolderSave>
     <FileType>save*.spe</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -196,9 +228,32 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Always Remember Me</Name>
+    <ProcessName>Always Remember Me</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.renpy/Remember_Me-1.3</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType>1-*.save</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -213,6 +268,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -230,9 +286,54 @@
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Analogue A Hate Story</Name>
+    <ProcessName>python</ProcessName>
+    <Parameter>Analogue.py</Parameter>
+    <Path>*mydocs*/.renpy/Analogue</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType>1-*.save</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Anodyne</Name>
+    <ProcessName>Anodyne</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.appdata/Anodyne/Local Store/#SharedObjects/Anodyne.swf/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -248,6 +349,29 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Anomaly Defenders</Name>
+    <ProcessName>AnomalyDefenders</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.Anomaly Defenders/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -269,6 +393,7 @@
     <FolderSave>false</FolderSave>
     <FileType>SavedGame.bin</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -287,6 +412,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -300,6 +426,25 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Aquaria</Name>
+    <ProcessName>aquaria</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/Aquaria</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Arx Libertatis</Name>
     <ProcessName>arx</ProcessName>
     <Parameter />
@@ -308,6 +453,7 @@
     <FolderSave>false</FolderSave>
     <FileType>save</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -328,9 +474,48 @@
     <FolderSave>false</FolderSave>
     <FileType>amconfig.xml</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Atom Zombie Smasher</Name>
+    <ProcessName>AtomZombieSmasher.bin.x86_64</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/AtomZombieData/profiles</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav:profile.dat</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Avadon The black fortress</Name>
+    <ProcessName>Avadon-x86</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/Avadon/Spiderweb Software/Avadon Saved Games</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType>Save*</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -345,6 +530,7 @@
     <FolderSave>false</FolderSave>
     <FileType>portraits:save</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -362,6 +548,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -380,9 +567,32 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Bastion</Name>
+    <ProcessName>Bastion.bin.x86_64</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.SupergiantGames/Bastion</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType>Profile*.sav:Profile*.profile</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -397,9 +607,76 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>BattleBlock Theater</Name>
+    <ProcessName>BattleBlockTheater</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Beat Hazard</Name>
+    <ProcessName>BeatHazard_Linux2</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/BeatHazard_Linux2/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Beatbuddy Tale of the Guardians</Name>
+    <ProcessName>Beatbuddy</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/Threaks/Beatbuddy/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -415,6 +692,7 @@
     <FolderSave>false</FolderSave>
     <FileType>SKY-VM.*</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>ScummVM</Name>
@@ -432,9 +710,54 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Bionic Dues</Name>
+    <ProcessName>BionicLinux.x86_64</ProcessName>
+    <Parameter />
+    <Path>RuntimeData/Save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType>*.save:*.profile</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Bit Blaster XL</Name>
+    <ProcessName>BitBlasterXL.x86_64</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -450,6 +773,7 @@
     <FolderSave>false</FolderSave>
     <FileType>agssave.*</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -471,6 +795,7 @@
     <FolderSave>false</FolderSave>
     <FileType>agssave.*</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -492,6 +817,7 @@
     <FolderSave>false</FolderSave>
     <FileType>agssave.*</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>SteamCloud</Name>
@@ -512,6 +838,7 @@
     <FolderSave>false</FolderSave>
     <FileType>players.dat</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -529,6 +856,7 @@
     <FolderSave>false</FolderSave>
     <FileType>profile.bin:*.sav</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -550,6 +878,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.sav:profile.bin</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -571,6 +900,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -589,6 +919,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -607,6 +938,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -627,6 +959,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -644,6 +977,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList>Autosaves</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -665,6 +999,7 @@
     <FolderSave>false</FolderSave>
     <FileType>CV*.SVE</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -686,6 +1021,7 @@
     <FolderSave>false</FolderSave>
     <FileType>Crawl.sav</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -706,6 +1042,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.dat</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -726,6 +1063,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -743,6 +1081,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>config.lsx:modsettings.lsx</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -760,6 +1099,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>options.xml</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -778,6 +1118,7 @@
     <FolderSave>false</FolderSave>
     <FileType>drascula.*</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>ScummVM</Name>
@@ -795,6 +1136,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>prefs</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -813,6 +1155,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -834,6 +1177,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -851,6 +1195,7 @@
     <FolderSave>false</FolderSave>
     <FileType>achievements.dat:collections.dat:hiscores.txt:last.txt:magicbox.dat</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -871,6 +1216,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -892,6 +1238,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.bin</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -909,6 +1256,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -926,6 +1274,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.SAV</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -946,6 +1295,7 @@
     <FolderSave>false</FolderSave>
     <FileType>saves</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -964,6 +1314,7 @@
     <FolderSave>false</FolderSave>
     <FileType>queen.*</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>ScummVM</Name>
@@ -981,6 +1332,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.gz:*.shp:*.png:*.bmp</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -998,6 +1350,7 @@
     <FolderSave>false</FolderSave>
     <FileType>save.cfg</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1015,6 +1368,7 @@
     <FolderSave>false</FolderSave>
     <FileType>highlevelshistory:highscores</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1032,6 +1386,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1049,6 +1404,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1066,6 +1422,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.hsg:Profile-*.cfg</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1083,6 +1440,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.hws</FileType>
     <ExcludeList>LastRound*.hws</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1100,6 +1458,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.SAV</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -1121,6 +1480,7 @@
     <FolderSave>false</FolderSave>
     <FileType>DontModifyThis.ini</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1139,6 +1499,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.save</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1157,6 +1518,7 @@
     <FolderSave>false</FolderSave>
     <FileType>prefs</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1169,11 +1531,13 @@
   <Game>
     <Name>Invisible Inc</Name>
     <ProcessName>InvisibleInc</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/Klei/InvisibleInc/saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1192,6 +1556,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1210,6 +1575,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.kep:*.adv</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1234,6 +1600,7 @@
     <FolderSave>false</FolderSave>
     <FileType>slot*.data</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1252,6 +1619,7 @@
     <FolderSave>false</FolderSave>
     <FileType>data.kopp</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1269,6 +1637,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1287,6 +1656,7 @@
     <FolderSave>false</FolderSave>
     <FileType>savegame.txt</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1304,6 +1674,7 @@
     <FolderSave>false</FolderSave>
     <FileType>profiles.bin</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1322,6 +1693,7 @@
     <FolderSave>false</FolderSave>
     <FileType>lure.*</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>ScummVM</Name>
@@ -1340,6 +1712,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1357,6 +1730,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>graphics.ini</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1375,6 +1749,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.xml:*.jpg</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1396,6 +1771,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1413,6 +1789,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1430,6 +1807,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.score</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1447,6 +1825,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1465,6 +1844,7 @@
     <FolderSave>false</FolderSave>
     <FileType>highscores:stats</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1483,6 +1863,7 @@
     <FolderSave>false</FolderSave>
     <FileType>prefs</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1501,6 +1882,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.txt</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1518,6 +1900,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.txt</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1536,6 +1919,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1557,6 +1941,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1575,6 +1960,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.odad</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1593,6 +1979,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>olliolli.ini</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1610,6 +1997,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>config.dat</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1628,6 +2016,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.sv6</FileType>
     <ExcludeList>autosave.sv6</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1649,6 +2038,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList>autosave</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1670,6 +2060,7 @@
     <FolderSave>false</FolderSave>
     <FileType>prefs</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1687,6 +2078,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1704,6 +2096,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>2.0 Save Games Backup</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1721,6 +2114,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.scm</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1739,6 +2133,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*_MONSTERSAVEGAME</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1757,6 +2152,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*_SHOOTERSAVEGAME</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1774,6 +2170,7 @@
     <FolderSave>false</FolderSave>
     <FileType>prefs</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1791,6 +2188,7 @@
     <FolderSave>false</FolderSave>
     <FileType>savegames:preykey</FileType>
     <ExcludeList>AutoSave*:QuickSave*</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1808,6 +2206,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1825,6 +2224,7 @@
     <FolderSave>false</FolderSave>
     <FileType>saves:Campaign:unlocked.txt</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1842,6 +2242,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1860,6 +2261,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1878,6 +2280,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1895,6 +2298,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1913,6 +2317,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.rsv</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1931,6 +2336,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1951,6 +2357,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1969,6 +2376,7 @@
     <FolderSave>false</FolderSave>
     <FileType>PlayerPrefs.txt</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1987,6 +2395,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2005,6 +2414,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2023,6 +2433,7 @@
     <FolderSave>false</FolderSave>
     <FileType>206420</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2043,6 +2454,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2060,6 +2472,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>config.cfg</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2077,6 +2490,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>Settings.xml</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2094,6 +2508,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2111,6 +2526,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2129,6 +2545,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2149,6 +2566,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.txt</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2166,6 +2584,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2184,6 +2603,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.dat</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -2202,6 +2622,7 @@
     <FolderSave>false</FolderSave>
     <FileType>Web Data:Web Data-journal</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2219,6 +2640,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>render.bin</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2236,6 +2658,7 @@
     <FolderSave>false</FolderSave>
     <FileType>Saves:UserSettings.ini</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2254,6 +2677,7 @@
     <FolderSave>false</FolderSave>
     <FileType>ModdedSaves:Saves</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2272,6 +2696,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.sve</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -2293,6 +2718,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2311,6 +2737,7 @@
     <FolderSave>false</FolderSave>
     <FileType>SpeedRunnerHDGameStore:SpeedRunnerHDProgressionStore_*</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2328,6 +2755,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.sav:Savegames</FileType>
     <ExcludeList>AutoSave.sav</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -2348,6 +2776,7 @@
     <FolderSave>false</FolderSave>
     <FileType>SAVEGAME.*</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -2368,6 +2797,7 @@
     <FolderSave>false</FolderSave>
     <FileType>SAVEGAME.*</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -2389,6 +2819,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2407,6 +2838,7 @@
     <FolderSave>false</FolderSave>
     <FileType>settings.dat</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2425,6 +2857,7 @@
     <FolderSave>false</FolderSave>
     <FileType>savegame.dat</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2443,6 +2876,7 @@
     <FolderSave>false</FolderSave>
     <FileType>profile1</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -2461,6 +2895,7 @@
     <FolderSave>false</FolderSave>
     <FileType>grandprix</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -2479,6 +2914,7 @@
     <FolderSave>false</FolderSave>
     <FileType>save_*</FileType>
     <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Crossover</Name>
@@ -2500,6 +2936,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -2521,6 +2958,7 @@
     <FolderSave>false</FolderSave>
     <FileType>saves</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -2538,6 +2976,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2556,6 +2995,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2573,6 +3013,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.ini:*.pro</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2590,6 +3031,7 @@
     <FolderSave>false</FolderSave>
     <FileType>iPhoneProfiles</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2607,6 +3049,7 @@
     <FolderSave>false</FolderSave>
     <FileType>Save.xml</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2625,6 +3068,7 @@
     <FolderSave>false</FolderSave>
     <FileType>prefs</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2643,6 +3087,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2663,6 +3108,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -2681,6 +3127,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.rxdata</FileType>
     <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2699,6 +3146,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.macdat</FileType>
     <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2717,6 +3165,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2734,6 +3183,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -2752,6 +3202,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2769,6 +3220,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.fbs</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2787,6 +3239,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2805,6 +3258,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.tsvg</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -2823,6 +3277,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.local</FileType>
     <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2841,6 +3296,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2861,6 +3317,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>config.cfg</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2879,6 +3336,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -2896,6 +3354,7 @@
     <FolderSave>false</FolderSave>
     <FileType>saved_game_*.lua</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -2913,6 +3372,7 @@
     <FolderSave>false</FolderSave>
     <FileType>user.ini</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2931,6 +3391,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -2949,6 +3410,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -2966,6 +3428,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.wgf</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -2983,6 +3446,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -3001,6 +3465,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -3018,6 +3483,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3035,6 +3501,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.db</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -3053,6 +3520,7 @@
     <FolderSave>false</FolderSave>
     <FileType>campaign.cfg</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -3071,6 +3539,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -3089,6 +3558,7 @@
     <FolderSave>false</FolderSave>
     <FileType>save*.dat</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -3110,6 +3580,7 @@
     <FolderSave>false</FolderSave>
     <FileType>save*.dat</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -3131,6 +3602,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -3149,6 +3621,7 @@
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
         <Name>Steam</Name>
