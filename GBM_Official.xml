@@ -12,10 +12,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -84,13 +84,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>DOSBox</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -105,10 +105,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -123,10 +123,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -159,10 +159,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -249,10 +249,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -321,10 +321,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -339,10 +339,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -357,10 +357,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -411,10 +411,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -429,13 +429,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>DOSBox</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -450,10 +450,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -486,10 +486,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -504,10 +504,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -522,13 +522,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -597,10 +597,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -651,10 +651,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -669,10 +669,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -705,10 +705,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -741,10 +741,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -777,10 +777,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -795,10 +795,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -813,10 +813,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -831,10 +831,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -885,10 +885,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Retail</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Retail</Name>
       </Tag>
     </Tags>
   </Game>
@@ -903,10 +903,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -921,13 +921,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -942,10 +942,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>DOSBox</Name>
       </Tag>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -999,10 +999,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1017,10 +1017,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1053,13 +1053,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
         <Name>DOSBox</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1074,10 +1074,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1128,10 +1128,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1146,10 +1146,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Retail</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Retail</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1167,10 +1167,10 @@
         <Name>DOSBox</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1185,10 +1185,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1203,10 +1203,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1239,10 +1239,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1257,10 +1257,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1275,10 +1275,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1293,10 +1293,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1311,10 +1311,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1329,10 +1329,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1386,10 +1386,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1441,13 +1441,13 @@
     <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Tracking</Name>
+        <Name>Blizzard</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Blizzard</Name>
+        <Name>Tracking</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1462,10 +1462,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1480,10 +1480,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1498,10 +1498,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1517,10 +1517,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1535,10 +1535,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1556,10 +1556,10 @@
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>Origin</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Origin</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1574,10 +1574,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Origin</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Origin</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1611,10 +1611,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1707,10 +1707,10 @@
         <Name>DOSBox</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1743,13 +1743,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>DOSBox</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1879,10 +1879,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1897,10 +1897,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1915,10 +1915,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1933,10 +1933,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2023,10 +2023,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2237,10 +2237,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2255,10 +2255,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2274,10 +2274,10 @@
     <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Tracking</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Tracking</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2292,10 +2292,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2311,13 +2311,13 @@
     <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Tracking</Name>
+        <Name>Blizzard</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Blizzard</Name>
+        <Name>Tracking</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2350,10 +2350,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2368,10 +2368,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2386,10 +2386,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2422,10 +2422,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2440,10 +2440,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2497,10 +2497,10 @@
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>ScummVM</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>ScummVM</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2629,10 +2629,10 @@
         <Name>DOSBox</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2701,10 +2701,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2719,10 +2719,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2737,10 +2737,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2755,10 +2755,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2809,10 +2809,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Origin</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Origin</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2863,10 +2863,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3026,10 +3026,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3062,10 +3062,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3098,10 +3098,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3134,10 +3134,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3152,10 +3152,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3188,10 +3188,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3206,10 +3206,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3278,10 +3278,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3314,10 +3314,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3332,10 +3332,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3350,10 +3350,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3388,13 +3388,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3409,10 +3409,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3427,10 +3427,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>DOSBox</Name>
       </Tag>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -3521,13 +3521,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>DOSBox</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3596,10 +3596,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3614,10 +3614,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3632,10 +3632,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3650,10 +3650,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3686,10 +3686,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3704,10 +3704,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3740,10 +3740,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3778,10 +3778,10 @@
     <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>Tracking</Name>
@@ -3800,10 +3800,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3818,10 +3818,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3890,10 +3890,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3926,10 +3926,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3962,10 +3962,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3998,10 +3998,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4016,10 +4016,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4034,10 +4034,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4071,10 +4071,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4089,10 +4089,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4143,13 +4143,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>DOSBox</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4164,13 +4164,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>DOSBox</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4203,13 +4203,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
         <Name>DOSBox</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4260,10 +4260,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4278,10 +4278,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4296,10 +4296,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4368,10 +4368,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4387,10 +4387,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Blizzard</Name>
       </Tag>
       <Tag>
-        <Name>Blizzard</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4405,10 +4405,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4423,10 +4423,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4441,10 +4441,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4477,10 +4477,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>DOSBox</Name>
       </Tag>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -4516,10 +4516,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4588,13 +4588,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>DOSBox</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4609,13 +4609,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4721,10 +4721,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4739,10 +4739,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4760,10 +4760,10 @@
         <Name>DOSBox</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4796,10 +4796,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4814,10 +4814,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4833,10 +4833,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4869,10 +4869,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4924,10 +4924,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4942,10 +4942,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5015,10 +5015,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5051,10 +5051,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
@@ -5144,10 +5144,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5216,13 +5216,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Retail</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5237,10 +5237,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Retail</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Retail</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
@@ -5258,10 +5258,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Retail</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Retail</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
@@ -5279,13 +5279,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Retail</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5300,10 +5300,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5326,6 +5326,26 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Widelands</Name>
+    <ProcessName>widelands</ProcessName>
+    <Parameter />
+    <Path>*currentuser*\.widelands\save</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.wgf</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Wolfenstein 3D</Name>
     <ProcessName>DOSBox</ProcessName>
     <Path>..\</Path>
@@ -5336,13 +5356,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>DOSBox</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5375,10 +5395,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5411,10 +5431,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>

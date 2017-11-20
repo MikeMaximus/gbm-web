@@ -26,13 +26,13 @@
                   <p>The official list includes games that are pre-configured to work with GBM.</p>
                   <p>GBM supports ANY game or application once configured!</p>
                   <p>Check the <a href="manual.html#import">manual</a> to learn how to easily import configurations on this list.</p>
-                  <p>This list contains game configurations for Microsoft Windows.</p>                  
+                  <p>This list contains game configurations for Microsoft Windows.</p>
                 </div>
               </div>
               <div class="pageSection">
                 <div class="pageSectionHeader">Game Configurations (Windows)</div>
                 <div class="pageSectionContent">
-                  <h3 class="notop">Updated: September 28, 2017 (294 Configs)</h3>                  
+                  <h3 class="notop">Updated: November 20, 2017 (295 Configs)</h3>
                   <p class="small">Official configurations exclude graphics settings, logs, screenshots and other extras when possible.</p>
 				          <p class="small">Official configurations may exclude autosaves and/or quicksaves when they greatly increase backup size.</p>
 				          <p class="small">Official configurations will only detect the game's default executable when multiple versions are available.</p>
