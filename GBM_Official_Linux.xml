@@ -1,3749 +1,3756 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official_Linux.xsl"?>
 <gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Game>
-    <Name>0 AD</Name>
-    <ProcessName>pyrogenesis</ProcessName>
-    <Path>*appdatalocal*/0ad/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>saves</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>3079 -- Block Action RPG</Name>
-    <ProcessName>java</ProcessName>
-    <Parameter>3079.jar</Parameter>
-    <Path>*mydocs*/3079Saves</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>8-Bit Commando</Name>
-    <ProcessName>8bit_commando</ProcessName>
-    <Parameter />
-    <Path>*mydocs*/.agen/8-Bit Commando/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>records.xml</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>A Bird Story</Name>
-    <ProcessName>ABirdStory.amd64</ProcessName>
-    <Parameter />
-    <Path>*appdatalocal*/freebirdgames/abirdstory/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.rxdata</FileType>
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>A Story About My Uncle</Name>
-    <ProcessName>ASAMU</ProcessName>
-    <Parameter />
-    <Path>../../ASAMU/Saves</Path>
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.bin</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>A Virus Named TOM</Name>
-    <ProcessName>CircuitGame.bin.x86_64</ProcessName>
-    <Parameter />
-    <Path>*appdatalocal*/CircuitGameData/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>A Wizard’s Lizard</Name>
-    <ProcessName>nw</ProcessName>
-    <Parameter />
-    <Path>*appdataroaming*/A Wizard's Lizard/Local Storage</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>A7xpg</Name>
-    <ProcessName>a7xpg</ProcessName>
-    <Parameter />
-    <Path />
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>AI War - Fleet Command</Name>
-    <ProcessName>AIWarLinux.x86_64</ProcessName>
-    <Path>RuntimeData/Save</Path>
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>AaaaaAAaaaAAAaaAAAAaAAAAA!!! for the Awesome</Name>
-    <ProcessName>Awesome.x86</ProcessName>
-    <Parameter />
-    <Path>*appdataroaming*/unity3d/Dejobaan Games/Awesome/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>prefs</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Abuse</Name>
-    <ProcessName>abuse.elf</ProcessName>
-    <Path>*mydocs*/.abuse/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>save*.spe</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Alien Arena</Name>
-    <ProcessName>alienarena</ProcessName>
-    <Parameter />
-    <Path />
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Always Remember Me</Name>
-    <ProcessName>Always Remember Me</ProcessName>
-    <Parameter />
-    <Path>*mydocs*/.renpy/Remember_Me-1.3</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType>1-*.save</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>American Truck Simulator</Name>
-    <ProcessName>amtrucks</ProcessName>
-    <Path>*appdatalocal*/American Truck Simulator/profiles</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Amnesia The Dark descent</Name>
-    <ProcessName>Amnesia.bin.x86_64</ProcessName>
-    <Path>*mydocs*/.frictionalgames/Amnesia</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.sav</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Analogue A Hate Story</Name>
-    <ProcessName>python</ProcessName>
-    <Parameter>Analogue.py</Parameter>
-    <Path>*mydocs*/.renpy/Analogue</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType>1-*.save</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>And Yet It Moves</Name>
-    <ProcessName>AndYetItMoves</ProcessName>
-    <Parameter />
-    <Path>*mydocs*/.Broken Rules/And Yet It Moves/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>ghosts:secretExternal*.aym</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Comments />
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Anodyne</Name>
-    <ProcessName>Anodyne</ProcessName>
-    <Parameter />
-    <Path>*mydocs*/.appdata/Anodyne/Local Store/#SharedObjects/Anodyne.swf/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Anomaly 2</Name>
-    <ProcessName>Anomaly2Linux</ProcessName>
-    <Parameter />
-    <Path>*mydocs*/.Anomaly 2</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Anomaly Defenders</Name>
-    <ProcessName>AnomalyDefenders</ProcessName>
-    <Parameter />
-    <Path>*mydocs*/.Anomaly Defenders/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Antichamber</Name>
-    <ProcessName>UDKGame-Linux</ProcessName>
-    <Parameter />
-    <Path>*appdatalocal*/AlexanderBruce/Antichamber</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>SavedGame.bin</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Apotheon</Name>
-    <ProcessName>Apotheon.bin.x86_64 </ProcessName>
-    <Parameter />
-    <Path>*appdatalocal*/Apotheon/SavedGames</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Aquaria</Name>
-    <ProcessName>aquaria</ProcessName>
-    <Parameter />
-    <Path>*appdatalocal*/Aquaria</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Arx Libertatis</Name>
-    <ProcessName>arx</ProcessName>
-    <Parameter />
-    <Path>*appdatalocal*/arx</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>save</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>Remake</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Astromenace</Name>
-    <ProcessName>astromenace</ProcessName>
-    <Path>*appdataroaming*/astromenace/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>amconfig.xml</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Atom Zombie Smasher</Name>
-    <ProcessName>AtomZombieSmasher.bin.x86_64</ProcessName>
-    <Parameter />
-    <Path>*appdataroaming*/AtomZombieData/profiles</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.sav:profile.dat</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Avadon The black fortress</Name>
-    <ProcessName>Avadon-x86</ProcessName>
-    <Parameter />
-    <Path>*appdatalocal*/Avadon/Spiderweb Software/Avadon Saved Games</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType>Save*</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Baldur's Gate - Enhanced Edition</Name>
-    <ProcessName>BaldursGate</ProcessName>
-    <Path>*appdatalocal*/Baldur's Gate - Enhanced Edition</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>portraits:save</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Baldur's Gate 2 - Enhanced Edition</Name>
-    <ProcessName>BaldursGateII</ProcessName>
-    <Path>*appdatalocal*/Baldur's Gate II - Enhanced Edition</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Barbie Seahorse Adventures</Name>
-    <ProcessName>barbie</ProcessName>
-    <Parameter />
-    <Path />
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Bastion</Name>
-    <ProcessName>Bastion.bin.x86_64</ProcessName>
-    <Parameter />
-    <Path>*mydocs*/.SupergiantGames/Bastion</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType>Profile*.sav:Profile*.profile</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Battle Worlds - Kronos</Name>
-    <ProcessName>BattleWorldsKronos.x86_64</ProcessName>
-    <Path>*mydocs*/Documents/BattleWorldsKronos/Profiles</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>BattleBlock Theater</Name>
-    <ProcessName>BattleBlockTheater</ProcessName>
-    <Parameter />
-    <Path />
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Beat Hazard</Name>
-    <ProcessName>BeatHazard_Linux2</ProcessName>
-    <Parameter />
-    <Path>*appdatalocal*/BeatHazard_Linux2/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Beatbuddy Tale of the Guardians</Name>
-    <ProcessName>Beatbuddy</ProcessName>
-    <Parameter />
-    <Path>*appdataroaming*/unity3d/Threaks/Beatbuddy/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.sav</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Beneath a Steel Sky</Name>
-    <ProcessName>scummvm</ProcessName>
-    <Parameter>sky</Parameter>
-    <Path>*mydocs*/.scummvm</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>SKY-VM.*</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>ScummVM</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Big Pharma</Name>
-    <ProcessName>Big Pharma.x86</ProcessName>
-    <Path>*appdatalocal*/Big Pharma/Saves</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Bionic Dues</Name>
-    <ProcessName>BionicLinux.x86_64</ProcessName>
-    <Parameter />
-    <Path>RuntimeData/Save</Path>
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType>*.save:*.profile</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Bit Blaster XL</Name>
-    <ProcessName>BitBlasterXL.x86_64</ProcessName>
-    <Parameter />
-    <Path />
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Blackwell Convergence</Name>
-    <ProcessName>Convergence.bin.x86_64</ProcessName>
-    <Parameter />
-    <Path>*appdatalocal*/Blackwell Convergence</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>agssave.*</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Blackwell Legacy</Name>
-    <ProcessName>Legacy.bin.x86_64</ProcessName>
-    <Parameter />
-    <Path>*appdatalocal*/Blackwell Legacy v1.7</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>agssave.*</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Blackwell Unbound</Name>
-    <ProcessName>Unbound.bin.x86_64</ProcessName>
-    <Parameter />
-    <Path>*appdatalocal*/Blackwell Unbound</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>agssave.*</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Bloboats</Name>
-    <ProcessName>bloboats</ProcessName>
-    <Path>*mydocs*/.bloboats/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>players.dat</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Blocks That Matter</Name>
-    <ProcessName>java</ProcessName>
-    <Parameter>BTM.jar</Parameter>
-    <Path>*mydocs*/.BlocksThatMatterUserDatas/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Comments />
-    <Tags>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Borderlands 2</Name>
-    <ProcessName>Borderlands2</ProcessName>
-    <Path>*appdatalocal*/aspyr-media/borderlands 2/willowgame/savedata</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>profile.bin:*.sav</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Borderlands The Pre-Sequel</Name>
-    <ProcessName>BorderlandsPreSequel</ProcessName>
-    <Parameter />
-    <Path>*appdatalocal*/aspyr-media/borderlands the pre-sequel/willowgame/savedata/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.sav:profile.bin</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Braid</Name>
-    <ProcessName>Braid.bin.x86</ProcessName>
-    <Parameter />
-    <Path>*appdatalocal*/Braid</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Comments />
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Brogue</Name>
-    <ProcessName>brogue</ProcessName>
-    <Parameter />
-    <Path />
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>CRYPTARK</Name>
-    <ProcessName>Cryptark.bin.x86_64</ProcessName>
-    <Parameter />
-    <Path>*appdatalocal*/Cryptark/SavedGames</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.sav</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Canabalt</Name>
-    <ProcessName>Canabalt.x86_64</ProcessName>
-    <Parameter />
-    <Path />
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Comments />
-    <Tags>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Castle Doctrine</Name>
-    <ProcessName>CastleDoctrineApp</ProcessName>
-    <Parameter />
-    <Path />
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Cities - Skylines</Name>
-    <ProcessName>Cities.x64</ProcessName>
-    <Path>*appdatalocal*/Colossal Order/Cities_Skylines/Saves</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Closure</Name>
-    <ProcessName>Closure.bin.x86</ProcessName>
-    <Parameter />
-    <Path>*appdatalocal*/Eyebrow Interactive/Closure</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Comments />
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>CorsixTH</Name>
-    <ProcessName>CorsixTH</ProcessName>
-    <Path>*appdataroaming*/CorsixTH/Saves</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.sav</FileType>
-    <ExcludeList>Autosaves</ExcludeList>
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>Remake</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Covert Action</Name>
-    <ProcessName>dosbox</ProcessName>
-    <Parameter>dosbox_smcovert.conf</Parameter>
-    <Path>../MPS/COVERT</Path>
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>CV*.SVE</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>DOSBox</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Crawl</Name>
-    <ProcessName>Crawl.x86_64 </ProcessName>
-    <Parameter />
-    <Path />
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>Crawl.sav</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Deponia The Complete Journey</Name>
-    <ProcessName>deponia_tcj</ProcessName>
-    <Path>*appdatalocal*/Daedalic Entertainment GmbH/Deponia The Complete Journey/Savegames</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.dat</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Din's Curse</Name>
-    <ProcessName>DinsCurse</ProcessName>
-    <Path>*mydocs*/.local/DinsCurse/User/chars</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Divinity Original Sin - Enhanced Edition</Name>
-    <ProcessName>EoCApp</ProcessName>
-    <Path>*mydocs*/Larian Studios/Divinity Original Sin Enhanced Edition/PlayerProfiles</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList>config.lsx:modsettings.lsx</ExcludeList>
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Door Kickers</Name>
-    <ProcessName>DoorKickers</ProcessName>
-    <Path>*appdatalocal*/DoorKickers</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList>options.xml</ExcludeList>
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Drascula The Vampire Strikes Back</Name>
-    <ProcessName>scummvm</ProcessName>
-    <Parameter>drascula</Parameter>
-    <Path>*mydocs*/.scummvm</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>drascula.*</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>ScummVM</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Dreamfall Chapters</Name>
-    <ProcessName>Dreamfall Chapters</ProcessName>
-    <Path>*appdataroaming*/unity3d/Red Thread Games/Dreamfall Chapters</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList>prefs</ExcludeList>
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Droid Assault</Name>
-    <ProcessName>java32</ProcessName>
-    <Parameter>DroidAssault.jar</Parameter>
-    <Path>*mydocs*/.droid_assault</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Dungeons 2</Name>
-    <ProcessName>Dungeons2.x86_64</ProcessName>
-    <Parameter />
-    <Path>savegames/</Path>
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Dungeons of Dredmor</Name>
-    <ProcessName>Dredmor-x86</ProcessName>
-    <Path>*appdatalocal*/Dredmor</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>achievements.dat:collections.dat:hiscores.txt:last.txt:magicbox.dat</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Dust An Elysian Tail</Name>
-    <ProcessName>DustAET.bin.x86_64</ProcessName>
-    <Path>*appdatalocal*/DustAET</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.sav</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Eufloria</Name>
-    <ProcessName>EufloriaHD.bin.x86_64</ProcessName>
-    <Parameter />
-    <Path>*appdatalocal*/EufloriaHD</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.bin</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Euro Truck Simulator 2</Name>
-    <ProcessName>eurotrucks2</ProcessName>
-    <Path>*appdatalocal*/Euro Truck Simulator 2/profiles</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Eye of the Beholder</Name>
-    <ProcessName>dosbox_x86_64</ProcessName>
-    <Path>../data</Path>
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.SAV</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>DOSBox</Name>
-      </Tag>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Flare RPG</Name>
-    <ProcessName>flare</ProcessName>
-    <Path>*appdatalocal*/flare</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>saves</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Flight of the Amazon Queen</Name>
-    <ProcessName>scummvm</ProcessName>
-    <Parameter>queen</Parameter>
-    <Path>*mydocs*/.scummvm</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>queen.*</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>ScummVM</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Freedroid RPG</Name>
-    <ProcessName>freedroidRPG</ProcessName>
-    <Path>*mydocs*/.freedroid_rpg/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.gz:*.shp:*.png:*.bmp</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Frogatto</Name>
-    <ProcessName>game</ProcessName>
-    <Path>*mydocs*/.frogatto/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>save.cfg</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Frozen Bubble</Name>
-    <ProcessName>frozen-bubble</ProcessName>
-    <Path>*mydocs*/.frozen-bubble/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>highlevelshistory:highscores</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Gone Home</Name>
-    <ProcessName>GoneHome.x86_64</ProcessName>
-    <Path>*appdataroaming*/unity3d/The Fullbright Company/Gone Home</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.sav</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Gunroar</Name>
-    <ProcessName>gunroar</ProcessName>
-    <Path>*mydocs*/.gunroar/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Harvest Massive Encounter</Name>
-    <ProcessName>Harvest</ProcessName>
-    <Path>*mydocs*/.Harvest/profiles</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.hsg:Profile-*.cfg</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Hedgewars</Name>
-    <ProcessName>hedgewars</ProcessName>
-    <Path>*mydocs*/.hedgewars/Saves</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.hws</FileType>
-    <ExcludeList>LastRound*.hws</ExcludeList>
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>I Have No Mouth and I Must Scream</Name>
-    <ProcessName>dosbox_x86_64</ProcessName>
-    <Path>../data/SCREAM</Path>
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.SAV</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>DOSBox</Name>
-      </Tag>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>INK</Name>
-    <ProcessName>runner</ProcessName>
-    <Parameter />
-    <Path>*appdataroaming*/INK</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>DontModifyThis.ini</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Iesabel</Name>
-    <ProcessName>Iesabel.x86</ProcessName>
-    <Parameter />
-    <Path>Iesabel_Data/Save</Path>
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.save</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Influent</Name>
-    <ProcessName>Influent.x86_64</ProcessName>
-    <Parameter />
-    <Path>*appdataroaming*/unity3d/Three Flip Studios/Influent</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>prefs</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Invisible Inc</Name>
-    <ProcessName>InvisibleInc</ProcessName>
-    <Parameter />
-    <Path>*appdatalocal*/Klei/InvisibleInc/saves</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Jotun</Name>
-    <ProcessName>Jotun.x86</ProcessName>
-    <Parameter />
-    <Path>*appdataroaming*/unity3d/Thunder Lotus Games/Jotun/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.sav</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>KeeperRL</Name>
-    <ProcessName>keeper</ProcessName>
-    <Parameter />
-    <Path />
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.kep:*.adv</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Kingdom Rush</Name>
-    <ProcessName>Kingdom Rush.x86</ProcessName>
-    <Parameter />
-    <Path />
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>slot*.data</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Knights of Pen and Paper +1</Name>
-    <ProcessName>knightspp.x86</ProcessName>
-    <Parameter />
-    <Path>knightspp_Data</Path>
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>data.kopp</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Knights of Pen and Paper 2</Name>
-    <ProcessName>kopp2.x86</ProcessName>
-    <Path>*appdataroaming*/unity3d/Kyy Games/Knights of Pen and Paper 2</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.sav</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>LIMBO</Name>
-    <ProcessName>limbo</ProcessName>
-    <Parameter />
-    <Path>*mydocs*/.limbo/limbo/drive_c/Program Files/limbo/save_game/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>savegame.txt</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Little Inferno</Name>
-    <ProcessName>LittleInferno.bin.x86</ProcessName>
-    <Path>*appdatalocal*/littleinferno</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>profiles.bin</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Lure of the Temptress</Name>
-    <ProcessName>scummvm</ProcessName>
-    <Parameter>lure</Parameter>
-    <Path>*mydocs*/.scummvm</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>lure.*</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>ScummVM</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Mana Plus</Name>
-    <ProcessName>manaplus</ProcessName>
-    <Parameter />
-    <Path />
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Mark of the Ninja</Name>
-    <ProcessName>ninja-bin64</ProcessName>
-    <Path>*mydocs*/.klei/ninja/users</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList>graphics.ini</ExcludeList>
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>MegaGlest</Name>
-    <ProcessName>megaglest</ProcessName>
-    <Parameter />
-    <Path>*mydocs*/.megaglest/saved</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.xml:*.jpg</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Middle-earth Shadow of Mordor</Name>
-    <ProcessName>ShadowOfMordor</ProcessName>
-    <Parameter />
-    <Path>*appdatalocal*/feral-interactive/ShadowOfMordor/SaveData</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Minetest</Name>
-    <ProcessName>minetest</ProcessName>
-    <Path>*mydocs*/.minetest/worlds/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Mirror Magic</Name>
-    <ProcessName>mirrormagic</ProcessName>
-    <Path>*mydocs*/.mirrormagic/scores</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.score</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Mount and Blade - Warband</Name>
-    <ProcessName>mb_warband_linux</ProcessName>
-    <Path>*mydocs*/.mbwarband/Savegames</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Mr Rescue</Name>
-    <ProcessName>love</ProcessName>
-    <Parameter>mrrescue-1.02e.love</Parameter>
-    <Path>*appdatalocal*/love/mrrescue/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>highscores:stats</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Munin</Name>
-    <ProcessName>Munin.x86_64</ProcessName>
-    <Parameter />
-    <Path>*appdataroaming*/unity3d/GOJIRA/Munin</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>prefs</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Neverball</Name>
-    <ProcessName>neverball</ProcessName>
-    <Parameter />
-    <Path>*mydocs*/.neverball/Scores</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.txt</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Neverputt</Name>
-    <ProcessName>neverputt</ProcessName>
-    <Path>*mydocs*/.neverball/Scores</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.txt</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>No Time To Explain Remastered</Name>
-    <ProcessName>NoTimeToExplain.x86</ProcessName>
-    <Parameter />
-    <Path>*appdataroaming*/unity3d/tinyBuild GAMES/No Time To Explain/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Nuclear Throne</Name>
-    <ProcessName>nuclearthrone</ProcessName>
-    <Parameter />
-    <Path>*appdataroaming*/nuclearthrone/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.sav</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Octodad Dadliest Catch</Name>
-    <ProcessName>OctodadDadliestCatch</ProcessName>
-    <Parameter />
-    <Path />
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.odad</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>OlliOlli</Name>
-    <ProcessName>linux32</ProcessName>
-    <Parameter />
-    <Path>*mydocs*/.olliolli</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList>olliolli.ini</ExcludeList>
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>OlliOlli2 - Welcome to Olliwood</Name>
-    <ProcessName>olliolli2</ProcessName>
-    <Path>*mydocs*/.olliolli2</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList>config.dat</ExcludeList>
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>OpenRCT2</Name>
-    <ProcessName>openrct2</ProcessName>
-    <Parameter />
-    <Path>*appdataroaming*/OpenRCT2/save/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.sv6</FileType>
-    <ExcludeList>autosave.sv6</ExcludeList>
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>Remake</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>OpenTTD</Name>
-    <ProcessName>openttd</ProcessName>
-    <Parameter />
-    <Path>*mydocs*/.openttd/save/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.sav</FileType>
-    <ExcludeList>autosave</ExcludeList>
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>Remake</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>PONCHO</Name>
-    <ProcessName>Poncho.x86</ProcessName>
-    <Parameter />
-    <Path>*appdataroaming*/unity3d/Delve Interactive/Poncho</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>prefs</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Papers, Please</Name>
-    <ProcessName>PapersPlease</ProcessName>
-    <Path>*appdatalocal*/3909/PapersPlease</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Pillars of Eternity</Name>
-    <ProcessName>PillarsOfEternity</ProcessName>
-    <Path>*appdatalocal*/PillarsOfEternity/SavedGames</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList>2.0 Save Games Backup</ExcludeList>
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Pingus</Name>
-    <ProcessName>pingus.bin</ProcessName>
-    <Path>*mydocs*/.pingus/savegames</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.scm</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>PixelJunk Monsters Ultimate</Name>
-    <ProcessName>Monsters</ProcessName>
-    <Parameter />
-    <Path>../savegame</Path>
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*_MONSTERSAVEGAME</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>PixelJunk Shooter</Name>
-    <ProcessName>CaveShooter</ProcessName>
-    <Parameter />
-    <Path>*appdatalocal*/PJShooter</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*_SHOOTERSAVEGAME</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Pony Island</Name>
-    <ProcessName>PonyIsland.x86</ProcessName>
-    <Path>*appdataroaming*/unity3d/Daniel Mullins Games/Pony Island</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>prefs</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Prey</Name>
-    <ProcessName>prey.x86</ProcessName>
-    <Path>*mydocs*/.prey/base</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>savegames:preykey</FileType>
-    <ExcludeList>AutoSave*:QuickSave*</ExcludeList>
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>Retail</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Primordia</Name>
-    <ProcessName>Primordia.bin.x86_64</ProcessName>
-    <Path>*appdatalocal*/Primordia</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Prison Architect</Name>
-    <ProcessName>PrisonArchitect.x86_64</ProcessName>
-    <Path>*mydocs*/.Prison Architect</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>saves:Campaign:unlocked.txt</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Project Zomboid</Name>
-    <ProcessName>ProjectZomboid64</ProcessName>
-    <Path>*mydocs*/Zomboid/Saves</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>ROCKETSROCKETSROCKETS</Name>
-    <ProcessName>Rockets.x86_64</ProcessName>
-    <Parameter />
-    <Path />
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Red Eclipse</Name>
-    <ProcessName>redeclipse</ProcessName>
-    <Parameter />
-    <Path />
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Resonance</Name>
-    <ProcessName>Resonance.bin.x86_64</ProcessName>
-    <Path>*appdatalocal*/Resonance</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Retro City Rampage</Name>
-    <ProcessName>retrocityrampage</ProcessName>
-    <Parameter />
-    <Path>../</Path>
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.rsv</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Revenge of the Titans</Name>
-    <ProcessName>java32</ProcessName>
-    <Parameter>RevengeOfTheTitans.jar</Parameter>
-    <Path>*mydocs*/.revenge_of_the_titans</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Rogue Legacy</Name>
-    <ProcessName>RogueCastle.bin.x86_64</ProcessName>
-    <Path>*appdatalocal*/RogueLegacyStorageContainer</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Roguelands</Name>
-    <ProcessName>Roguelands.x86</ProcessName>
-    <Parameter />
-    <Path>*appdataroaming*/unity3d/DefaultCompany/Roguelands</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>PlayerPrefs.txt</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Rust</Name>
-    <ProcessName>rust</ProcessName>
-    <Parameter />
-    <Path />
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>SOMA</Name>
-    <ProcessName>Soma.bin.x86_64</ProcessName>
-    <Parameter />
-    <Path>*appdatalocal*/frictionalgames/Soma/Main/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.sav</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Saints Row IV</Name>
-    <ProcessName>SaintsRow4.i386</ProcessName>
-    <Parameter />
-    <Path>../../../userdata/</Path>
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>206420</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Satellite Reign</Name>
-    <ProcessName>SatelliteReignLinux.x86_64</ProcessName>
-    <Path>*appdatalocal*/SatelliteReign/users</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Shadow Warrior 2013</Name>
-    <ProcessName>ShadowWarrior.bin.x86</ProcessName>
-    <Path>*appdatalocal*/Flying Wild Hog/Shadow Warrior/profiles</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList>config.cfg</ExcludeList>
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Shadowgate</Name>
-    <ProcessName>Shadowgate.x86</ProcessName>
-    <Path>*appdatalocal*/Zojoi/Shadowgate</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList>Settings.xml</ExcludeList>
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Shadowrun Dragonfall - Director's Cut</Name>
-    <ProcessName>Dragonfall</ProcessName>
-    <Path>*appdataroaming*/Harebrained Schemes/Shadowrun Dragonfall/Saves</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Shadowrun Hong Kong - Extended Edition</Name>
-    <ProcessName>SRHK</ProcessName>
-    <Path>*appdataroaming*/Harebrained Schemes/Shadowrun Hong Kong/Saves</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Shadowrun Returns</Name>
-    <ProcessName>Shadowrun</ProcessName>
-    <Parameter />
-    <Path>*appdataroaming*/Harebrained Schemes/Shadowrun Returns/Saves</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Shadwen</Name>
-    <ProcessName>shadwen_linux_64bit</ProcessName>
-    <Path>*appdatalocal*/frozenbyte/Shadwen</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList>*.txt</ExcludeList>
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Shattered Haven</Name>
-    <ProcessName>ShatteredHavenLinux.x86_64</ProcessName>
-    <Path>RuntimeData/Save</Path>
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Shattered Pixel Dungeon</Name>
-    <ProcessName>java</ProcessName>
-    <Parameter>shattered-pixel-dungeon.jar</Parameter>
-    <Path>*mydocs*/.shatteredpixel/shattered-pixel-dungeon</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.dat</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Shonen Idle Z</Name>
-    <ProcessName>shonenidlez</ProcessName>
-    <Parameter />
-    <Path>*appdataroaming*/shonenidlez/Default</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>Web Data:Web Data-journal</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Shovel Knight</Name>
-    <ProcessName>ShovelKnight</ProcessName>
-    <Path>*appdatalocal*/Yacht Club Games/Shovel Knight</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList>render.bin</ExcludeList>
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Sid Meier's Civilization - Beyond Earth</Name>
-    <ProcessName>CivBE</ProcessName>
-    <Path>*appdatalocal*/aspyr-media/Sid Meier's Civilization Beyond Earth</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>Saves:UserSettings.ini</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Sid Meier’s Civilization V</Name>
-    <ProcessName>Civ5XP</ProcessName>
-    <Parameter />
-    <Path>*appdatalocal*/Aspyr/Sid Meier's Civilization 5/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>ModdedSaves:Saves</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Simutrans</Name>
-    <ProcessName>simutrans</ProcessName>
-    <Parameter />
-    <Path>*mydocs*/.simutrans/save</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.sve</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Spec Ops The Line</Name>
-    <ProcessName>specops.i386</ProcessName>
-    <Parameter />
-    <Path />
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>SpeedRunners</Name>
-    <ProcessName>SpeedRunners.bin.x86_64</ProcessName>
-    <Parameter />
-    <Path>*appdatalocal*/SpeedRunners/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>SpeedRunnerHDGameStore:SpeedRunnerHDProgressionStore_*</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Spring RTS</Name>
-    <ProcessName>spring</ProcessName>
-    <Path>*mydocs*/.spring</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.sav:Savegames</FileType>
-    <ExcludeList>AutoSave.sav</ExcludeList>
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>Remake</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Star Trek - 25th Anniversary</Name>
-    <ProcessName>dosbox_x86_64</ProcessName>
-    <Path>../data/ENG/TREKCD</Path>
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>SAVEGAME.*</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>DOSBox</Name>
-      </Tag>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Star Trek - Judgement Rites</Name>
-    <ProcessName>dosbox_x86_64</ProcessName>
-    <Path>../data/TREK2</Path>
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>SAVEGAME.*</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>DOSBox</Name>
-      </Tag>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Stardew Valley</Name>
-    <ProcessName>StardewValley.bin.x86_64</ProcessName>
-    <Parameter />
-    <Path>*appdataroaming*/StardewValley/Saves/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Super Hexagon</Name>
-    <ProcessName>SuperHexagon</ProcessName>
-    <Parameter />
-    <Path>*appdatalocal*/SuperHexagon</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>settings.dat</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Super Meat Boy</Name>
-    <ProcessName>SuperMeatBoy</ProcessName>
-    <Parameter />
-    <Path>*appdatalocal*/SuperMeatBoy/UserData</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>savegame.dat</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>SuperTux 2</Name>
-    <ProcessName>supertux2</ProcessName>
-    <Parameter />
-    <Path>*appdatalocal*/supertux2/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>profile1</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>SuperTuxKart</Name>
-    <ProcessName>supertuxkart</ProcessName>
-    <Parameter />
-    <Path>*appdatalocal*/supertuxkart</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>grandprix</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>System Shock 2</Name>
-    <ProcessName>Shock2</ProcessName>
-    <Parameter />
-    <Path>*mydocs*/.systemshock2/systemshock2/drive_c/Program Files/SystemShock2/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>save_*</FileType>
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Crossover</Name>
-      </Tag>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Teeworlds</Name>
-    <ProcessName>teeworlds</ProcessName>
-    <Parameter />
-    <Path />
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>The Battle for Wesnoth</Name>
-    <ProcessName>wesnoth</ProcessName>
-    <Parameter />
-    <Path>*appdatalocal*/wesnoth/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>saves</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>The Original Strife - Veteran Edition</Name>
-    <ProcessName>strife-ve</ProcessName>
-    <Path>*appdatalocal*/strife-ve/savegames</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>The Stanley Parable</Name>
-    <ProcessName>stanley_linux</ProcessName>
-    <Parameter />
-    <Path />
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>The Swapper</Name>
-    <ProcessName>TheSwapper.bin.x86_64</ProcessName>
-    <Path>*appdatalocal*/Facepalm Games/The Swapper 1000/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.ini:*.pro</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>This War of Mine</Name>
-    <ProcessName>This War of Mine</ProcessName>
-    <Path>*mydocs*/.This War of Mine</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>iPhoneProfiles</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>This is the Police</Name>
-    <ProcessName>Police.x86_64</ProcessName>
-    <Path>*appdataroaming*/unity3d/Weappy/This Is The Police</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>Save.xml</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Tiny Echo</Name>
-    <ProcessName>TinyEcho.x86</ProcessName>
-    <Parameter />
-    <Path>*appdataroaming*/unity3d/Might and Delight/Tiny Echo</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>prefs</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Titan Attacks</Name>
-    <ProcessName>java32</ProcessName>
-    <Parameter>TitanAttacks.jar</Parameter>
-    <Path>*mydocs*/.titan_attacks</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Titanion</Name>
-    <ProcessName>titanion</ProcessName>
-    <Path>*mydocs*/.titanion</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>To The Moon</Name>
-    <ProcessName>ToTheMoon.bin.x86_64</ProcessName>
-    <Parameter />
-    <Path>*appdatalocal*/freebirdgames/tothemoon</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.rxdata</FileType>
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Tomb Raider</Name>
-    <ProcessName>TombRaider</ProcessName>
-    <Parameter />
-    <Path>*appdatalocal*/feral-interactive/Tomb Raider/SaveData</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.macdat</FileType>
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Torchlight II</Name>
-    <ProcessName>Torchlight2.bin.x86_64</ProcessName>
-    <Parameter />
-    <Path />
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Torus Trooper</Name>
-    <ProcessName>torus-trooper</ProcessName>
-    <Path>*mydocs*/.torus-trooper</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Total War Warhammer</Name>
-    <ProcessName>TotalWarhammer</ProcessName>
-    <Parameter />
-    <Path>*appdatalocal*/feral-interactive/Total War Warhammer/SaveData</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Trine 2 - Complete Story</Name>
-    <ProcessName>trine2_linux_32bit</ProcessName>
-    <Path>*mydocs*/.frozenbyte/Trine2</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.fbs</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Trine 3 The Artifacts of Power</Name>
-    <ProcessName>trine3_linux_64bit</ProcessName>
-    <Parameter />
-    <Path />
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>TripleA</Name>
-    <ProcessName>java</ProcessName>
-    <Parameter>triplea.jar</Parameter>
-    <Path>*mydocs*/triplea/savedGames</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.tsvg</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Tumblestone</Name>
-    <ProcessName>tumblestone.x86_64</ProcessName>
-    <Parameter />
-    <Path>*appdataroaming*/unity3d/The Quantum Astrophysicists Guild/Tumblestone</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.local</FileType>
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Ultratron</Name>
-    <ProcessName>java32</ProcessName>
-    <Parameter>Ultratron.jar</Parameter>
-    <Path>*mydocs*/.ultratron</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Unepic</Name>
-    <ProcessName>unepic64gog</ProcessName>
-    <Path>*appdatalocal*/Unepic/unepic</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList>config.cfg</ExcludeList>
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Unvanquished</Name>
-    <ProcessName>unvanquished</ProcessName>
-    <Parameter />
-    <Path />
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Valyria Tear</Name>
-    <ProcessName>valyriatear</ProcessName>
-    <Path>*appdatalocal*/valyriatear/</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>saved_game_*.lua</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Volgarr the Viking</Name>
-    <ProcessName>Volgarr</ProcessName>
-    <Path>*appdataroaming*/Crazy Viking Studios/Volgarr the Viking</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>user.ini</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Voxelands</Name>
-    <ProcessName>voxelands</ProcessName>
-    <Parameter />
-    <Path>*appdatalocal*/voxelands</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Warsow</Name>
-    <ProcessName>warsow</ProcessName>
-    <Parameter />
-    <Path />
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Widelands</Name>
-    <ProcessName>widelands</ProcessName>
-    <Path>*mydocs*/.widelands/save</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.wgf</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>World of Goo</Name>
-    <ProcessName>WorldOfGoo</ProcessName>
-    <Path>*mydocs*/.WorldOfGoo</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>World of Padman</Name>
-    <ProcessName>wop</ProcessName>
-    <Parameter />
-    <Path />
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Xenonauts</Name>
-    <ProcessName>Xenonauts.bin.x86</ProcessName>
-    <Path>*appdatalocal*/Goldhawk Interactive/Xenonauts</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.sav</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Xmoto</Name>
-    <ProcessName>xmoto</ProcessName>
-    <Path>*appdatalocal*/xmoto</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>*.db</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Xonotic</Name>
-    <ProcessName>xonotic-glx</ProcessName>
-    <Parameter />
-    <Path>*mydocs*/.xonotic/data/data</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>campaign.cfg</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>You Must Build A Boat</Name>
-    <ProcessName>YMBAB.x86</ProcessName>
-    <Parameter />
-    <Path />
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Zelda Mystery of Solarus DX</Name>
-    <ProcessName>solarus-run</ProcessName>
-    <Parameter>zsdx</Parameter>
-    <Path>*mydocs*/.solarus/zsdx</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>save*.dat</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>Remake</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Zelda Mystery of Solarus XD</Name>
-    <ProcessName>solarus-run</ProcessName>
-    <Parameter>zsxd</Parameter>
-    <Path>*mydocs*/.solarus/zsxd</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>save*.dat</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>Remake</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Ziggurat</Name>
-    <ProcessName>Ziggurat.x86_64</ProcessName>
-    <Parameter />
-    <Path>*appdataroaming*/unity3d/Milkstone Studios/Ziggurat</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Zombie Defense</Name>
-    <ProcessName>ZombieDefense.x86</ProcessName>
-    <Parameter />
-    <Path>*appdataroaming*/unity3d/Home Net Games/Zombie Defense</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
+  <Information>
+    <Exported>1512735608</Exported>
+    <TotalConfigurations>192</TotalConfigurations>
+    <AppVer>105</AppVer>
+  </Information>
+  <Configurations>
+    <Game>
+      <Name>0 AD</Name>
+      <ProcessName>pyrogenesis</ProcessName>
+      <Path>*appdatalocal*/0ad/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>saves</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>3079 -- Block Action RPG</Name>
+      <ProcessName>java</ProcessName>
+      <Parameter>3079.jar</Parameter>
+      <Path>*mydocs*/3079Saves</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>8-Bit Commando</Name>
+      <ProcessName>8bit_commando</ProcessName>
+      <Parameter />
+      <Path>*mydocs*/.agen/8-Bit Commando/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>records.xml</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>A Bird Story</Name>
+      <ProcessName>ABirdStory.amd64</ProcessName>
+      <Parameter />
+      <Path>*appdatalocal*/freebirdgames/abirdstory/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.rxdata</FileType>
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>A Story About My Uncle</Name>
+      <ProcessName>ASAMU</ProcessName>
+      <Parameter />
+      <Path>../../ASAMU/Saves</Path>
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.bin</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>A Virus Named TOM</Name>
+      <ProcessName>CircuitGame.bin.x86_64</ProcessName>
+      <Parameter />
+      <Path>*appdatalocal*/CircuitGameData/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>A Wizard’s Lizard</Name>
+      <ProcessName>nw</ProcessName>
+      <Parameter />
+      <Path>*appdataroaming*/A Wizard's Lizard/Local Storage</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>A7xpg</Name>
+      <ProcessName>a7xpg</ProcessName>
+      <Parameter />
+      <Path />
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>AI War - Fleet Command</Name>
+      <ProcessName>AIWarLinux.x86_64</ProcessName>
+      <Path>RuntimeData/Save</Path>
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>AaaaaAAaaaAAAaaAAAAaAAAAA!!! for the Awesome</Name>
+      <ProcessName>Awesome.x86</ProcessName>
+      <Parameter />
+      <Path>*appdataroaming*/unity3d/Dejobaan Games/Awesome/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>prefs</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Abuse</Name>
+      <ProcessName>abuse.elf</ProcessName>
+      <Path>*mydocs*/.abuse/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>save*.spe</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Alien Arena</Name>
+      <ProcessName>alienarena</ProcessName>
+      <Parameter />
+      <Path />
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Always Remember Me</Name>
+      <ProcessName>Always Remember Me</ProcessName>
+      <Parameter />
+      <Path>*mydocs*/.renpy/Remember_Me-1.3</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType>1-*.save</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>American Truck Simulator</Name>
+      <ProcessName>amtrucks</ProcessName>
+      <Path>*appdatalocal*/American Truck Simulator/profiles</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Amnesia The Dark descent</Name>
+      <ProcessName>Amnesia.bin.x86_64</ProcessName>
+      <Path>*mydocs*/.frictionalgames/Amnesia</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.sav</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Analogue A Hate Story</Name>
+      <ProcessName>python</ProcessName>
+      <Parameter>Analogue.py</Parameter>
+      <Path>*mydocs*/.renpy/Analogue</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType>1-*.save</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>And Yet It Moves</Name>
+      <ProcessName>AndYetItMoves</ProcessName>
+      <Parameter />
+      <Path>*mydocs*/.Broken Rules/And Yet It Moves/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>ghosts:secretExternal*.aym</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Comments />
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Anodyne</Name>
+      <ProcessName>Anodyne</ProcessName>
+      <Parameter />
+      <Path>*mydocs*/.appdata/Anodyne/Local Store/#SharedObjects/Anodyne.swf/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Anomaly 2</Name>
+      <ProcessName>Anomaly2Linux</ProcessName>
+      <Parameter />
+      <Path>*mydocs*/.Anomaly 2</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Anomaly Defenders</Name>
+      <ProcessName>AnomalyDefenders</ProcessName>
+      <Parameter />
+      <Path>*mydocs*/.Anomaly Defenders/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Antichamber</Name>
+      <ProcessName>UDKGame-Linux</ProcessName>
+      <Parameter />
+      <Path>*appdatalocal*/AlexanderBruce/Antichamber</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>SavedGame.bin</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Apotheon</Name>
+      <ProcessName>Apotheon.bin.x86_64 </ProcessName>
+      <Parameter />
+      <Path>*appdatalocal*/Apotheon/SavedGames</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Aquaria</Name>
+      <ProcessName>aquaria</ProcessName>
+      <Parameter />
+      <Path>*appdatalocal*/Aquaria</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Arx Libertatis</Name>
+      <ProcessName>arx</ProcessName>
+      <Parameter />
+      <Path>*appdatalocal*/arx</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>save</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Remake</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Astromenace</Name>
+      <ProcessName>astromenace</ProcessName>
+      <Path>*appdataroaming*/astromenace/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>amconfig.xml</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Atom Zombie Smasher</Name>
+      <ProcessName>AtomZombieSmasher.bin.x86_64</ProcessName>
+      <Parameter />
+      <Path>*appdataroaming*/AtomZombieData/profiles</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.sav:profile.dat</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Avadon The black fortress</Name>
+      <ProcessName>Avadon-x86</ProcessName>
+      <Parameter />
+      <Path>*appdatalocal*/Avadon/Spiderweb Software/Avadon Saved Games</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType>Save*</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Baldur's Gate - Enhanced Edition</Name>
+      <ProcessName>BaldursGate</ProcessName>
+      <Path>*appdatalocal*/Baldur's Gate - Enhanced Edition</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>portraits:save</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Baldur's Gate 2 - Enhanced Edition</Name>
+      <ProcessName>BaldursGateII</ProcessName>
+      <Path>*appdatalocal*/Baldur's Gate II - Enhanced Edition</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Barbie Seahorse Adventures</Name>
+      <ProcessName>barbie</ProcessName>
+      <Parameter />
+      <Path />
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Bastion</Name>
+      <ProcessName>Bastion.bin.x86_64</ProcessName>
+      <Parameter />
+      <Path>*mydocs*/.SupergiantGames/Bastion</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType>Profile*.sav:Profile*.profile</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Battle Worlds - Kronos</Name>
+      <ProcessName>BattleWorldsKronos.x86_64</ProcessName>
+      <Path>*mydocs*/Documents/BattleWorldsKronos/Profiles</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>BattleBlock Theater</Name>
+      <ProcessName>BattleBlockTheater</ProcessName>
+      <Parameter />
+      <Path />
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Beat Hazard</Name>
+      <ProcessName>BeatHazard_Linux2</ProcessName>
+      <Parameter />
+      <Path>*appdatalocal*/BeatHazard_Linux2/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Beatbuddy Tale of the Guardians</Name>
+      <ProcessName>Beatbuddy</ProcessName>
+      <Parameter />
+      <Path>*appdataroaming*/unity3d/Threaks/Beatbuddy/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.sav</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Beneath a Steel Sky</Name>
+      <ProcessName>scummvm</ProcessName>
+      <Parameter>sky</Parameter>
+      <Path>*mydocs*/.scummvm</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>SKY-VM.*</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>ScummVM</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Big Pharma</Name>
+      <ProcessName>Big Pharma.x86</ProcessName>
+      <Path>*appdatalocal*/Big Pharma/Saves</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Bionic Dues</Name>
+      <ProcessName>BionicLinux.x86_64</ProcessName>
+      <Parameter />
+      <Path>RuntimeData/Save</Path>
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType>*.save:*.profile</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Bit Blaster XL</Name>
+      <ProcessName>BitBlasterXL.x86_64</ProcessName>
+      <Parameter />
+      <Path />
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Blackwell Convergence</Name>
+      <ProcessName>Convergence.bin.x86_64</ProcessName>
+      <Parameter />
+      <Path>*appdatalocal*/Blackwell Convergence</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>agssave.*</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Blackwell Legacy</Name>
+      <ProcessName>Legacy.bin.x86_64</ProcessName>
+      <Parameter />
+      <Path>*appdatalocal*/Blackwell Legacy v1.7</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>agssave.*</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Blackwell Unbound</Name>
+      <ProcessName>Unbound.bin.x86_64</ProcessName>
+      <Parameter />
+      <Path>*appdatalocal*/Blackwell Unbound</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>agssave.*</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Bloboats</Name>
+      <ProcessName>bloboats</ProcessName>
+      <Path>*mydocs*/.bloboats/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>players.dat</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Blocks That Matter</Name>
+      <ProcessName>java</ProcessName>
+      <Parameter>BTM.jar</Parameter>
+      <Path>*mydocs*/.BlocksThatMatterUserDatas/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Comments />
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Borderlands 2</Name>
+      <ProcessName>Borderlands2</ProcessName>
+      <Path>*appdatalocal*/aspyr-media/borderlands 2/willowgame/savedata</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>profile.bin:*.sav</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Borderlands The Pre-Sequel</Name>
+      <ProcessName>BorderlandsPreSequel</ProcessName>
+      <Parameter />
+      <Path>*appdatalocal*/aspyr-media/borderlands the pre-sequel/willowgame/savedata/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.sav:profile.bin</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Braid</Name>
+      <ProcessName>Braid.bin.x86</ProcessName>
+      <Parameter />
+      <Path>*appdatalocal*/Braid</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Comments />
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Brogue</Name>
+      <ProcessName>brogue</ProcessName>
+      <Parameter />
+      <Path />
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>CRYPTARK</Name>
+      <ProcessName>Cryptark.bin.x86_64</ProcessName>
+      <Parameter />
+      <Path>*appdatalocal*/Cryptark/SavedGames</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.sav</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Canabalt</Name>
+      <ProcessName>Canabalt.x86_64</ProcessName>
+      <Parameter />
+      <Path />
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Comments />
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Castle Doctrine</Name>
+      <ProcessName>CastleDoctrineApp</ProcessName>
+      <Parameter />
+      <Path />
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Cities - Skylines</Name>
+      <ProcessName>Cities.x64</ProcessName>
+      <Path>*appdatalocal*/Colossal Order/Cities_Skylines/Saves</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Closure</Name>
+      <ProcessName>Closure.bin.x86</ProcessName>
+      <Parameter />
+      <Path>*appdatalocal*/Eyebrow Interactive/Closure</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Comments />
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>CorsixTH</Name>
+      <ProcessName>CorsixTH</ProcessName>
+      <Path>*appdataroaming*/CorsixTH/Saves</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.sav</FileType>
+      <ExcludeList>Autosaves</ExcludeList>
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Remake</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Covert Action</Name>
+      <ProcessName>dosbox</ProcessName>
+      <Parameter>dosbox_smcovert.conf</Parameter>
+      <Path>../MPS/COVERT</Path>
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>CV*.SVE</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>DOSBox</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Crawl</Name>
+      <ProcessName>Crawl.x86_64 </ProcessName>
+      <Parameter />
+      <Path />
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>Crawl.sav</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Deponia The Complete Journey</Name>
+      <ProcessName>deponia_tcj</ProcessName>
+      <Path>*appdatalocal*/Daedalic Entertainment GmbH/Deponia The Complete Journey/Savegames</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.dat</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Din's Curse</Name>
+      <ProcessName>DinsCurse</ProcessName>
+      <Path>*mydocs*/.local/DinsCurse/User/chars</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Divinity Original Sin - Enhanced Edition</Name>
+      <ProcessName>EoCApp</ProcessName>
+      <Path>*mydocs*/Larian Studios/Divinity Original Sin Enhanced Edition/PlayerProfiles</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList>config.lsx:modsettings.lsx</ExcludeList>
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Door Kickers</Name>
+      <ProcessName>DoorKickers</ProcessName>
+      <Path>*appdatalocal*/DoorKickers</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList>options.xml</ExcludeList>
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Drascula The Vampire Strikes Back</Name>
+      <ProcessName>scummvm</ProcessName>
+      <Parameter>drascula</Parameter>
+      <Path>*mydocs*/.scummvm</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>drascula.*</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>ScummVM</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Dreamfall Chapters</Name>
+      <ProcessName>Dreamfall Chapters</ProcessName>
+      <Path>*appdataroaming*/unity3d/Red Thread Games/Dreamfall Chapters</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList>prefs</ExcludeList>
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Droid Assault</Name>
+      <ProcessName>java32</ProcessName>
+      <Parameter>DroidAssault.jar</Parameter>
+      <Path>*mydocs*/.droid_assault</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Dungeons 2</Name>
+      <ProcessName>Dungeons2.x86_64</ProcessName>
+      <Parameter />
+      <Path>savegames/</Path>
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Dungeons of Dredmor</Name>
+      <ProcessName>Dredmor-x86</ProcessName>
+      <Path>*appdatalocal*/Dredmor</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>achievements.dat:collections.dat:hiscores.txt:last.txt:magicbox.dat</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Dust An Elysian Tail</Name>
+      <ProcessName>DustAET.bin.x86_64</ProcessName>
+      <Path>*appdatalocal*/DustAET</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.sav</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Eufloria</Name>
+      <ProcessName>EufloriaHD.bin.x86_64</ProcessName>
+      <Parameter />
+      <Path>*appdatalocal*/EufloriaHD</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.bin</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Euro Truck Simulator 2</Name>
+      <ProcessName>eurotrucks2</ProcessName>
+      <Path>*appdatalocal*/Euro Truck Simulator 2/profiles</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Eye of the Beholder</Name>
+      <ProcessName>dosbox_x86_64</ProcessName>
+      <Path>../data</Path>
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.SAV</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>DOSBox</Name>
+        </Tag>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Flare RPG</Name>
+      <ProcessName>flare</ProcessName>
+      <Path>*appdatalocal*/flare</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>saves</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Flight of the Amazon Queen</Name>
+      <ProcessName>scummvm</ProcessName>
+      <Parameter>queen</Parameter>
+      <Path>*mydocs*/.scummvm</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>queen.*</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>ScummVM</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Freedroid RPG</Name>
+      <ProcessName>freedroidRPG</ProcessName>
+      <Path>*mydocs*/.freedroid_rpg/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.gz:*.shp:*.png:*.bmp</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Frogatto</Name>
+      <ProcessName>game</ProcessName>
+      <Path>*mydocs*/.frogatto/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>save.cfg</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Frozen Bubble</Name>
+      <ProcessName>frozen-bubble</ProcessName>
+      <Path>*mydocs*/.frozen-bubble/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>highlevelshistory:highscores</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Gone Home</Name>
+      <ProcessName>GoneHome.x86_64</ProcessName>
+      <Path>*appdataroaming*/unity3d/The Fullbright Company/Gone Home</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.sav</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Gunroar</Name>
+      <ProcessName>gunroar</ProcessName>
+      <Path>*mydocs*/.gunroar/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Harvest Massive Encounter</Name>
+      <ProcessName>Harvest</ProcessName>
+      <Path>*mydocs*/.Harvest/profiles</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.hsg:Profile-*.cfg</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Hedgewars</Name>
+      <ProcessName>hedgewars</ProcessName>
+      <Path>*mydocs*/.hedgewars/Saves</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.hws</FileType>
+      <ExcludeList>LastRound*.hws</ExcludeList>
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>I Have No Mouth and I Must Scream</Name>
+      <ProcessName>dosbox_x86_64</ProcessName>
+      <Path>../data/SCREAM</Path>
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.SAV</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>DOSBox</Name>
+        </Tag>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>INK</Name>
+      <ProcessName>runner</ProcessName>
+      <Parameter />
+      <Path>*appdataroaming*/INK</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>DontModifyThis.ini</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Iesabel</Name>
+      <ProcessName>Iesabel.x86</ProcessName>
+      <Parameter />
+      <Path>Iesabel_Data/Save</Path>
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.save</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Influent</Name>
+      <ProcessName>Influent.x86_64</ProcessName>
+      <Parameter />
+      <Path>*appdataroaming*/unity3d/Three Flip Studios/Influent</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>prefs</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Invisible Inc</Name>
+      <ProcessName>InvisibleInc</ProcessName>
+      <Parameter />
+      <Path>*appdatalocal*/Klei/InvisibleInc/saves</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Jotun</Name>
+      <ProcessName>Jotun.x86</ProcessName>
+      <Parameter />
+      <Path>*appdataroaming*/unity3d/Thunder Lotus Games/Jotun/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.sav</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>KeeperRL</Name>
+      <ProcessName>keeper</ProcessName>
+      <Parameter />
+      <Path />
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.kep:*.adv</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Kingdom Rush</Name>
+      <ProcessName>Kingdom Rush.x86</ProcessName>
+      <Parameter />
+      <Path />
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>slot*.data</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Knights of Pen and Paper +1</Name>
+      <ProcessName>knightspp.x86</ProcessName>
+      <Parameter />
+      <Path>knightspp_Data</Path>
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>data.kopp</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Knights of Pen and Paper 2</Name>
+      <ProcessName>kopp2.x86</ProcessName>
+      <Path>*appdataroaming*/unity3d/Kyy Games/Knights of Pen and Paper 2</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.sav</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>LIMBO</Name>
+      <ProcessName>limbo</ProcessName>
+      <Parameter />
+      <Path>*mydocs*/.limbo/limbo/drive_c/Program Files/limbo/save_game/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>savegame.txt</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Little Inferno</Name>
+      <ProcessName>LittleInferno.bin.x86</ProcessName>
+      <Path>*appdatalocal*/littleinferno</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>profiles.bin</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Lure of the Temptress</Name>
+      <ProcessName>scummvm</ProcessName>
+      <Parameter>lure</Parameter>
+      <Path>*mydocs*/.scummvm</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>lure.*</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>ScummVM</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Mana Plus</Name>
+      <ProcessName>manaplus</ProcessName>
+      <Parameter />
+      <Path />
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Mark of the Ninja</Name>
+      <ProcessName>ninja-bin64</ProcessName>
+      <Path>*mydocs*/.klei/ninja/users</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList>graphics.ini</ExcludeList>
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>MegaGlest</Name>
+      <ProcessName>megaglest</ProcessName>
+      <Parameter />
+      <Path>*mydocs*/.megaglest/saved</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.xml:*.jpg</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Middle-earth Shadow of Mordor</Name>
+      <ProcessName>ShadowOfMordor</ProcessName>
+      <Parameter />
+      <Path>*appdatalocal*/feral-interactive/ShadowOfMordor/SaveData</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Minetest</Name>
+      <ProcessName>minetest</ProcessName>
+      <Path>*mydocs*/.minetest/worlds/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Mirror Magic</Name>
+      <ProcessName>mirrormagic</ProcessName>
+      <Path>*mydocs*/.mirrormagic/scores</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.score</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Mount and Blade - Warband</Name>
+      <ProcessName>mb_warband_linux</ProcessName>
+      <Path>*mydocs*/.mbwarband/Savegames</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Mr Rescue</Name>
+      <ProcessName>love</ProcessName>
+      <Parameter>mrrescue-1.02e.love</Parameter>
+      <Path>*appdatalocal*/love/mrrescue/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>highscores:stats</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Munin</Name>
+      <ProcessName>Munin.x86_64</ProcessName>
+      <Parameter />
+      <Path>*appdataroaming*/unity3d/GOJIRA/Munin</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>prefs</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Neverball</Name>
+      <ProcessName>neverball</ProcessName>
+      <Parameter />
+      <Path>*mydocs*/.neverball/Scores</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.txt</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Neverputt</Name>
+      <ProcessName>neverputt</ProcessName>
+      <Path>*mydocs*/.neverball/Scores</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.txt</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>No Time To Explain Remastered</Name>
+      <ProcessName>NoTimeToExplain.x86</ProcessName>
+      <Parameter />
+      <Path>*appdataroaming*/unity3d/tinyBuild GAMES/No Time To Explain/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Nuclear Throne</Name>
+      <ProcessName>nuclearthrone</ProcessName>
+      <Parameter />
+      <Path>*appdataroaming*/nuclearthrone/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.sav</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Octodad Dadliest Catch</Name>
+      <ProcessName>OctodadDadliestCatch</ProcessName>
+      <Parameter />
+      <Path />
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.odad</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>OlliOlli</Name>
+      <ProcessName>linux32</ProcessName>
+      <Parameter />
+      <Path>*mydocs*/.olliolli</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList>olliolli.ini</ExcludeList>
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>OlliOlli2 - Welcome to Olliwood</Name>
+      <ProcessName>olliolli2</ProcessName>
+      <Path>*mydocs*/.olliolli2</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList>config.dat</ExcludeList>
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>OpenRCT2</Name>
+      <ProcessName>openrct2</ProcessName>
+      <Parameter />
+      <Path>*appdataroaming*/OpenRCT2/save/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.sv6</FileType>
+      <ExcludeList>autosave.sv6</ExcludeList>
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Remake</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>OpenTTD</Name>
+      <ProcessName>openttd</ProcessName>
+      <Parameter />
+      <Path>*mydocs*/.openttd/save/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.sav</FileType>
+      <ExcludeList>autosave</ExcludeList>
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Remake</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>PONCHO</Name>
+      <ProcessName>Poncho.x86</ProcessName>
+      <Parameter />
+      <Path>*appdataroaming*/unity3d/Delve Interactive/Poncho</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>prefs</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Papers, Please</Name>
+      <ProcessName>PapersPlease</ProcessName>
+      <Path>*appdatalocal*/3909/PapersPlease</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Pillars of Eternity</Name>
+      <ProcessName>PillarsOfEternity</ProcessName>
+      <Path>*appdatalocal*/PillarsOfEternity/SavedGames</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList>2.0 Save Games Backup</ExcludeList>
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Pingus</Name>
+      <ProcessName>pingus.bin</ProcessName>
+      <Path>*mydocs*/.pingus/savegames</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.scm</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>PixelJunk Monsters Ultimate</Name>
+      <ProcessName>Monsters</ProcessName>
+      <Parameter />
+      <Path>../savegame</Path>
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*_MONSTERSAVEGAME</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>PixelJunk Shooter</Name>
+      <ProcessName>CaveShooter</ProcessName>
+      <Parameter />
+      <Path>*appdatalocal*/PJShooter</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*_SHOOTERSAVEGAME</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Pony Island</Name>
+      <ProcessName>PonyIsland.x86</ProcessName>
+      <Path>*appdataroaming*/unity3d/Daniel Mullins Games/Pony Island</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>prefs</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Prey</Name>
+      <ProcessName>prey.x86</ProcessName>
+      <Path>*mydocs*/.prey/base</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>savegames:preykey</FileType>
+      <ExcludeList>AutoSave*:QuickSave*</ExcludeList>
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Retail</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Primordia</Name>
+      <ProcessName>Primordia.bin.x86_64</ProcessName>
+      <Path>*appdatalocal*/Primordia</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Prison Architect</Name>
+      <ProcessName>PrisonArchitect.x86_64</ProcessName>
+      <Path>*mydocs*/.Prison Architect</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>saves:Campaign:unlocked.txt</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Project Zomboid</Name>
+      <ProcessName>ProjectZomboid64</ProcessName>
+      <Path>*mydocs*/Zomboid/Saves</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>ROCKETSROCKETSROCKETS</Name>
+      <ProcessName>Rockets.x86_64</ProcessName>
+      <Parameter />
+      <Path />
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Red Eclipse</Name>
+      <ProcessName>redeclipse</ProcessName>
+      <Parameter />
+      <Path />
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Resonance</Name>
+      <ProcessName>Resonance.bin.x86_64</ProcessName>
+      <Path>*appdatalocal*/Resonance</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Retro City Rampage</Name>
+      <ProcessName>retrocityrampage</ProcessName>
+      <Parameter />
+      <Path>../</Path>
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.rsv</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Revenge of the Titans</Name>
+      <ProcessName>java32</ProcessName>
+      <Parameter>RevengeOfTheTitans.jar</Parameter>
+      <Path>*mydocs*/.revenge_of_the_titans</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Rogue Legacy</Name>
+      <ProcessName>RogueCastle.bin.x86_64</ProcessName>
+      <Path>*appdatalocal*/RogueLegacyStorageContainer</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Roguelands</Name>
+      <ProcessName>Roguelands.x86</ProcessName>
+      <Parameter />
+      <Path>*appdataroaming*/unity3d/DefaultCompany/Roguelands</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>PlayerPrefs.txt</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Rust</Name>
+      <ProcessName>rust</ProcessName>
+      <Parameter />
+      <Path />
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>SOMA</Name>
+      <ProcessName>Soma.bin.x86_64</ProcessName>
+      <Parameter />
+      <Path>*appdatalocal*/frictionalgames/Soma/Main/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.sav</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Saints Row IV</Name>
+      <ProcessName>SaintsRow4.i386</ProcessName>
+      <Parameter />
+      <Path>../../../userdata/</Path>
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>206420</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Satellite Reign</Name>
+      <ProcessName>SatelliteReignLinux.x86_64</ProcessName>
+      <Path>*appdatalocal*/SatelliteReign/users</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Shadow Warrior 2013</Name>
+      <ProcessName>ShadowWarrior.bin.x86</ProcessName>
+      <Path>*appdatalocal*/Flying Wild Hog/Shadow Warrior/profiles</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList>config.cfg</ExcludeList>
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Shadowgate</Name>
+      <ProcessName>Shadowgate.x86</ProcessName>
+      <Path>*appdatalocal*/Zojoi/Shadowgate</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList>Settings.xml</ExcludeList>
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Shadowrun Dragonfall - Director's Cut</Name>
+      <ProcessName>Dragonfall</ProcessName>
+      <Path>*appdataroaming*/Harebrained Schemes/Shadowrun Dragonfall/Saves</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Shadowrun Hong Kong - Extended Edition</Name>
+      <ProcessName>SRHK</ProcessName>
+      <Path>*appdataroaming*/Harebrained Schemes/Shadowrun Hong Kong/Saves</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Shadowrun Returns</Name>
+      <ProcessName>Shadowrun</ProcessName>
+      <Parameter />
+      <Path>*appdataroaming*/Harebrained Schemes/Shadowrun Returns/Saves</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Shadwen</Name>
+      <ProcessName>shadwen_linux_64bit</ProcessName>
+      <Path>*appdatalocal*/frozenbyte/Shadwen</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList>*.txt</ExcludeList>
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Shattered Haven</Name>
+      <ProcessName>ShatteredHavenLinux.x86_64</ProcessName>
+      <Path>RuntimeData/Save</Path>
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Shattered Pixel Dungeon</Name>
+      <ProcessName>java</ProcessName>
+      <Parameter>shattered-pixel-dungeon.jar</Parameter>
+      <Path>*mydocs*/.shatteredpixel/shattered-pixel-dungeon</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.dat</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Shonen Idle Z</Name>
+      <ProcessName>shonenidlez</ProcessName>
+      <Parameter />
+      <Path>*appdataroaming*/shonenidlez/Default</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>Web Data:Web Data-journal</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Shovel Knight</Name>
+      <ProcessName>ShovelKnight</ProcessName>
+      <Path>*appdatalocal*/Yacht Club Games/Shovel Knight</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList>render.bin</ExcludeList>
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Sid Meier's Civilization - Beyond Earth</Name>
+      <ProcessName>CivBE</ProcessName>
+      <Path>*appdatalocal*/aspyr-media/Sid Meier's Civilization Beyond Earth</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>Saves:UserSettings.ini</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Sid Meier’s Civilization V</Name>
+      <ProcessName>Civ5XP</ProcessName>
+      <Parameter />
+      <Path>*appdatalocal*/Aspyr/Sid Meier's Civilization 5/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>ModdedSaves:Saves</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Simutrans</Name>
+      <ProcessName>simutrans</ProcessName>
+      <Parameter />
+      <Path>*mydocs*/.simutrans/save</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.sve</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Spec Ops The Line</Name>
+      <ProcessName>specops.i386</ProcessName>
+      <Parameter />
+      <Path />
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>SpeedRunners</Name>
+      <ProcessName>SpeedRunners.bin.x86_64</ProcessName>
+      <Parameter />
+      <Path>*appdatalocal*/SpeedRunners/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>SpeedRunnerHDGameStore:SpeedRunnerHDProgressionStore_*</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Spring RTS</Name>
+      <ProcessName>spring</ProcessName>
+      <Path>*mydocs*/.spring</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.sav:Savegames</FileType>
+      <ExcludeList>AutoSave.sav</ExcludeList>
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Remake</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Star Trek - 25th Anniversary</Name>
+      <ProcessName>dosbox_x86_64</ProcessName>
+      <Path>../data/ENG/TREKCD</Path>
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>SAVEGAME.*</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>DOSBox</Name>
+        </Tag>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Star Trek - Judgement Rites</Name>
+      <ProcessName>dosbox_x86_64</ProcessName>
+      <Path>../data/TREK2</Path>
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>SAVEGAME.*</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>DOSBox</Name>
+        </Tag>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Stardew Valley</Name>
+      <ProcessName>StardewValley.bin.x86_64</ProcessName>
+      <Parameter />
+      <Path>*appdataroaming*/StardewValley/Saves/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Super Hexagon</Name>
+      <ProcessName>SuperHexagon</ProcessName>
+      <Parameter />
+      <Path>*appdatalocal*/SuperHexagon</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>settings.dat</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Super Meat Boy</Name>
+      <ProcessName>SuperMeatBoy</ProcessName>
+      <Parameter />
+      <Path>*appdatalocal*/SuperMeatBoy/UserData</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>savegame.dat</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>SuperTux 2</Name>
+      <ProcessName>supertux2</ProcessName>
+      <Parameter />
+      <Path>*appdatalocal*/supertux2/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>profile1</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>SuperTuxKart</Name>
+      <ProcessName>supertuxkart</ProcessName>
+      <Parameter />
+      <Path>*appdatalocal*/supertuxkart</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>grandprix</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>System Shock 2</Name>
+      <ProcessName>Shock2</ProcessName>
+      <Parameter />
+      <Path>*mydocs*/.systemshock2/systemshock2/drive_c/Program Files/SystemShock2/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>save_*</FileType>
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Crossover</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Teeworlds</Name>
+      <ProcessName>teeworlds</ProcessName>
+      <Parameter />
+      <Path />
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>The Battle for Wesnoth</Name>
+      <ProcessName>wesnoth</ProcessName>
+      <Parameter />
+      <Path>*appdatalocal*/wesnoth/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>saves</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>The Original Strife - Veteran Edition</Name>
+      <ProcessName>strife-ve</ProcessName>
+      <Path>*appdatalocal*/strife-ve/savegames</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>The Stanley Parable</Name>
+      <ProcessName>stanley_linux</ProcessName>
+      <Parameter />
+      <Path />
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>The Swapper</Name>
+      <ProcessName>TheSwapper.bin.x86_64</ProcessName>
+      <Path>*appdatalocal*/Facepalm Games/The Swapper 1000/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.ini:*.pro</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>This War of Mine</Name>
+      <ProcessName>This War of Mine</ProcessName>
+      <Path>*mydocs*/.This War of Mine</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>iPhoneProfiles</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>This is the Police</Name>
+      <ProcessName>Police.x86_64</ProcessName>
+      <Path>*appdataroaming*/unity3d/Weappy/This Is The Police</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>Save.xml</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Tiny Echo</Name>
+      <ProcessName>TinyEcho.x86</ProcessName>
+      <Parameter />
+      <Path>*appdataroaming*/unity3d/Might and Delight/Tiny Echo</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>prefs</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Titan Attacks</Name>
+      <ProcessName>java32</ProcessName>
+      <Parameter>TitanAttacks.jar</Parameter>
+      <Path>*mydocs*/.titan_attacks</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Titanion</Name>
+      <ProcessName>titanion</ProcessName>
+      <Path>*mydocs*/.titanion</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>To The Moon</Name>
+      <ProcessName>ToTheMoon.bin.x86_64</ProcessName>
+      <Parameter />
+      <Path>*appdatalocal*/freebirdgames/tothemoon</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.rxdata</FileType>
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Tomb Raider</Name>
+      <ProcessName>TombRaider</ProcessName>
+      <Parameter />
+      <Path>*appdatalocal*/feral-interactive/Tomb Raider/SaveData</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.macdat</FileType>
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Torchlight II</Name>
+      <ProcessName>Torchlight2.bin.x86_64</ProcessName>
+      <Parameter />
+      <Path />
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Torus Trooper</Name>
+      <ProcessName>torus-trooper</ProcessName>
+      <Path>*mydocs*/.torus-trooper</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Total War Warhammer</Name>
+      <ProcessName>TotalWarhammer</ProcessName>
+      <Parameter />
+      <Path>*appdatalocal*/feral-interactive/Total War Warhammer/SaveData</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Trine 2 - Complete Story</Name>
+      <ProcessName>trine2_linux_32bit</ProcessName>
+      <Path>*mydocs*/.frozenbyte/Trine2</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.fbs</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Trine 3 The Artifacts of Power</Name>
+      <ProcessName>trine3_linux_64bit</ProcessName>
+      <Parameter />
+      <Path />
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>TripleA</Name>
+      <ProcessName>java</ProcessName>
+      <Parameter>triplea.jar</Parameter>
+      <Path>*mydocs*/triplea/savedGames</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.tsvg</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Tumblestone</Name>
+      <ProcessName>tumblestone.x86_64</ProcessName>
+      <Parameter />
+      <Path>*appdataroaming*/unity3d/The Quantum Astrophysicists Guild/Tumblestone</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.local</FileType>
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Ultratron</Name>
+      <ProcessName>java32</ProcessName>
+      <Parameter>Ultratron.jar</Parameter>
+      <Path>*mydocs*/.ultratron</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Unepic</Name>
+      <ProcessName>unepic64gog</ProcessName>
+      <Path>*appdatalocal*/Unepic/unepic</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList>config.cfg</ExcludeList>
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Unvanquished</Name>
+      <ProcessName>unvanquished</ProcessName>
+      <Parameter />
+      <Path />
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Valyria Tear</Name>
+      <ProcessName>valyriatear</ProcessName>
+      <Path>*appdatalocal*/valyriatear/</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>saved_game_*.lua</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Volgarr the Viking</Name>
+      <ProcessName>Volgarr</ProcessName>
+      <Path>*appdataroaming*/Crazy Viking Studios/Volgarr the Viking</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>user.ini</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Voxelands</Name>
+      <ProcessName>voxelands</ProcessName>
+      <Parameter />
+      <Path>*appdatalocal*/voxelands</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Warsow</Name>
+      <ProcessName>warsow</ProcessName>
+      <Parameter />
+      <Path />
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Widelands</Name>
+      <ProcessName>widelands</ProcessName>
+      <Path>*mydocs*/.widelands/save</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.wgf</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>World of Goo</Name>
+      <ProcessName>WorldOfGoo</ProcessName>
+      <Path>*mydocs*/.WorldOfGoo</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>World of Padman</Name>
+      <ProcessName>wop</ProcessName>
+      <Parameter />
+      <Path />
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Xenonauts</Name>
+      <ProcessName>Xenonauts.bin.x86</ProcessName>
+      <Path>*appdatalocal*/Goldhawk Interactive/Xenonauts</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.sav</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>GOG</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Xmoto</Name>
+      <ProcessName>xmoto</ProcessName>
+      <Path>*appdatalocal*/xmoto</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>*.db</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Xonotic</Name>
+      <ProcessName>xonotic-glx</ProcessName>
+      <Parameter />
+      <Path>*mydocs*/.xonotic/data/data</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>campaign.cfg</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>You Must Build A Boat</Name>
+      <ProcessName>YMBAB.x86</ProcessName>
+      <Parameter />
+      <Path />
+      <AbsolutePath>false</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Zelda Mystery of Solarus DX</Name>
+      <ProcessName>solarus-run</ProcessName>
+      <Parameter>zsdx</Parameter>
+      <Path>*mydocs*/.solarus/zsdx</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>save*.dat</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Remake</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Zelda Mystery of Solarus XD</Name>
+      <ProcessName>solarus-run</ProcessName>
+      <Parameter>zsxd</Parameter>
+      <Path>*mydocs*/.solarus/zsxd</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>false</FolderSave>
+      <FileType>save*.dat</FileType>
+      <ExcludeList />
+      <MonitorOnly>false</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>FLOSS</Name>
+        </Tag>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Remake</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Ziggurat</Name>
+      <ProcessName>Ziggurat.x86_64</ProcessName>
+      <Parameter />
+      <Path>*appdataroaming*/unity3d/Milkstone Studios/Ziggurat</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+      </Tags>
+    </Game>
+    <Game>
+      <Name>Zombie Defense</Name>
+      <ProcessName>ZombieDefense.x86</ProcessName>
+      <Parameter />
+      <Path>*appdataroaming*/unity3d/Home Net Games/Zombie Defense</Path>
+      <AbsolutePath>true</AbsolutePath>
+      <FolderSave>true</FolderSave>
+      <FileType />
+      <ExcludeList />
+      <MonitorOnly>true</MonitorOnly>
+      <Tags>
+        <Tag>
+          <Name>Official</Name>
+        </Tag>
+        <Tag>
+          <Name>Steam</Name>
+        </Tag>
+        <Tag>
+          <Name>SteamCloud</Name>
+        </Tag>
+      </Tags>
+    </Game>
+  </Configurations>
 </gbm>

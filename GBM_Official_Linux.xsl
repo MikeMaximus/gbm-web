@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <xsl:import href="date.xsl" />
   <xsl:template match="gbm">
     <html>
       <head>
@@ -32,12 +33,18 @@
               <div class="pageSection">
                 <div class="pageSectionHeader">Game Configurations (Linux)</div>
                 <div class="pageSectionContent">
-                  <h3 class="notop">Updated: November 20, 2017 (192 Configs)</h3>
+                <xsl:for-each select="Information">
+                  <h3 class="notop">Updated: 
+                  <xsl:call-template name="seconds-to-date">
+                    <xsl:with-param name="seconds" select="Exported" />
+                  </xsl:call-template> (<xsl:value-of select="TotalConfigurations" /> Configs)</h3>
+                </xsl:for-each>
                   <p class="small">Official configurations exclude graphics settings, logs, screenshots and other extras when possible.</p>
                   <p class="small">Official configurations may exclude autosaves and/or quicksaves when they greatly increase backup size.</p>
                   <p class="small">Official configurations will only detect the game's default executable when multiple versions are available.</p>
                   <p class="small">Icons indicate the version(s) of the game tested with GBM.</p>
                   <table border="0">
+                  <xsl:for-each select="Configurations">
                     <xsl:for-each select="Game">
                       <xsl:sort select="Name" />
                       <tr>
@@ -94,6 +101,7 @@
                         </td>
                       </tr>
                     </xsl:for-each>
+                  </xsl:for-each>
                   </table>
                 </div>
               </div>
