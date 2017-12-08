@@ -30,10 +30,10 @@
       <div id="leftcontent">
         <div class="pageSection">
           <div class="pageSectionHeader">
-            Game Backup Monitor v1.04 Manual
+            Game Backup Monitor v1.0.5 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated September 26, 2017</h3>
+            <h3 class="notop">Updated December 8, 2017</h3>
             <h3>Disclaimer:</h3>
             <p>This manual may contain information about features not available in the current stable release.</p>
             <p>If you are having a specific problem, please check the <a href="https://github.com/MikeMaximus/gbm/issues">issues</a> list.</p>
@@ -141,7 +141,7 @@
             <p>Clicking Cancel or closing the window will cancel any changes made on this screen.</p>
             <p>When modifying the backup folder or any sync settings, be sure to read any warning messages carefully.</p>
             <h3>General</h3>
-            <img class="manual" src="images/manual/manual_15.jpg" width="556" height="393" alt="Settings" />
+            <img class="manual" src="images/manual/manual_15.jpg" width="556" height="388" alt="Settings" />
             <h4>Start with Windows:</h4>
             <p>This indicates if you want GBM to start automatically when Windows starts. This setting applies to the current user only. This setting is disabled in Linux.</p>
             <h4>Start to system tray:</h4>
@@ -150,6 +150,8 @@
             <p>GBM will start detecting games immediately with this setting enabled, otherwise game detection has to be manually started each time you load GBM.</p>            
             <h4>Enable time tracking:</h4>
             <p>GBM will record and display game session times when this is enabled. When it's disabled no time data is recorded or displayed. Toggling this setting has no effect on time data that's already been recorded.</p>
+            <h4>Enable session tracking:</h4>
+            <p>GBM will record individual session data when this is enabled.  Toggling this setting has no effect on session data that's already been recorded.</p>
             <h4>Enable Syncing:</h4>
             <p>When sharing a backup folder with multiple computers using GBM, this setting allows you to automatically keep your game data in sync between these computers. It can be disabled if you're using GBM on a single computer for a slight performance boost.</p>
             <h4>Choose Optional Fields:</h4>
@@ -208,7 +210,7 @@
             <a name="gamemanager" id="gamemanager">The Game Manager</a>
           </div>
           <div class="pageSectionContent">
-            <img class="manual" src="images/manual/manual_06.jpg" width="786" height="588" alt="Game Manager" />
+            <img class="manual" src="images/manual/manual_06.jpg" width="786" height="648" alt="Game Manager" />
             <h3>Game Manager Quick Overview:</h3>
             <ul>
               <li>Add a new game to monitor by clicking the "+" (plus) button below the list box.</li>
@@ -271,6 +273,8 @@
             <p>Deleted folders go to the Recycle Bin in Windows, but are permenantly deleted in Linux.</p>            
             <p>This option is not part of official configurations or import/export features.</p>
             <p>GBM checks for dangerous configurations in which this option should not be used and disables it, but even so use caution with this option.</p>
+            <h4>Comments:</h4>
+            <p>This is used to store any extra information about the configuration.</p>
             <h4>Include and Exclude Items:</h4>
             <p>You can configure which file types, specific files or sub-folders should be included in or excluded from the backup using the Include / Exclude Builder.</p>
             <p>Click the Include Items... or Exclude Items.. button to launch the builder.</p>
@@ -341,7 +345,8 @@
           </div>
           <div class="pageSectionContent">            
             <p>Importing game configurations is done from the <a href="#gamemanager">Game Manager</a>.</p>
-            <p>You can import pre-made backup configurations from the <a href="GBM_official.xml">official list</a> or an XML file exported from GBM.</p><img class="manual" src="images/manual/manual_16.jpg" width="586" height="438" alt="Import" /></p>
+            <p>You can import pre-made backup configurations from the <a href="GBM_official.xml">official list</a> or an XML file exported from GBM.</p>
+            <img class="manual" src="images/manual/manual_16.jpg" width="586" height="438" alt="Import" />
             <ul>
               <li>The import window detects saved games currently on your PC and will automatically select valid configurations by default.</li>
               <li>The import window only shows new configurations, it will not display games you've already configured.</li>
@@ -379,13 +384,20 @@
           </div>
           <div class="pageSectionContent">
             <h4 class="notop">Clean Local Manifest</h4>
-            <p>This is used to clean up the local manifest of any backup information that is no longer relevant, based on the information in the current backup folder. When backup data is deleted from one computer, other computers using GBM may still be storing data about the deleted backup that is no longer useful. The only time this tool shouldn't be used is if you are alternating between backup folders, such as using a cloud folder for small backups and external drive for large backups.</p><img class="manual" src="images/manual/manual_10.jpg" width="526" height="247" alt="Tools" />
+            <p>This is used to clean up the local manifest of any backup information that is no longer relevant, based on the information in the current backup folder. When backup data is deleted from one computer, other computers using GBM may still be storing data about the deleted backup that is no longer useful. The only time this tool shouldn't be used is if you are alternating between backup folders, such as using a cloud folder for small backups and external drive for large backups.</p>
+            <img class="manual" src="images/manual/manual_10.jpg" width="526" height="247" alt="Tools" />
             <h4>Compact Databases</h4>
             <p>This is used to rebuild GBM's databases to use an optimal amount of disk space. It should only be used when databases are reaching a noticably large size.</p>
             <h4>Log -&gt; Clear</h4>
             <p>This is used to clear the current session log.</p>
             <h4>Log -&gt; Save</h4>
             <p>This is used to save the current session log to a text file.</p>
+            <h4>Session Viewer</h4>
+            <p>The Session Viewer allows you to view all session data that has been recorded on the current PC.</p>
+            <img class="manual" src="images/manual/manual_19.jpg" width="786" height="598" alt="Tools" /><br />
+            <p>The viewer can filtered by game name or date.</p>
+            <p>The date filter includes sessions that started AND ended in the desired range.</p>
+            <p>You may delete one or more sessions by selecting them and using the "Delete Session" button.</p>
           </div>
           <div class="pageSectionFooter">
             <a href="#toc">Back to Contents</a>
@@ -401,6 +413,7 @@
             <h4>Game Information</h4>
             <ul>
               <li>Choose an available field to filter on, depending on the field you will have different filter options.</li>
+              <li>Click the "Not" checkbox if you'd like to reverse the filter.</li>
               <li>Click the "Add" button to add the filter to the list.  You can add as many as you wish.</li>
               <li>To delete a filter, select it from the list and click "Remove".</li>
               <li>Select a Filter Type.
@@ -412,10 +425,10 @@
               <li>Due to the way GBM stores data, certain fields may give unpredictable results when used in a filter.  These fields are marked with an asterisk.</li>
             </ul>
 
-            </ul><img class="manual" src="images/manual/manual_11.jpg" width="411" height="588" alt="Filter" />
+            </ul><img class="manual" src="images/manual/manual_11.jpg" width="436" height="588" alt="Filter" />
             <h4>Tag</h4>
             <ul>
-              <li>Choose the Tags you want to filter by and use the appropriate buttons to add or remove them.</li>
+              <li>Choose the Tags you want to filter by or exclude and use the appropriate buttons to add or remove them.</li>
               <li>There are different options available when filtering by tag:
                 <ul>
                   <li>Any Tag - This will include games using ANY of the tags you have chosen to filter by.
@@ -428,6 +441,7 @@
                       <li>Example: Using the same example games above, if you filter by "All Tags" and choose #Official and #GOG only one game will be shown, since only one game included both the #Official and #GOG tag.</li>
                     </ul>
                   </li>
+                  <li>Note: These options have no effect on excluding tags.</li>
                 </ul>
               </li>
               <li>If you choose to filter by Tag but choose no tags to filter by, GBM will assume that means all games with no tags.</li>
