@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official_Linux.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1512771651" TotalConfigurations="192" AppVer="105">
   <Game>
     <Name>0 AD</Name>
     <ProcessName>pyrogenesis</ProcessName>
@@ -31,10 +31,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -50,13 +50,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -72,10 +72,10 @@
     <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -94,13 +94,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -116,13 +116,13 @@
     <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -138,10 +138,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -194,10 +194,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -250,13 +250,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -289,10 +289,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -308,13 +308,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -331,10 +331,10 @@
     <Comments />
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -350,13 +350,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -372,13 +372,13 @@
     <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -394,13 +394,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -416,10 +416,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -435,10 +435,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -457,10 +457,10 @@
     <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -516,10 +516,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -535,10 +535,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -609,13 +609,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -649,13 +649,13 @@
     <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -671,13 +671,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -693,13 +693,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -715,10 +715,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>ScummVM</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>ScummVM</Name>
       </Tag>
     </Tags>
   </Game>
@@ -752,13 +752,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -774,13 +774,13 @@
     <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -796,13 +796,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -818,13 +818,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -840,13 +840,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -881,13 +881,13 @@
     <Comments />
     <Tags>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -902,10 +902,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -924,13 +924,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -947,13 +947,13 @@
     <Comments />
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -988,10 +988,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1008,13 +1008,13 @@
     <Comments />
     <Tags>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1030,10 +1030,10 @@
     <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -1071,13 +1071,13 @@
     <Comments />
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1114,13 +1114,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
         <Name>DOSBox</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1136,10 +1136,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -1157,10 +1157,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -1233,10 +1233,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>ScummVM</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>ScummVM</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1270,13 +1270,13 @@
     <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1292,10 +1292,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1310,10 +1310,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -1331,10 +1331,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -1353,10 +1353,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1429,10 +1429,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>ScummVM</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>ScummVM</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1501,10 +1501,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1537,10 +1537,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1595,10 +1595,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1614,10 +1614,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1633,10 +1633,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1671,10 +1671,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1693,10 +1693,10 @@
         <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -1715,10 +1715,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1734,10 +1734,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1752,10 +1752,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1771,10 +1771,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1789,10 +1789,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1808,10 +1808,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>ScummVM</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>ScummVM</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1886,10 +1886,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1978,10 +1978,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2034,13 +2034,13 @@
     <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2056,10 +2056,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2075,10 +2075,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2175,10 +2175,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2248,10 +2248,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2267,10 +2267,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2285,10 +2285,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2339,10 +2339,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2376,10 +2376,10 @@
     <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2432,10 +2432,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2451,10 +2451,10 @@
     <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -2491,10 +2491,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2510,10 +2510,10 @@
     <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2529,10 +2529,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2548,10 +2548,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -2737,10 +2737,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2792,10 +2792,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2814,10 +2814,10 @@
         <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2833,10 +2833,10 @@
     <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2852,10 +2852,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2934,10 +2934,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2953,10 +2953,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2972,10 +2972,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3032,10 +3032,10 @@
         <Name>Crossover</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3054,10 +3054,10 @@
         <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3110,10 +3110,10 @@
     <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3128,10 +3128,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3183,10 +3183,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3202,10 +3202,10 @@
     <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -3242,10 +3242,10 @@
     <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3261,10 +3261,10 @@
     <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3280,10 +3280,10 @@
     <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3317,10 +3317,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3354,10 +3354,10 @@
     <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3392,10 +3392,10 @@
     <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3411,10 +3411,10 @@
     <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -3561,10 +3561,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3654,10 +3654,10 @@
     <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3717,10 +3717,10 @@
     <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3736,13 +3736,13 @@
     <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>

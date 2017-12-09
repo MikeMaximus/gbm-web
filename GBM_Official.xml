@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1512771172" TotalConfigurations="304" AppVer="105">
   <Game>
     <Name>1954 Alcatraz</Name>
     <ProcessName>Alcatraz</ProcessName>
@@ -84,13 +84,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -105,10 +105,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -123,10 +123,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -159,10 +159,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -249,10 +249,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -321,10 +321,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -339,10 +339,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -357,10 +357,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -383,14 +383,36 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Battle Chasers Nightwar</Name>
+    <ProcessName>BC</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*Low\Airship Syndicate\BattleChasersNightwar\user</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>BCSettings.txt:*.old</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>This game automatically creates a backup file for each save, these files are excluded to reduce archive size.</Comments>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Battle Realms Complete</Name>
     <ProcessName>Battle_Realms_F</ProcessName>
+    <Parameter />
     <Path>Saved Games</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -411,10 +433,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -429,13 +451,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -450,10 +472,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -486,10 +508,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -504,10 +526,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -522,13 +544,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
-      </Tag>
-      <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -597,10 +619,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -651,10 +673,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -669,10 +691,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -705,10 +727,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -741,10 +763,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -777,10 +799,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -795,10 +817,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -813,10 +835,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -831,10 +853,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -885,10 +907,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Retail</Name>
       </Tag>
       <Tag>
-        <Name>Retail</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -903,10 +925,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -921,13 +943,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
-      </Tag>
-      <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -942,10 +964,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>DOSBox</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -999,10 +1021,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1017,10 +1039,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1053,13 +1075,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>DOSBox</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1074,10 +1096,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1128,10 +1150,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1146,10 +1168,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Retail</Name>
       </Tag>
       <Tag>
-        <Name>Retail</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1167,10 +1189,10 @@
         <Name>DOSBox</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1185,10 +1207,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1203,10 +1225,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1239,10 +1261,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1257,10 +1279,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1275,10 +1297,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1293,10 +1315,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1311,10 +1333,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1329,10 +1351,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1386,10 +1408,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1439,15 +1461,16 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Blizzard</Name>
+        <Name>Tracking</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Tracking</Name>
+        <Name>Blizzard</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1462,10 +1485,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1480,10 +1503,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1498,10 +1521,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1515,12 +1538,13 @@
     <FileType />
     <ExcludeList>AutoSave*:QuickSave*:config.lsx:modsettings.lsx</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
+    <Comments>This configuration excludes auto-saves and quick-saves due to backup size.</Comments>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1535,10 +1559,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1556,10 +1580,10 @@
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Origin</Name>
       </Tag>
       <Tag>
-        <Name>Origin</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1574,22 +1598,24 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Origin</Name>
       </Tag>
       <Tag>
-        <Name>Origin</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>Dragon Age Inquisition</Name>
     <ProcessName>DragonAgeInquisition</ProcessName>
+    <Parameter />
     <Path>*mydocs*\BioWare\Dragon Age Inquisition\Save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>ProfileOptions_profile</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1611,10 +1637,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1707,10 +1733,10 @@
         <Name>DOSBox</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1743,13 +1769,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1833,6 +1859,25 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Elex</Name>
+    <ProcessName>ELEX</ProcessName>
+    <Parameter />
+    <Path>*currentuser*\Saved Games\ELEX\SaveGames</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Elminage Gothic</Name>
     <ProcessName>Elminage</ProcessName>
     <Path>*mydocs*\My Games\Ghostlight Ltd\Elminage Gothic</Path>
@@ -1879,10 +1924,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1897,10 +1942,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1915,10 +1960,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1933,10 +1978,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2023,10 +2068,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2237,10 +2282,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2255,10 +2300,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2274,10 +2319,10 @@
     <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Tracking</Name>
       </Tag>
       <Tag>
-        <Name>Tracking</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2290,6 +2335,26 @@
     <FileType />
     <ExcludeList>config.cfg</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Hard West</Name>
+    <ProcessName>HardWest</ProcessName>
+    <Parameter />
+    <Path>*mydocs*\HardWest</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>options.ini</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2309,15 +2374,16 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Blizzard</Name>
+        <Name>Tracking</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Tracking</Name>
+        <Name>Blizzard</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2340,6 +2406,29 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Heroes of the Storm</Name>
+    <ProcessName>HeroesOfTheStorm_x64</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>Blizzard</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Tracking</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Hitman - Contracts</Name>
     <ProcessName>HitmanContracts</ProcessName>
     <Path>save</Path>
@@ -2350,10 +2439,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2368,10 +2457,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2386,10 +2475,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2422,10 +2511,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2440,10 +2529,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2497,10 +2586,10 @@
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>ScummVM</Name>
       </Tag>
       <Tag>
-        <Name>ScummVM</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2629,10 +2718,10 @@
         <Name>DOSBox</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2701,6 +2790,26 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Legends of Eisenwald</Name>
+    <ProcessName>Eisenwald</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*\Eisenwald</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
@@ -2719,10 +2828,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2737,10 +2846,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2755,10 +2864,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2809,10 +2918,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Origin</Name>
       </Tag>
       <Tag>
-        <Name>Origin</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2863,10 +2972,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3026,10 +3135,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3062,10 +3171,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3098,10 +3207,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3134,10 +3243,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3152,10 +3261,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3188,10 +3297,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3206,10 +3315,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3278,10 +3387,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3314,10 +3423,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3332,10 +3441,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3350,10 +3459,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3388,13 +3497,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3409,10 +3518,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3427,10 +3536,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>DOSBox</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -3501,6 +3610,7 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3521,13 +3631,32 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Risen</Name>
+    <ProcessName>Risen</ProcessName>
+    <Parameter />
+    <Path>*currentuser*\Saved Games\Risen\SaveGames</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Tags>
+      <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3596,10 +3725,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3614,10 +3743,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3632,10 +3761,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3650,10 +3779,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3686,10 +3815,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3704,10 +3833,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3740,10 +3869,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3778,10 +3907,10 @@
     <MonitorOnly>true</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Tracking</Name>
@@ -3800,10 +3929,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3818,10 +3947,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3890,10 +4019,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3926,10 +4055,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3962,22 +4091,24 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>SimCity 3000 Unlimited</Name>
     <ProcessName>SC3U</ProcessName>
+    <Parameter />
     <Path>..\cities</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>Scenarios:StarterTowns:Terrains:Berlin, Germany.sc3:Craterville.sc3:Europolis.sc3:Farmsville.sc3:Frankfurt, Germany.sc3:Liverpool, England.sc3:London, England.sc3:Madison, WI.sc3:Madrid, Spain.sc3:Moscow, Russia.sc3:Mount Herrang.sc3:Roadless Paradise.sc3:Sacramento, CA.sc3:Seoul, Korea.sc3:TUTORIAL.SC3</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
+    <Comments>This configuration excludes cities that are included with the game.</Comments>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3998,10 +4129,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4016,10 +4147,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4034,10 +4165,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4071,10 +4202,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4089,10 +4220,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4143,13 +4274,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4164,13 +4295,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4203,13 +4334,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>DOSBox</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4260,10 +4391,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4278,10 +4409,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4296,10 +4427,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4368,6 +4499,26 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>StarCrawlers</Name>
+    <ProcessName>StarCrawlers_x86_64</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*Low\Juggernaut Games\StarCrawlers\SaveGame</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
@@ -4387,10 +4538,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Blizzard</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Blizzard</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4405,10 +4556,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4423,10 +4574,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4441,10 +4592,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4467,14 +4618,36 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Streets of Rage - Remake</Name>
+    <ProcessName>SorR</ProcessName>
+    <Parameter />
+    <Path>savegame</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>*.png</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>This configuration excludes boss kill screenshots.</Comments>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Mod</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Stronghold - Kingdom Simulator</Name>
     <ProcessName>DOSBox</ProcessName>
+    <Parameter />
     <Path>..\strong\strong.sav</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -4516,10 +4689,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4588,13 +4761,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4609,13 +4782,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
-      </Tag>
-      <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4652,6 +4825,26 @@
       </Tag>
       <Tag>
         <Name>Retail</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>The Elder Scrolls Online</Name>
+    <ProcessName>eso64</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Tracking</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4721,10 +4914,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4739,10 +4932,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4760,10 +4953,10 @@
         <Name>DOSBox</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4796,10 +4989,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4814,10 +5007,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4833,10 +5026,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4869,10 +5062,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4924,10 +5117,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4942,10 +5135,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5015,10 +5208,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5051,10 +5244,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
@@ -5131,6 +5324,9 @@
       <Tag>
         <Name>Retail</Name>
       </Tag>
+      <Tag>
+        <Name>Mod</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -5144,10 +5340,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5172,6 +5368,7 @@
   <Game>
     <Name>War for the Overworld</Name>
     <ProcessName>WFTOGame</ProcessName>
+    <Parameter />
     <Path />
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -5216,13 +5413,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>Retail</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5237,10 +5434,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Retail</Name>
       </Tag>
       <Tag>
-        <Name>Retail</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
@@ -5258,10 +5455,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Retail</Name>
       </Tag>
       <Tag>
-        <Name>Retail</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
@@ -5279,13 +5476,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Retail</Name>
-      </Tag>
-      <Tag>
-        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5300,10 +5497,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5338,10 +5535,10 @@
     <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5356,13 +5553,13 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5395,10 +5592,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5431,10 +5628,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
