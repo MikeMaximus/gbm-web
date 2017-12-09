@@ -1,5 +1,5 @@
+<?xml version="1.0"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <xsl:import href="date.xsl" />
   <xsl:template match="gbm">
     <html>
       <head>
@@ -32,18 +32,12 @@
               <div class="pageSection">
                 <div class="pageSectionHeader">Game Configurations (Windows)</div>
                 <div class="pageSectionContent">
-                <xsl:for-each select="Information">
-                  <h3 class="notop">Updated: 
-                  <xsl:call-template name="seconds-to-date">
-                    <xsl:with-param name="seconds" select="Exported" />
-                  </xsl:call-template> (<xsl:value-of select="TotalConfigurations" /> Configs)</h3>
-                </xsl:for-each>
+                  <h3 class="notop">Updated: November 20, 2017 (295 Configs)</h3>
                   <p class="small">Official configurations exclude graphics settings, logs, screenshots and other extras when possible.</p>
 				          <p class="small">Official configurations may exclude autosaves and/or quicksaves when they greatly increase backup size.</p>
 				          <p class="small">Official configurations will only detect the game's default executable when multiple versions are available.</p>
                   <p class="small">Icons indicate the version(s) of the game tested with GBM.</p>
                   <table border="0">
-                  <xsl:for-each select="Configurations">
                     <xsl:for-each select="Game">
                       <xsl:sort select="Name" />
                       <tr>
@@ -93,7 +87,6 @@
                               <li><span class="tree_label"><b>Save Entire Folder</b></span><div class="indent"><xsl:if test="FolderSave = 'true'">Yes</xsl:if><xsl:if test="FolderSave = 'false'">No</xsl:if></div></li>
                               <li><span class="tree_label"><b>Include Specific Files</b></span><div class="indent"><xsl:if test="FileType = ''">None</xsl:if><xsl:value-of select="FileType" /></div></li>
                               <li><span class="tree_label"><b>Exclude Specific Files</b></span><div class="indent"><xsl:if test="ExcludeList = ''">None</xsl:if><xsl:value-of select="ExcludeList" /></div></li>
-                              <li><span class="tree_label"><b>Comments</b></span><div class="indent"><xsl:if test="Comments = ''">None</xsl:if><xsl:value-of select="Comments" /></div></li>
                               <li><span class="tree_label"><b>Tags</b></span><div class="indent"><xsl:for-each select="Tags"><xsl:for-each select="Tag">#<xsl:value-of select="Name" />&#160;</xsl:for-each></xsl:for-each></div></li>   
                             </ul>
                           </li>
@@ -101,7 +94,6 @@
                         </td>
                       </tr>
                     </xsl:for-each>
-                  </xsl:for-each>
                   </table>
                 </div>
               </div>
