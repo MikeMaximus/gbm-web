@@ -1,15 +1,17 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official_Linux.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1512771651" TotalConfigurations="192" AppVer="105">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1514404078" TotalConfigurations="219" AppVer="105">
   <Game>
     <Name>0 AD</Name>
     <ProcessName>pyrogenesis</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/0ad/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>saves</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -29,6 +31,7 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -48,15 +51,16 @@
     <FileType>records.xml</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -70,15 +74,16 @@
     <FileType>*.rxdata</FileType>
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -92,12 +97,13 @@
     <FileType>*.bin</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -114,20 +120,21 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
-    <Name>A Wizard’s Lizard</Name>
+    <Name>A Wizard's Lizard</Name>
     <ProcessName>nw</ProcessName>
     <Parameter />
     <Path>*appdataroaming*/A Wizard's Lizard/Local Storage</Path>
@@ -136,12 +143,13 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -155,24 +163,27 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>AI War - Fleet Command</Name>
     <ProcessName>AIWarLinux.x86_64</ProcessName>
+    <Parameter />
     <Path>RuntimeData/Save</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -192,6 +203,7 @@
     <FileType>prefs</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -202,20 +214,68 @@
     </Tags>
   </Game>
   <Game>
+    <Name>About Love, Hate and the other ones</Name>
+    <ProcessName>loveandhate</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.aboutloveandhate/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.save</FileType>
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Abuse</Name>
     <ProcessName>abuse.elf</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.abuse/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>save*.spe</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Adventures of Shuggy</Name>
+    <ProcessName>Shuggy.bin.x86_64</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/Shuggy</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -229,6 +289,7 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -248,27 +309,30 @@
     <FileType>1-*.save</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>American Truck Simulator</Name>
     <ProcessName>amtrucks</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/American Truck Simulator/profiles</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -281,12 +345,14 @@
   <Game>
     <Name>Amnesia The Dark descent</Name>
     <ProcessName>Amnesia.bin.x86_64</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.frictionalgames/Amnesia</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -306,6 +372,7 @@
     <FileType>1-*.save</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -348,12 +415,13 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -370,12 +438,13 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -392,6 +461,7 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -414,12 +484,13 @@
     <FileType>SavedGame.bin</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -433,15 +504,16 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -455,12 +527,33 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Ardentryst</Name>
+    <ProcessName>python2.7</ProcessName>
+    <Parameter>ardentryst</Parameter>
+    <Path>*mydocs*/.ardentryst/Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.asf</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
@@ -474,6 +567,7 @@
     <FileType>save</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -489,18 +583,20 @@
   <Game>
     <Name>Astromenace</Name>
     <ProcessName>astromenace</ProcessName>
+    <Parameter />
     <Path>*appdataroaming*/astromenace/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>amconfig.xml</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
@@ -514,17 +610,18 @@
     <FileType>*.sav:profile.dat</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
-    <Name>Avadon The black fortress</Name>
+    <Name>Avadon The Black Tortress</Name>
     <ProcessName>Avadon-x86</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/Avadon/Spiderweb Software/Avadon Saved Games</Path>
@@ -533,48 +630,53 @@
     <FileType>Save*</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>Baldur's Gate - Enhanced Edition</Name>
     <ProcessName>BaldursGate</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/Baldur's Gate - Enhanced Edition</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>portraits:save</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>Baldur's Gate 2 - Enhanced Edition</Name>
     <ProcessName>BaldursGateII</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/Baldur's Gate II - Enhanced Edition</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -588,12 +690,13 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
@@ -607,33 +710,36 @@
     <FileType>Profile*.sav:Profile*.profile</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>Battle Worlds - Kronos</Name>
     <ProcessName>BattleWorldsKronos.x86_64</ProcessName>
+    <Parameter />
     <Path>*mydocs*/Documents/BattleWorldsKronos/Profiles</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -647,15 +753,16 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -669,15 +776,16 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -691,12 +799,13 @@
     <FileType>*.sav</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -713,6 +822,7 @@
     <FileType>SKY-VM.*</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -725,12 +835,14 @@
   <Game>
     <Name>Big Pharma</Name>
     <ProcessName>Big Pharma.x86</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/Big Pharma/Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -750,15 +862,16 @@
     <FileType>*.save:*.profile</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -772,15 +885,16 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -794,15 +908,16 @@
     <FileType>agssave.*</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -816,12 +931,13 @@
     <FileType>agssave.*</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -838,12 +954,13 @@
     <FileType>agssave.*</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -853,12 +970,14 @@
   <Game>
     <Name>Bloboats</Name>
     <ProcessName>bloboats</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.bloboats/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>players.dat</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -881,31 +1000,56 @@
     <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Blockstorm</Name>
+    <ProcessName>Blockstorm.x86_64</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>Borderlands 2</Name>
     <ProcessName>Borderlands2</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/aspyr-media/borderlands 2/willowgame/savedata</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>profile.bin:*.sav</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -922,15 +1066,16 @@
     <FileType>*.sav:profile.bin</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -950,10 +1095,10 @@
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -967,12 +1112,36 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Brütal Legend</Name>
+    <ProcessName>Buddha.bin.x86</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/doublefine/brutallegend/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -986,6 +1155,7 @@
     <FileType>*.sav</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1019,6 +1189,46 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Capsized</Name>
+    <ProcessName>NePlusUltra.bin.x86_64</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/Capsized/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>Config.cfg</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Card City Nights</Name>
+    <ProcessName>ccn.x86</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/Ludosity/CardCityNights/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.txt</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Castle Doctrine</Name>
     <ProcessName>CastleDoctrineApp</ProcessName>
     <Parameter />
@@ -1028,6 +1238,7 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1041,20 +1252,88 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Cave Story+</Name>
+    <ProcessName>CaveStory+</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/CaveStory+/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>Profile.dat</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Chroma Squad</Name>
+    <ProcessName>chromasquad.x86</ProcessName>
+    <Parameter />
+    <Path>chromasquad_Data/savedGames</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.csqd:*.csqd_BAK</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Cities - Skylines</Name>
     <ProcessName>Cities.x64</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/Colossal Order/Cities_Skylines/Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Cities in Motion 2</Name>
+    <ProcessName>Cities in Motion 2</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/Colossal Order/Cities in Motion 2/Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.save</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1082,23 +1361,71 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Cogs</Name>
+    <ProcessName>Cogs-x86</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/Cogs</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>playerInfo.dat</FileType>
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Contraption Maker</Name>
+    <ProcessName>ContraptionMaker</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/spotkincm/contraptionmaker/data/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>puzzles.data</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>CorsixTH</Name>
     <ProcessName>CorsixTH</ProcessName>
+    <Parameter />
     <Path>*appdataroaming*/CorsixTH/Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList>Autosaves</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Remake</Name>
       </Tag>
       <Tag>
-        <Name>Remake</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1112,6 +1439,7 @@
     <FileType>CV*.SVE</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -1134,66 +1462,165 @@
     <FileType>Crawl.sav</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Cubemen</Name>
+    <ProcessName>Cubemen</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/3 Sprockets/Cubemen/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType>*.dat</FileType>
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Cubemen 2</Name>
+    <ProcessName>Cubemen2</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/3 Sprockets/Cubemen2/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.bytes:*LevelDataZ</FileType>
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>DEADBOLT</Name>
+    <ProcessName>runner</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/deadbolt_game</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Defend Your Life!</Name>
+    <ProcessName>dyl.x86</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/Alda Games s.r.o./Defend Your Life!</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>prefs</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>Deponia The Complete Journey</Name>
     <ProcessName>deponia_tcj</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/Daedalic Entertainment GmbH/Deponia The Complete Journey/Savegames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.dat</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>Din's Curse</Name>
     <ProcessName>DinsCurse</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.local/DinsCurse/User/chars</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>Divinity Original Sin - Enhanced Edition</Name>
     <ProcessName>EoCApp</ProcessName>
+    <Parameter />
     <Path>*mydocs*/Larian Studios/Divinity Original Sin Enhanced Edition/PlayerProfiles</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>config.lsx:modsettings.lsx</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1206,18 +1633,20 @@
   <Game>
     <Name>Door Kickers</Name>
     <ProcessName>DoorKickers</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/DoorKickers</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>options.xml</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1231,6 +1660,7 @@
     <FileType>drascula.*</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1243,18 +1673,20 @@
   <Game>
     <Name>Dreamfall Chapters</Name>
     <ProcessName>Dreamfall Chapters</ProcessName>
+    <Parameter />
     <Path>*appdataroaming*/unity3d/Red Thread Games/Dreamfall Chapters</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>prefs</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1268,15 +1700,16 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1290,6 +1723,7 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1302,42 +1736,69 @@
   <Game>
     <Name>Dungeons of Dredmor</Name>
     <ProcessName>Dredmor-x86</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/Dredmor</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>achievements.dat:collections.dat:hiscores.txt:last.txt:magicbox.dat</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>Dust An Elysian Tail</Name>
     <ProcessName>DustAET.bin.x86_64</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/DustAET</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Endless Sky</Name>
+    <ProcessName>endless-sky</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/endless-sky/saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1351,6 +1812,7 @@
     <FileType>*.bin</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1363,30 +1825,34 @@
   <Game>
     <Name>Euro Truck Simulator 2</Name>
     <ProcessName>eurotrucks2</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/Euro Truck Simulator 2/profiles</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>Eye of the Beholder</Name>
     <ProcessName>dosbox_x86_64</ProcessName>
+    <Parameter />
     <Path>../data</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.SAV</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -1400,14 +1866,39 @@
     </Tags>
   </Game>
   <Game>
+    <Name>FTL Faster Than Light</Name>
+    <ProcessName>FTL</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/FasterThanLight</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Flare RPG</Name>
     <ProcessName>flare</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/flare</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>saves</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1427,6 +1918,7 @@
     <FileType>queen.*</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1439,66 +1931,74 @@
   <Game>
     <Name>Freedroid RPG</Name>
     <ProcessName>freedroidRPG</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.freedroid_rpg/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.gz:*.shp:*.png:*.bmp</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>Frogatto</Name>
     <ProcessName>game</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.frogatto/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>save.cfg</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>Frozen Bubble</Name>
     <ProcessName>frozen-bubble</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.frozen-bubble/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>highlevelshistory:highscores</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>Gone Home</Name>
     <ProcessName>GoneHome.x86_64</ProcessName>
+    <Parameter />
     <Path>*appdataroaming*/unity3d/The Fullbright Company/Gone Home</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1511,48 +2011,54 @@
   <Game>
     <Name>Gunroar</Name>
     <ProcessName>gunroar</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.gunroar/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>Harvest Massive Encounter</Name>
     <ProcessName>Harvest</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.Harvest/profiles</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.hsg:Profile-*.cfg</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>Hedgewars</Name>
     <ProcessName>hedgewars</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.hedgewars/Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.hws</FileType>
     <ExcludeList>LastRound*.hws</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1565,21 +2071,23 @@
   <Game>
     <Name>I Have No Mouth and I Must Scream</Name>
     <ProcessName>dosbox_x86_64</ProcessName>
+    <Parameter />
     <Path>../data/SCREAM</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.SAV</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1593,6 +2101,7 @@
     <FileType>DontModifyThis.ini</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1612,6 +2121,7 @@
     <FileType>*.save</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1631,12 +2141,13 @@
     <FileType>prefs</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1650,12 +2161,13 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1669,6 +2181,7 @@
     <FileType>*.sav</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1688,15 +2201,16 @@
     <FileType>*.kep:*.adv</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -1713,12 +2227,13 @@
     <FileType>slot*.data</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1732,6 +2247,7 @@
     <FileType>data.kopp</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1744,12 +2260,14 @@
   <Game>
     <Name>Knights of Pen and Paper 2</Name>
     <ProcessName>kopp2.x86</ProcessName>
+    <Parameter />
     <Path>*appdataroaming*/unity3d/Kyy Games/Knights of Pen and Paper 2</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1769,6 +2287,7 @@
     <FileType>savegame.txt</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1781,18 +2300,40 @@
   <Game>
     <Name>Little Inferno</Name>
     <ProcessName>LittleInferno.bin.x86</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/littleinferno</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>profiles.bin</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Lix</Name>
+    <ProcessName>lix</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/lix</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>user:replays</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1806,12 +2347,13 @@
     <FileType>lure.*</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>ScummVM</Name>
       </Tag>
       <Tag>
-        <Name>ScummVM</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1825,6 +2367,7 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1837,18 +2380,20 @@
   <Game>
     <Name>Mark of the Ninja</Name>
     <ProcessName>ninja-bin64</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.klei/ninja/users</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>graphics.ini</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1862,20 +2407,21 @@
     <FileType>*.xml:*.jpg</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
-    <Name>Middle-earth Shadow of Mordor</Name>
+    <Name>Middle-earth™ Shadow of Mordor™</Name>
     <ProcessName>ShadowOfMordor</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/feral-interactive/ShadowOfMordor/SaveData</Path>
@@ -1884,6 +2430,7 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1896,48 +2443,54 @@
   <Game>
     <Name>Minetest</Name>
     <ProcessName>minetest</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.minetest/worlds/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>Mirror Magic</Name>
     <ProcessName>mirrormagic</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.mirrormagic/scores</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.score</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>Mount and Blade - Warband</Name>
     <ProcessName>mb_warband_linux</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.mbwarband/Savegames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1957,6 +2510,7 @@
     <FileType>highscores:stats</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1976,12 +2530,13 @@
     <FileType>prefs</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1995,24 +2550,27 @@
     <FileType>*.txt</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>Neverputt</Name>
     <ProcessName>neverputt</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.neverball/Scores</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.txt</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -2032,6 +2590,7 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2054,6 +2613,7 @@
     <FileType>*.sav</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2073,12 +2633,13 @@
     <FileType>*.odad</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2092,30 +2653,33 @@
     <FileType />
     <ExcludeList>olliolli.ini</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>OlliOlli2 - Welcome to Olliwood</Name>
     <ProcessName>olliolli2</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.olliolli2</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>config.dat</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2129,15 +2693,16 @@
     <FileType>*.sv6</FileType>
     <ExcludeList>autosave.sv6</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
+      <Tag>
+        <Name>Remake</Name>
+      </Tag>
       <Tag>
         <Name>FLOSS</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>Remake</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2151,15 +2716,62 @@
     <FileType>*.sav</FileType>
     <ExcludeList>autosave</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Remake</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Remake</Name>
+        <Name>FLOSS</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Outland</Name>
+    <ProcessName>Outland.bin.x86</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/Housemarque/Outland/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Outlast</Name>
+    <ProcessName>OLGame.x86_64</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/Outlast/OLGame/Cloud</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2173,24 +2785,27 @@
     <FileType>prefs</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>Papers, Please</Name>
     <ProcessName>PapersPlease</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/3909/PapersPlease</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2203,30 +2818,34 @@
   <Game>
     <Name>Pillars of Eternity</Name>
     <ProcessName>PillarsOfEternity</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/PillarsOfEternity/SavedGames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>2.0 Save Games Backup</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>Pingus</Name>
     <ProcessName>pingus.bin</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.pingus/savegames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.scm</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -2237,7 +2856,7 @@
     </Tags>
   </Game>
   <Game>
-    <Name>PixelJunk Monsters Ultimate</Name>
+    <Name>PixelJunk™ Monsters Ultimate</Name>
     <ProcessName>Monsters</ProcessName>
     <Parameter />
     <Path>../savegame</Path>
@@ -2246,6 +2865,7 @@
     <FileType>*_MONSTERSAVEGAME</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2256,7 +2876,7 @@
     </Tags>
   </Game>
   <Game>
-    <Name>PixelJunk Shooter</Name>
+    <Name>PixelJunk™ Shooter</Name>
     <ProcessName>CaveShooter</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/PJShooter</Path>
@@ -2265,24 +2885,27 @@
     <FileType>*_SHOOTERSAVEGAME</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>Pony Island</Name>
     <ProcessName>PonyIsland.x86</ProcessName>
+    <Parameter />
     <Path>*appdataroaming*/unity3d/Daniel Mullins Games/Pony Island</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>prefs</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2295,12 +2918,14 @@
   <Game>
     <Name>Prey</Name>
     <ProcessName>prey.x86</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.prey/base</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>savegames:preykey</FileType>
     <ExcludeList>AutoSave*:QuickSave*</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2313,12 +2938,14 @@
   <Game>
     <Name>Primordia</Name>
     <ProcessName>Primordia.bin.x86_64</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/Primordia</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2331,12 +2958,14 @@
   <Game>
     <Name>Prison Architect</Name>
     <ProcessName>PrisonArchitect.x86_64</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.Prison Architect</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>saves:Campaign:unlocked.txt</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2349,15 +2978,40 @@
   <Game>
     <Name>Project Zomboid</Name>
     <ProcessName>ProjectZomboid64</ProcessName>
+    <Parameter />
     <Path>*mydocs*/Zomboid/Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>RBDoom3BFG</Name>
+    <ProcessName>RBDoom3BFG</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.rbdoom3bfg/base/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>game.details:gamedata.save:gamedata.strings:doomsav*.dsg</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Remake</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -2374,6 +3028,7 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2393,6 +3048,7 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -2405,23 +3061,25 @@
   <Game>
     <Name>Resonance</Name>
     <ProcessName>Resonance.bin.x86_64</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/Resonance</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
-    <Name>Retro City Rampage</Name>
+    <Name>Retro City Rampage™ DX</Name>
     <ProcessName>retrocityrampage</ProcessName>
     <Parameter />
     <Path>../</Path>
@@ -2430,12 +3088,13 @@
     <FileType>*.rsv</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2449,6 +3108,7 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2464,12 +3124,14 @@
   <Game>
     <Name>Rogue Legacy</Name>
     <ProcessName>RogueCastle.bin.x86_64</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/RogueLegacyStorageContainer</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2489,12 +3151,13 @@
     <FileType>PlayerPrefs.txt</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2508,6 +3171,7 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2527,12 +3191,13 @@
     <FileType>*.sav</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2546,6 +3211,7 @@
     <FileType>206420</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2561,66 +3227,74 @@
   <Game>
     <Name>Satellite Reign</Name>
     <ProcessName>SatelliteReignLinux.x86_64</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/SatelliteReign/users</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>Shadow Warrior 2013</Name>
     <ProcessName>ShadowWarrior.bin.x86</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/Flying Wild Hog/Shadow Warrior/profiles</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>config.cfg</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>Shadowgate</Name>
     <ProcessName>Shadowgate.x86</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/Zojoi/Shadowgate</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>Settings.xml</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>Shadowrun Dragonfall - Director's Cut</Name>
     <ProcessName>Dragonfall</ProcessName>
+    <Parameter />
     <Path>*appdataroaming*/Harebrained Schemes/Shadowrun Dragonfall/Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2633,18 +3307,20 @@
   <Game>
     <Name>Shadowrun Hong Kong - Extended Edition</Name>
     <ProcessName>SRHK</ProcessName>
+    <Parameter />
     <Path>*appdataroaming*/Harebrained Schemes/Shadowrun Hong Kong/Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2658,12 +3334,13 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
@@ -2673,12 +3350,14 @@
   <Game>
     <Name>Shadwen</Name>
     <ProcessName>shadwen_linux_64bit</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/frozenbyte/Shadwen</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.txt</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2691,12 +3370,14 @@
   <Game>
     <Name>Shattered Haven</Name>
     <ProcessName>ShatteredHavenLinux.x86_64</ProcessName>
+    <Parameter />
     <Path>RuntimeData/Save</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2716,6 +3397,7 @@
     <FileType>*.dat</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -2735,6 +3417,7 @@
     <FileType>Web Data:Web Data-journal</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2747,41 +3430,45 @@
   <Game>
     <Name>Shovel Knight</Name>
     <ProcessName>ShovelKnight</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/Yacht Club Games/Shovel Knight</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>render.bin</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>Sid Meier's Civilization - Beyond Earth</Name>
     <ProcessName>CivBE</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/aspyr-media/Sid Meier's Civilization Beyond Earth</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>Saves:UserSettings.ini</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
-    <Name>Sid Meier’s Civilization V</Name>
+    <Name>Sid Meier's Civilization V</Name>
     <ProcessName>Civ5XP</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/Aspyr/Sid Meier's Civilization 5/</Path>
@@ -2790,12 +3477,13 @@
     <FileType>ModdedSaves:Saves</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2809,15 +3497,16 @@
     <FileType>*.sve</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2831,12 +3520,13 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2850,6 +3540,7 @@
     <FileType>SpeedRunnerHDGameStore:SpeedRunnerHDProgressionStore_*</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2862,60 +3553,66 @@
   <Game>
     <Name>Spring RTS</Name>
     <ProcessName>spring</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.spring</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.sav:Savegames</FileType>
     <ExcludeList>AutoSave.sav</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Remake</Name>
       </Tag>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>Star Trek - 25th Anniversary</Name>
     <ProcessName>dosbox_x86_64</ProcessName>
+    <Parameter />
     <Path>../data/ENG/TREKCD</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>SAVEGAME.*</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
-      <Tag>
-        <Name>DOSBox</Name>
-      </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>Star Trek - Judgement Rites</Name>
     <ProcessName>dosbox_x86_64</ProcessName>
+    <Parameter />
     <Path>../data/TREK2</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>SAVEGAME.*</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>DOSBox</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -2932,12 +3629,36 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Stealth Bastard Deluxe</Name>
+    <ProcessName>runner</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/StealthBastard[Steam]</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav:playerachievementcache.dat</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2951,6 +3672,7 @@
     <FileType>settings.dat</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2970,12 +3692,13 @@
     <FileType>savegame.dat</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2989,12 +3712,13 @@
     <FileType>profile1</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3008,6 +3732,7 @@
     <FileType>grandprix</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -3027,15 +3752,16 @@
     <FileType>save_*</FileType>
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Crossover</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3049,15 +3775,16 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
       <Tag>
         <Name>FLOSS</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3071,30 +3798,33 @@
     <FileType>saves</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>The Original Strife - Veteran Edition</Name>
     <ProcessName>strife-ve</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/strife-ve/savegames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3108,24 +3838,27 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>The Swapper</Name>
     <ProcessName>TheSwapper.bin.x86_64</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/Facepalm Games/The Swapper 1000/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.ini:*.pro</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3138,36 +3871,40 @@
   <Game>
     <Name>This War of Mine</Name>
     <ProcessName>This War of Mine</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.This War of Mine</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>iPhoneProfiles</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>This is the Police</Name>
     <ProcessName>Police.x86_64</ProcessName>
+    <Parameter />
     <Path>*appdataroaming*/unity3d/Weappy/This Is The Police</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>Save.xml</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3181,12 +3918,13 @@
     <FileType>prefs</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3200,6 +3938,7 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3215,12 +3954,14 @@
   <Game>
     <Name>Titanion</Name>
     <ProcessName>titanion</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.titanion</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -3240,12 +3981,13 @@
     <FileType>*.rxdata</FileType>
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3259,6 +4001,7 @@
     <FileType>*.macdat</FileType>
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3278,6 +4021,7 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3290,12 +4034,14 @@
   <Game>
     <Name>Torus Trooper</Name>
     <ProcessName>torus-trooper</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.torus-trooper</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -3315,7 +4061,31 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Train Valley</Name>
+    <ProcessName>train-valley.x86_64</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/Oroboro games/Train Valley</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
@@ -3327,18 +4097,20 @@
   <Game>
     <Name>Trine 2 - Complete Story</Name>
     <ProcessName>trine2_linux_32bit</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.frozenbyte/Trine2</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.fbs</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3352,12 +4124,13 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3371,6 +4144,7 @@
     <FileType>*.tsvg</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -3390,6 +4164,7 @@
     <FileType>*.local</FileType>
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3409,6 +4184,7 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3423,19 +4199,64 @@
   </Game>
   <Game>
     <Name>Unepic</Name>
+    <ProcessName>unepic64s</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/Unepic/unepic</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>retos.bin</FileType>
+    <ExcludeList>config.cfg</ExcludeList>
+    <MonitorOnly>true</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Unepic</Name>
     <ProcessName>unepic64gog</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/Unepic/unepic</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>config.cfg</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Unknown Horizons</Name>
+    <ProcessName>python2.7</ProcessName>
+    <Parameter>unknown-horizons</Parameter>
+    <Path>*mydocs*/.unknown-horizons/save</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sqlite</FileType>
+    <ExcludeList>autosave*</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <Tags>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3449,6 +4270,7 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -3461,15 +4283,40 @@
   <Game>
     <Name>Valyria Tear</Name>
     <ProcessName>valyriatear</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/valyriatear/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>saved_game_*.lua</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>FLOSS</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Victor Vran</Name>
+    <ProcessName>VictorVran</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/Victor Vran/Victor Vran/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.lua</FileType>
+    <ExcludeList>DeveloperStorage.lua</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -3479,18 +4326,20 @@
   <Game>
     <Name>Volgarr the Viking</Name>
     <ProcessName>Volgarr</ProcessName>
+    <Parameter />
     <Path>*appdataroaming*/Crazy Viking Studios/Volgarr the Viking</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>user.ini</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3504,12 +4353,13 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3523,6 +4373,7 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -3535,30 +4386,34 @@
   <Game>
     <Name>Widelands</Name>
     <ProcessName>widelands</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.widelands/save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.wgf</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>World of Goo</Name>
     <ProcessName>WorldOfGoo</ProcessName>
+    <Parameter />
     <Path>*mydocs*/.WorldOfGoo</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3578,24 +4433,27 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <Name>Xenonauts</Name>
     <ProcessName>Xenonauts.bin.x86</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/Goldhawk Interactive/Xenonauts</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3608,12 +4466,14 @@
   <Game>
     <Name>Xmoto</Name>
     <ProcessName>xmoto</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*/xmoto</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.db</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -3633,12 +4493,13 @@
     <FileType>campaign.cfg</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3652,12 +4513,13 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3671,12 +4533,13 @@
     <FileType>save*.dat</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
         <Name>Remake</Name>
@@ -3693,12 +4556,13 @@
     <FileType>save*.dat</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
         <Name>Remake</Name>
@@ -3715,12 +4579,13 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3734,15 +4599,16 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
+    <Comments />
     <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
