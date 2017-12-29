@@ -30,10 +30,10 @@
       <div id="leftcontent">
         <div class="pageSection">
           <div class="pageSectionHeader">
-            Game Backup Monitor v1.0.5 Manual
+            Game Backup Monitor v1.0.6 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated December 8, 2017</h3>
+            <h3 class="notop">Updated December 29, 2017</h3>
             <h3>Disclaimer:</h3>
             <p>This manual may contain information about features not available in the current stable release.</p>
             <p>If you are having a specific problem, please check the <a href="https://github.com/MikeMaximus/gbm/issues">issues</a> list.</p>
@@ -144,6 +144,7 @@
             <img class="manual" src="images/manual/manual_15.jpg" width="556" height="388" alt="Settings" />
             <h4>Start with Windows:</h4>
             <p>This indicates if you want GBM to start automatically when Windows starts. This setting applies to the current user only. This setting is disabled in Linux.</p>
+            <p>This setting will not function correctly if GBM is flagged to "Run as Administrator".  If you'd like to start GBM with Windows as administrator you need to disable this setting and use the <b>Windows Task Scheduler</b>.  Please <a href="gbm_task_scheduler.html">follow these instructions</a> to setup a task for Game Backup Monitor.</p>
             <h4>Start to system tray:</h4>
             <p>This makes GBM minimize to the system tray immediately, instead of showing the main window when it starts. Recommended if you're using the Start with Windows setting. This setting is disabled in Linux.</p>
             <h4>Start monitoring at launch:</h4>
@@ -154,6 +155,8 @@
             <p>GBM will record individual session data when this is enabled.  Toggling this setting has no effect on session data that's already been recorded.</p>
             <h4>Enable Syncing:</h4>
             <p>When sharing a backup folder with multiple computers using GBM, this setting allows you to automatically keep your game data in sync between these computers. It can be disabled if you're using GBM on a single computer for a slight performance boost.</p>
+            <h4>Ignore sessions shorter than X minutes:</h4>
+            <p>GBM can suppress backups if a session time is too short. This is useful to prevent unwanted backups just because you loaded a game for a few minutes. If session tracking is enabled, it will use this setting and ignore short sessions.</p>            
             <h4>Choose Optional Fields:</h4>
             <p>Use this button to choose any extra data you'd like to keep in sync between computers.  Fields such as Game Path and Icon are not recommended because they may be different on each PC.</p>
             <h4>Show detection notifications:</h4>
@@ -182,10 +185,6 @@
             <p>This will stop GBM from showing a backup confirmation after each game session.</p>
             <h4>Show overwrite warning:</h4>
             <p>This will require GBM to show a confirmation before overwriting any backup file.</p>            
-            <h4>Notify when there are new backup files to restore:</h4>
-            <p>GBM can inform you when there are new saved game backups to restore. This is only useful when you're sharing a backup folder with multiple computers.</p>
-            <h4>Backup only when session time exceeds X minutes</h4>
-            <p>GBM can suppress backups when a session time doesn't exceed a specific time frame. This is useful to prevent unwanted backups just because you loaded a game for a few minutes. This setting isn't related to "Enable time tracking" and works independently.</p>            
             <h3>7-Zip</h3>
             <img class="manual" src="images/manual/manual_18.jpg" width="556" height="393" alt="Settings" />
             <h4>Compression:</h4>

@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta name="generator" content="HTML Tidy for HTML5 for Windows version 5.1.25" />
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+  <meta name="description" content="Game Backup Monitor - Automatically backup your save games and add cloud support to any game for free!" />
+  <meta name="keywords" content="Game, Games, Save, Saves, Saved, Backup, Restore, Sync, Download, Cloud, Dropbox, GOG, Steam, Origin, Time, Monitor, PC" />
+  <meta name="author" content="Michael J. Seiferling" />
+  <title>Game Backup Monitor [Task Scheduler Help]</title>
+  <script type="text/javascript" language="javascript" src="script/jquery-1.10.2.min.js">
+  </script>
+  <script type="text/javascript" language="javascript" src="script/jquery.hoverIntent.min.js">
+  </script>
+  <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+  <link rel="shortcut icon" href="images/gbm.ico" />
+</head>
+<body>
+  <div id="top">
+    <!--Include the Header (Starts Content)-->
+    <script type="text/javascript">
+    //<![CDATA[
+        $(function(){
+                $("#header").load("header.html");
+        });
+    //]]>
+    </script>
+    <div id="header"></div>
+    <div id="content">
+      <div id="leftcontent">
+        <div class="pageSection">
+          <div class="pageSectionHeader">
+            Using Task Scheduler to start Game Backup Monitor as Administrator
+          </div>
+          <div class="pageSectionContent">
+            <h4>This page will describe how to start Game Backup Monitor with Windows as Administrator.</h4>
+            <p>These instructions are for Windows 10, they will differ slightly on other versions of Windows.</p>
+            <ol>
+                <li>Disable "Start with Windows" in Game Backup Monitor.</li>
+                <li>Open Windows Settings, type "Task Scheduler" in the search and choose the "Schedule tasks" option when it appears.
+                <br /><br /><img class="manual" src="images/manual/task_scheduler_01.jpg" width="502" height="422" alt="Task Scheduler" /><br /></li>
+                <li>Right-click on the "Task Scheulder Library" folder and choose "New Folder..." from the menu.</li>
+                <li>Enter "Game Backup Monitor" in the new folder window and click OK.</li>
+                <li>Right-click on the "Game Backup Monitor" folder and choose "Create Basic Task..." to open the new task window.</li>
+                <li>Enter "Startup" as the name of the task and any description you'd like.  Click Next to move to the Trigger section.
+                <br /><br /><img class="manual" src="images/manual/task_scheduler_02.jpg" width="696" height="488" alt="Task Scheduler" /><br /></li>
+                <li>Choose "When I log on" and click Next to move to the Action section.
+                <br /><br /><img class="manual" src="images/manual/task_scheduler_03.jpg" width="696" height="488" alt="Task Scheduler" /><br /></li>
+                <li>Choose "Start a program" and click Next.
+                <br /><br /><img class="manual" src="images/manual/task_scheduler_04.jpg" width="696" height="488" alt="Task Scheduler" /><br /></li>
+                <li>Click the "Browse..." button and navigate to the folder where GBM is installed, choose the GBM.exe file.  Click Next.
+                <br /><br /><img class="manual" src="images/manual/task_scheduler_05.jpg" width="696" height="488" alt="Task Scheduler" /><br /></li>
+                <li>The final page shows a summary.  Tick the "Open the Properties dialog for this task when I click Finish" checkbox.  Click Finish.
+                <br /><br /><img class="manual" src="images/manual/task_scheduler_06.jpg" width="696" height="488" alt="Task Scheduler" /><br /></li>
+                <li>The properties window will appear.  Tick the "Run with highest privileges" checkbox.  Click OK.
+                <br /><br /><img class="manual" src="images/manual/task_scheduler_07.jpg" width="632" height="480" alt="Task Scheduler" /><br /></li>
+                <li>Close Task Scheduler.</li>
+            </ol>
+            <h4>Game Backup Monitor will now Start with Windows as Administrator.</h4>            
+          </div>
+          <div class="pageSectionFooter">
+            <a href="#">Back to Top</a>
+          </div>
+        </div>        
+      </div><!--End Left Panel-->
+    </div><!--Include the Footer-->
+      <script type="text/javascript">
+      //<![CDATA[
+                $(function(){
+                        $("#footer").load("footer.html");
+                });
+      //]]>
+      </script>
+      <div id="footer"></div><!--End Content-->
+    </div><!--End Top-->
+  </div>
+</body>
+</html>
