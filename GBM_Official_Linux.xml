@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official_Linux.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1514404078" TotalConfigurations="219" AppVer="105">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1514950767" TotalConfigurations="224" AppVer="105">
   <Game>
     <Name>0 AD</Name>
     <ProcessName>pyrogenesis</ProcessName>
@@ -968,6 +968,26 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Bleed</Name>
+    <ProcessName>Bleed.bin.x86_64</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/Bleed/Bleed/AllPlayers</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Bloboats</Name>
     <ProcessName>bloboats</ProcessName>
     <Parameter />
@@ -1631,6 +1651,26 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Doki Doki Literature Club!</Name>
+    <ProcessName>DDLC</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.renpy/DDLC-1454445547/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.save</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>Itch.io</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Door Kickers</Name>
     <ProcessName>DoorKickers</ProcessName>
     <Parameter />
@@ -1885,6 +1925,49 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Factorio</Name>
+    <ProcessName>factorio</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.factorio/saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.zip</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>FaeVerseAlchemy</Name>
+    <ProcessName>FaeVerseAlchemy_64</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/FaeVerse Alchemy</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.json</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Retail</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3736,6 +3819,26 @@
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Surgeon Simulator 2013</Name>
+    <ProcessName>ss2013.bin</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/Bossa Studios/Surgeon Simulator 2013</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>prefs</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
