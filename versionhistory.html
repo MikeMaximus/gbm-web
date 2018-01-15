@@ -33,7 +33,38 @@
             Archived Version History
           </div>
           <div cass="pageSectionContent">
-            <h3 class="notop">1.0.4</h3>
+            <h3 class="notop">1.0.5</h3>
+            <ul>
+              <li>All Platforms:
+                <ul>
+                  <li>You can now add Comments to a game configuration.</li>
+                  <li>You can now exclude tags and use negative filters on the Game Manager.</li>
+                  <li>Fixed a bug causing backup size calculations to be incorrect when including sub-folders in a configuration.</li>
+                  <li>Fixed a bug causing GBM to calculate the backup size of an incorrect location when using a relative path configuration. This could cause very long delays when a backup was running.</li>
+                  <li>XML export files now contain the date, version and amount of configurations. The Import window will now display the date of the XML file in the title bar if applicable.</li>
+                  <li>Fixed a bug causing games not to be detected if more than one copy of the process was running.</li>
+                  <li>GBM can now save statistical data from each detected gaming session:
+                    <ul>
+                      <li>This feature records the start and end time of each detected gaming session. In future versions more data may be available.
+                      <li>You can view session data using the new "Session Viewer" available in the Tools menu.
+                      <li>This feature is disabled by default. It can be enabled on the Setting screen.
+                      <li>Session data is stored locally, it is currently not synced with the backup folder.
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>Windows Only:
+                <ul>
+                  <li>Only one instance of GBM can now be running.</li>
+                </ul>
+              </li>
+              <li>Linux Only:
+                <ul>
+                  <li>Added makefile for easy Linux installation.</li>
+                </ul>
+              </li>
+            </ul>
+            <h3>1.0.4</h3>
             <ul>
                 <li>(All) The import feature now detects most saved games currently on your PC and automatically selects configurations for you.</li>
                 <li>(All) The Game Manager's "Custom Filter" feature has received a major overhaul:</li>
