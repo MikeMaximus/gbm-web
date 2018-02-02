@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1512771172" TotalConfigurations="304" AppVer="105">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1517571903" TotalConfigurations="310" AppVer="107">
   <Game>
     <Name>1954 Alcatraz</Name>
     <ProcessName>Alcatraz</ProcessName>
@@ -663,6 +663,26 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Blade Runner</Name>
+    <ProcessName>BLADE</ProcessName>
+    <Parameter />
+    <Path>SAVE</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>Retail</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Blitzkrieg</Name>
     <ProcessName>game</ProcessName>
     <Path>saves</Path>
@@ -1031,12 +1051,14 @@
   <Game>
     <Name>Cities - Skylines</Name>
     <ProcessName>Cities</ProcessName>
+    <Parameter />
     <Path>*appdatalocal*\Colossal Order\Cities_Skylines\Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1142,12 +1164,14 @@
   <Game>
     <Name>Company of Heroes (Steam Edition)</Name>
     <ProcessName>RelicCOH</ProcessName>
+    <Parameter />
     <Path>*mydocs*\My Games\Company of Heroes Relaunch</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>Savegames:playercfg.lua</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1307,12 +1331,14 @@
   <Game>
     <Name>Darkest Dungeon</Name>
     <ProcessName>Darkest</ProcessName>
+    <Parameter />
     <Path>*mydocs*\Darkest</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1525,6 +1551,26 @@
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Divinity - Original Sin 2</Name>
+    <ProcessName>EoCApp</ProcessName>
+    <Parameter />
+    <Path>*mydocs*\Larian Studios\Divinity Original Sin 2\PlayerProfiles</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>Stats:config.lsx:AutoSave*:QuickSave*:modsettings.lsx</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>This configuration excludes auto-saves and quick-saves due to backup size.</Comments>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1868,6 +1914,7 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2012,6 +2059,26 @@
     <FileType />
     <ExcludeList>settings.cfg</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>FTL - Advanced Edition</Name>
+    <ProcessName>FTLGame</ProcessName>
+    <Parameter />
+    <Path>*mydocs*\My Games\FasterThanLight</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2320,6 +2387,29 @@
     <Tags>
       <Tag>
         <Name>Tracking</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Gwent - The Witcher Card Game</Name>
+    <ProcessName>Gwent</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>Tracking</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -3269,6 +3359,26 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Papers, Please</Name>
+    <ProcessName>PapersPlease</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*\3909\PapersPlease</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>settings.sav</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Pillars of Eternity</Name>
     <ProcessName>PillarsOfEternity</ProcessName>
     <Path>*currentuser*\Saved Games\Pillars of Eternity</Path>
@@ -3651,6 +3761,7 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4679,6 +4790,26 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Subnautica</Name>
+    <ProcessName>Subnautica</ProcessName>
+    <Parameter />
+    <Path>snappdata\savedgames</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>options</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>System Shock - Enhanced Edition</Name>
     <ProcessName>sshock</ProcessName>
     <Path>res\data</Path>
@@ -4963,12 +5094,14 @@
   <Game>
     <Name>The Witcher 2 Enhanced Edition</Name>
     <ProcessName>witcher2</ProcessName>
+    <Parameter />
     <Path>*mydocs*\Witcher 2\gamesaves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4981,12 +5114,14 @@
   <Game>
     <Name>The Witcher 3</Name>
     <ProcessName>witcher3</ProcessName>
+    <Parameter />
     <Path>*mydocs*\The Witcher 3\gamesaves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4999,12 +5134,14 @@
   <Game>
     <Name>The Witcher Enhanced Edition</Name>
     <ProcessName>witcher</ProcessName>
+    <Parameter />
     <Path>*mydocs*\The Witcher\saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <Tags>
       <Tag>
         <Name>Official</Name>
