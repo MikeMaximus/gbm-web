@@ -37,13 +37,24 @@
             <ul>
               <li>GBM will run on Linux using Mono. You can detect and backup saved games from Linux native games and games running in Wine.</li>
             </ul><img class="centered" src="images/screens/gbm_linux_native.jpg" width="611" height="443" alt="Native Example" /><br />
+            <p class="large">How do I install and run GBM on Linux?</p>
+            <ul>
+              <li>If you're using Debian or a Debian-based distro such as Ubuntu or Mint.  Download the latest deb package from <a href="https://github.com/MikeMaximus/gbm/releases">Releases</a>.</li>
+              <li>Arch Linux users can install from the <a href="https://aur.archlinux.org/packages/gbm/">Arch Linux User Repository</a>.</li>
+              <li>If you prefer a manual install, download the latest 7z package from <a href="https://github.com/MikeMaximus/gbm/releases">Releases</a> and extract it to a folder.  Navigate to the folder in a terminal and choose from the following options:
+                <ul>  
+                  <li>Use the command <b>sudo make install</b> to automatically install and setup GBM as an application on your system.</li>
+                  <li>Use the command <b>sudo make uninstall</b> to uninstall after using the install script.</li>
+                  <li>Use the command <b>mono GBM.exe</b> to run GBM from the current location without doing any installation.</li>
+                </ul></li>  
+            </ul>            
             <p class="large">Can I compile the GBM source code with Mono?</p>
             <ul>
               <li>No, not without significant work.  GBM was initially created on Windows using .NET 4.  It uses syntax and features that are not currently supported by the vbnc compiler.</li>
             </ul>
             <p class="large">What's required to run GBM on Linux?</p>
             <ul>
-              <li>GBM requires a few prerequisites to be installed. Many of these may be pre-installed on your distribution.
+              <li>GBM requires a few prerequisites to be installed. Many of these may be pre-installed on your distribution. 
                 <ul>
                   <li>Mono Framework with Visual Basic .NET and WinForms
                     <ul>
@@ -74,16 +85,10 @@
                 </ul>
               </li>
             </ul>
-            <p class="large">How do I install and run GBM on Linux?</p>
-            <ul>
-              <li>Download the latest 7z package from <a href="https://github.com/MikeMaximus/gbm/releases">Releases</a> and extract it to a folder. Navigate to the folder in a terminal and use the command <b>mono GBM.exe</b> to run it.</li>
-              <li>You can also use the command <b>sudo make install</b> to automatically install and setup GBM as an application on your system.</li>
-              <li>You can use the command <b>sudo make uninstall</b> to uninstall after using the install script.</li>          
-            </ul>
             <p class="large">Are there any limitations while running in Linux?</p>
             <ul>
               <li>The tray icon does not function correctly in Linux and is disabled. You can minimize GBM to the task bar instead.</li>
-	          <li>GBM can't automatically detect a game's icon, publisher, or version in Linux.  That information can be manually set in the Game Manager.</li>
+	            <li>GBM can't automatically detect a game's icon, publisher, or version in Linux.  That information can be manually set in the Game Manager.</li>
               <li>You may encounter slight visual or functional glitches with the interface.  These glitches are related to Mono's implementation of certain controls and possibly your video driver or display server version. I've done my best to minimize the worst of these issues.</li>              
               <li>Hidden folders cannot be displayed when using a folder browser.  I've been unable to find a proper fix for this.</li>
               <li>GBM may not exit cleanly if a critical error occurs, the process will need to be killed.</li>
