@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official_Linux.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1514950767" TotalConfigurations="224" AppVer="105">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1518563317" TotalConfigurations="233" AppVer="108">
   <Game>
     <Name>0 AD</Name>
     <ProcessName>pyrogenesis</ProcessName>
@@ -12,6 +12,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -32,6 +33,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -52,6 +54,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>SteamCloud</Name>
@@ -66,7 +69,7 @@
   </Game>
   <Game>
     <Name>A Bird Story</Name>
-    <ProcessName>ABirdStory.amd64</ProcessName>
+    <ProcessName>ABirdStory\.(amd64|x86)</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/freebirdgames/abirdstory/</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -75,6 +78,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -98,6 +102,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -112,7 +117,7 @@
   </Game>
   <Game>
     <Name>A Virus Named TOM</Name>
-    <ProcessName>CircuitGame.bin.x86_64</ProcessName>
+    <ProcessName>CircuitGame.bin\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/CircuitGameData/</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -121,6 +126,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -144,6 +150,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -164,6 +171,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -184,6 +192,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -204,6 +213,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -224,6 +234,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -247,6 +258,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -258,7 +270,7 @@
   </Game>
   <Game>
     <Name>Adventures of Shuggy</Name>
-    <ProcessName>Shuggy.bin.x86_64</ProcessName>
+    <ProcessName>Shuggy\.bin\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/Shuggy</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -267,6 +279,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -290,6 +303,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -310,6 +324,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -333,6 +348,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -344,7 +360,7 @@
   </Game>
   <Game>
     <Name>Amnesia The Dark descent</Name>
-    <ProcessName>Amnesia.bin.x86_64</ProcessName>
+    <ProcessName>Amnesia(_NO_STEAM)?\.bin\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*mydocs*/.frictionalgames/Amnesia</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -353,6 +369,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -373,6 +390,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -396,6 +414,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -416,6 +435,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -439,6 +459,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -462,6 +483,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -485,6 +507,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -496,7 +519,7 @@
   </Game>
   <Game>
     <Name>Apotheon</Name>
-    <ProcessName>Apotheon.bin.x86_64 </ProcessName>
+    <ProcessName>Apotheon\.bin\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/Apotheon/SavedGames</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -505,6 +528,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>SteamCloud</Name>
@@ -528,6 +552,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -548,6 +573,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -568,6 +594,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -591,6 +618,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -602,7 +630,7 @@
   </Game>
   <Game>
     <Name>Atom Zombie Smasher</Name>
-    <ProcessName>AtomZombieSmasher.bin.x86_64</ProcessName>
+    <ProcessName>AtomZombieSmasher\.bin\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdataroaming*/AtomZombieData/profiles</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -611,6 +639,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -631,12 +660,40 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>BLACKHOLE</Name>
+    <ProcessName>BLACKHOLE</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/BLACKHOLE/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>profile*:_profiles.txt</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GameMaker</Name>
       </Tag>
     </Tags>
   </Game>
@@ -651,6 +708,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -671,6 +729,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -691,6 +750,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -702,7 +762,7 @@
   </Game>
   <Game>
     <Name>Bastion</Name>
-    <ProcessName>Bastion.bin.x86_64</ProcessName>
+    <ProcessName>Bastion\.bin\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*mydocs*/.SupergiantGames/Bastion</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -711,6 +771,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>SteamCloud</Name>
@@ -734,6 +795,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -754,6 +816,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>SteamCloud</Name>
@@ -763,6 +826,24 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>BattleJump</Name>
+    <ProcessName>BattleJump</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.BattleJump/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.bjs</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -777,6 +858,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>SteamCloud</Name>
@@ -800,6 +882,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -823,6 +906,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -843,6 +927,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -854,15 +939,16 @@
   </Game>
   <Game>
     <Name>Bionic Dues</Name>
-    <ProcessName>BionicLinux.x86_64</ProcessName>
+    <ProcessName>BionicLinux\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>RuntimeData/Save</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
-    <FileType>*.save:*.profile</FileType>
+    <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>SteamCloud</Name>
@@ -886,6 +972,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -900,7 +987,7 @@
   </Game>
   <Game>
     <Name>Blackwell Convergence</Name>
-    <ProcessName>Convergence.bin.x86_64</ProcessName>
+    <ProcessName>Convergence\.bin\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/Blackwell Convergence</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -909,6 +996,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -923,7 +1011,7 @@
   </Game>
   <Game>
     <Name>Blackwell Legacy</Name>
-    <ProcessName>Legacy.bin.x86_64</ProcessName>
+    <ProcessName>Legacy\.bin\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/Blackwell Legacy v1.7</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -932,6 +1020,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -946,7 +1035,7 @@
   </Game>
   <Game>
     <Name>Blackwell Unbound</Name>
-    <ProcessName>Unbound.bin.x86_64</ProcessName>
+    <ProcessName>Unbound\.bin\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/Blackwell Unbound</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -955,6 +1044,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -969,7 +1059,7 @@
   </Game>
   <Game>
     <Name>Bleed</Name>
-    <ProcessName>Bleed.bin.x86_64</ProcessName>
+    <ProcessName>Bleed\.bin\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/Bleed/Bleed/AllPlayers</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -978,6 +1068,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -998,6 +1089,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1018,6 +1110,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1032,7 +1125,7 @@
   </Game>
   <Game>
     <Name>Blockstorm</Name>
-    <ProcessName>Blockstorm.x86_64</ProcessName>
+    <ProcessName>Blockstorm\.x86(_64)?</ProcessName>
     <Parameter />
     <Path />
     <AbsolutePath>false</AbsolutePath>
@@ -1041,6 +1134,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>SteamCloud</Name>
@@ -1064,6 +1158,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1087,6 +1182,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1110,6 +1206,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1133,6 +1230,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1153,6 +1251,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1167,7 +1266,7 @@
   </Game>
   <Game>
     <Name>CRYPTARK</Name>
-    <ProcessName>Cryptark.bin.x86_64</ProcessName>
+    <ProcessName>Cryptark\.bin\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/Cryptark/SavedGames</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -1176,6 +1275,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1187,7 +1287,7 @@
   </Game>
   <Game>
     <Name>Canabalt</Name>
-    <ProcessName>Canabalt.x86_64</ProcessName>
+    <ProcessName>Canabalt\.x86(_64)?</ProcessName>
     <Parameter />
     <Path />
     <AbsolutePath>false</AbsolutePath>
@@ -1196,6 +1296,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1219,6 +1320,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1239,6 +1341,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1259,6 +1362,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1282,6 +1386,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1302,6 +1407,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1325,6 +1431,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1345,6 +1452,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>SteamCloud</Name>
@@ -1368,6 +1476,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1391,6 +1500,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1414,6 +1524,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>SteamCloud</Name>
@@ -1437,6 +1548,7 @@
     <ExcludeList>Autosaves</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1460,6 +1572,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -1483,6 +1596,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1506,6 +1620,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1529,6 +1644,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1552,6 +1668,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>SteamCloud</Name>
@@ -1561,6 +1678,9 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GameMaker</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1575,6 +1695,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1598,6 +1719,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>SteamCloud</Name>
@@ -1621,6 +1743,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1641,12 +1764,19 @@
     <ExcludeList>config.lsx:modsettings.lsx</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1661,6 +1791,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Itch.io</Name>
@@ -1681,6 +1812,7 @@
     <ExcludeList>options.xml</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1701,6 +1833,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1721,6 +1854,7 @@
     <ExcludeList>prefs</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1741,6 +1875,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1759,11 +1894,12 @@
     <Parameter />
     <Path>savegames/</Path>
     <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
+    <FolderSave>false</FolderSave>
+    <FileType>*.d2z</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1784,6 +1920,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>SteamCloud</Name>
@@ -1807,6 +1944,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>SteamCloud</Name>
@@ -1830,6 +1968,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1853,6 +1992,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1873,6 +2013,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1893,6 +2034,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -1916,6 +2058,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1939,6 +2082,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1959,6 +2103,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1982,6 +2127,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -2002,6 +2148,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2022,6 +2169,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2042,6 +2190,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2062,6 +2211,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2082,6 +2232,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2102,6 +2253,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2122,6 +2274,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2142,9 +2295,34 @@
     <ExcludeList>LastRound*.hws</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Hotline Miami</Name>
+    <ProcessName>hotline_launcher</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/HotlineMiami</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>SaveData.sav</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -2162,6 +2340,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2185,12 +2364,16 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>GameMaker</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2205,6 +2388,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2225,6 +2409,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2245,6 +2430,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2265,6 +2451,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2285,6 +2472,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -2311,7 +2499,32 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Kingdom Rush Frontiers</Name>
+    <ProcessName>krf-love</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/kingdom_rush_frontiers</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>slot_*.lua</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
@@ -2331,6 +2544,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2351,12 +2565,34 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Konquest</Name>
+    <ProcessName>konquest</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2371,6 +2607,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2391,6 +2628,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2411,6 +2649,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2431,6 +2670,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>ScummVM</Name>
@@ -2451,6 +2691,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -2462,7 +2703,7 @@
   </Game>
   <Game>
     <Name>Mark of the Ninja</Name>
-    <ProcessName>ninja-bin64</ProcessName>
+    <ProcessName>ninja-bin(32|64)</ProcessName>
     <Parameter />
     <Path>*mydocs*/.klei/ninja/users</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -2471,12 +2712,19 @@
     <ExcludeList>graphics.ini</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2491,6 +2739,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2500,6 +2749,30 @@
       </Tag>
       <Tag>
         <Name>FLOSS</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Metro 2033 Redux</Name>
+    <ProcessName>metro</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>2033_auto_save:*.player</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2514,6 +2787,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2534,12 +2808,37 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>FLOSS</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Mini Metro</Name>
+    <ProcessName>Mini Metro.x86_64</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/Dinosaur Polo Club/Mini Metro</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>profile.json:savegame.dat</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2554,6 +2853,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2574,6 +2874,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2594,6 +2895,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -2614,6 +2916,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2634,6 +2937,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2654,6 +2958,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -2674,6 +2979,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2697,6 +3003,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2717,6 +3024,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2728,7 +3036,7 @@
   </Game>
   <Game>
     <Name>OlliOlli</Name>
-    <ProcessName>linux32</ProcessName>
+    <ProcessName>(linux32|olliolli)</ProcessName>
     <Parameter />
     <Path>*mydocs*/.olliolli</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -2737,12 +3045,16 @@
     <ExcludeList>olliolli.ini</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2757,6 +3069,7 @@
     <ExcludeList>config.dat</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2777,6 +3090,7 @@
     <ExcludeList>autosave.sv6</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Remake</Name>
@@ -2800,6 +3114,7 @@
     <ExcludeList>autosave</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Remake</Name>
@@ -2823,6 +3138,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>SteamCloud</Name>
@@ -2846,6 +3162,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2855,6 +3172,30 @@
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Owlboy</Name>
+    <ProcessName>Owlboy.bin.x86_64</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/Owlboy/Saves/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2869,6 +3210,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2889,12 +3231,19 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2909,6 +3258,7 @@
     <ExcludeList>2.0 Save Games Backup</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2929,6 +3279,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -2949,6 +3300,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2969,6 +3321,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2989,6 +3342,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3009,6 +3363,7 @@
     <ExcludeList>AutoSave*:QuickSave*</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3029,6 +3384,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3049,6 +3405,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3069,6 +3426,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3089,6 +3447,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -3112,6 +3471,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3132,6 +3492,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -3152,6 +3513,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3172,6 +3534,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -3192,6 +3555,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3215,6 +3579,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3235,6 +3600,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -3255,6 +3621,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3275,6 +3642,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -3295,6 +3663,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3318,6 +3687,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3338,6 +3708,7 @@
     <ExcludeList>config.cfg</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3358,6 +3729,7 @@
     <ExcludeList>Settings.xml</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3378,6 +3750,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3398,6 +3771,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3418,6 +3792,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3427,6 +3802,9 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3441,6 +3819,7 @@
     <ExcludeList>*.txt</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3461,6 +3840,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3481,6 +3861,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -3501,6 +3882,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3521,6 +3903,7 @@
     <ExcludeList>render.bin</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3541,6 +3924,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -3561,6 +3945,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -3581,6 +3966,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -3590,6 +3976,30 @@
       </Tag>
       <Tag>
         <Name>FLOSS</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Skullgirls</Name>
+    <ProcessName>SkullGirls.x86_64-pc-linux-gnu</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/Skullgirls/SaveData</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>savedata.bin</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3604,6 +4014,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -3624,12 +4035,16 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>GameMaker</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3644,6 +4059,7 @@
     <ExcludeList>AutoSave.sav</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3667,6 +4083,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3690,6 +4107,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3713,6 +4131,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -3733,6 +4152,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>SteamCloud</Name>
@@ -3742,6 +4162,9 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GameMaker</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3756,6 +4179,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3776,6 +4200,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -3796,6 +4221,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3816,6 +4242,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -3836,6 +4263,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -3856,6 +4284,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Crossover</Name>
@@ -3879,6 +4308,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -3902,6 +4332,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3922,6 +4353,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3942,6 +4374,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -3962,6 +4395,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3982,6 +4416,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4002,6 +4437,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4022,6 +4458,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -4042,6 +4479,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4065,6 +4503,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -4085,6 +4524,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -4105,6 +4545,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4125,6 +4566,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4145,6 +4587,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -4165,6 +4608,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4185,6 +4629,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>SteamCloud</Name>
@@ -4208,12 +4653,19 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4228,6 +4680,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -4248,6 +4701,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -4268,6 +4722,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4288,6 +4743,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4302,30 +4758,7 @@
   </Game>
   <Game>
     <Name>Unepic</Name>
-    <ProcessName>unepic64s</ProcessName>
-    <Parameter />
-    <Path>*appdatalocal*/Unepic/unepic</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>retos.bin</FileType>
-    <ExcludeList>config.cfg</ExcludeList>
-    <MonitorOnly>true</MonitorOnly>
-    <Comments />
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <Name>Unepic</Name>
-    <ProcessName>unepic64gog</ProcessName>
+    <ProcessName>unepic(32|64)(gog|s)</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/Unepic/unepic</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -4334,12 +4767,19 @@
     <ExcludeList>config.cfg</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4354,6 +4794,7 @@
     <ExcludeList>autosave*</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4374,6 +4815,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -4394,6 +4836,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4414,6 +4857,7 @@
     <ExcludeList>DeveloperStorage.lua</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -4437,6 +4881,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4457,6 +4902,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4477,6 +4923,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -4497,6 +4944,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4517,6 +4965,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4537,6 +4986,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4557,6 +5007,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4577,6 +5028,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -4588,7 +5040,7 @@
   </Game>
   <Game>
     <Name>Xonotic</Name>
-    <ProcessName>xonotic-glx</ProcessName>
+    <ProcessName>xonotic-(glx|sdl)</ProcessName>
     <Parameter />
     <Path>*mydocs*/.xonotic/data/data</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -4597,6 +5049,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4617,6 +5070,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -4637,6 +5091,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4660,6 +5115,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4683,6 +5139,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -4703,6 +5160,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>SteamCloud</Name>
@@ -4712,6 +5170,30 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>iBomber Defense Pacific</Name>
+    <ProcessName>iBomberDefensePacific</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/Dinosaur Polo Club/Mini Metro/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType>profile.json:savegame.dat</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
