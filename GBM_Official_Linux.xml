@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official_Linux.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1518563317" TotalConfigurations="233" AppVer="108">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1518651013" TotalConfigurations="238" AppVer="108">
   <Game>
     <Name>0 AD</Name>
     <ProcessName>pyrogenesis</ProcessName>
@@ -698,6 +698,30 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Back to Bed</Name>
+    <ProcessName>BackToBed.x86_64</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/Back to Bed</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Baldur's Gate - Enhanced Edition</Name>
     <ProcessName>BaldursGate</ProcessName>
     <Parameter />
@@ -965,12 +989,12 @@
     <Name>Bit Blaster XL</Name>
     <ProcessName>BitBlasterXL.x86_64</ProcessName>
     <Parameter />
-    <Path />
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
+    <Path>*appdataroaming*/unity3d/Nickervision Studios/Bit Blaster XL</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.bbxl</FileType>
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
@@ -1127,12 +1151,12 @@
     <Name>Blockstorm</Name>
     <ProcessName>Blockstorm\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path />
-    <AbsolutePath>false</AbsolutePath>
+    <Path>*appdataroaming*/unity3d/IndieGala/Blockstorm</Path>
+    <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
-    <FileType />
+    <FileType>*.vchr</FileType>
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <Tags>
@@ -1289,12 +1313,12 @@
     <Name>Canabalt</Name>
     <ProcessName>Canabalt\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path />
-    <AbsolutePath>false</AbsolutePath>
+    <Path>*appdataroaming*/unity3d/Finji/Canabalt</Path>
+    <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
-    <FileType />
+    <FileType>SaveData</FileType>
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <Tags>
@@ -1311,7 +1335,7 @@
   </Game>
   <Game>
     <Name>Capsized</Name>
-    <ProcessName>NePlusUltra.bin.x86_64</ProcessName>
+    <ProcessName>NePlusUltra\.bin\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/Capsized/</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -1320,7 +1344,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1587,7 +1611,7 @@
   </Game>
   <Game>
     <Name>Crawl</Name>
-    <ProcessName>Crawl.x86_64 </ProcessName>
+    <ProcessName>Crawl\.x86(_64)?</ProcessName>
     <Parameter />
     <Path />
     <AbsolutePath>false</AbsolutePath>
@@ -1596,7 +1620,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1890,7 +1914,7 @@
   </Game>
   <Game>
     <Name>Dungeons 2</Name>
-    <ProcessName>Dungeons2.x86_64</ProcessName>
+    <ProcessName>Dungeons2(\.x86_64)?</ProcessName>
     <Parameter />
     <Path>savegames/</Path>
     <AbsolutePath>false</AbsolutePath>
@@ -1899,7 +1923,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1935,7 +1959,7 @@
   </Game>
   <Game>
     <Name>Dust An Elysian Tail</Name>
-    <ProcessName>DustAET.bin.x86_64</ProcessName>
+    <ProcessName>DustAET\.bin\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/DustAET</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -1944,13 +1968,37 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Ellipsis</Name>
+    <ProcessName>Ellipsis\.x86(_64)?</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/Salmi GmbH/Ellipsis/Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -1982,8 +2030,8 @@
     </Tags>
   </Game>
   <Game>
-    <Name>Eufloria</Name>
-    <ProcessName>EufloriaHD.bin.x86_64</ProcessName>
+    <Name>Eufloria HD</Name>
+    <ProcessName>EufloriaHD\.bin\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/EufloriaHD</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -1992,7 +2040,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2048,6 +2096,30 @@
     </Tags>
   </Game>
   <Game>
+    <Name>FEZ</Name>
+    <ProcessName>FEZ\.bin\.x86(_64)?</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/FEZ</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>SaveSlot0</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>FTL Faster Than Light</Name>
     <ProcessName>FTL</ProcessName>
     <Parameter />
@@ -2094,7 +2166,7 @@
   </Game>
   <Game>
     <Name>FaeVerseAlchemy</Name>
-    <ProcessName>FaeVerseAlchemy_64</ProcessName>
+    <ProcessName>FaeVerseAlchemy_(32|64)?</ProcessName>
     <Parameter />
     <Path>*appdataroaming*/FaeVerse Alchemy</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -2103,7 +2175,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2222,8 +2294,32 @@
     </Tags>
   </Game>
   <Game>
+    <Name>Gnomoria</Name>
+    <ProcessName>Gnomoria\.bin\.x86(_64)?</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/Gnomoria</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <Name>Gone Home</Name>
-    <ProcessName>GoneHome.x86_64</ProcessName>
+    <ProcessName>GoneHome\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdataroaming*/unity3d/The Fullbright Company/Gone Home</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -2232,7 +2328,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2260,6 +2356,27 @@
       </Tag>
       <Tag>
         <Name>FLOSS</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <Name>Hammerwatch</Name>
+    <ProcessName>Hammerwatch\.bin\.x86(_64)?</ProcessName>
+    <Parameter />
+    <Path>/mnt/olhdd/steam/steamapps/common/Hammerwatch/saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.hws</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3614,8 +3731,8 @@
     <Name>Rust</Name>
     <ProcessName>rust</ProcessName>
     <Parameter />
-    <Path />
-    <AbsolutePath>false</AbsolutePath>
+    <Path>*appdataroaming*/unity3d/Facepunch Studios LTD/Rust</Path>
+    <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
