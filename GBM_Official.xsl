@@ -36,10 +36,10 @@
                   <h3 class="notop">Updated: 
                   <xsl:call-template name="seconds-to-date">
                     <xsl:with-param name="seconds" select="@Exported" />
-                  </xsl:call-template> (<xsl:value-of select="@TotalConfigurations" /> Configs)</h3>
+                  </xsl:call-template> - <xsl:value-of select="@TotalConfigurations" /> Configs (v<xsl:value-of select="@AppVer" />)</h3>
                   <p class="small">Official configurations exclude graphics settings, logs, screenshots and other extras when possible.</p>
 				          <p class="small">Official configurations may exclude autosaves and/or quicksaves when they greatly increase backup size.</p>
-				          <p class="small">Official configurations will only detect the game's default executable when multiple versions are available.</p>
+				          <p class="small">Official configurations may not be fully compatible with old versions of GBM.</p>
                   <p class="small">Icons indicate the version(s) of the game tested with GBM.</p>
                   <table border="0">
                     <xsl:for-each select="Game">

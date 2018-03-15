@@ -85,6 +85,18 @@
                 </ul>
               </li>
             </ul>
+            <p class="large">Are there any recommended packages to install when running GBM on Linux?</p>
+            <ul>
+              <li>GBM (v1.1.0 or later) will use libnotify to send native notifications if it's available.
+                <ul>
+                  <li>libnotify4 and libnotify-bin
+                    <ul>
+                      <li>GBM requires the utilities package (libnotify-bin on debian) to be installed.  The utility package isn't commonly installed by default.</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
             <p class="large">Are there any limitations while running in Linux?</p>
             <ul>
               <li>The tray icon does not function correctly in Linux and is disabled. You can minimize GBM to the task bar instead.</li>
@@ -102,6 +114,7 @@
             <ul>
               <li>Yes it can, you can play a game on Linux and have GBM restore your saved games to continue on Windows and vice versa.</li>
               <li>Linux and Windows will rarely ever share the same backup configurations. It's highly recommended to turn off "Enable syncing" in Settings. This way you can still share your saved games, but backup configurations will remain separate.</li>
+              <li>This feature is no longer fully supported in v1.1.0 or later because sycning can no longer be disabled.</li>
             </ul><img class="centered" src="images/screens/gbm_linux_settings.jpg" width="646" height="389" alt="Settings Example" /><br />
             <p class="large">I'm getting an error message when I run GBM!</p>
             <ul>
