@@ -417,10 +417,10 @@
             <p>You may choose to export dates using the Unix timestamp format or your current locale settings.</p>
             <p>The CSV format can be exported with or without headers.</p>
             <h4>Sync Game IDs</h4>
-            <p>This is a tool used to update game configurations created with a version of GBM prior to v1.1.0.  In prior versions of GBM, a game was identified by it's Name and Process, it now uses a single unique ID instead.</p>
-            <p>When importing game configurations from the official list or an XML file, GBM now uses the game ID to determine which games you have and which ones you don't.  If these IDs do not match, all configurations will be seen as "New".</p>
+            <p>GBM uses the game ID to determine which game configurations you already have when importing game configurations from the official list or an XML file.  If these IDs do not match, all configurations will be seen as "New".</p>
             <p>To solve this problem you can sync your Game IDs with the official list or an export file using this tool.  This tool is not 100% effective and some games will be missed if their names have changed substantially.</p>
-            <p><b>Important:</b> If you share a backup folder with multiple PCs, using this feature may cause data loss.  See the <a href="#syncing">Automatic Syncing</a> section for more details.</p>
+            <p>This tool is mainly for upgrading configurations from old versions of GBM so they will be recognized by the official import.</p>                                  
+            <p><b>Important:</b> If you share a backup folder with multiple PCs, using this feature may cause data loss.  Read the <a href="#syncing">Automatic Syncing</a> section for more details.</p>
           </div>
           <div class="pageSectionFooter">
             <a href="#toc">Back to Contents</a>
@@ -502,9 +502,11 @@
               <li>Processes</li>
             </ul>
             <h4>What happens when I delete a game configuration?</h4>
-            <p>It will be deleted from all PCs that share the same backup folder, along with all associated data such as sessions.</p>
+            <p>It will be deleted from all PCs that share the same backup folder.  Any associated extra data, such as sessions will also be removed.</p>
             <h4>Are there any other issues with syncing?</h4>
-            <p>In terms of syncing, changing the ID of a game (via the Game Manager or the Sync Game IDs tool) is the same as deleting and re-adding it.  This means associated data such as sessions will be lost when this happens.</p>
+            <p>If the ID of a game is changed, either via the "Game Manager" or the "Sync Game IDs" tool, it has the same effect as deleting and re-adding it.</p>
+            <p>This means other PCs sharing the backup folder will delete extra data associated with any game that has their ID changed.</p>
+            <p>This does NOT affect the PC that actually makes the ID change.</p>
           </div>
           <div class="pageSectionFooter">
             <a href="#toc">Back to Contents</a>
