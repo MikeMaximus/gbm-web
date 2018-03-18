@@ -24,23 +24,24 @@
               <div class="pageSection">
                 <div class="pageSectionHeader">Information</div>
                 <div class="pageSectionContent">
-                  <p>The official list includes games that are pre-configured to work with GBM.</p>
-                  <p>GBM supports ANY game or application once configured!</p>
-                  <p>Check the <a href="manual.html#import">manual</a> to learn how to easily import configurations on this list.</p>
-                  <p>This list contains game configurations for Microsoft Windows.</p>
+                <ul>
+                  <li>The official list includes games that are pre-configured to work with GBM.</li>
+                  <li>Check the <a href="manual.html#import">manual</a> to learn how to easily import configurations on this list.</li>
+                  <li>This list contains game configurations for Microsoft Windows.</li>
+                  <li>Icons indicate the version(s) of the game tested with GBM.</li>
+                  <li>Official configurations exclude graphics settings, logs, screenshots and other extras when possible.</li>
+				          <li>Official configurations may exclude autosaves and/or quicksaves when they greatly increase backup size.</li>
+				          <li>Official configurations may not be fully compatible with old versions of GBM.</li>
+                </ul>
                 </div>
               </div>
               <div class="pageSection">
-                <div class="pageSectionHeader">Game Configurations (Windows)</div>
+                <div class="pageSectionHeader"><xsl:value-of select="@TotalConfigurations" /> Windows Game Configurations</div>
                 <div class="pageSectionContent">
-                  <h3 class="notop">Updated: 
+                  <p align="right"> 
                   <xsl:call-template name="seconds-to-date">
                     <xsl:with-param name="seconds" select="@Exported" />
-                  </xsl:call-template> - <xsl:value-of select="@TotalConfigurations" /> Configs (v<xsl:value-of select="@AppVer" />)</h3>
-                  <p class="small">Official configurations exclude graphics settings, logs, screenshots and other extras when possible.</p>
-				          <p class="small">Official configurations may exclude autosaves and/or quicksaves when they greatly increase backup size.</p>
-				          <p class="small">Official configurations may not be fully compatible with old versions of GBM.</p>
-                  <p class="small">Icons indicate the version(s) of the game tested with GBM.</p>
+                  </xsl:call-template> (v<xsl:value-of select="@AppVer" />)</p>
                   <table border="0">
                     <xsl:for-each select="Game">
                       <xsl:sort select="Name" />
