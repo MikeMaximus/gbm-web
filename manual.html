@@ -142,26 +142,19 @@
             <p>Clicking Cancel or closing the window will cancel any changes made on this screen.</p>
             <p>When modifying the backup folder or any sync settings, be sure to read any warning messages carefully.</p>
             <h3>General</h3>
-            <img class="manual" src="images/manual/manual_15.jpg" width="556" height="388" alt="Settings" />
-            <h4>Start with Windows:</h4>
-            <p>This indicates if you want GBM to start automatically when Windows starts. This setting applies to the current user only. This setting is disabled in Linux.</p>
-            <p>This setting will not function correctly if GBM is flagged to "Run as Administrator".  If you'd like to start GBM with Windows as administrator you need to disable this setting and use the <b>Windows Task Scheduler</b>.  Please <a href="gbm_task_scheduler.html">follow these instructions</a> to setup a task for Game Backup Monitor.</p>
-            <h4>Start to system tray:</h4>
-            <p>This makes GBM minimize to the system tray immediately, instead of showing the main window when it starts. Recommended if you're using the Start with Windows setting. This setting is disabled in Linux.</p>
-            <h4>Start monitoring at launch:</h4>
-            <p>GBM will start detecting games immediately with this setting enabled, otherwise game detection has to be manually started each time you load GBM.</p>            
-            <h4>Backup GBM data files on launch:</h4>
-            <p>GBM will backup both local and remote data files (as gbm.s3db.launch.bak) each time the application starts.  Only one backup file is kept, the prior one will be overwritten.</p>
+            <img class="manual" src="images/manual/manual_15.jpg" width="556" height="388" alt="Settings" />            
             <h4>Enable time tracking:</h4>
             <p>GBM will record and display game session times when this is enabled. When it's disabled no time data is recorded or displayed. Toggling this setting has no effect on time data that's already been recorded.</p>
             <h4>Enable session tracking:</h4>
-            <p>GBM will record individual session data when this is enabled.  Toggling this setting has no effect on session data that's already been recorded.</p>
-            <h4>Ignore sessions shorter than X minutes:</h4>
-            <p>GBM can suppress backups if a session time is too short. This is useful to prevent unwanted backups just because you loaded a game for a few minutes. If session tracking is enabled, it will use this setting and ignore short sessions.</p>            
+            <p>GBM will record individual session data when this is enabled.  Toggling this setting has no effect on session data that's already been recorded.</p>            
             <h4>Choose Optional Fields:</h4>
             <p>Use this button to choose any extra data you'd like to keep in sync between computers.  Fields such as Game Path and Icon are not recommended because they may be different on each PC.</p>
+            <h4>Ignore sessions shorter than X minutes:</h4>
+            <p>GBM can suppress backups if a session time is too short. This is useful to prevent unwanted backups just because you loaded a game for a few minutes. If session tracking is enabled, it will use this setting and ignore short sessions.</p>
             <h4>Show detection notifications:</h4>
             <p>This will require GBM to show a standard Windows notification when a game is detected.</p>
+            <h4>Disable sync event messages</h4>
+            <p>This will prevent all sync related messages from being displayed in the log.</p>
             <h4>Autosave log when max length is exceeded</h4>
             <p>This will automatically save a copy of the session log each time it's automatically cleared.</p>            
             <h3>Backup and Restore</h3>
@@ -187,7 +180,18 @@
             <h4>Disable backup confirmation:</h4>
             <p>This will stop GBM from showing a backup confirmation after each game session.</p>
             <h4>Show overwrite warning:</h4>
-            <p>This will require GBM to show a confirmation before overwriting any backup file.</p>            
+            <p>This will require GBM to show a confirmation before overwriting any backup file.</p>
+            <h3>Startup</h3>        
+            <img class="manual" src="images/manual/manual_23.jpg" width="556" height="388" alt="Settings" />
+            <h4>Start with Windows:</h4>
+            <p>This indicates if you want GBM to start automatically when Windows starts. This setting applies to the current user only. This setting is disabled in Linux.</p>
+            <p>This setting will not function correctly if GBM is flagged to "Run as Administrator".  If you'd like to start GBM with Windows as administrator you need to disable this setting and use the <b>Windows Task Scheduler</b>.  Please <a href="gbm_task_scheduler.html">follow these instructions</a> to setup a task for Game Backup Monitor.</p>
+            <h4>Start to system tray:</h4>
+            <p>This makes GBM minimize to the system tray immediately, instead of showing the main window when it starts. Recommended if you're using the Start with Windows setting. This setting is disabled in Linux.</p>
+            <h4>Start monitoring at launch:</h4>
+            <p>GBM will start detecting games immediately with this setting enabled, otherwise game detection has to be manually started each time you load GBM.</p>            
+            <h4>Backup GBM data files on launch:</h4>
+            <p>GBM will backup both local and remote data files (as gbm.s3db.launch.bak) each time the application starts.  Only one backup file is kept, the prior one will be overwritten.</p>
             <h3>7-Zip</h3>
             <img class="manual" src="images/manual/manual_18.jpg" width="556" height="388" alt="Settings" />
             <h4>Compression:</h4>
