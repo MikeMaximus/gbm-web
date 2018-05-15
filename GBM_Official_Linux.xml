@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official_Linux.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1514950767" TotalConfigurations="224" AppVer="105">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1526373761" TotalConfigurations="224" AppVer="111">
   <Game>
+    <ID>bbf8e00a-d7b8-46a5-b52c-8ba886b8c38a</ID>
     <Name>0 AD</Name>
     <ProcessName>pyrogenesis</ProcessName>
     <Parameter />
@@ -12,6 +13,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -22,6 +24,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>467247b3-230e-484d-bf47-53fcac032fd2</ID>
     <Name>3079 -- Block Action RPG</Name>
     <ProcessName>java</ProcessName>
     <Parameter>3079.jar</Parameter>
@@ -32,6 +35,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -42,6 +46,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>20bb8f9a-e3ad-4368-93bb-d0d4527e6e37</ID>
     <Name>8-Bit Commando</Name>
     <ProcessName>8bit_commando</ProcessName>
     <Parameter />
@@ -52,19 +57,21 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>fb1f31b9-2ffc-4ede-91e6-8db2526339e7</ID>
     <Name>A Bird Story</Name>
     <ProcessName>ABirdStory.amd64</ProcessName>
     <Parameter />
@@ -75,19 +82,21 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>ac5b4385-9bb7-473b-b563-d0ef8d2bc82c</ID>
     <Name>A Story About My Uncle</Name>
     <ProcessName>ASAMU</ProcessName>
     <Parameter />
@@ -98,12 +107,13 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -111,6 +121,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>16305ed4-df53-4f83-8cc7-1cbdac70dd9d</ID>
     <Name>A Virus Named TOM</Name>
     <ProcessName>CircuitGame.bin.x86_64</ProcessName>
     <Parameter />
@@ -121,19 +132,21 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>82185258-6d5e-4089-a4f6-6e7d65ad7892</ID>
     <Name>A Wizard's Lizard</Name>
     <ProcessName>nw</ProcessName>
     <Parameter />
@@ -144,16 +157,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>29174966-97ec-4a1a-be9c-6b83e4489f4b</ID>
     <Name>A7xpg</Name>
     <ProcessName>a7xpg</ProcessName>
     <Parameter />
@@ -164,16 +179,18 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>a60e78c5-bcb8-4667-9545-dadb62deceeb</ID>
     <Name>AI War - Fleet Command</Name>
     <ProcessName>AIWarLinux.x86_64</ProcessName>
     <Parameter />
@@ -184,6 +201,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -194,6 +212,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>49a8b248-1053-439a-bf63-b500ee0eb4bf</ID>
     <Name>AaaaaAAaaaAAAaaAAAAaAAAAA!!! for the Awesome</Name>
     <ProcessName>Awesome.x86</ProcessName>
     <Parameter />
@@ -204,6 +223,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -214,6 +234,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>dd214f75-16f0-4961-90c7-4b0f160ab2fd</ID>
     <Name>About Love, Hate and the other ones</Name>
     <ProcessName>loveandhate</ProcessName>
     <Parameter />
@@ -224,19 +245,21 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>1cafc11a-13ad-4569-a780-4e8353a19837</ID>
     <Name>Abuse</Name>
     <ProcessName>abuse.elf</ProcessName>
     <Parameter />
@@ -247,6 +270,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -257,6 +281,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>4620546b-9927-49c0-88c3-7e68ad54605f</ID>
     <Name>Adventures of Shuggy</Name>
     <ProcessName>Shuggy.bin.x86_64</ProcessName>
     <Parameter />
@@ -267,19 +292,21 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>2851676b-38ce-46e7-87df-c1a6cf3b3e72</ID>
     <Name>Alien Arena</Name>
     <ProcessName>alienarena</ProcessName>
     <Parameter />
@@ -290,6 +317,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -300,6 +328,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>1779444f-2a25-4d4e-b07f-fe457cc5c7bf</ID>
     <Name>Always Remember Me</Name>
     <ProcessName>Always Remember Me</ProcessName>
     <Parameter />
@@ -310,19 +339,21 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>d65c5678-40fd-4e52-8057-37df54ecf576</ID>
     <Name>American Truck Simulator</Name>
     <ProcessName>amtrucks</ProcessName>
     <Parameter />
@@ -333,6 +364,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -343,6 +375,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>ee415e14-8007-4d83-b826-16a0800a9e83</ID>
     <Name>Amnesia The Dark descent</Name>
     <ProcessName>Amnesia.bin.x86_64</ProcessName>
     <Parameter />
@@ -353,6 +386,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -363,6 +397,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>6f0b1be4-ad1c-4464-a7cc-1ca20e968c75</ID>
     <Name>Analogue A Hate Story</Name>
     <ProcessName>python</ProcessName>
     <Parameter>Analogue.py</Parameter>
@@ -373,6 +408,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -386,6 +422,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>7f09c11f-549e-43f0-8cc6-8b86def9d3f2</ID>
     <Name>And Yet It Moves</Name>
     <ProcessName>AndYetItMoves</ProcessName>
     <Parameter />
@@ -396,6 +433,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -406,6 +444,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>7b5a7e64-3d72-4f8f-92e6-0e243ec616fb</ID>
     <Name>Anodyne</Name>
     <ProcessName>Anodyne</ProcessName>
     <Parameter />
@@ -416,12 +455,13 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -429,6 +469,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>1ce326b2-3a22-4cfe-a67f-4773f955c2a6</ID>
     <Name>Anomaly 2</Name>
     <ProcessName>Anomaly2Linux</ProcessName>
     <Parameter />
@@ -439,12 +480,13 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -452,6 +494,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>00e584e9-a11a-4451-bbde-88afb1733657</ID>
     <Name>Anomaly Defenders</Name>
     <ProcessName>AnomalyDefenders</ProcessName>
     <Parameter />
@@ -462,6 +505,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -475,6 +519,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>b5c5e555-3f81-41a9-b0c9-64518776e836</ID>
     <Name>Antichamber</Name>
     <ProcessName>UDKGame-Linux</ProcessName>
     <Parameter />
@@ -485,16 +530,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>785670a3-be03-4c60-8cfe-b5eda0007cbd</ID>
     <Name>Apotheon</Name>
     <ProcessName>Apotheon.bin.x86_64 </ProcessName>
     <Parameter />
@@ -505,19 +552,21 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>5301c8e5-e32b-48ec-b158-0bed84c9f8da</ID>
     <Name>Aquaria</Name>
     <ProcessName>aquaria</ProcessName>
     <Parameter />
@@ -528,6 +577,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -538,6 +588,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>11af0cf4-3244-4dae-baf3-1f2825975aae</ID>
     <Name>Ardentryst</Name>
     <ProcessName>python2.7</ProcessName>
     <Parameter>ardentryst</Parameter>
@@ -548,16 +599,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>f3aac7c5-082b-4fa9-a062-499e5bcf740a</ID>
     <Name>Arx Libertatis</Name>
     <ProcessName>arx</ProcessName>
     <Parameter />
@@ -568,6 +621,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -581,6 +635,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>7bbf5961-ea4f-4a01-8383-d6ef02fd8cdc</ID>
     <Name>Astromenace</Name>
     <ProcessName>astromenace</ProcessName>
     <Parameter />
@@ -591,16 +646,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>9b4e33ca-59d4-4fe5-9043-d08267323350</ID>
     <Name>Atom Zombie Smasher</Name>
     <ProcessName>AtomZombieSmasher.bin.x86_64</ProcessName>
     <Parameter />
@@ -611,16 +668,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>2782f209-ada4-4ff8-a2b7-bb59117395ad</ID>
     <Name>Avadon The Black Tortress</Name>
     <ProcessName>Avadon-x86</ProcessName>
     <Parameter />
@@ -631,16 +690,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>5af9baae-230e-4de8-92ae-89a459f8a6f7</ID>
     <Name>Baldur's Gate - Enhanced Edition</Name>
     <ProcessName>BaldursGate</ProcessName>
     <Parameter />
@@ -651,16 +712,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>efa0820c-0e25-4ba1-a3ff-8c9035ac8bb6</ID>
     <Name>Baldur's Gate 2 - Enhanced Edition</Name>
     <ProcessName>BaldursGateII</ProcessName>
     <Parameter />
@@ -671,16 +734,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>e7f4a15e-aed1-4d8f-a9f7-2020a4b70805</ID>
     <Name>Barbie Seahorse Adventures</Name>
     <ProcessName>barbie</ProcessName>
     <Parameter />
@@ -691,16 +756,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>c5a23eb1-1958-4fec-a1cf-f713f87f3081</ID>
     <Name>Bastion</Name>
     <ProcessName>Bastion.bin.x86_64</ProcessName>
     <Parameter />
@@ -711,19 +778,21 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>b4133702-276d-4790-82cb-3e6da6e1647c</ID>
     <Name>Battle Worlds - Kronos</Name>
     <ProcessName>BattleWorldsKronos.x86_64</ProcessName>
     <Parameter />
@@ -734,16 +803,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>d935a370-c55e-45a7-a56d-cf744f98dd09</ID>
     <Name>BattleBlock Theater</Name>
     <ProcessName>BattleBlockTheater</ProcessName>
     <Parameter />
@@ -754,19 +825,21 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>53852dca-70a5-455b-8adf-4bd029191147</ID>
     <Name>Beat Hazard</Name>
     <ProcessName>BeatHazard_Linux2</ProcessName>
     <Parameter />
@@ -777,19 +850,21 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>a9def0e1-a476-4e4e-9d41-5a40d8d5a36d</ID>
     <Name>Beatbuddy Tale of the Guardians</Name>
     <ProcessName>Beatbuddy</ProcessName>
     <Parameter />
@@ -800,12 +875,13 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -813,6 +889,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>4e6c64f8-8a9a-4853-9c07-e8f49b78d116</ID>
     <Name>Beneath a Steel Sky</Name>
     <ProcessName>scummvm</ProcessName>
     <Parameter>sky</Parameter>
@@ -823,6 +900,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -833,6 +911,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>a1a6792e-dd67-4f64-8afd-bbb680704d0d</ID>
     <Name>Big Pharma</Name>
     <ProcessName>Big Pharma.x86</ProcessName>
     <Parameter />
@@ -843,6 +922,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -853,6 +933,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>5ea39566-8a25-4eff-9916-992d866c4547</ID>
     <Name>Bionic Dues</Name>
     <ProcessName>BionicLinux.x86_64</ProcessName>
     <Parameter />
@@ -863,19 +944,21 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>7aab52ee-2ad1-4af0-9d81-c835496fe299</ID>
     <Name>Bit Blaster XL</Name>
     <ProcessName>BitBlasterXL.x86_64</ProcessName>
     <Parameter />
@@ -886,19 +969,21 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>bbf11be7-8b67-4c8f-9aab-398887863ca3</ID>
     <Name>Blackwell Convergence</Name>
     <ProcessName>Convergence.bin.x86_64</ProcessName>
     <Parameter />
@@ -909,19 +994,21 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>dfbd16ac-a857-4dad-b508-d7faab505b37</ID>
     <Name>Blackwell Legacy</Name>
     <ProcessName>Legacy.bin.x86_64</ProcessName>
     <Parameter />
@@ -932,12 +1019,13 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -945,6 +1033,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>92ed898f-e855-42b7-91f7-b8e03d721a85</ID>
     <Name>Blackwell Unbound</Name>
     <ProcessName>Unbound.bin.x86_64</ProcessName>
     <Parameter />
@@ -955,12 +1044,13 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -968,6 +1058,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>7d360b29-e675-4b59-b405-89461f898205</ID>
     <Name>Bleed</Name>
     <ProcessName>Bleed.bin.x86_64</ProcessName>
     <Parameter />
@@ -978,16 +1069,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>d692d807-4c2d-4af5-a62e-f91625c831ac</ID>
     <Name>Bloboats</Name>
     <ProcessName>bloboats</ProcessName>
     <Parameter />
@@ -998,6 +1091,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1008,6 +1102,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>222e8bea-a6bb-4f8b-8ce9-c10672d7600f</ID>
     <Name>Blocks That Matter</Name>
     <ProcessName>java</ProcessName>
     <Parameter>BTM.jar</Parameter>
@@ -1018,19 +1113,21 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>09571d6a-99d9-44e1-9142-f8ab06e60e0b</ID>
     <Name>Blockstorm</Name>
     <ProcessName>Blockstorm.x86_64</ProcessName>
     <Parameter />
@@ -1041,19 +1138,21 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>298fc402-d203-48c2-80f2-9f6dfb04b4bf</ID>
     <Name>Borderlands 2</Name>
     <ProcessName>Borderlands2</ProcessName>
     <Parameter />
@@ -1064,12 +1163,13 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -1077,6 +1177,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>38b6302a-dc90-4cbc-bf06-f0ffdca3a453</ID>
     <Name>Borderlands The Pre-Sequel</Name>
     <ProcessName>BorderlandsPreSequel</ProcessName>
     <Parameter />
@@ -1087,19 +1188,21 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>0af35fad-71c4-4411-872a-644fd79d55ae</ID>
     <Name>Braid</Name>
     <ProcessName>Braid.bin.x86</ProcessName>
     <Parameter />
@@ -1110,19 +1213,21 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>9ae00180-2cb1-4ea0-8548-2f85de8f4064</ID>
     <Name>Brogue</Name>
     <ProcessName>brogue</ProcessName>
     <Parameter />
@@ -1133,6 +1238,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1143,6 +1249,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>7811e275-fd38-441e-bc4c-f65570793b83</ID>
     <Name>Brütal Legend</Name>
     <ProcessName>Buddha.bin.x86</ProcessName>
     <Parameter />
@@ -1153,12 +1260,13 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -1166,6 +1274,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>47795eb7-1bb9-4ee6-bca3-76a266828ef9</ID>
     <Name>CRYPTARK</Name>
     <ProcessName>Cryptark.bin.x86_64</ProcessName>
     <Parameter />
@@ -1176,6 +1285,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1186,6 +1296,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>a4ae3fac-e145-43a0-be4d-9e0cd704cbc6</ID>
     <Name>Canabalt</Name>
     <ProcessName>Canabalt.x86_64</ProcessName>
     <Parameter />
@@ -1196,6 +1307,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1209,6 +1321,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>8a9cf309-3085-49b2-8f49-639e517f95f7</ID>
     <Name>Capsized</Name>
     <ProcessName>NePlusUltra.bin.x86_64</ProcessName>
     <Parameter />
@@ -1219,16 +1332,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>9bfee0f4-018e-4591-904a-2d10eb5943f2</ID>
     <Name>Card City Nights</Name>
     <ProcessName>ccn.x86</ProcessName>
     <Parameter />
@@ -1239,6 +1354,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1249,6 +1365,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>661275da-1f5d-4730-b4bf-92958fe0f6ca</ID>
     <Name>Castle Doctrine</Name>
     <ProcessName>CastleDoctrineApp</ProcessName>
     <Parameter />
@@ -1259,6 +1376,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1272,6 +1390,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>dc1b0293-afac-4a2d-a3da-748e77dc5139</ID>
     <Name>Cave Story+</Name>
     <ProcessName>CaveStory+</ProcessName>
     <Parameter />
@@ -1282,16 +1401,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>cde81701-eae9-4b0f-a087-1c8f42b1f2c5</ID>
     <Name>Chroma Squad</Name>
     <ProcessName>chromasquad.x86</ProcessName>
     <Parameter />
@@ -1302,19 +1423,21 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>8d32cf57-1266-4623-80e4-41acba33e408</ID>
     <Name>Cities - Skylines</Name>
     <ProcessName>Cities.x64</ProcessName>
     <Parameter />
@@ -1325,16 +1448,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>7364acb4-f254-4e35-91b5-f183707a83ef</ID>
     <Name>Cities in Motion 2</Name>
     <ProcessName>Cities in Motion 2</ProcessName>
     <Parameter />
@@ -1345,19 +1470,21 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>c459b192-9751-44c2-b950-c0d859e05b05</ID>
     <Name>Closure</Name>
     <ProcessName>Closure.bin.x86</ProcessName>
     <Parameter />
@@ -1368,6 +1495,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1381,6 +1509,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>2cab8da8-ea46-4f9c-9165-11a56e2ad1f0</ID>
     <Name>Cogs</Name>
     <ProcessName>Cogs-x86</ProcessName>
     <Parameter />
@@ -1391,12 +1520,13 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -1404,6 +1534,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>422542bc-6c56-4de1-876b-c3b8242c21f0</ID>
     <Name>Contraption Maker</Name>
     <ProcessName>ContraptionMaker</ProcessName>
     <Parameter />
@@ -1414,19 +1545,21 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>bfd11cc3-b871-46ea-9710-2e93a03fc676</ID>
     <Name>CorsixTH</Name>
     <ProcessName>CorsixTH</ProcessName>
     <Parameter />
@@ -1437,19 +1570,21 @@
     <ExcludeList>Autosaves</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>Remake</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Remake</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>faa9fbcf-7ad8-4cbb-af55-c57a91ef2317</ID>
     <Name>Covert Action</Name>
     <ProcessName>dosbox</ProcessName>
     <Parameter>dosbox_smcovert.conf</Parameter>
@@ -1460,6 +1595,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -1473,6 +1609,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>cfe0bf7f-2583-44cb-8914-d15f5cc87885</ID>
     <Name>Crawl</Name>
     <ProcessName>Crawl.x86_64 </ProcessName>
     <Parameter />
@@ -1483,19 +1620,21 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>7e581ed5-8289-4bbe-9f13-c772a5deb29a</ID>
     <Name>Cubemen</Name>
     <ProcessName>Cubemen</ProcessName>
     <Parameter />
@@ -1506,19 +1645,21 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>4d57cbbc-e2b6-4fcf-bf8d-300004af1293</ID>
     <Name>Cubemen 2</Name>
     <ProcessName>Cubemen2</ProcessName>
     <Parameter />
@@ -1529,19 +1670,21 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>33500f36-6fb2-4dce-acb4-369aa4a9bd23</ID>
     <Name>DEADBOLT</Name>
     <ProcessName>runner</ProcessName>
     <Parameter />
@@ -1552,19 +1695,21 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>2be7ea37-b3b0-4222-b4ff-f564868c50ab</ID>
     <Name>Defend Your Life!</Name>
     <ProcessName>dyl.x86</ProcessName>
     <Parameter />
@@ -1575,19 +1720,21 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>2d612da0-bfee-4c74-94fa-f45f85aa0f6d</ID>
     <Name>Deponia The Complete Journey</Name>
     <ProcessName>deponia_tcj</ProcessName>
     <Parameter />
@@ -1598,19 +1745,21 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>08595501-4e8e-4e65-938e-2e75b50044da</ID>
     <Name>Din's Curse</Name>
     <ProcessName>DinsCurse</ProcessName>
     <Parameter />
@@ -1621,16 +1770,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>208f18d1-3d6e-4112-8bdb-2373d52af5fe</ID>
     <Name>Divinity Original Sin - Enhanced Edition</Name>
     <ProcessName>EoCApp</ProcessName>
     <Parameter />
@@ -1641,6 +1792,7 @@
     <ExcludeList>config.lsx:modsettings.lsx</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1651,6 +1803,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>d87f728c-5e35-4eb1-9bd7-96245dc16e63</ID>
     <Name>Doki Doki Literature Club!</Name>
     <ProcessName>DDLC</ProcessName>
     <Parameter />
@@ -1661,6 +1814,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Itch.io</Name>
@@ -1671,6 +1825,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>573c5c3b-92be-4d53-97a7-57e61a92ba2d</ID>
     <Name>Door Kickers</Name>
     <ProcessName>DoorKickers</ProcessName>
     <Parameter />
@@ -1681,16 +1836,18 @@
     <ExcludeList>options.xml</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>3844f122-8d65-41a5-9585-529afdaa02fa</ID>
     <Name>Drascula The Vampire Strikes Back</Name>
     <ProcessName>scummvm</ProcessName>
     <Parameter>drascula</Parameter>
@@ -1701,6 +1858,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1711,6 +1869,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>ff492aa1-2302-42c7-9549-4c0a23e9919f</ID>
     <Name>Dreamfall Chapters</Name>
     <ProcessName>Dreamfall Chapters</ProcessName>
     <Parameter />
@@ -1721,16 +1880,18 @@
     <ExcludeList>prefs</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>03bd17a0-cfe8-440f-a049-f75bd089fbbe</ID>
     <Name>Droid Assault</Name>
     <ProcessName>java32</ProcessName>
     <Parameter>DroidAssault.jar</Parameter>
@@ -1741,19 +1902,21 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>a10edbff-d8aa-4d05-99ee-71ee77ab003c</ID>
     <Name>Dungeons 2</Name>
     <ProcessName>Dungeons2.x86_64</ProcessName>
     <Parameter />
@@ -1764,6 +1927,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1774,6 +1938,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>1bf39c79-e561-4e06-87bc-4d73f42388d7</ID>
     <Name>Dungeons of Dredmor</Name>
     <ProcessName>Dredmor-x86</ProcessName>
     <Parameter />
@@ -1784,19 +1949,21 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>1a5b8e9c-c4e6-4e9f-b27a-2c1ae1aead8d</ID>
     <Name>Dust An Elysian Tail</Name>
     <ProcessName>DustAET.bin.x86_64</ProcessName>
     <Parameter />
@@ -1807,19 +1974,21 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>4a90544b-1766-4cc4-9667-83b116c150af</ID>
     <Name>Endless Sky</Name>
     <ProcessName>endless-sky</ProcessName>
     <Parameter />
@@ -1830,19 +1999,21 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>15185a64-4610-4ac6-9472-33f1148c314e</ID>
     <Name>Eufloria</Name>
     <ProcessName>EufloriaHD.bin.x86_64</ProcessName>
     <Parameter />
@@ -1853,6 +2024,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1863,6 +2035,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>b73e811f-e5d8-4ae6-b872-f4429812b3f5</ID>
     <Name>Euro Truck Simulator 2</Name>
     <ProcessName>eurotrucks2</ProcessName>
     <Parameter />
@@ -1873,16 +2046,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>655df73e-120b-45b1-b7ec-6919eab0f496</ID>
     <Name>Eye of the Beholder</Name>
     <ProcessName>dosbox_x86_64</ProcessName>
     <Parameter />
@@ -1893,6 +2068,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -1906,6 +2082,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>b01d677e-dd1f-4591-a8e9-fb29d74f1ce4</ID>
     <Name>FTL Faster Than Light</Name>
     <ProcessName>FTL</ProcessName>
     <Parameter />
@@ -1916,19 +2093,21 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>91048106-ae26-432b-a8b5-fb65d5c2f680</ID>
     <Name>Factorio</Name>
     <ProcessName>factorio</ProcessName>
     <Parameter />
@@ -1939,16 +2118,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>b71f241e-28db-4acd-bfbd-f552f440a957</ID>
     <Name>FaeVerseAlchemy</Name>
     <ProcessName>FaeVerseAlchemy_64</ProcessName>
     <Parameter />
@@ -1959,19 +2140,21 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Retail</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>204536ea-e911-493d-863c-8d5b8a45cf77</ID>
     <Name>Flare RPG</Name>
     <ProcessName>flare</ProcessName>
     <Parameter />
@@ -1982,6 +2165,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1992,6 +2176,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>922d2f45-c97d-46eb-bcd3-e5f9e884e37d</ID>
     <Name>Flight of the Amazon Queen</Name>
     <ProcessName>scummvm</ProcessName>
     <Parameter>queen</Parameter>
@@ -2002,6 +2187,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2012,6 +2198,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>174e8fbe-9f32-4584-9c9f-bf44e9c2689c</ID>
     <Name>Freedroid RPG</Name>
     <ProcessName>freedroidRPG</ProcessName>
     <Parameter />
@@ -2022,16 +2209,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>bd38f4e4-1cad-42bb-8014-e34c6a8c7a21</ID>
     <Name>Frogatto</Name>
     <ProcessName>game</ProcessName>
     <Parameter />
@@ -2042,16 +2231,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>b8c8cb9c-4e20-429c-b355-2aea8e98e620</ID>
     <Name>Frozen Bubble</Name>
     <ProcessName>frozen-bubble</ProcessName>
     <Parameter />
@@ -2062,16 +2253,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>841c134d-1030-4fd9-984e-fc27ee7357b2</ID>
     <Name>Gone Home</Name>
     <ProcessName>GoneHome.x86_64</ProcessName>
     <Parameter />
@@ -2082,6 +2275,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2092,6 +2286,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>9210d55b-a08a-4e73-aacc-ad1d59a30cfb</ID>
     <Name>Gunroar</Name>
     <ProcessName>gunroar</ProcessName>
     <Parameter />
@@ -2102,16 +2297,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>c440706e-e2c5-4422-b564-440f5e4bbb35</ID>
     <Name>Harvest Massive Encounter</Name>
     <ProcessName>Harvest</ProcessName>
     <Parameter />
@@ -2122,16 +2319,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>c5fa158f-e27b-4f85-ac4d-eff404e0e370</ID>
     <Name>Hedgewars</Name>
     <ProcessName>hedgewars</ProcessName>
     <Parameter />
@@ -2142,6 +2341,7 @@
     <ExcludeList>LastRound*.hws</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -2152,6 +2352,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>01ae7fc8-7996-4ea9-8638-f96e067b8569</ID>
     <Name>I Have No Mouth and I Must Scream</Name>
     <ProcessName>dosbox_x86_64</ProcessName>
     <Parameter />
@@ -2162,19 +2363,21 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>DOSBox</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>0a64e944-af58-44ed-a157-00f56191a47b</ID>
     <Name>INK</Name>
     <ProcessName>runner</ProcessName>
     <Parameter />
@@ -2185,6 +2388,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2195,6 +2399,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>54c9c19f-8052-43f3-8cbc-fe844e98f0b3</ID>
     <Name>Iesabel</Name>
     <ProcessName>Iesabel.x86</ProcessName>
     <Parameter />
@@ -2205,6 +2410,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2215,6 +2421,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>9290a0a9-19b1-462d-9cdd-1812e4a174c1</ID>
     <Name>Influent</Name>
     <ProcessName>Influent.x86_64</ProcessName>
     <Parameter />
@@ -2225,16 +2432,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>54cf081a-628b-4686-a81a-f04e54041c84</ID>
     <Name>Invisible Inc</Name>
     <ProcessName>InvisibleInc</ProcessName>
     <Parameter />
@@ -2245,16 +2454,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>84c6670e-8055-4138-83ab-8972049a7846</ID>
     <Name>Jotun</Name>
     <ProcessName>Jotun.x86</ProcessName>
     <Parameter />
@@ -2265,6 +2476,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2275,6 +2487,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>a6c99427-981d-4fa9-ae01-957cde4b89cc</ID>
     <Name>KeeperRL</Name>
     <ProcessName>keeper</ProcessName>
     <Parameter />
@@ -2285,15 +2498,16 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -2301,6 +2515,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>7a19321f-db46-4b3c-a3f5-9e2493c5c330</ID>
     <Name>Kingdom Rush</Name>
     <ProcessName>Kingdom Rush.x86</ProcessName>
     <Parameter />
@@ -2311,16 +2526,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>fe67a3f6-6648-4458-9f89-f8d96e487ec4</ID>
     <Name>Knights of Pen and Paper +1</Name>
     <ProcessName>knightspp.x86</ProcessName>
     <Parameter />
@@ -2331,6 +2548,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2341,6 +2559,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>171943c5-f8b3-4e08-92f5-092e11181833</ID>
     <Name>Knights of Pen and Paper 2</Name>
     <ProcessName>kopp2.x86</ProcessName>
     <Parameter />
@@ -2351,6 +2570,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2361,6 +2581,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>8399ef22-2a59-4a8a-8c28-3ed7e9cf3405</ID>
     <Name>LIMBO</Name>
     <ProcessName>limbo</ProcessName>
     <Parameter />
@@ -2371,6 +2592,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2381,6 +2603,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>7933ddd4-2c60-4b1d-9291-71f80fd41d1c</ID>
     <Name>Little Inferno</Name>
     <ProcessName>LittleInferno.bin.x86</ProcessName>
     <Parameter />
@@ -2391,6 +2614,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2401,6 +2625,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>4b82554c-e9ed-41df-ad91-c381cf0d7019</ID>
     <Name>Lix</Name>
     <ProcessName>lix</ProcessName>
     <Parameter />
@@ -2411,16 +2636,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>299dee44-7bf1-4664-8cae-8b212cb651a7</ID>
     <Name>Lure of the Temptress</Name>
     <ProcessName>scummvm</ProcessName>
     <Parameter>lure</Parameter>
@@ -2431,16 +2658,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>ScummVM</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>ScummVM</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>0f9c0293-303f-4d9e-a2b4-dc4417d2d04a</ID>
     <Name>Mana Plus</Name>
     <ProcessName>manaplus</ProcessName>
     <Parameter />
@@ -2451,6 +2680,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -2461,6 +2691,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>e56b96ff-fca2-4966-a3ca-83932d816d59</ID>
     <Name>Mark of the Ninja</Name>
     <ProcessName>ninja-bin64</ProcessName>
     <Parameter />
@@ -2471,16 +2702,18 @@
     <ExcludeList>graphics.ini</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>0b2e8f6c-76ee-4888-9efc-f48f7ea3e610</ID>
     <Name>MegaGlest</Name>
     <ProcessName>megaglest</ProcessName>
     <Parameter />
@@ -2491,19 +2724,21 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>26330dc9-e467-475d-a950-db985ec239ce</ID>
     <Name>Middle-earth™ Shadow of Mordor™</Name>
     <ProcessName>ShadowOfMordor</ProcessName>
     <Parameter />
@@ -2514,6 +2749,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2524,6 +2760,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>f3286c54-8436-412c-a419-4d094b3f0bb5</ID>
     <Name>Minetest</Name>
     <ProcessName>minetest</ProcessName>
     <Parameter />
@@ -2534,16 +2771,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>26e6952c-0f8a-48c2-9590-433c0c11d2f7</ID>
     <Name>Mirror Magic</Name>
     <ProcessName>mirrormagic</ProcessName>
     <Parameter />
@@ -2554,16 +2793,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>6eb4b866-5319-4944-a890-2ccea65ff96a</ID>
     <Name>Mount and Blade - Warband</Name>
     <ProcessName>mb_warband_linux</ProcessName>
     <Parameter />
@@ -2574,6 +2815,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2584,6 +2826,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>c70db113-ad6b-43ce-b837-40803d4a4a16</ID>
     <Name>Mr Rescue</Name>
     <ProcessName>love</ProcessName>
     <Parameter>mrrescue-1.02e.love</Parameter>
@@ -2594,6 +2837,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -2604,6 +2848,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>7b954822-f545-448a-9155-97b0c9097e55</ID>
     <Name>Munin</Name>
     <ProcessName>Munin.x86_64</ProcessName>
     <Parameter />
@@ -2614,16 +2859,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>4c51f2e7-5707-4bc8-847c-10bd24c829fa</ID>
     <Name>Neverball</Name>
     <ProcessName>neverball</ProcessName>
     <Parameter />
@@ -2634,16 +2881,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>7bfa1398-a9b4-4827-b37e-0092466a42df</ID>
     <Name>Neverputt</Name>
     <ProcessName>neverputt</ProcessName>
     <Parameter />
@@ -2654,6 +2903,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -2664,6 +2914,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>1818c4dd-1dda-4063-a6ae-5710618024ba</ID>
     <Name>No Time To Explain Remastered</Name>
     <ProcessName>NoTimeToExplain.x86</ProcessName>
     <Parameter />
@@ -2674,6 +2925,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2687,6 +2939,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>126d4639-ab01-4b89-b7c0-1753af86e5ee</ID>
     <Name>Nuclear Throne</Name>
     <ProcessName>nuclearthrone</ProcessName>
     <Parameter />
@@ -2697,6 +2950,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2707,6 +2961,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>a8b567ca-e8bc-4780-9a19-64c8fe430115</ID>
     <Name>Octodad Dadliest Catch</Name>
     <ProcessName>OctodadDadliestCatch</ProcessName>
     <Parameter />
@@ -2717,16 +2972,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>df72fb45-559c-43b5-9c7f-b265da19dc15</ID>
     <Name>OlliOlli</Name>
     <ProcessName>linux32</ProcessName>
     <Parameter />
@@ -2737,16 +2994,18 @@
     <ExcludeList>olliolli.ini</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>798421b6-b41f-4604-a0e1-c87e706b8549</ID>
     <Name>OlliOlli2 - Welcome to Olliwood</Name>
     <ProcessName>olliolli2</ProcessName>
     <Parameter />
@@ -2757,16 +3016,18 @@
     <ExcludeList>config.dat</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>31294167-4556-4bd4-b1cb-458f19693ade</ID>
     <Name>OpenRCT2</Name>
     <ProcessName>openrct2</ProcessName>
     <Parameter />
@@ -2777,19 +3038,21 @@
     <ExcludeList>autosave.sv6</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
-      <Tag>
-        <Name>Remake</Name>
-      </Tag>
       <Tag>
         <Name>FLOSS</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
+      <Tag>
+        <Name>Remake</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>18dc2764-ef66-4b18-9471-4c667bc1a4c8</ID>
     <Name>OpenTTD</Name>
     <ProcessName>openttd</ProcessName>
     <Parameter />
@@ -2800,19 +3063,21 @@
     <ExcludeList>autosave</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Remake</Name>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Remake</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>fdea5a83-345e-4efa-9df7-9d4c3a530b77</ID>
     <Name>Outland</Name>
     <ProcessName>Outland.bin.x86</ProcessName>
     <Parameter />
@@ -2823,19 +3088,21 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>b290e580-bacd-4ea6-ac3c-9b7dc3132148</ID>
     <Name>Outlast</Name>
     <ProcessName>OLGame.x86_64</ProcessName>
     <Parameter />
@@ -2846,6 +3113,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2859,6 +3127,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>894140fc-cf20-4f07-9132-aae35b2e9f2b</ID>
     <Name>PONCHO</Name>
     <ProcessName>Poncho.x86</ProcessName>
     <Parameter />
@@ -2869,16 +3138,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>2531dbdc-0bd1-4642-b701-486f51768cd2</ID>
     <Name>Papers, Please</Name>
     <ProcessName>PapersPlease</ProcessName>
     <Parameter />
@@ -2889,6 +3160,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2899,6 +3171,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>c613b7d6-826a-40ca-be75-ea45e3ac72ef</ID>
     <Name>Pillars of Eternity</Name>
     <ProcessName>PillarsOfEternity</ProcessName>
     <Parameter />
@@ -2909,16 +3182,18 @@
     <ExcludeList>2.0 Save Games Backup</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>84fde1f9-1e54-4f6d-a804-6b7797cf23e4</ID>
     <Name>Pingus</Name>
     <ProcessName>pingus.bin</ProcessName>
     <Parameter />
@@ -2929,6 +3204,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -2939,6 +3215,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>2a682f02-d0c2-4272-b769-ebe367de441e</ID>
     <Name>PixelJunk™ Monsters Ultimate</Name>
     <ProcessName>Monsters</ProcessName>
     <Parameter />
@@ -2949,6 +3226,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2959,6 +3237,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>6ce015de-e047-4325-90be-79a8c716a55a</ID>
     <Name>PixelJunk™ Shooter</Name>
     <ProcessName>CaveShooter</ProcessName>
     <Parameter />
@@ -2969,16 +3248,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>db7bf4be-4d55-4486-ae32-21133ad05868</ID>
     <Name>Pony Island</Name>
     <ProcessName>PonyIsland.x86</ProcessName>
     <Parameter />
@@ -2989,6 +3270,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2999,6 +3281,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>0e2223ba-7814-4eb0-bbee-4fd169daa527</ID>
     <Name>Prey</Name>
     <ProcessName>prey.x86</ProcessName>
     <Parameter />
@@ -3009,6 +3292,7 @@
     <ExcludeList>AutoSave*:QuickSave*</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3019,6 +3303,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>e2007e8b-8e1f-4116-a5af-583dcd82b13b</ID>
     <Name>Primordia</Name>
     <ProcessName>Primordia.bin.x86_64</ProcessName>
     <Parameter />
@@ -3029,6 +3314,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3039,6 +3325,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>b9549e56-d052-4cb8-9601-b961fde0df54</ID>
     <Name>Prison Architect</Name>
     <ProcessName>PrisonArchitect.x86_64</ProcessName>
     <Parameter />
@@ -3049,6 +3336,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3059,6 +3347,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>b9e83177-3813-440c-9a7b-bc334c353a0f</ID>
     <Name>Project Zomboid</Name>
     <ProcessName>ProjectZomboid64</ProcessName>
     <Parameter />
@@ -3069,16 +3358,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>347cc930-886b-4c09-898a-ad3309f030c8</ID>
     <Name>RBDoom3BFG</Name>
     <ProcessName>RBDoom3BFG</ProcessName>
     <Parameter />
@@ -3089,19 +3380,21 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>Remake</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Remake</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>fdfc2a2b-af93-42c1-9f70-5c51e9706bc6</ID>
     <Name>ROCKETSROCKETSROCKETS</Name>
     <ProcessName>Rockets.x86_64</ProcessName>
     <Parameter />
@@ -3112,6 +3405,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3122,6 +3416,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>f89bb98a-69cc-49a8-8710-ac9db480526b</ID>
     <Name>Red Eclipse</Name>
     <ProcessName>redeclipse</ProcessName>
     <Parameter />
@@ -3132,6 +3427,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -3142,6 +3438,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>2fd0920c-5b3f-40b5-8d8d-acb446b4b948</ID>
     <Name>Resonance</Name>
     <ProcessName>Resonance.bin.x86_64</ProcessName>
     <Parameter />
@@ -3152,16 +3449,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>34e25bdf-7875-43a5-8b23-cf0e2480fc4a</ID>
     <Name>Retro City Rampage™ DX</Name>
     <ProcessName>retrocityrampage</ProcessName>
     <Parameter />
@@ -3172,16 +3471,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>23e1c0b0-fe5d-4104-8194-b1dd99e10611</ID>
     <Name>Revenge of the Titans</Name>
     <ProcessName>java32</ProcessName>
     <Parameter>RevengeOfTheTitans.jar</Parameter>
@@ -3192,6 +3493,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3205,6 +3507,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>48a306a7-3884-443e-b98f-e60da72409ca</ID>
     <Name>Rogue Legacy</Name>
     <ProcessName>RogueCastle.bin.x86_64</ProcessName>
     <Parameter />
@@ -3215,6 +3518,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3225,6 +3529,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>4db35e41-af31-4c26-8da0-0b8b2d28df8e</ID>
     <Name>Roguelands</Name>
     <ProcessName>Roguelands.x86</ProcessName>
     <Parameter />
@@ -3235,16 +3540,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>cabc4a5b-b4d7-48f8-8994-1961b05ed7d6</ID>
     <Name>Rust</Name>
     <ProcessName>rust</ProcessName>
     <Parameter />
@@ -3255,6 +3562,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3265,6 +3573,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>3a6a553d-5b86-4e22-b3e4-80c2ae779e10</ID>
     <Name>SOMA</Name>
     <ProcessName>Soma.bin.x86_64</ProcessName>
     <Parameter />
@@ -3275,16 +3584,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>28f2f9eb-8868-4e06-995f-1d44e727bf5c</ID>
     <Name>Saints Row IV</Name>
     <ProcessName>SaintsRow4.i386</ProcessName>
     <Parameter />
@@ -3295,6 +3606,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3308,6 +3620,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>33ac6712-d1e3-483e-a409-a295658fd4b9</ID>
     <Name>Satellite Reign</Name>
     <ProcessName>SatelliteReignLinux.x86_64</ProcessName>
     <Parameter />
@@ -3318,16 +3631,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>4e192bb7-f9ae-46b5-b86e-3bf078a3c262</ID>
     <Name>Shadow Warrior 2013</Name>
     <ProcessName>ShadowWarrior.bin.x86</ProcessName>
     <Parameter />
@@ -3338,16 +3653,18 @@
     <ExcludeList>config.cfg</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>bc9b2ec9-88b2-4016-b8d7-3d89a32e77a4</ID>
     <Name>Shadowgate</Name>
     <ProcessName>Shadowgate.x86</ProcessName>
     <Parameter />
@@ -3358,16 +3675,18 @@
     <ExcludeList>Settings.xml</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>1b99f5a4-299d-408c-af1e-8f5ea995dbc4</ID>
     <Name>Shadowrun Dragonfall - Director's Cut</Name>
     <ProcessName>Dragonfall</ProcessName>
     <Parameter />
@@ -3378,6 +3697,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3388,6 +3708,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>ef4b5cdd-ac4c-4b8d-8c6c-4744342b43c5</ID>
     <Name>Shadowrun Hong Kong - Extended Edition</Name>
     <ProcessName>SRHK</ProcessName>
     <Parameter />
@@ -3398,16 +3719,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>0487add7-2f60-455e-a8a8-592700c49353</ID>
     <Name>Shadowrun Returns</Name>
     <ProcessName>Shadowrun</ProcessName>
     <Parameter />
@@ -3418,12 +3741,13 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
@@ -3431,6 +3755,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>c008914f-6a7d-4fc1-b8cf-ac834d566011</ID>
     <Name>Shadwen</Name>
     <ProcessName>shadwen_linux_64bit</ProcessName>
     <Parameter />
@@ -3441,6 +3766,7 @@
     <ExcludeList>*.txt</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3451,6 +3777,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>6f10df1d-b974-479e-a486-813f1bbaff39</ID>
     <Name>Shattered Haven</Name>
     <ProcessName>ShatteredHavenLinux.x86_64</ProcessName>
     <Parameter />
@@ -3461,6 +3788,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3471,6 +3799,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>e7bece0a-01b1-47fd-a4af-6a8ff4d2c018</ID>
     <Name>Shattered Pixel Dungeon</Name>
     <ProcessName>java</ProcessName>
     <Parameter>shattered-pixel-dungeon.jar</Parameter>
@@ -3481,6 +3810,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -3491,6 +3821,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>747331ee-0fd9-4b71-9ba3-5f8a09b63b1b</ID>
     <Name>Shonen Idle Z</Name>
     <ProcessName>shonenidlez</ProcessName>
     <Parameter />
@@ -3501,6 +3832,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3511,6 +3843,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>b1d90a00-2022-45b2-9589-45df8b799994</ID>
     <Name>Shovel Knight</Name>
     <ProcessName>ShovelKnight</ProcessName>
     <Parameter />
@@ -3521,16 +3854,18 @@
     <ExcludeList>render.bin</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>8f34d64e-492f-434c-86a3-7c868b958508</ID>
     <Name>Sid Meier's Civilization - Beyond Earth</Name>
     <ProcessName>CivBE</ProcessName>
     <Parameter />
@@ -3541,16 +3876,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>6b9ec696-2d96-42ad-8834-3eecda50f260</ID>
     <Name>Sid Meier's Civilization V</Name>
     <ProcessName>Civ5XP</ProcessName>
     <Parameter />
@@ -3561,16 +3898,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>a9b858db-a269-45e5-9b01-9cb52be7325e</ID>
     <Name>Simutrans</Name>
     <ProcessName>simutrans</ProcessName>
     <Parameter />
@@ -3581,19 +3920,21 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>d8725a69-548e-492d-aed4-747ba2de52e4</ID>
     <Name>Spec Ops The Line</Name>
     <ProcessName>specops.i386</ProcessName>
     <Parameter />
@@ -3604,16 +3945,18 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>8f155639-5d16-4108-8ee0-8df9cb0c4061</ID>
     <Name>SpeedRunners</Name>
     <ProcessName>SpeedRunners.bin.x86_64</ProcessName>
     <Parameter />
@@ -3624,6 +3967,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3634,6 +3978,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>ea2cde41-91c9-4d1a-94c4-7dd7922536b6</ID>
     <Name>Spring RTS</Name>
     <ProcessName>spring</ProcessName>
     <Parameter />
@@ -3644,19 +3989,21 @@
     <ExcludeList>AutoSave.sav</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Remake</Name>
       </Tag>
-      <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>ecc1a858-d2c2-4472-85ef-0b7c581631ba</ID>
     <Name>Star Trek - 25th Anniversary</Name>
     <ProcessName>dosbox_x86_64</ProcessName>
     <Parameter />
@@ -3667,19 +4014,21 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
-      <Tag>
-        <Name>DOSBox</Name>
-      </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>962730fa-c654-4e87-89bd-9032745d49c1</ID>
     <Name>Star Trek - Judgement Rites</Name>
     <ProcessName>dosbox_x86_64</ProcessName>
     <Parameter />
@@ -3690,12 +4039,13 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>DOSBox</Name>
       </Tag>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -3703,6 +4053,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>87d1ae98-298a-4d03-9b67-8d66ad3076dc</ID>
     <Name>Stardew Valley</Name>
     <ProcessName>StardewValley.bin.x86_64</ProcessName>
     <Parameter />
@@ -3713,16 +4064,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>53511d0a-20ef-4ba9-8435-b0a178577f56</ID>
     <Name>Stealth Bastard Deluxe</Name>
     <ProcessName>runner</ProcessName>
     <Parameter />
@@ -3733,19 +4086,21 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>723d0959-cb60-4824-97d6-ccc87f1b4f60</ID>
     <Name>Super Hexagon</Name>
     <ProcessName>SuperHexagon</ProcessName>
     <Parameter />
@@ -3756,6 +4111,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3766,6 +4122,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>85829608-8e56-4b64-bb42-b6e6eea0934c</ID>
     <Name>Super Meat Boy</Name>
     <ProcessName>SuperMeatBoy</ProcessName>
     <Parameter />
@@ -3776,16 +4133,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>52a4016a-6d94-4806-bb5e-ff4b9dad6bca</ID>
     <Name>SuperTux 2</Name>
     <ProcessName>supertux2</ProcessName>
     <Parameter />
@@ -3796,16 +4155,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>f2269ed3-a524-42c1-b503-bdec1a09dfff</ID>
     <Name>SuperTuxKart</Name>
     <ProcessName>supertuxkart</ProcessName>
     <Parameter />
@@ -3816,6 +4177,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -3826,6 +4188,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>2dcae4f8-2013-4895-9c3e-9b1997bd2640</ID>
     <Name>Surgeon Simulator 2013</Name>
     <ProcessName>ss2013.bin</ProcessName>
     <Parameter />
@@ -3836,16 +4199,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>fac505f2-eb4a-4a75-ae78-27398ca401ac</ID>
     <Name>System Shock 2</Name>
     <ProcessName>Shock2</ProcessName>
     <Parameter />
@@ -3856,19 +4221,21 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Crossover</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>569865fc-4169-4299-aec6-66bb5754dd0a</ID>
     <Name>Teeworlds</Name>
     <ProcessName>teeworlds</ProcessName>
     <Parameter />
@@ -3879,19 +4246,21 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
       <Tag>
         <Name>FLOSS</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>9d9aad94-3c62-4b07-8331-875aae2d19b7</ID>
     <Name>The Battle for Wesnoth</Name>
     <ProcessName>wesnoth</ProcessName>
     <Parameter />
@@ -3902,16 +4271,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>98c1e445-5e4e-42d3-ba7e-d2d26a4f508e</ID>
     <Name>The Original Strife - Veteran Edition</Name>
     <ProcessName>strife-ve</ProcessName>
     <Parameter />
@@ -3922,16 +4293,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>00b3d139-00f3-401f-90e4-584dde5466cb</ID>
     <Name>The Stanley Parable</Name>
     <ProcessName>stanley_linux</ProcessName>
     <Parameter />
@@ -3942,16 +4315,18 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>6a6f43ed-cb9c-40a6-b907-325812db8b56</ID>
     <Name>The Swapper</Name>
     <ProcessName>TheSwapper.bin.x86_64</ProcessName>
     <Parameter />
@@ -3962,6 +4337,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3972,6 +4348,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>e45fc143-0219-4bdc-b93d-ab622f3fe3c4</ID>
     <Name>This War of Mine</Name>
     <ProcessName>This War of Mine</ProcessName>
     <Parameter />
@@ -3982,16 +4359,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>76283dc2-f66d-4eea-8d61-8976b2c08863</ID>
     <Name>This is the Police</Name>
     <ProcessName>Police.x86_64</ProcessName>
     <Parameter />
@@ -4002,16 +4381,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>251adab0-54cc-40d3-ab93-f549ecf30ad1</ID>
     <Name>Tiny Echo</Name>
     <ProcessName>TinyEcho.x86</ProcessName>
     <Parameter />
@@ -4022,16 +4403,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>18e1186b-fd29-4a5c-ac35-d4270b916d7d</ID>
     <Name>Titan Attacks</Name>
     <ProcessName>java32</ProcessName>
     <Parameter>TitanAttacks.jar</Parameter>
@@ -4042,6 +4425,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4055,6 +4439,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>0e6de965-91dd-4bd2-b890-0e9794d639b4</ID>
     <Name>Titanion</Name>
     <ProcessName>titanion</ProcessName>
     <Parameter />
@@ -4065,6 +4450,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -4075,6 +4461,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>fd555a47-2495-41f6-9bd8-3b2e64511e07</ID>
     <Name>To The Moon</Name>
     <ProcessName>ToTheMoon.bin.x86_64</ProcessName>
     <Parameter />
@@ -4085,16 +4472,18 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>b1f5fa94-0d1f-47f7-82ad-89cc5661c57e</ID>
     <Name>Tomb Raider</Name>
     <ProcessName>TombRaider</ProcessName>
     <Parameter />
@@ -4105,6 +4494,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4115,6 +4505,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>78a1c0ed-effa-4dd7-8520-ca9283035d60</ID>
     <Name>Torchlight II</Name>
     <ProcessName>Torchlight2.bin.x86_64</ProcessName>
     <Parameter />
@@ -4125,6 +4516,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4135,6 +4527,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>e1d8245c-6441-4630-b4f3-8567a0d51429</ID>
     <Name>Torus Trooper</Name>
     <ProcessName>torus-trooper</ProcessName>
     <Parameter />
@@ -4145,6 +4538,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -4155,6 +4549,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>306b000f-a0b9-47a8-806e-2ea58500ee73</ID>
     <Name>Total War Warhammer</Name>
     <ProcessName>TotalWarhammer</ProcessName>
     <Parameter />
@@ -4165,6 +4560,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4175,6 +4571,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>995d30d4-b36c-408b-8826-a9b6fdb5e84c</ID>
     <Name>Train Valley</Name>
     <ProcessName>train-valley.x86_64</ProcessName>
     <Parameter />
@@ -4185,19 +4582,21 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>a6da2402-afeb-4063-99a9-dfaebb3d186e</ID>
     <Name>Trine 2 - Complete Story</Name>
     <ProcessName>trine2_linux_32bit</ProcessName>
     <Parameter />
@@ -4208,16 +4607,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>9b0c50f2-99c5-41b0-8031-49a842c1d4a8</ID>
     <Name>Trine 3 The Artifacts of Power</Name>
     <ProcessName>trine3_linux_64bit</ProcessName>
     <Parameter />
@@ -4228,16 +4629,18 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>a3c54418-26e1-4231-99db-7ce22c74103b</ID>
     <Name>TripleA</Name>
     <ProcessName>java</ProcessName>
     <Parameter>triplea.jar</Parameter>
@@ -4248,6 +4651,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -4258,6 +4662,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>1f0af0c1-d8af-43be-9c32-2a2974897931</ID>
     <Name>Tumblestone</Name>
     <ProcessName>tumblestone.x86_64</ProcessName>
     <Parameter />
@@ -4268,6 +4673,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4278,6 +4684,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>7e4cfdad-cb9b-49b7-b7ef-9b0bef477e8d</ID>
     <Name>Ultratron</Name>
     <ProcessName>java32</ProcessName>
     <Parameter>Ultratron.jar</Parameter>
@@ -4288,6 +4695,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4301,29 +4709,7 @@
     </Tags>
   </Game>
   <Game>
-    <Name>Unepic</Name>
-    <ProcessName>unepic64s</ProcessName>
-    <Parameter />
-    <Path>*appdatalocal*/Unepic/unepic</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <FileType>retos.bin</FileType>
-    <ExcludeList>config.cfg</ExcludeList>
-    <MonitorOnly>true</MonitorOnly>
-    <Comments />
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
+    <ID>062ac4a9-19c2-45de-ac2b-c223c39d00d7</ID>
     <Name>Unepic</Name>
     <ProcessName>unepic64gog</ProcessName>
     <Parameter />
@@ -4334,16 +4720,43 @@
     <ExcludeList>config.cfg</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>aee9b780-609d-481e-918f-43916b396da3</ID>
+    <Name>Unepic</Name>
+    <ProcessName>unepic64s</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/Unepic/unepic</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>retos.bin</FileType>
+    <ExcludeList>config.cfg</ExcludeList>
+    <MonitorOnly>true</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>e911a2f1-d849-4df2-b900-b8c491b3a47e</ID>
     <Name>Unknown Horizons</Name>
     <ProcessName>python2.7</ProcessName>
     <Parameter>unknown-horizons</Parameter>
@@ -4354,16 +4767,18 @@
     <ExcludeList>autosave*</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>53f60a9f-b0a5-4440-9f51-9b73ba567fbe</ID>
     <Name>Unvanquished</Name>
     <ProcessName>unvanquished</ProcessName>
     <Parameter />
@@ -4374,6 +4789,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -4384,6 +4800,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>ee3e97f3-3995-4a75-9ac1-02450daca8ae</ID>
     <Name>Valyria Tear</Name>
     <ProcessName>valyriatear</ProcessName>
     <Parameter />
@@ -4394,16 +4811,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>0f113618-a9ef-40b3-87e8-639a141dc6dc</ID>
     <Name>Victor Vran</Name>
     <ProcessName>VictorVran</ProcessName>
     <Parameter />
@@ -4414,19 +4833,21 @@
     <ExcludeList>DeveloperStorage.lua</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>379e3c22-0383-47af-bc52-e82207a91f30</ID>
     <Name>Volgarr the Viking</Name>
     <ProcessName>Volgarr</ProcessName>
     <Parameter />
@@ -4437,16 +4858,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>5d19244b-530d-407a-9f33-9854bb901729</ID>
     <Name>Voxelands</Name>
     <ProcessName>voxelands</ProcessName>
     <Parameter />
@@ -4457,16 +4880,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>67c5cce2-d140-44d5-8046-91a682abc9e6</ID>
     <Name>Warsow</Name>
     <ProcessName>warsow</ProcessName>
     <Parameter />
@@ -4477,6 +4902,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -4487,6 +4913,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>0e6be2ce-db60-40e1-b3ff-079274d5a871</ID>
     <Name>Widelands</Name>
     <ProcessName>widelands</ProcessName>
     <Parameter />
@@ -4497,16 +4924,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>1723f26f-66e8-4d38-8a02-bac430be753f</ID>
     <Name>World of Goo</Name>
     <ProcessName>WorldOfGoo</ProcessName>
     <Parameter />
@@ -4517,6 +4946,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4527,6 +4957,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>709cedef-ec09-47f2-9b38-74f804ec99c5</ID>
     <Name>World of Padman</Name>
     <ProcessName>wop</ProcessName>
     <Parameter />
@@ -4537,16 +4968,18 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>64e036e5-3cf6-4ccd-8b46-b1153f67536d</ID>
     <Name>Xenonauts</Name>
     <ProcessName>Xenonauts.bin.x86</ProcessName>
     <Parameter />
@@ -4557,6 +4990,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4567,6 +5001,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>0ed24687-67c6-4ed1-aa4d-85ca81a820d2</ID>
     <Name>Xmoto</Name>
     <ProcessName>xmoto</ProcessName>
     <Parameter />
@@ -4577,6 +5012,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -4587,6 +5023,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>10daede7-8c22-432a-8a68-f8ac1ee19702</ID>
     <Name>Xonotic</Name>
     <ProcessName>xonotic-glx</ProcessName>
     <Parameter />
@@ -4597,16 +5034,18 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>91cf39ac-696b-4f41-9e13-4b51647789c6</ID>
     <Name>You Must Build A Boat</Name>
     <ProcessName>YMBAB.x86</ProcessName>
     <Parameter />
@@ -4617,16 +5056,18 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>135337f1-6377-4b22-a573-67c7d13448fb</ID>
     <Name>Zelda Mystery of Solarus DX</Name>
     <ProcessName>solarus-run</ProcessName>
     <Parameter>zsdx</Parameter>
@@ -4637,12 +5078,13 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Remake</Name>
@@ -4650,6 +5092,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>173744b0-a1bd-4b51-afa5-cfcdfe4fbd71</ID>
     <Name>Zelda Mystery of Solarus XD</Name>
     <ProcessName>solarus-run</ProcessName>
     <Parameter>zsxd</Parameter>
@@ -4660,12 +5103,13 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Remake</Name>
@@ -4673,6 +5117,7 @@
     </Tags>
   </Game>
   <Game>
+    <ID>40dbab04-46af-49be-84da-521489613466</ID>
     <Name>Ziggurat</Name>
     <ProcessName>Ziggurat.x86_64</ProcessName>
     <Parameter />
@@ -4683,16 +5128,18 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
+    <ID>c4db95ab-7524-4caf-8d2d-c92a2647843c</ID>
     <Name>Zombie Defense</Name>
     <ProcessName>ZombieDefense.x86</ProcessName>
     <Parameter />
@@ -4703,15 +5150,16 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
