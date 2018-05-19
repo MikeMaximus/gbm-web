@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1522489731" TotalConfigurations="309" AppVer="110">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1525425696" TotalConfigurations="314" AppVer="111">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -494,6 +494,28 @@
     <ProcessName>BattleWorldsKronos</ProcessName>
     <Parameter />
     <Path>*mydocs*\BattleWorldsKronos</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>860b9f5b-6a97-4b49-9bab-da1aefc64bc8</ID>
+    <Name>BattleTech</Name>
+    <ProcessName>BattleTech</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*\GOG.com\Galaxy\Applications\50593543263669699\Storage\Shared\Files\C0\SGS1</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
@@ -1626,6 +1648,50 @@
     </Tags>
   </Game>
   <Game>
+    <ID>1a6571a5-c90f-457b-9af6-a76caf5b5db6</ID>
+    <Name>Darwinia</Name>
+    <ProcessName>darwinia</ProcessName>
+    <Parameter />
+    <Path>*currentuser*\Saved Games\Darwinia\users</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>d403fdd5-8362-448e-b650-bb210d11e153</ID>
+    <Name>Dead In Bermuda</Name>
+    <ProcessName>Dead In Bermuda</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*Low\CCCP\Dead In Bermuda</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>Unity</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Origin</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>097d6df4-a7e4-4f1c-ace2-bb5771aed51e</ID>
     <Name>Dead Space</Name>
     <ProcessName>Dead Space</ProcessName>
@@ -2750,6 +2816,25 @@
     </Tags>
   </Game>
   <Game>
+    <ID>2309eab7-4055-4541-b9e0-9f6d38d0b673</ID>
+    <Name>Grand Theft Auto: V</Name>
+    <ProcessName>GTA5</ProcessName>
+    <Parameter />
+    <Path>*mydocs*\Rockstar Games\GTA V\Profiles</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>7f0046d8-3559-444d-aedf-b43c890aabde</ID>
     <Name>Gray Matter</Name>
     <ProcessName>Game</ProcessName>
@@ -3028,6 +3113,28 @@
     <ProcessName>HitmanContracts</ProcessName>
     <Parameter />
     <Path>save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>0e219d34-aa5c-4144-9fb2-7d685f16eaa2</ID>
+    <Name>Homeworld Remastered</Name>
+    <ProcessName>HomeworldRM</ProcessName>
+    <Parameter />
+    <Path>..\Profiles</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
