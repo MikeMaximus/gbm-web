@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1525425696" TotalConfigurations="314" AppVer="111">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1528368301" TotalConfigurations="322" AppVer="112">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -16,10 +16,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -27,21 +27,19 @@
     <ID>d7d873b1-8c68-4657-8e37-c2279766a968</ID>
     <Name>A Boy and His Blob</Name>
     <ProcessName>Blob</ProcessName>
-    <Parameter />
     <Path>*mydocs*\My Games\ABAHB</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>savedata.vfs</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -82,10 +80,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -93,14 +91,12 @@
     <ID>e26f9683-f2c5-4809-baaa-ffed4a2a64c9</ID>
     <Name>Afterlife</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter />
     <Path>..\save</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -118,21 +114,19 @@
     <ID>84393ab7-a1b0-4e9f-8032-79f24c28bd2d</ID>
     <Name>Age of Decadence</Name>
     <ProcessName>AoD</ProcessName>
-    <Parameter />
     <Path>*mydocs*\My Games\Age Of Decadence</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -151,10 +145,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -162,21 +156,19 @@
     <ID>ef9fdf4b-b046-47e3-b041-9b020987a707</ID>
     <Name>Alan Wake</Name>
     <ProcessName>alanwake</ProcessName>
-    <Parameter />
     <Path>*mydocs*\Remedy\AlanWake_GOG_Version\savegames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -184,21 +176,19 @@
     <ID>ec6a6d78-3173-4d00-9a2d-6fef606bcf80</ID>
     <Name>American Conquest</Name>
     <ProcessName>DMCR</ProcessName>
-    <Parameter />
     <Path>save</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -206,21 +196,19 @@
     <ID>f69be15b-815d-4c9d-a343-c321af64cf2b</ID>
     <Name>American Conquest - Fight Back</Name>
     <ProcessName>dmcr</ProcessName>
-    <Parameter />
     <Path>save</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -228,21 +216,19 @@
     <ID>f6def339-a34d-44d3-a63e-1463e43c5916</ID>
     <Name>American Truck Simulator</Name>
     <ProcessName>amtrucks</ProcessName>
-    <Parameter />
     <Path>*mydocs*\American Truck Simulator\profiles</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -261,10 +247,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -272,14 +258,12 @@
     <ID>a3c7a6e2-6b19-483f-8248-e6e20d69f71e</ID>
     <Name>Anachronox</Name>
     <ProcessName>anox</ProcessName>
-    <Parameter />
     <Path>anoxdata\SAVE</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -327,10 +311,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -371,10 +355,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -393,10 +377,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -426,21 +410,19 @@
     <ID>9c08a164-70be-4363-a64d-948d5b1c4a33</ID>
     <Name>Banished</Name>
     <ProcessName>Application-x64</ProcessName>
-    <Parameter />
     <Path>*mydocs*\Banished\Save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -459,10 +441,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -503,10 +485,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -525,10 +507,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -536,21 +518,19 @@
     <ID>df24c82c-39ae-4c3f-9bce-333a6bf4c0d3</ID>
     <Name>Betrayal at Krondor</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter />
     <Path>..\Betrayal at Krondor\GAMES</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>DOSBox</Name>
@@ -561,14 +541,12 @@
     <ID>72fed0ea-39c6-434e-b90c-c130685ea1a2</ID>
     <Name>Betrayal in Antara</Name>
     <ProcessName>ANTARAR</ProcessName>
-    <Parameter />
     <Path>SAVE</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -583,14 +561,12 @@
     <ID>c078119c-f6e6-4d61-a8ef-61fef1ee6652</ID>
     <Name>Beyond Divinity</Name>
     <ProcessName>div</ProcessName>
-    <Parameter />
     <Path>savegames</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -616,10 +592,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -627,21 +603,19 @@
     <ID>ec2463b2-1992-4c5d-a073-4cd2da1e19d3</ID>
     <Name>Big Pharma</Name>
     <ProcessName>Big Pharma</ProcessName>
-    <Parameter />
     <Path>*mydocs*\My Games\Big Pharma\Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -649,24 +623,22 @@
     <ID>d981198a-898c-40a9-9e63-c4fb67c87e02</ID>
     <Name>Bio Menace</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter />
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>SAVEGAM*.BM1</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -674,21 +646,19 @@
     <ID>94ee6847-4ac9-4c3d-817a-d31e1db4a855</ID>
     <Name>Bioshock 2 Remastered</Name>
     <ProcessName>Bioshock2</ProcessName>
-    <Parameter />
     <Path>*mydocs*\BioshockHD\Bioshock2\SaveGames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -696,21 +666,19 @@
     <ID>02685260-208c-4e3d-bf98-e290c2d5faae</ID>
     <Name>Bioshock Remastered</Name>
     <ProcessName>Bioshock</ProcessName>
-    <Parameter />
     <Path>*mydocs*\BioshockHD\BioShock\SaveGames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -718,14 +686,12 @@
     <ID>59cdfffe-ce33-463f-8775-2713a992a642</ID>
     <Name>Blackguards Special Edition</Name>
     <ProcessName>Blackguards</ProcessName>
-    <Parameter />
     <Path>*appdatalocal*\Daedalic Entertainment GmbH\Blackguards</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -740,21 +706,19 @@
     <ID>c4be2210-c9e8-439c-8fd6-2a13e1d4cbbe</ID>
     <Name>Blackwell Epiphany, The</Name>
     <ProcessName>epiphany</ProcessName>
-    <Parameter />
     <Path>*currentuser*\Saved Games\Blackwell Epiphany</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.bwe</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -762,21 +726,19 @@
     <ID>231c4220-9a51-4090-bb4c-637dd79fcf12</ID>
     <Name>Blackwell Legacy, The</Name>
     <ProcessName>blackwell1</ProcessName>
-    <Parameter />
     <Path>*currentuser*\Saved Games\Blackwell Legacy v1.7</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -784,21 +746,19 @@
     <ID>5eb18831-8cd6-4d37-8d62-02cc1e9185c3</ID>
     <Name>Blackwell Unbound</Name>
     <ProcessName>Unbound</ProcessName>
-    <Parameter />
     <Path>*currentuser*\Saved Games\Blackwell Unbound</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -828,21 +788,19 @@
     <ID>20157626-7c2c-4684-acb3-90736250a4e1</ID>
     <Name>Blitzkrieg</Name>
     <ProcessName>game</ProcessName>
-    <Parameter />
     <Path>saves</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -850,14 +808,12 @@
     <ID>33f7fbb2-d668-4292-b54f-38768d9efc78</ID>
     <Name>Blitzkrieg - Rolling Thunder</Name>
     <ProcessName>game</ProcessName>
-    <Parameter />
     <Path>saves</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -872,21 +828,19 @@
     <ID>a8f95551-50c6-4331-aed4-62013bdea23d</ID>
     <Name>Blitzkrieg 2</Name>
     <ProcessName>Game</ProcessName>
-    <Parameter />
     <Path>..\Profiles</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -894,14 +848,12 @@
     <ID>a98acbfc-ebb4-46c0-9c01-0cc6794db4f6</ID>
     <Name>Blitzkrieg 2 - Fall of the Reich</Name>
     <ProcessName>game</ProcessName>
-    <Parameter />
     <Path>..\Profiles</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -916,14 +868,12 @@
     <ID>3572c908-18bc-46e2-8cb8-5cde82adfad7</ID>
     <Name>Blitzkrieg 2 - Liberation</Name>
     <ProcessName>Game</ProcessName>
-    <Parameter />
     <Path>..\Profiles</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -949,10 +899,10 @@
     <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -982,21 +932,19 @@
     <ID>cefc3812-c0c4-4f4a-8406-eccab2e334f2</ID>
     <Name>Blood II - The Chosen</Name>
     <ProcessName>BLOOD2</ProcessName>
-    <Parameter />
     <Path>Save</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1004,14 +952,12 @@
     <ID>3fbc13d0-1d93-461d-8712-c892f7817aa9</ID>
     <Name>BloodRayne</Name>
     <ProcessName>rayne</ProcessName>
-    <Parameter />
     <Path>savegame</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -1026,21 +972,19 @@
     <ID>53d170b8-92ef-418e-b5d6-bb314d4d11f3</ID>
     <Name>BloodRayne 2</Name>
     <ProcessName>br2</ProcessName>
-    <Parameter />
     <Path>savegame</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1048,14 +992,12 @@
     <ID>b31b202d-9480-4cdc-bfce-c35f697dd817</ID>
     <Name>Bloodrayne Betrayal</Name>
     <ProcessName>bloodrayne</ProcessName>
-    <Parameter />
     <Path>*appdataroaming*\Wayforward Technologies\BloodRayne</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -1070,21 +1012,19 @@
     <ID>cf81d2d1-a143-4091-a5c6-82581ea3d545</ID>
     <Name>Broforce</Name>
     <ProcessName>Broforce_beta</ProcessName>
-    <Parameter />
     <Path>saves</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>Options.xml</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1092,21 +1032,19 @@
     <ID>e1eb1744-6795-4141-805e-16defbbfb711</ID>
     <Name>Caesar 3</Name>
     <ProcessName>c3</ProcessName>
-    <Parameter />
     <Path />
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1125,10 +1063,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Retail</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Retail</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1136,14 +1074,12 @@
     <ID>8b4f364e-64a8-4b17-bad0-8695768e64fa</ID>
     <Name>Capitalism 2</Name>
     <ProcessName>Cap2</ProcessName>
-    <Parameter />
     <Path>*mydocs*\My Games\Capitalism 2\SAVE</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -1158,24 +1094,22 @@
     <ID>714299b0-6cc8-4af4-a490-40fa94a7ed0c</ID>
     <Name>Capitalism Plus</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter />
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
-      <Tag>
-        <Name>DOSBox</Name>
-      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1194,10 +1128,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1216,10 +1150,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>DOSBox</Name>
@@ -1230,21 +1164,19 @@
     <ID>df6491b3-f678-4d10-b9e0-60b1052a80da</ID>
     <Name>Children of the Nile Complete</Name>
     <ProcessName>CotN</ProcessName>
-    <Parameter />
     <Path>*mydocs*\Tilted Mill\Children of the Nile</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.log:*.ini</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1263,10 +1195,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1274,21 +1206,19 @@
     <ID>f367477b-01f6-4d21-a3d7-99b298a11718</ID>
     <Name>Clive Barker's Undying</Name>
     <ProcessName>Undying</ProcessName>
-    <Parameter />
     <Path>..\Save</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1307,10 +1237,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1329,10 +1259,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1373,10 +1303,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Retail</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Retail</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1406,14 +1336,12 @@
     <ID>6eb1cdaf-431c-40b5-a861-6ddb97764a96</ID>
     <Name>Conquest of the New World</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter />
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.?E2</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -1431,21 +1359,19 @@
     <ID>20f5ee6c-4ca9-4a35-aacc-09730302ce62</ID>
     <Name>Cossacks - Art Of War</Name>
     <ProcessName>dmcr</ProcessName>
-    <Parameter />
     <Path />
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1453,21 +1379,19 @@
     <ID>5192d666-441f-4c4c-a467-0da7a0389a4d</ID>
     <Name>Cossacks - Back To War</Name>
     <ProcessName>dmcr</ProcessName>
-    <Parameter />
     <Path />
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1475,11 +1399,31 @@
     <ID>1920bb78-4bcd-4be6-907d-c285111eb599</ID>
     <Name>Cossacks - European Wars</Name>
     <ProcessName>dmcr</ProcessName>
-    <Parameter />
     <Path />
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>1dd0c95e-82d8-42ae-8b67-050ca9938ff7</ID>
+    <Name>Cultist Simulator</Name>
+    <ProcessName>cultistsimulator</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*Low\Weather Factory\Cultist Simulator</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>backup_save.txt:save.txt</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -1494,39 +1438,15 @@
     </Tags>
   </Game>
   <Game>
-    <ID>690c3392-d005-4451-9b0c-f4f81d799d9d</ID>
-    <Name>Dark Souls</Name>
-    <ProcessName>DARKSOULS</ProcessName>
-    <Parameter />
-    <Path>*mydocs*\nbgi\darksouls</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Comments />
-    <IsRegEx>false</IsRegEx>
-    <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
     <ID>8896f344-664d-4643-aabf-0f3bbacb3a47</ID>
     <Name>Dark Souls 2</Name>
     <ProcessName>DarkSoulsII</ProcessName>
-    <Parameter />
     <Path>*appdataroaming*\DarkSoulsII</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.xml</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -1541,12 +1461,32 @@
     <ID>b661114a-e2bb-4e23-8754-09ff5b3332d0</ID>
     <Name>Dark Souls 3</Name>
     <ProcessName>DarkSoulsIII</ProcessName>
-    <Parameter />
     <Path>*appdataroaming*\DarkSoulsIII</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>GraphicsConfig.xml</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>690c3392-d005-4451-9b0c-f4f81d799d9d</ID>
+    <Name>Dark Souls: Prepare To Die Edition</Name>
+    <ProcessName>DARKSOULS</ProcessName>
+    <Parameter />
+    <Path>*mydocs*\nbgi\darksouls</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -1574,10 +1514,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1585,21 +1525,19 @@
     <ID>44af7c6c-d966-4d2f-ae86-4b07970f7e4c</ID>
     <Name>Darksiders</Name>
     <ProcessName>DarksidersPC</ProcessName>
-    <Parameter />
     <Path>*mydocs*\My Games\Darksiders</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1618,10 +1556,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1640,10 +1578,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1695,24 +1633,22 @@
     <ID>097d6df4-a7e4-4f1c-ace2-bb5771aed51e</ID>
     <Name>Dead Space</Name>
     <ProcessName>Dead Space</ProcessName>
-    <Parameter />
     <Path>*mydocs*\Electronic Arts\Dead Space</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>joypad_example.txt</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Origin</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Origin</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1720,21 +1656,19 @@
     <ID>1b800046-3e12-4ad9-adf8-1cb7a6b4a040</ID>
     <Name>Dead State</Name>
     <ProcessName>ZRPG</ProcessName>
-    <Parameter />
     <Path>*mydocs*\My Games\Dead State</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>crash_reports:prefs.cs:console.log:*.jpg</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1742,21 +1676,19 @@
     <ID>1d1fe9ae-b9ac-4ef7-b128-5ea97c3828b9</ID>
     <Name>Democracy 3</Name>
     <ProcessName>Democracy3</ProcessName>
-    <Parameter />
     <Path>*mydocs*\My Games\democracy3</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>prefs.ini:mod_status.ini:config.txt:debug:screenshots:steamfriends:webdebug</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1764,21 +1696,19 @@
     <ID>e0dae765-277e-4624-96e1-c630dc8e37f5</ID>
     <Name>Deus Ex - Invisible War</Name>
     <ProcessName>DX2Main</ProcessName>
-    <Parameter />
     <Path>*mydocs*\Deus Ex - Invisible War\SaveGames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1800,10 +1730,10 @@
         <Name>Tracking</Name>
       </Tag>
       <Tag>
-        <Name>Blizzard</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Blizzard</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1811,21 +1741,19 @@
     <ID>68964dd7-f5d8-401b-bdbc-afdc6af6ab9e</ID>
     <Name>Din's Curse</Name>
     <ProcessName>DinsCurse</ProcessName>
-    <Parameter />
     <Path>*appdatalocal*\DinsCurse\User\chars</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1888,10 +1816,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1921,14 +1849,12 @@
     <ID>cc09e1bd-a914-48ca-af9c-b0b14e082346</ID>
     <Name>Door Kickers</Name>
     <ProcessName>DoorKickers</ProcessName>
-    <Parameter />
     <Path>*mydocs*\KillHouseGames\DoorKickers</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>options.xml</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -1943,14 +1869,12 @@
     <ID>f2564a5d-2d09-4d90-923d-14c306ef1211</ID>
     <Name>Dragon Age 2</Name>
     <ProcessName>DragonAge2</ProcessName>
-    <Parameter />
     <Path>*mydocs*\BioWare\Dragon Age 2\Characters</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -1976,10 +1900,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Origin</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Origin</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1998,10 +1922,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Origin</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Origin</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
@@ -2023,10 +1947,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2034,21 +1958,19 @@
     <ID>07123609-dc2f-44a5-ae1b-f35514d0661c</ID>
     <Name>Dreamfall Chapters</Name>
     <ProcessName>Dreamfall Chapters</ProcessName>
-    <Parameter />
     <Path>*appdatalocal*Low\Red Thread Games\Dreamfall Chapters</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2078,14 +2000,12 @@
     <ID>54dd48a2-e729-468b-a095-5b6a2e842c74</ID>
     <Name>Duke Nukem</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter />
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>HIGHS.DN?:KEYS.DN?:MY_DEMO.DN?:SPEED.DN?:USERDEMO.DN?:SAVED?.DN?</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -2103,24 +2023,22 @@
     <ID>70d0b714-0de7-4383-bee9-c81869a8faab</ID>
     <Name>Duke Nukem 2</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter />
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.-GT:*.-NM:*.-S1:*.-V1</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
       <Tag>
         <Name>DOSBox</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2139,10 +2057,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2150,21 +2068,19 @@
     <ID>8fa1f655-de26-461f-97e2-ed9184ca4a8c</ID>
     <Name>Dungeon Keeper 2</Name>
     <ProcessName>DKII-DX</ProcessName>
-    <Parameter />
     <Path>data</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>Save:HiScores.dat</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2172,24 +2088,22 @@
     <ID>63ab7f92-c1ca-417e-b728-eee931fb3202</ID>
     <Name>Dungeon Keeper Gold</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter />
     <Path>..\save</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2208,10 +2122,10 @@
     <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2230,10 +2144,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2248,14 +2162,13 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>DOSBox</Name>
@@ -2266,24 +2179,22 @@
     <ID>3962fda4-c442-456b-94bc-13080f81d7fc</ID>
     <Name>Elder Scrolls Legend - Battlespire</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter />
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>SAVE*</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2313,21 +2224,19 @@
     <ID>a6ab4b2c-35db-49ba-8bca-36fcbbb34f67</ID>
     <Name>Elminage Gothic</Name>
     <ProcessName>Elminage</ProcessName>
-    <Parameter />
     <Path>*mydocs*\My Games\Ghostlight Ltd\Elminage Gothic</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2335,14 +2244,12 @@
     <ID>d917565b-a651-43fb-a0ac-c59088fbddcd</ID>
     <Name>Enclave</Name>
     <ProcessName>Enclave</ProcessName>
-    <Parameter />
     <Path>sbz1\save</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -2357,21 +2264,19 @@
     <ID>e51edf17-ebdc-416a-a71c-8c756848643c</ID>
     <Name>Euro Truck Simulator 2</Name>
     <ProcessName>eurotrucks2</ProcessName>
-    <Parameter />
     <Path>*mydocs*\Euro Truck Simulator 2\profiles</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2401,14 +2306,12 @@
     <ID>ae2ed6fd-8caa-4a22-9efc-6090ff5b8d1d</ID>
     <Name>F.E.A.R. 2</Name>
     <ProcessName>FEAR2</ProcessName>
-    <Parameter />
     <Path>*mydocs*\WBGames\FEAR2</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>settings.cfg</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -2423,14 +2326,12 @@
     <ID>2238640f-c394-4a1b-bdbd-ff4a5ca4138c</ID>
     <Name>F.E.A.R. Extraction Point</Name>
     <ProcessName>FEARXP</ProcessName>
-    <Parameter />
     <Path>*publicdocs*\TimeGate Studios\FEARXP</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>settings.cfg</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -2445,14 +2346,12 @@
     <ID>cd6102fb-15e0-4f10-9f1b-5d86be108fca</ID>
     <Name>F.E.A.R. First Encounter Assault Recon</Name>
     <ProcessName>FEAR</ProcessName>
-    <Parameter />
     <Path>*publicdocs*\Monolith Productions\FEAR</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>settings.cfg</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -2467,21 +2366,19 @@
     <ID>fb638ce6-296a-4aa6-9caa-74ef3af2e4bc</ID>
     <Name>F.E.A.R. Perseus Mandate</Name>
     <ProcessName>FEARXP2</ProcessName>
-    <Parameter />
     <Path>*publicdocs*\TimeGate Studios\FEARXP2</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>settings.cfg</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2555,14 +2452,12 @@
     <ID>71f509c5-e091-4457-95ee-1499321e9dfd</ID>
     <Name>Fallout 3</Name>
     <ProcessName>Fallout3</ProcessName>
-    <Parameter />
     <Path>*mydocs*\My Games\Fallout3\Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.bak:*.ini</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -2588,10 +2483,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2599,14 +2494,12 @@
     <ID>bbb7b1a1-5cd2-4ffd-85fb-fd443b3e424d</ID>
     <Name>Fallout Shelter</Name>
     <ProcessName>FalloutShelter</ProcessName>
-    <Parameter />
     <Path>*mydocs*\My Games\Fallout Shelter</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>Fallout Shelter.log</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -2621,21 +2514,19 @@
     <ID>8756e53f-3ee7-4eed-8374-c168d9c1cb40</ID>
     <Name>FlatOut</Name>
     <ProcessName>flatout</ProcessName>
-    <Parameter />
     <Path>Savegame</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.cfg</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2643,21 +2534,19 @@
     <ID>eb9e6170-15f8-4d46-b62a-b763ffb8d63f</ID>
     <Name>FlatOut 2</Name>
     <ProcessName>FlatOut2</ProcessName>
-    <Parameter />
     <Path>Savegame</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.cfg</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2665,21 +2554,19 @@
     <ID>0b185e46-7eac-442a-94ba-086114b66dda</ID>
     <Name>Freedom Force</Name>
     <ProcessName>fforce</ProcessName>
-    <Parameter />
     <Path>data\savegames</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2687,21 +2574,19 @@
     <ID>ca7835ae-50d5-41c6-b773-b2ae56386437</ID>
     <Name>Freedom Force vs the 3rd Reich</Name>
     <ProcessName>ffvt3r</ProcessName>
-    <Parameter />
     <Path>*appdatalocal*\Irrational Games\Freedom Force vs the 3rd Reich\User\SaveGames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2742,10 +2627,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2764,10 +2649,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2775,21 +2660,19 @@
     <ID>fa270d87-d79a-4a88-bc76-629b1f50ff25</ID>
     <Name>Gothic 3</Name>
     <ProcessName>Gothic3</ProcessName>
-    <Parameter />
     <Path>*mydocs*\gothic3</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.ini</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2808,10 +2691,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2832,20 +2715,21 @@
       <Tag>
         <Name>Official</Name>
       </Tag>
+      <Tag>
+        <Name>Retail</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
     <ID>7f0046d8-3559-444d-aedf-b43c890aabde</ID>
     <Name>Gray Matter</Name>
     <ProcessName>Game</ProcessName>
-    <Parameter />
     <Path>*mydocs*\GrayMatter</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -2860,14 +2744,12 @@
     <ID>770276f7-640f-487b-a58a-a02e6fdd2491</ID>
     <Name>Guacamelee! Super Turbo Championship Edition</Name>
     <ProcessName>GameDRMFree</ProcessName>
-    <Parameter />
     <Path>*mydocs*\GuacameleeSTCE</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>LOCALSETTINGS.DAT</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -2889,14 +2771,13 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Tracking</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Tracking</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2918,10 +2799,10 @@
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>Tracking</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Tracking</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2940,10 +2821,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2951,21 +2832,19 @@
     <ID>e02a4a3d-de76-4c32-8b71-71dc472bdd57</ID>
     <Name>Hard Reset Redux</Name>
     <ProcessName>hr.x64</ProcessName>
-    <Parameter />
     <Path>*mydocs*\Hard Reset Redux\profiles</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>config.cfg</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3006,13 +2885,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>Blizzard</Name>
       </Tag>
       <Tag>
         <Name>Tracking</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3020,14 +2899,12 @@
     <ID>95224f18-724b-4ede-ac79-0cb5e08be89f</ID>
     <Name>Heroes of Might and Magic 3 Complete</Name>
     <ProcessName>Heroes3</ProcessName>
-    <Parameter />
     <Path>games</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.CGM</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -3100,10 +2977,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3122,10 +2999,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3144,10 +3021,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3155,14 +3032,12 @@
     <ID>f5347255-e8b5-4374-92b5-4a271b100930</ID>
     <Name>Hotline Miami</Name>
     <ProcessName>HotlineGL</ProcessName>
-    <Parameter />
     <Path>*mydocs*\My Games\HotlineMiami</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>SaveData.sav</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -3177,14 +3052,12 @@
     <ID>0f7cfd3d-f9ea-4a84-83a7-e6ae523b8206</ID>
     <Name>HuniePop</Name>
     <ProcessName>HuniePop</ProcessName>
-    <Parameter />
     <Path>*appdatalocal*Low\HuniePot\HuniePop</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -3210,10 +3083,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3221,14 +3094,12 @@
     <ID>7c1756a8-6a56-4d22-97f5-a31292abcdfa</ID>
     <Name>Indiana Jones and the Emperor's Tomb</Name>
     <ProcessName>indy</ProcessName>
-    <Parameter />
     <Path>..\indy</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>binds.cfg:saves</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -3243,24 +3114,22 @@
     <ID>87920ada-1828-482d-a9a6-6e81ab89aa90</ID>
     <Name>Indiana Jones and the Fate of Atlantis</Name>
     <ProcessName>scummvm</ProcessName>
-    <Parameter />
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.s??</FileType>
     <ExcludeList>MONSTER.SOU</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>ScummVM</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>ScummVM</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3268,24 +3137,22 @@
     <ID>061b94e6-75e3-4ae8-aa6c-9be611c4f340</ID>
     <Name>Indiana Jones and the Last Crusade</Name>
     <ProcessName>scummvm</ProcessName>
-    <Parameter />
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.s??</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
       <Tag>
         <Name>ScummVM</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3304,10 +3171,10 @@
     <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3315,21 +3182,19 @@
     <ID>86a45538-e414-479f-9d4a-d51cd605d264</ID>
     <Name>Inquisitor</Name>
     <ProcessName>Inquisitor</ProcessName>
-    <Parameter />
     <Path>*mydocs*\Inquisitor_SaveGames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.ini</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3337,21 +3202,19 @@
     <ID>de7b5f3b-4af4-4993-a86c-befb35d5de68</ID>
     <Name>Interstate '76</Name>
     <ProcessName>i76</ProcessName>
-    <Parameter />
     <Path />
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.def:input.map:histogram.txt:reconfig.spc:user.rpr:savegame.dir:save*.cmp:NSCR.DAT:user.mel</FileType>
     <ExcludeList>input.def:gamekey.def</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3425,21 +3288,19 @@
     <ID>db56d69b-a118-42f1-aab1-b64fa64ef4f8</ID>
     <Name>Jagged Alliance</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter />
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.SAV</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>DOSBox</Name>
       </Tag>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
@@ -3450,21 +3311,19 @@
     <ID>6766a309-3cb4-4f03-ad3e-97bb71514657</ID>
     <Name>Kerbal Space Program</Name>
     <ProcessName>KSP</ProcessName>
-    <Parameter />
     <Path>saves</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>scenarios:training</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3494,21 +3353,19 @@
     <ID>a1d36994-249f-4a78-b9ff-a800d0af2479</ID>
     <Name>LIMBO</Name>
     <ProcessName>limbo</ProcessName>
-    <Parameter />
     <Path>save_game</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3516,21 +3373,19 @@
     <ID>60789e00-9d08-4e24-90fc-a9aa19b488ea</ID>
     <Name>Legend of Grimrock</Name>
     <ProcessName>grimrock</ProcessName>
-    <Parameter />
     <Path>*mydocs*\Almost Human\Legend of Grimrock</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3538,14 +3393,12 @@
     <ID>cd1e73be-f07f-4620-8d86-a1ce6f09db20</ID>
     <Name>Legend of Grimrock II</Name>
     <ProcessName>grimrock2</ProcessName>
-    <Parameter />
     <Path>*mydocs*\Almost Human\Legend of Grimrock 2</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -3582,21 +3435,19 @@
     <ID>67437a25-5604-4be2-a024-95fedfa17530</ID>
     <Name>Lethis - Path of Progress</Name>
     <ProcessName>Lethis-Path_Of_Progress</ProcessName>
-    <Parameter />
     <Path />
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>Profil:Save:SaveImage</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3604,14 +3455,12 @@
     <ID>9e2a6d5a-fec7-4721-9188-0fe1707cbf69</ID>
     <Name>Lords of Xulima</Name>
     <ProcessName>LoX</ProcessName>
-    <Parameter />
     <Path>*mydocs*\My Games\Lords of Xulima</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.txt</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -3626,21 +3475,19 @@
     <ID>89ee5c26-6dc7-4e65-958f-5a961c34bcbe</ID>
     <Name>Magicka 2</Name>
     <ProcessName>Magicka2</ProcessName>
-    <Parameter />
     <Path>*appdataroaming*\ParadoxInteractive\Magicka2</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3670,21 +3517,19 @@
     <ID>78933576-f7a8-48de-b574-800d5f9f7e18</ID>
     <Name>Mark of the Ninja</Name>
     <ProcessName>game</ProcessName>
-    <Parameter />
     <Path>..\users</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.ini</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3692,21 +3537,19 @@
     <ID>58fb610a-b978-4d09-9ed6-1e95699b7766</ID>
     <Name>Mass Effect</Name>
     <ProcessName>MassEffect</ProcessName>
-    <Parameter />
     <Path>*mydocs*\BioWare\Mass Effect\Save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Origin</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Origin</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3714,21 +3557,19 @@
     <ID>f6b13856-2377-43e0-917c-c353aac9b061</ID>
     <Name>Mass Effect 2</Name>
     <ProcessName>ME2Game</ProcessName>
-    <Parameter />
     <Path>*mydocs*\BioWare\Mass Effect 2\Save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>ME1</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Origin</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Origin</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3736,21 +3577,19 @@
     <ID>2b3f4eab-4280-4a59-88f5-501f0c9f0679</ID>
     <Name>Mass Effect 3</Name>
     <ProcessName>MassEffect3</ProcessName>
-    <Parameter />
     <Path>*mydocs*\BioWare\Mass Effect 3\Save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Origin</Name>
       </Tag>
       <Tag>
-        <Name>Origin</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3758,21 +3597,19 @@
     <ID>482cc657-1d55-46ad-b6fa-c3c296b86925</ID>
     <Name>Max Payne 3</Name>
     <ProcessName>MaxPayne3</ProcessName>
-    <Parameter />
     <Path>*mydocs*\Rockstar Games\Max Payne 3\Profiles</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3780,14 +3617,12 @@
     <ID>0e93fab8-bef5-4603-b699-3483fd8f6390</ID>
     <Name>Metro 2033 Redux</Name>
     <ProcessName>metro</ProcessName>
-    <Parameter />
     <Path>*mydocs*\4A Games\Metro 2033</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -3802,21 +3637,19 @@
     <ID>890d998c-91d0-46ed-a3cd-e8e01fff661a</ID>
     <Name>Metro Last Light Redux</Name>
     <ProcessName>metro</ProcessName>
-    <Parameter />
     <Path>*mydocs*\4A Games\Metro Last Light</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3835,10 +3668,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3865,17 +3698,37 @@
     </Tags>
   </Game>
   <Game>
+    <ID>a0ef3871-0147-458c-8386-aa52e97f1631</ID>
+    <Name>My Summer Car</Name>
+    <ProcessName>mysummercar</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*Low\Amistech\My Summer Car</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>options.txt</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>6150adf6-d64b-4499-87fc-133cf590e94f</ID>
     <Name>Neverwinter Nights 2</Name>
     <ProcessName>nwn2</ProcessName>
-    <Parameter />
     <Path>*mydocs*\Neverwinter Nights 2\saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -3890,21 +3743,19 @@
     <ID>f5ae27d1-a518-4ca0-aead-fbd958263a7a</ID>
     <Name>No Man's Sky</Name>
     <ProcessName>NMS</ProcessName>
-    <Parameter />
     <Path>*appdataroaming*\HelloGames\NMS</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>cache</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3912,21 +3763,19 @@
     <ID>103d4778-d806-46b5-b2d5-b632681527e4</ID>
     <Name>No One Lives Forever 2</Name>
     <ProcessName>Lithtech</ProcessName>
-    <Parameter />
     <Path>Save</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Retail</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Retail</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3967,10 +3816,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3978,21 +3827,19 @@
     <ID>3ade8ff2-77dc-4ac5-97a8-f15219485fc3</ID>
     <Name>Offworld Trading Company</Name>
     <ProcessName>Offworld</ProcessName>
-    <Parameter />
     <Path>*mydocs*\My Games\Offworld\Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4000,14 +3847,12 @@
     <ID>708a2115-f40b-4459-9dfd-7e05ec2984c1</ID>
     <Name>OlliOlli</Name>
     <ProcessName>olliolli</ProcessName>
-    <Parameter />
     <Path>*appdataroaming*\olliolli</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>olliolli.ini</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -4022,14 +3867,12 @@
     <ID>3099d19f-0bf6-46f7-8554-e6f5b63be39e</ID>
     <Name>Omerta - City of Gangsters</Name>
     <ProcessName>Omerta</ProcessName>
-    <Parameter />
     <Path>*appdataroaming*\Omerta\save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -4044,21 +3887,19 @@
     <ID>bb4f2224-a344-4945-ad3a-4c96271cc58a</ID>
     <Name>Omikron - The Nomad Soul</Name>
     <ProcessName>Runtime</ProcessName>
-    <Parameter />
     <Path>IAM</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>GAMES</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4066,21 +3907,19 @@
     <ID>03d7ac8c-d808-4f64-af42-549a9638701a</ID>
     <Name>Outlaws</Name>
     <ProcessName>olwin</ProcessName>
-    <Parameter />
     <Path>save</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4088,14 +3927,12 @@
     <ID>cd7adf8e-5ca6-4f88-a437-74fec8d6a1ca</ID>
     <Name>POD Gold</Name>
     <ProcessName>PODX3Dfx</ProcessName>
-    <Parameter />
     <Path>data</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>BINARY:loader.exe</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -4110,21 +3947,19 @@
     <ID>621b32ef-7b24-4468-800c-4b5344e06158</ID>
     <Name>Paper Sorcerer</Name>
     <ProcessName>PaperSorcererPC</ProcessName>
-    <Parameter />
     <Path>*appdatalocal*Low\UltraRunaway\Paper Sorcerer</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4165,6 +4000,28 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>5c17a1b6-188f-48da-a5aa-385247b5fa1e</ID>
+    <Name>Pillars of Eternity II: Deadfire</Name>
+    <ProcessName>PillarsOfEternityII</ProcessName>
+    <Parameter />
+    <Path>*currentuser*\Saved Games\Pillars of Eternity II</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
@@ -4176,21 +4033,19 @@
     <ID>1f03cd73-ed5d-4230-8284-424769af61f6</ID>
     <Name>PixelJunk Monsters HD</Name>
     <ProcessName>Monsters</ProcessName>
-    <Parameter />
     <Path>*appdataroaming*\PJMonsters</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>MONSTERSPROFILE_MONSTERSAVEGAME</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4198,14 +4053,12 @@
     <ID>592a5f4d-b7a5-4f10-bb77-de3c07b60b2b</ID>
     <Name>PixelJunk Shooter</Name>
     <ProcessName>CaveShooter</ProcessName>
-    <Parameter />
     <Path>*appdataroaming*\PJShooter</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -4231,10 +4084,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4242,14 +4095,12 @@
     <ID>0b81da11-27f6-46d5-b8d6-cda89a088a96</ID>
     <Name>Populous - The Beginning</Name>
     <ProcessName>D3DPopTB</ProcessName>
-    <Parameter />
     <Path>save</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>CONFIG00.*</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -4264,14 +4115,12 @@
     <ID>aaec76aa-9855-4b8f-a128-7af2c649f7d1</ID>
     <Name>Populous - Undiscovered Worlds</Name>
     <ProcessName>D3DPopTBUW</ProcessName>
-    <Parameter />
     <Path>save</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>CONFIG00.*</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -4286,21 +4135,19 @@
     <ID>c6a2ba1a-397e-4b07-9b99-1e6eb6d90800</ID>
     <Name>Prey</Name>
     <ProcessName>PREY</ProcessName>
-    <Parameter />
     <Path>*mydocs*\My Games\PREY\base\savegames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Retail</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Retail</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4308,14 +4155,12 @@
     <ID>e23fc34a-1d61-4cfe-b2bc-9709f22c73fe</ID>
     <Name>Prince of Persia - The Sands of Time</Name>
     <ProcessName>PrinceOfPersia</ProcessName>
-    <Parameter />
     <Path>profiles</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>SafeProfile.DAT</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -4330,14 +4175,12 @@
     <ID>674d9b8d-f4d8-4d34-8dbe-e766a21b4088</ID>
     <Name>Prison Architect</Name>
     <ProcessName>Prison Architect</ProcessName>
-    <Parameter />
     <Path>*appdatalocal*\Introversion\Prison Architect\saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -4352,14 +4195,12 @@
     <ID>d8bf552b-42b9-4f24-aea6-a6477c4d25c4</ID>
     <Name>Project Eden</Name>
     <ProcessName>Eden</ProcessName>
-    <Parameter />
     <Path>saved games</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -4381,7 +4222,6 @@
     <FileType>prefs.txt:saves</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -4395,8 +4235,8 @@
   <Game>
     <ID>922c28d3-dd33-4fe0-9443-5e6fba254681</ID>
     <Name>Project Zomboid</Name>
-    <ProcessName>java</ProcessName>
-    <Parameter>zomboid</Parameter>
+    <ProcessName>ProjectZomboid(32|64)$</ProcessName>
+    <Parameter />
     <Path>*currentuser*\Zomboid\Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
@@ -4404,16 +4244,16 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4421,21 +4261,19 @@
     <ID>6c3ec858-1f8b-4240-82ff-2c5b3afa1cbe</ID>
     <Name>Punch Club</Name>
     <ProcessName>Punch Club</ProcessName>
-    <Parameter />
     <Path>*appdatalocal*Low\Lazy Bear Games\Punch Club</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.dat</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4443,24 +4281,22 @@
     <ID>df9d11b1-9591-4c77-8075-eb93a99a6a0a</ID>
     <Name>Realms of Chaos</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter />
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>ROC.S*</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4468,21 +4304,19 @@
     <ID>375da781-28ca-429f-a36e-ae93885a96f9</ID>
     <Name>Rebel Galaxy</Name>
     <ProcessName>RebelGalaxyGOG</ProcessName>
-    <Parameter />
     <Path>*mydocs*\My Games\Double Damage Games\RebelGalaxy</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>screenshots:local_settings.txt:ogre.log:microcodecache11_m.bin</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4490,21 +4324,19 @@
     <ID>9c8e72aa-79be-4e57-a930-577373c34f5e</ID>
     <Name>Red Faction</Name>
     <ProcessName>RF</ProcessName>
-    <Parameter />
     <Path>savegame</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4512,14 +4344,12 @@
     <ID>45967072-4b6b-46c2-a70d-26d845af5392</ID>
     <Name>Return to Castle Wolfenstein</Name>
     <ProcessName>WolfSP</ProcessName>
-    <Parameter />
     <Path>main\save</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -4556,24 +4386,22 @@
     <ID>0c15f2d9-161b-4f09-909c-f1d4322005b0</ID>
     <Name>Rise of the Triad</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter />
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>ROTTGAM?.ROT</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
-      <Tag>
-        <Name>DOSBox</Name>
-      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4588,14 +4416,13 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4603,9 +4430,29 @@
     <ID>80e086da-5278-469c-8371-eb652d7c42c6</ID>
     <Name>Risen 3 - Titan Lords</Name>
     <ProcessName>Risen3</ProcessName>
-    <Parameter />
     <Path>*currentuser*\Saved Games\Risen3\SaveGames</Path>
     <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>5b49b743-2995-486f-9e56-b96ec31dfcd5</ID>
+    <Name>River City Ransom: Underground</Name>
+    <ProcessName>RCRU</ProcessName>
+    <Parameter />
+    <Path>saves</Path>
+    <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
@@ -4625,21 +4472,19 @@
     <ID>6b21dbb7-162c-4a24-a076-1cec36b8005a</ID>
     <Name>Rogue Legacy</Name>
     <ProcessName>RogueLegacy</ProcessName>
-    <Parameter />
     <Path>*mydocs*\SavedGames\RogueLegacy</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4647,14 +4492,12 @@
     <ID>0a4edbe4-220d-4e30-bd3d-d09ff97ff44c</ID>
     <Name>S.T.A.L.K.E.R. Shadow of Chernobyl</Name>
     <ProcessName>XR_3DA</ProcessName>
-    <Parameter />
     <Path>*publicdocs*\STALKER-SHOC\savedgames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -4669,21 +4512,19 @@
     <ID>37a791b2-2011-4210-aa08-96f382653002</ID>
     <Name>Saints Row - The Third</Name>
     <ProcessName>SaintsRowTheThird_DX11</ProcessName>
-    <Parameter />
     <Path>*appdatalocal*\Saints Row The Third</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4691,14 +4532,12 @@
     <ID>05f20eca-9269-4021-9690-1727b1ec70b6</ID>
     <Name>Saints Row 2</Name>
     <ProcessName>SR2_pc</ProcessName>
-    <Parameter />
     <Path>*appdatalocal*\THQ\Saints Row 2</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>settings.dat</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -4713,21 +4552,19 @@
     <ID>7bbc1fea-42dc-4b00-8a84-99b2b843854c</ID>
     <Name>Saints Row IV - Game of the Century Edition</Name>
     <ProcessName>Saints Row IV</ProcessName>
-    <Parameter />
     <Path>_saves</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4735,14 +4572,12 @@
     <ID>6d180308-0f73-46be-9ca6-726ab96bc4d3</ID>
     <Name>Satellite Reign</Name>
     <ProcessName>SatelliteReignWindows</ProcessName>
-    <Parameter />
     <Path>*appdatalocal*\SatelliteReign\users</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -4757,14 +4592,12 @@
     <ID>aa8bf8fe-b5cf-4718-a352-90e049e069ca</ID>
     <Name>Sea Dogs</Name>
     <ProcessName>ENGINE</ProcessName>
-    <Parameter />
     <Path>resource\saves</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -4779,14 +4612,12 @@
     <ID>83c1200b-a5fa-4c6a-9c3f-471d3a90ed05</ID>
     <Name>Shadow Warrior 2013 (DX 11)</Name>
     <ProcessName>sw.x64</ProcessName>
-    <Parameter />
     <Path>*mydocs*\Shadow Warrior DX11\profiles</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>config.cfg</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -4812,10 +4643,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4823,21 +4654,19 @@
     <ID>552515d6-1fda-4fb2-b8dd-f279ec558ba8</ID>
     <Name>Shadow Warrior Classic Redux</Name>
     <ProcessName>swcr</ProcessName>
-    <Parameter />
     <Path />
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4845,21 +4674,19 @@
     <ID>731bee04-252a-4de5-92ed-c1c9db7b2abe</ID>
     <Name>Shadowgate</Name>
     <ProcessName>Shadowgate</ProcessName>
-    <Parameter />
     <Path>*mydocs*\Zojoi\Shadowgate</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4874,14 +4701,13 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4896,17 +4722,16 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
       <Tag>
         <Name>Tracking</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4921,7 +4746,6 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -4936,14 +4760,12 @@
     <ID>b035daf2-92cd-4560-a7ee-ccf0dcd8389e</ID>
     <Name>Shadowrun Returns</Name>
     <ProcessName>Shadowrun</ProcessName>
-    <Parameter />
     <Path>*appdatalocal*\Harebrained Schemes\Shadowrun Returns\Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -4958,14 +4780,12 @@
     <ID>f10dac21-538f-44f4-b2b0-af86f8d3a2fa</ID>
     <Name>Shadwen</Name>
     <ProcessName>shadwen_64bit</ProcessName>
-    <Parameter />
     <Path>*appdataroaming*\Shadwen</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.txt</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -4980,14 +4800,12 @@
     <ID>2b6f23d4-3020-41f7-b8e2-3a04d1be7bbf</ID>
     <Name>Shattered Haven</Name>
     <ProcessName>ShatteredHaven</ProcessName>
-    <Parameter />
     <Path>runtimedata\save</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -5002,14 +4820,12 @@
     <ID>7139df27-0505-4268-88ba-761add1251a9</ID>
     <Name>Shovel Knight</Name>
     <ProcessName>ShovelKnight</ProcessName>
-    <Parameter />
     <Path>*appdataroaming*\Yacht Club Games\Shovel Knight</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>render.bin</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -5024,14 +4840,12 @@
     <ID>9189cdde-4dc1-4c31-8e8b-222ead401e00</ID>
     <Name>Sid Meier's Alien Crossfire</Name>
     <ProcessName>terranx</ProcessName>
-    <Parameter />
     <Path>saves</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -5046,14 +4860,12 @@
     <ID>0d96b6f8-6eae-4738-99e9-e74f2b7e08c3</ID>
     <Name>Sid Meier's Alpha Centauri</Name>
     <ProcessName>terran</ProcessName>
-    <Parameter />
     <Path>saves</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -5079,10 +4891,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5101,10 +4913,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>DOSBox</Name>
@@ -5115,14 +4927,12 @@
     <ID>89741429-bc79-43e3-9ebd-a698d4be7388</ID>
     <Name>Sid Meier's Pirates!</Name>
     <ProcessName>Pirates!</ProcessName>
-    <Parameter />
     <Path>*mydocs*\My Games\Sid Meier's Pirates!</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.ini</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -5137,14 +4947,12 @@
     <ID>0a4cc240-c97d-4d30-ac28-2c889c521824</ID>
     <Name>Silver</Name>
     <ProcessName>silver</ProcessName>
-    <Parameter />
     <Path>savegame</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>SILVER.OPT</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -5170,10 +4978,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5181,14 +4989,12 @@
     <ID>368d10bc-2365-4a21-8f44-ada497f46cf2</ID>
     <Name>Simcity 4 Deluxe</Name>
     <ProcessName>SimCity 4</ProcessName>
-    <Parameter />
     <Path>*mydocs*\SimCity 4\Regions</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>Berlin:Downloads:Fairview:London:New York:San Francisco:Timbuktu</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -5203,14 +5009,12 @@
     <ID>933f6076-47f6-411a-be0c-5578f5b7a757</ID>
     <Name>Sin Gold</Name>
     <ProcessName>sin</ProcessName>
-    <Parameter />
     <Path>base\players</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -5236,10 +5040,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5269,21 +5073,19 @@
     <ID>ba454b95-8a05-4141-be8a-af1f557aaed9</ID>
     <Name>Space Colony HD</Name>
     <ProcessName>Space Colony</ProcessName>
-    <Parameter />
     <Path>*mydocs*\Space Colony\users</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5291,14 +5093,12 @@
     <ID>1b0815d1-9112-4538-96c4-c33cea9f7260</ID>
     <Name>SpaceChem</Name>
     <ProcessName>SpaceChem</ProcessName>
-    <Parameter />
     <Path>*appdatalocal*\Zachtronics Industries\SpaceChem\save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -5335,14 +5135,12 @@
     <ID>3f16b1c1-0ea1-42ed-bc92-47867a809c8a</ID>
     <Name>Spintires</Name>
     <ProcessName>SpinTires</ProcessName>
-    <Parameter />
     <Path>*appdataroaming*\SpinTires\UserSaves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -5368,10 +5166,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>DOSBox</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -5393,13 +5191,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5418,10 +5216,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5440,10 +5238,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5462,10 +5260,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5484,10 +5282,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5506,13 +5304,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
-      </Tag>
-      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5531,10 +5329,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5597,10 +5395,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5619,10 +5417,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5641,10 +5439,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5681,14 +5479,13 @@
     <FileType>characters:save</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Blizzard</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Blizzard</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5696,14 +5493,12 @@
     <ID>ad2c3fb6-963d-4a23-add1-edcd03b6a67e</ID>
     <Name>Stardew Valley</Name>
     <ProcessName>Stardew Valley</ProcessName>
-    <Parameter />
     <Path>*appdataroaming*\StardewValley\Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -5718,21 +5513,19 @@
     <ID>298dd41f-b798-4ef7-bdea-669c556cf97a</ID>
     <Name>Starpoint Gemini II</Name>
     <ProcessName>StarpointGemini2</ProcessName>
-    <Parameter />
     <Path>Saves</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5773,10 +5566,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5806,21 +5599,19 @@
     <ID>0f9bfaa5-f1c8-48bf-9c59-8c2f72638d85</ID>
     <Name>Stronghold HD</Name>
     <ProcessName>Stronghold</ProcessName>
-    <Parameter />
     <Path>*mydocs*\Stronghold\Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5842,10 +5633,10 @@
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>DOSBox</Name>
       </Tag>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5872,6 +5663,28 @@
     </Tags>
   </Game>
   <Game>
+    <ID>cc635311-7c8f-477b-9025-6a99368dd6dd</ID>
+    <Name>Sunrider: Mask of Arcadius</Name>
+    <ProcessName>SunriderMaskofArcadius</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*\RenPy\Sunrider Episode 2 Save Data</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>1258f9c9-b6ff-497e-9246-24c6eae2af94</ID>
     <Name>System Shock: Enhanced Edition</Name>
     <ProcessName>sshock</ProcessName>
@@ -5886,10 +5699,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5919,21 +5732,19 @@
     <ID>7c637e29-7367-464f-914a-db12bb86d616</ID>
     <Name>Technobabylon</Name>
     <ProcessName>Technobabylon</ProcessName>
-    <Parameter />
     <Path>Saved Games</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5941,21 +5752,19 @@
     <ID>391ea4d5-867b-4dd4-84c9-139b7effc508</ID>
     <Name>Terraria</Name>
     <ProcessName>Terraria</ProcessName>
-    <Parameter />
     <Path>*mydocs*\My Games\Terraria</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.json:*.bak:*.dat</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5974,13 +5783,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6021,10 +5830,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Retail</Name>
       </Tag>
       <Tag>
-        <Name>Retail</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6112,10 +5921,10 @@
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6123,14 +5932,12 @@
     <ID>709a6de5-3495-429f-a2b4-8ba952c3ae9c</ID>
     <Name>The Longest Journey</Name>
     <ProcessName>game</ProcessName>
-    <Parameter />
     <Path>Save</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -6156,10 +5963,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6189,14 +5996,12 @@
     <ID>91d24444-2eee-4591-bd21-87fbab33b8c7</ID>
     <Name>The Ultimate DOOM</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter />
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>DEFAULT.CFG:DOOMSAV?.DSG</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -6247,10 +6052,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6269,7 +6074,29 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
         <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>2fc4a81a-4cac-4b0a-b96f-598c00742674</ID>
+    <Name>They Are Billions</Name>
+    <ProcessName>TheyAreBillions(_x86)?$</ProcessName>
+    <Parameter />
+    <Path>*mydocs*\My Games\They Are Billions\Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -6287,14 +6114,13 @@
     <FileType />
     <ExcludeList>config.bin3</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6302,14 +6128,12 @@
     <ID>36250a0f-1616-4689-9258-914731294871</ID>
     <Name>This is the Police</Name>
     <ProcessName>Police</ProcessName>
-    <Parameter />
     <Path>*appdatalocal*Low\Weappy\This Is The Police</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>Save.xml</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -6324,21 +6148,19 @@
     <ID>86c90a8f-98a9-42dc-9f9d-a6822ad2661a</ID>
     <Name>Titan Quest - Anniversary Edition</Name>
     <ProcessName>TQ</ProcessName>
-    <Parameter />
     <Path>*mydocs*\My Games\Titan Quest - Immortal Throne\SaveData\Main</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6379,10 +6201,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6390,14 +6212,12 @@
     <ID>88e290f0-1d28-422b-b152-9b347f909d73</ID>
     <Name>Trine 2</Name>
     <ProcessName>trine2_32bit</ProcessName>
-    <Parameter />
     <Path>*appdataroaming*\Trine2</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>*.txt</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -6412,21 +6232,19 @@
     <ID>76c9001d-7dda-4b19-baed-4cf7bab961c7</ID>
     <Name>Tropico 4</Name>
     <ProcessName>Tropico4</ProcessName>
-    <Parameter />
     <Path>*appdataroaming*\Tropico 4</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>Logs:ShaderCache:*.bik:DeveloperStorage.lua</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6434,14 +6252,12 @@
     <ID>6f37dbaa-05de-4526-81a3-c800b4b1f169</ID>
     <Name>Tropico 5</Name>
     <ProcessName>Tropico5</ProcessName>
-    <Parameter />
     <Path>*appdataroaming*\Tropico 5</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>logs:DeveloperStorage.lua</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -6456,21 +6272,19 @@
     <ID>75e2c670-6063-476b-b715-3478832be617</ID>
     <Name>Turok</Name>
     <ProcessName>sobek</ProcessName>
-    <Parameter />
     <Path>saves</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6478,14 +6292,12 @@
     <ID>ff08d835-76dd-44ca-8c90-dce0560aed1f</ID>
     <Name>Turok 2</Name>
     <ProcessName>horus_x64</ProcessName>
-    <Parameter />
     <Path>saves</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -6533,10 +6345,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Retail</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Retail</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6555,13 +6367,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6569,9 +6381,51 @@
     <ID>e41431b2-d539-4f5c-b155-8d4731394903</ID>
     <Name>Undertale</Name>
     <ProcessName>UNDERTALE</ProcessName>
-    <Parameter />
     <Path>*appdatalocal*\UNDERTALE</Path>
     <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>8b56d728-f9b7-4380-9229-ca69deab25c0</ID>
+    <Name>Unreal 2: The Awakening Special Edition</Name>
+    <ProcessName>Unreal2</ProcessName>
+    <Parameter />
+    <Path>..\save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>dc3d49a4-54ed-42c8-a46e-3309a0d904f5</ID>
+    <Name>Unreal Gold</Name>
+    <ProcessName>Unreal</ProcessName>
+    <Parameter />
+    <Path>..\save</Path>
+    <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
@@ -6646,13 +6500,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Mod</Name>
-      </Tag>
-      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Retail</Name>
+      </Tag>
+      <Tag>
+        <Name>Mod</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6682,21 +6536,19 @@
     <ID>9c4d688f-9005-4222-b25d-d0a8aa52ce54</ID>
     <Name>Victor Vran</Name>
     <ProcessName>VictorVran</ProcessName>
-    <Parameter />
     <Path>*appdataroaming*\Victor Vran</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList>logs:DeveloperStorage.lua</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6737,10 +6589,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6759,13 +6611,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Retail</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6787,10 +6639,10 @@
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Retail</Name>
       </Tag>
       <Tag>
-        <Name>Retail</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6809,13 +6661,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Retail</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6834,13 +6686,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Retail</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6848,21 +6700,19 @@
     <ID>b0ff8654-d927-478f-ab1f-506f47780194</ID>
     <Name>Wasteland 2</Name>
     <ProcessName>WL2</ProcessName>
-    <Parameter />
     <Path>*mydocs*\My Games\Wasteland2\Save Games</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6881,10 +6731,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6914,24 +6764,22 @@
     <ID>38e5076b-fb30-400a-9b67-21b749b26ec9</ID>
     <Name>Wolfenstein 3D</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter />
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>CONFIG.WL6:SAVEGAM?.WL6</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>DOSBox</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6972,10 +6820,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6983,21 +6831,19 @@
     <ID>b7766c36-d9ba-46fd-9f7b-576b0148570c</ID>
     <Name>XCOM 2</Name>
     <ProcessName>XCom2</ProcessName>
-    <Parameter />
     <Path>*mydocs*\My Games\XCOM2\XComGame\SaveData</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -7005,14 +6851,12 @@
     <ID>880dca35-fea6-4639-9693-7a619bff6ad4</ID>
     <Name>Xenonauts</Name>
     <ProcessName>Xenonauts</ProcessName>
-    <Parameter />
     <Path>*mydocs*\Xenonauts</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
