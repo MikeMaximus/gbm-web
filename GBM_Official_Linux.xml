@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official_Linux.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1529088087" TotalConfigurations="241" AppVer="112">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1529091725" TotalConfigurations="241" AppVer="112">
   <Game>
     <ID>bbf8e00a-d7b8-46a5-b52c-8ba886b8c38a</ID>
     <Name>0 AD</Name>
@@ -60,13 +60,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -88,10 +88,10 @@
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -110,10 +110,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -138,10 +138,10 @@
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -160,10 +160,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -182,10 +182,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
@@ -251,10 +251,10 @@
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -298,10 +298,10 @@
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -320,13 +320,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -367,13 +367,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -429,7 +429,7 @@
     <Path>*mydocs*/.renpy/Analogue</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
-    <FileType />
+    <FileType>1-*.save</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -483,10 +483,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -508,10 +508,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -558,10 +558,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -580,13 +580,13 @@
     <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -627,10 +627,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
@@ -674,10 +674,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
@@ -696,16 +696,16 @@
     <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <ID>2782f209-ada4-4ff8-a2b7-bb59117395ad</ID>
-    <Name>Avadon: The Black Tortress</Name>
+    <Name>Avadon: The Black Fortress</Name>
     <ProcessName>Avadon-x86</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/Avadon/Spiderweb Software/Avadon Saved Games</Path>
@@ -718,10 +718,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -740,16 +740,16 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GameMaker</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GameMaker</Name>
       </Tag>
     </Tags>
   </Game>
@@ -768,13 +768,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -793,10 +793,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -815,10 +815,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -837,10 +837,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
@@ -859,13 +859,13 @@
     <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -884,10 +884,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -906,13 +906,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -950,13 +950,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -975,10 +975,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -1044,13 +1044,13 @@
     <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1069,13 +1069,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1094,13 +1094,13 @@
     <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1119,10 +1119,10 @@
     <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -1144,10 +1144,10 @@
     <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -1169,10 +1169,10 @@
     <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1213,13 +1213,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1238,13 +1238,13 @@
     <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1263,10 +1263,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -1288,13 +1288,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1316,10 +1316,10 @@
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1360,10 +1360,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -1400,7 +1400,7 @@
     <Path>*appdataroaming*/unity3d/Finji/Canabalt</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
-    <FileType />
+    <FileType>SaveData</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -1432,10 +1432,10 @@
     <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1501,10 +1501,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1523,13 +1523,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1548,10 +1548,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1570,13 +1570,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1620,10 +1620,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -1645,13 +1645,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1673,10 +1673,10 @@
         <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Remake</Name>
       </Tag>
       <Tag>
-        <Name>Remake</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1720,13 +1720,13 @@
     <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1745,13 +1745,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1770,13 +1770,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1795,16 +1795,16 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GameMaker</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GameMaker</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1826,10 +1826,10 @@
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1848,13 +1848,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1873,13 +1873,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1898,10 +1898,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1970,10 +1970,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2014,10 +2014,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2036,13 +2036,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2083,13 +2083,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2108,13 +2108,13 @@
     <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2133,13 +2133,13 @@
     <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2161,10 +2161,10 @@
         <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2205,10 +2205,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2252,13 +2252,13 @@
     <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2280,10 +2280,10 @@
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2302,10 +2302,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2324,13 +2324,13 @@
     <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>Retail</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2393,10 +2393,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2415,10 +2415,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2437,10 +2437,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2459,13 +2459,13 @@
     <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2506,15 +2506,15 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
-    <ID>ef4c39d8-1ce4-4152-9ea7-c20236f718cb</ID>
+    <ID>84c6670e-8055-4138-83ab-8972049a7846</ID>
     <Name>Hammerwatch</Name>
     <ProcessName>Hammerwatch\.bin\.x86(_64)?</ProcessName>
     <Parameter />
@@ -2528,10 +2528,10 @@
     <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2550,10 +2550,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2580,7 +2580,7 @@
     </Tags>
   </Game>
   <Game>
-    <ID>ff02354f-40df-42d5-ad1e-40b0aafaadbb</ID>
+    <ID>f806dbad-8cee-408c-9a29-068f9979199d</ID>
     <Name>Hotline Miami</Name>
     <ProcessName>hotline_launcher</ProcessName>
     <Parameter />
@@ -2594,13 +2594,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2619,13 +2619,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2644,13 +2644,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GameMaker</Name>
-      </Tag>
-      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>GameMaker</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2691,10 +2691,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2713,15 +2713,15 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
-    <ID>84c6670e-8055-4138-83ab-8972049a7846</ID>
+    <ID>9f4cf789-f949-4f7f-8f40-71c5b0da738b</ID>
     <Name>Jotun: Valhalla Edition</Name>
     <ProcessName>Jotun.x86</ProcessName>
     <Parameter />
@@ -2760,10 +2760,10 @@
         <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -2785,10 +2785,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2807,13 +2807,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2942,10 +2942,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2964,10 +2964,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>ScummVM</Name>
       </Tag>
       <Tag>
-        <Name>ScummVM</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3008,16 +3008,16 @@
     <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3036,18 +3036,18 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
-    <ID>8555f09c-c947-413e-a49a-c98a2f96aa07</ID>
+    <ID>ff554079-c538-43f9-9703-029edc1d8672</ID>
     <Name>Metro 2033 Redux</Name>
     <ProcessName>metro</ProcessName>
     <Parameter />
@@ -3061,13 +3061,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3108,10 +3108,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3130,10 +3130,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -3155,10 +3155,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3221,10 +3221,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3243,10 +3243,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3334,10 +3334,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3353,13 +3353,13 @@
     <ExcludeList>olliolli.ini</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
@@ -3381,10 +3381,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3403,13 +3403,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
+        <Name>Remake</Name>
+      </Tag>
+      <Tag>
         <Name>FLOSS</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>Remake</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3428,13 +3428,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Remake</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Remake</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3453,13 +3453,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3503,13 +3503,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3528,10 +3528,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3556,10 +3556,10 @@
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3578,10 +3578,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -3650,10 +3650,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3760,10 +3760,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3785,10 +3785,10 @@
         <Name>FLOSS</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Remake</Name>
       </Tag>
       <Tag>
-        <Name>Remake</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3851,10 +3851,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3873,10 +3873,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3942,10 +3942,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3986,10 +3986,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4033,10 +4033,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4055,10 +4055,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4077,10 +4077,32 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>ef4b5cdd-ac4c-4b8d-8c6c-4744342b43c5</ID>
+    <Name>Shadowrun Hong Kong - Extended Edition</Name>
+    <ProcessName>SRHK</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/Harebrained Schemes/Shadowrun Hong Kong/Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4099,10 +4121,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
@@ -4118,28 +4140,6 @@
     <ProcessName>Dragonfall</ProcessName>
     <Parameter />
     <Path>*appdataroaming*/Harebrained Schemes/Shadowrun Dragonfall/Saves</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Comments />
-    <IsRegEx>false</IsRegEx>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <ID>ef4b5cdd-ac4c-4b8d-8c6c-4744342b43c5</ID>
-    <Name>Shadowrun: Hong Kong - Extended Edition</Name>
-    <ProcessName>SRHK</ProcessName>
-    <Parameter />
-    <Path>*appdataroaming*/Harebrained Schemes/Shadowrun Hong Kong/Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
@@ -4259,10 +4259,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4281,10 +4281,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4303,10 +4303,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
@@ -4328,13 +4328,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4353,13 +4353,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4378,10 +4378,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4400,13 +4400,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GameMaker</Name>
-      </Tag>
-      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>GameMaker</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4425,13 +4425,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Remake</Name>
+      </Tag>
+      <Tag>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4450,13 +4450,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
-      </Tag>
-      <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>DOSBox</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4475,10 +4475,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>DOSBox</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
-        <Name>GOG</Name>
+        <Name>DOSBox</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -4500,10 +4500,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4522,16 +4522,16 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GameMaker</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GameMaker</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4572,10 +4572,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4594,10 +4594,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4638,10 +4638,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4663,10 +4663,10 @@
         <Name>Crossover</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4685,13 +4685,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
         <Name>FLOSS</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4710,10 +4710,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4732,10 +4732,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4754,10 +4754,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4798,10 +4798,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4820,10 +4820,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4842,10 +4842,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4911,10 +4911,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5021,13 +5021,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5046,16 +5046,16 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5074,10 +5074,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5140,13 +5140,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5190,10 +5190,10 @@
     <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
@@ -5218,10 +5218,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5262,10 +5262,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5284,13 +5284,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5309,10 +5309,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>GOG</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5331,10 +5331,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5375,10 +5375,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5419,10 +5419,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5485,10 +5485,10 @@
     <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5507,10 +5507,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5529,10 +5529,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
         <Name>Remake</Name>
@@ -5554,10 +5554,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>FLOSS</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
         <Name>Remake</Name>
@@ -5579,10 +5579,10 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
-        <Name>Official</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5601,13 +5601,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5616,23 +5616,23 @@
     <Name>iBomber Defense Pacific</Name>
     <ProcessName>iBomberDefensePacific</ProcessName>
     <Parameter />
-    <Path>*appdataroaming*/unity3d/Dinosaur Polo Club/Mini Metro/</Path>
+    <Path>*mydocs*/.ibomberdefensepacific</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
-    <FileType>profile.json:savegame.dat</FileType>
+    <FileType />
     <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
+    <MonitorOnly>true</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
