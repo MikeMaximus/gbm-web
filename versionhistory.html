@@ -30,10 +30,163 @@
       <div id="leftcontent">
         <div class="pageSection">
           <div class="pageSectionHeader">
-            Archived Version History
+            Version History
           </div>
           <div cass="pageSectionContent">
-            <h3 class="notop">1.0.6</h3>
+            <h3 class="notop">1.1.1</h3>
+            <ul>
+              <li>All Platforms:
+                <ul>
+                  <li>Spelling error fixed in manual backup message</li>
+                </ul>
+              </li>
+              <li>Windows Only:
+                <ul>
+                  <li>Updated 7-Zip to v18.05</li>
+                </ul>
+              </li>
+            </ul>
+            <h3>1.1.0</h3>
+            <ul>
+              <li>All Platforms:
+                <ul>
+                  <li>Core Design Changes (Game Configuration)
+                    <ul>
+                      <li>Game ID is now exposed to the user and can be changed.  This feature is mainly for developer and contributer usage.</li>
+                      <li>Game ID is generated automatically by GBM or acquired from an import, the user doesn't need to set it unless they want to.</li>
+                      <li>Game ID (instead of Game Name) can now be used to name backup files and folders.
+                        <ul>
+                          <li>GBM will continue to use the name by default for ease of use.</li>
+                          <li>This behavior can be toggled in the "Backup and Restore" section of Settings.</li>
+                          <li>Using the game Name for backup files has a minor risk associated with it. See "Known Issue #2 and #4" for more details.</li>
+                        </ul></li>
+                      <li>Game Name can now contain any character.</li>
+                      <li>When a game is deleted via Game Manager (or sync), all backup manifest entries for that particular game are now deleted. The backup files themselves are not.</li>
+                      <li>The Game Manager now syncs changes to the remote database immediately, instead of only when closed.</li>
+                    </ul></li>
+                  <li>Feature Additions &amp; Changes
+                    <ul>
+                      <li>Added Regular Expression support for game detection.
+                        <ul>
+                          <li>This feature allows GBM to detect games based on a pattern instead of a single process name.</li>
+                          <li>This allows GBM to better support games that run from multiple executables and games that use interpreters or emulators.</li>
+                          <li>Use the new "Regular Expression" checkbox on the Game Manager and enter the pattern in the "Process" field.</li>
+                          <li>GBM will validate patterns and offer to help troubleshoot (using regexr.com) when validation fails.</li>
+                        </ul></li>
+                      <li>Added the ability to start another process (or multiple processes) whenever a game is detected.
+                        <ul>
+                          <li>This is useful to automatically start utilities, such as custom control schemes or overlays when a specific game is detected.</li>
+                          <li>The "Process Manager" allows you to manage any programs you'd like to launch.</li>
+                          <li>The "Processes..." button on the Game Manager allows you to assign processes to any selected game.</li>
+                          <li>A process can be set to end when the game is closed.</li>
+                          <li>Processes and related settings are specific to the local machine only.  They are not synced to the backup folder and are not part of the import/export.</li>
+                        </ul></li>
+                      <li>Added "Backup GBM data files on launch" to the settings.  A long overdue feature, this will backup both the remote and local databases (as gbm.s3db.launch.bak) each time GBM starts.
+                        <ul>
+                          <li>This new setting is enabled by default.</li>
+                          <li>Only one backup is kept, the prior one will be overwritten.</li>
+                        </ul></li>
+                      <li>Added the ability to display messages or warnings that can be suppressed after one view.  These messages can be reset via the Settings screen.</li>
+                      <li>The "Enable Sync" feature is now mandatory and the option been removed from Settings.</li>
+                      <li>The "Clean Local Manifest" feature has been removed.  It is not required because manfiest entries are no longer orphaned by design.  Existing orphaned entries will be removed during the v1.1.0 database upgrade.</li>
+                      <li>Added "Sync Game IDs" feature.  This allows the user to update their game configuration identifiers to match the official list or an export file.
+                        <ul>
+                          <li>This is mainly an optional upgrade tool for users with existing data from older versions.  It allows the import feature to properly recognize and update game configurations.</li>
+                          <li>The sync is based on similarly named game configurations, therefore it's not 100% effective.  Some games may be missed and require manual changes.</li>
+                          <li>If you share a backup folder with multiple PCs, this feature will cause some data loss when the new IDs are synced to the other PCs.  See "Known Issue #1"</li>
+                        </ul></li>
+                      <li>Added "Disable sync event messages" to the settings.  This will remove all sync related information messages in the log.
+                        <ul>
+                          <li>This new setting is enabled by default.</li>
+                          <li>Sync messages can cause a lot of useless clutter in the log and are not useful to most users.</li>
+                        </ul></li>
+                      <li>Re-organized the Setting screen to clear up some space for the future.</li>
+                    </ul></li>
+                  <li>Import / Export Changes
+                    <ul>
+                      <li>GBM now uses the Game ID to determine if a game is new or has an updated configuration.</li>
+                      <li>GBM will offer to "Sync Game IDs" when importing from the official list after upgrading to v1.1.0.
+                        <ul>
+                          <li>This allows the import to recognize and update your configurations from older versions.</li>
+                          <li>This offer only appears once and only appears for users that have upgraded from an older version.	</li>
+                        </ul></li>
+                      <li>Added icons to the import list to indicate a "New" or "Updated" game.</li>
+                    </ul></li>
+                  <li>Updated session CSV export to adhere to RFC 4180.  It now handles commas, quotes and line breaks correctly.</li>
+                </ul>
+              </li>
+              <li>Windows Only:
+                <ul>
+                  <li>Updated 7-Zip to v18.01</li>
+                </ul>
+              </li>
+              <li>Linux Only:
+                <ul>
+                  <li>GBM now uses notify-send (libnotify) if it's available to display notifications on Linux.
+                    <ul>
+                      <li>Mono style notifications will be displayed if notify-send is not available.</li>
+                      <li>The GBM icon will be displayed on notifications if it's been installed via the makefile or a package installer.</li>
+                    </ul></li>
+                </ul>
+              </li>
+              <li>Known Issues:
+                <ol>
+                  <li>If one or more Game IDs are changed (manually or via Game ID Sync) on one computer and these changes are synced to another PC sharing the same backup folder, the following data will be lost.
+                    <ul>
+                      <li>The local session data on that PC for the changed game(s) will be lost.</li>
+                      <li>The local backup manifest data for the changed game(s) on that PC will be lost.  GBM will see any backups for the changed game(s) as new and will handle them accordingly.</li>
+                      <li>Any processes assigned to the changed games(s) on that PC will be lost.</li>
+                      <li>Once your PCs are back in sync, this will no longer be an issue unless you are constantly changing your Game IDs, which is not recommended.</li>
+                    </ul></li>
+                  <li>Backup files are not being renamed or removed when a new backup is created.
+                    <ul>
+                      <li>This happens on the first backup after toggling between using the Name or ID for your file names.  It's best to choose one setting and stick with it.</li>
+                    </ul></li>
+                  <li>The error "The requested operation requires elevation" occurs when GBM tries to launch a process associated with a game.
+                    <ul>
+                      <li>This means the process you're trying to launch with GBM requires administrator privilege.</li>
+                      <li>Click the blue "user" icon on the bottom left of the GBM window to quickly switch to administrator mode.</li>
+                    </ul></li>
+                  <li>Game configurations using the same name, and configurations that end up with the same name when special characters are stripped will overwrite each other's backup files.
+                    <ul>
+                      <li>For most users this should be a non-issue.  Toggle "Use Game ID for folder and file names" to on in the Settings screen if this is a problem for you.</li>
+                    </ul></li>
+                </ol>
+              </li>
+              <li>Important Notices:
+                <ol>
+                  <li>Configurations on the official game lists are no longer compatible with older GBM versions.
+                    <ul>
+                      <li>Configurations can now use Regular Expressions to detect when a game is running, which old versions of GBM will not understand how to handle.</li>
+                      <li>Configurations can now use any character in the game name, which may cause backups to fail in old versions of GBM.</li>
+                      <li>The last official lists compatible with v1.0.7 and prior versions are <a href="archive.html">archived and available to download</a> from the GBM website for users who wish to stay on an older version.</li>
+                    </ul>
+                </ol>
+              </li>
+            </ul>
+            <h3>1.0.7</h3>
+            <ul>
+              <li>All Platforms:
+                <ul>
+                  <li>Added Hours and Total Hours to the Session Viewer
+                    <ul>
+                      <li>An Hours column now shows the time spent each session.</li>
+                      <li>The Total Hours of the currently displayed sessions is now displayed under the grid.</li>
+                    </ul></li>
+                  <li>Added Export feature to the Sessions Viewer
+                    <ul>
+                      <li>The session data currently displayed on the grid can be exported in CSV or XML format.</li>
+                      <li>Dates can be exported in Unix format or the current system format.</li>
+                      <li>The CSV format can exported with or without headers.</li>
+                    </ul></li>
+                </ul></li>
+              <li>Linux Only:
+                <ul>
+                  <li>A low disk space warning will no longer be displayed on every backup.</li>
+                  <li>Fixed the column sorting issues on the Session Viewer.</li>
+                </ul></li>                                   
+            </ul>
+            <h3>1.0.6</h3>
             <ul>
               <li>All Platforms:
                 <ul>
@@ -56,8 +209,7 @@
                   <li>A warning is now displayed if the "Start with Windows" setting is enabled while GBM is running as administrator.</li>
                   <li>GBM currently will not "Start with Windows" as administrator when this setting is enabled.  Please follow these <a href="http://mikemaximus.github.io/gbm-web/gbm_task_scheduler.html">instructions</a> for a work-around.</li>
                 </ul>
-              </li>
-              
+              </li>              
               <li>Linux Only:
                   <ul> 
                     <li>Enhanced makefile and added start script for Linux installations (basxto)</li>
