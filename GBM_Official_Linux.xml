@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official_Linux.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1529083109" TotalConfigurations="238" AppVer="112">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1529088087" TotalConfigurations="241" AppVer="112">
   <Game>
     <ID>bbf8e00a-d7b8-46a5-b52c-8ba886b8c38a</ID>
     <Name>0 AD</Name>
@@ -306,6 +306,31 @@
     </Tags>
   </Game>
   <Game>
+    <ID>33fa015a-15ce-46d0-9ba3-cdacb02fec98</ID>
+    <Name>Age of Wonders III</Name>
+    <ProcessName>AoW3</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/AoW3/Profiles</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.ACG</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>2851676b-38ce-46e7-87df-c1a6cf3b3e72</ID>
     <Name>Alien Arena</Name>
     <ProcessName>alienarena</ProcessName>
@@ -376,7 +401,7 @@
   </Game>
   <Game>
     <ID>ee415e14-8007-4d83-b826-16a0800a9e83</ID>
-    <Name>Amnesia The Dark descent</Name>
+    <Name>Amnesia: The Dark descent</Name>
     <ProcessName>Amnesia(_NO_STEAM)?\.bin\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*mydocs*/.frictionalgames/Amnesia</Path>
@@ -398,13 +423,13 @@
   </Game>
   <Game>
     <ID>6f0b1be4-ad1c-4464-a7cc-1ca20e968c75</ID>
-    <Name>Analogue A Hate Story</Name>
+    <Name>Analogue: A Hate Story</Name>
     <ProcessName>python</ProcessName>
     <Parameter>Analogue.py</Parameter>
     <Path>*mydocs*/.renpy/Analogue</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
-    <FileType>1-*.save</FileType>
+    <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -680,13 +705,13 @@
   </Game>
   <Game>
     <ID>2782f209-ada4-4ff8-a2b7-bb59117395ad</ID>
-    <Name>Avadon The Black Tortress</Name>
+    <Name>Avadon: The Black Tortress</Name>
     <ProcessName>Avadon-x86</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/Avadon/Spiderweb Software/Avadon Saved Games</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
-    <FileType>Save*</FileType>
+    <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -826,8 +851,8 @@
     <Parameter />
     <Path>*mydocs*/.SupergiantGames/Bastion</Path>
     <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
+    <FolderSave>false</FolderSave>
+    <FileType>Profile*.sav:Profile*.profile</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -937,7 +962,7 @@
   </Game>
   <Game>
     <ID>a9def0e1-a476-4e4e-9d41-5a40d8d5a36d</ID>
-    <Name>Beatbuddy Tale of the Guardians</Name>
+    <Name>Beatbuddy: Tale of the Guardians</Name>
     <ProcessName>Beatbuddy</ProcessName>
     <Parameter />
     <Path>*appdataroaming*/unity3d/Threaks/Beatbuddy/</Path>
@@ -1250,7 +1275,7 @@
   </Game>
   <Game>
     <ID>38b6302a-dc90-4cbc-bf06-f0ffdca3a453</ID>
-    <Name>Borderlands The Pre-Sequel</Name>
+    <Name>Borderlands: The Pre-Sequel</Name>
     <ProcessName>BorderlandsPreSequel</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/aspyr-media/borderlands the pre-sequel/willowgame/savedata/</Path>
@@ -1770,6 +1795,9 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
+        <Name>GameMaker</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
@@ -1777,9 +1805,6 @@
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>GameMaker</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1810,7 +1835,7 @@
   </Game>
   <Game>
     <ID>2d612da0-bfee-4c74-94fa-f45f85aa0f6d</ID>
-    <Name>Deponia The Complete Journey</Name>
+    <Name>Deponia: The Complete Journey</Name>
     <ProcessName>deponia_tcj</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/Daedalic Entertainment GmbH/Deponia The Complete Journey/Savegames</Path>
@@ -1820,6 +1845,31 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>7663ee88-8056-4c5e-9b5b-65b589e2672e</ID>
+    <Name>Deus Ex: Mankind Divided™</Name>
+    <ProcessName>DeusExMD</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/feral-interactive/Deus Ex Mankind Divided/SaveData</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments>Feral includes a link to steam's userdata, but it assumes standard steam paths.</Comments>
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -1857,7 +1907,7 @@
   </Game>
   <Game>
     <ID>208f18d1-3d6e-4112-8bdb-2373d52af5fe</ID>
-    <Name>Divinity Original Sin - Enhanced Edition</Name>
+    <Name>Divinity: Original Sin - Enhanced Edition</Name>
     <ProcessName>EoCApp</ProcessName>
     <Parameter />
     <Path>*mydocs*/Larian Studios/Divinity Original Sin Enhanced Edition/PlayerProfiles</Path>
@@ -1876,10 +1926,10 @@
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2045,7 +2095,7 @@
   </Game>
   <Game>
     <ID>1a5b8e9c-c4e6-4e9f-b27a-2c1ae1aead8d</ID>
-    <Name>Dust An Elysian Tail</Name>
+    <Name>Dust: An Elysian Tail</Name>
     <ProcessName>DustAET\.bin\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/DustAET</Path>
@@ -2120,7 +2170,7 @@
   </Game>
   <Game>
     <ID>15185a64-4610-4ac6-9472-33f1148c314e</ID>
-    <Name>Eufloria</Name>
+    <Name>Eufloria HD</Name>
     <ProcessName>EufloriaHD\.bin\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/EufloriaHD</Path>
@@ -2214,12 +2264,12 @@
   </Game>
   <Game>
     <ID>b01d677e-dd1f-4591-a8e9-fb29d74f1ce4</ID>
-    <Name>FTL Faster Than Light</Name>
+    <Name>FTL: Faster Than Light</Name>
     <ProcessName>FTL</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/FasterThanLight</Path>
     <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
+    <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
@@ -2487,7 +2537,7 @@
   </Game>
   <Game>
     <ID>c440706e-e2c5-4422-b564-440f5e4bbb35</ID>
-    <Name>Harvest Massive Encounter</Name>
+    <Name>Harvest: Massive Encounter</Name>
     <ProcessName>Harvest</ProcessName>
     <Parameter />
     <Path>*mydocs*/.Harvest/profiles</Path>
@@ -2594,13 +2644,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
+        <Name>GameMaker</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>GameMaker</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2672,7 +2722,7 @@
   </Game>
   <Game>
     <ID>84c6670e-8055-4138-83ab-8972049a7846</ID>
-    <Name>Jotun</Name>
+    <Name>Jotun: Valhalla Edition</Name>
     <ProcessName>Jotun.x86</ProcessName>
     <Parameter />
     <Path>*appdataroaming*/unity3d/Thunder Lotus Games/Jotun/</Path>
@@ -2964,10 +3014,10 @@
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3023,7 +3073,7 @@
   </Game>
   <Game>
     <ID>26330dc9-e467-475d-a950-db985ec239ce</ID>
-    <Name>Middle-earth™ Shadow of Mordor™</Name>
+    <Name>Middle-earth™: Shadow of Mordor™</Name>
     <ProcessName>ShadowOfMordor</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/feral-interactive/ShadowOfMordor/SaveData</Path>
@@ -3271,7 +3321,7 @@
   </Game>
   <Game>
     <ID>a8b567ca-e8bc-4780-9a19-64c8fe430115</ID>
-    <Name>Octodad Dadliest Catch</Name>
+    <Name>Octodad: Dadliest Catch</Name>
     <ProcessName>OctodadDadliestCatch</ProcessName>
     <Parameter />
     <Path />
@@ -3506,10 +3556,10 @@
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3520,8 +3570,8 @@
     <Parameter />
     <Path>*appdatalocal*/PillarsOfEternity/SavedGames</Path>
     <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
+    <FolderSave>false</FolderSave>
+    <FileType>*.savegame</FileType>
     <ExcludeList>2.0 Save Games Backup</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -3532,6 +3582,12 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4029,50 +4085,6 @@
     </Tags>
   </Game>
   <Game>
-    <ID>1b99f5a4-299d-408c-af1e-8f5ea995dbc4</ID>
-    <Name>Shadowrun Dragonfall - Director's Cut</Name>
-    <ProcessName>Dragonfall</ProcessName>
-    <Parameter />
-    <Path>*appdataroaming*/Harebrained Schemes/Shadowrun Dragonfall/Saves</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Comments />
-    <IsRegEx>false</IsRegEx>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <ID>ef4b5cdd-ac4c-4b8d-8c6c-4744342b43c5</ID>
-    <Name>Shadowrun Hong Kong - Extended Edition</Name>
-    <ProcessName>SRHK</ProcessName>
-    <Parameter />
-    <Path>*appdataroaming*/Harebrained Schemes/Shadowrun Hong Kong/Saves</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Comments />
-    <IsRegEx>false</IsRegEx>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
     <ID>0487add7-2f60-455e-a8a8-592700c49353</ID>
     <Name>Shadowrun Returns</Name>
     <ProcessName>Shadowrun</ProcessName>
@@ -4097,6 +4109,50 @@
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>1b99f5a4-299d-408c-af1e-8f5ea995dbc4</ID>
+    <Name>Shadowrun: Dragonfall - Director's Cut</Name>
+    <ProcessName>Dragonfall</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/Harebrained Schemes/Shadowrun Dragonfall/Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>ef4b5cdd-ac4c-4b8d-8c6c-4744342b43c5</ID>
+    <Name>Shadowrun: Hong Kong - Extended Edition</Name>
+    <ProcessName>SRHK</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/Harebrained Schemes/Shadowrun Hong Kong/Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4252,6 +4308,9 @@
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -4341,13 +4400,13 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
+        <Name>GameMaker</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>GameMaker</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4463,6 +4522,9 @@
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
+        <Name>GameMaker</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
@@ -4470,9 +4532,6 @@
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>GameMaker</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4993,16 +5052,16 @@
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <ID>9b0c50f2-99c5-41b0-8031-49a842c1d4a8</ID>
-    <Name>Trine 3 The Artifacts of Power</Name>
+    <Name>Trine 3: The Artifacts of Power</Name>
     <ProcessName>trine3_linux_64bit</ProcessName>
     <Parameter />
     <Path />
@@ -5067,6 +5126,31 @@
     </Tags>
   </Game>
   <Game>
+    <ID>9599da3e-5759-4454-921e-eb4e7b2c58ad</ID>
+    <Name>Type:Rider</Name>
+    <ProcessName>TypeRider.x86</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/ExNihilo/Type_Rider</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>savegame</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>7e4cfdad-cb9b-49b7-b7ef-9b0bef477e8d</ID>
     <Name>Ultratron</Name>
     <ProcessName>java32</ProcessName>
@@ -5094,7 +5178,7 @@
   <Game>
     <ID>062ac4a9-19c2-45de-ac2b-c223c39d00d7</ID>
     <Name>Unepic</Name>
-    <ProcessName>unepic64(32|64)(gog|s)</ProcessName>
+    <ProcessName>unepic(32|64)(gog|s)</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/Unepic/unepic</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -5112,10 +5196,10 @@
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>SteamCloud</Name>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
-        <Name>Steam</Name>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
