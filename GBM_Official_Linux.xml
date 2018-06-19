@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official_Linux.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1529091725" TotalConfigurations="241" AppVer="112">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1529375517" TotalConfigurations="271" AppVer="112">
   <Game>
     <ID>bbf8e00a-d7b8-46a5-b52c-8ba886b8c38a</ID>
     <Name>0 AD</Name>
@@ -359,8 +359,8 @@
     <Parameter />
     <Path>*mydocs*/.renpy/Remember_Me-1.3</Path>
     <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType>1-*.save</FileType>
+    <FolderSave>false</FolderSave>
+    <FileType>*.save:persistent</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -374,6 +374,9 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Ren'Py</Name>
       </Tag>
     </Tags>
   </Game>
@@ -428,8 +431,8 @@
     <Parameter>Analogue.py</Parameter>
     <Path>*mydocs*/.renpy/Analogue</Path>
     <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType>1-*.save</FileType>
+    <FolderSave>false</FolderSave>
+    <FileType>*.save:persistent</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -443,6 +446,9 @@
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Ren'Py</Name>
       </Tag>
     </Tags>
   </Game>
@@ -609,6 +615,31 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>31579695-83c4-4e4d-b429-51d24afea24b</ID>
+    <Name>Aragami</Name>
+    <ProcessName>Aragami\.x86(_64)?</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/Lince Works/Aragami/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>SaveGame.dat</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -986,6 +1017,32 @@
     </Tags>
   </Game>
   <Game>
+    <ID>7b05c10e-cd7b-4d1c-9d20-7ebd90fc9ecb</ID>
+    <Name>Beholder</Name>
+    <ProcessName>Beholder\.x86(_64)?</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/Warm Lamp Games/Beholder/Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>/home/dabascht/Warm Lamp Games/Beholder/Saves
+/home/dabascht/.config/unity3d/Warm Lamp Games/Beholder</Comments>
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>4e6c64f8-8a9a-4853-9c07-e8f49b78d116</ID>
     <Name>Beneath a Steel Sky</Name>
     <ProcessName>scummvm</ProcessName>
@@ -1037,7 +1094,7 @@
     <Path>RuntimeData/Save</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
-    <FileType>*.save:*.profile</FileType>
+    <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -1051,6 +1108,35 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>02af5949-a0ab-4782-afbb-ac63d3cb68cb</ID>
+    <Name>Bioshock Infinite</Name>
+    <ProcessName>bioshock.i386</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/irrationalgames/bioshockinfinite/GameDocuments/My Games/BioShock Infinite/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments>cloud only
+multiple savegames not possible</Comments>
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>eON</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1346,6 +1432,28 @@
     </Tags>
   </Game>
   <Game>
+    <ID>3aa161d1-d495-4fdb-97fc-20bf3ec925d6</ID>
+    <Name>Broken Sword 1 - Shadow of the Templars: Director's Cut</Name>
+    <ProcessName>bs1dc_(i386|x86_64)</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.bs1dc</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>BS1SAVE.*</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>7811e275-fd38-441e-bc4c-f65570793b83</ID>
     <Name>Brütal Legend</Name>
     <ProcessName>Buddha.bin.x86</ProcessName>
@@ -1500,6 +1608,31 @@
     <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>7ec3b41a-c40b-484d-87fb-f4354c3577ed</ID>
+    <Name>Chivalry: Madieval Warfare</Name>
+    <ProcessName>UDKGame-Linux</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/TornBanner/Chivalry/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments>multiplayer only</Comments>
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
@@ -1809,6 +1942,31 @@
     </Tags>
   </Game>
   <Game>
+    <ID>ab4d9b4d-5bc6-431c-9894-9119a6237c28</ID>
+    <Name>Darkest Hour: Europe '44-'45</Name>
+    <ProcessName>redorchestra-bin</ProcessName>
+    <Parameter>-mod=DarkestHour</Parameter>
+    <Path>*mydocs*/.redorchestra/DarkestHour</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Mod</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>2be7ea37-b3b0-4222-b4ff-f564868c50ab</ID>
     <Name>Defend Your Life!</Name>
     <ProcessName>dyl.x86</ProcessName>
@@ -1941,7 +2099,7 @@
     <Path>*mydocs*/.renpy/DDLC-1454445547/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
-    <FileType>*.save</FileType>
+    <FileType>*.save:persistent</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -1952,6 +2110,9 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Ren'Py</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2006,8 +2167,8 @@
     <Parameter />
     <Path>*appdataroaming*/unity3d/Red Thread Games/Dreamfall Chapters</Path>
     <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
+    <FolderSave>false</FolderSave>
+    <FileType>*.data</FileType>
     <ExcludeList>prefs</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -2018,6 +2179,12 @@
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2165,6 +2332,31 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>9bc37680-8b45-45e4-84db-23258ed4d540</ID>
+    <Name>Epistory - Typing Chronicles</Name>
+    <ProcessName>Epistory\.x86(_64)?</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/Fishing Cactus/Epistory/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.bin</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2492,6 +2684,31 @@
     </Tags>
   </Game>
   <Game>
+    <ID>3ddeb6f5-00ab-45d0-845f-1b5943338152</ID>
+    <Name>Guacamelee! Gold Edition</Name>
+    <ProcessName>game-bin</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/Drinkbox Studios/Guacamelee/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments>Savegames only in steam cloud</Comments>
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>9210d55b-a08a-4e73-aacc-ad1d59a30cfb</ID>
     <Name>Gunroar</Name>
     <ProcessName>gunroar</ProcessName>
@@ -2514,6 +2731,31 @@
     </Tags>
   </Game>
   <Game>
+    <ID>82bd77fd-de5f-4460-bb84-afbb30481a31</ID>
+    <Name>Half-Life 2</Name>
+    <ProcessName>hl2_linux</ProcessName>
+    <Parameter>-game hl2</Parameter>
+    <Path>hl2/save/</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>84c6670e-8055-4138-83ab-8972049a7846</ID>
     <Name>Hammerwatch</Name>
     <ProcessName>Hammerwatch\.bin\.x86(_64)?</ProcessName>
@@ -2527,6 +2769,31 @@
     <Comments />
     <IsRegEx>true</IsRegEx>
     <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>931d1787-e94b-4f8f-9f23-ba9f29905f6b</ID>
+    <Name>Hand of Fate</Name>
+    <ProcessName>Hand of Fate\.x86(_64)?</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/Defiant Development/Hand of Fate</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.profile</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
@@ -2573,6 +2840,109 @@
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>2258fe5b-1afa-49f2-8f7f-b979b28fd0be</ID>
+    <Name>Heileen 1: Sail Away</Name>
+    <ProcessName>Heileen</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.renpy/Heileen-1.0</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.save:persistent</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Ren'Py</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>a3567f07-101b-4f0c-9c27-d295d73b03ac</ID>
+    <Name>Heileen 2: The Hands Of Fate</Name>
+    <ProcessName>Heileen2</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.renpy/Heileen-2.0</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.save:persistent</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Ren'Py</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>bde29d08-97b1-428b-87fb-85933bb28582</ID>
+    <Name>Hero Siege</Name>
+    <ProcessName>Hero_Siege</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/Hero_Siege/save_folder</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>be08237d-e025-404d-abc9-b1be490965e4</ID>
+    <Name>Hiveswap: Act 1</Name>
+    <ProcessName>Hiveswap-Act1\.x86(_64)?</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/What Pumpkin/Hiveswap Episode 1/Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -2794,7 +3164,7 @@
   </Game>
   <Game>
     <ID>bbb599ca-b744-4637-a472-cd9a3310737e</ID>
-    <Name>Kingdom Rush Frontiers</Name>
+    <Name>Kingdom Rush: Frontiers</Name>
     <ProcessName>krf-love</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/kingdom_rush_frontiers</Path>
@@ -2906,6 +3276,56 @@
     </Tags>
   </Game>
   <Game>
+    <ID>34342762-c6f2-4b45-864c-b598fafed1e8</ID>
+    <Name>Lara Croft GO</Name>
+    <ProcessName>Lara Croft GO\.x86(_64)?</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/Square Enix Ltd_/Lara Croft GO/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>SaveData*.runtime</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>669a746e-bd2d-4623-8530-887aa85eec33</ID>
+    <Name>Life Is Strange™</Name>
+    <ProcessName>LifeIsStrange</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/feral-interactive/Life Is Strange/VFS/Local/My Games/Life Is Strange/Saves/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>LISSave*.sav</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>7933ddd4-2c60-4b1d-9291-71f80fd41d1c</ID>
     <Name>Little Inferno</Name>
     <ProcessName>LittleInferno.bin.x86</ProcessName>
@@ -2965,6 +3385,31 @@
     <Tags>
       <Tag>
         <Name>ScummVM</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>c53af672-d1dc-4fb3-bbfb-9bce9fb4aebb</ID>
+    <Name>Magicka 2</Name>
+    <ProcessName>Magicka2_x64</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.bitsquid/Magicka2/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -3047,6 +3492,29 @@
     </Tags>
   </Game>
   <Game>
+    <ID>b8f5adaf-eeab-49f6-9417-567fd4499681</ID>
+    <Name>Megabyte Punch</Name>
+    <ProcessName>MegabytePunch.x86</ProcessName>
+    <Parameter />
+    <Path>./</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>save</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>Deletes savegame file when uninstalled
+Steamcloud not working</Comments>
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>ff554079-c538-43f9-9703-029edc1d8672</ID>
     <Name>Metro 2033 Redux</Name>
     <ProcessName>metro</ProcessName>
@@ -3055,7 +3523,7 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>2033_auto_save:*.player</FileType>
-    <ExcludeList />
+    <ExcludeList>2033:steam_shader_cache:*.sh:*.vfx:*.vfs0:*.vfs1:*.so:metro:*.ogv:*.ogl:*.txt:*.bin:*.cfg</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -3466,7 +3934,7 @@
   <Game>
     <ID>b290e580-bacd-4ea6-ac3c-9b7dc3132148</ID>
     <Name>Outlast</Name>
-    <ProcessName>OLGame.x86_64</ProcessName>
+    <ProcessName>OLGame\.(i686|x86_64)</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/Outlast/OLGame/Cloud</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -3475,7 +3943,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3680,6 +4148,84 @@
     </Tags>
   </Game>
   <Game>
+    <ID>1dc05707-036f-4091-9756-c6bad31eb19d</ID>
+    <Name>Portal</Name>
+    <ProcessName>hl2_linux</ProcessName>
+    <Parameter>-game portal</Parameter>
+    <Path>portal/save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>669a08cc-3baa-4d46-8f2c-481c61d56132</ID>
+    <Name>Portal 2</Name>
+    <ProcessName>portal2_linux</ProcessName>
+    <Parameter>-game portal2</Parameter>
+    <Path>portal2/save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>734ae47e-93e1-4922-b8d0-a067b13e7dd2</ID>
+    <Name>Portal Stories: Mel</Name>
+    <ProcessName>portal2_linux</ProcessName>
+    <Parameter>-game portal_stories</Parameter>
+    <Path>portal_stories/SAVE</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Mod</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>0e2223ba-7814-4eb0-bbee-4fd169daa527</ID>
     <Name>Prey</Name>
     <ProcessName>prey.x86</ProcessName>
@@ -3837,6 +4383,28 @@
     </Tags>
   </Game>
   <Game>
+    <ID>591263a6-ed1b-4a10-87b4-f65d0a5be571</ID>
+    <Name>Red Orchestra: Ostfront 41-45</Name>
+    <ProcessName>redorchestra-bin</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.redorchestra/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>2fd0920c-5b3f-40b5-8d8d-acb446b4b948</ID>
     <Name>Resonance</Name>
     <ProcessName>Resonance.bin.x86_64</ProcessName>
@@ -3902,6 +4470,34 @@
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>3aaed395-3e55-40f8-8fd9-4928d5a30dd9</ID>
+    <Name>Rexaura</Name>
+    <ProcessName>hl2_linux</ProcessName>
+    <Parameter>-game rexaura</Parameter>
+    <Path>./rexaura/save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Mod</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3985,6 +4581,31 @@
     <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>a1293ca3-7d86-4f6d-b7f3-b867123cd072</ID>
+    <Name>Saints Row 2</Name>
+    <ProcessName>saintsrow2.i386</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/volition/saintsrow2/AppData/Saints Row 2/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.bbsave</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
       <Tag>
         <Name>Steam</Name>
       </Tag>
@@ -4364,6 +4985,31 @@
     </Tags>
   </Game>
   <Game>
+    <ID>ce110172-0736-4926-8856-e84b5a46e096</ID>
+    <Name>Slime Rancher</Name>
+    <ProcessName>SlimeRancher\.x86(_64)?</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/Monomi Park/Slime Rancher</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>d8725a69-548e-492d-aed4-747ba2de52e4</ID>
     <Name>Spec Ops The Line</Name>
     <ProcessName>specops.i386</ProcessName>
@@ -4536,6 +5182,31 @@
     </Tags>
   </Game>
   <Game>
+    <ID>e7e85a27-63e5-489a-8cae-688354c50e6c</ID>
+    <Name>SteamWorld Dig</Name>
+    <ProcessName>SteamWorldDig</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/SteamWorldDig/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>profile_*.xml:session.xml</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>723d0959-cb60-4824-97d6-ccc87f1b4f60</ID>
     <Name>Super Hexagon</Name>
     <ProcessName>SuperHexagon</ProcessName>
@@ -4624,6 +5295,28 @@
     </Tags>
   </Game>
   <Game>
+    <ID>0370be81-8eb0-4931-9360-0359cb166460</ID>
+    <Name>Superhot</Name>
+    <ProcessName>SUPERHOT.x86_64</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/SUPERHOT_Team/SUPERHOT</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>super.hot</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>2dcae4f8-2013-4895-9c3e-9b1997bd2640</ID>
     <Name>Surgeon Simulator 2013</Name>
     <ProcessName>ss2013.bin</ProcessName>
@@ -4689,6 +5382,31 @@
       </Tag>
       <Tag>
         <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>be899259-68b7-4b99-9c6c-83c66dd5641b</ID>
+    <Name>Teslagrad</Name>
+    <ProcessName>Teslagrad</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/Rain/Teslagrad/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments>steam cloud only</Comments>
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -4850,6 +5568,31 @@
     </Tags>
   </Game>
   <Game>
+    <ID>85513d69-d7eb-4366-baa8-79697584b46c</ID>
+    <Name>Tiny and Big: Grandpa's Leftovers</Name>
+    <ProcessName>tinyandbig</ProcessName>
+    <Parameter />
+    <Path>./</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.save</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>18e1186b-fd29-4a5c-ac35-d4270b916d7d</ID>
     <Name>Titan Attacks</Name>
     <ProcessName>java32</ProcessName>
@@ -4943,22 +5686,25 @@
   <Game>
     <ID>78a1c0ed-effa-4dd7-8520-ca9283035d60</ID>
     <Name>Torchlight II</Name>
-    <ProcessName>Torchlight2.bin.x86_64</ProcessName>
+    <ProcessName>Torchlight2\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path />
+    <Path>./my games/runic games/torchlight 2/save</Path>
     <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
+    <FolderSave>false</FolderSave>
+    <FileType>*.svb:sharedstash*.bin</FileType>
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5172,6 +5918,34 @@
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>ac5c5c25-3cb8-4fc9-a930-95b5c17c70e5</ID>
+    <Name>Undertale</Name>
+    <ProcessName>runner</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/UNDERTALE</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>file*:undertale.ini</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>steam cloud does not store savegames</Comments>
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>GameMaker</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
