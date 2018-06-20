@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official_Linux.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1529375517" TotalConfigurations="271" AppVer="112">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1529520891" TotalConfigurations="282" AppVer="112">
   <Game>
     <ID>bbf8e00a-d7b8-46a5-b52c-8ba886b8c38a</ID>
     <Name>0 AD</Name>
@@ -192,7 +192,7 @@
   <Game>
     <ID>a60e78c5-bcb8-4667-9545-dadb62deceeb</ID>
     <Name>AI War - Fleet Command</Name>
-    <ProcessName>AIWarLinux.x86_64</ProcessName>
+    <ProcessName>AIWarLinux\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>RuntimeData/Save</Path>
     <AbsolutePath>false</AbsolutePath>
@@ -201,13 +201,16 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Humble</Name>
       </Tag>
     </Tags>
   </Game>
@@ -360,7 +363,7 @@
     <Path>*mydocs*/.renpy/Remember_Me-1.3</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
-    <FileType>*.save:persistent</FileType>
+    <FileType>*.save</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -422,6 +425,9 @@
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -432,7 +438,7 @@
     <Path>*mydocs*/.renpy/Analogue</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
-    <FileType>*.save:persistent</FileType>
+    <FileType>*.save</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -1451,6 +1457,9 @@ multiple savegames not possible</Comments>
       <Tag>
         <Name>Official</Name>
       </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -1462,9 +1471,10 @@ multiple savegames not possible</Comments>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.sav</FileType>
-    <ExcludeList />
+    <ExcludeList>prefs.sav</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
+    <Comments>Steam uses a subfolder for each user and gog only the main directory.
+Saves must be moved manually between those versions.</Comments>
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -1475,6 +1485,9 @@ multiple savegames not possible</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1816,7 +1829,7 @@ multiple savegames not possible</Comments>
   <Game>
     <ID>faa9fbcf-7ad8-4cbb-af55-c57a91ef2317</ID>
     <Name>Covert Action</Name>
-    <ProcessName>dosbox</ProcessName>
+    <ProcessName>dosbox(_i686|_x86_64)?</ProcessName>
     <Parameter>dosbox_smcovert.conf</Parameter>
     <Path>../MPS/COVERT</Path>
     <AbsolutePath>false</AbsolutePath>
@@ -1825,7 +1838,7 @@ multiple savegames not possible</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -2099,7 +2112,7 @@ multiple savegames not possible</Comments>
     <Path>*mydocs*/.renpy/DDLC-1454445547/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
-    <FileType>*.save:persistent</FileType>
+    <FileType>*.save</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -2214,11 +2227,58 @@ multiple savegames not possible</Comments>
     </Tags>
   </Game>
   <Game>
-    <ID>a10edbff-d8aa-4d05-99ee-71ee77ab003c</ID>
-    <Name>Dungeons 2</Name>
+    <ID>4cc76b04-4643-4c0a-a11d-918ef88947ae</ID>
+    <Name>Duke Nukem 3D Atomic Edition</Name>
+    <ProcessName>dosbox(_i686|_x86_64)?</ProcessName>
+    <Parameter>dosboxDuke3D.conf</Parameter>
+    <Path>../data/</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>GAME*.SAV</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>5e73d2da-79b9-4d60-8fb1-0521089d3603</ID>
+    <Name>Dungeons 2 (gog)</Name>
     <ProcessName>Dungeons2(\.x86_64)?</ProcessName>
     <Parameter />
-    <Path>savegames/</Path>
+    <Path>*appdataroaming*/Kalypso Media/Dungeons 2/savegames</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.d2z</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>a10edbff-d8aa-4d05-99ee-71ee77ab003c</ID>
+    <Name>Dungeons 2 (steam)</Name>
+    <ProcessName>Dungeons2(\.x86_64)?</ProcessName>
+    <Parameter />
+    <Path>./savegames/</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <FileType>*.d2z</FileType>
@@ -2232,6 +2292,9 @@ multiple savegames not possible</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2407,7 +2470,7 @@ multiple savegames not possible</Comments>
   <Game>
     <ID>655df73e-120b-45b1-b7ec-6919eab0f496</ID>
     <Name>Eye of the Beholder</Name>
-    <ProcessName>dosbox_x86_64</ProcessName>
+    <ProcessName>dosbox(_i686|_x86_64)?</ProcessName>
     <Parameter />
     <Path>../data</Path>
     <AbsolutePath>false</AbsolutePath>
@@ -2416,7 +2479,7 @@ multiple savegames not possible</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -2457,7 +2520,7 @@ multiple savegames not possible</Comments>
   <Game>
     <ID>b01d677e-dd1f-4591-a8e9-fb29d74f1ce4</ID>
     <Name>FTL: Faster Than Light</Name>
-    <ProcessName>FTL</ProcessName>
+    <ProcessName>FTL(\.amd64|\.x86)?</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/FasterThanLight</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -2466,7 +2529,7 @@ multiple savegames not possible</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2476,6 +2539,12 @@ multiple savegames not possible</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Humble</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2800,6 +2869,9 @@ multiple savegames not possible</Comments>
       <Tag>
         <Name>Official</Name>
       </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -2854,7 +2926,7 @@ multiple savegames not possible</Comments>
     <Path>*mydocs*/.renpy/Heileen-1.0</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
-    <FileType>*.save:persistent</FileType>
+    <FileType>*.save</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -2882,7 +2954,7 @@ multiple savegames not possible</Comments>
     <Path>*mydocs*/.renpy/Heileen-2.0</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
-    <FileType>*.save:persistent</FileType>
+    <FileType>*.save</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -2977,7 +3049,7 @@ multiple savegames not possible</Comments>
   <Game>
     <ID>01ae7fc8-7996-4ea9-8638-f96e067b8569</ID>
     <Name>I Have No Mouth and I Must Scream</Name>
-    <ProcessName>dosbox_x86_64</ProcessName>
+    <ProcessName>dosbox(_i686|_x86_64)?</ProcessName>
     <Parameter />
     <Path>../data/SCREAM</Path>
     <AbsolutePath>false</AbsolutePath>
@@ -2986,7 +3058,7 @@ multiple savegames not possible</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3936,10 +4008,10 @@ Steamcloud not working</Comments>
     <Name>Outlast</Name>
     <ProcessName>OLGame\.(i686|x86_64)</ProcessName>
     <Parameter />
-    <Path>*appdatalocal*/Outlast/OLGame/Cloud</Path>
+    <Path>*appdatalocal*/Outlast/OLGame/</Path>
     <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav:*.olprofile</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -3953,6 +4025,9 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4114,7 +4189,7 @@ Steamcloud not working</Comments>
     <FileType>*_SHOOTERSAVEGAME</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
+    <Comments>Steam has special savegame for each user</Comments>
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -4122,6 +4197,12 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4272,7 +4353,7 @@ Steamcloud not working</Comments>
   <Game>
     <ID>b9549e56-d052-4cb8-9601-b961fde0df54</ID>
     <Name>Prison Architect</Name>
-    <ProcessName>PrisonArchitect.x86_64</ProcessName>
+    <ProcessName>PrisonArchitect\.(i686|x86_64)</ProcessName>
     <Parameter />
     <Path>*mydocs*/.Prison Architect</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -4281,13 +4362,16 @@ Steamcloud not working</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4310,6 +4394,34 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>7c1849b3-908f-4c46-b1f8-2e323a323d7e</ID>
+    <Name>Punch Club</Name>
+    <ProcessName>Punch Club\.x86(_64)?</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/Lazy Bear Games/Punch Club</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>save_*.dat</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4442,6 +4554,28 @@ Steamcloud not working</Comments>
     <Tags>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>ff5da22f-b054-4923-bf93-db7b606bd1b8</ID>
+    <Name>Return of Dr. Destructo</Name>
+    <ProcessName>DrDestructo2</ProcessName>
+    <Parameter />
+    <Path>./</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>player.xml</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -4587,6 +4721,9 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>Official</Name>
       </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -4680,6 +4817,31 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>8beb22f7-e36d-4dc5-abf7-1b38bc22d9c6</ID>
+    <Name>Shadow Warrior Classic</Name>
+    <ProcessName>dosbox(_i686|_x86_64)?</ProcessName>
+    <Parameter>dosbox_swarrior.conf</Parameter>
+    <Path>../data/</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>GAME*.SAV</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5084,7 +5246,7 @@ Steamcloud not working</Comments>
   <Game>
     <ID>ecc1a858-d2c2-4472-85ef-0b7c581631ba</ID>
     <Name>Star Trek - 25th Anniversary</Name>
-    <ProcessName>dosbox_x86_64</ProcessName>
+    <ProcessName>dosbox(_i686|_x86_64)?</ProcessName>
     <Parameter />
     <Path>../data/ENG/TREKCD</Path>
     <AbsolutePath>false</AbsolutePath>
@@ -5093,7 +5255,7 @@ Steamcloud not working</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -5109,7 +5271,7 @@ Steamcloud not working</Comments>
   <Game>
     <ID>962730fa-c654-4e87-89bd-9032745d49c1</ID>
     <Name>Star Trek - Judgement Rites</Name>
-    <ProcessName>dosbox_x86_64</ProcessName>
+    <ProcessName>dosbox(_i686|_x86_64)?</ProcessName>
     <Parameter />
     <Path>../data/TREK2</Path>
     <AbsolutePath>false</AbsolutePath>
@@ -5118,10 +5280,36 @@ Steamcloud not working</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>86c6ef0f-6dc3-44af-8fe5-da29ed18fc90</ID>
+    <Name>Star Wars: Dark Forces</Name>
+    <ProcessName>dosbox(_i686|_x86_64)?</ProcessName>
+    <Parameter>DARK.EXE</Parameter>
+    <Path>DARKPILO.CFG</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments>Steam offers only a windows version, data must be run with native dosbox.
+GBM can not determine the location of the config file.</Comments>
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>DOSBox</Name>
@@ -5200,6 +5388,28 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>af972c36-4b7c-48cf-a985-d2d5766581e4</ID>
+    <Name>Strike Suit Zero</Name>
+    <ProcessName>StrikeSuitZero</ProcessName>
+    <Parameter />
+    <Path>./</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList>settings.sav</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Humble</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -5432,6 +5642,28 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>FLOSS</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>2513efef-6fd3-4a16-80da-af08ee9ec870</ID>
+    <Name>The King of Fighters 2002</Name>
+    <ProcessName>KingOfFighters2002</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/SNK/kof2k2nd</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>SAVEGAME</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5680,6 +5912,28 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>3b552328-9b22-43a6-93dc-057c592beb4c</ID>
+    <Name>Torchlight</Name>
+    <ProcessName>Torchlight.bin.x86_64</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.runicgames/Torchlight/Save/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.svt:sharedstash.bin</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Humble</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6088,6 +6342,9 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>GOG</Name>
       </Tag>
+      <Tag>
+        <Name>Humble</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -6115,7 +6372,7 @@ Steamcloud not working</Comments>
   <Game>
     <ID>67c5cce2-d140-44d5-8046-91a682abc9e6</ID>
     <Name>Warsow</Name>
-    <ProcessName>warsow</ProcessName>
+    <ProcessName>warsow\.(i386|x86_64)?</ProcessName>
     <Parameter />
     <Path />
     <AbsolutePath>false</AbsolutePath>
@@ -6124,6 +6381,31 @@ Steamcloud not working</Comments>
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>014560cf-5156-4e42-9eeb-fd77c3c76593</ID>
+    <Name>Warzone 2100</Name>
+    <ProcessName>warzone2100</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.warzone2100-3.2</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>userdata:savegames</FileType>
+    <ExcludeList>logs:maps:mods:multiplay:music:screenshots:userdata:config:*.map</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>Each version has own savegames</Comments>
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -6341,22 +6623,25 @@ Steamcloud not working</Comments>
   <Game>
     <ID>40dbab04-46af-49be-84da-521489613466</ID>
     <Name>Ziggurat</Name>
-    <ProcessName>Ziggurat.x86_64</ProcessName>
+    <ProcessName>Ziggurat\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdataroaming*/unity3d/Milkstone Studios/Ziggurat</Path>
     <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
+    <FolderSave>false</FolderSave>
+    <FileType>savegame.xml:awards.xml:unlock_data.xml:stats.xml:weapon_stats.xml</FileType>
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6382,6 +6667,35 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>416680</ID>
+    <Name>Zombie Night Terror</Name>
+    <ProcessName>znt\.x86(_64)?</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/NoClip/Zombie Night Terror/Users</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>Steam uses a subfolder for each user and gog only the main directory.
+Saves must be moved manually between those versions.</Comments>
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
