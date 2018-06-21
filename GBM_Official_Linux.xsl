@@ -51,19 +51,34 @@
                             <xsl:for-each select="Tag">
                               <xsl:sort select="Name" />
                               <xsl:if test="Name='GOG'">
-                                <img class="logo_tiny" src="images/gog_logo_tiny.png" width="24" height="24" alt="GOG" title="GOG" />
+                                <a>
+                                  <xsl:attribute name="href">https://www.gog.com/games?sort=popularity&amp;search=<xsl:value-of select="../../Name"/>&amp;page=1</xsl:attribute>
+                                  <img class="logo_tiny" src="images/gog_logo_tiny.png" width="24" height="24" alt="GOG" title="GOG" />
+                                </a>
                               </xsl:if>
                               <xsl:if test="Name='Steam'">
-                                <img class="logo_tiny" src="images/steam_logo_tiny.png" width="24" height="24" alt="Steam" title="Steam" />
+                                <a>
+                                  <xsl:attribute name="href">https://store.steampowered.com/search/?term=<xsl:value-of select="../../Name"/></xsl:attribute>
+                                  <img class="logo_tiny" src="images/steam_logo_tiny.png" width="24" height="24" alt="Steam" title="Steam" />
+                                </a>
                               </xsl:if>
                               <xsl:if test="Name='Humble'">
-                                <img class="logo_tiny" src="images/humble_logo_tiny.png" width="24" height="24" alt="Humble" title="Humble" />
+                                <a>
+                                  <xsl:attribute name="href">https://www.humblebundle.com/store/search?sort=bestselling&amp;search=<xsl:value-of select="../../Name"/></xsl:attribute>
+                                  <img class="logo_tiny" src="images/humble_logo_tiny.png" width="24" height="24" alt="Humble" title="Humble" />
+                                </a>
                               </xsl:if>
                               <xsl:if test="Name='Itch.io'">
-                                <img class="logo_tiny" src="images/itchio_logo_tiny.png" width="24" height="24" alt="Itch.io" title="Itch.io" />
+                                <a>
+                                  <xsl:attribute name="href">https://itch.io/search?q=<xsl:value-of select="../../Name"/></xsl:attribute>
+                                  <img class="logo_tiny" src="images/itchio_logo_tiny.png" width="24" height="24" alt="Itch.io" title="Itch.io" />
+                                </a>
                               </xsl:if>
                               <xsl:if test="Name='Origin'">
-                                <img class="logo_tiny" src="images/origin_logo_tiny.png" width="20" height="24" alt="Origin" title="Origin" />
+                                <a>
+                                  <xsl:attribute name="href">https://www.origin.com/usa/en-us/search?searchString=<xsl:value-of select="../../Name"/></xsl:attribute>
+                                  <img class="logo_tiny" src="images/origin_logo_tiny.png" width="20" height="24" alt="Origin" title="Origin" />
+                                </a>
                               </xsl:if>
                               <xsl:if test="Name='Blizzard'">
                                 <img class="logo_tiny" src="images/bnet_logo_tiny.png" width="24" height="24" alt="Blizzard" title="Blizzard" />
