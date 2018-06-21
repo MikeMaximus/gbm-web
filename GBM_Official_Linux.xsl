@@ -51,47 +51,55 @@
                             <xsl:for-each select="Tag">
                               <xsl:sort select="Name" />
                               <xsl:if test="Name='GOG'">
-                                <img class="logo_tiny" src="images/gog_logo_tiny.png" width="24" height="24" alt="GOG" />
+                                <img class="logo_tiny" src="images/gog_logo_tiny.png" width="24" height="24" alt="GOG" title="GOG" />
                               </xsl:if>
                               <xsl:if test="Name='Steam'">
-                                <img class="logo_tiny" src="images/steam_logo_tiny.png" width="24" height="24" alt="Steam" />
+                                <img class="logo_tiny" src="images/steam_logo_tiny.png" width="24" height="24" alt="Steam" title="Steam" />
+                              </xsl:if>
+                              <xsl:if test="Name='Humble'">
+                                <img class="logo_tiny" src="images/humble_logo_tiny.png" width="24" height="24" alt="Humble" title="Humble" />
+                              </xsl:if>
+                              <xsl:if test="Name='Itch.io'">
+                                <img class="logo_tiny" src="images/itchio_logo_tiny.png" width="24" height="24" alt="Itch.io" title="Itch.io" />
                               </xsl:if>
                               <xsl:if test="Name='Origin'">
-                                <img class="logo_tiny" src="images/origin_logo_tiny.png" width="20" height="24" alt="Origin" />
+                                <img class="logo_tiny" src="images/origin_logo_tiny.png" width="20" height="24" alt="Origin" title="Origin" />
                               </xsl:if>
                               <xsl:if test="Name='Blizzard'">
-                                <img class="logo_tiny" src="images/bnet_logo_tiny.png" width="24" height="24" alt="Blizzard" />
+                                <img class="logo_tiny" src="images/bnet_logo_tiny.png" width="24" height="24" alt="Blizzard" title="Blizzard" />
                               </xsl:if>
                               <xsl:if test="Name='Retail'">
-                                <img class="logo_tiny" src="images/retail_logo_tiny.png" width="24" height="24" alt="Retail" />
+                                <img class="logo_tiny" src="images/retail_logo_tiny.png" width="24" height="24" alt="Retail" title="Retail" />
                               </xsl:if>
                               <xsl:if test="Name='DOSBox'">
-                                <img class="logo_tiny" src="images/dosbox_logo_tiny.png" width="24" height="24" alt="DOSBox" />
+                                <img class="logo_tiny" src="images/dosbox_logo_tiny.png" width="24" height="24" alt="DOSBox" title="DOSBox" />
                               </xsl:if>
                               <xsl:if test="Name='ScummVM'">
-                                <img class="logo_tiny" src="images/scumm_logo_tiny.png" width="24" height="24" alt="ScummVM" />
+                                <img class="logo_tiny" src="images/scumm_logo_tiny.png" width="24" height="24" alt="ScummVM" title="ScummVM" />
                               </xsl:if>
                               <xsl:if test="Name='FLOSS'">
-                                <img class="logo_tiny" src="images/floss_logo_tiny.png" width="24" height="24" alt="FLOSS" />
-                              </xsl:if>
-                              <xsl:if test="Name='Tracking'">
-                                <img class="logo_tiny" src="images/tracking_tiny.png" width="24" height="24" alt="Tracking" />
+                                <img class="logo_tiny" src="images/floss_logo_tiny.png" width="24" height="24" alt="FLOSS" title="FLOSS" />
                               </xsl:if>
                             </xsl:for-each>
                           </xsl:for-each>
+                          <xsl:if test="MonitorOnly='true'">
+                            <img class="logo_tiny" src="images/tracking_tiny.png" width="24" height="24" alt="Tracking" title="Tracking" />
+                          </xsl:if>
                         </td>
                         <td>                          
                           <ul class="tree">
                           <li>
                             <input type="checkbox"><xsl:attribute name="id"><xsl:value-of select="Name"/><xsl:value-of select="ProcessName"/></xsl:attribute></input>
-                            <label class="tree_label"><xsl:attribute name="for"><xsl:value-of select="Name"/><xsl:value-of select="ProcessName"/></xsl:attribute><xsl:value-of select="Name" /></label>
+                            <label class="tree_label"><xsl:attribute name="title">ID: <xsl:value-of select="ID"/></xsl:attribute><xsl:attribute name="for"><xsl:value-of select="Name"/><xsl:value-of select="ProcessName"/></xsl:attribute><xsl:value-of select="Name" /></label>
                             <ul>
                               <li><span class="tree_label"><b>Monitored Process</b></span><div class="indent"><xsl:value-of select="ProcessName" /><xsl:if test="Parameter != ''"> (<xsl:value-of select="Parameter" />)</xsl:if></div></li>
-                              <li><span class="tree_label"><b>Save Location</b></span><div class="indent"><xsl:if test="Path = ''">*Process Location*</xsl:if><xsl:if test="Path != ''"><xsl:value-of select="Path" /></xsl:if></div></li>
-                              <li><span class="tree_label"><b>Absolute Path</b></span><div class="indent"><xsl:if test="AbsolutePath = 'true'">Yes</xsl:if><xsl:if test="AbsolutePath = 'false'">No</xsl:if></div></li>
-                              <li><span class="tree_label"><b>Save Entire Folder</b></span><div class="indent"><xsl:if test="FolderSave = 'true'">Yes</xsl:if><xsl:if test="FolderSave = 'false'">No</xsl:if></div></li>
-                              <li><span class="tree_label"><b>Include Specific Files</b></span><div class="indent"><xsl:if test="FileType = ''">None</xsl:if><xsl:value-of select="FileType" /></div></li>
-                              <li><span class="tree_label"><b>Exclude Specific Files</b></span><div class="indent"><xsl:if test="ExcludeList = ''">None</xsl:if><xsl:value-of select="ExcludeList" /></div></li>
+                                <xsl:if test="MonitorOnly='false'">
+                                <li><span class="tree_label"><b>Save Location</b></span><div class="indent"><xsl:if test="Path = ''">*Process Location*</xsl:if><xsl:if test="Path != ''"><xsl:value-of select="Path" /></xsl:if></div></li>
+                                <li><span class="tree_label"><b>Absolute Path</b></span><div class="indent"><xsl:if test="AbsolutePath = 'true'">Yes</xsl:if><xsl:if test="AbsolutePath = 'false'">No</xsl:if></div></li>
+                                <li><span class="tree_label"><b>Save Entire Folder</b></span><div class="indent"><xsl:if test="FolderSave = 'true'">Yes</xsl:if><xsl:if test="FolderSave = 'false'">No</xsl:if></div></li>
+                                <li><span class="tree_label"><b>Include Specific Files</b></span><div class="indent"><xsl:if test="FileType = ''">None</xsl:if><xsl:value-of select="FileType" /></div></li>
+                                <li><span class="tree_label"><b>Exclude Specific Files</b></span><div class="indent"><xsl:if test="ExcludeList = ''">None</xsl:if><xsl:value-of select="ExcludeList" /></div></li>
+                              </xsl:if>
                               <xsl:if test="Comments"><li><span class="tree_label"><b>Comments</b></span><div class="indent"><xsl:if test="Comments = ''">None</xsl:if><xsl:value-of select="Comments" /></div></li></xsl:if>
                               <li><span class="tree_label"><b>Tags</b></span><div class="indent"><xsl:for-each select="Tags"><xsl:for-each select="Tag">#<xsl:value-of select="Name" />&#160;</xsl:for-each></xsl:for-each></div></li>   
                             </ul>
