@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official_Linux.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1529520891" TotalConfigurations="282" AppVer="112">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1529697721" TotalConfigurations="285" AppVer="112">
   <Game>
     <ID>bbf8e00a-d7b8-46a5-b52c-8ba886b8c38a</ID>
     <Name>0 AD</Name>
@@ -80,7 +80,7 @@
     <FolderSave>false</FolderSave>
     <FileType>*.rxdata</FileType>
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <Tags>
@@ -178,7 +178,7 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
-    <Comments />
+    <Comments>Does not store saves</Comments>
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -344,7 +344,7 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
-    <Comments />
+    <Comments>multiplayer</Comments>
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -607,12 +607,12 @@
     <Name>Aquaria</Name>
     <ProcessName>aquaria</ProcessName>
     <Parameter />
-    <Path>*appdatalocal*/Aquaria</Path>
+    <Path>*mydocs*/.Aquaria/save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
@@ -939,7 +939,8 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
-    <Comments />
+    <Comments>cloud only
+no DRM-free version</Comments>
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -1115,6 +1116,9 @@
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>Humble</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -1129,6 +1133,7 @@
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments>cloud only
+no DRM-free version
 multiple savegames not possible</Comments>
     <IsRegEx>false</IsRegEx>
     <Tags>
@@ -1393,16 +1398,16 @@ multiple savegames not possible</Comments>
   <Game>
     <ID>0af35fad-71c4-4411-872a-644fd79d55ae</ID>
     <Name>Braid</Name>
-    <ProcessName>Braid.bin.x86</ProcessName>
+    <ProcessName>[Bb]raid(\.bin\.x86)?</ProcessName>
     <Parameter />
-    <Path>*appdatalocal*/Braid</Path>
+    <Path>*mydocs*/.Braid</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1426,7 +1431,7 @@ multiple savegames not possible</Comments>
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
-    <Comments />
+    <Comments>Permadeath deletes savegame on death</Comments>
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -1879,16 +1884,16 @@ Saves must be moved manually between those versions.</Comments>
   <Game>
     <ID>7e581ed5-8289-4bbe-9f13-c772a5deb29a</ID>
     <Name>Cubemen</Name>
-    <ProcessName>Cubemen</ProcessName>
+    <ProcessName>Cubemen(\.x86)?</ProcessName>
     <Parameter />
     <Path>*appdataroaming*/unity3d/3 Sprockets/Cubemen/</Path>
     <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType>*.dat</FileType>
+    <FolderSave>false</FolderSave>
+    <FileType>prefs</FileType>
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1898,22 +1903,25 @@ Saves must be moved manually between those versions.</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Humble</Name>
       </Tag>
     </Tags>
   </Game>
   <Game>
     <ID>4d57cbbc-e2b6-4fcf-bf8d-300004af1293</ID>
     <Name>Cubemen 2</Name>
-    <ProcessName>Cubemen2</ProcessName>
+    <ProcessName>Cubemen2(\.x86)</ProcessName>
     <Parameter />
     <Path>*appdataroaming*/unity3d/3 Sprockets/Cubemen2/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
-    <FileType>*.bytes:*LevelDataZ</FileType>
+    <FileType>*PlayerStats.bytes:*CampaignData.bytes:*Achievements.bytes:*Missions.bytes:*LevelDataZ</FileType>
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -1923,6 +1931,9 @@ Saves must be moved manually between those versions.</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Humble</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2204,16 +2215,16 @@ Saves must be moved manually between those versions.</Comments>
   <Game>
     <ID>03bd17a0-cfe8-440f-a049-f75bd089fbbe</ID>
     <Name>Droid Assault</Name>
-    <ProcessName>java32</ProcessName>
+    <ProcessName>java(32|64)</ProcessName>
     <Parameter>DroidAssault.jar</Parameter>
-    <Path>*mydocs*/.droid_assault</Path>
+    <Path>*mydocs*/.droid_assault_1.92</Path>
     <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
+    <FolderSave>false</FolderSave>
+    <FileType>restore.dat</FileType>
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Comments />
-    <IsRegEx>false</IsRegEx>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>Backups for DRM-free version only</Comments>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Steam</Name>
@@ -2223,6 +2234,9 @@ Saves must be moved manually between those versions.</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Humble</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2759,11 +2773,11 @@ Saves must be moved manually between those versions.</Comments>
     <Parameter />
     <Path>*appdatalocal*/Drinkbox Studios/Guacamelee/</Path>
     <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
+    <FolderSave>false</FolderSave>
+    <FileType>*.DAT</FileType>
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Comments>Savegames only in steam cloud</Comments>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>Backup only for DRM-free version</Comments>
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -2774,6 +2788,9 @@ Saves must be moved manually between those versions.</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Humble</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4426,6 +4443,28 @@ Steamcloud not working</Comments>
     </Tags>
   </Game>
   <Game>
+    <ID>83823a0a-6435-4fa9-af91-cbab2b06b2e4</ID>
+    <Name>Quiet City</Name>
+    <ProcessName>quiet city\.x86(_64)?</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/_/quiet city</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Humble</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>347cc930-886b-4c09-898a-ad3309f030c8</ID>
     <Name>RBDoom3BFG</Name>
     <ProcessName>RBDoom3BFG</ProcessName>
@@ -4505,7 +4544,7 @@ Steamcloud not working</Comments>
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
-    <Comments />
+    <Comments>multiplayer</Comments>
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -4585,16 +4624,16 @@ Steamcloud not working</Comments>
   <Game>
     <ID>23e1c0b0-fe5d-4104-8194-b1dd99e10611</ID>
     <Name>Revenge of the Titans</Name>
-    <ProcessName>java32</ProcessName>
+    <ProcessName>java(32|64)</ProcessName>
     <Parameter>RevengeOfTheTitans.jar</Parameter>
-    <Path>*mydocs*/.revenge_of_the_titans</Path>
+    <Path>*mydocs*/.revenge_of_the_titans_1.80</Path>
     <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
+    <FolderSave>false</FolderSave>
+    <FileType>prefs.json</FileType>
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Comments />
-    <IsRegEx>false</IsRegEx>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>Backup for drm-free version only</Comments>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4604,6 +4643,9 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Humble</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4690,7 +4732,7 @@ Steamcloud not working</Comments>
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
-    <Comments />
+    <Comments>multiplayer</Comments>
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -5342,6 +5384,28 @@ GBM can not determine the location of the config file.</Comments>
     </Tags>
   </Game>
   <Game>
+    <ID>df0250ca-9774-4925-92ce-85e4e3e3929c</ID>
+    <Name>Starward Rogue</Name>
+    <ProcessName>StarwardRogueLinux\.x86(_64)?</ProcessName>
+    <Parameter />
+    <Path>./RuntimeData/Save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.save</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Humble</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>53511d0a-20ef-4ba9-8435-b0a178577f56</ID>
     <Name>Stealth Bastard Deluxe</Name>
     <ProcessName>runner</ProcessName>
@@ -5606,10 +5670,10 @@ GBM can not determine the location of the config file.</Comments>
     <Path>*appdataroaming*/unity3d/Rain/Teslagrad/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
-    <FileType />
+    <FileType>SaveGame.asset</FileType>
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Comments>steam cloud only</Comments>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>Backup only for DRM-free version</Comments>
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -5620,6 +5684,9 @@ GBM can not determine the location of the config file.</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Humble</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5642,6 +5709,28 @@ GBM can not determine the location of the config file.</Comments>
       </Tag>
       <Tag>
         <Name>FLOSS</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>f76e659f-2e70-430c-8f4b-cdfa3bfb1e88</ID>
+    <Name>The End Is Nigh</Name>
+    <ProcessName>TheEndIsNigh</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/The End is Nigh</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Humble</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5694,12 +5783,12 @@ GBM can not determine the location of the config file.</Comments>
     <Name>The Stanley Parable</Name>
     <ProcessName>stanley_linux</ProcessName>
     <Parameter />
-    <Path />
+    <Path>./thestanleyparable/save</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
@@ -5708,6 +5797,12 @@ GBM can not determine the location of the config file.</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Humble</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5827,16 +5922,16 @@ GBM can not determine the location of the config file.</Comments>
   <Game>
     <ID>18e1186b-fd29-4a5c-ac35-d4270b916d7d</ID>
     <Name>Titan Attacks</Name>
-    <ProcessName>java32</ProcessName>
+    <ProcessName>java(32|64)</ProcessName>
     <Parameter>TitanAttacks.jar</Parameter>
-    <Path>*mydocs*/.titan_attacks</Path>
+    <Path>*mydocs*/.titan_attacks_2.01</Path>
     <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
+    <FolderSave>false</FolderSave>
+    <FileType>hiscores.dat</FileType>
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Comments />
-    <IsRegEx>false</IsRegEx>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>Backup only for DRM-free version</Comments>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5846,6 +5941,9 @@ GBM can not determine the location of the config file.</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Humble</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5918,7 +6016,7 @@ GBM can not determine the location of the config file.</Comments>
   <Game>
     <ID>3b552328-9b22-43a6-93dc-057c592beb4c</ID>
     <Name>Torchlight</Name>
-    <ProcessName>Torchlight.bin.x86_64</ProcessName>
+    <ProcessName>Torchlight\.bin\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*mydocs*/.runicgames/Torchlight/Save/</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -5927,7 +6025,7 @@ GBM can not determine the location of the config file.</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -6064,13 +6162,13 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Trine 3: The Artifacts of Power</Name>
     <ProcessName>trine3_linux_64bit</ProcessName>
     <Parameter />
-    <Path />
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
+    <Path>*mydocs*/.frozenbyte/Trine3</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>slot*.fbs</FileType>
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Comments />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>Only for DRM-free version</Comments>
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -6078,6 +6176,12 @@ GBM can not determine the location of the config file.</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Humble</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6153,16 +6257,16 @@ GBM can not determine the location of the config file.</Comments>
   <Game>
     <ID>7e4cfdad-cb9b-49b7-b7ef-9b0bef477e8d</ID>
     <Name>Ultratron</Name>
-    <ProcessName>java32</ProcessName>
+    <ProcessName>java(32|64)</ProcessName>
     <Parameter>Ultratron.jar</Parameter>
-    <Path>*mydocs*/.ultratron</Path>
+    <Path>*mydocs*/.ultratron_3.03</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Comments />
-    <IsRegEx>false</IsRegEx>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>Backup DRM-free version only</Comments>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -6172,6 +6276,9 @@ GBM can not determine the location of the config file.</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Humble</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6706,11 +6813,11 @@ Saves must be moved manually between those versions.</Comments>
     <Parameter />
     <Path>*mydocs*/.ibomberdefensepacific</Path>
     <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <FileType />
+    <FolderSave>false</FolderSave>
+    <FileType>gamesave.dat</FileType>
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Comments />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>Backup DRM-free version only</Comments>
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -6721,6 +6828,9 @@ Saves must be moved manually between those versions.</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Groupees</Name>
       </Tag>
     </Tags>
   </Game>
