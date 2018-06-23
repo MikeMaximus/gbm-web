@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official_Linux.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1529697721" TotalConfigurations="285" AppVer="112">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1529729476" TotalConfigurations="293" AppVer="112">
   <Game>
     <ID>bbf8e00a-d7b8-46a5-b52c-8ba886b8c38a</ID>
     <Name>0 AD</Name>
@@ -1170,6 +1170,31 @@ multiple savegames not possible</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>83e03e83-8e82-4079-9e38-25783c407125</ID>
+    <Name>Black Mesa</Name>
+    <ProcessName>bms_linux</ProcessName>
+    <Parameter />
+    <Path>bms/save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -2817,11 +2842,55 @@ Saves must be moved manually between those versions.</Comments>
     </Tags>
   </Game>
   <Game>
+    <ID>03df7855-dbbd-4a58-a174-9d7bf3097aa0</ID>
+    <Name>Guns of Icarus Alliance</Name>
+    <ProcessName>GunsOfIcarusOnline</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments>multiplayer</Comments>
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>4cde3206-980d-419b-80b8-5571a394b1b4</ID>
+    <Name>Half-Life</Name>
+    <ProcessName>hl_linux</ProcessName>
+    <Parameter />
+    <Path>./valve/save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>82bd77fd-de5f-4460-bb84-afbb30481a31</ID>
     <Name>Half-Life 2</Name>
     <ProcessName>hl2_linux</ProcessName>
     <Parameter>-game hl2</Parameter>
-    <Path>hl2/save/</Path>
+    <Path>./hl2/save/</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <FileType />
@@ -2835,6 +2904,31 @@ Saves must be moved manually between those versions.</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>b6dd241e-7bc9-448c-9943-97f92d3d37a9</ID>
+    <Name>Half-Life: Source</Name>
+    <ProcessName>hl2_linux</ProcessName>
+    <Parameter>-game hl1</Parameter>
+    <Path>./hl1/save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -3173,6 +3267,28 @@ Saves must be moved manually between those versions.</Comments>
     <Tags>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>2a1b1bdd-02e3-4229-8057-2afe6deef0ee</ID>
+    <Name>Jamestown</Name>
+    <ProcessName>Jamestown-x86</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.jamestown/Saved Games/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>Version.txt:*.sav</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Humble</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -4920,7 +5036,7 @@ Steamcloud not working</Comments>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
+    <Comments>Backup for drm-free version only</Comments>
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -4928,6 +5044,12 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5459,6 +5581,31 @@ GBM can not determine the location of the config file.</Comments>
     </Tags>
   </Game>
   <Game>
+    <ID>d1804112-b697-47eb-a351-f16c3a430b88</ID>
+    <Name>Stories of Bethem: Full Moon</Name>
+    <ProcessName>StoriesOfBethemFullMoon</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/StoriesOfBethemFullMoon/saved</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList>*_backup</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>af972c36-4b7c-48cf-a985-d2d5766581e4</ID>
     <Name>Strike Suit Zero</Name>
     <ProcessName>StrikeSuitZero</ProcessName>
@@ -5631,6 +5778,31 @@ GBM can not determine the location of the config file.</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>59ff442f-5864-4e87-a35c-8c56aa52ae5f</ID>
+    <Name>TRI: Of Friendship and Madness</Name>
+    <ProcessName>tri.x86_64</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/Rat King Entertainment/TRI/saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -6182,6 +6354,34 @@ GBM can not determine the location of the config file.</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>879fcb1c-bfa6-4d3d-90d8-7cf65e5f5be8</ID>
+    <Name>Trine Enchanted Edition</Name>
+    <ProcessName>trine1_linux_32bit</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.frozenbyte/Trine1</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <FileType>slot*.fbs:achieve.fbs</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Humble</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
