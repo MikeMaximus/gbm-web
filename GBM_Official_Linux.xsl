@@ -112,6 +112,8 @@
                                 <li><span class="tree_label"><b>Save Location</b></span><div class="indent"><xsl:if test="Path = ''">*Process Location*</xsl:if><xsl:if test="Path != ''"><xsl:value-of select="Path" /></xsl:if></div></li>
                                 <li><span class="tree_label"><b>Absolute Path</b></span><div class="indent"><xsl:if test="AbsolutePath = 'true'">Yes</xsl:if><xsl:if test="AbsolutePath = 'false'">No</xsl:if></div></li>
                                 <li><span class="tree_label"><b>Save Entire Folder</b></span><div class="indent"><xsl:if test="FolderSave = 'true'">Yes</xsl:if><xsl:if test="FolderSave = 'false'">No</xsl:if></div></li>
+                                <li><span class="tree_label"><b>Save Multiple Backups</b></span><div class="indent"><xsl:if test="AppendTimeStamp = 'true'">Yes</xsl:if><xsl:if test="AppendTimeStamp = 'false'">No</xsl:if></div></li>
+                                <xsl:if test="AppendTimeStamp = 'true'"><li><span class="tree_label"><b>Backup Limit</b></span><div class="indent"><xsl:if test="BackupLimit = 0">Unlimited</xsl:if><xsl:if test="BackupLimit > 0"><xsl:value-of select="BackupLimit" /></xsl:if></div></li></xsl:if>
                                 <li><span class="tree_label"><b>Include Specific Files</b></span><div class="indent"><xsl:if test="FileType = ''">None</xsl:if><xsl:value-of select="FileType" /></div></li>
                                 <li><span class="tree_label"><b>Exclude Specific Files</b></span><div class="indent"><xsl:if test="ExcludeList = ''">None</xsl:if><xsl:value-of select="ExcludeList" /></div></li>
                               </xsl:if>
