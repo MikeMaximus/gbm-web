@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official_Linux.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1535259048" TotalConfigurations="339" AppVer="114">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1535369619" TotalConfigurations="351" AppVer="114">
   <Game>
     <ID>bbf8e00a-d7b8-46a5-b52c-8ba886b8c38a</ID>
     <Name>0 AD</Name>
@@ -1762,7 +1762,7 @@ multiple savegames not possible</Comments>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>BS1SAVE.*</FileType>
+    <FileType>BS1SAVE*</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -1771,6 +1771,30 @@ multiple savegames not possible</Comments>
       <Tag>
         <Name>GOG</Name>
       </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>288f576c-8efa-491c-a3e4-b090a7ed2d17</ID>
+    <Name>Broken Sword 5 - the Serpent's Curse</Name>
+    <ProcessName>BS5</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.bs5/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>BS5Save*</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
       <Tag>
         <Name>Official</Name>
       </Tag>
@@ -2093,6 +2117,30 @@ Saves must be moved manually between those versions.</Comments>
     </Tags>
   </Game>
   <Game>
+    <ID>3aac8cc9-3bb0-46c9-8f23-a05a9f3354ed</ID>
+    <Name>Clustertruck</Name>
+    <ProcessName>Clustertruck.x86_64</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/Landfall/Clustertruck</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>*.log</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>2cab8da8-ea46-4f9c-9165-11a56e2ad1f0</ID>
     <Name>Cogs</Name>
     <ProcessName>Cogs-x86</ProcessName>
@@ -2151,7 +2199,7 @@ Saves must be moved manually between those versions.</Comments>
     <Name>Cook, Serve, Delicious!</Name>
     <ProcessName>runner</ProcessName>
     <Parameter />
-    <Path>*mydocs*//.config/CSDSteamBuild</Path>
+    <Path>*appdataroaming*/CSDSteamBuild</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3040,6 +3088,33 @@ Change path for old drm-free versions in ~/.appdata/DefendersQuest/Local\ Store/
     </Tags>
   </Game>
   <Game>
+    <ID>2ec44863-3494-410f-b808-2fb5cc296e05</ID>
+    <Name>Eryi's Action</Name>
+    <ProcessName>EryisAction\.bin\.x86(_64)?</ProcessName>
+    <Parameter />
+    <Path>./system</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>savedata.dat</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>15185a64-4610-4ac6-9472-33f1148c314e</ID>
     <Name>Eufloria HD</Name>
     <ProcessName>EufloriaHD\.bin\.x86(_64)?</ProcessName>
@@ -3472,6 +3547,30 @@ No backup for steam version</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>0ca0243c-9c17-415c-8215-46a52ceb0fae</ID>
+    <Name>GoNNER</Name>
+    <ProcessName>GoNNER.x86</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/Art in Heart/GoNNER</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>*.log:antialiasing:bloom:contrast:controllayout:gamepadrumble:masteraudio:music:prefs:quickstart:retry:screenshake:sfx:simpleCam:tileAudio:vsync</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3998,6 +4097,33 @@ No backup for steam version</Comments>
     </Tags>
   </Game>
   <Game>
+    <ID>48061bcb-7658-4384-9d34-6f53ad311288</ID>
+    <Name>Hotline Miami 2: Wrong Number</Name>
+    <ProcessName>HotlineMiami2(_32)?</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/HotlineMiami2/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>volume.dat:censorship:audio.txt:controls.dat</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>130bb315-a6d8-4205-8726-a52142114f26</ID>
     <Name>Hue</Name>
     <ProcessName>Hue\.x86(_64)?</ProcessName>
@@ -4207,7 +4333,7 @@ No backup for steam version</Comments>
   <Game>
     <ID>2a1b1bdd-02e3-4229-8057-2afe6deef0ee</ID>
     <Name>Jamestown</Name>
-    <ProcessName>Jamestown-x86</ProcessName>
+    <ProcessName>Jamestown(-x86)?</ProcessName>
     <Parameter />
     <Path>*mydocs*/.jamestown/Saved Games/</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -4218,7 +4344,7 @@ No backup for steam version</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -4643,6 +4769,33 @@ No backup for steam version</Comments>
     </Tags>
   </Game>
   <Game>
+    <ID>1d88ec3f-9fcb-47d4-8b86-75375b8e2500</ID>
+    <Name>Long Live The Queen</Name>
+    <ProcessName>python</ProcessName>
+    <Parameter>LongLiveTheQueen.py</Parameter>
+    <Path>*mydocs*/.renpy/LongLiveTheQueen</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>2</BackupLimit>
+    <FileType>*.save</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Ren'Py</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>299dee44-7bf1-4664-8cae-8b212cb651a7</ID>
     <Name>Lure of the Temptress</Name>
     <ProcessName>scummvm</ProcessName>
@@ -4997,6 +5150,30 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>ef2a4fa4-f857-47ad-8e12-5258d17cdde0</ID>
+    <Name>Mr Shifty</Name>
+    <ProcessName>MrShifty.x86_64</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/Team Shifty/Mr Shifty/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>prefs</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>One file for savegames and settings</Comments>
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5406,6 +5583,33 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>GOG</Name>
       </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>0a535c06-4669-478e-bc4a-014cdde7234d</ID>
+    <Name>Party Hard</Name>
+    <ProcessName>PartyHardGame\.x86(_64)?</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/PinoklGames/PartyHardGame/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>2</BackupLimit>
+    <FileType>savedGames.gd</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>Is said to not use steam cloud</Comments>
+    <IsRegEx>true</IsRegEx>
+    <Tags>
       <Tag>
         <Name>Official</Name>
       </Tag>
@@ -6276,6 +6480,33 @@ Steamcloud not working</Comments>
     </Tags>
   </Game>
   <Game>
+    <ID>dbbc5d13-8f4e-4d12-b8fe-6f47ad1a8538</ID>
+    <Name>Savant - Ascent</Name>
+    <ProcessName>runner</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/Savant_Ascent/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>2</BackupLimit>
+    <FileType>playerachievementcache.dat:score.ini</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>GameMaker</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>741bf54c-a933-4cee-8501-7431f51d340e</ID>
     <Name>Secrets of Rætikon</Name>
     <ProcessName>Raetikon(64)?</ProcessName>
@@ -6660,6 +6891,33 @@ Steamcloud not working</Comments>
     </Tags>
   </Game>
   <Game>
+    <ID>6936b44a-0567-4a93-967b-64cd08c86283</ID>
+    <Name>Siralim</Name>
+    <ProcessName>runner</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/Siralim</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>2</BackupLimit>
+    <FileType>siralim*.ini</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>GameMaker</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>24931cc3-cc9c-48bd-813d-f2f9401bc57f</ID>
     <Name>Skullgirls</Name>
     <ProcessName>SkullGirls.x86_64-pc-linux-gnu</ProcessName>
@@ -6710,6 +6968,30 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>f9fa5ba7-d14f-4f68-a456-e49fc45c8782</ID>
+    <Name>Sokobond</Name>
+    <ProcessName>Sokobond</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.appdata/com.sokobond/Local Store/#SharedObjects/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>2</BackupLimit>
+    <FileType>sokobond.sol</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6876,7 +7158,7 @@ GBM can not determine the location of the config file.</Comments>
   <Game>
     <ID>87d1ae98-298a-4d03-9b67-8d66ad3076dc</ID>
     <Name>Stardew Valley</Name>
-    <ProcessName>StardewValley.bin.x86_64</ProcessName>
+    <ProcessName>StardewValley\.bin\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdataroaming*/StardewValley/Saves/</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -6887,13 +7169,16 @@ GBM can not determine the location of the config file.</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -8314,6 +8599,30 @@ GBM can not determine the location of the config file.</Comments>
     </Tags>
   </Game>
   <Game>
+    <ID>3e26679e-3e9f-4239-a6f9-4a1924a6e296</ID>
+    <Name>Velocibox</Name>
+    <ProcessName>Velocibox.x86</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>2</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments>Hardcore game without savegames and checkpoints</Comments>
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>0f113618-a9ef-40b3-87e8-639a141dc6dc</ID>
     <Name>Victor Vran</Name>
     <ProcessName>VictorVran</ProcessName>
@@ -8486,7 +8795,7 @@ If you use a different version, please adapt the path</Comments>
     <FileType>*.bin:*.xml</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
+    <Comments>Included in Wasteland 2: Director's Cut - Digital Deluxe Edition</Comments>
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
