@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official_Linux.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1535369619" TotalConfigurations="351" AppVer="114">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1535421820" TotalConfigurations="372" AppVer="114">
   <Game>
     <ID>bbf8e00a-d7b8-46a5-b52c-8ba886b8c38a</ID>
     <Name>0 AD</Name>
@@ -417,12 +417,12 @@
     <Name>Always Remember Me</Name>
     <ProcessName>Always Remember Me</ProcessName>
     <Parameter />
-    <Path>*mydocs*/.renpy/Remember_Me-1.3</Path>
+    <Path>*mydocs*/.renpy/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>*.save</FileType>
+    <FileType>Remember_Me*/*.save</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -496,14 +496,14 @@
   <Game>
     <ID>6f0b1be4-ad1c-4464-a7cc-1ca20e968c75</ID>
     <Name>Analogue: A Hate Story</Name>
-    <ProcessName>python</ProcessName>
+    <ProcessName>python.real</ProcessName>
     <Parameter>Analogue.py</Parameter>
     <Path>*mydocs*/.renpy/Analogue</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>*.save</FileType>
+    <FileType>1-*.save</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -1355,6 +1355,36 @@ no DRM-free version</Comments>
     </Tags>
   </Game>
   <Game>
+    <ID>f639a743-b7e3-403b-9527-6345f0e17eba</ID>
+    <Name>Bionic Heart</Name>
+    <ProcessName>Bionic Heart</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.renpy/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>Bionic_Heart/*.save:Bionic_Heart-1*/*.save</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Ren'Py</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>02af5949-a0ab-4782-afbb-ac63d3cb68cb</ID>
     <Name>Bioshock Infinite</Name>
     <ProcessName>bioshock.i386</ProcessName>
@@ -1624,6 +1654,66 @@ multiple savegames not possible</Comments>
     </Tags>
   </Game>
   <Game>
+    <ID>3de66723-09be-4b7e-8461-29528af9f016</ID>
+    <Name>Blossoms Bloom Brightest</Name>
+    <ProcessName>(Blossoms\sBloom\sBrightest|BBBv1)</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.renpy/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>BBBV-*/*.save</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Freeware</Name>
+      </Tag>
+      <Tag>
+        <Name>Itch.io</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Ren'Py</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>ad6e288c-d122-4f60-809a-bbde5037a449</ID>
+    <Name>Blue Rose</Name>
+    <ProcessName>Blue\sRose(\sDemo)?</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.renpy/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>Blue Rose*/*.save</FileType>
+    <ExcludeList>persistent</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>Only demo tested</Comments>
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Ren'Py</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>298fc402-d203-48c2-80f2-9f6dfb04b4bf</ID>
     <Name>Borderlands 2</Name>
     <ProcessName>Borderlands2</ProcessName>
@@ -1835,6 +1925,33 @@ Saves must be moved manually between those versions.</Comments>
     </Tags>
   </Game>
   <Game>
+    <ID>a00b059d-8765-4618-ac7e-bf9c63f576c1</ID>
+    <Name>CAFE 0 ~The Drowned Mermaid~</Name>
+    <ProcessName>Cafe0</ProcessName>
+    <Parameter />
+    <Path>../../game/saves</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>*.save</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>Only demo tested</Comments>
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Ren'Py</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>47795eb7-1bb9-4ee6-bca3-76a266828ef9</ID>
     <Name>CRYPTARK</Name>
     <ProcessName>Cryptark\.bin\.x86(_64)?</ProcessName>
@@ -1852,6 +1969,39 @@ Saves must be moved manually between those versions.</Comments>
     <Tags>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>f458126b-1b9c-4d53-8515-a7795341783e</ID>
+    <Name>CUPID - A free to play Visual Novel</Name>
+    <ProcessName>CupidVN</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.renpy/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>Cupid*/*.save</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Freeware</Name>
+      </Tag>
+      <Tag>
+        <Name>Itch.io</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Ren'Py</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
@@ -1930,6 +2080,39 @@ Saves must be moved manually between those versions.</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>ffde6c2f-6206-4198-978a-54df47bc0eca</ID>
+    <Name>Carpe Diem</Name>
+    <ProcessName>Carpe Diem</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.renpy/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>Carpe Diem*/*.save</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Freeware</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Ren'Py</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2035,6 +2218,36 @@ Saves must be moved manually between those versions.</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>2dd29f0e-c6df-40cb-a9fa-0d1945411316</ID>
+    <Name>Cinderella Phenomenon - Otome/Visual Novel</Name>
+    <ProcessName>CinderellaPhenomenon</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.renpy/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>CinderellaPhenomenon*/*.save</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Itch.io</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Ren'Py</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2623,6 +2836,36 @@ Change path for old drm-free versions in ~/.appdata/DefendersQuest/Local\ Store/
     </Tags>
   </Game>
   <Game>
+    <ID>2433652c-80c6-4e83-ac6d-ca4142a4614a</ID>
+    <Name>Disturbed</Name>
+    <ProcessName>Disturbed</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.renpy</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>Disturbed*/*.save</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Freeware</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Ren'Py</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>208f18d1-3d6e-4112-8bdb-2373d52af5fe</ID>
     <Name>Divinity: Original Sin - Enhanced Edition</Name>
     <ProcessName>EoCApp</ProcessName>
@@ -2657,17 +2900,21 @@ Change path for old drm-free versions in ~/.appdata/DefendersQuest/Local\ Store/
     <Name>Doki Doki Literature Club!</Name>
     <ProcessName>DDLC</ProcessName>
     <Parameter />
-    <Path>*mydocs*/.renpy/DDLC-1454445547/</Path>
+    <Path>*mydocs*/.renpy/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>*.save</FileType>
+    <FileType>DDLC*/*.save</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
+    <Comments>Native Steam version can only be downloaded with Steam Play, since it's included in the Windows version.
+Launch options: ./DDLC.sh # %command%</Comments>
     <IsRegEx>false</IsRegEx>
     <Tags>
+      <Tag>
+        <Name>Freeware</Name>
+      </Tag>
       <Tag>
         <Name>Itch.io</Name>
       </Tag>
@@ -2676,6 +2923,9 @@ Change path for old drm-free versions in ~/.appdata/DefendersQuest/Local\ Store/
       </Tag>
       <Tag>
         <Name>Ren'Py</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2754,6 +3004,36 @@ Change path for old drm-free versions in ~/.appdata/DefendersQuest/Local\ Store/
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>1b0b89d5-32ea-4603-a1e4-5b821f0e947e</ID>
+    <Name>Driftwood The Visual Novel</Name>
+    <ProcessName>Driftwood</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.renpy</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>Driftwood*/*.save</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Freeware</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Ren'Py</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3007,6 +3287,36 @@ Change path for old drm-free versions in ~/.appdata/DefendersQuest/Local\ Store/
     </Tags>
   </Game>
   <Game>
+    <ID>418abb75-c018-4e93-8b9a-e995448deb77</ID>
+    <Name>Embers of Magic</Name>
+    <ProcessName>Embers of Magic</ProcessName>
+    <Parameter />
+    <Path>../../game/saves</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>*.save</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Freeware</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Ren'Py</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>4a90544b-1766-4cc4-9667-83b116c150af</ID>
     <Name>Endless Sky</Name>
     <ProcessName>endless-sky</ProcessName>
@@ -3159,6 +3469,69 @@ Change path for old drm-free versions in ~/.appdata/DefendersQuest/Local\ Store/
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>1d95a9f4-8741-4576-8acc-b224dd228a15</ID>
+    <Name>Evening Surprise</Name>
+    <ProcessName>EveningSurprise</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.renpy</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>EveningSurprise*/*.save</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Freeware</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Ren'Py</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>898bbded-aa27-4a95-83e0-c317fd4f68c2</ID>
+    <Name>Everlasting Summer</Name>
+    <ProcessName>Everlasting Summer</ProcessName>
+    <Parameter />
+    <Path>../../game/saves</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>*.save</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Freeware</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Ren'Py</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3417,6 +3790,36 @@ Change path for old drm-free versions in ~/.appdata/DefendersQuest/Local\ Store/
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>2391a4a7-3a12-4b47-82cc-46a7c5e52ced</ID>
+    <Name>Frosty Kiss</Name>
+    <ProcessName>frosty kiss STEAM BUILD</ProcessName>
+    <Parameter />
+    <Path>../../game/saves</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>*.saves</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Freeware</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Ren'Py</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3911,6 +4314,36 @@ No backup for steam version</Comments>
     </Tags>
   </Game>
   <Game>
+    <ID>5a47a621-f79f-4901-af59-290edc804a43</ID>
+    <Name>Hate Plus</Name>
+    <ProcessName>python.real</ProcessName>
+    <Parameter>HatePlus.py</Parameter>
+    <Path>*mydocs*/.renpy/Analogue</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>5-*.save</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Ren'Py</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>c5fa158f-e27b-4f85-ac4d-eff404e0e370</ID>
     <Name>Hedgewars</Name>
     <ProcessName>hedgewars</ProcessName>
@@ -3939,12 +4372,12 @@ No backup for steam version</Comments>
     <Name>Heileen 1: Sail Away</Name>
     <ProcessName>Heileen</ProcessName>
     <Parameter />
-    <Path>*mydocs*/.renpy/Heileen-1.0</Path>
+    <Path>*mydocs*/.renpy/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>*.save</FileType>
+    <FileType>Heileen-1*/*.save</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -3969,12 +4402,12 @@ No backup for steam version</Comments>
     <Name>Heileen 2: The Hands Of Fate</Name>
     <ProcessName>Heileen2</ProcessName>
     <Parameter />
-    <Path>*mydocs*/.renpy/Heileen-2.0</Path>
+    <Path>*mydocs*/.renpy/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>*.save</FileType>
+    <FileType>Heileen-2*/*.save</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -4433,6 +4866,33 @@ No backup for steam version</Comments>
     </Tags>
   </Game>
   <Game>
+    <ID>2faaa517-c010-42bd-ac4b-71453aaa135e</ID>
+    <Name>Katawa Shoujo</Name>
+    <ProcessName>Katawa Shoujo</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.renpy</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>katawashoujo*/*.save</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Ren'Py</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>a6c99427-981d-4fa9-ae01-957cde4b89cc</ID>
     <Name>KeeperRL</Name>
     <ProcessName>keeper</ProcessName>
@@ -4771,7 +5231,7 @@ No backup for steam version</Comments>
   <Game>
     <ID>1d88ec3f-9fcb-47d4-8b86-75375b8e2500</ID>
     <Name>Long Live The Queen</Name>
-    <ProcessName>python</ProcessName>
+    <ProcessName>python.real</ProcessName>
     <Parameter>LongLiveTheQueen.py</Parameter>
     <Path>*mydocs*/.renpy/LongLiveTheQueen</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -5757,6 +6217,36 @@ Steamcloud not working</Comments>
     </Tags>
   </Game>
   <Game>
+    <ID>61af57b5-fa32-4f13-a47f-767e24e0c017</ID>
+    <Name>Planet Stronghold</Name>
+    <ProcessName>Planet Stronghold</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.renpy/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>2</BackupLimit>
+    <FileType>Planet_Stronghold/*.save:Planet_Stronghold-1*/*.save</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Ren'Py</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>db7bf4be-4d55-4486-ae32-21133ad05868</ID>
     <Name>Pony Island</Name>
     <ProcessName>PonyIsland.x86</ProcessName>
@@ -6347,6 +6837,36 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>a33017e5-5d34-424e-970f-cfb96a9c0706</ID>
+    <Name>Roommates</Name>
+    <ProcessName>Roommates</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.renpy/Roommates</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>2</BackupLimit>
+    <FileType>*.save</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Ren'Py</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -7047,6 +7567,36 @@ Steamcloud not working</Comments>
     </Tags>
   </Game>
   <Game>
+    <ID>c78e192e-dfcd-452a-8522-b81fe3c7b4de</ID>
+    <Name>Spirited Heart Deluxe</Name>
+    <ProcessName>SpiritedHeartDeluxe</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.renpy/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>2</BackupLimit>
+    <FileType>Spirited_Heart*/*.save</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Ren'Py</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>ea2cde41-91c9-4d1a-94c4-7dd7922536b6</ID>
     <Name>Spring RTS</Name>
     <ProcessName>spring</ProcessName>
@@ -7338,6 +7888,36 @@ GBM can not determine the location of the config file.</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>aefa4825-f2cb-426e-bdcf-42913ee9ec3e</ID>
+    <Name>Summer Nightmare</Name>
+    <ProcessName>SummerNightmare</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.renpy</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>SummerNightmare*/*.save</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Freeware</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Ren'Py</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -8701,6 +9281,33 @@ GBM can not determine the location of the config file.</Comments>
     </Tags>
   </Game>
   <Game>
+    <ID>0dea5c56-4853-4748-ba70-b96233681faf</ID>
+    <Name>WORLD END ECONOMiCA episode.01 (Ren'Py version)</Name>
+    <ProcessName>wee</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.renpy</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>wee*/*.save</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Ren'Py</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>4792f058-61fa-4dc7-b3a6-810a3e47530e</ID>
     <Name>Waking Mars</Name>
     <ProcessName>[Ww]aking\s?[Mm]ars</ProcessName>
@@ -9167,6 +9774,33 @@ Saves must be moved manually between those versions.</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>a5b7bed5-654d-4863-ba1d-710ead876aac</ID>
+    <Name>fault - milestone two side:above</Name>
+    <ProcessName>faultms2a</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.renpy/projectwritten_fm2_part1</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>*.save</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>Only demo tested</Comments>
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Ren'Py</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
