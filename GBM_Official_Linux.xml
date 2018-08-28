@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official_Linux.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1535442870" TotalConfigurations="392" AppVer="114">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1535460603" TotalConfigurations="392" AppVer="114">
   <Game>
     <ID>bbf8e00a-d7b8-46a5-b52c-8ba886b8c38a</ID>
     <Name>0 AD</Name>
@@ -133,7 +133,7 @@
   <Game>
     <ID>16305ed4-df53-4f83-8cc7-1cbdac70dd9d</ID>
     <Name>A Virus Named TOM</Name>
-    <ProcessName>CircuitGame.bin\.x86(_64)?</ProcessName>
+    <ProcessName>CircuitGame\.bin\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/CircuitGameData/</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -993,7 +993,7 @@ closed data</Comments>
   <Game>
     <ID>968b1fd3-fe91-4a3f-91b4-6a06f9c88c4c</ID>
     <Name>Back to Bed</Name>
-    <ProcessName>BackToBed.x86_64</ProcessName>
+    <ProcessName>BackToBed\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/Back to Bed</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -1004,7 +1004,7 @@ closed data</Comments>
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1149,7 +1149,7 @@ closed data</Comments>
   <Game>
     <ID>b4133702-276d-4790-82cb-3e6da6e1647c</ID>
     <Name>Battle Worlds - Kronos</Name>
-    <ProcessName>BattleWorldsKronos.x86_64</ProcessName>
+    <ProcessName>BattleWorldsKronos\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*mydocs*/Documents/BattleWorldsKronos/</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -1160,7 +1160,7 @@ closed data</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1446,7 +1446,7 @@ multiple savegames not possible</Comments>
   <Game>
     <ID>7aab52ee-2ad1-4af0-9d81-c835496fe299</ID>
     <Name>Bit Blaster XL</Name>
-    <ProcessName>BitBlasterXL.x86_64</ProcessName>
+    <ProcessName>BitBlasterXL\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdataroaming*/unity3d/Nickervision Studios/Bit Blaster XL</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -1457,7 +1457,7 @@ multiple savegames not possible</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5745,7 +5745,7 @@ Steamcloud not working</Comments>
   <Game>
     <ID>853c805f-c777-4922-bed7-0ea6244f6eda</ID>
     <Name>Mini Metro</Name>
-    <ProcessName>Mini Metro.x86_64</ProcessName>
+    <ProcessName>Mini\sMetro\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdataroaming*/unity3d/Dinosaur Polo Club/Mini Metro</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -5756,7 +5756,7 @@ Steamcloud not working</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5871,7 +5871,7 @@ Steamcloud not working</Comments>
   <Game>
     <ID>ef2a4fa4-f857-47ad-8e12-5258d17cdde0</ID>
     <Name>Mr Shifty</Name>
-    <ProcessName>MrShifty.x86_64</ProcessName>
+    <ProcessName>MrShifty\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdataroaming*/unity3d/Team Shifty/Mr Shifty/</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -5882,7 +5882,7 @@ Steamcloud not working</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments>One file for savegames and settings</Comments>
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5895,7 +5895,7 @@ Steamcloud not working</Comments>
   <Game>
     <ID>7b954822-f545-448a-9155-97b0c9097e55</ID>
     <Name>Munin</Name>
-    <ProcessName>Munin.x86_64</ProcessName>
+    <ProcessName>Munin\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdataroaming*/unity3d/GOJIRA/Munin</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -5906,7 +5906,7 @@ Steamcloud not working</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -6282,7 +6282,7 @@ Steamcloud not working</Comments>
   <Game>
     <ID>b827385f-d242-4317-a0bf-854fe174fd98</ID>
     <Name>Owlboy</Name>
-    <ProcessName>Owlboy.bin.x86_64</ProcessName>
+    <ProcessName>Owlboy\.bin\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/Owlboy/Saves/</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -6293,7 +6293,7 @@ Steamcloud not working</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -6738,7 +6738,7 @@ Steamcloud not working</Comments>
   <Game>
     <ID>e2007e8b-8e1f-4116-a5af-583dcd82b13b</ID>
     <Name>Primordia</Name>
-    <ProcessName>Primordia.bin.x86_64</ProcessName>
+    <ProcessName>Primordia\.bin\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/Primordia</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -6749,7 +6749,7 @@ Steamcloud not working</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -6894,7 +6894,7 @@ Steamcloud not working</Comments>
   <Game>
     <ID>fdfc2a2b-af93-42c1-9f70-5c51e9706bc6</ID>
     <Name>ROCKETSROCKETSROCKETS</Name>
-    <ProcessName>Rockets.x86_64</ProcessName>
+    <ProcessName>Rockets\.x86(_64)?</ProcessName>
     <Parameter />
     <Path />
     <AbsolutePath>false</AbsolutePath>
@@ -6905,7 +6905,7 @@ Steamcloud not working</Comments>
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -6966,7 +6966,7 @@ Steamcloud not working</Comments>
   <Game>
     <ID>2fd0920c-5b3f-40b5-8d8d-acb446b4b948</ID>
     <Name>Resonance</Name>
-    <ProcessName>Resonance.bin.x86_64</ProcessName>
+    <ProcessName>Resonance\.bin\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/Resonance</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -6977,7 +6977,7 @@ Steamcloud not working</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7152,7 +7152,7 @@ Steamcloud not working</Comments>
   <Game>
     <ID>48a306a7-3884-443e-b98f-e60da72409ca</ID>
     <Name>Rogue Legacy</Name>
-    <ProcessName>RogueCastle.bin.x86_64</ProcessName>
+    <ProcessName>RogueCastle\.bin\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/RogueLegacyStorageContainer</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -7163,7 +7163,7 @@ Steamcloud not working</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7254,7 +7254,7 @@ Steamcloud not working</Comments>
   <Game>
     <ID>3a6a553d-5b86-4e22-b3e4-80c2ae779e10</ID>
     <Name>SOMA</Name>
-    <ProcessName>Soma.bin.x86_64</ProcessName>
+    <ProcessName>Soma\.bin\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/frictionalgames/Soma/Main/</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -7265,7 +7265,7 @@ Steamcloud not working</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7335,7 +7335,7 @@ Steamcloud not working</Comments>
   <Game>
     <ID>33ac6712-d1e3-483e-a409-a295658fd4b9</ID>
     <Name>Satellite Reign</Name>
-    <ProcessName>SatelliteReignLinux.x86_64</ProcessName>
+    <ProcessName>SatelliteReignLinux\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/SatelliteReign/users</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -7346,13 +7346,19 @@ Steamcloud not working</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -7596,7 +7602,7 @@ Steamcloud not working</Comments>
   <Game>
     <ID>6f10df1d-b974-479e-a486-813f1bbaff39</ID>
     <Name>Shattered Haven</Name>
-    <ProcessName>ShatteredHavenLinux.x86_64</ProcessName>
+    <ProcessName>ShatteredHavenLinux\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>RuntimeData/Save</Path>
     <AbsolutePath>false</AbsolutePath>
@@ -7607,7 +7613,7 @@ Steamcloud not working</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7797,7 +7803,7 @@ Steamcloud not working</Comments>
   <Game>
     <ID>24931cc3-cc9c-48bd-813d-f2f9401bc57f</ID>
     <Name>Skullgirls</Name>
-    <ProcessName>SkullGirls.x86_64-pc-linux-gnu</ProcessName>
+    <ProcessName>SkullGirls\.(i686|x86_64)-pc-linux-gnu</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/Skullgirls/SaveData</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -7808,7 +7814,7 @@ Steamcloud not working</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -7926,7 +7932,7 @@ Steamcloud not working</Comments>
   <Game>
     <ID>8f155639-5d16-4108-8ee0-8df9cb0c4061</ID>
     <Name>SpeedRunners</Name>
-    <ProcessName>SpeedRunners.bin.x86_64</ProcessName>
+    <ProcessName>SpeedRunners\.bin\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/SpeedRunners/</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -7937,7 +7943,7 @@ Steamcloud not working</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>GameMaker</Name>
@@ -8452,7 +8458,7 @@ GBM can not determine the location of the config file.</Comments>
   <Game>
     <ID>0370be81-8eb0-4931-9360-0359cb166460</ID>
     <Name>Superhot</Name>
-    <ProcessName>SUPERHOT.x86_64</ProcessName>
+    <ProcessName>SUPERHOT\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdataroaming*/unity3d/SUPERHOT_Team/SUPERHOT</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -8463,7 +8469,7 @@ GBM can not determine the location of the config file.</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -8527,7 +8533,7 @@ GBM can not determine the location of the config file.</Comments>
   <Game>
     <ID>59ff442f-5864-4e87-a35c-8c56aa52ae5f</ID>
     <Name>TRI: Of Friendship and Madness</Name>
-    <ProcessName>tri.x86_64</ProcessName>
+    <ProcessName>tri\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdataroaming*/unity3d/Rat King Entertainment/TRI/saves</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -8538,7 +8544,7 @@ GBM can not determine the location of the config file.</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -8848,7 +8854,7 @@ GBM can not determine the location of the config file.</Comments>
   <Game>
     <ID>6a6f43ed-cb9c-40a6-b907-325812db8b56</ID>
     <Name>The Swapper</Name>
-    <ProcessName>TheSwapper.bin.x86_64</ProcessName>
+    <ProcessName>TheSwapper\.bin\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/Facepalm Games/The Swapper 1000/</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -8859,7 +8865,7 @@ GBM can not determine the location of the config file.</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -8920,7 +8926,7 @@ GBM can not determine the location of the config file.</Comments>
   <Game>
     <ID>76283dc2-f66d-4eea-8d61-8976b2c08863</ID>
     <Name>This is the Police</Name>
-    <ProcessName>Police.x86_64</ProcessName>
+    <ProcessName>Police\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdataroaming*/unity3d/Weappy/This Is The Police</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -8931,7 +8937,7 @@ GBM can not determine the location of the config file.</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -9049,7 +9055,7 @@ GBM can not determine the location of the config file.</Comments>
   <Game>
     <ID>fd555a47-2495-41f6-9bd8-3b2e64511e07</ID>
     <Name>To The Moon</Name>
-    <ProcessName>ToTheMoon.bin.x86_64</ProcessName>
+    <ProcessName>ToTheMoon\.bin\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/freebirdgames/tothemoon</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -9060,7 +9066,7 @@ GBM can not determine the location of the config file.</Comments>
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -9250,7 +9256,7 @@ GBM can not determine the location of the config file.</Comments>
   <Game>
     <ID>995d30d4-b36c-408b-8826-a9b6fdb5e84c</ID>
     <Name>Train Valley</Name>
-    <ProcessName>train-valley.x86_64</ProcessName>
+    <ProcessName>train-valley\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdataroaming*/unity3d/Oroboro games/Train Valley</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -9261,7 +9267,7 @@ GBM can not determine the location of the config file.</Comments>
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
