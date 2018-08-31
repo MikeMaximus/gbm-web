@@ -322,6 +322,10 @@ td.list_logos {
     font-size: 12pt;
 }
 
+.timestamp {
+    float:right;
+}
+
 /* Navbar Styles */
 
 ul.topnav {
