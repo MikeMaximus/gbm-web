@@ -37,9 +37,9 @@
                 </div>
               </div>
               <div class="pageSection">
-                <div class="pageSectionHeader"><xsl:value-of select="@TotalConfigurations" /> Linux Game Configurations </div>
+                <div class="pageSectionHeader"><b id="shown"><xsl:value-of select="@TotalConfigurations" /></b> / <xsl:value-of select="@TotalConfigurations" /> Linux Game Configurations </div>
                 <div class="pageSectionContent">    
-                  <input name="searchbox"/>     
+                  <input name="searchbox" placeholder="example: wide tag:floss"/>     
                   <p class="timestamp">
                   <xsl:call-template name="seconds-to-date">
                     <xsl:with-param name="seconds" select="@Exported" />
