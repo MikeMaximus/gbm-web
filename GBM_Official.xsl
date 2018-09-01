@@ -11,6 +11,8 @@
         <title>Game Backup Monitor [Official Game List]</title>
         <script type="text/javascript" language="javascript" src="script/jquery-1.10.2.min.js"></script>
         <script type="text/javascript" language="javascript" src="script/jquery.hoverIntent.min.js"></script>
+        <script type="text/javascript" language="javascript" src="script/jhash-2.1.js"></script>
+        <script type="text/javascript" language="javascript" src="script/search.js"></script>
         <link rel="stylesheet" type="text/css" href="styles/styles.css" />
         <link rel="shortcut icon" href="images/gbm.ico" />
       </head>
@@ -36,9 +38,10 @@
                 </div>
               </div>
               <div class="pageSection">
-                <div class="pageSectionHeader"><xsl:value-of select="@TotalConfigurations" /> Windows Game Configurations</div>
+                <div class="pageSectionHeader"><b id="shown"><xsl:value-of select="@TotalConfigurations" /></b> / <xsl:value-of select="@TotalConfigurations" /> Windows Game Configurations</div>
                 <div class="pageSectionContent">
-                  <p align="right"> 
+                  <input id="searchbox" placeholder="e.g.: -tux tag:floss !backup"/>     
+                  <p class="timestamp"> 
                   <xsl:call-template name="seconds-to-date">
                     <xsl:with-param name="seconds" select="@Exported" />
                   </xsl:call-template> (v<xsl:value-of select="@AppVer" />)</p>
@@ -105,7 +108,7 @@
                           <ul class="tree">
                           <li>
                             <input type="checkbox"><xsl:attribute name="id"><xsl:value-of select="Name"/><xsl:value-of select="ProcessName"/></xsl:attribute></input>
-                            <label class="tree_label"><xsl:attribute name="title">ID: <xsl:value-of select="ID"/></xsl:attribute><xsl:attribute name="for"><xsl:value-of select="Name"/><xsl:value-of select="ProcessName"/></xsl:attribute><xsl:value-of select="Name" /></label>
+                            <label class="tree_label"><xsl:attribute name="title">ID: <xsl:value-of select="ID"/></xsl:attribute><xsl:attribute name="for"><xsl:value-of select="Name"/><xsl:value-of select="ProcessName"/></xsl:attribute><xsl:value-of select="Name" /> <a class="permalink" title="permalink"><xsl:attribute name="href">#?q=id:<xsl:value-of select="ID"/></xsl:attribute>&#x1F517;</a></label>
                             <ul>
                               <li><span class="tree_label"><b>Monitored Process</b></span><div class="indent"><xsl:value-of select="ProcessName" /><xsl:if test="Parameter != ''"> (<xsl:value-of select="Parameter" />)</xsl:if></div></li>
                                 <xsl:if test="MonitorOnly='false'">
@@ -118,7 +121,7 @@
                                 <li><span class="tree_label"><b>Exclude Specific Files</b></span><div class="indent"><xsl:if test="ExcludeList = ''">None</xsl:if><xsl:value-of select="ExcludeList" /></div></li>
                               </xsl:if>
                               <xsl:if test="Comments"><li><span class="tree_label"><b>Comments</b></span><div class="indent"><xsl:if test="Comments = ''">None</xsl:if><xsl:value-of select="Comments" /></div></li></xsl:if>
-                              <li><span class="tree_label"><b>Tags</b></span><div class="indent"><xsl:for-each select="Tags"><xsl:for-each select="Tag">#<xsl:value-of select="Name" />&#160;</xsl:for-each></xsl:for-each></div></li>   
+                              <li><span class="tree_label"><b>Tags</b></span><div class="indent"><xsl:for-each select="Tags"><xsl:for-each select="Tag"><a href="#" class="tag">#<xsl:value-of select="Name" /></a>&#160;</xsl:for-each></xsl:for-each></div></li>   
                             </ul>
                           </li>
                           </ul>

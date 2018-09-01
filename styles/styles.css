@@ -56,6 +56,12 @@ a:active {
     color:#C8C8C8;   
 }  
 
+a.permalink {
+    float: right;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
 h1 {
     margin:0;
     padding:0;
@@ -320,6 +326,10 @@ td.list_logos {
 .pageSectionContent {
     padding: 10px;
     font-size: 12pt;
+}
+
+.timestamp {
+    float:right;
 }
 
 /* Navbar Styles */

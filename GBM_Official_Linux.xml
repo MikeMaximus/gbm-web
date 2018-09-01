@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official_Linux.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1535460603" TotalConfigurations="392" AppVer="114">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1535814850" TotalConfigurations="400" AppVer="114">
   <Game>
     <ID>bbf8e00a-d7b8-46a5-b52c-8ba886b8c38a</ID>
     <Name>0 AD</Name>
@@ -237,7 +237,7 @@
     <Name>AI War - Fleet Command</Name>
     <ProcessName>AIWarLinux\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>RuntimeData/Save</Path>
+    <Path>./RuntimeData/Save</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -656,6 +656,57 @@
     </Tags>
   </Game>
   <Game>
+    <ID>7dd7dcc9-67f7-443c-9e6c-3d0a1d947d9f</ID>
+    <Name>Anomaly Warzone Earth</Name>
+    <ProcessName>AnomalyWarzoneEarth</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.Anomaly</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>2</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments>Steam cloud only</Comments>
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>2e42efd3-3e36-455f-ad7b-b15fec61bb17</ID>
+    <Name>Anomaly Warzone Earth Mobile Campaign</Name>
+    <ProcessName>AnomalyMobileCampaign</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.Anomaly Warzone Earth Mobile Campaign</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>SavedGame.bin:progress*:results*:stats*:iPhoneProfiles</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>b5c5e555-3f81-41a9-b0c9-64518776e836</ID>
     <Name>Antichamber</Name>
     <ProcessName>UDKGame-Linux</ProcessName>
@@ -912,7 +963,7 @@ closed data</Comments>
   <Game>
     <ID>2782f209-ada4-4ff8-a2b7-bb59117395ad</ID>
     <Name>Avadon: The Black Fortress</Name>
-    <ProcessName>Avadon-x86</ProcessName>
+    <ProcessName>Avadon-(x86|amd64)</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/Avadon/Spiderweb Software/Avadon Saved Games</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -923,7 +974,7 @@ closed data</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1356,7 +1407,7 @@ no DRM-free version</Comments>
     <Name>Bionic Dues</Name>
     <ProcessName>BionicLinux\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>RuntimeData/Save</Path>
+    <Path>./RuntimeData/Save</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1475,7 +1526,7 @@ multiple savegames not possible</Comments>
     <Name>Black Mesa</Name>
     <ProcessName>bms_linux</ProcessName>
     <Parameter />
-    <Path>bms/save</Path>
+    <Path>./bms/save</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1734,6 +1785,30 @@ multiple savegames not possible</Comments>
       </Tag>
       <Tag>
         <Name>Ren'Py</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>92af3701-94fa-4223-a054-8a62ab8a3b5c</ID>
+    <Name>Bomb Defense</Name>
+    <ProcessName>BombDefense\.x86(_64)?</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/Mitorah Games/Bomb Defense/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>2</BackupLimit>
+    <FileType>prefs</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>Progress and settings in one file</Comments>
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
@@ -2250,7 +2325,7 @@ Saves must be moved manually between those versions.</Comments>
     <Name>Chroma Squad</Name>
     <ProcessName>chromasquad.x86</ProcessName>
     <Parameter />
-    <Path>chromasquad_Data/savedGames</Path>
+    <Path>./chromasquad_Data/savedGames</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3307,7 +3382,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
   <Game>
     <ID>1bf39c79-e561-4e06-87bc-4d73f42388d7</ID>
     <Name>Dungeons of Dredmor</Name>
-    <ProcessName>Dredmor-x86</ProcessName>
+    <ProcessName>Dredmor-(x86|amd64)</ProcessName>
     <Parameter />
     <Path>*appdatalocal*/Dredmor</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -3318,7 +3393,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4393,8 +4468,8 @@ No backup for steam version</Comments>
     <Name>Hammerwatch</Name>
     <ProcessName>Hammerwatch\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>/mnt/olhdd/steam/steamapps/common/Hammerwatch/saves</Path>
-    <AbsolutePath>true</AbsolutePath>
+    <Path>./saves</Path>
+    <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
@@ -4873,7 +4948,7 @@ No backup for steam version</Comments>
     <Name>Iesabel</Name>
     <ProcessName>Iesabel.x86</ProcessName>
     <Parameter />
-    <Path>Iesabel_Data/Save</Path>
+    <Path>./Iesabel_Data/Save</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5045,7 +5120,7 @@ No backup for steam version</Comments>
   <Game>
     <ID>9f4cf789-f949-4f7f-8f40-71c5b0da738b</ID>
     <Name>Jotun: Valhalla Edition</Name>
-    <ProcessName>Jotun.x86</ProcessName>
+    <ProcessName>Jotun\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>*appdataroaming*/unity3d/Thunder Lotus Games/Jotun/</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -5056,7 +5131,7 @@ No backup for steam version</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5202,11 +5277,35 @@ No backup for steam version</Comments>
     </Tags>
   </Game>
   <Game>
+    <ID>6b395c7c-451b-4116-b942-119246b3e284</ID>
+    <Name>Kingdom: Classic</Name>
+    <ProcessName>Kingdom.x86</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/noio/Kingdom/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>2</BackupLimit>
+    <FileType>storage*</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>fe67a3f6-6648-4458-9f89-f8d96e487ec4</ID>
     <Name>Knights of Pen and Paper +1</Name>
-    <ProcessName>knightspp.x86</ProcessName>
+    <ProcessName>knightspp\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>knightspp_Data</Path>
+    <Path>./knightspp_Data</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5215,7 +5314,7 @@ No backup for steam version</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5294,6 +5393,33 @@ No backup for steam version</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>f09c817f-2e5f-4eaf-8841-7540a088024f</ID>
+    <Name>LUFTRAUSERS</Name>
+    <ProcessName>luftrausers</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.LUFTRAUSERS/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>2</BackupLimit>
+    <FileType>save*</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5531,6 +5657,33 @@ No backup for steam version</Comments>
       </Tag>
       <Tag>
         <Name>ScummVM</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>c34399c8-4b6d-4c3e-91b2-922ce2161a90</ID>
+    <Name>Magical Diary</Name>
+    <ProcessName>MagicalDiary</ProcessName>
+    <Parameter />
+    <Path>*mydocs*/.renpy/MagicalDiaryHorseHall</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>2</BackupLimit>
+    <FileType>*.save</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Ren'Py</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -7333,6 +7486,33 @@ Steamcloud not working</Comments>
     </Tags>
   </Game>
   <Game>
+    <ID>b0c9f79c-52de-4c5e-ba2b-dda6e32ceed9</ID>
+    <Name>Sanctum 2</Name>
+    <ProcessName>SanctumGame</ProcessName>
+    <Parameter />
+    <Path>*appdatalocal*/Sanctum2/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>2</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments>Steam cloud only</Comments>
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>33ac6712-d1e3-483e-a409-a295658fd4b9</ID>
     <Name>Satellite Reign</Name>
     <ProcessName>SatelliteReignLinux\.x86(_64)?</ProcessName>
@@ -8072,7 +8252,7 @@ Steamcloud not working</Comments>
     <Name>Star Wars: Dark Forces</Name>
     <ProcessName>dosbox(_i686|_x86_64)?</ProcessName>
     <Parameter>DARK.EXE</Parameter>
-    <Path>DARKPILO.CFG</Path>
+    <Path>./DARKPILO.CFG</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9281,6 +9461,30 @@ GBM can not determine the location of the config file.</Comments>
     </Tags>
   </Game>
   <Game>
+    <ID>5cbc7d10-31f2-4da6-8ad5-a2cf9b381b8a</ID>
+    <Name>Trapped Dead: Lockdown</Name>
+    <ProcessName>TrappedDeadLockdown\.x86(_64)?</ProcessName>
+    <Parameter />
+    <Path>*appdataroaming*/unity3d/BigmoonStudios/TrappedDeadLockdown</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>2</BackupLimit>
+    <FileType>trappedead</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>a6da2402-afeb-4063-99a9-dfaebb3d186e</ID>
     <Name>Trine 2 - Complete Story</Name>
     <ProcessName>trine2_linux_32bit</ProcessName>
@@ -10257,7 +10461,7 @@ If you use a different version, please adapt the path</Comments>
     </Tags>
   </Game>
   <Game>
-    <ID>416680</ID>
+    <ID>b31f2263-84cc-44bf-8d74-04495a77a662</ID>
     <Name>Zombie Night Terror</Name>
     <ProcessName>znt\.x86(_64)?</ProcessName>
     <Parameter />
@@ -10266,7 +10470,7 @@ If you use a different version, please adapt the path</Comments>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>*.sav</FileType>
+    <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments>Steam uses a subfolder for each user and gog only the main directory.
