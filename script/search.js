@@ -12,7 +12,7 @@ function search(q){
         //this should be just one one element
         $(this).find('label').each(function(){
             for(let i = 0;  i < query.length; ++i){
-                let queryString = query[i];
+                let queryString = query[i].toLowerCase();
                 let inverted = false;
                 if(queryString.startsWith('-')){
                     inverted = true;
@@ -26,7 +26,7 @@ function search(q){
                     $(tr).find('a.tag').each(function(){
                         //strip #
                         let tagName = this.innerText.substring(1);
-                        if(tagName.toLowerCase() == tag.toLowerCase()){
+                        if(tagName.toLowerCase() == tag){
                             found = true;
                         }
                     });
@@ -41,9 +41,22 @@ function search(q){
                     if(id != labelId ^ inverted){
                         display = 'none';
                     }
+                }else if(queryString.startsWith('!backup')){
+                    let backups = queryString.substring(8);
+                    //back ups are done when it’s not tracking only
+                    let found = false;
+                    $(tr).find('img.logo_tiny').each(function(){
+                        if(this.title.toLowerCase().indexOf('track') != -1){
+                            found = true;
+                        }
+                    });
+                    //hide when no matching tag
+                    if(found ^ inverted){
+                        display = 'none';
+                    }
                 }else{
                     //compare strings case insensitive
-                    if(($(this).text().toLowerCase().indexOf(queryString.toLowerCase()) == -1) ^ inverted){
+                    if(($(this).text().toLowerCase().indexOf(queryString) == -1) ^ inverted){
                         //hide if at least one mismatch
                         display = 'none';
                     }
