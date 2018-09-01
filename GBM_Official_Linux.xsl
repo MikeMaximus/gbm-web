@@ -121,7 +121,7 @@
                                 <li><span class="tree_label"><b>Exclude Specific Files</b></span><div class="indent"><xsl:if test="ExcludeList = ''">None</xsl:if><xsl:value-of select="ExcludeList" /></div></li>
                               </xsl:if>
                               <xsl:if test="Comments"><li><span class="tree_label"><b>Comments</b></span><div class="indent"><xsl:if test="Comments = ''">None</xsl:if><xsl:value-of select="Comments" /></div></li></xsl:if>
-                              <li><span class="tree_label"><b>Tags</b></span><div class="indent"><xsl:for-each select="Tags"><xsl:for-each select="Tag">#<xsl:value-of select="Name" />&#160;</xsl:for-each></xsl:for-each></div></li>   
+                              <li><span class="tree_label"><b>Tags</b></span><div class="indent"><xsl:for-each select="Tags"><xsl:for-each select="Tag"><a href="#" class="tag">#<xsl:value-of select="Name" /></a>&#160;</xsl:for-each></xsl:for-each></div></li>   
                             </ul>
                           </li>
                           </ul>
