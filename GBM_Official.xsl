@@ -11,6 +11,7 @@
         <title>Game Backup Monitor [Official Game List]</title>
         <script type="text/javascript" language="javascript" src="script/jquery-1.10.2.min.js"></script>
         <script type="text/javascript" language="javascript" src="script/jquery.hoverIntent.min.js"></script>
+        <script type="text/javascript" language="javascript" src="script/jhash-2.1.js"></script>
         <script type="text/javascript" language="javascript" src="script/search.js"></script>
         <link rel="stylesheet" type="text/css" href="styles/styles.css" />
         <link rel="shortcut icon" href="images/gbm.ico" />
@@ -39,7 +40,7 @@
               <div class="pageSection">
                 <div class="pageSectionHeader"><b id="shown"><xsl:value-of select="@TotalConfigurations" /></b> / <xsl:value-of select="@TotalConfigurations" /> Windows Game Configurations</div>
                 <div class="pageSectionContent">
-                  <input name="searchbox" placeholder="example: wide tag:floss"/>     
+                  <input id="searchbox" placeholder="example: wide tag:floss"/>     
                   <p class="timestamp"> 
                   <xsl:call-template name="seconds-to-date">
                     <xsl:with-param name="seconds" select="@Exported" />
