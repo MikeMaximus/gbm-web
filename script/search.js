@@ -1,8 +1,9 @@
 function search(q){
-    //console.log(e.target.value);
     let shown = 0;
     let query = q.split(' ');
     console.log(query);
+    //collapse all games
+    $("input[type=checkbox]").prop('checked', false);
     //each game has it's own row
     $("tr:has(label)").each(function(){
         let tr = this;
@@ -41,6 +42,10 @@ function search(q){
         }
     })
     $("#shown").text(shown);
+    if(shown == 1){
+        //uncollapse if only one match
+        $("tr:visible:has(label) input[type=checkbox]").prop('checked', 'checkt');
+    }
 }
 
 function getQuery(){
