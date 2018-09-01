@@ -12,9 +12,16 @@ function search(q){
         //this should be just one one element
         $(this).find('label').each(function(){
             for(let i = 0;  i < query.length; ++i){
+                let queryString = query[i];
+                let inverted = false;
+                if(queryString.startsWith('-')){
+                    inverted = true;
+                    //strip -
+                    queryString = queryString.substring(1);
+                }
                 //special treatmeant for tags
-                if(query[i].startsWith('tag:')){
-                    let tag = query[i].substring(4);
+                if(queryString.startsWith('tag:')){
+                    let tag = queryString.substring(4);
                     let found = false;
                     $(tr).find('a.tag').each(function(){
                         //strip #
@@ -24,12 +31,12 @@ function search(q){
                         }
                     });
                     //hide when no matching tag
-                    if(!found){
+                    if(!found ^ inverted){
                         display = 'none';
                     }
                 }else{
                     //compare strings case insensitive
-                    if($(this).text().toLowerCase().indexOf(query[i].toLowerCase()) == -1){
+                    if(($(this).text().toLowerCase().indexOf(queryString.toLowerCase()) == -1) ^ inverted){
                         //hide if at least one mismatch
                         display = 'none';
                     }
