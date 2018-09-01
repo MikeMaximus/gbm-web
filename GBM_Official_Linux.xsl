@@ -108,7 +108,7 @@
                           <ul class="tree">
                           <li>
                             <input type="checkbox"><xsl:attribute name="id"><xsl:value-of select="Name"/><xsl:value-of select="ProcessName"/></xsl:attribute></input>
-                            <label class="tree_label"><xsl:attribute name="title">ID: <xsl:value-of select="ID"/></xsl:attribute><xsl:attribute name="for"><xsl:value-of select="Name"/><xsl:value-of select="ProcessName"/></xsl:attribute><xsl:value-of select="Name" /></label>
+                            <label class="tree_label"><xsl:attribute name="title">ID: <xsl:value-of select="ID"/></xsl:attribute><xsl:attribute name="for"><xsl:value-of select="Name"/><xsl:value-of select="ProcessName"/></xsl:attribute><xsl:value-of select="Name" /> <a class="permalink" title="permalink"><xsl:attribute name="href">#?q=id:<xsl:value-of select="ID"/></xsl:attribute>&#x1F517;</a></label>
                             <ul>
                               <li><span class="tree_label"><b>Monitored Process</b></span><div class="indent"><xsl:value-of select="ProcessName" /><xsl:if test="Parameter != ''"> (<xsl:value-of select="Parameter" />)</xsl:if></div></li>
                                 <xsl:if test="MonitorOnly='false'">

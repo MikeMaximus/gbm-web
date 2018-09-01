@@ -34,6 +34,13 @@ function search(q){
                     if(!found ^ inverted){
                         display = 'none';
                     }
+                }else if(queryString.startsWith('id:')){
+                    let id = queryString.substring(3);
+                    //strip 'ID: '
+                    let labelId = this.title.substring(4);
+                    if(id != labelId ^ inverted){
+                        display = 'none';
+                    }
                 }else{
                     //compare strings case insensitive
                     if(($(this).text().toLowerCase().indexOf(queryString.toLowerCase()) == -1) ^ inverted){
