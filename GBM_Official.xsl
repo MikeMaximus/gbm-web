@@ -90,10 +90,16 @@
                                 <img class="logo_tiny" src="images/retail_logo_tiny.png" width="24" height="24" alt="Retail" title="Retail" />
                               </xsl:if>
                               <xsl:if test="Name='DOSBox'">
-                                <img class="logo_tiny" src="images/dosbox_logo_tiny.png" width="24" height="24" alt="DOSBox" title="DOSBox" />
+                                <a>
+                                  <xsl:attribute name="href">https://www.dosbox.com/comp_list.php?search=<xsl:value-of select="../../Name"/></xsl:attribute>
+                                  <img class="logo_tiny" src="images/dosbox_logo_tiny.png" width="24" height="24" alt="DOSBox" title="DOSBox" />
+                                </a>
                               </xsl:if>
                               <xsl:if test="Name='ScummVM'">
-                                <img class="logo_tiny" src="images/scumm_logo_tiny.png" width="24" height="24" alt="ScummVM" title="ScummVM" />
+                                <a>
+                                  <xsl:attribute name="href">http://wiki.scummvm.org/index.php?search=<xsl:value-of select="../../Name"/></xsl:attribute>
+                                  <img class="logo_tiny" src="images/scumm_logo_tiny.png" width="24" height="24" alt="ScummVM" title="ScummVM" />
+                                </a>
                               </xsl:if>
                               <xsl:if test="Name='FLOSS'">
                                 <img class="logo_tiny" src="images/floss_logo_tiny.png" width="24" height="24" alt="FLOSS" title="FLOSS" />
