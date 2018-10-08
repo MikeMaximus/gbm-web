@@ -105,6 +105,18 @@
               <li>Hidden folders cannot be displayed when using a folder browser.  I've been unable to find a proper fix for this.</li>
               <li>GBM may not exit cleanly if a critical error occurs, the process will need to be killed.</li>
             </ul>
+            <p class="large">How do I find the process name and save games?</p>
+            <ul>
+              <li>Running processes can be searched with this: <pre>ps ax | grep -i wesnoth</pre></li>
+	            <li>Checking standard folders for configuration and save game folders with this: <pre>name='wesnoth';
+find ~/.local ~/.config -iname "*${name}*"; #folders like ~/.local/share/wesnoth
+echo ~/.* | tr ' ' '\n' | grep -i "${name}"; #folders like ~/.wesnoth</pre></li>
+              <li>Tracking all files, a game writes to:<pre>strace -f -y -e trace=%file -o /tmp/traced.log wesnoth; less /tmp/traced.log</pre> In Steam it would be the following launch option:<pre>strace -f -y -e trace=%file -o /tmp/traced.log %command%</pre>Searching the log file could be done like this:<pre>grep "\(\.local\|\.config\)" /tmp/traced.log</pre></li>              
+              <li>Checks for <a href="https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html">XDG Base Directory Specification</a> compliance could be done like this:<pre>mkdir -p /tmp/test_{data,conf};
+XDG_DATA_HOME=/tmp/test_data/ XDG_CONFIG_HOME=/tmp/test_conf/ wesnoth;
+ls /tmp/test_*;</pre></li>
+              <li>Don't forget to move game configurations to the trash folder (not rm!) and check whether restore works.</li>
+            </ul>
             <p class="large">How do I configure GBM to detect Wine games?</p>
             <ul>
               <li>You don't need to do anything special. Simply set the game's "Process" field to it's Windows executable name (without the extension), exactly the same as configuring a game on Windows.</li>
