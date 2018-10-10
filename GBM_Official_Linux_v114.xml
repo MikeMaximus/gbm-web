@@ -1,12 +1,11 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" href="GBM_Official_Linux.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1539171885" TotalConfigurations="400" AppVer="115">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1535814850" TotalConfigurations="400" AppVer="114">
   <Game>
     <ID>bbf8e00a-d7b8-46a5-b52c-8ba886b8c38a</ID>
     <Name>0 AD</Name>
     <ProcessName>pyrogenesis</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/0ad/saves</Path>
+    <Path>*appdatalocal*/0ad/saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -30,7 +29,7 @@
     <Name>3079 -- Block Action RPG</Name>
     <ProcessName>java</ProcessName>
     <Parameter>3079.jar</Parameter>
-    <Path>~/3079Saves</Path>
+    <Path>*mydocs*/3079Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -54,7 +53,7 @@
     <Name>8-Bit Commando</Name>
     <ProcessName>8bit_commando</ProcessName>
     <Parameter />
-    <Path>~/.agen/8-Bit Commando/</Path>
+    <Path>*mydocs*/.agen/8-Bit Commando/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -81,7 +80,7 @@
     <Name>A Bird Story</Name>
     <ProcessName>ABirdStory\.(amd64|x86)</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/freebirdgames/abirdstory/</Path>
+    <Path>*appdatalocal*/freebirdgames/abirdstory/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -135,7 +134,7 @@
     <Name>A Virus Named TOM</Name>
     <ProcessName>CircuitGame\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/CircuitGameData/</Path>
+    <Path>*appdatalocal*/CircuitGameData/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -162,7 +161,7 @@
     <Name>A Wizard's Lizard</Name>
     <ProcessName>nw</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/A Wizard's Lizard/Local Storage</Path>
+    <Path>*appdataroaming*/A Wizard's Lizard/Local Storage</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -210,7 +209,7 @@
     <Name>AER: Memories of Old</Name>
     <ProcessName>AER\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Daedalic Entertainment GmbH/Aer</Path>
+    <Path>*appdatalocal*/Daedalic Entertainment GmbH/Aer</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -264,7 +263,7 @@
     <Name>AaaaaAAaaaAAAaaAAAAaAAAAA!!! for the Awesome</Name>
     <ProcessName>Awesome.x86</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Dejobaan Games/Awesome/</Path>
+    <Path>*appdataroaming*/unity3d/Dejobaan Games/Awesome/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -288,7 +287,7 @@
     <Name>About Love, Hate and the other ones</Name>
     <ProcessName>loveandhate</ProcessName>
     <Parameter />
-    <Path>~/.aboutloveandhate/</Path>
+    <Path>*mydocs*/.aboutloveandhate/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -315,7 +314,7 @@
     <Name>Abuse</Name>
     <ProcessName>abuse.elf</ProcessName>
     <Parameter />
-    <Path>~/.abuse/</Path>
+    <Path>*mydocs*/.abuse/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -339,7 +338,7 @@
     <Name>Adventures of Shuggy</Name>
     <ProcessName>Shuggy\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Shuggy</Path>
+    <Path>*appdatalocal*/Shuggy</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -366,7 +365,7 @@
     <Name>Age of Wonders III</Name>
     <ProcessName>AoW3</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/AoW3/Profiles</Path>
+    <Path>*appdatalocal*/AoW3/Profiles</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -417,7 +416,7 @@
     <Name>Always Remember Me</Name>
     <ProcessName>Always Remember Me</ProcessName>
     <Parameter />
-    <Path>~/.renpy/</Path>
+    <Path>*mydocs*/.renpy/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -447,7 +446,7 @@
     <Name>American Truck Simulator</Name>
     <ProcessName>amtrucks</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/American Truck Simulator/profiles</Path>
+    <Path>*appdatalocal*/American Truck Simulator/profiles</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -471,7 +470,7 @@
     <Name>Amnesia: Machine for Pigs</Name>
     <ProcessName>AmnesiaAMFP(_NO_STEAM)?\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>~/.frictionalgames/Amnesia/Pig/</Path>
+    <Path>*mydocs*/.frictionalgames/Amnesia/Pig/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -498,7 +497,7 @@
     <Name>Amnesia: The Dark descent</Name>
     <ProcessName>Amnesia(_NO_STEAM)?\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>~/.frictionalgames/Amnesia</Path>
+    <Path>*mydocs*/.frictionalgames/Amnesia</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -525,7 +524,7 @@
     <Name>Analogue: A Hate Story</Name>
     <ProcessName>python.real</ProcessName>
     <Parameter>Analogue.py</Parameter>
-    <Path>~/.renpy/Analogue</Path>
+    <Path>*mydocs*/.renpy/Analogue</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -555,7 +554,7 @@
     <Name>And Yet It Moves</Name>
     <ProcessName>AndYetItMoves</ProcessName>
     <Parameter />
-    <Path>~/.Broken Rules/And Yet It Moves/</Path>
+    <Path>*mydocs*/.Broken Rules/And Yet It Moves/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -579,7 +578,7 @@
     <Name>Anodyne</Name>
     <ProcessName>Anodyne</ProcessName>
     <Parameter />
-    <Path>~/.appdata/Anodyne/Local Store/#SharedObjects/Anodyne.swf/</Path>
+    <Path>*mydocs*/.appdata/Anodyne/Local Store/#SharedObjects/Anodyne.swf/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -606,7 +605,7 @@
     <Name>Anomaly 2</Name>
     <ProcessName>Anomaly2Linux</ProcessName>
     <Parameter />
-    <Path>~/.Anomaly 2</Path>
+    <Path>*mydocs*/.Anomaly 2</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -633,7 +632,7 @@
     <Name>Anomaly Defenders</Name>
     <ProcessName>AnomalyDefenders</ProcessName>
     <Parameter />
-    <Path>~/.Anomaly Defenders/</Path>
+    <Path>*mydocs*/.Anomaly Defenders/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -660,7 +659,7 @@
     <Name>Anomaly Warzone Earth</Name>
     <ProcessName>AnomalyWarzoneEarth</ProcessName>
     <Parameter />
-    <Path>~/.Anomaly</Path>
+    <Path>*mydocs*/.Anomaly</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -687,7 +686,7 @@
     <Name>Anomaly Warzone Earth Mobile Campaign</Name>
     <ProcessName>AnomalyMobileCampaign</ProcessName>
     <Parameter />
-    <Path>~/.Anomaly Warzone Earth Mobile Campaign</Path>
+    <Path>*mydocs*/.Anomaly Warzone Earth Mobile Campaign</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -711,7 +710,7 @@
     <Name>Antichamber</Name>
     <ProcessName>UDKGame-Linux</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/AlexanderBruce/Antichamber</Path>
+    <Path>*appdatalocal*/AlexanderBruce/Antichamber</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -735,7 +734,7 @@
     <Name>Apotheon</Name>
     <ProcessName>Apotheon\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Apotheon/SavedGames</Path>
+    <Path>*appdatalocal*/Apotheon/SavedGames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -762,7 +761,7 @@
     <Name>Aquaria</Name>
     <ProcessName>aquaria</ProcessName>
     <Parameter />
-    <Path>~/.Aquaria/save</Path>
+    <Path>*mydocs*/.Aquaria/save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -786,7 +785,7 @@
     <Name>Aragami</Name>
     <ProcessName>Aragami\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Lince Works/Aragami/</Path>
+    <Path>*appdataroaming*/unity3d/Lince Works/Aragami/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -813,7 +812,7 @@
     <Name>Ardentryst</Name>
     <ProcessName>python2.7</ProcessName>
     <Parameter>ardentryst</Parameter>
-    <Path>~/.ardentryst/Saves</Path>
+    <Path>*mydocs*/.ardentryst/Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -837,7 +836,7 @@
     <Name>Arx Libertatis</Name>
     <ProcessName>arx</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/arx</Path>
+    <Path>*appdatalocal*/arx</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -917,7 +916,7 @@ closed data</Comments>
     <Name>Astromenace</Name>
     <ProcessName>astromenace</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/astromenace/</Path>
+    <Path>*appdataroaming*/astromenace/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -941,7 +940,7 @@ closed data</Comments>
     <Name>Atom Zombie Smasher</Name>
     <ProcessName>AtomZombieSmasher\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/AtomZombieData/profiles</Path>
+    <Path>*appdataroaming*/AtomZombieData/profiles</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -965,7 +964,7 @@ closed data</Comments>
     <Name>Avadon: The Black Fortress</Name>
     <ProcessName>Avadon-(x86|amd64)</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Avadon/Spiderweb Software/Avadon Saved Games</Path>
+    <Path>*appdatalocal*/Avadon/Spiderweb Software/Avadon Saved Games</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -989,7 +988,7 @@ closed data</Comments>
     <Name>BADLAND: Game of the Year Edition</Name>
     <ProcessName>badland</ProcessName>
     <Parameter />
-    <Path>~/.BADLAND</Path>
+    <Path>*mydocs*/.BADLAND</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1016,7 +1015,7 @@ closed data</Comments>
     <Name>BLACKHOLE</Name>
     <ProcessName>BLACKHOLE</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/BLACKHOLE/</Path>
+    <Path>*appdataroaming*/BLACKHOLE/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1046,7 +1045,7 @@ closed data</Comments>
     <Name>Back to Bed</Name>
     <ProcessName>BackToBed\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Back to Bed</Path>
+    <Path>*appdatalocal*/Back to Bed</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1073,7 +1072,7 @@ closed data</Comments>
     <Name>Bad Hotel</Name>
     <ProcessName>BadHotel\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/BadHotel</Path>
+    <Path>*appdatalocal*/BadHotel</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1103,7 +1102,7 @@ closed data</Comments>
     <Name>Baldur's Gate - Enhanced Edition</Name>
     <ProcessName>BaldursGate</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Baldur's Gate - Enhanced Edition</Path>
+    <Path>*appdatalocal*/Baldur's Gate - Enhanced Edition</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1127,7 +1126,7 @@ closed data</Comments>
     <Name>Baldur's Gate 2 - Enhanced Edition</Name>
     <ProcessName>BaldursGateII</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Baldur's Gate II - Enhanced Edition</Path>
+    <Path>*appdatalocal*/Baldur's Gate II - Enhanced Edition</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1175,7 +1174,7 @@ closed data</Comments>
     <Name>Bastion</Name>
     <ProcessName>Bastion\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>~/.SupergiantGames/Bastion</Path>
+    <Path>*mydocs*/.SupergiantGames/Bastion</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1202,7 +1201,7 @@ closed data</Comments>
     <Name>Battle Worlds - Kronos</Name>
     <ProcessName>BattleWorldsKronos\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>~/Documents/BattleWorldsKronos/</Path>
+    <Path>*mydocs*/Documents/BattleWorldsKronos/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1254,7 +1253,7 @@ no DRM-free version</Comments>
     <Name>BattleJump</Name>
     <ProcessName>BattleJump</ProcessName>
     <Parameter />
-    <Path>~/.BattleJump/</Path>
+    <Path>*mydocs*/.BattleJump/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1278,7 +1277,7 @@ no DRM-free version</Comments>
     <Name>Beat Hazard</Name>
     <ProcessName>BeatHazard_Linux2</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/BeatHazard_Linux2/</Path>
+    <Path>*appdatalocal*/BeatHazard_Linux2/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1305,7 +1304,7 @@ no DRM-free version</Comments>
     <Name>Beatbuddy: Tale of the Guardians</Name>
     <ProcessName>Beatbuddy</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Threaks/Beatbuddy/</Path>
+    <Path>*appdataroaming*/unity3d/Threaks/Beatbuddy/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1332,7 +1331,7 @@ no DRM-free version</Comments>
     <Name>Beholder</Name>
     <ProcessName>Beholder\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>~/Warm Lamp Games/Beholder/Saves</Path>
+    <Path>*mydocs*/Warm Lamp Games/Beholder/Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1359,7 +1358,7 @@ no DRM-free version</Comments>
     <Name>Beneath a Steel Sky</Name>
     <ProcessName>scummvm</ProcessName>
     <Parameter>sky</Parameter>
-    <Path>~/.scummvm</Path>
+    <Path>*mydocs*/.scummvm</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1383,7 +1382,7 @@ no DRM-free version</Comments>
     <Name>Big Pharma</Name>
     <ProcessName>Big Pharma.x86</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Big Pharma/Saves</Path>
+    <Path>*appdatalocal*/Big Pharma/Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1437,7 +1436,7 @@ no DRM-free version</Comments>
     <Name>Bionic Heart</Name>
     <ProcessName>Bionic Heart</ProcessName>
     <Parameter />
-    <Path>~/.renpy/</Path>
+    <Path>*mydocs*/.renpy/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1467,7 +1466,7 @@ no DRM-free version</Comments>
     <Name>Bioshock Infinite</Name>
     <ProcessName>bioshock.i386</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/irrationalgames/bioshockinfinite/GameDocuments/My Games/BioShock Infinite/</Path>
+    <Path>*appdatalocal*/irrationalgames/bioshockinfinite/GameDocuments/My Games/BioShock Infinite/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1499,7 +1498,7 @@ multiple savegames not possible</Comments>
     <Name>Bit Blaster XL</Name>
     <ProcessName>BitBlasterXL\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Nickervision Studios/Bit Blaster XL</Path>
+    <Path>*appdataroaming*/unity3d/Nickervision Studios/Bit Blaster XL</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1553,7 +1552,7 @@ multiple savegames not possible</Comments>
     <Name>Blackwell Convergence</Name>
     <ProcessName>Convergence\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Blackwell Convergence</Path>
+    <Path>*appdatalocal*/Blackwell Convergence</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1580,7 +1579,7 @@ multiple savegames not possible</Comments>
     <Name>Blackwell Legacy</Name>
     <ProcessName>Legacy\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Blackwell Legacy v1.7</Path>
+    <Path>*appdatalocal*/Blackwell Legacy v1.7</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1607,7 +1606,7 @@ multiple savegames not possible</Comments>
     <Name>Blackwell Unbound</Name>
     <ProcessName>Unbound\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Blackwell Unbound</Path>
+    <Path>*appdatalocal*/Blackwell Unbound</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1634,7 +1633,7 @@ multiple savegames not possible</Comments>
     <Name>Bleed</Name>
     <ProcessName>Bleed\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Bleed/Bleed/AllPlayers</Path>
+    <Path>*appdatalocal*/Bleed/Bleed/AllPlayers</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1658,7 +1657,7 @@ multiple savegames not possible</Comments>
     <Name>Bloboats</Name>
     <ProcessName>bloboats</ProcessName>
     <Parameter />
-    <Path>~/.bloboats/</Path>
+    <Path>*mydocs*/.bloboats/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1682,7 +1681,7 @@ multiple savegames not possible</Comments>
     <Name>Blocks That Matter</Name>
     <ProcessName>java</ProcessName>
     <Parameter>BTM.jar</Parameter>
-    <Path>~/.BlocksThatMatterUserDatas/</Path>
+    <Path>*mydocs*/.BlocksThatMatterUserDatas/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1709,7 +1708,7 @@ multiple savegames not possible</Comments>
     <Name>Blockstorm</Name>
     <ProcessName>Blockstorm\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/IndieGala/Blockstorm</Path>
+    <Path>*appdataroaming*/unity3d/IndieGala/Blockstorm</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1736,7 +1735,7 @@ multiple savegames not possible</Comments>
     <Name>Blossoms Bloom Brightest</Name>
     <ProcessName>(Blossoms\sBloom\sBrightest|BBBv1)</ProcessName>
     <Parameter />
-    <Path>~/.renpy/</Path>
+    <Path>*mydocs*/.renpy/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1769,7 +1768,7 @@ multiple savegames not possible</Comments>
     <Name>Blue Rose</Name>
     <ProcessName>Blue\sRose(\sDemo)?</ProcessName>
     <Parameter />
-    <Path>~/.renpy/</Path>
+    <Path>*mydocs*/.renpy/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1796,7 +1795,7 @@ multiple savegames not possible</Comments>
     <Name>Bomb Defense</Name>
     <ProcessName>BombDefense\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Mitorah Games/Bomb Defense/</Path>
+    <Path>*appdataroaming*/unity3d/Mitorah Games/Bomb Defense/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1820,7 +1819,7 @@ multiple savegames not possible</Comments>
     <Name>Borderlands 2</Name>
     <ProcessName>Borderlands2</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/aspyr-media/borderlands 2/willowgame/savedata</Path>
+    <Path>*appdatalocal*/aspyr-media/borderlands 2/willowgame/savedata</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1847,7 +1846,7 @@ multiple savegames not possible</Comments>
     <Name>Borderlands: The Pre-Sequel</Name>
     <ProcessName>BorderlandsPreSequel</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/aspyr-media/borderlands the pre-sequel/willowgame/savedata/</Path>
+    <Path>*appdatalocal*/aspyr-media/borderlands the pre-sequel/willowgame/savedata/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1874,7 +1873,7 @@ multiple savegames not possible</Comments>
     <Name>Braid</Name>
     <ProcessName>[Bb]raid(\.bin\.x86)?</ProcessName>
     <Parameter />
-    <Path>~/.Braid</Path>
+    <Path>*mydocs*/.Braid</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1901,7 +1900,7 @@ multiple savegames not possible</Comments>
     <Name>Bridge Constructor Playground</Name>
     <ProcessName>BridgeConstructorPlayground.x86</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/ClockStone Software GmbH/Bridge Constructor Playground/</Path>
+    <Path>*appdataroaming*/unity3d/ClockStone Software GmbH/Bridge Constructor Playground/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1949,7 +1948,7 @@ multiple savegames not possible</Comments>
     <Name>Broken Sword 1 - Shadow of the Templars: Director's Cut</Name>
     <ProcessName>bs1dc_(i386|x86_64)</ProcessName>
     <Parameter />
-    <Path>~/.bs1dc</Path>
+    <Path>*mydocs*/.bs1dc</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1976,7 +1975,7 @@ multiple savegames not possible</Comments>
     <Name>Broken Sword 5 - the Serpent's Curse</Name>
     <ProcessName>BS5</ProcessName>
     <Parameter />
-    <Path>~/.bs5/</Path>
+    <Path>*mydocs*/.bs5/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2000,7 +1999,7 @@ multiple savegames not possible</Comments>
     <Name>Brütal Legend</Name>
     <ProcessName>Buddha.bin.x86</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/doublefine/brutallegend/</Path>
+    <Path>*appdatalocal*/doublefine/brutallegend/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2058,7 +2057,7 @@ Saves must be moved manually between those versions.</Comments>
     <Name>CRYPTARK</Name>
     <ProcessName>Cryptark\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Cryptark/SavedGames</Path>
+    <Path>*appdatalocal*/Cryptark/SavedGames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2082,7 +2081,7 @@ Saves must be moved manually between those versions.</Comments>
     <Name>CUPID - Visual Novel</Name>
     <ProcessName>CupidVN</ProcessName>
     <Parameter />
-    <Path>~/.renpy/</Path>
+    <Path>*mydocs*/.renpy/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2115,7 +2114,7 @@ Saves must be moved manually between those versions.</Comments>
     <Name>Canabalt</Name>
     <ProcessName>Canabalt\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Finji/Canabalt</Path>
+    <Path>*appdataroaming*/unity3d/Finji/Canabalt</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2142,7 +2141,7 @@ Saves must be moved manually between those versions.</Comments>
     <Name>Capsized</Name>
     <ProcessName>NePlusUltra\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Capsized/</Path>
+    <Path>*appdatalocal*/Capsized/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2166,7 +2165,7 @@ Saves must be moved manually between those versions.</Comments>
     <Name>Card City Nights</Name>
     <ProcessName>ccn.x86</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Ludosity/CardCityNights/</Path>
+    <Path>*appdataroaming*/unity3d/Ludosity/CardCityNights/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2190,7 +2189,7 @@ Saves must be moved manually between those versions.</Comments>
     <Name>Carpe Diem</Name>
     <ProcessName>Carpe Diem</ProcessName>
     <Parameter />
-    <Path>~/.renpy/</Path>
+    <Path>*mydocs*/.renpy/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2274,7 +2273,7 @@ Saves must be moved manually between those versions.</Comments>
     <Name>Cave Story+</Name>
     <ProcessName>CaveStory+</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/CaveStory+/</Path>
+    <Path>*appdatalocal*/CaveStory+/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2298,7 +2297,7 @@ Saves must be moved manually between those versions.</Comments>
     <Name>Chivalry: Madieval Warfare</Name>
     <ProcessName>UDKGame-Linux</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/TornBanner/Chivalry/</Path>
+    <Path>*appdatalocal*/TornBanner/Chivalry/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2352,7 +2351,7 @@ Saves must be moved manually between those versions.</Comments>
     <Name>Cinderella Phenomenon - Otome/Visual Novel</Name>
     <ProcessName>CinderellaPhenomenon</ProcessName>
     <Parameter />
-    <Path>~/.renpy/</Path>
+    <Path>*mydocs*/.renpy/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2382,7 +2381,7 @@ Saves must be moved manually between those versions.</Comments>
     <Name>Cities - Skylines</Name>
     <ProcessName>Cities.x64</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Colossal Order/Cities_Skylines/Saves</Path>
+    <Path>*appdatalocal*/Colossal Order/Cities_Skylines/Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2406,7 +2405,7 @@ Saves must be moved manually between those versions.</Comments>
     <Name>Cities in Motion 2</Name>
     <ProcessName>Cities in Motion 2</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Colossal Order/Cities in Motion 2/Saves</Path>
+    <Path>*appdataroaming*/unity3d/Colossal Order/Cities in Motion 2/Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2433,7 +2432,7 @@ Saves must be moved manually between those versions.</Comments>
     <Name>Closure</Name>
     <ProcessName>Closure.bin.x86</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Eyebrow Interactive/Closure</Path>
+    <Path>*appdatalocal*/Eyebrow Interactive/Closure</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2460,7 +2459,7 @@ Saves must be moved manually between those versions.</Comments>
     <Name>Clustertruck</Name>
     <ProcessName>Clustertruck.x86_64</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Landfall/Clustertruck</Path>
+    <Path>*appdataroaming*/unity3d/Landfall/Clustertruck</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2484,7 +2483,7 @@ Saves must be moved manually between those versions.</Comments>
     <Name>Cogs</Name>
     <ProcessName>Cogs-x86</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Cogs</Path>
+    <Path>*appdatalocal*/Cogs</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2511,7 +2510,7 @@ Saves must be moved manually between those versions.</Comments>
     <Name>Contraption Maker</Name>
     <ProcessName>ContraptionMaker</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/spotkincm/contraptionmaker/data/</Path>
+    <Path>*appdataroaming*/spotkincm/contraptionmaker/data/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2538,7 +2537,7 @@ Saves must be moved manually between those versions.</Comments>
     <Name>Cook, Serve, Delicious!</Name>
     <ProcessName>runner</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/CSDSteamBuild</Path>
+    <Path>*appdataroaming*/CSDSteamBuild</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2571,7 +2570,7 @@ Saves must be moved manually between those versions.</Comments>
     <Name>CorsixTH</Name>
     <ProcessName>CorsixTH</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/CorsixTH/Saves</Path>
+    <Path>*appdataroaming*/CorsixTH/Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2652,7 +2651,7 @@ Saves must be moved manually between those versions.</Comments>
     <Name>Cubemen</Name>
     <ProcessName>Cubemen(\.x86)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/3 Sprockets/Cubemen/</Path>
+    <Path>*appdataroaming*/unity3d/3 Sprockets/Cubemen/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2682,7 +2681,7 @@ Saves must be moved manually between those versions.</Comments>
     <Name>Cubemen 2</Name>
     <ProcessName>Cubemen2(\.x86)</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/3 Sprockets/Cubemen2/</Path>
+    <Path>*appdataroaming*/unity3d/3 Sprockets/Cubemen2/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2712,7 +2711,7 @@ Saves must be moved manually between those versions.</Comments>
     <Name>DEADBOLT</Name>
     <ProcessName>runner</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/deadbolt_game</Path>
+    <Path>*appdataroaming*/deadbolt_game</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2742,7 +2741,7 @@ Saves must be moved manually between those versions.</Comments>
     <Name>DISC ROOM</Name>
     <ProcessName>runner</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/disc_room</Path>
+    <Path>*appdataroaming*/disc_room</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2766,7 +2765,7 @@ Saves must be moved manually between those versions.</Comments>
     <Name>Darkest Hour: Europe '44-'45</Name>
     <ProcessName>redorchestra-bin</ProcessName>
     <Parameter>-mod=DarkestHour</Parameter>
-    <Path>~/.redorchestra/DarkestHour</Path>
+    <Path>*mydocs*/.redorchestra/DarkestHour</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2793,7 +2792,7 @@ Saves must be moved manually between those versions.</Comments>
     <Name>Day of the Tentacle Remastered</Name>
     <ProcessName>Dott</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/doublefine/dott/savedata</Path>
+    <Path>*appdatalocal*/doublefine/dott/savedata</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2826,7 +2825,7 @@ Saves must be moved manually between those versions.</Comments>
     <Name>Death Road to Canada</Name>
     <ProcessName>prog-linux</ProcessName>
     <Parameter />
-    <Path>~/.madgarden/DR2C</Path>
+    <Path>*mydocs*/.madgarden/DR2C</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2850,7 +2849,7 @@ Saves must be moved manually between those versions.</Comments>
     <Name>Defend Your Life!</Name>
     <ProcessName>dyl.x86</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Alda Games s.r.o./Defend Your Life!</Path>
+    <Path>*appdataroaming*/unity3d/Alda Games s.r.o./Defend Your Life!</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2877,7 +2876,7 @@ Saves must be moved manually between those versions.</Comments>
     <Name>Defender's Quest: Valley of the Forgotten</Name>
     <ProcessName>DefendersQuest</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/LevelUpLabs/DefendersQuest</Path>
+    <Path>*appdatalocal*/LevelUpLabs/DefendersQuest</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2936,7 +2935,7 @@ Change path for old drm-free versions in ~/.appdata/DefendersQuest/Local\ Store/
     <Name>Democracy 3</Name>
     <ProcessName>Democracy3\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/democracy3/savegames</Path>
+    <Path>*appdatalocal*/democracy3/savegames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2963,7 +2962,7 @@ Change path for old drm-free versions in ~/.appdata/DefendersQuest/Local\ Store/
     <Name>Deponia: The Complete Journey</Name>
     <ProcessName>deponia_tcj</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Daedalic Entertainment GmbH/Deponia The Complete Journey/Savegames</Path>
+    <Path>*appdatalocal*/Daedalic Entertainment GmbH/Deponia The Complete Journey/Savegames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2990,7 +2989,7 @@ Change path for old drm-free versions in ~/.appdata/DefendersQuest/Local\ Store/
     <Name>Deus Ex: Mankind Divided™</Name>
     <ProcessName>DeusExMD</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/feral-interactive/Deus Ex Mankind Divided/SaveData</Path>
+    <Path>*appdatalocal*/feral-interactive/Deus Ex Mankind Divided/SaveData</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3017,7 +3016,7 @@ Change path for old drm-free versions in ~/.appdata/DefendersQuest/Local\ Store/
     <Name>Din's Curse</Name>
     <ProcessName>DinsCurse</ProcessName>
     <Parameter />
-    <Path>~/.local/DinsCurse/User/chars</Path>
+    <Path>*mydocs*/.local/DinsCurse/User/chars</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3041,7 +3040,7 @@ Change path for old drm-free versions in ~/.appdata/DefendersQuest/Local\ Store/
     <Name>Disturbed</Name>
     <ProcessName>Disturbed</ProcessName>
     <Parameter />
-    <Path>~/.renpy</Path>
+    <Path>*mydocs*/.renpy</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3071,7 +3070,7 @@ Change path for old drm-free versions in ~/.appdata/DefendersQuest/Local\ Store/
     <Name>Divinity: Original Sin - Enhanced Edition</Name>
     <ProcessName>EoCApp</ProcessName>
     <Parameter />
-    <Path>~/Larian Studios/Divinity Original Sin Enhanced Edition/PlayerProfiles</Path>
+    <Path>*mydocs*/Larian Studios/Divinity Original Sin Enhanced Edition/PlayerProfiles</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3101,7 +3100,7 @@ Change path for old drm-free versions in ~/.appdata/DefendersQuest/Local\ Store/
     <Name>Doki Doki Literature Club!</Name>
     <ProcessName>DDLC</ProcessName>
     <Parameter />
-    <Path>~/.renpy/</Path>
+    <Path>*mydocs*/.renpy/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3135,7 +3134,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Name>Door Kickers</Name>
     <ProcessName>DoorKickers</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/DoorKickers</Path>
+    <Path>*appdatalocal*/DoorKickers</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3159,7 +3158,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Name>Drascula The Vampire Strikes Back</Name>
     <ProcessName>scummvm</ProcessName>
     <Parameter>drascula</Parameter>
-    <Path>~/.scummvm</Path>
+    <Path>*mydocs*/.scummvm</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3183,7 +3182,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Name>Dreamfall Chapters</Name>
     <ProcessName>Dreamfall Chapters</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Red Thread Games/Dreamfall Chapters</Path>
+    <Path>*appdataroaming*/unity3d/Red Thread Games/Dreamfall Chapters</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3213,7 +3212,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Name>Driftwood The Visual Novel</Name>
     <ProcessName>Driftwood</ProcessName>
     <Parameter />
-    <Path>~/.renpy</Path>
+    <Path>*mydocs*/.renpy</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3243,7 +3242,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Name>Droid Assault</Name>
     <ProcessName>java(32|64)</ProcessName>
     <Parameter>DroidAssault.jar</Parameter>
-    <Path>~/.droid_assault_1.92</Path>
+    <Path>*mydocs*/.droid_assault_1.92</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3300,7 +3299,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Name>Dungeon Souls</Name>
     <ProcessName>runner</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/DungeonSouls</Path>
+    <Path>*appdataroaming*/DungeonSouls</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3333,7 +3332,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Name>Dungeons 2 (gog)</Name>
     <ProcessName>Dungeons2(\.x86_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/Kalypso Media/Dungeons 2/savegames</Path>
+    <Path>*appdataroaming*/Kalypso Media/Dungeons 2/savegames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3384,7 +3383,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Name>Dungeons of Dredmor</Name>
     <ProcessName>Dredmor-(x86|amd64)</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Dredmor</Path>
+    <Path>*appdatalocal*/Dredmor</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3411,7 +3410,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Name>Dust: An Elysian Tail</Name>
     <ProcessName>DustAET\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/DustAET</Path>
+    <Path>*appdatalocal*/DustAET</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3438,7 +3437,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Name>Dustforce</Name>
     <ProcessName>Dustforce\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>~/.HitboxTeam/Dustforce/user/save</Path>
+    <Path>*mydocs*/.HitboxTeam/Dustforce/user/save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3465,7 +3464,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Name>Edge</Name>
     <ProcessName>EDGE\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>~/.twotribes/edge</Path>
+    <Path>*mydocs*/.twotribes/edge</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3492,7 +3491,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Name>Ellipsis</Name>
     <ProcessName>Ellipsis\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Salmi GmbH/Ellipsis/Saves</Path>
+    <Path>*appdataroaming*/unity3d/Salmi GmbH/Ellipsis/Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3549,7 +3548,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Name>Endless Sky</Name>
     <ProcessName>endless-sky</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/endless-sky/saves</Path>
+    <Path>*appdatalocal*/endless-sky/saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3576,7 +3575,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Name>English Country Tune</Name>
     <ProcessName>English\sCountry\sTune(\.x86(_64)?)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/increpare games/English Country Tune</Path>
+    <Path>*appdataroaming*/unity3d/increpare games/English Country Tune</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3603,7 +3602,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Name>Epistory - Typing Chronicles</Name>
     <ProcessName>Epistory\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Fishing Cactus/Epistory/</Path>
+    <Path>*appdataroaming*/unity3d/Fishing Cactus/Epistory/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3657,7 +3656,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Name>Eufloria HD</Name>
     <ProcessName>EufloriaHD\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/EufloriaHD</Path>
+    <Path>*appdatalocal*/EufloriaHD</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3681,7 +3680,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Name>Euro Truck Simulator 2</Name>
     <ProcessName>eurotrucks2</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Euro Truck Simulator 2/profiles</Path>
+    <Path>*appdatalocal*/Euro Truck Simulator 2/profiles</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3705,7 +3704,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Name>Evening Surprise</Name>
     <ProcessName>EveningSurprise</ProcessName>
     <Parameter />
-    <Path>~/.renpy</Path>
+    <Path>*mydocs*/.renpy</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3795,7 +3794,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Name>FEZ</Name>
     <ProcessName>FEZ\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/FEZ</Path>
+    <Path>*appdatalocal*/FEZ</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3822,7 +3821,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Name>FTL: Faster Than Light</Name>
     <ProcessName>FTL(\.amd64|\.x86)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/FasterThanLight</Path>
+    <Path>*appdatalocal*/FasterThanLight</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3855,7 +3854,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Name>Factorio</Name>
     <ProcessName>factorio</ProcessName>
     <Parameter />
-    <Path>~/.factorio/saves</Path>
+    <Path>*mydocs*/.factorio/saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3879,7 +3878,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Name>FaeVerseAlchemy</Name>
     <ProcessName>FaeVerseAlchemy_(32|64)</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/FaeVerse Alchemy</Path>
+    <Path>*appdataroaming*/FaeVerse Alchemy</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3906,7 +3905,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Name>Flare RPG</Name>
     <ProcessName>flare(\.x86(_64)?)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/flare</Path>
+    <Path>*appdatalocal*/flare</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3930,7 +3929,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Name>Flight of the Amazon Queen</Name>
     <ProcessName>scummvm</ProcessName>
     <Parameter>queen</Parameter>
-    <Path>~/.scummvm</Path>
+    <Path>*mydocs*/.scummvm</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3954,7 +3953,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Name>Forward to the Sky</Name>
     <ProcessName>ForwardToTheSky\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/AnimuGame/ForwardToTheSky</Path>
+    <Path>*appdataroaming*/unity3d/AnimuGame/ForwardToTheSky</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3978,7 +3977,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Name>Freedroid RPG</Name>
     <ProcessName>freedroidRPG</ProcessName>
     <Parameter />
-    <Path>~/.freedroid_rpg/</Path>
+    <Path>*mydocs*/.freedroid_rpg/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4002,7 +4001,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Name>Frogatto</Name>
     <ProcessName>game</ProcessName>
     <Parameter />
-    <Path>~/.frogatto/</Path>
+    <Path>*mydocs*/.frogatto/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4056,7 +4055,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Name>Frozen Bubble</Name>
     <ProcessName>frozen-bubble</ProcessName>
     <Parameter />
-    <Path>~/.frozen-bubble/</Path>
+    <Path>*mydocs*/.frozen-bubble/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4080,7 +4079,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Name>Gemini Rue (humble)</Name>
     <ProcessName>GeminiRue\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Gemini Rue</Path>
+    <Path>*appdatalocal*/Gemini Rue</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4131,7 +4130,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Name>Girls Like Robots</Name>
     <ProcessName>GirlsLikeRobots(\.x86)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Popcannibal LLC/Girls Like Robots</Path>
+    <Path>*appdataroaming*/unity3d/Popcannibal LLC/Girls Like Robots</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4159,7 +4158,7 @@ No backup for steam version</Comments>
     <Name>Gnomoria</Name>
     <ProcessName>Gnomoria\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Gnomoria</Path>
+    <Path>*appdatalocal*/Gnomoria</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4186,7 +4185,7 @@ No backup for steam version</Comments>
     <Name>GoNNER</Name>
     <ProcessName>GoNNER.x86</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Art in Heart/GoNNER</Path>
+    <Path>*appdataroaming*/unity3d/Art in Heart/GoNNER</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4210,7 +4209,7 @@ No backup for steam version</Comments>
     <Name>Gone Home</Name>
     <ProcessName>GoneHome\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/The Fullbright Company/Gone Home</Path>
+    <Path>*appdataroaming*/unity3d/The Fullbright Company/Gone Home</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4258,7 +4257,7 @@ No backup for steam version</Comments>
     <Name>Guacamelee! Gold Edition</Name>
     <ProcessName>game-bin</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Drinkbox Studios/Guacamelee/</Path>
+    <Path>*appdatalocal*/Drinkbox Studios/Guacamelee/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4288,7 +4287,7 @@ No backup for steam version</Comments>
     <Name>Gunpoint</Name>
     <ProcessName>Gunpoint(Steam)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/gunpoint/Savegames</Path>
+    <Path>*appdatalocal*/gunpoint/Savegames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4315,7 +4314,7 @@ No backup for steam version</Comments>
     <Name>Gunroar</Name>
     <ProcessName>gunroar</ProcessName>
     <Parameter />
-    <Path>~/.gunroar/</Path>
+    <Path>*mydocs*/.gunroar/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4363,7 +4362,7 @@ No backup for steam version</Comments>
     <Name>Guts and Glory</Name>
     <ProcessName>Guts and Glory\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/HakJak Productions LLC/Guts and Glory</Path>
+    <Path>*appdataroaming*/unity3d/HakJak Productions LLC/Guts and Glory</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4492,7 +4491,7 @@ No backup for steam version</Comments>
     <Name>Hand of Fate</Name>
     <ProcessName>Hand of Fate\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Defiant Development/Hand of Fate</Path>
+    <Path>*appdataroaming*/unity3d/Defiant Development/Hand of Fate</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4522,7 +4521,7 @@ No backup for steam version</Comments>
     <Name>Harvest: Massive Encounter</Name>
     <ProcessName>Harvest</ProcessName>
     <Parameter />
-    <Path>~/.Harvest/profiles</Path>
+    <Path>*mydocs*/.Harvest/profiles</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4546,7 +4545,7 @@ No backup for steam version</Comments>
     <Name>Hate Plus</Name>
     <ProcessName>python.real</ProcessName>
     <Parameter>HatePlus.py</Parameter>
-    <Path>~/.renpy/Analogue</Path>
+    <Path>*mydocs*/.renpy/Analogue</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4576,7 +4575,7 @@ No backup for steam version</Comments>
     <Name>Hatoful Boyfriend</Name>
     <ProcessName>hatoful\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Mediatonic/HatofulBoyfriend</Path>
+    <Path>*appdataroaming*/unity3d/Mediatonic/HatofulBoyfriend</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4600,7 +4599,7 @@ No backup for steam version</Comments>
     <Name>Hedgewars</Name>
     <ProcessName>hedgewars</ProcessName>
     <Parameter />
-    <Path>~/.hedgewars/Saves</Path>
+    <Path>*mydocs*/.hedgewars/Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4624,7 +4623,7 @@ No backup for steam version</Comments>
     <Name>Heileen 1: Sail Away</Name>
     <ProcessName>Heileen</ProcessName>
     <Parameter />
-    <Path>~/.renpy/</Path>
+    <Path>*mydocs*/.renpy/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4654,7 +4653,7 @@ No backup for steam version</Comments>
     <Name>Heileen 2: The Hands Of Fate</Name>
     <ProcessName>Heileen2</ProcessName>
     <Parameter />
-    <Path>~/.renpy/</Path>
+    <Path>*mydocs*/.renpy/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4684,7 +4683,7 @@ No backup for steam version</Comments>
     <Name>Hero Academy</Name>
     <ProcessName>HeroAcademy.bin.x86</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/RobotEntertainment/HeroAcademy/</Path>
+    <Path>*appdatalocal*/RobotEntertainment/HeroAcademy/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4708,7 +4707,7 @@ No backup for steam version</Comments>
     <Name>Hero Siege</Name>
     <ProcessName>Hero_Siege</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/Hero_Siege/save_folder</Path>
+    <Path>*appdataroaming*/Hero_Siege/save_folder</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4735,7 +4734,7 @@ No backup for steam version</Comments>
     <Name>Hiveswap: Act 1</Name>
     <ProcessName>Hiveswap-Act1\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/What Pumpkin/Hiveswap Episode 1/Saves</Path>
+    <Path>*appdataroaming*/unity3d/What Pumpkin/Hiveswap Episode 1/Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4759,7 +4758,7 @@ No backup for steam version</Comments>
     <Name>Hotline Miami</Name>
     <ProcessName>hotline_launcher</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/HotlineMiami</Path>
+    <Path>*appdatalocal*/HotlineMiami</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4786,7 +4785,7 @@ No backup for steam version</Comments>
     <Name>Hotline Miami 2: Wrong Number</Name>
     <ProcessName>HotlineMiami2(_32)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/HotlineMiami2/</Path>
+    <Path>*appdatalocal*/HotlineMiami2/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4813,7 +4812,7 @@ No backup for steam version</Comments>
     <Name>Hue</Name>
     <ProcessName>Hue\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Fiddlesticks/Hue</Path>
+    <Path>*appdataroaming*/unity3d/Fiddlesticks/Hue</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4840,7 +4839,7 @@ No backup for steam version</Comments>
     <Name>Human Resource Machine</Name>
     <ProcessName>HumanResourceMachine\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Tomorrow Corporation/Human Resource Machine/</Path>
+    <Path>*appdatalocal*/Tomorrow Corporation/Human Resource Machine/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4894,7 +4893,7 @@ No backup for steam version</Comments>
     <Name>INK</Name>
     <ProcessName>runner</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/INK</Path>
+    <Path>*appdataroaming*/INK</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4921,7 +4920,7 @@ No backup for steam version</Comments>
     <Name>Ichi</Name>
     <ProcessName>Ichi.x86</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Stolen Couch Games/Ichi</Path>
+    <Path>*appdataroaming*/unity3d/Stolen Couch Games/Ichi</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4972,7 +4971,7 @@ No backup for steam version</Comments>
     <Name>Influent</Name>
     <ProcessName>Influent\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Three Flip Studios/Influent</Path>
+    <Path>*appdataroaming*/unity3d/Three Flip Studios/Influent</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4999,7 +4998,7 @@ No backup for steam version</Comments>
     <Name>Insanely Twisted Shadow Planet</Name>
     <ProcessName>fcengine-bin32</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Fuelcell/Insanely Twisted Shadow Planet</Path>
+    <Path>*appdatalocal*/Fuelcell/Insanely Twisted Shadow Planet</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5023,7 +5022,7 @@ No backup for steam version</Comments>
     <Name>Intrusion 2</Name>
     <ProcessName>intrusion2</ProcessName>
     <Parameter />
-    <Path>~/intrusion2</Path>
+    <Path>*mydocs*/intrusion2</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5047,7 +5046,7 @@ No backup for steam version</Comments>
     <Name>Invisible Inc</Name>
     <ProcessName>InvisibleInc</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Klei/InvisibleInc/saves</Path>
+    <Path>*appdatalocal*/Klei/InvisibleInc/saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5071,7 +5070,7 @@ No backup for steam version</Comments>
     <Name>Jamestown</Name>
     <ProcessName>Jamestown(-x86)?</ProcessName>
     <Parameter />
-    <Path>~/.jamestown/Saved Games/</Path>
+    <Path>*mydocs*/.jamestown/Saved Games/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5095,7 +5094,7 @@ No backup for steam version</Comments>
     <Name>Jazzpunk: Director's Cut</Name>
     <ProcessName>Jazzpunk\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Necrophone Games/Jazzpunk_ Director_s Cut</Path>
+    <Path>*appdataroaming*/unity3d/Necrophone Games/Jazzpunk_ Director_s Cut</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5122,7 +5121,7 @@ No backup for steam version</Comments>
     <Name>Jotun: Valhalla Edition</Name>
     <ProcessName>Jotun\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Thunder Lotus Games/Jotun/</Path>
+    <Path>*appdataroaming*/unity3d/Thunder Lotus Games/Jotun/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5146,7 +5145,7 @@ No backup for steam version</Comments>
     <Name>JumpJet Rex</Name>
     <ProcessName>JumpJetRex\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/TreeFortress Games/JumpJetRex</Path>
+    <Path>*appdataroaming*/unity3d/TreeFortress Games/JumpJetRex</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5173,7 +5172,7 @@ No backup for steam version</Comments>
     <Name>Katawa Shoujo</Name>
     <ProcessName>Katawa Shoujo</ProcessName>
     <Parameter />
-    <Path>~/.renpy</Path>
+    <Path>*mydocs*/.renpy</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5254,7 +5253,7 @@ No backup for steam version</Comments>
     <Name>Kingdom Rush: Frontiers</Name>
     <ProcessName>krf-love</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/kingdom_rush_frontiers</Path>
+    <Path>*appdatalocal*/kingdom_rush_frontiers</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5281,7 +5280,7 @@ No backup for steam version</Comments>
     <Name>Kingdom: Classic</Name>
     <ProcessName>Kingdom.x86</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/noio/Kingdom/</Path>
+    <Path>*appdataroaming*/unity3d/noio/Kingdom/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5329,7 +5328,7 @@ No backup for steam version</Comments>
     <Name>Knights of Pen and Paper 2</Name>
     <ProcessName>kopp2.x86</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Kyy Games/Knights of Pen and Paper 2</Path>
+    <Path>*appdataroaming*/unity3d/Kyy Games/Knights of Pen and Paper 2</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5377,7 +5376,7 @@ No backup for steam version</Comments>
     <Name>LIMBO</Name>
     <ProcessName>limbo</ProcessName>
     <Parameter />
-    <Path>~/.limbo/limbo/drive_c/Program Files/limbo/save_game/</Path>
+    <Path>*mydocs*/.limbo/limbo/drive_c/Program Files/limbo/save_game/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5401,7 +5400,7 @@ No backup for steam version</Comments>
     <Name>LUFTRAUSERS</Name>
     <ProcessName>luftrausers</ProcessName>
     <Parameter />
-    <Path>~/.LUFTRAUSERS/</Path>
+    <Path>*mydocs*/.LUFTRAUSERS/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5428,7 +5427,7 @@ No backup for steam version</Comments>
     <Name>Lara Croft GO</Name>
     <ProcessName>Lara Croft GO\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Square Enix Ltd_/Lara Croft GO/</Path>
+    <Path>*appdataroaming*/unity3d/Square Enix Ltd_/Lara Croft GO/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5455,7 +5454,7 @@ No backup for steam version</Comments>
     <Name>Legend of Grimrock</Name>
     <ProcessName>Grimrock\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Almost Human/Legend of Grimrock</Path>
+    <Path>*appdatalocal*/Almost Human/Legend of Grimrock</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5512,7 +5511,7 @@ No backup for steam version</Comments>
     <Name>Life Is Strange™</Name>
     <ProcessName>LifeIsStrange</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/feral-interactive/Life Is Strange/VFS/Local/My Games/Life Is Strange/Saves/</Path>
+    <Path>*appdatalocal*/feral-interactive/Life Is Strange/VFS/Local/My Games/Life Is Strange/Saves/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5539,7 +5538,7 @@ No backup for steam version</Comments>
     <Name>Little Inferno</Name>
     <ProcessName>LittleInferno.bin.x86</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/littleinferno</Path>
+    <Path>*appdatalocal*/littleinferno</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5590,7 +5589,7 @@ No backup for steam version</Comments>
     <Name>Lix</Name>
     <ProcessName>lix</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/lix</Path>
+    <Path>*appdatalocal*/lix</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5614,7 +5613,7 @@ No backup for steam version</Comments>
     <Name>Long Live The Queen</Name>
     <ProcessName>python.real</ProcessName>
     <Parameter>LongLiveTheQueen.py</Parameter>
-    <Path>~/.renpy/LongLiveTheQueen</Path>
+    <Path>*mydocs*/.renpy/LongLiveTheQueen</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5641,7 +5640,7 @@ No backup for steam version</Comments>
     <Name>Lure of the Temptress</Name>
     <ProcessName>scummvm</ProcessName>
     <Parameter>lure</Parameter>
-    <Path>~/.scummvm</Path>
+    <Path>*mydocs*/.scummvm</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5665,7 +5664,7 @@ No backup for steam version</Comments>
     <Name>Magical Diary</Name>
     <ProcessName>MagicalDiary</ProcessName>
     <Parameter />
-    <Path>~/.renpy/MagicalDiaryHorseHall</Path>
+    <Path>*mydocs*/.renpy/MagicalDiaryHorseHall</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5692,7 +5691,7 @@ No backup for steam version</Comments>
     <Name>Magicka 2</Name>
     <ProcessName>Magicka2_x64</ProcessName>
     <Parameter />
-    <Path>~/.bitsquid/Magicka2/</Path>
+    <Path>*mydocs*/.bitsquid/Magicka2/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5743,7 +5742,7 @@ No backup for steam version</Comments>
     <Name>Mark of the Ninja</Name>
     <ProcessName>ninja-bin(32|64)</ProcessName>
     <Parameter />
-    <Path>~/.klei/ninja/users</Path>
+    <Path>*mydocs*/.klei/ninja/users</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5773,7 +5772,7 @@ No backup for steam version</Comments>
     <Name>MegaGlest</Name>
     <ProcessName>megaglest</ProcessName>
     <Parameter />
-    <Path>~/.megaglest/saved</Path>
+    <Path>*mydocs*/.megaglest/saved</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5852,7 +5851,7 @@ Steamcloud not working</Comments>
     <Name>Middle-earth™: Shadow of Mordor™</Name>
     <ProcessName>ShadowOfMordor</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/feral-interactive/ShadowOfMordor/SaveData</Path>
+    <Path>*appdatalocal*/feral-interactive/ShadowOfMordor/SaveData</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5876,7 +5875,7 @@ Steamcloud not working</Comments>
     <Name>Minetest</Name>
     <ProcessName>minetest</ProcessName>
     <Parameter />
-    <Path>~/.minetest/worlds/</Path>
+    <Path>*mydocs*/.minetest/worlds/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5900,7 +5899,7 @@ Steamcloud not working</Comments>
     <Name>Mini Metro</Name>
     <ProcessName>Mini\sMetro\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Dinosaur Polo Club/Mini Metro</Path>
+    <Path>*appdataroaming*/unity3d/Dinosaur Polo Club/Mini Metro</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5927,7 +5926,7 @@ Steamcloud not working</Comments>
     <Name>Mirror Magic</Name>
     <ProcessName>mirrormagic</ProcessName>
     <Parameter />
-    <Path>~/.mirrormagic/scores</Path>
+    <Path>*mydocs*/.mirrormagic/scores</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5951,7 +5950,7 @@ Steamcloud not working</Comments>
     <Name>Monaco</Name>
     <ProcessName>Monaco.bin.x86</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Pocketwatch Games/Monaco/SAVEDATA</Path>
+    <Path>*appdatalocal*/Pocketwatch Games/Monaco/SAVEDATA</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5978,7 +5977,7 @@ Steamcloud not working</Comments>
     <Name>Mount and Blade - Warband</Name>
     <ProcessName>mb_warband_linux</ProcessName>
     <Parameter />
-    <Path>~/.mbwarband/Savegames</Path>
+    <Path>*mydocs*/.mbwarband/Savegames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6002,7 +6001,7 @@ Steamcloud not working</Comments>
     <Name>Mr Rescue</Name>
     <ProcessName>love</ProcessName>
     <Parameter>mrrescue-1.02e.love</Parameter>
-    <Path>${XDG_DATA_HOME:-~/.local/share}/love/mrrescue/</Path>
+    <Path>*appdatalocal*/love/mrrescue/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6026,7 +6025,7 @@ Steamcloud not working</Comments>
     <Name>Mr Shifty</Name>
     <ProcessName>MrShifty\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Team Shifty/Mr Shifty/</Path>
+    <Path>*appdataroaming*/unity3d/Team Shifty/Mr Shifty/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6050,7 +6049,7 @@ Steamcloud not working</Comments>
     <Name>Munin</Name>
     <ProcessName>Munin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/GOJIRA/Munin</Path>
+    <Path>*appdataroaming*/unity3d/GOJIRA/Munin</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6074,7 +6073,7 @@ Steamcloud not working</Comments>
     <Name>Neverball</Name>
     <ProcessName>neverball</ProcessName>
     <Parameter />
-    <Path>~/.neverball/Scores</Path>
+    <Path>*mydocs*/.neverball/Scores</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6098,7 +6097,7 @@ Steamcloud not working</Comments>
     <Name>Neverputt</Name>
     <ProcessName>neverputt</ProcessName>
     <Parameter />
-    <Path>~/.neverball/Scores</Path>
+    <Path>*mydocs*/.neverball/Scores</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6122,7 +6121,7 @@ Steamcloud not working</Comments>
     <Name>NightSky</Name>
     <ProcessName>[Nn]ight[Ss]ky(HD(_64)?|\.[x64|i386])</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/nightsky</Path>
+    <Path>*appdatalocal*/nightsky</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6149,7 +6148,7 @@ Steamcloud not working</Comments>
     <Name>No Time To Explain Remastered</Name>
     <ProcessName>NoTimeToExplain.x86</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/tinyBuild GAMES/No Time To Explain/</Path>
+    <Path>*appdataroaming*/unity3d/tinyBuild GAMES/No Time To Explain/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6176,7 +6175,7 @@ Steamcloud not working</Comments>
     <Name>Nuclear Throne</Name>
     <ProcessName>nuclearthrone</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/nuclearthrone/</Path>
+    <Path>*appdataroaming*/nuclearthrone/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6224,7 +6223,7 @@ Steamcloud not working</Comments>
     <Name>Oil Rush</Name>
     <ProcessName>OilRush_x86</ProcessName>
     <Parameter />
-    <Path>~/.OilRush</Path>
+    <Path>*mydocs*/.OilRush</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6251,7 +6250,7 @@ Steamcloud not working</Comments>
     <Name>OlliOlli</Name>
     <ProcessName>(linux32|olliolli)</ProcessName>
     <Parameter />
-    <Path>~/.olliolli</Path>
+    <Path>*mydocs*/.olliolli</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6278,7 +6277,7 @@ Steamcloud not working</Comments>
     <Name>OlliOlli2 - Welcome to Olliwood</Name>
     <ProcessName>olliolli2</ProcessName>
     <Parameter />
-    <Path>~/.olliolli2</Path>
+    <Path>*mydocs*/.olliolli2</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6302,7 +6301,7 @@ Steamcloud not working</Comments>
     <Name>OpenRCT2</Name>
     <ProcessName>openrct2</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/OpenRCT2/save/</Path>
+    <Path>*appdataroaming*/OpenRCT2/save/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6329,7 +6328,7 @@ Steamcloud not working</Comments>
     <Name>OpenTTD</Name>
     <ProcessName>openttd</ProcessName>
     <Parameter />
-    <Path>~/.openttd/save/</Path>
+    <Path>*mydocs*/.openttd/save/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6356,7 +6355,7 @@ Steamcloud not working</Comments>
     <Name>Osmos</Name>
     <ProcessName>Osmos.bin32</ProcessName>
     <Parameter />
-    <Path>~/.Osmos</Path>
+    <Path>*mydocs*/.Osmos</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6380,7 +6379,7 @@ Steamcloud not working</Comments>
     <Name>Outland</Name>
     <ProcessName>Outland.bin.x86</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Housemarque/Outland/</Path>
+    <Path>*appdatalocal*/Housemarque/Outland/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6407,7 +6406,7 @@ Steamcloud not working</Comments>
     <Name>Outlast</Name>
     <ProcessName>OLGame\.(i686|x86_64)</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Outlast/OLGame/</Path>
+    <Path>*appdatalocal*/Outlast/OLGame/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6437,7 +6436,7 @@ Steamcloud not working</Comments>
     <Name>Owlboy</Name>
     <ProcessName>Owlboy\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Owlboy/Saves/</Path>
+    <Path>*appdatalocal*/Owlboy/Saves/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6464,7 +6463,7 @@ Steamcloud not working</Comments>
     <Name>PONCHO</Name>
     <ProcessName>Poncho.x86</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Delve Interactive/Poncho</Path>
+    <Path>*appdataroaming*/unity3d/Delve Interactive/Poncho</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6488,7 +6487,7 @@ Steamcloud not working</Comments>
     <Name>Papers, Please</Name>
     <ProcessName>PapersPlease</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/3909/PapersPlease</Path>
+    <Path>*appdatalocal*/3909/PapersPlease</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6518,7 +6517,7 @@ Steamcloud not working</Comments>
     <Name>Paranautical Activity: Deluxe Atonement Edition</Name>
     <ProcessName>Paranautical Activity.x86</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Code Avarice/Paranautical Activity</Path>
+    <Path>*appdataroaming*/unity3d/Code Avarice/Paranautical Activity</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6542,7 +6541,7 @@ Steamcloud not working</Comments>
     <Name>Party Hard</Name>
     <ProcessName>PartyHardGame\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/PinoklGames/PartyHardGame/</Path>
+    <Path>*appdataroaming*/unity3d/PinoklGames/PartyHardGame/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6569,7 +6568,7 @@ Steamcloud not working</Comments>
     <Name>Pillars of Eternity</Name>
     <ProcessName>PillarsOfEternity</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/PillarsOfEternity/SavedGames</Path>
+    <Path>*appdatalocal*/PillarsOfEternity/SavedGames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6599,7 +6598,7 @@ Steamcloud not working</Comments>
     <Name>Pingus</Name>
     <ProcessName>pingus.bin</ProcessName>
     <Parameter />
-    <Path>~/.pingus/savegames</Path>
+    <Path>*mydocs*/.pingus/savegames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6623,7 +6622,7 @@ Steamcloud not working</Comments>
     <Name>Pixel Piracy</Name>
     <ProcessName>linux.x86</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/PixelPiracy</Path>
+    <Path>*appdataroaming*/PixelPiracy</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6674,7 +6673,7 @@ Steamcloud not working</Comments>
     <Name>PixelJunk™ Shooter</Name>
     <ProcessName>CaveShooter</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/PJShooter</Path>
+    <Path>*appdatalocal*/PJShooter</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6704,7 +6703,7 @@ Steamcloud not working</Comments>
     <Name>Plague Inc: Evolved</Name>
     <ProcessName>PlagueInc(Evolved|SC)\.x86</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Ndemic Creations/Plague Inc: Evolved</Path>
+    <Path>*appdataroaming*/unity3d/Ndemic Creations/Plague Inc: Evolved</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6731,7 +6730,7 @@ Steamcloud not working</Comments>
     <Name>Planet Stronghold</Name>
     <ProcessName>Planet Stronghold</ProcessName>
     <Parameter />
-    <Path>~/.renpy/</Path>
+    <Path>*mydocs*/.renpy/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6761,7 +6760,7 @@ Steamcloud not working</Comments>
     <Name>Pony Island</Name>
     <ProcessName>PonyIsland.x86</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Daniel Mullins Games/Pony Island</Path>
+    <Path>*appdataroaming*/unity3d/Daniel Mullins Games/Pony Island</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6869,7 +6868,7 @@ Steamcloud not working</Comments>
     <Name>Prey</Name>
     <ProcessName>prey.x86</ProcessName>
     <Parameter />
-    <Path>~/.prey/base</Path>
+    <Path>*mydocs*/.prey/base</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6893,7 +6892,7 @@ Steamcloud not working</Comments>
     <Name>Primordia</Name>
     <ProcessName>Primordia\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Primordia</Path>
+    <Path>*appdatalocal*/Primordia</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6917,7 +6916,7 @@ Steamcloud not working</Comments>
     <Name>Prison Architect</Name>
     <ProcessName>PrisonArchitect\.(i686|x86_64)</ProcessName>
     <Parameter />
-    <Path>~/.Prison Architect</Path>
+    <Path>*mydocs*/.Prison Architect</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6944,7 +6943,7 @@ Steamcloud not working</Comments>
     <Name>Project Zomboid</Name>
     <ProcessName>ProjectZomboid64</ProcessName>
     <Parameter />
-    <Path>~/Zomboid/Saves</Path>
+    <Path>*mydocs*/Zomboid/Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6968,7 +6967,7 @@ Steamcloud not working</Comments>
     <Name>Punch Club</Name>
     <ProcessName>Punch Club\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Lazy Bear Games/Punch Club</Path>
+    <Path>*appdataroaming*/unity3d/Lazy Bear Games/Punch Club</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6998,7 +6997,7 @@ Steamcloud not working</Comments>
     <Name>Quiet City</Name>
     <ProcessName>quiet city\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/_/quiet city</Path>
+    <Path>*appdataroaming*/unity3d/_/quiet city</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7022,7 +7021,7 @@ Steamcloud not working</Comments>
     <Name>RBDoom3BFG</Name>
     <ProcessName>RBDoom3BFG</ProcessName>
     <Parameter />
-    <Path>~/.rbdoom3bfg/base/</Path>
+    <Path>*mydocs*/.rbdoom3bfg/base/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7097,7 +7096,7 @@ Steamcloud not working</Comments>
     <Name>Red Orchestra: Ostfront 41-45</Name>
     <ProcessName>redorchestra-bin</ProcessName>
     <Parameter />
-    <Path>~/.redorchestra/</Path>
+    <Path>*mydocs*/.redorchestra/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7121,7 +7120,7 @@ Steamcloud not working</Comments>
     <Name>Resonance</Name>
     <ProcessName>Resonance\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Resonance</Path>
+    <Path>*appdatalocal*/Resonance</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7193,7 +7192,7 @@ Steamcloud not working</Comments>
     <Name>Revenge of the Titans</Name>
     <ProcessName>java(32|64)</ProcessName>
     <Parameter>RevengeOfTheTitans.jar</Parameter>
-    <Path>~/.revenge_of_the_titans_1.80</Path>
+    <Path>*mydocs*/.revenge_of_the_titans_1.80</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7253,7 +7252,7 @@ Steamcloud not working</Comments>
     <Name>Risk of Rain</Name>
     <ProcessName>Risk_of_Rain</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/Risk_of_Rain</Path>
+    <Path>*appdataroaming*/Risk_of_Rain</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7280,7 +7279,7 @@ Steamcloud not working</Comments>
     <Name>Rocketbirds: Hardboiled Chicken</Name>
     <ProcessName>rocketbirds.bin.x86</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/rocketbirds</Path>
+    <Path>*appdatalocal*/rocketbirds</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7307,7 +7306,7 @@ Steamcloud not working</Comments>
     <Name>Rogue Legacy</Name>
     <ProcessName>RogueCastle\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/RogueLegacyStorageContainer</Path>
+    <Path>*appdatalocal*/RogueLegacyStorageContainer</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7331,7 +7330,7 @@ Steamcloud not working</Comments>
     <Name>Roguelands</Name>
     <ProcessName>Roguelands.x86</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/DefaultCompany/Roguelands</Path>
+    <Path>*appdataroaming*/unity3d/DefaultCompany/Roguelands</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7355,7 +7354,7 @@ Steamcloud not working</Comments>
     <Name>Roommates</Name>
     <ProcessName>Roommates</ProcessName>
     <Parameter />
-    <Path>~/.renpy/Roommates</Path>
+    <Path>*mydocs*/.renpy/Roommates</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7385,7 +7384,7 @@ Steamcloud not working</Comments>
     <Name>Rust</Name>
     <ProcessName>rust</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Facepunch Studios LTD/Rust</Path>
+    <Path>*appdataroaming*/unity3d/Facepunch Studios LTD/Rust</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7409,7 +7408,7 @@ Steamcloud not working</Comments>
     <Name>SOMA</Name>
     <ProcessName>Soma\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/frictionalgames/Soma/Main/</Path>
+    <Path>*appdatalocal*/frictionalgames/Soma/Main/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7436,7 +7435,7 @@ Steamcloud not working</Comments>
     <Name>Saints Row 2</Name>
     <ProcessName>saintsrow2.i386</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/volition/saintsrow2/AppData/Saints Row 2/</Path>
+    <Path>*appdatalocal*/volition/saintsrow2/AppData/Saints Row 2/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7490,7 +7489,7 @@ Steamcloud not working</Comments>
     <Name>Sanctum 2</Name>
     <ProcessName>SanctumGame</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Sanctum2/</Path>
+    <Path>*appdatalocal*/Sanctum2/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7517,7 +7516,7 @@ Steamcloud not working</Comments>
     <Name>Satellite Reign</Name>
     <ProcessName>SatelliteReignLinux\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/SatelliteReign/users</Path>
+    <Path>*appdatalocal*/SatelliteReign/users</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7547,7 +7546,7 @@ Steamcloud not working</Comments>
     <Name>Savant - Ascent</Name>
     <ProcessName>runner</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/Savant_Ascent/</Path>
+    <Path>*appdataroaming*/Savant_Ascent/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7574,7 +7573,7 @@ Steamcloud not working</Comments>
     <Name>Secrets of Rætikon</Name>
     <ProcessName>Raetikon(64)?</ProcessName>
     <Parameter />
-    <Path>~/.secrets-of-raetikon/sync/master</Path>
+    <Path>*mydocs*/.secrets-of-raetikon/sync/master</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7601,7 +7600,7 @@ Steamcloud not working</Comments>
     <Name>Shadow Warrior 2013</Name>
     <ProcessName>ShadowWarrior.bin.x86</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Flying Wild Hog/Shadow Warrior/profiles</Path>
+    <Path>*appdatalocal*/Flying Wild Hog/Shadow Warrior/profiles</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7652,7 +7651,7 @@ Steamcloud not working</Comments>
     <Name>Shadowgate</Name>
     <ProcessName>Shadowgate.x86</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Zojoi/Shadowgate</Path>
+    <Path>*appdatalocal*/Zojoi/Shadowgate</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7676,7 +7675,7 @@ Steamcloud not working</Comments>
     <Name>Shadowrun Hong Kong - Extended Edition</Name>
     <ProcessName>SRHK</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/Harebrained Schemes/Shadowrun Hong Kong/Saves</Path>
+    <Path>*appdataroaming*/Harebrained Schemes/Shadowrun Hong Kong/Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7706,7 +7705,7 @@ Steamcloud not working</Comments>
     <Name>Shadowrun Returns</Name>
     <ProcessName>Shadowrun</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/Harebrained Schemes/Shadowrun Returns/Saves</Path>
+    <Path>*appdataroaming*/Harebrained Schemes/Shadowrun Returns/Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7736,7 +7735,7 @@ Steamcloud not working</Comments>
     <Name>Shadowrun: Dragonfall - Director's Cut</Name>
     <ProcessName>Dragonfall</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/Harebrained Schemes/Shadowrun Dragonfall/Saves</Path>
+    <Path>*appdataroaming*/Harebrained Schemes/Shadowrun Dragonfall/Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7760,7 +7759,7 @@ Steamcloud not working</Comments>
     <Name>Shadwen</Name>
     <ProcessName>shadwen_linux_64bit</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/frozenbyte/Shadwen</Path>
+    <Path>*appdatalocal*/frozenbyte/Shadwen</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7808,7 +7807,7 @@ Steamcloud not working</Comments>
     <Name>Shattered Pixel Dungeon</Name>
     <ProcessName>java</ProcessName>
     <Parameter>shattered-pixel-dungeon.jar</Parameter>
-    <Path>~/.shatteredpixel/shattered-pixel-dungeon</Path>
+    <Path>*mydocs*/.shatteredpixel/shattered-pixel-dungeon</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7832,7 +7831,7 @@ Steamcloud not working</Comments>
     <Name>Shonen Idle Z</Name>
     <ProcessName>shonenidlez</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/shonenidlez/Default</Path>
+    <Path>*appdataroaming*/shonenidlez/Default</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7856,7 +7855,7 @@ Steamcloud not working</Comments>
     <Name>Shovel Knight</Name>
     <ProcessName>ShovelKnight</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Yacht Club Games/Shovel Knight</Path>
+    <Path>*appdatalocal*/Yacht Club Games/Shovel Knight</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7880,7 +7879,7 @@ Steamcloud not working</Comments>
     <Name>Sid Meier's Civilization - Beyond Earth</Name>
     <ProcessName>CivBE</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/aspyr-media/Sid Meier's Civilization Beyond Earth</Path>
+    <Path>*appdatalocal*/aspyr-media/Sid Meier's Civilization Beyond Earth</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7904,7 +7903,7 @@ Steamcloud not working</Comments>
     <Name>Sid Meier's Civilization V</Name>
     <ProcessName>Civ5XP</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Aspyr/Sid Meier's Civilization 5/</Path>
+    <Path>*appdatalocal*/Aspyr/Sid Meier's Civilization 5/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7931,7 +7930,7 @@ Steamcloud not working</Comments>
     <Name>Simutrans</Name>
     <ProcessName>simutrans</ProcessName>
     <Parameter />
-    <Path>~/.simutrans/save</Path>
+    <Path>*mydocs*/.simutrans/save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7958,7 +7957,7 @@ Steamcloud not working</Comments>
     <Name>Siralim</Name>
     <ProcessName>runner</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/Siralim</Path>
+    <Path>*appdataroaming*/Siralim</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7985,7 +7984,7 @@ Steamcloud not working</Comments>
     <Name>Skullgirls</Name>
     <ProcessName>SkullGirls\.(i686|x86_64)-pc-linux-gnu</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Skullgirls/SaveData</Path>
+    <Path>*appdatalocal*/Skullgirls/SaveData</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8012,7 +8011,7 @@ Steamcloud not working</Comments>
     <Name>Slime Rancher</Name>
     <ProcessName>SlimeRancher\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Monomi Park/Slime Rancher</Path>
+    <Path>*appdataroaming*/unity3d/Monomi Park/Slime Rancher</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8039,7 +8038,7 @@ Steamcloud not working</Comments>
     <Name>Slime-san</Name>
     <ProcessName>Slime-san\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Fabraz/Slime-san</Path>
+    <Path>*appdataroaming*/unity3d/Fabraz/Slime-san</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8066,7 +8065,7 @@ Steamcloud not working</Comments>
     <Name>Sokobond</Name>
     <ProcessName>Sokobond</ProcessName>
     <Parameter />
-    <Path>~/.appdata/com.sokobond/Local Store/#SharedObjects/</Path>
+    <Path>*mydocs*/.appdata/com.sokobond/Local Store/#SharedObjects/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8114,7 +8113,7 @@ Steamcloud not working</Comments>
     <Name>SpeedRunners</Name>
     <ProcessName>SpeedRunners\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/SpeedRunners/</Path>
+    <Path>*appdatalocal*/SpeedRunners/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8141,7 +8140,7 @@ Steamcloud not working</Comments>
     <Name>Spirited Heart Deluxe</Name>
     <ProcessName>SpiritedHeartDeluxe</ProcessName>
     <Parameter />
-    <Path>~/.renpy/</Path>
+    <Path>*mydocs*/.renpy/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8171,7 +8170,7 @@ Steamcloud not working</Comments>
     <Name>Spring RTS</Name>
     <ProcessName>spring</ProcessName>
     <Parameter />
-    <Path>~/.spring</Path>
+    <Path>*mydocs*/.spring</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8280,7 +8279,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Stardew Valley</Name>
     <ProcessName>StardewValley\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/StardewValley/Saves/</Path>
+    <Path>*appdataroaming*/StardewValley/Saves/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8331,7 +8330,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Stealth Bastard Deluxe</Name>
     <ProcessName>runner</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/StealthBastard[Steam]</Path>
+    <Path>*appdataroaming*/StealthBastard[Steam]</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8361,7 +8360,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>SteamWorld Dig</Name>
     <ProcessName>SteamWorldDig</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/SteamWorldDig/</Path>
+    <Path>*appdatalocal*/SteamWorldDig/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8388,7 +8387,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Steel Storm: Burning Retribution</Name>
     <ProcessName>steelstorm(64)?</ProcessName>
     <Parameter />
-    <Path>~/.steelstorm/gamedata/data/</Path>
+    <Path>*mydocs*/.steelstorm/gamedata/data/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8415,7 +8414,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Stories of Bethem: Full Moon</Name>
     <ProcessName>StoriesOfBethemFullMoon</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/StoriesOfBethemFullMoon/saved</Path>
+    <Path>*appdataroaming*/StoriesOfBethemFullMoon/saved</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8466,7 +8465,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Summer Nightmare</Name>
     <ProcessName>SummerNightmare</ProcessName>
     <Parameter />
-    <Path>~/.renpy</Path>
+    <Path>*mydocs*/.renpy</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8496,7 +8495,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Super Crate Box</Name>
     <ProcessName>runner</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/SuperCrateBox_YoYo/</Path>
+    <Path>*appdataroaming*/SuperCrateBox_YoYo/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8520,7 +8519,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Super Galaxy Squadron EX Turbo</Name>
     <ProcessName>runner</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/Super_Galaxy_Squadron_EX_Turbo/</Path>
+    <Path>*appdataroaming*/Super_Galaxy_Squadron_EX_Turbo/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8544,7 +8543,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Super Hexagon</Name>
     <ProcessName>SuperHexagon</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/SuperHexagon</Path>
+    <Path>*appdatalocal*/SuperHexagon</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8568,7 +8567,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Super Meat Boy</Name>
     <ProcessName>SuperMeatBoy</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/SuperMeatBoy/UserData</Path>
+    <Path>*appdatalocal*/SuperMeatBoy/UserData</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8592,7 +8591,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>SuperTux 2</Name>
     <ProcessName>supertux2</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/supertux2/</Path>
+    <Path>*appdatalocal*/supertux2/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8616,7 +8615,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>SuperTuxKart</Name>
     <ProcessName>supertuxkart</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/supertuxkart</Path>
+    <Path>*appdatalocal*/supertuxkart</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8640,7 +8639,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Superhot</Name>
     <ProcessName>SUPERHOT\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/SUPERHOT_Team/SUPERHOT</Path>
+    <Path>*appdataroaming*/unity3d/SUPERHOT_Team/SUPERHOT</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8664,7 +8663,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Surgeon Simulator 2013</Name>
     <ProcessName>ss2013.bin</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Bossa Studios/Surgeon Simulator 2013</Path>
+    <Path>*appdataroaming*/unity3d/Bossa Studios/Surgeon Simulator 2013</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8688,7 +8687,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>System Shock 2</Name>
     <ProcessName>Shock2</ProcessName>
     <Parameter />
-    <Path>~/.systemshock2/systemshock2/drive_c/Program Files/SystemShock2/</Path>
+    <Path>*mydocs*/.systemshock2/systemshock2/drive_c/Program Files/SystemShock2/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8715,7 +8714,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>TRI: Of Friendship and Madness</Name>
     <ProcessName>tri\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Rat King Entertainment/TRI/saves</Path>
+    <Path>*appdataroaming*/unity3d/Rat King Entertainment/TRI/saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8769,7 +8768,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Teslagrad</Name>
     <ProcessName>Teslagrad</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Rain/Teslagrad/</Path>
+    <Path>*appdataroaming*/unity3d/Rain/Teslagrad/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8799,7 +8798,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>The Battle for Wesnoth</Name>
     <ProcessName>wesnoth</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/wesnoth/</Path>
+    <Path>*appdatalocal*/wesnoth/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8829,7 +8828,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>The Bridge</Name>
     <ProcessName>TheBridge.x86</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/The Quantum Astrophysicists Guild/The Bridge/</Path>
+    <Path>*appdataroaming*/unity3d/The Quantum Astrophysicists Guild/The Bridge/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8856,7 +8855,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>The End Is Nigh</Name>
     <ProcessName>TheEndIsNigh</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/The End is Nigh</Path>
+    <Path>*appdatalocal*/The End is Nigh</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8880,7 +8879,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>The Journey Down: Chapter One</Name>
     <ProcessName>JourneyDown1</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/JourneyDownOne</Path>
+    <Path>*appdataroaming*/JourneyDownOne</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8904,7 +8903,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>The King of Fighters 2002</Name>
     <ProcessName>KingOfFighters2002</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/SNK/kof2k2nd</Path>
+    <Path>*appdatalocal*/SNK/kof2k2nd</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8928,7 +8927,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>The Little Acre</Name>
     <ProcessName>TheLittleAcre.x86</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Curve Digital/The Little Acre</Path>
+    <Path>*appdataroaming*/unity3d/Curve Digital/The Little Acre</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8955,7 +8954,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>The Long Dark</Name>
     <ProcessName>tld\.x86(_64)</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Hinterland/TheLongDark</Path>
+    <Path>*appdatalocal*/Hinterland/TheLongDark</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8982,7 +8981,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>The Original Strife - Veteran Edition</Name>
     <ProcessName>strife-ve</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/strife-ve/savegames</Path>
+    <Path>*appdatalocal*/strife-ve/savegames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9036,7 +9035,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>The Swapper</Name>
     <ProcessName>TheSwapper\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Facepalm Games/The Swapper 1000/</Path>
+    <Path>*appdatalocal*/Facepalm Games/The Swapper 1000/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9060,7 +9059,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>The Witcher 2: Assassins of Kings Enhanced Edition</Name>
     <ProcessName>witcher2</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/cdprojektred/witcher2/GameDocuments/Witcher 2/gamesaves</Path>
+    <Path>*appdatalocal*/cdprojektred/witcher2/GameDocuments/Witcher 2/gamesaves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9084,7 +9083,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>This War of Mine</Name>
     <ProcessName>This War of Mine</ProcessName>
     <Parameter />
-    <Path>~/.This War of Mine</Path>
+    <Path>*mydocs*/.This War of Mine</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9108,7 +9107,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>This is the Police</Name>
     <ProcessName>Police\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Weappy/This Is The Police</Path>
+    <Path>*appdataroaming*/unity3d/Weappy/This Is The Police</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9132,7 +9131,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Tiny Echo</Name>
     <ProcessName>TinyEcho.x86</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Might and Delight/Tiny Echo</Path>
+    <Path>*appdataroaming*/unity3d/Might and Delight/Tiny Echo</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9183,7 +9182,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Titan Attacks</Name>
     <ProcessName>java(32|64)</ProcessName>
     <Parameter>TitanAttacks.jar</Parameter>
-    <Path>~/.titan_attacks_2.01</Path>
+    <Path>*mydocs*/.titan_attacks_2.01</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9213,7 +9212,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Titanion</Name>
     <ProcessName>titanion</ProcessName>
     <Parameter />
-    <Path>~/.titanion</Path>
+    <Path>*mydocs*/.titanion</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9237,7 +9236,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>To The Moon</Name>
     <ProcessName>ToTheMoon\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/freebirdgames/tothemoon</Path>
+    <Path>*appdatalocal*/freebirdgames/tothemoon</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9261,7 +9260,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Toki Tori</Name>
     <ProcessName>TokiTori\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>~/.twotribes/toki_tori</Path>
+    <Path>*mydocs*/.twotribes/toki_tori</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9288,7 +9287,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Tomb Raider</Name>
     <ProcessName>TombRaider</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/feral-interactive/Tomb Raider/SaveData</Path>
+    <Path>*appdatalocal*/feral-interactive/Tomb Raider/SaveData</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9315,7 +9314,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Torchlight</Name>
     <ProcessName>Torchlight\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>~/.runicgames/Torchlight/Save/</Path>
+    <Path>*mydocs*/.runicgames/Torchlight/Save/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9366,7 +9365,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Torus Trooper</Name>
     <ProcessName>torus-trooper</ProcessName>
     <Parameter />
-    <Path>~/.torus-trooper</Path>
+    <Path>*mydocs*/.torus-trooper</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9390,7 +9389,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Total War Warhammer</Name>
     <ProcessName>TotalWarhammer</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/feral-interactive/Total War Warhammer/SaveData</Path>
+    <Path>*appdatalocal*/feral-interactive/Total War Warhammer/SaveData</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9414,7 +9413,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Towns</Name>
     <ProcessName>java</ProcessName>
     <Parameter>xaos.jar</Parameter>
-    <Path>~/.towns/save</Path>
+    <Path>*mydocs*/.towns/save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9438,7 +9437,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Train Valley</Name>
     <ProcessName>train-valley\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Oroboro games/Train Valley</Path>
+    <Path>*appdataroaming*/unity3d/Oroboro games/Train Valley</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9465,7 +9464,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Trapped Dead: Lockdown</Name>
     <ProcessName>TrappedDeadLockdown\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/BigmoonStudios/TrappedDeadLockdown</Path>
+    <Path>*appdataroaming*/unity3d/BigmoonStudios/TrappedDeadLockdown</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9489,7 +9488,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Trine 2 - Complete Story</Name>
     <ProcessName>trine2_linux_32bit</ProcessName>
     <Parameter />
-    <Path>~/.frozenbyte/Trine2</Path>
+    <Path>*mydocs*/.frozenbyte/Trine2</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9519,7 +9518,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Trine 3: The Artifacts of Power</Name>
     <ProcessName>trine3_linux_64bit</ProcessName>
     <Parameter />
-    <Path>~/.frozenbyte/Trine3</Path>
+    <Path>*mydocs*/.frozenbyte/Trine3</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9549,7 +9548,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Trine Enchanted Edition</Name>
     <ProcessName>trine1_linux_32bit</ProcessName>
     <Parameter />
-    <Path>~/.frozenbyte/Trine1</Path>
+    <Path>*mydocs*/.frozenbyte/Trine1</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9579,7 +9578,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>TripleA</Name>
     <ProcessName>java</ProcessName>
     <Parameter>triplea.jar</Parameter>
-    <Path>~/triplea/savedGames</Path>
+    <Path>*mydocs*/triplea/savedGames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9603,7 +9602,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Tumblestone</Name>
     <ProcessName>tumblestone\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/The Quantum Astrophysicists Guild/Tumblestone</Path>
+    <Path>*appdataroaming*/unity3d/The Quantum Astrophysicists Guild/Tumblestone</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9627,7 +9626,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Type:Rider</Name>
     <ProcessName>TypeRider.x86</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/ExNihilo/Type_Rider</Path>
+    <Path>*appdataroaming*/unity3d/ExNihilo/Type_Rider</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9681,7 +9680,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Ultratron</Name>
     <ProcessName>java(32|64)</ProcessName>
     <Parameter>Ultratron.jar</Parameter>
-    <Path>~/.ultratron_3.03</Path>
+    <Path>*mydocs*/.ultratron_3.03</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9711,7 +9710,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Undertale</Name>
     <ProcessName>runner</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/UNDERTALE</Path>
+    <Path>*appdataroaming*/UNDERTALE</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9741,7 +9740,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Unepic</Name>
     <ProcessName>unepic(32|64)(gog|s)</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Unepic/unepic</Path>
+    <Path>*appdatalocal*/Unepic/unepic</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9771,7 +9770,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Unknown Horizons</Name>
     <ProcessName>python2.7</ProcessName>
     <Parameter>unknown-horizons</Parameter>
-    <Path>~/.unknown-horizons/save</Path>
+    <Path>*mydocs*/.unknown-horizons/save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9819,7 +9818,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>VA-11 HALL-A: Cyberpunk Bartender Action</Name>
     <ProcessName>runner</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/VA_11_Hall_A/saves</Path>
+    <Path>*appdataroaming*/VA_11_Hall_A/saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9849,7 +9848,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>VVVVVV</Name>
     <ProcessName>vvvvvv\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/VVVVVV/saves</Path>
+    <Path>*appdatalocal*/VVVVVV/saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9873,7 +9872,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Valyria Tear</Name>
     <ProcessName>valyriatear</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/valyriatear/</Path>
+    <Path>*appdatalocal*/valyriatear/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9921,7 +9920,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Victor Vran</Name>
     <ProcessName>VictorVran</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Victor Vran/Victor Vran/</Path>
+    <Path>*appdatalocal*/Victor Vran/Victor Vran/</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9948,7 +9947,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Volgarr the Viking</Name>
     <ProcessName>Volgarr</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/Crazy Viking Studios/Volgarr the Viking</Path>
+    <Path>*appdataroaming*/Crazy Viking Studios/Volgarr the Viking</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9975,7 +9974,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Voxelands</Name>
     <ProcessName>voxelands</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/voxelands</Path>
+    <Path>*appdatalocal*/voxelands</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9999,7 +9998,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>WORLD END ECONOMiCA episode.01 (Ren'Py version)</Name>
     <ProcessName>wee</ProcessName>
     <Parameter />
-    <Path>~/.renpy</Path>
+    <Path>*mydocs*/.renpy</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -10026,7 +10025,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Waking Mars</Name>
     <ProcessName>[Ww]aking\s?[Mm]ars</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/WakingMars/SaveData</Path>
+    <Path>*appdatalocal*/WakingMars/SaveData</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -10083,7 +10082,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Warzone 2100</Name>
     <ProcessName>warzone2100</ProcessName>
     <Parameter />
-    <Path>~/.warzone2100-3.2/savegames</Path>
+    <Path>*mydocs*/.warzone2100-3.2/savegames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -10108,7 +10107,7 @@ If you use a different version, please adapt the path</Comments>
     <Name>Wasteland 2</Name>
     <ProcessName>WL2</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/Wasteland2/Save Games</Path>
+    <Path>*appdataroaming*/Wasteland2/Save Games</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -10135,7 +10134,7 @@ If you use a different version, please adapt the path</Comments>
     <Name>Wasteland 2: Director's Cut</Name>
     <ProcessName>WL2</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/Wasteland2DC/Save Games</Path>
+    <Path>*appdataroaming*/Wasteland2DC/Save Games</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -10162,7 +10161,7 @@ If you use a different version, please adapt the path</Comments>
     <Name>Widelands</Name>
     <ProcessName>widelands</ProcessName>
     <Parameter />
-    <Path>~/.widelands/save</Path>
+    <Path>*mydocs*/.widelands/save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -10186,7 +10185,7 @@ If you use a different version, please adapt the path</Comments>
     <Name>Wizorb</Name>
     <ProcessName>Wizorb\.bin\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Tribute Games/Wizorb</Path>
+    <Path>*appdatalocal*/Tribute Games/Wizorb</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -10213,7 +10212,7 @@ If you use a different version, please adapt the path</Comments>
     <Name>World of Goo</Name>
     <ProcessName>WorldOfGoo</ProcessName>
     <Parameter />
-    <Path>~/.WorldOfGoo</Path>
+    <Path>*mydocs*/.WorldOfGoo</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -10261,7 +10260,7 @@ If you use a different version, please adapt the path</Comments>
     <Name>Xenonauts</Name>
     <ProcessName>Xenonauts.bin.x86</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/Goldhawk Interactive/Xenonauts</Path>
+    <Path>*appdatalocal*/Goldhawk Interactive/Xenonauts</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -10285,7 +10284,7 @@ If you use a different version, please adapt the path</Comments>
     <Name>Xmoto</Name>
     <ProcessName>xmoto</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/xmoto</Path>
+    <Path>*appdatalocal*/xmoto</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -10309,7 +10308,7 @@ If you use a different version, please adapt the path</Comments>
     <Name>Xonotic</Name>
     <ProcessName>xonotic-(glx|sdl)</ProcessName>
     <Parameter />
-    <Path>~/.xonotic/data/data</Path>
+    <Path>*mydocs*/.xonotic/data/data</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -10357,7 +10356,7 @@ If you use a different version, please adapt the path</Comments>
     <Name>Zelda Mystery of Solarus DX</Name>
     <ProcessName>solarus-run</ProcessName>
     <Parameter>zsdx</Parameter>
-    <Path>~/.solarus/zsdx</Path>
+    <Path>*mydocs*/.solarus/zsdx</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -10384,7 +10383,7 @@ If you use a different version, please adapt the path</Comments>
     <Name>Zelda Mystery of Solarus XD</Name>
     <ProcessName>solarus-run</ProcessName>
     <Parameter>zsxd</Parameter>
-    <Path>~/.solarus/zsxd</Path>
+    <Path>*mydocs*/.solarus/zsxd</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -10411,7 +10410,7 @@ If you use a different version, please adapt the path</Comments>
     <Name>Ziggurat</Name>
     <ProcessName>Ziggurat\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Milkstone Studios/Ziggurat</Path>
+    <Path>*appdataroaming*/unity3d/Milkstone Studios/Ziggurat</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -10438,7 +10437,7 @@ If you use a different version, please adapt the path</Comments>
     <Name>Zombie Defense</Name>
     <ProcessName>ZombieDefense.x86</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Home Net Games/Zombie Defense</Path>
+    <Path>*appdataroaming*/unity3d/Home Net Games/Zombie Defense</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -10465,7 +10464,7 @@ If you use a different version, please adapt the path</Comments>
     <Name>Zombie Night Terror</Name>
     <ProcessName>znt\.x86(_64)?</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/NoClip/Zombie Night Terror/Users</Path>
+    <Path>*appdataroaming*/unity3d/NoClip/Zombie Night Terror/Users</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -10496,7 +10495,7 @@ Saves must be moved manually between those versions.</Comments>
     <Name>fault - milestone two side:above</Name>
     <ProcessName>faultms2a</ProcessName>
     <Parameter />
-    <Path>~/.renpy/projectwritten_fm2_part1</Path>
+    <Path>*mydocs*/.renpy/projectwritten_fm2_part1</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -10523,7 +10522,7 @@ Saves must be moved manually between those versions.</Comments>
     <Name>iBomber Defense Pacific</Name>
     <ProcessName>iBomberDefensePacific</ProcessName>
     <Parameter />
-    <Path>~/.ibomberdefensepacific</Path>
+    <Path>*mydocs*/.ibomberdefensepacific</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
