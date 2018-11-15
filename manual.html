@@ -30,10 +30,10 @@
       <div id="leftcontent">
         <div class="pageSection">
           <div class="pageSectionHeader">
-            Game Backup Monitor v1.1.3 Manual
+            Game Backup Monitor v1.1.5 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated July 4th, 2018</h3>
+            <h3 class="notop">Updated October 10, 2018</h3>
             <h3>Disclaimer:</h3>
             <p>This manual may contain information about features not available in the current stable release.</p>
             <p>If you are having a specific problem, please check the <a href="https://github.com/MikeMaximus/gbm/issues">issues</a> list.</p>
@@ -147,6 +147,8 @@
             <p>GBM will record and display game session times when this is enabled. When it's disabled no time data is recorded or displayed. Toggling this setting has no effect on time data that's already been recorded.</p>
             <h4>Enable session tracking:</h4>
             <p>GBM will record individual session data when this is enabled.  Toggling this setting has no effect on session data that's already been recorded.</p>            
+            <h4>Show resolved save paths in Game Manager:</h4>
+            <p>When enabled, GBM will display save paths resolved to the location on the current system, such as "C:\Users\User1\Saved Games\kingdomcome\saves".  When disabled, GBM will display save paths with environment variables when applicable,  such as "%USERPROFILE%\Saved Games\kingdomcome\saves".  Save Path fields on the Game Manager will display a tooltip with the resolved path or unresolved path depending on this setting.  
             <h4>Choose Optional Fields:</h4>
             <p>Use this button to choose any extra data you'd like to keep in sync between computers.  Fields such as Game Path and Icon are not recommended because they may be different on each PC.</p>
             <h4>Ignore sessions shorter than X minutes:</h4>
@@ -335,6 +337,19 @@
             <p>This displays the backup file name and file size.</p>
             <h4>Restore Path:</h4>
             <p>This displays the location the backup file will restore to, this may be an absolute or relative path.</p>
+            <h4>Import Backup Files:</h4>
+            <p>GBM allows importing one or more 7-Zip backup files for the selected game.  This feature is useful if you lost your GBM database(s), but not the backup files.  It also can be used to easily move compatible saved game backups between Windows and Linux.
+            <ul>
+              <li>Importing a single backup file will attempt to overwrite the current backup file if one exists. Enable "Save Multiple Backups" if you don't want to overwrite the current backup.</li>
+              <li>Importing multiple backup files requires "Save Multple Backups" to be enabled .</li>
+              <li>GBM currently cannot verify that the backup files being imported are compatible with the current configuration.  It's up to the user to import compatible files.</li>
+            </ul></p>
+            <h4>Delete Backup:</h4>
+            <p>This allows deleting the currently selected backup or all backups for the selected game.</p>
+            <h4>Open Backup File:</h4>
+            <p>This opens the selected backup file in the default software associated with 7-Zip files.</p>
+            <h4>Open Restore Path:</h4>
+            <p>This automatically opens the backup's restore path in the default file browser software.</p>
           </div>
           <div class="pageSectionFooter">
             <a href="#toc">Back to Contents</a>

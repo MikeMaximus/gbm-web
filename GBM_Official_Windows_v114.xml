@@ -1,12 +1,11 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1539171968" TotalConfigurations="337" AppVer="115">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1530791467" TotalConfigurations="327" AppVer="113">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
     <ProcessName>Alcatraz</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%Low\Daedalic Entertainment\1954 Alcatraz\Savegames</Path>
+    <Path>*appdatalocal*Low\Daedalic Entertainment\1954 Alcatraz\Savegames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -30,7 +29,7 @@
     <Name>A Boy and His Blob</Name>
     <ProcessName>Blob</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\ABAHB</Path>
+    <Path>*mydocs*\My Games\ABAHB</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -78,7 +77,7 @@
     <Name>Aarklash: Legacy</Name>
     <ProcessName>Aarklash</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Aarklash Legacy\Profiles</Path>
+    <Path>*mydocs*\Aarklash Legacy\Profiles</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -129,7 +128,7 @@
     <Name>Age of Decadence</Name>
     <ProcessName>AoD</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\Age Of Decadence</Path>
+    <Path>*mydocs*\My Games\Age Of Decadence</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -177,7 +176,7 @@
     <Name>Alan Wake</Name>
     <ProcessName>alanwake</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Remedy\AlanWake_GOG_Version\savegames</Path>
+    <Path>*mydocs*\Remedy\AlanWake_GOG_Version\savegames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -249,7 +248,7 @@
     <Name>American Truck Simulator</Name>
     <ProcessName>amtrucks</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\American Truck Simulator\profiles</Path>
+    <Path>*mydocs*\American Truck Simulator\profiles</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -273,7 +272,7 @@
     <Name>Amnesia: The Dark Descent</Name>
     <ProcessName>Amnesia</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Amnesia\Main</Path>
+    <Path>*mydocs*\Amnesia\Main</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -345,7 +344,7 @@
     <Name>Another World - 20th Anniversary Edition</Name>
     <ProcessName>anowor</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Another World</Path>
+    <Path>*mydocs*\Another World</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -393,7 +392,7 @@
     <Name>Assassin's Creed: Director's Cut</Name>
     <ProcessName>AssassinsCreed_Dx10</ProcessName>
     <Parameter />
-    <Path>%APPDATA%\Ubisoft\Assassin's Creed\Saved Games</Path>
+    <Path>*appdataroaming*\Ubisoft\Assassin's Creed\Saved Games</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -417,7 +416,7 @@
     <Name>Baldur's Gate II: Enhanced Edition</Name>
     <ProcessName>Baldur</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Baldur's Gate II - Enhanced Edition</Path>
+    <Path>*mydocs*\Baldur's Gate II - Enhanced Edition</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -441,7 +440,7 @@
     <Name>Baldur's Gate: Enhanced Edition</Name>
     <ProcessName>Baldur</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Baldur's Gate - Enhanced Edition</Path>
+    <Path>*mydocs*\Baldur's Gate - Enhanced Edition</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -465,7 +464,7 @@
     <Name>Banished</Name>
     <ProcessName>Application-x64</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Banished\Save</Path>
+    <Path>*mydocs*\Banished\Save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -489,7 +488,7 @@
     <Name>Battle Chasers: Nightwar</Name>
     <ProcessName>BC</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%Low\Airship Syndicate\BattleChasersNightwar\user</Path>
+    <Path>*appdatalocal*Low\Airship Syndicate\BattleChasersNightwar\user</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -537,7 +536,7 @@
     <Name>Battle Worlds: Kronos</Name>
     <ProcessName>BattleWorldsKronos</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\BattleWorldsKronos</Path>
+    <Path>*mydocs*\BattleWorldsKronos</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -561,7 +560,7 @@
     <Name>BattleTech</Name>
     <ProcessName>BattleTech</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%\GOG.com\Galaxy\Applications\50593543263669699\Storage\Shared\Files\C0\SGS1</Path>
+    <Path>*appdatalocal*\GOG.com\Galaxy\Applications\50593543263669699\Storage\Shared\Files\C0\SGS1</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -584,8 +583,8 @@
     <ID>df24c82c-39ae-4c3f-9bce-333a6bf4c0d3</ID>
     <Name>Betrayal at Krondor</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosboxBAK_single.conf</Parameter>
-    <Path>..\GAMES</Path>
+    <Parameter />
+    <Path>..\Betrayal at Krondor\GAMES</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -684,7 +683,7 @@
     <Name>Big Pharma</Name>
     <ProcessName>Big Pharma</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\Big Pharma\Saves</Path>
+    <Path>*mydocs*\My Games\Big Pharma\Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -735,7 +734,7 @@
     <Name>Bioshock 2 Remastered</Name>
     <ProcessName>Bioshock2</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\BioshockHD\Bioshock2\SaveGames</Path>
+    <Path>*mydocs*\BioshockHD\Bioshock2\SaveGames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -759,7 +758,7 @@
     <Name>Bioshock Remastered</Name>
     <ProcessName>Bioshock</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\BioshockHD\BioShock\SaveGames</Path>
+    <Path>*mydocs*\BioshockHD\BioShock\SaveGames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -783,7 +782,7 @@
     <Name>Blackguards Special Edition</Name>
     <ProcessName>Blackguards</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%\Daedalic Entertainment GmbH\Blackguards</Path>
+    <Path>*appdatalocal*\Daedalic Entertainment GmbH\Blackguards</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -807,7 +806,7 @@
     <Name>Blackwell Epiphany, The</Name>
     <ProcessName>epiphany</ProcessName>
     <Parameter />
-    <Path>%USERPROFILE%\Saved Games\Blackwell Epiphany</Path>
+    <Path>*currentuser*\Saved Games\Blackwell Epiphany</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -831,7 +830,7 @@
     <Name>Blackwell Legacy, The</Name>
     <ProcessName>blackwell1</ProcessName>
     <Parameter />
-    <Path>%USERPROFILE%\Saved Games\Blackwell Legacy v1.7</Path>
+    <Path>*currentuser*\Saved Games\Blackwell Legacy v1.7</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -855,7 +854,7 @@
     <Name>Blackwell Unbound</Name>
     <ProcessName>Unbound</ProcessName>
     <Parameter />
-    <Path>%USERPROFILE%\Saved Games\Blackwell Unbound</Path>
+    <Path>*currentuser*\Saved Games\Blackwell Unbound</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1023,7 +1022,7 @@
     <Name>Blood Bowl 2</Name>
     <ProcessName>BloodBowl2</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\BloodBowl2</Path>
+    <Path>*mydocs*\BloodBowl2</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1047,7 +1046,7 @@
     <Name>Blood Bowl: Chaos Edition</Name>
     <ProcessName>BB_Chaos</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\bloodbowlchaos\saves</Path>
+    <Path>*mydocs*\bloodbowlchaos\saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1143,7 +1142,7 @@
     <Name>Bloodrayne Betrayal</Name>
     <ProcessName>bloodrayne</ProcessName>
     <Parameter />
-    <Path>%APPDATA%\Wayforward Technologies\BloodRayne</Path>
+    <Path>*appdataroaming*\Wayforward Technologies\BloodRayne</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1215,7 +1214,7 @@
     <Name>Call of Cthulhu: Dark Corners of The Earth</Name>
     <ProcessName>CoCMainWin32</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Bethesda\Call of Cthulhu</Path>
+    <Path>*mydocs*\Bethesda\Call of Cthulhu</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1239,7 +1238,7 @@
     <Name>Capitalism 2</Name>
     <ProcessName>Cap2</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\Capitalism 2\SAVE</Path>
+    <Path>*mydocs*\My Games\Capitalism 2\SAVE</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1341,7 +1340,7 @@
     <Name>Children of the Nile Complete</Name>
     <ProcessName>CotN</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Tilted Mill\Children of the Nile</Path>
+    <Path>*mydocs*\Tilted Mill\Children of the Nile</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1365,7 +1364,7 @@
     <Name>Cities: Skylines</Name>
     <ProcessName>Cities</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%\Colossal Order\Cities_Skylines\Saves</Path>
+    <Path>*appdatalocal*\Colossal Order\Cities_Skylines\Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1461,7 +1460,7 @@
     <Name>Company of Heroes</Name>
     <ProcessName>RelicCOH</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\Company of Heroes Relaunch</Path>
+    <Path>*mydocs*\My Games\Company of Heroes Relaunch</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1485,7 +1484,7 @@
     <Name>Company of Heroes - Legacy Edition</Name>
     <ProcessName>RelicCOH</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\Company of Heroes</Path>
+    <Path>*mydocs*\My Games\Company of Heroes</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1509,7 +1508,7 @@
     <Name>Condemned: Criminal Origins</Name>
     <ProcessName>Condemned</ProcessName>
     <Parameter />
-    <Path>%COMMONDOCUMENTS%\Monolith Productions\Condemned\Save</Path>
+    <Path>*publicdocs*\Monolith Productions\Condemned\Save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1628,65 +1627,11 @@
     </Tags>
   </Game>
   <Game>
-    <ID>cc58397e-fc15-464b-9cc0-14dd3f4e6412</ID>
-    <Name>Crusader: No Regret</Name>
-    <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosboxREGRET_single.conf</Parameter>
-    <Path>..\SAVEGAME</Path>
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>0</BackupLimit>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Comments />
-    <IsRegEx>false</IsRegEx>
-    <Tags>
-      <Tag>
-        <Name>DOSBox</Name>
-      </Tag>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <ID>6be818b6-6dcd-4ccc-a9d5-f18019f6edba</ID>
-    <Name>Crusader: No Remorse</Name>
-    <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosboxCRUSADER_single.conf</Parameter>
-    <Path>..\SAVEGAME</Path>
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>0</BackupLimit>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Comments />
-    <IsRegEx>false</IsRegEx>
-    <Tags>
-      <Tag>
-        <Name>DOSBox</Name>
-      </Tag>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
     <ID>1dd0c95e-82d8-42ae-8b67-050ca9938ff7</ID>
     <Name>Cultist Simulator</Name>
     <ProcessName>cultistsimulator</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%Low\Weather Factory\Cultist Simulator</Path>
+    <Path>*appdatalocal*Low\Weather Factory\Cultist Simulator</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>true</AppendTimeStamp>
@@ -1710,7 +1655,7 @@
     <Name>Dark Souls 2</Name>
     <ProcessName>DarkSoulsII</ProcessName>
     <Parameter />
-    <Path>%APPDATA%\DarkSoulsII</Path>
+    <Path>*appdataroaming*\DarkSoulsII</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>true</AppendTimeStamp>
@@ -1734,7 +1679,7 @@
     <Name>Dark Souls 3</Name>
     <ProcessName>DarkSoulsIII</ProcessName>
     <Parameter />
-    <Path>%APPDATA%\DarkSoulsIII</Path>
+    <Path>*appdataroaming*\DarkSoulsIII</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>true</AppendTimeStamp>
@@ -1758,7 +1703,7 @@
     <Name>Dark Souls: Prepare To Die Edition</Name>
     <ProcessName>DARKSOULS</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\nbgi\darksouls</Path>
+    <Path>*mydocs*\nbgi\darksouls</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>true</AppendTimeStamp>
@@ -1782,7 +1727,7 @@
     <Name>Darkest Dungeon</Name>
     <ProcessName>Darkest</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Darkest</Path>
+    <Path>*mydocs*\Darkest</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>true</AppendTimeStamp>
@@ -1806,7 +1751,7 @@
     <Name>Darksiders</Name>
     <ProcessName>DarksidersPC</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\Darksiders</Path>
+    <Path>*mydocs*\My Games\Darksiders</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1830,7 +1775,7 @@
     <Name>Darksiders 2: Deathinitive Edition</Name>
     <ProcessName>Darksiders2</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\Darksiders2</Path>
+    <Path>*mydocs*\My Games\Darksiders2</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1854,7 +1799,7 @@
     <Name>Darksiders: Warmastered Edition</Name>
     <ProcessName>darksiders1</ProcessName>
     <Parameter />
-    <Path>%USERPROFILE%\Saved Games\darksiders1.exe</Path>
+    <Path>*currentuser*\Saved Games\darksiders1.exe</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1878,7 +1823,7 @@
     <Name>Darwinia</Name>
     <ProcessName>darwinia</ProcessName>
     <Parameter />
-    <Path>%USERPROFILE%\Saved Games\Darwinia\users</Path>
+    <Path>*currentuser*\Saved Games\Darwinia\users</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1902,7 +1847,7 @@
     <Name>Dead In Bermuda</Name>
     <ProcessName>Dead In Bermuda</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%Low\CCCP\Dead In Bermuda</Path>
+    <Path>*appdatalocal*Low\CCCP\Dead In Bermuda</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1926,7 +1871,7 @@
     <Name>Dead Space</Name>
     <ProcessName>Dead Space</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Electronic Arts\Dead Space</Path>
+    <Path>*mydocs*\Electronic Arts\Dead Space</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1953,7 +1898,7 @@
     <Name>Dead State</Name>
     <ProcessName>ZRPG</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\Dead State</Path>
+    <Path>*mydocs*\My Games\Dead State</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1977,7 +1922,7 @@
     <Name>Democracy 3</Name>
     <ProcessName>Democracy3</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\democracy3</Path>
+    <Path>*mydocs*\My Games\democracy3</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2001,7 +1946,7 @@
     <Name>Deus Ex - Invisible War</Name>
     <ProcessName>DX2Main</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Deus Ex - Invisible War\SaveGames</Path>
+    <Path>*mydocs*\Deus Ex - Invisible War\SaveGames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2052,7 +1997,7 @@
     <Name>Din's Curse</Name>
     <ProcessName>DinsCurse</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%\DinsCurse\User\chars</Path>
+    <Path>*appdatalocal*\DinsCurse\User\chars</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2076,7 +2021,7 @@
     <Name>Divinity: Dragon Commander</Name>
     <ProcessName>DragonCommander</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Larian Studios\Dragon Commander\Savegames</Path>
+    <Path>*mydocs*\Larian Studios\Dragon Commander\Savegames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2100,7 +2045,7 @@
     <Name>Divinity: Original Sin</Name>
     <ProcessName>EoCApp</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Larian Studios\Divinity Original Sin\PlayerProfiles</Path>
+    <Path>*mydocs*\Larian Studios\Divinity Original Sin\PlayerProfiles</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2124,7 +2069,7 @@
     <Name>Divinity: Original Sin 2</Name>
     <ProcessName>EoCApp</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Larian Studios\Divinity Original Sin 2\PlayerProfiles</Path>
+    <Path>*mydocs*\Larian Studios\Divinity Original Sin 2\PlayerProfiles</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2144,35 +2089,11 @@
     </Tags>
   </Game>
   <Game>
-    <ID>3d26f1cc-eb88-45c0-a922-dc3be8d64118</ID>
-    <Name>Divinity: Original Sin 2 Definitive Edition</Name>
-    <ProcessName>EoCApp</ProcessName>
-    <Parameter />
-    <Path>%USERDOCUMENTS%\Larian Studios\Divinity Original Sin 2 Definitive Edition\PlayerProfiles</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>0</BackupLimit>
-    <FileType />
-    <ExcludeList>AutoSave*:QuickSave*:config.lsx:modsettings.lsx</ExcludeList>
-    <MonitorOnly>false</MonitorOnly>
-    <Comments>This configuration excludes auto-saves and quick-saves due to backup size.</Comments>
-    <IsRegEx>false</IsRegEx>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
     <ID>93c0991f-76e5-4f5f-9628-b46b875fc4dd</ID>
     <Name>Divinity: Original Sin Enhanced Edition</Name>
     <ProcessName>EoCApp</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Larian Studios\Divinity Original Sin Enhanced Edition\PlayerProfiles</Path>
+    <Path>*mydocs*\Larian Studios\Divinity Original Sin Enhanced Edition\PlayerProfiles</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2196,7 +2117,7 @@
     <Name>Door Kickers</Name>
     <ProcessName>DoorKickers</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\KillHouseGames\DoorKickers</Path>
+    <Path>*mydocs*\KillHouseGames\DoorKickers</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2220,7 +2141,7 @@
     <Name>Dragon Age 2</Name>
     <ProcessName>DragonAge2</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\BioWare\Dragon Age 2\Characters</Path>
+    <Path>*mydocs*\BioWare\Dragon Age 2\Characters</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2244,7 +2165,7 @@
     <Name>Dragon Age Inquisition</Name>
     <ProcessName>DragonAgeInquisition</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\BioWare\Dragon Age Inquisition\Save</Path>
+    <Path>*mydocs*\BioWare\Dragon Age Inquisition\Save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2268,7 +2189,7 @@
     <Name>Dragon Age: Origins</Name>
     <ProcessName>DAOrigins</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\BioWare\Dragon Age\</Path>
+    <Path>*mydocs*\BioWare\Dragon Age\</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2295,7 +2216,7 @@
     <Name>Dragon's Dogma: Dark Arisen</Name>
     <ProcessName>DDDA</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%\GOG.com\Galaxy\Applications\49987265717041704\Storage\Shared\Files</Path>
+    <Path>*appdatalocal*\GOG.com\Galaxy\Applications\49987265717041704\Storage\Shared\Files</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>true</AppendTimeStamp>
@@ -2319,7 +2240,7 @@
     <Name>Dreamfall Chapters</Name>
     <ProcessName>Dreamfall Chapters</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%Low\Red Thread Games\Dreamfall Chapters</Path>
+    <Path>*appdatalocal*Low\Red Thread Games\Dreamfall Chapters</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2496,7 +2417,7 @@
     <Name>Dungeon Rats</Name>
     <ProcessName>DR(64)?$</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\Dungeon Rats</Path>
+    <Path>*mydocs*\My Games\Dungeon Rats</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2520,7 +2441,7 @@
     <Name>Dust: An Elysian Tail</Name>
     <ProcessName>DustAET</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\SavedGames\DustAET\Save Files</Path>
+    <Path>*mydocs*\SavedGames\DustAET\Save Files</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2543,7 +2464,7 @@
     <ID>47ccfe64-0f12-4c31-a025-b55ee646d22c</ID>
     <Name>Elder Scrolls Adventures - Redguard</Name>
     <ProcessName>dosbox</ProcessName>
-    <Parameter>dosbox_redguard_single.conf</Parameter>
+    <Parameter>redguard</Parameter>
     <Path>..\redguard\savegame</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
@@ -2598,7 +2519,7 @@
     <Name>Elex</Name>
     <ProcessName>ELEX</ProcessName>
     <Parameter />
-    <Path>%USERPROFILE%\Saved Games\ELEX\SaveGames</Path>
+    <Path>*currentuser*\Saved Games\ELEX\SaveGames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2622,7 +2543,7 @@
     <Name>Elminage Gothic</Name>
     <ProcessName>Elminage</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\Ghostlight Ltd\Elminage Gothic</Path>
+    <Path>*mydocs*\My Games\Ghostlight Ltd\Elminage Gothic</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2670,7 +2591,7 @@
     <Name>Euro Truck Simulator 2</Name>
     <ProcessName>eurotrucks2</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Euro Truck Simulator 2\profiles</Path>
+    <Path>*mydocs*\Euro Truck Simulator 2\profiles</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2694,7 +2615,7 @@
     <Name>Expeditions: Conquistador</Name>
     <ProcessName>Expeditions Conquistador</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\Expeditions Conquistador\Saves</Path>
+    <Path>*mydocs*\My Games\Expeditions Conquistador\Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2718,7 +2639,7 @@
     <Name>F.E.A.R. 2</Name>
     <ProcessName>FEAR2</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\WBGames\FEAR2</Path>
+    <Path>*mydocs*\WBGames\FEAR2</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2742,7 +2663,7 @@
     <Name>F.E.A.R. Extraction Point</Name>
     <ProcessName>FEARXP</ProcessName>
     <Parameter />
-    <Path>%COMMONDOCUMENTS%\TimeGate Studios\FEARXP</Path>
+    <Path>*publicdocs*\TimeGate Studios\FEARXP</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2766,7 +2687,7 @@
     <Name>F.E.A.R. First Encounter Assault Recon</Name>
     <ProcessName>FEAR</ProcessName>
     <Parameter />
-    <Path>%COMMONDOCUMENTS%\Monolith Productions\FEAR</Path>
+    <Path>*publicdocs*\Monolith Productions\FEAR</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2790,7 +2711,7 @@
     <Name>F.E.A.R. Perseus Mandate</Name>
     <ProcessName>FEARXP2</ProcessName>
     <Parameter />
-    <Path>%COMMONDOCUMENTS%\TimeGate Studios\FEARXP2</Path>
+    <Path>*publicdocs*\TimeGate Studios\FEARXP2</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2814,7 +2735,7 @@
     <Name>FTL - Advanced Edition</Name>
     <ProcessName>FTLGame</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\FasterThanLight</Path>
+    <Path>*mydocs*\My Games\FasterThanLight</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>true</AppendTimeStamp>
@@ -2838,7 +2759,7 @@
     <Name>Fahrenheit (Indigo Prophecy)</Name>
     <ProcessName>Fahrenheit</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\atari\Fahrenheit Profile</Path>
+    <Path>*mydocs*\atari\Fahrenheit Profile</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2862,7 +2783,7 @@
     <Name>Fallen Enchantress: Legendary Heroes</Name>
     <ProcessName>LegendaryHeroes</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\LegendaryHeroes</Path>
+    <Path>*mydocs*\My Games\LegendaryHeroes</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2886,7 +2807,7 @@
     <Name>Fallout 3</Name>
     <ProcessName>Fallout3</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\Fallout3\Saves</Path>
+    <Path>*mydocs*\My Games\Fallout3\Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2910,7 +2831,7 @@
     <Name>Fallout 4</Name>
     <ProcessName>Fallout4</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\Fallout4\Saves</Path>
+    <Path>*mydocs*\My Games\Fallout4\Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2934,7 +2855,7 @@
     <Name>Fallout Shelter</Name>
     <ProcessName>FalloutShelter</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\Fallout Shelter</Path>
+    <Path>*mydocs*\My Games\Fallout Shelter</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3030,7 +2951,7 @@
     <Name>Freedom Force vs the 3rd Reich</Name>
     <ProcessName>ffvt3r</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%\Irrational Games\Freedom Force vs the 3rd Reich\User\SaveGames</Path>
+    <Path>*appdatalocal*\Irrational Games\Freedom Force vs the 3rd Reich\User\SaveGames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3054,7 +2975,7 @@
     <Name>Gabriel Knight: Sins of the Fathers 20th Anniversary Edition</Name>
     <ProcessName>GK1</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%Low\Phoenix Online Studios\GK1</Path>
+    <Path>*appdatalocal*Low\Phoenix Online Studios\GK1</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3102,7 +3023,7 @@
     <Name>Ghostbusters: The Video Game</Name>
     <ProcessName>ghost_w32</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\GHOSTBUSTERS (tm)</Path>
+    <Path>*mydocs*\GHOSTBUSTERS (tm)</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3126,7 +3047,7 @@
     <Name>Gothic 3</Name>
     <ProcessName>Gothic3</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\gothic3</Path>
+    <Path>*mydocs*\gothic3</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3150,7 +3071,7 @@
     <Name>Grand Theft Auto: San Andreas</Name>
     <ProcessName>gta-sa</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\GTA San Andreas User Files</Path>
+    <Path>*mydocs*\GTA San Andreas User Files</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3174,7 +3095,7 @@
     <Name>Grand Theft Auto: V</Name>
     <ProcessName>GTA5</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Rockstar Games\GTA V\Profiles</Path>
+    <Path>*mydocs*\Rockstar Games\GTA V\Profiles</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3198,7 +3119,7 @@
     <Name>Gray Matter</Name>
     <ProcessName>Game</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\GrayMatter</Path>
+    <Path>*mydocs*\GrayMatter</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3222,7 +3143,7 @@
     <Name>Guacamelee! Super Turbo Championship Edition</Name>
     <ProcessName>GameDRMFree</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\GuacameleeSTCE</Path>
+    <Path>*mydocs*\GuacameleeSTCE</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3297,7 +3218,7 @@
     <Name>Halcyon 6: Lightspeed Edition</Name>
     <ProcessName>H6</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%Low\MASSDMG\Halcyon6LSE</Path>
+    <Path>*appdatalocal*Low\MASSDMG\Halcyon6LSE</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3321,7 +3242,7 @@
     <Name>Hard Reset Redux</Name>
     <ProcessName>hr.x64</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Hard Reset Redux\profiles</Path>
+    <Path>*mydocs*\Hard Reset Redux\profiles</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3345,7 +3266,7 @@
     <Name>Hard West</Name>
     <ProcessName>HardWest</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\HardWest</Path>
+    <Path>*mydocs*\HardWest</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3515,30 +3436,6 @@
     </Tags>
   </Game>
   <Game>
-    <ID>e169cdd3-3fd9-425e-8644-2560cf4c23e1</ID>
-    <Name>Hollow Knight</Name>
-    <ProcessName>hollow_knight</ProcessName>
-    <Parameter />
-    <Path>%LOCALAPPDATA%Low\Team Cherry\Hollow Knight</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>0</BackupLimit>
-    <FileType />
-    <ExcludeList>Crashes:output_log.txt</ExcludeList>
-    <MonitorOnly>false</MonitorOnly>
-    <Comments />
-    <IsRegEx>false</IsRegEx>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
     <ID>0e219d34-aa5c-4144-9fb2-7d685f16eaa2</ID>
     <Name>Homeworld Remastered</Name>
     <ProcessName>HomeworldRM</ProcessName>
@@ -3567,7 +3464,7 @@
     <Name>Hotline Miami</Name>
     <ProcessName>HotlineGL</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\HotlineMiami</Path>
+    <Path>*mydocs*\My Games\HotlineMiami</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3591,7 +3488,7 @@
     <Name>HuniePop</Name>
     <ProcessName>HuniePop</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%Low\HuniePot\HuniePop</Path>
+    <Path>*appdatalocal*Low\HuniePot\HuniePop</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3615,7 +3512,7 @@
     <Name>Icewind Dale: Enhanced Edition</Name>
     <ProcessName>icewind</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Icewind Dale - Enhanced Edition\save</Path>
+    <Path>*mydocs*\Icewind Dale - Enhanced Edition\save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3741,7 +3638,7 @@
     <Name>Inquisitor</Name>
     <ProcessName>Inquisitor</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Inquisitor_SaveGames</Path>
+    <Path>*mydocs*\Inquisitor_SaveGames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3789,7 +3686,7 @@
     <Name>Into the Breach</Name>
     <ProcessName>Breach</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\Into The Breach</Path>
+    <Path>*mydocs*\My Games\Into The Breach</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3813,7 +3710,7 @@
     <Name>Invisible, Inc.</Name>
     <ProcessName>invisibleinc</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Klei\InvisibleInc\saves</Path>
+    <Path>*mydocs*\Klei\InvisibleInc\saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3837,7 +3734,7 @@
     <Name>Ironclad Tactics</Name>
     <ProcessName>Game</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\Ironclad Tactics\profile</Path>
+    <Path>*mydocs*\My Games\Ironclad Tactics\profile</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3908,35 +3805,11 @@
     </Tags>
   </Game>
   <Game>
-    <ID>9c56dd9a-46b9-451e-9d12-cca2c816d988</ID>
-    <Name>Kingdom Come: Deliverance</Name>
-    <ProcessName>KingdomCome</ProcessName>
-    <Parameter />
-    <Path>%USERPROFILE%\Saved Games\kingdomcome\saves</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>0</BackupLimit>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Comments />
-    <IsRegEx>false</IsRegEx>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
     <ID>424b91ed-d656-406b-b74f-2c7a11532eba</ID>
     <Name>Kingdom: New Lands</Name>
     <ProcessName>Kingdom</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%Low\noio\Kingdom</Path>
+    <Path>*appdatalocal*Low\noio\Kingdom</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3984,7 +3857,7 @@
     <Name>Legend of Grimrock</Name>
     <ProcessName>grimrock</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Almost Human\Legend of Grimrock</Path>
+    <Path>*mydocs*\Almost Human\Legend of Grimrock</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4008,7 +3881,7 @@
     <Name>Legend of Grimrock II</Name>
     <ProcessName>grimrock2</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Almost Human\Legend of Grimrock 2</Path>
+    <Path>*mydocs*\Almost Human\Legend of Grimrock 2</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4032,7 +3905,7 @@
     <Name>Legends of Eisenwald</Name>
     <ProcessName>Eisenwald</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%\Eisenwald</Path>
+    <Path>*appdatalocal*\Eisenwald</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4080,7 +3953,7 @@
     <Name>Lords of Xulima</Name>
     <ProcessName>LoX</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\Lords of Xulima</Path>
+    <Path>*mydocs*\My Games\Lords of Xulima</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4104,7 +3977,7 @@
     <Name>Magicka 2</Name>
     <ProcessName>Magicka2</ProcessName>
     <Parameter />
-    <Path>%APPDATA%\ParadoxInteractive\Magicka2</Path>
+    <Path>*appdataroaming*\ParadoxInteractive\Magicka2</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4128,7 +4001,7 @@
     <Name>Majesty Gold HD</Name>
     <ProcessName>MajestyHD</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\MajestyHD</Path>
+    <Path>*mydocs*\My Games\MajestyHD</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4176,7 +4049,7 @@
     <Name>Mass Effect</Name>
     <ProcessName>MassEffect</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\BioWare\Mass Effect\Save</Path>
+    <Path>*mydocs*\BioWare\Mass Effect\Save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4200,7 +4073,7 @@
     <Name>Mass Effect 2</Name>
     <ProcessName>ME2Game</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\BioWare\Mass Effect 2\Save</Path>
+    <Path>*mydocs*\BioWare\Mass Effect 2\Save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4224,7 +4097,7 @@
     <Name>Mass Effect 3</Name>
     <ProcessName>MassEffect3</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\BioWare\Mass Effect 3\Save</Path>
+    <Path>*mydocs*\BioWare\Mass Effect 3\Save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4248,7 +4121,7 @@
     <Name>Max Payne 3</Name>
     <ProcessName>MaxPayne3</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Rockstar Games\Max Payne 3\Profiles</Path>
+    <Path>*mydocs*\Rockstar Games\Max Payne 3\Profiles</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4272,7 +4145,7 @@
     <Name>Metro 2033 Redux</Name>
     <ProcessName>metro</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\4A Games\Metro 2033</Path>
+    <Path>*mydocs*\4A Games\Metro 2033</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4296,7 +4169,7 @@
     <Name>Metro Last Light Redux</Name>
     <ProcessName>metro</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\4A Games\Metro Last Light</Path>
+    <Path>*mydocs*\4A Games\Metro Last Light</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4320,7 +4193,7 @@
     <Name>Mirror's Edge</Name>
     <ProcessName>MirrorsEdge</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\EA Games\Mirror's Edge\TdGame\Savefiles</Path>
+    <Path>*mydocs*\EA Games\Mirror's Edge\TdGame\Savefiles</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4340,83 +4213,11 @@
     </Tags>
   </Game>
   <Game>
-    <ID>3a84fb23-2c61-4d21-a679-3c92d1d2f5bb</ID>
-    <Name>Mortal Kombat</Name>
-    <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosboxMortalKombat</Parameter>
-    <Path>..\</Path>
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>0</BackupLimit>
-    <FileType>CMOS.MK1</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Comments />
-    <IsRegEx>false</IsRegEx>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <ID>d27da0f6-070f-4243-ab5c-3f3f146d216b</ID>
-    <Name>Mortal Kombat 2</Name>
-    <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosboxMortalKombat2</Parameter>
-    <Path>..\</Path>
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>0</BackupLimit>
-    <FileType>cmos</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Comments />
-    <IsRegEx>false</IsRegEx>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <ID>a7adcd70-764f-456a-ad4f-b22b0fc24880</ID>
-    <Name>Mortal Kombat 3</Name>
-    <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosboxMortalKombat3</Parameter>
-    <Path>..\</Path>
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>0</BackupLimit>
-    <FileType>*.DAT</FileType>
-    <ExcludeList>unins000.dat</ExcludeList>
-    <MonitorOnly>false</MonitorOnly>
-    <Comments />
-    <IsRegEx>false</IsRegEx>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
     <ID>88a3fa77-0d32-4d5e-bb0a-798f6996a424</ID>
     <Name>Mount &amp; Blade: Warband</Name>
     <ProcessName>mb_warband</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Mount&amp;Blade Warband Savegames</Path>
+    <Path>*mydocs*\Mount&amp;Blade Warband Savegames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4440,7 +4241,7 @@
     <Name>Mount &amp; Blade: With Fire and Sword</Name>
     <ProcessName>mb_wfas</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Mount&amp;Blade With Fire and Sword\Savegames</Path>
+    <Path>*mydocs*\Mount&amp;Blade With Fire and Sword\Savegames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4464,7 +4265,7 @@
     <Name>My Summer Car</Name>
     <ProcessName>mysummercar</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%Low\Amistech\My Summer Car</Path>
+    <Path>*appdatalocal*Low\Amistech\My Summer Car</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>true</AppendTimeStamp>
@@ -4488,7 +4289,7 @@
     <Name>Neverwinter Nights 2</Name>
     <ProcessName>nwn2</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Neverwinter Nights 2\saves</Path>
+    <Path>*mydocs*\Neverwinter Nights 2\saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4512,11 +4313,11 @@
     <Name>No Man's Sky</Name>
     <ProcessName>NMS</ProcessName>
     <Parameter />
-    <Path>%APPDATA%\HelloGames\NMS</Path>
+    <Path>*appdataroaming*\HelloGames\NMS</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
-    <AppendTimeStamp>true</AppendTimeStamp>
-    <BackupLimit>5</BackupLimit>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList>cache</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
@@ -4528,9 +4329,6 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4611,7 +4409,7 @@
     <Name>Offworld Trading Company</Name>
     <ProcessName>Offworld</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\Offworld\Saves</Path>
+    <Path>*mydocs*\My Games\Offworld\Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4635,7 +4433,7 @@
     <Name>OlliOlli</Name>
     <ProcessName>olliolli</ProcessName>
     <Parameter />
-    <Path>%APPDATA%\olliolli</Path>
+    <Path>*appdataroaming*\olliolli</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4659,7 +4457,7 @@
     <Name>Omerta - City of Gangsters</Name>
     <ProcessName>Omerta</ProcessName>
     <Parameter />
-    <Path>%APPDATA%\Omerta\save</Path>
+    <Path>*appdataroaming*\Omerta\save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4755,7 +4553,7 @@
     <Name>Paper Sorcerer</Name>
     <ProcessName>PaperSorcererPC</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%Low\UltraRunaway\Paper Sorcerer</Path>
+    <Path>*appdatalocal*Low\UltraRunaway\Paper Sorcerer</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4779,7 +4577,7 @@
     <Name>Papers, Please</Name>
     <ProcessName>PapersPlease</ProcessName>
     <Parameter />
-    <Path>%APPDATA%\3909\PapersPlease</Path>
+    <Path>*appdataroaming*\3909\PapersPlease</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4803,7 +4601,7 @@
     <Name>Pillars of Eternity</Name>
     <ProcessName>PillarsOfEternity</ProcessName>
     <Parameter />
-    <Path>%USERPROFILE%\Saved Games\Pillars of Eternity</Path>
+    <Path>*currentuser*\Saved Games\Pillars of Eternity</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4827,7 +4625,7 @@
     <Name>Pillars of Eternity II: Deadfire</Name>
     <ProcessName>PillarsOfEternityII</ProcessName>
     <Parameter />
-    <Path>%USERPROFILE%\Saved Games\Pillars of Eternity II</Path>
+    <Path>*currentuser*\Saved Games\Pillars of Eternity II</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4851,7 +4649,7 @@
     <Name>PixelJunk Monsters HD</Name>
     <ProcessName>Monsters</ProcessName>
     <Parameter />
-    <Path>%APPDATA%\PJMonsters</Path>
+    <Path>*appdataroaming*\PJMonsters</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4875,7 +4673,7 @@
     <Name>PixelJunk Shooter</Name>
     <ProcessName>CaveShooter</ProcessName>
     <Parameter />
-    <Path>%APPDATA%\PJShooter</Path>
+    <Path>*appdataroaming*\PJShooter</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4899,7 +4697,7 @@
     <Name>Planescape: Torment: Enhanced Edition</Name>
     <ProcessName>Torment</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Planescape Torment - Enhanced Edition\save</Path>
+    <Path>*mydocs*\Planescape Torment - Enhanced Edition\save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4971,7 +4769,7 @@
     <Name>Prey</Name>
     <ProcessName>PREY</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\PREY\base\savegames</Path>
+    <Path>*mydocs*\My Games\PREY\base\savegames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5019,7 +4817,7 @@
     <Name>Prison Architect</Name>
     <ProcessName>Prison Architect</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%\Introversion\Prison Architect\saves</Path>
+    <Path>*appdatalocal*\Introversion\Prison Architect\saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5067,7 +4865,7 @@
     <Name>Project Highrise</Name>
     <ProcessName>Game</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%Low\SomaSim\Project Highrise</Path>
+    <Path>*appdatalocal*Low\SomaSim\Project Highrise</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5091,7 +4889,7 @@
     <Name>Project Zomboid</Name>
     <ProcessName>ProjectZomboid(32|64)$</ProcessName>
     <Parameter />
-    <Path>%USERPROFILE%\Zomboid\Saves</Path>
+    <Path>*currentuser*\Zomboid\Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>true</AppendTimeStamp>
@@ -5118,7 +4916,7 @@
     <Name>Punch Club</Name>
     <ProcessName>Punch Club</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%Low\Lazy Bear Games\Punch Club</Path>
+    <Path>*appdatalocal*Low\Lazy Bear Games\Punch Club</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5169,7 +4967,7 @@
     <Name>Rebel Galaxy</Name>
     <ProcessName>RebelGalaxyGOG</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\Double Damage Games\RebelGalaxy</Path>
+    <Path>*mydocs*\My Games\Double Damage Games\RebelGalaxy</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5217,7 +5015,7 @@
     <Name>Red Faction Guerrilla Re-Mars-tered</Name>
     <ProcessName>rfg</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%\GOG.com\Galaxy\Applications\51153410217180642\Storage\Shared\Files\autocloud\save</Path>
+    <Path>*appdatalocal*\GOG.com\Galaxy\Applications\51153410217180642\Storage\Shared\Files\autocloud\save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>true</AppendTimeStamp>
@@ -5265,7 +5063,7 @@
     <Name>RiME</Name>
     <ProcessName>RiME</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%\SirenGame\Saved\SaveGames</Path>
+    <Path>*appdatalocal*\SirenGame\Saved\SaveGames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5287,9 +5085,9 @@
   <Game>
     <ID>def3a0e0-a53f-4c72-bc4c-59db3be157bd</ID>
     <Name>RimWorld</Name>
-    <ProcessName>RimWorldWin(64)?$</ProcessName>
+    <ProcessName>RimWorldWin</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%Low\Ludeon Studios\RimWorld by Ludeon Studios\Saves</Path>
+    <Path>*appdatalocal*Low\Ludeon Studios\RimWorld by Ludeon Studios\Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5298,7 +5096,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>true</IsRegEx>
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5340,7 +5138,7 @@
     <Name>Risen</Name>
     <ProcessName>Risen</ProcessName>
     <Parameter />
-    <Path>%USERPROFILE%\Saved Games\Risen\SaveGames</Path>
+    <Path>*currentuser*\Saved Games\Risen\SaveGames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5364,7 +5162,7 @@
     <Name>Risen 3 - Titan Lords</Name>
     <ProcessName>Risen3</ProcessName>
     <Parameter />
-    <Path>%USERPROFILE%\Saved Games\Risen3\SaveGames</Path>
+    <Path>*currentuser*\Saved Games\Risen3\SaveGames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5412,7 +5210,7 @@
     <Name>Rogue Legacy</Name>
     <ProcessName>RogueLegacy</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\SavedGames\RogueLegacy</Path>
+    <Path>*mydocs*\SavedGames\RogueLegacy</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5436,7 +5234,7 @@
     <Name>S.T.A.L.K.E.R. Shadow of Chernobyl</Name>
     <ProcessName>XR_3DA</ProcessName>
     <Parameter />
-    <Path>%COMMONDOCUMENTS%\STALKER-SHOC\savedgames</Path>
+    <Path>*publicdocs*\STALKER-SHOC\savedgames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5460,7 +5258,7 @@
     <Name>Saints Row - The Third</Name>
     <ProcessName>SaintsRowTheThird_DX11</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%\Saints Row The Third</Path>
+    <Path>*appdatalocal*\Saints Row The Third</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5484,7 +5282,7 @@
     <Name>Saints Row 2</Name>
     <ProcessName>SR2_pc</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%\THQ\Saints Row 2</Path>
+    <Path>*appdatalocal*\THQ\Saints Row 2</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5532,7 +5330,7 @@
     <Name>Satellite Reign</Name>
     <ProcessName>SatelliteReignWindows</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%\SatelliteReign\users</Path>
+    <Path>*appdatalocal*\SatelliteReign\users</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5576,35 +5374,11 @@
     </Tags>
   </Game>
   <Game>
-    <ID>b7f9df61-2fba-4188-b006-ffa7c7bb396e</ID>
-    <Name>Shadow Warrior 2</Name>
-    <ProcessName>ShadowWarrior2</ProcessName>
-    <Parameter />
-    <Path>%USERPROFILE%\Saved Games\Flying Wild Hog\Shadow Warrior 2\profiles</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
-    <FileType />
-    <ExcludeList>config.cfg</ExcludeList>
-    <MonitorOnly>false</MonitorOnly>
-    <Comments />
-    <IsRegEx>false</IsRegEx>
-    <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
     <ID>83c1200b-a5fa-4c6a-9c3f-471d3a90ed05</ID>
     <Name>Shadow Warrior 2013 (DX 11)</Name>
     <ProcessName>sw.x64</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Shadow Warrior DX11\profiles</Path>
+    <Path>*mydocs*\Shadow Warrior DX11\profiles</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5628,7 +5402,7 @@
     <Name>Shadow Warrior 2013 (DX 9)</Name>
     <ProcessName>sw</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Shadow Warrior\profiles</Path>
+    <Path>*mydocs*\Shadow Warrior\profiles</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5676,7 +5450,7 @@
     <Name>Shadowgate</Name>
     <ProcessName>Shadowgate</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Zojoi\Shadowgate</Path>
+    <Path>*mydocs*\Zojoi\Shadowgate</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5700,7 +5474,7 @@
     <Name>Shadowrun - Hong Kong Extended Edition</Name>
     <ProcessName>SRHK</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%\Harebrained Schemes\Shadowrun Hong Kong\Saves</Path>
+    <Path>*appdatalocal*\Harebrained Schemes\Shadowrun Hong Kong\Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5751,7 +5525,7 @@
     <Name>Shadowrun Dragonfall - Director's Cut</Name>
     <ProcessName>Dragonfall</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%\Harebrained Schemes\Shadowrun Dragonfall\Saves</Path>
+    <Path>*appdatalocal*\Harebrained Schemes\Shadowrun Dragonfall\Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5775,7 +5549,7 @@
     <Name>Shadowrun Returns</Name>
     <ProcessName>Shadowrun</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%\Harebrained Schemes\Shadowrun Returns\Saves</Path>
+    <Path>*appdatalocal*\Harebrained Schemes\Shadowrun Returns\Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5799,7 +5573,7 @@
     <Name>Shadwen</Name>
     <ProcessName>shadwen_64bit</ProcessName>
     <Parameter />
-    <Path>%APPDATA%\Shadwen</Path>
+    <Path>*appdataroaming*\Shadwen</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5847,7 +5621,7 @@
     <Name>Shovel Knight</Name>
     <ProcessName>ShovelKnight</ProcessName>
     <Parameter />
-    <Path>%APPDATA%\Yacht Club Games\Shovel Knight</Path>
+    <Path>*appdataroaming*\Yacht Club Games\Shovel Knight</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5919,7 +5693,7 @@
     <Name>Sid Meier's Civilization: Beyond Earth</Name>
     <ProcessName>CivilizationBE_DX11</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\Sid Meier's Civilization Beyond Earth</Path>
+    <Path>*mydocs*\My Games\Sid Meier's Civilization Beyond Earth</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5970,7 +5744,7 @@
     <Name>Sid Meier's Pirates!</Name>
     <ProcessName>Pirates!</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\Sid Meier's Pirates!</Path>
+    <Path>*mydocs*\My Games\Sid Meier's Pirates!</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6042,7 +5816,7 @@
     <Name>Simcity 4 Deluxe</Name>
     <ProcessName>SimCity 4</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\SimCity 4\Regions</Path>
+    <Path>*mydocs*\SimCity 4\Regions</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6090,7 +5864,7 @@
     <Name>Sins of a Solar Empire: Rebellion</Name>
     <ProcessName>Sins of a Solar Empire Rebellion</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\Ironclad Games\Sins of a Solar Empire Rebellion</Path>
+    <Path>*mydocs*\My Games\Ironclad Games\Sins of a Solar Empire Rebellion</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6114,7 +5888,7 @@
     <Name>South Park: The Stick of Truth</Name>
     <ProcessName>South Park - The Stick of Truth</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\South Park - The Stick of Truth\save</Path>
+    <Path>*mydocs*\My Games\South Park - The Stick of Truth\save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6138,7 +5912,7 @@
     <Name>Space Colony HD</Name>
     <ProcessName>Space Colony</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Space Colony\users</Path>
+    <Path>*mydocs*\Space Colony\users</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6162,7 +5936,7 @@
     <Name>SpaceChem</Name>
     <ProcessName>SpaceChem</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%\Zachtronics Industries\SpaceChem\save</Path>
+    <Path>*appdatalocal*\Zachtronics Industries\SpaceChem\save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6186,7 +5960,7 @@
     <Name>Spellforce 2: Anniversary Edition</Name>
     <ProcessName>SpellForce2</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\SpellForce2\save</Path>
+    <Path>*mydocs*\SpellForce2\save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6210,7 +5984,7 @@
     <Name>Spintires</Name>
     <ProcessName>SpinTires</ProcessName>
     <Parameter />
-    <Path>%APPDATA%\SpinTires\UserSaves</Path>
+    <Path>*appdataroaming*\SpinTires\UserSaves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6435,7 +6209,7 @@
     <Name>Star Wars: Empire At War</Name>
     <ProcessName>sweaw</ProcessName>
     <Parameter />
-    <Path>%APPDATA%\Petroglyph\Empire At War\Save</Path>
+    <Path>*appdataroaming*\Petroglyph\Empire At War\Save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6555,7 +6329,7 @@
     <Name>StarCrawlers</Name>
     <ProcessName>StarCrawlers_x86_64</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%Low\Juggernaut Games\StarCrawlers\SaveGame</Path>
+    <Path>*appdatalocal*Low\Juggernaut Games\StarCrawlers\SaveGame</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6579,7 +6353,7 @@
     <Name>Starcraft</Name>
     <ProcessName>StarCraft</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Starcraft</Path>
+    <Path>*mydocs*\Starcraft</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6603,7 +6377,7 @@
     <Name>Stardew Valley</Name>
     <ProcessName>Stardew Valley</ProcessName>
     <Parameter />
-    <Path>%APPDATA%\StardewValley\Saves</Path>
+    <Path>*appdataroaming*\StardewValley\Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>true</AppendTimeStamp>
@@ -6675,7 +6449,7 @@
     <Name>Stellaris</Name>
     <ProcessName>stellaris</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Paradox Interactive\Stellaris\save games</Path>
+    <Path>*mydocs*\Paradox Interactive\Stellaris\save games</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>true</AppendTimeStamp>
@@ -6723,7 +6497,7 @@
     <Name>Stronghold HD</Name>
     <ProcessName>Stronghold</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Stronghold\Saves</Path>
+    <Path>*mydocs*\Stronghold\Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6746,7 +6520,7 @@
     <ID>567f5108-ca8a-4665-bcbe-7ff8b225da5f</ID>
     <Name>Stronghold: Kingdom Simulator</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosbox_strong_single.conf</Parameter>
+    <Parameter />
     <Path>..\strong\strong.sav</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
@@ -6798,7 +6572,7 @@
     <Name>Sunless Sea</Name>
     <ProcessName>Sunless Sea</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%Low\Failbetter Games\Sunless Sea\saves</Path>
+    <Path>*appdatalocal*Low\Failbetter Games\Sunless Sea\saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6822,7 +6596,7 @@
     <Name>Sunrider: Mask of Arcadius</Name>
     <ProcessName>SunriderMaskofArcadius</ProcessName>
     <Parameter />
-    <Path>%APPDATA%\RenPy\Sunrider Episode 2 Save Data</Path>
+    <Path>*appdataroaming*\RenPy\Sunrider Episode 2 Save Data</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6870,7 +6644,7 @@
     <Name>Tales of Maj'Eyal</Name>
     <ProcessName>t-engine</ProcessName>
     <Parameter />
-    <Path>%USERPROFILE%\T-Engine</Path>
+    <Path>*currentuser*\T-Engine</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6918,7 +6692,7 @@
     <Name>Terraria</Name>
     <ProcessName>Terraria</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\Terraria</Path>
+    <Path>*mydocs*\My Games\Terraria</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6993,7 +6767,7 @@
     <Name>The Elder Scrolls IV: Oblivion</Name>
     <ProcessName>Oblivion</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\Oblivion\Saves</Path>
+    <Path>*mydocs*\My Games\Oblivion\Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7041,7 +6815,7 @@
     <Name>The Elder Scrolls V: Skyrim</Name>
     <ProcessName>TESV</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\Skyrim\Saves</Path>
+    <Path>*mydocs*\My Games\Skyrim\Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7065,7 +6839,7 @@
     <Name>The Elder Scrolls V: Skyrim SE</Name>
     <ProcessName>SkyrimSE</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\Skyrim Special Edition\Saves</Path>
+    <Path>*mydocs*\My Games\Skyrim Special Edition\Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7164,7 +6938,7 @@
     <Name>The Saboteur</Name>
     <ProcessName>Saboteur</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\The Saboteur™\SaveGames</Path>
+    <Path>*mydocs*\My Games\The Saboteur™\SaveGames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7188,7 +6962,7 @@
     <Name>The Settlers: Rise of an Empire</Name>
     <ProcessName>Settlers6</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\THE SETTLERS - Rise of an Empire</Path>
+    <Path>*mydocs*\THE SETTLERS - Rise of an Empire</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7239,7 +7013,7 @@
     <Name>The Witcher 2 Enhanced Edition</Name>
     <ProcessName>witcher2</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Witcher 2\gamesaves</Path>
+    <Path>*mydocs*\Witcher 2\gamesaves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7263,7 +7037,7 @@
     <Name>The Witcher 3</Name>
     <ProcessName>witcher3</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\The Witcher 3\gamesaves</Path>
+    <Path>*mydocs*\The Witcher 3\gamesaves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7287,7 +7061,7 @@
     <Name>The Witcher Enhanced Edition</Name>
     <ProcessName>witcher</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\The Witcher\saves</Path>
+    <Path>*mydocs*\The Witcher\saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7311,7 +7085,7 @@
     <Name>They Are Billions</Name>
     <ProcessName>TheyAreBillions(_x86)?$</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\They Are Billions\Saves</Path>
+    <Path>*mydocs*\My Games\They Are Billions\Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7335,7 +7109,7 @@
     <Name>This War of Mine</Name>
     <ProcessName>This War of Mine</ProcessName>
     <Parameter />
-    <Path>%APPDATA%\11bitstudios\This War Of Mine</Path>
+    <Path>*appdataroaming*\11bitstudios\This War Of Mine</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>true</AppendTimeStamp>
@@ -7359,7 +7133,7 @@
     <Name>This is the Police</Name>
     <ProcessName>Police</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%Low\Weappy\This Is The Police</Path>
+    <Path>*appdatalocal*Low\Weappy\This Is The Police</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7383,7 +7157,7 @@
     <Name>Titan Quest - Anniversary Edition</Name>
     <ProcessName>TQ</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\Titan Quest - Immortal Throne\SaveData\Main</Path>
+    <Path>*mydocs*\My Games\Titan Quest - Immortal Throne\SaveData\Main</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7407,7 +7181,7 @@
     <Name>Torment: Tides of Numenera</Name>
     <ProcessName>TidesOfNumenera</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%Low\InXile Entertainment\Torment</Path>
+    <Path>*appdatalocal*Low\InXile Entertainment\Torment</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7431,7 +7205,7 @@
     <Name>Total War: Warhammer</Name>
     <ProcessName>Warhammer</ProcessName>
     <Parameter />
-    <Path>%APPDATA%\The Creative Assembly\Warhammer\save_games</Path>
+    <Path>*appdataroaming*\The Creative Assembly\Warhammer\save_games</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7455,7 +7229,7 @@
     <Name>Trine 2</Name>
     <ProcessName>trine2_32bit</ProcessName>
     <Parameter />
-    <Path>%APPDATA%\Trine2</Path>
+    <Path>*appdataroaming*\Trine2</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7479,7 +7253,7 @@
     <Name>Tropico 4</Name>
     <ProcessName>Tropico4</ProcessName>
     <Parameter />
-    <Path>%APPDATA%\Tropico 4</Path>
+    <Path>*appdataroaming*\Tropico 4</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7503,13 +7277,13 @@
     <Name>Tropico 5</Name>
     <ProcessName>Tropico5</ProcessName>
     <Parameter />
-    <Path>%APPDATA%\Tropico 5\Save</Path>
+    <Path>*appdataroaming*\Tropico 5</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
     <FileType />
-    <ExcludeList />
+    <ExcludeList>logs:DeveloperStorage.lua</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -7575,7 +7349,7 @@
     <Name>Tyranny</Name>
     <ProcessName>Tyranny(32|64)+$</ProcessName>
     <Parameter />
-    <Path>%USERPROFILE%\Saved Games\Tyranny</Path>
+    <Path>*currentuser*\Saved Games\Tyranny</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7623,7 +7397,7 @@
     <Name>UnderRail</Name>
     <ProcessName>underrail</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\Underrail\Saves</Path>
+    <Path>*mydocs*\My Games\Underrail\Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7650,7 +7424,7 @@
     <Name>Undertale</Name>
     <ProcessName>UNDERTALE</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%\UNDERTALE</Path>
+    <Path>*appdatalocal*\UNDERTALE</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7722,7 +7496,7 @@
     <Name>Valdis Story: Abyssal City</Name>
     <ProcessName>Valdis_Story_AC</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%\Valdis_Story_AC</Path>
+    <Path>*appdatalocal*\Valdis_Story_AC</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7821,7 +7595,7 @@
     <Name>Victor Vran</Name>
     <ProcessName>VictorVran</ProcessName>
     <Parameter />
-    <Path>%APPDATA%\Victor Vran</Path>
+    <Path>*appdataroaming*\Victor Vran</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7869,7 +7643,7 @@
     <Name>Wargame: European Escalation</Name>
     <ProcessName>wargame</ProcessName>
     <Parameter />
-    <Path>%USERPROFILE%\Saved Games\EugenSystems\WarGame</Path>
+    <Path>*currentuser*\Saved Games\EugenSystems\WarGame</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -7997,35 +7771,11 @@
     </Tags>
   </Game>
   <Game>
-    <ID>ff85d5d0-cc2c-4971-9bab-dd398d6b0c89</ID>
-    <Name>Warhammer: Vermintide 2</Name>
-    <ProcessName>vermintide2(_dx12)?$</ProcessName>
-    <Parameter />
-    <Path>%APPDATA%\Fatshark\Vermintide 2</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>0</BackupLimit>
-    <FileType>save_data.*</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Comments />
-    <IsRegEx>true</IsRegEx>
-    <Tags>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
     <ID>b0ff8654-d927-478f-ab1f-506f47780194</ID>
     <Name>Wasteland 2</Name>
     <ProcessName>WL2</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\Wasteland2\Save Games</Path>
+    <Path>*mydocs*\My Games\Wasteland2\Save Games</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8049,7 +7799,7 @@
     <Name>Wasteland 2: Director's Cut</Name>
     <ProcessName>WL2</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\Wasteland2DC</Path>
+    <Path>*mydocs*\My Games\Wasteland2DC</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8073,7 +7823,7 @@
     <Name>Widelands</Name>
     <ProcessName>widelands</ProcessName>
     <Parameter />
-    <Path>%USERPROFILE%\.widelands\save</Path>
+    <Path>*currentuser*\.widelands\save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8124,7 +7874,7 @@
     <Name>World in Conflict: Complete Edition</Name>
     <ProcessName>wic</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\World in Conflict\</Path>
+    <Path>*mydocs*\World in Conflict\</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8148,7 +7898,7 @@
     <Name>X3: Terran Conflict</Name>
     <ProcessName>X3TC</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Egosoft\X3TC\save</Path>
+    <Path>*mydocs*\Egosoft\X3TC\save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8172,7 +7922,7 @@
     <Name>XCOM 2</Name>
     <ProcessName>XCom2</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\XCOM2\XComGame\SaveData</Path>
+    <Path>*mydocs*\My Games\XCOM2\XComGame\SaveData</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8196,7 +7946,7 @@
     <Name>Xenonauts</Name>
     <ProcessName>Xenonauts</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Xenonauts</Path>
+    <Path>*mydocs*\Xenonauts</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
