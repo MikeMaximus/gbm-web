@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official_Linux.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1539171885" TotalConfigurations="400" AppVer="115">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1542367404" TotalConfigurations="416" AppVer="115">
   <Game>
     <ID>bbf8e00a-d7b8-46a5-b52c-8ba886b8c38a</ID>
     <Name>0 AD</Name>
@@ -8,10 +8,10 @@
     <Parameter />
     <Path>${XDG_DATA_HOME:-~/.local/share}/0ad/saves</Path>
     <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
+    <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType />
+    <FileType>*.0adsave</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -22,6 +22,33 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>152ab3ef-6337-4d2d-9121-5d8ca89b8b38</ID>
+    <Name>2064: Read Only Memories</Name>
+    <ProcessName>ROM\.x86(_64)?</ProcessName>
+    <Parameter />
+    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/MidBoss/2064_ Read Only Memories</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>*.meta:*.rom</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -46,6 +73,9 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -74,6 +104,9 @@
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -100,6 +133,9 @@
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -164,15 +200,18 @@
     <Parameter />
     <Path>${XDG_CONFIG_HOME:-~/.config}/A Wizard's Lizard/Local Storage</Path>
     <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
+    <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType />
+    <FileType>*.localstorage</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
+      <Tag>
+        <Name>NW.js</Name>
+      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
@@ -186,15 +225,15 @@
     <Name>A7xpg</Name>
     <ProcessName>a7xpg</ProcessName>
     <Parameter />
-    <Path />
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
+    <Path>~/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType />
+    <FileType>.a7xpg.prf</FileType>
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Comments>Does not store saves</Comments>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>Only highest score is saved</Comments>
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -230,6 +269,9 @@
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -239,10 +281,10 @@
     <Parameter />
     <Path>./RuntimeData/Save</Path>
     <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
+    <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType />
+    <FileType>*.sav</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -280,6 +322,9 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -332,6 +377,9 @@
       <Tag>
         <Name>Official</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -371,10 +419,11 @@
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>*.ACG</FileType>
+    <FileType>*/SAVES/*.ACG</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
+    <Comments>Profile itself contains configurations and is therefore excluded.
+The Continue button starts working again, when you save a game after restoration.</Comments>
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -440,6 +489,9 @@
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -476,7 +528,7 @@
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>*.sav</FileType>
+    <FileType>*/*.sav</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -503,7 +555,7 @@
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>*.sav</FileType>
+    <FileType>Main*/*/*.sav</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -548,6 +600,9 @@
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -571,6 +626,36 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>fc134beb-0385-4bf4-a5a9-8de45e33e729</ID>
+    <Name>Anima: Gate of Memories</Name>
+    <ProcessName>GoMLinux\.x86(_64)?</ProcessName>
+    <Parameter />
+    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Anima Project Studio/GateofMemories</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>prefs</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>save game and config in one file</Comments>
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -598,6 +683,9 @@
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -653,6 +741,9 @@
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -703,6 +794,9 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -755,6 +849,9 @@
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -764,15 +861,18 @@
     <Parameter />
     <Path>~/.Aquaria/save</Path>
     <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
+    <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType />
+    <FileType>save-*.aqs:screen-*.zga</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
+    <Comments>Only engine is open source</Comments>
     <IsRegEx>false</IsRegEx>
     <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
@@ -805,6 +905,9 @@
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -856,6 +959,9 @@
       </Tag>
       <Tag>
         <Name>Remake</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -925,7 +1031,7 @@ closed data</Comments>
     <FileType>amconfig.xml</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
+    <Comments>Scores and setting in one file</Comments>
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -958,6 +1064,9 @@ closed data</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -982,6 +1091,9 @@ closed data</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -994,7 +1106,7 @@ closed data</Comments>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>save*.bin</FileType>
+    <FileType>save*.bin:achlb*.bin</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -1038,6 +1150,9 @@ closed data</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1095,6 +1210,9 @@ closed data</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1158,6 +1276,30 @@ closed data</Comments>
     <BackupLimit>2</BackupLimit>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments>Scores are temporary</Comments>
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>4871468b-bd50-4878-8066-1df96c967722</ID>
+    <Name>Barrage</Name>
+    <ProcessName>barrage</ProcessName>
+    <Parameter />
+    <Path>~/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>2</BackupLimit>
+    <FileType>.barrage.hscr</FileType>
+    <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -1195,6 +1337,9 @@ closed data</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -1207,7 +1352,7 @@ closed data</Comments>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>*.bwp:*.bwg</FileType>
+    <FileType>Profiles*/*.bwp:Savegames*/*.bwg</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -1271,6 +1416,9 @@ no DRM-free version</Comments>
       <Tag>
         <Name>Official</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -1297,6 +1445,9 @@ no DRM-free version</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1325,6 +1476,9 @@ no DRM-free version</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -1352,12 +1506,15 @@ no DRM-free version</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
     <ID>4e6c64f8-8a9a-4853-9c07-e8f49b78d116</ID>
     <Name>Beneath a Steel Sky</Name>
-    <ProcessName>scummvm</ProcessName>
+    <ProcessName>scummvm(_x86_64|_i686)?</ProcessName>
     <Parameter>sky</Parameter>
     <Path>~/.scummvm</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -1368,13 +1525,16 @@ no DRM-free version</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>ScummVM</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1430,6 +1590,9 @@ no DRM-free version</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -1442,7 +1605,7 @@ no DRM-free version</Comments>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
-    <FileType>Bionic_Heart/*.save:Bionic_Heart-1*/*.save</FileType>
+    <FileType>Bionic_Heart*/*.save</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -1459,6 +1622,9 @@ no DRM-free version</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1519,6 +1685,9 @@ multiple savegames not possible</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -1545,6 +1714,9 @@ multiple savegames not possible</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1573,6 +1745,9 @@ multiple savegames not possible</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -1599,6 +1774,9 @@ multiple savegames not possible</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1627,6 +1805,9 @@ multiple savegames not possible</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -1651,6 +1832,9 @@ multiple savegames not possible</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -1663,7 +1847,7 @@ multiple savegames not possible</Comments>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>players.dat</FileType>
+    <FileType>players.dat:levels.dat:*/*.brc</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -1729,6 +1913,9 @@ multiple savegames not possible</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -1762,6 +1949,9 @@ multiple savegames not possible</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -1789,6 +1979,9 @@ multiple savegames not possible</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -1813,6 +2006,9 @@ multiple savegames not possible</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -1825,7 +2021,7 @@ multiple savegames not possible</Comments>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>profile.bin:*.sav</FileType>
+    <FileType>*/profile.bin:*/*.sav</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -1867,6 +2063,9 @@ multiple savegames not possible</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -1894,6 +2093,9 @@ multiple savegames not possible</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -1917,6 +2119,9 @@ multiple savegames not possible</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1969,6 +2174,9 @@ multiple savegames not possible</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -1992,6 +2200,9 @@ multiple savegames not possible</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2024,6 +2235,9 @@ Saves must be moved manually between those versions.</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -2051,6 +2265,9 @@ Saves must be moved manually between those versions.</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -2074,6 +2291,9 @@ Saves must be moved manually between those versions.</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2108,6 +2328,9 @@ Saves must be moved manually between those versions.</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -2135,6 +2358,9 @@ Saves must be moved manually between those versions.</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -2158,6 +2384,9 @@ Saves must be moved manually between those versions.</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2216,6 +2445,9 @@ Saves must be moved manually between those versions.</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -2267,6 +2499,9 @@ Saves must be moved manually between those versions.</Comments>
       <Tag>
         <Name>Official</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -2290,6 +2525,9 @@ Saves must be moved manually between those versions.</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2375,6 +2613,39 @@ Saves must be moved manually between those versions.</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>8ae47aff-bd17-409f-ad9a-b08ed6062316</ID>
+    <Name>Citadel of Celestial Cascades</Name>
+    <ProcessName>Citadel of Celestial Cascades.x86_64</ProcessName>
+    <Parameter />
+    <Path>${XDG_DATA_HOME:-~/.local/share}/godot/app_userdata/Citadel of Celestial Cascades</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Freeware</Name>
+      </Tag>
+      <Tag>
+        <Name>Itch.io</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -2398,6 +2669,9 @@ Saves must be moved manually between those versions.</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2425,6 +2699,9 @@ Saves must be moved manually between those versions.</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2476,6 +2753,9 @@ Saves must be moved manually between those versions.</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2531,6 +2811,9 @@ Saves must be moved manually between those versions.</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -2564,6 +2847,9 @@ Saves must be moved manually between those versions.</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -2576,8 +2862,8 @@ Saves must be moved manually between those versions.</Comments>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>*.sav</FileType>
-    <ExcludeList>Autosaves</ExcludeList>
+    <FileType>*.sav:Autosaves*/*.sav</FileType>
+    <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -2618,6 +2904,36 @@ Saves must be moved manually between those versions.</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>907d1939-7541-4db0-9126-0596cdff1202</ID>
+    <Name>Cow's Revenge</Name>
+    <ProcessName>(C|c)ow.?s.?(R|r)evenge\s*(-.GNU.Linux.X11)?</ProcessName>
+    <Parameter />
+    <Path>~/.godot/app_userdata/Cow's Revenge</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>savegame.save</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Itch.io</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -2644,6 +2960,9 @@ Saves must be moved manually between those versions.</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2675,6 +2994,9 @@ Saves must be moved manually between those versions.</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -2704,6 +3026,9 @@ Saves must be moved manually between those versions.</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2735,6 +3060,9 @@ Saves must be moved manually between those versions.</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -2758,6 +3086,9 @@ Saves must be moved manually between those versions.</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2819,6 +3150,9 @@ Saves must be moved manually between those versions.</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -2842,6 +3176,9 @@ Saves must be moved manually between those versions.</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2869,6 +3206,9 @@ Saves must be moved manually between those versions.</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2929,6 +3269,9 @@ Change path for old drm-free versions in ~/.appdata/DefendersQuest/Local\ Store/
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -2955,6 +3298,9 @@ Change path for old drm-free versions in ~/.appdata/DefendersQuest/Local\ Store/
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2998,7 +3344,7 @@ Change path for old drm-free versions in ~/.appdata/DefendersQuest/Local\ Store/
     <FileType />
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
-    <Comments>Feral includes a link to steam's userdata, but it assumes standard steam paths.</Comments>
+    <Comments>Feral includes a softlink to steam's cloud userdata, but it assumes standard steam paths.</Comments>
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -3064,6 +3410,9 @@ Change path for old drm-free versions in ~/.appdata/DefendersQuest/Local\ Store/
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -3073,11 +3422,11 @@ Change path for old drm-free versions in ~/.appdata/DefendersQuest/Local\ Store/
     <Parameter />
     <Path>~/Larian Studios/Divinity Original Sin Enhanced Edition/PlayerProfiles</Path>
     <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
+    <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType />
-    <ExcludeList>config.lsx:modsettings.lsx</ExcludeList>
+    <FileType>*/Savegames_patch/*/*.lsv:*/Savegames_patch/*/*.png:playerprofiles.lsb:*/profile.lsb</FileType>
+    <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -3128,6 +3477,9 @@ Launch options: ./DDLC.sh # %command%</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -3176,6 +3528,9 @@ Launch options: ./DDLC.sh # %command%</Comments>
       <Tag>
         <Name>ScummVM</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -3188,8 +3543,8 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>*.data</FileType>
-    <ExcludeList>prefs</ExcludeList>
+    <FileType>*.data:Autosave*/Slot?/*.data</FileType>
+    <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -3236,6 +3591,9 @@ Launch options: ./DDLC.sh # %command%</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -3266,6 +3624,9 @@ Launch options: ./DDLC.sh # %command%</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -3280,8 +3641,8 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <BackupLimit>2</BackupLimit>
     <FileType>GAME*.SAV</FileType>
     <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Comments />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments>GBM can not detect the save game location</Comments>
     <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
@@ -3326,11 +3687,14 @@ Launch options: ./DDLC.sh # %command%</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
-    <ID>5e73d2da-79b9-4d60-8fb1-0521089d3603</ID>
-    <Name>Dungeons 2 (gog)</Name>
+    <ID>a10edbff-d8aa-4d05-99ee-71ee77ab003c</ID>
+    <Name>Dungeons 2</Name>
     <ProcessName>Dungeons2(\.x86_64)?</ProcessName>
     <Parameter />
     <Path>${XDG_CONFIG_HOME:-~/.config}/Kalypso Media/Dungeons 2/savegames</Path>
@@ -3341,33 +3705,12 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <FileType>*.d2z</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
+    <Comments>Steam Cloud must be disabled otherwise &lt;path-to-game&gt;/savegames/ will be used</Comments>
     <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
         <Name>GOG</Name>
       </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <ID>a10edbff-d8aa-4d05-99ee-71ee77ab003c</ID>
-    <Name>Dungeons 2 (steam)</Name>
-    <ProcessName>Dungeons2(\.x86_64)?</ProcessName>
-    <Parameter />
-    <Path>./savegames/</Path>
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
-    <FileType>*.d2z</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Comments />
-    <IsRegEx>true</IsRegEx>
-    <Tags>
       <Tag>
         <Name>Official</Name>
       </Tag>
@@ -3404,6 +3747,9 @@ Launch options: ./DDLC.sh # %command%</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -3416,8 +3762,8 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>*.sav</FileType>
-    <ExcludeList />
+    <FileType>Player?/*.sav</FileType>
+    <ExcludeList>Player?/Settings.sav</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>true</IsRegEx>
@@ -3458,6 +3804,9 @@ Launch options: ./DDLC.sh # %command%</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -3485,6 +3834,9 @@ Launch options: ./DDLC.sh # %command%</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -3511,6 +3863,9 @@ Launch options: ./DDLC.sh # %command%</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3542,6 +3897,9 @@ Launch options: ./DDLC.sh # %command%</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -3562,6 +3920,9 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Freeware</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -3596,6 +3957,9 @@ Launch options: ./DDLC.sh # %command%</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -3622,6 +3986,9 @@ Launch options: ./DDLC.sh # %command%</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3650,6 +4017,9 @@ Launch options: ./DDLC.sh # %command%</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -3673,6 +4043,9 @@ Launch options: ./DDLC.sh # %command%</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3728,6 +4101,9 @@ Launch options: ./DDLC.sh # %command%</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -3760,6 +4136,9 @@ Launch options: ./DDLC.sh # %command%</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3800,7 +4179,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>SaveSlot0</FileType>
+    <FileType>SaveSlot?:SaveSlot?_EndGame</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -3899,6 +4278,9 @@ Launch options: ./DDLC.sh # %command%</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -3906,12 +4288,12 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Name>Flare RPG</Name>
     <ProcessName>flare(\.x86(_64)?)?</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/flare</Path>
+    <Path>${XDG_DATA_HOME:-~/.local/share}/flare/saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>saves</FileType>
+    <FileType>*/*/avatar.txt:*/stash.txt</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -3919,6 +4301,12 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Freeware</Name>
+      </Tag>
+      <Tag>
+        <Name>Itch.io</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -3946,6 +4334,9 @@ Launch options: ./DDLC.sh # %command%</Comments>
       </Tag>
       <Tag>
         <Name>ScummVM</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3983,7 +4374,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>*.gz:*.shp:*.png:*.bmp</FileType>
+    <FileType>*.sav.gz:*.shp:*.thumbnail.png</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -4010,7 +4401,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <FileType>save.cfg</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
+    <Comments>Only code is open</Comments>
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -4048,6 +4439,9 @@ Launch options: ./DDLC.sh # %command%</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4097,6 +4491,9 @@ Launch options: ./DDLC.sh # %command%</Comments>
       <Tag>
         <Name>Official</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -4123,6 +4520,60 @@ Launch options: ./DDLC.sh # %command%</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>75cd6eef-a86a-40d6-bbe7-c8eb7cda07f6</ID>
+    <Name>Geneshift</Name>
+    <ProcessName>Geneshift</ProcessName>
+    <Parameter />
+    <Path>./data/profiles</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>*.guy</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>Save game and settings in one file</Comments>
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>f91374e7-32cd-483f-bb9e-91942c1685ab</ID>
+    <Name>Getting Over It with Bennett Foddy</Name>
+    <ProcessName>GettingOverIt.x86_64</ProcessName>
+    <Parameter />
+    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Bennett Foddy/Getting Over It/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>prefs</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>Settings and savegame in one file</Comments>
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Humble</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4152,6 +4603,9 @@ No backup for steam version</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -4179,6 +4633,9 @@ No backup for steam version</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -4202,6 +4659,9 @@ No backup for steam version</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4227,6 +4687,9 @@ No backup for steam version</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -4250,6 +4713,9 @@ No backup for steam version</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4281,6 +4747,9 @@ No backup for steam version</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -4308,6 +4777,9 @@ No backup for steam version</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -4317,10 +4789,10 @@ No backup for steam version</Comments>
     <Parameter />
     <Path>~/.gunroar/</Path>
     <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
+    <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType />
+    <FileType>last.rpl:gunroar.prf</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -4383,6 +4855,9 @@ No backup for steam version</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -4406,6 +4881,9 @@ No backup for steam version</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4434,6 +4912,9 @@ No backup for steam version</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -4461,6 +4942,9 @@ No backup for steam version</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -4484,6 +4968,9 @@ No backup for steam version</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4515,6 +5002,9 @@ No backup for steam version</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -4538,6 +5028,9 @@ No backup for steam version</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4569,6 +5062,9 @@ No backup for steam version</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -4593,6 +5089,9 @@ No backup for steam version</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -4616,6 +5115,9 @@ No backup for steam version</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4647,6 +5149,9 @@ No backup for steam version</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -4677,6 +5182,9 @@ No backup for steam version</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -4700,6 +5208,9 @@ No backup for steam version</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4728,6 +5239,9 @@ No backup for steam version</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -4751,6 +5265,9 @@ No backup for steam version</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4779,6 +5296,9 @@ No backup for steam version</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -4805,6 +5325,9 @@ No backup for steam version</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4833,6 +5356,9 @@ No backup for steam version</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -4859,6 +5385,9 @@ No backup for steam version</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4914,6 +5443,9 @@ No backup for steam version</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -4941,6 +5473,9 @@ No backup for steam version</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -4964,6 +5499,9 @@ No backup for steam version</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4992,6 +5530,9 @@ No backup for steam version</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -5016,6 +5557,9 @@ No backup for steam version</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -5039,6 +5583,9 @@ No backup for steam version</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5069,7 +5616,7 @@ No backup for steam version</Comments>
   <Game>
     <ID>2a1b1bdd-02e3-4229-8057-2afe6deef0ee</ID>
     <Name>Jamestown</Name>
-    <ProcessName>Jamestown(-x86)?</ProcessName>
+    <ProcessName>Jamestown(-x86|-amd64)?</ProcessName>
     <Parameter />
     <Path>~/.jamestown/Saved Games/</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -5087,6 +5634,9 @@ No backup for steam version</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5115,6 +5665,9 @@ No backup for steam version</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -5138,6 +5691,9 @@ No backup for steam version</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5166,6 +5722,9 @@ No backup for steam version</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -5192,6 +5751,9 @@ No backup for steam version</Comments>
       </Tag>
       <Tag>
         <Name>Ren'Py</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5223,6 +5785,9 @@ No backup for steam version</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -5230,7 +5795,7 @@ No backup for steam version</Comments>
     <Name>Kingdom Rush</Name>
     <ProcessName>Kingdom Rush.x86</ProcessName>
     <Parameter />
-    <Path />
+    <Path>./</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5246,6 +5811,9 @@ No backup for steam version</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5277,16 +5845,16 @@ No backup for steam version</Comments>
     </Tags>
   </Game>
   <Game>
-    <ID>6b395c7c-451b-4116-b942-119246b3e284</ID>
-    <Name>Kingdom: Classic</Name>
-    <ProcessName>Kingdom.x86</ProcessName>
+    <ID>2aae4a0b-add9-48ad-872a-04e49129975a</ID>
+    <Name>Kingdom Rush: Origins</Name>
+    <ProcessName>Kingdom Rush Origins</ProcessName>
     <Parameter />
-    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/noio/Kingdom/</Path>
+    <Path>${XDG_DATA_HOME:-~/.local/share}/kingdom_rush_origins</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
-    <FileType>storage*</FileType>
+    <BackupLimit>0</BackupLimit>
+    <FileType>slot_*.lua</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -5297,6 +5865,63 @@ No backup for steam version</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>6b395c7c-451b-4116-b942-119246b3e284</ID>
+    <Name>Kingdom: Classic</Name>
+    <ProcessName>Kingdom.x86</ProcessName>
+    <Parameter />
+    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/noio/Kingdom/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>2</BackupLimit>
+    <FileType>storage_v26_AUTO.dat</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>ebd08f70-a1e6-4635-92b9-951db784c668</ID>
+    <Name>Kingdom: New Lands</Name>
+    <ProcessName>Kingdom\.x86(_64)?</ProcessName>
+    <Parameter />
+    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/noio/Kingdom/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>storage_v34_AUTO.dat</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5322,6 +5947,9 @@ No backup for steam version</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -5345,6 +5973,9 @@ No backup for steam version</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5394,6 +6025,9 @@ No backup for steam version</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -5420,6 +6054,9 @@ No backup for steam version</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5448,6 +6085,9 @@ No backup for steam version</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -5474,6 +6114,9 @@ No backup for steam version</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5556,6 +6199,9 @@ No backup for steam version</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -5592,11 +6238,11 @@ No backup for steam version</Comments>
     <Parameter />
     <Path>${XDG_DATA_HOME:-~/.local/share}/lix</Path>
     <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
+    <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>user:replays</FileType>
-    <ExcludeList />
+    <FileType />
+    <ExcludeList>log.txt</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -5634,6 +6280,9 @@ No backup for steam version</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -5657,6 +6306,9 @@ No backup for steam version</Comments>
       </Tag>
       <Tag>
         <Name>ScummVM</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5685,6 +6337,9 @@ No backup for steam version</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -5712,6 +6367,9 @@ No backup for steam version</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -5726,7 +6384,7 @@ No backup for steam version</Comments>
     <BackupLimit>2</BackupLimit>
     <FileType />
     <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
+    <MonitorOnly>true</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
@@ -5809,7 +6467,8 @@ No backup for steam version</Comments>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments>Deletes savegame file when uninstalled
-Steamcloud not working</Comments>
+Steamcloud not working
+Savegame contains settings</Comments>
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -5825,12 +6484,12 @@ Steamcloud not working</Comments>
     <Name>Metro 2033 Redux</Name>
     <ProcessName>metro</ProcessName>
     <Parameter />
-    <Path />
+    <Path>./</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>2033_auto_save:*.player</FileType>
+    <FileType>*/2033_auto_save:*.player</FileType>
     <ExcludeList>2033:steam_shader_cache:*.sh:*.vfx:*.vfs0:*.vfs1:*.so:metro:*.ogv:*.ogl:*.txt:*.bin:*.cfg</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -5859,8 +6518,8 @@ Steamcloud not working</Comments>
     <BackupLimit>2</BackupLimit>
     <FileType />
     <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Comments />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments>Feral includes a softlink to steam's cloud userdata, but it assumes standard steam paths.</Comments>
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -5868,6 +6527,39 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>c57db653-a5b9-4230-bda7-87f49a2323a9</ID>
+    <Name>Mindustry</Name>
+    <ProcessName>Mindustry</ProcessName>
+    <Parameter />
+    <Path>./mindustry-saves</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Freeware</Name>
+      </Tag>
+      <Tag>
+        <Name>Itch.io</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5920,6 +6612,9 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -5943,6 +6638,9 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5970,6 +6668,9 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6019,6 +6720,9 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>Official</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -6042,6 +6746,9 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6067,6 +6774,9 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -6091,6 +6801,9 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>Official</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -6114,6 +6827,9 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6141,6 +6857,9 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6193,6 +6912,9 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -6216,6 +6938,9 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6244,6 +6969,9 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -6253,11 +6981,11 @@ Steamcloud not working</Comments>
     <Parameter />
     <Path>~/.olliolli</Path>
     <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
+    <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType />
-    <ExcludeList>olliolli.ini</ExcludeList>
+    <FileType>savegame.bin</FileType>
+    <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>true</IsRegEx>
@@ -6322,6 +7050,9 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>Remake</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -6334,8 +7065,8 @@ Steamcloud not working</Comments>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>*.sav</FileType>
-    <ExcludeList>autosave</ExcludeList>
+    <FileType>*.sav:autosave*/*.sav</FileType>
+    <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -6372,6 +7103,9 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6430,6 +7164,9 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -6457,6 +7194,9 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -6481,6 +7221,9 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -6490,10 +7233,10 @@ Steamcloud not working</Comments>
     <Parameter />
     <Path>${XDG_DATA_HOME:-~/.local/share}/3909/PapersPlease</Path>
     <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
+    <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType />
+    <FileType>*.sav</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -6535,6 +7278,9 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -6561,6 +7307,9 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6616,6 +7365,9 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>Official</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -6643,6 +7395,9 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -6666,6 +7421,9 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6697,6 +7455,9 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -6724,6 +7485,9 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -6736,7 +7500,7 @@ Steamcloud not working</Comments>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>Planet_Stronghold/*.save:Planet_Stronghold-1*/*.save</FileType>
+    <FileType>Planet_Stronghold*/*.save</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -6753,6 +7517,9 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6777,6 +7544,9 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6805,6 +7575,9 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -6820,7 +7593,7 @@ Steamcloud not working</Comments>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
+    <Comments>deleting  the save path did not delete the savegames, it is unknown whether this is usable or not</Comments>
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -6831,6 +7604,9 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6922,7 +7698,7 @@ Steamcloud not working</Comments>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>saves:Campaign:unlocked.txt</FileType>
+    <FileType>*/*.prison:*/*.png:*/*.campaign:unlocked.txt</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -6991,6 +7767,9 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -7041,6 +7820,9 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>Remake</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -7162,6 +7944,9 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -7185,6 +7970,9 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -7216,6 +8004,9 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -7246,6 +8037,9 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -7273,6 +8067,9 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -7299,6 +8096,9 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -7348,6 +8148,9 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -7377,6 +8180,9 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -7429,6 +8235,9 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -7463,14 +8272,14 @@ Steamcloud not working</Comments>
     <Name>Saints Row IV</Name>
     <ProcessName>SaintsRow4.i386</ProcessName>
     <Parameter />
-    <Path>../../../userdata/</Path>
+    <Path />
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>206420</FileType>
+    <FileType />
     <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
+    <MonitorOnly>true</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
@@ -7519,10 +8328,10 @@ Steamcloud not working</Comments>
     <Parameter />
     <Path>${XDG_DATA_HOME:-~/.local/share}/SatelliteReign/users</Path>
     <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
+    <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType />
+    <FileType>*/*.xml</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -7567,6 +8376,9 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -7582,6 +8394,36 @@ Steamcloud not working</Comments>
     <FileType>user.*.xml</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>2f55e96a-b4ba-403a-893d-8cf1bfe7aa40</ID>
+    <Name>Serious Sam 3: BFE</Name>
+    <ProcessName>Sam3(_Unrestricted)?</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <Tags>
@@ -7644,6 +8486,9 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -7825,6 +8670,9 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>Official</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -7848,6 +8696,9 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -7924,6 +8775,9 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -7946,10 +8800,16 @@ Steamcloud not working</Comments>
         <Name>FLOSS</Name>
       </Tag>
       <Tag>
+        <Name>Freeware</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -7978,6 +8838,9 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -8005,6 +8868,9 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -8031,6 +8897,9 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -8083,6 +8952,9 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -8134,6 +9006,9 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -8164,6 +9039,9 @@ Steamcloud not working</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -8190,6 +9068,9 @@ Steamcloud not working</Comments>
       </Tag>
       <Tag>
         <Name>Remake</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -8300,6 +9181,9 @@ GBM can not determine the location of the config file.</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -8323,6 +9207,9 @@ GBM can not determine the location of the config file.</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -8354,6 +9241,9 @@ GBM can not determine the location of the config file.</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -8381,6 +9271,9 @@ GBM can not determine the location of the config file.</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -8407,6 +9300,9 @@ GBM can not determine the location of the config file.</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -8459,6 +9355,9 @@ GBM can not determine the location of the config file.</Comments>
       <Tag>
         <Name>Official</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -8489,6 +9388,9 @@ GBM can not determine the location of the config file.</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -8512,6 +9414,9 @@ GBM can not determine the location of the config file.</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -8537,6 +9442,9 @@ GBM can not determine the location of the config file.</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -8560,6 +9468,9 @@ GBM can not determine the location of the config file.</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -8585,6 +9496,9 @@ GBM can not determine the location of the config file.</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -8597,7 +9511,7 @@ GBM can not determine the location of the config file.</Comments>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>profile1</FileType>
+    <FileType>profile?/*.stsg</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -8616,12 +9530,12 @@ GBM can not determine the location of the config file.</Comments>
     <Name>SuperTuxKart</Name>
     <ProcessName>supertuxkart</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/supertuxkart</Path>
+    <Path>${XDG_CONFIG_HOME:-~/.config}/supertuxkart</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>grandprix</FileType>
+    <FileType>challenges.xml:highscore.xml:config.xml</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -8632,6 +9546,9 @@ GBM can not determine the location of the config file.</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -8657,6 +9574,9 @@ GBM can not determine the location of the config file.</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -8680,6 +9600,36 @@ GBM can not determine the location of the config file.</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>4db6ee89-7156-415a-b615-e4e6cdd9832d</ID>
+    <Name>Surviving Mars</Name>
+    <ProcessName>MarsSteam</ProcessName>
+    <Parameter />
+    <Path>${XDG_DATA_HOME:-~/.local/share}/Surviving Mars</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>*/*.sav</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -8735,6 +9685,9 @@ GBM can not determine the location of the config file.</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -8755,6 +9708,9 @@ GBM can not determine the location of the config file.</Comments>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Freeware</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -8792,6 +9748,9 @@ GBM can not determine the location of the config file.</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -8804,7 +9763,7 @@ GBM can not determine the location of the config file.</Comments>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>saves</FileType>
+    <FileType>*/saves/</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -8814,6 +9773,9 @@ GBM can not determine the location of the config file.</Comments>
         <Name>FLOSS</Name>
       </Tag>
       <Tag>
+        <Name>Freeware</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
@@ -8821,6 +9783,9 @@ GBM can not determine the location of the config file.</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -8849,6 +9814,9 @@ GBM can not determine the location of the config file.</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -8872,6 +9840,9 @@ GBM can not determine the location of the config file.</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -8897,6 +9868,9 @@ GBM can not determine the location of the config file.</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -8912,7 +9886,7 @@ GBM can not determine the location of the config file.</Comments>
     <FileType>SAVEGAME</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
+    <Comments>Savegame detection only for GOG's official emulator</Comments>
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -8920,6 +9894,9 @@ GBM can not determine the location of the config file.</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -8975,6 +9952,9 @@ GBM can not determine the location of the config file.</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -8998,6 +9978,33 @@ GBM can not determine the location of the config file.</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>13742549-f380-4700-bb92-fed32404093a</ID>
+    <Name>The Raven - Legaly of a Master Thief</Name>
+    <ProcessName>(Rr)aven(_game\.x86(_64)?)?</ProcessName>
+    <Parameter />
+    <Path>~/.local/share/raven/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>2</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -9029,6 +10036,9 @@ GBM can not determine the location of the config file.</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -9046,6 +10056,33 @@ GBM can not determine the location of the config file.</Comments>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>48c5e972-538e-4944-a988-31c8372026d9</ID>
+    <Name>The Tiny Bang Story</Name>
+    <ProcessName>TTBS</ProcessName>
+    <Parameter />
+    <Path>./</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>*.sav:profiles.dat</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -9076,6 +10113,9 @@ GBM can not determine the location of the config file.</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -9149,6 +10189,9 @@ GBM can not determine the location of the config file.</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -9175,6 +10218,9 @@ GBM can not determine the location of the config file.</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -9206,6 +10252,9 @@ GBM can not determine the location of the config file.</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -9229,6 +10278,9 @@ GBM can not determine the location of the config file.</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -9281,6 +10333,9 @@ GBM can not determine the location of the config file.</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -9296,7 +10351,7 @@ GBM can not determine the location of the config file.</Comments>
     <FileType>*.macdat</FileType>
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
-    <Comments />
+    <Comments>Feral includes a softlink to steam's cloud userdata, but it assumes standard steam paths.</Comments>
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -9332,6 +10387,9 @@ GBM can not determine the location of the config file.</Comments>
       <Tag>
         <Name>Official</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -9359,6 +10417,9 @@ GBM can not determine the location of the config file.</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -9383,19 +10444,22 @@ GBM can not determine the location of the config file.</Comments>
       <Tag>
         <Name>Official</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
     <ID>306b000f-a0b9-47a8-806e-2ea58500ee73</ID>
-    <Name>Total War Warhammer</Name>
+    <Name>Total War: Warhammer</Name>
     <ProcessName>TotalWarhammer</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/feral-interactive/Total War Warhammer/SaveData</Path>
+    <Path>${XDG_DATA_HOME:-~/.local/share}/feral-interactive/Total War Warhammer/VFS/User/AppData/Roaming/The Creative Assembly/Warhammer/save_games</Path>
     <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
+    <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType />
+    <FileType>*.save</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -9406,6 +10470,9 @@ GBM can not determine the location of the config file.</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -9430,6 +10497,9 @@ GBM can not determine the location of the config file.</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -9482,6 +10552,9 @@ GBM can not determine the location of the config file.</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -9497,7 +10570,7 @@ GBM can not determine the location of the config file.</Comments>
     <FileType>*.fbs</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
+    <Comments>No savegame backup for steam version</Comments>
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -9542,6 +10615,9 @@ GBM can not determine the location of the config file.</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -9572,6 +10648,9 @@ GBM can not determine the location of the config file.</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -9595,6 +10674,9 @@ GBM can not determine the location of the config file.</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -9647,6 +10729,9 @@ GBM can not determine the location of the config file.</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -9667,6 +10752,9 @@ GBM can not determine the location of the config file.</Comments>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Freeware</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -9704,6 +10792,9 @@ GBM can not determine the location of the config file.</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -9734,6 +10825,9 @@ GBM can not determine the location of the config file.</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -9749,7 +10843,7 @@ GBM can not determine the location of the config file.</Comments>
     <FileType />
     <ExcludeList>config.cfg</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
+    <Comments>No backup for steam save game</Comments>
     <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
@@ -9788,6 +10882,9 @@ GBM can not determine the location of the config file.</Comments>
       <Tag>
         <Name>Official</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -9811,6 +10908,33 @@ GBM can not determine the location of the config file.</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>48a04292-a099-4e81-b267-8792034c3b3e</ID>
+    <Name>Urban Rivals</Name>
+    <ProcessName>Urban Rivals.x86</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Freeware</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -9842,6 +10966,9 @@ GBM can not determine the location of the config file.</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -9866,6 +10993,9 @@ GBM can not determine the location of the config file.</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -9889,6 +11019,9 @@ GBM can not determine the location of the config file.</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -9941,6 +11074,9 @@ GBM can not determine the location of the config file.</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -9975,7 +11111,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Voxelands</Name>
     <ProcessName>voxelands</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/voxelands</Path>
+    <Path>${XDG_DATA_HOME:-~/.local/share}/voxelands/worlds</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -10019,6 +11155,9 @@ GBM can not determine the location of the config file.</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -10040,6 +11179,36 @@ GBM can not determine the location of the config file.</Comments>
       <Tag>
         <Name>Humble</Name>
       </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>35b69242-c717-4c95-a7a9-3892604a93d9</ID>
+    <Name>Warhammer 40,000: Dawn of War III</Name>
+    <ProcessName>DawnOfWar3</ProcessName>
+    <Parameter />
+    <Path>${XDG_DATA_HOME:-~/.local/share}/feral-interactive/Dawn of War III/VFS/User/AppData/Roaming/My Games/Dawn of War III/Savegames</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>*.dow3sav</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
       <Tag>
         <Name>Official</Name>
       </Tag>
@@ -10083,16 +11252,15 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Warzone 2100</Name>
     <ProcessName>warzone2100</ProcessName>
     <Parameter />
-    <Path>~/.warzone2100-3.2/savegames</Path>
+    <Path>~/</Path>
     <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
+    <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType />
+    <FileType>.warzone2100-*/savegames</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments>Each version has own savegames
-If you use a different version, please adapt the path</Comments>
+    <Comments />
     <IsRegEx>false</IsRegEx>
     <Tags>
       <Tag>
@@ -10100,6 +11268,9 @@ If you use a different version, please adapt the path</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -10128,6 +11299,9 @@ If you use a different version, please adapt the path</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -10155,6 +11329,9 @@ If you use a different version, please adapt the path</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -10178,6 +11355,9 @@ If you use a different version, please adapt the path</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -10206,6 +11386,9 @@ If you use a different version, please adapt the path</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -10229,6 +11412,9 @@ If you use a different version, please adapt the path</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -10302,6 +11488,9 @@ If you use a different version, please adapt the path</Comments>
       <Tag>
         <Name>Official</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -10325,6 +11514,36 @@ If you use a different version, please adapt the path</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>fa48dabf-b3a9-471e-a381-b86efbe15429</ID>
+    <Name>Yooka-Laylee</Name>
+    <ProcessName>YookaLaylee\.x86(_64)?</ProcessName>
+    <Parameter />
+    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Playtonic Ltd/Yooka-Laylee/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -10377,6 +11596,9 @@ If you use a different version, please adapt the path</Comments>
       <Tag>
         <Name>Remake</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -10404,6 +11626,9 @@ If you use a different version, please adapt the path</Comments>
       <Tag>
         <Name>Remake</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -10430,6 +11655,9 @@ If you use a different version, please adapt the path</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -10489,6 +11717,9 @@ Saves must be moved manually between those versions.</Comments>
       <Tag>
         <Name>SteamCloud</Name>
       </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
+      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -10515,6 +11746,9 @@ Saves must be moved manually between those versions.</Comments>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -10545,6 +11779,9 @@ Saves must be moved manually between those versions.</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+      <Tag>
+        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
