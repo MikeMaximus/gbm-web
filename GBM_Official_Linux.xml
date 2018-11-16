@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official_Linux.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1542246795" TotalConfigurations="413" AppVer="115">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1542367404" TotalConfigurations="416" AppVer="115">
   <Game>
     <ID>bbf8e00a-d7b8-46a5-b52c-8ba886b8c38a</ID>
     <Name>0 AD</Name>
@@ -629,6 +629,33 @@ The Continue button starts working again, when you save a game after restoration
       </Tag>
       <Tag>
         <Name>uncheckedBackups</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>fc134beb-0385-4bf4-a5a9-8de45e33e729</ID>
+    <Name>Anima: Gate of Memories</Name>
+    <ProcessName>GoMLinux\.x86(_64)?</ProcessName>
+    <Parameter />
+    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Anima Project Studio/GateofMemories</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>prefs</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>save game and config in one file</Comments>
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2385,9 +2412,6 @@ Saves must be moved manually between those versions.</Comments>
       <Tag>
         <Name>Steam</Name>
       </Tag>
-      <Tag>
-        <Name>uncheckedBackups</Name>
-      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -2558,9 +2582,6 @@ Saves must be moved manually between those versions.</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -3672,8 +3693,8 @@ Launch options: ./DDLC.sh # %command%</Comments>
     </Tags>
   </Game>
   <Game>
-    <ID>5e73d2da-79b9-4d60-8fb1-0521089d3603</ID>
-    <Name>Dungeons 2 (gog)</Name>
+    <ID>a10edbff-d8aa-4d05-99ee-71ee77ab003c</ID>
+    <Name>Dungeons 2</Name>
     <ProcessName>Dungeons2(\.x86_64)?</ProcessName>
     <Parameter />
     <Path>${XDG_CONFIG_HOME:-~/.config}/Kalypso Media/Dungeons 2/savegames</Path>
@@ -3684,7 +3705,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <FileType>*.d2z</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
+    <Comments>Steam Cloud must be disabled otherwise &lt;path-to-game&gt;/savegames/ will be used</Comments>
     <IsRegEx>true</IsRegEx>
     <Tags>
       <Tag>
@@ -3694,37 +3715,10 @@ Launch options: ./DDLC.sh # %command%</Comments>
         <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>uncheckedBackups</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <ID>a10edbff-d8aa-4d05-99ee-71ee77ab003c</ID>
-    <Name>Dungeons 2 (steam)</Name>
-    <ProcessName>Dungeons2(\.x86_64)?</ProcessName>
-    <Parameter />
-    <Path>./savegames/</Path>
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
-    <FileType>*.d2z</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Comments />
-    <IsRegEx>true</IsRegEx>
-    <Tags>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
         <Name>Steam</Name>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -4232,9 +4226,6 @@ Launch options: ./DDLC.sh # %command%</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6247,11 +6238,11 @@ No backup for steam version</Comments>
     <Parameter />
     <Path>${XDG_DATA_HOME:-~/.local/share}/lix</Path>
     <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
+    <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>user:replays</FileType>
-    <ExcludeList />
+    <FileType />
+    <ExcludeList>log.txt</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -6261,9 +6252,6 @@ No backup for steam version</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6496,12 +6484,12 @@ Savegame contains settings</Comments>
     <Name>Metro 2033 Redux</Name>
     <ProcessName>metro</ProcessName>
     <Parameter />
-    <Path />
+    <Path>./</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>2033_auto_save:*.player</FileType>
+    <FileType>*/2033_auto_save:*.player</FileType>
     <ExcludeList>2033:steam_shader_cache:*.sh:*.vfx:*.vfs0:*.vfs1:*.so:metro:*.ogv:*.ogl:*.txt:*.bin:*.cfg</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -6515,9 +6503,6 @@ Savegame contains settings</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6599,9 +6584,6 @@ Savegame contains settings</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -8430,6 +8412,33 @@ Savegame contains settings</Comments>
     </Tags>
   </Game>
   <Game>
+    <ID>2f55e96a-b4ba-403a-893d-8cf1bfe7aa40</ID>
+    <Name>Serious Sam 3: BFE</Name>
+    <ProcessName>Sam3(_Unrestricted)?</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>4e192bb7-f9ae-46b5-b86e-3bf078a3c262</ID>
     <Name>Shadow Warrior 2013</Name>
     <ProcessName>ShadowWarrior.bin.x86</ProcessName>
@@ -9502,7 +9511,7 @@ GBM can not determine the location of the config file.</Comments>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>profile1</FileType>
+    <FileType>profile?/*.stsg</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -9514,9 +9523,6 @@ GBM can not determine the location of the config file.</Comments>
       <Tag>
         <Name>Official</Name>
       </Tag>
-      <Tag>
-        <Name>uncheckedBackups</Name>
-      </Tag>
     </Tags>
   </Game>
   <Game>
@@ -9524,12 +9530,12 @@ GBM can not determine the location of the config file.</Comments>
     <Name>SuperTuxKart</Name>
     <ProcessName>supertuxkart</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/supertuxkart</Path>
+    <Path>${XDG_CONFIG_HOME:-~/.config}/supertuxkart</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>grandprix</FileType>
+    <FileType>challenges.xml:highscore.xml:config.xml</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -9597,6 +9603,33 @@ GBM can not determine the location of the config file.</Comments>
       </Tag>
       <Tag>
         <Name>uncheckedBackups</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>4db6ee89-7156-415a-b615-e4e6cdd9832d</ID>
+    <Name>Surviving Mars</Name>
+    <ProcessName>MarsSteam</ProcessName>
+    <Parameter />
+    <Path>${XDG_DATA_HOME:-~/.local/share}/Surviving Mars</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>*/*.sav</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -9945,6 +9978,33 @@ GBM can not determine the location of the config file.</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>13742549-f380-4700-bb92-fed32404093a</ID>
+    <Name>The Raven - Legaly of a Master Thief</Name>
+    <ProcessName>(Rr)aven(_game\.x86(_64)?)?</ProcessName>
+    <Parameter />
+    <Path>~/.local/share/raven/</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>2</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -11051,7 +11111,7 @@ GBM can not determine the location of the config file.</Comments>
     <Name>Voxelands</Name>
     <ProcessName>voxelands</ProcessName>
     <Parameter />
-    <Path>${XDG_DATA_HOME:-~/.local/share}/voxelands</Path>
+    <Path>${XDG_DATA_HOME:-~/.local/share}/voxelands/worlds</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -11067,9 +11127,6 @@ GBM can not determine the location of the config file.</Comments>
       </Tag>
       <Tag>
         <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
