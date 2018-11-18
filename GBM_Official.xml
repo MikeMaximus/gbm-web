@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1539171968" TotalConfigurations="337" AppVer="115">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1542537567" TotalConfigurations="345" AppVer="116">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -16,6 +16,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -40,6 +41,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -64,6 +66,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -88,6 +91,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -101,7 +105,7 @@
     <ID>e26f9683-f2c5-4809-baaa-ffed4a2a64c9</ID>
     <Name>Afterlife</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter />
+    <Parameter>dosbox_afterlife_single.conf</Parameter>
     <Path>..\save</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
@@ -112,6 +116,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -139,6 +144,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -163,6 +169,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -187,6 +194,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -211,6 +219,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -235,6 +244,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -259,6 +269,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -283,6 +294,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -307,6 +319,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -331,6 +344,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -355,6 +369,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -379,6 +394,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -403,6 +419,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -427,6 +444,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -451,6 +469,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -475,6 +494,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -499,6 +519,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments>This game automatically creates a backup file for each save, these files are excluded to reduce archive size.</Comments>
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -523,6 +544,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -547,6 +569,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -571,6 +594,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -595,6 +619,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -622,6 +647,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -646,6 +672,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -670,6 +697,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -694,6 +722,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -707,7 +736,7 @@
     <ID>d981198a-898c-40a9-9e63-c4fb67c87e02</ID>
     <Name>Bio Menace</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter />
+    <Parameter>dosbox_biomenace_single.conf</Parameter>
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -718,6 +747,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -745,6 +775,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -769,6 +800,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -793,6 +825,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -817,6 +850,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -841,6 +875,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -865,6 +900,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -889,6 +925,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -913,6 +950,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -937,6 +975,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -961,6 +1000,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -985,6 +1025,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1009,6 +1050,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1021,7 +1063,7 @@
   <Game>
     <ID>d1181688-f6e3-484e-ba51-85faea930ff4</ID>
     <Name>Blood Bowl 2</Name>
-    <ProcessName>BloodBowl2</ProcessName>
+    <ProcessName>BloodBowl2_(GL_32|DX_32)+$</ProcessName>
     <Parameter />
     <Path>%USERDOCUMENTS%\BloodBowl2</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -1033,6 +1075,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>true</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1057,6 +1100,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1081,6 +1125,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1105,6 +1150,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1129,6 +1175,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1153,6 +1200,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1177,6 +1225,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1201,6 +1250,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1225,6 +1275,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1249,6 +1300,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1262,7 +1314,7 @@
     <ID>714299b0-6cc8-4af4-a490-40fa94a7ed0c</ID>
     <Name>Capitalism Plus</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter />
+    <Parameter>dosboxCapPlus_single.conf</Parameter>
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -1273,6 +1325,35 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>06e68d80-462b-467e-bcb0-a0c2a81462d2</ID>
+    <Name>Carmageddon</Name>
+    <ProcessName>dosbox</ProcessName>
+    <Parameter>dosboxCARMA_single.conf</Parameter>
+    <Path>..\CARMA\DATA\SAVEGAME</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>Due to how this game is packaged, "Game Path" may need to be manually set before the game can be detected.</Comments>
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -1300,6 +1381,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1310,12 +1392,12 @@
     </Tags>
   </Game>
   <Game>
-    <ID>663af034-3d94-4d6e-8e80-7aaa746a0e05</ID>
-    <Name>Carmageddon Max Pack</Name>
-    <ProcessName>DOSBox</ProcessName>
+    <ID>c1eadd12-d226-43b6-8161-837f859bc6e3</ID>
+    <Name>Carmageddon: Max Damage</Name>
+    <ProcessName>Carmageddon_Max_Damage</ProcessName>
     <Parameter />
-    <Path>..\CARMA\DATA\SAVEGAME</Path>
-    <AbsolutePath>false</AbsolutePath>
+    <Path>%LOCALAPPDATA%\GOG.com\Galaxy\Applications\49620040361567189\Storage\Shared\Files</Path>
+    <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
@@ -1324,6 +1406,32 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>false</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>4f3ef832-5c5e-4bdf-ab97-24409532951c</ID>
+    <Name>Carmageddon: Splat Pack</Name>
+    <ProcessName>dosbox</ProcessName>
+    <Parameter>dosboxCARMA_single.conf</Parameter>
+    <Path>..\CARSPLAT\DATA\SAVEGAME</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>Due to how this game is packaged, "Game Path" may need to be manually set before the game can be detected.</Comments>
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -1351,6 +1459,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1375,6 +1484,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1399,6 +1509,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1423,6 +1534,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1447,6 +1559,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1471,6 +1584,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1495,6 +1609,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1519,6 +1634,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1532,7 +1648,7 @@
     <ID>6eb1cdaf-431c-40b5-a861-6ddb97764a96</ID>
     <Name>Conquest of the New World</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter />
+    <Parameter>dosboxConquest_single.conf</Parameter>
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -1543,6 +1659,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -1570,6 +1687,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1594,6 +1712,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1618,6 +1737,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1642,6 +1762,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -1669,6 +1790,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -1696,6 +1818,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1720,6 +1843,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1744,6 +1868,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1768,6 +1893,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1792,6 +1918,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1816,6 +1943,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1840,6 +1968,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1864,6 +1993,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1888,6 +2018,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1912,6 +2043,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1936,6 +2068,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1963,6 +2096,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1987,9 +2121,35 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>965ffb2c-d468-4ab2-9bcf-c8e1fb5e5516</ID>
+    <Name>Destiny 2</Name>
+    <ProcessName>destiny2</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>Blizzard</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -2011,6 +2171,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2035,6 +2196,7 @@
     <MonitorOnly>true</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Blizzard</Name>
@@ -2062,6 +2224,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2086,6 +2249,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2110,6 +2274,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2134,6 +2299,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments>This configuration excludes auto-saves and quick-saves due to backup size.</Comments>
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2158,6 +2324,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments>This configuration excludes auto-saves and quick-saves due to backup size.</Comments>
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2182,6 +2349,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments>This configuration excludes auto-saves and quick-saves due to backup size.</Comments>
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2206,6 +2374,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2230,6 +2399,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2254,6 +2424,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2278,6 +2449,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2305,6 +2477,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2329,6 +2502,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2353,6 +2527,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2366,7 +2541,7 @@
     <ID>54dd48a2-e729-468b-a095-5b6a2e842c74</ID>
     <Name>Duke Nukem</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter />
+    <Parameter>dosbox_duke_single.conf</Parameter>
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -2377,6 +2552,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -2393,7 +2569,7 @@
     <ID>70d0b714-0de7-4383-bee9-c81869a8faab</ID>
     <Name>Duke Nukem 2</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter />
+    <Parameter>dosbox_duke2_single.conf</Parameter>
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -2404,6 +2580,35 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>35d2cd72-5ff4-44ab-996e-57e96a1f9ab2</ID>
+    <Name>Duke Nukem 3D Atomic Edition</Name>
+    <ProcessName>DOSBox</ProcessName>
+    <Parameter>dosboxDuke3D_single.conf</Parameter>
+    <Path>..\</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>*.SAV</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -2431,6 +2636,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2455,6 +2661,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2468,8 +2675,8 @@
     <ID>63ab7f92-c1ca-417e-b728-eee931fb3202</ID>
     <Name>Dungeon Keeper Gold</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter />
-    <Path>..\save</Path>
+    <Parameter>dosboxDK</Parameter>
+    <Path>..\SAVE</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2477,8 +2684,9 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
+    <Comments>This configuration will detect and backup both the base game and Deeper Dungeons.</Comments>
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -2506,6 +2714,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>true</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2530,6 +2739,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2541,7 +2751,7 @@
   </Game>
   <Game>
     <ID>47ccfe64-0f12-4c31-a025-b55ee646d22c</ID>
-    <Name>Elder Scrolls Adventures - Redguard</Name>
+    <Name>Elder Scrolls Adventures: Redguard</Name>
     <ProcessName>dosbox</ProcessName>
     <Parameter>dosbox_redguard_single.conf</Parameter>
     <Path>..\redguard\savegame</Path>
@@ -2554,6 +2764,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -2568,9 +2779,9 @@
   </Game>
   <Game>
     <ID>3962fda4-c442-456b-94bc-13080f81d7fc</ID>
-    <Name>Elder Scrolls Legend - Battlespire</Name>
+    <Name>Elder Scrolls Legend: Battlespire</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter />
+    <Parameter>dosbox_battlespire_single.conf</Parameter>
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -2581,6 +2792,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -2608,6 +2820,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2632,6 +2845,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2656,6 +2870,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2680,6 +2895,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2704,6 +2920,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2728,6 +2945,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2752,6 +2970,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2776,6 +2995,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2800,6 +3020,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2824,6 +3045,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2848,6 +3070,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2872,6 +3095,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2896,6 +3120,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2920,6 +3145,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2934,7 +3160,7 @@
     <Name>Fallout Shelter</Name>
     <ProcessName>FalloutShelter</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\Fallout Shelter</Path>
+    <Path>%LOCALAPPDATA%\FalloutShelter</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2944,6 +3170,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2968,6 +3195,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2992,6 +3220,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3016,6 +3245,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3040,6 +3270,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3064,6 +3295,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3088,6 +3320,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3112,6 +3345,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3136,6 +3370,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3160,6 +3395,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3184,6 +3420,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3208,6 +3445,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3232,6 +3470,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3256,6 +3495,7 @@
     <MonitorOnly>true</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3280,6 +3520,7 @@
     <MonitorOnly>true</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>false</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3307,6 +3548,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3331,6 +3573,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3355,6 +3598,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3379,6 +3623,7 @@
     <MonitorOnly>true</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Blizzard</Name>
@@ -3406,6 +3651,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3430,6 +3676,7 @@
     <MonitorOnly>true</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Blizzard</Name>
@@ -3457,6 +3704,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3481,6 +3729,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3505,6 +3754,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3529,6 +3779,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3553,6 +3804,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3577,6 +3829,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3601,6 +3854,32 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>35114ecd-50f9-4db7-a2b8-63dae686363e</ID>
+    <Name>INSIDE</Name>
+    <ProcessName>INSIDE</ProcessName>
+    <Parameter />
+    <Path>inside_data</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>Game2.sav</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3625,6 +3904,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3649,6 +3929,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3673,6 +3954,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3700,6 +3982,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3727,6 +4010,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>true</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3751,6 +4035,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3775,6 +4060,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3799,6 +4085,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3823,6 +4110,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3847,6 +4135,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3860,7 +4149,7 @@
     <ID>db56d69b-a118-42f1-aab1-b64fa64ef4f8</ID>
     <Name>Jagged Alliance</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter />
+    <Parameter>dosboxja_single.conf</Parameter>
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -3871,6 +4160,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -3898,6 +4188,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3915,13 +4206,14 @@
     <Path>%USERPROFILE%\Saved Games\kingdomcome\saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
-    <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>0</BackupLimit>
+    <AppendTimeStamp>true</AppendTimeStamp>
+    <BackupLimit>3</BackupLimit>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3946,6 +4238,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3970,6 +4263,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3994,6 +4288,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4018,6 +4313,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4042,6 +4338,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4066,6 +4363,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4090,6 +4388,32 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>48adfb84-4203-430d-a8d1-5d8df5207725</ID>
+    <Name>Lords of the Fallen - Game of the Year Edition</Name>
+    <ProcessName>LordsOfTheFallen</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\GOG.com\Galaxy\Applications\51225745408380260\Storage\Shared\Files</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>false</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4114,6 +4438,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4138,6 +4463,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4162,6 +4488,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4186,6 +4513,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4210,6 +4538,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4234,6 +4563,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4258,6 +4588,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4282,6 +4613,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4306,6 +4638,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4330,6 +4663,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4343,7 +4677,7 @@
     <ID>3a84fb23-2c61-4d21-a679-3c92d1d2f5bb</ID>
     <Name>Mortal Kombat</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosboxMortalKombat</Parameter>
+    <Parameter>dosboxMortalKombat.conf</Parameter>
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -4354,7 +4688,11 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
@@ -4367,7 +4705,7 @@
     <ID>d27da0f6-070f-4243-ab5c-3f3f146d216b</ID>
     <Name>Mortal Kombat 2</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosboxMortalKombat2</Parameter>
+    <Parameter>dosboxMortalKombat2.conf</Parameter>
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -4378,7 +4716,11 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
@@ -4391,7 +4733,7 @@
     <ID>a7adcd70-764f-456a-ad4f-b22b0fc24880</ID>
     <Name>Mortal Kombat 3</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosboxMortalKombat3</Parameter>
+    <Parameter>dosboxMortalKombat3.conf</Parameter>
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -4402,7 +4744,11 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
@@ -4426,6 +4772,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4450,6 +4797,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4474,6 +4822,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4498,6 +4847,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4522,6 +4872,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4549,6 +4900,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4573,6 +4925,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4597,6 +4950,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4621,6 +4975,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4645,6 +5000,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4669,6 +5025,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4693,6 +5050,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4717,6 +5075,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4741,6 +5100,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4765,6 +5125,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4789,6 +5150,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4813,6 +5175,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4837,6 +5200,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4861,6 +5225,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4885,6 +5250,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4909,6 +5275,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4933,6 +5300,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4957,6 +5325,57 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>6940b4de-536c-4a53-aff9-56208dfa27be</ID>
+    <Name>Postal 2</Name>
+    <ProcessName>Postal2</ProcessName>
+    <Parameter />
+    <Path>..\Save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>false</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>101a4118-0393-4c77-a85e-ede4c5cab61d</ID>
+    <Name>Postal 2: Paradise Lost</Name>
+    <ProcessName>ParadiseLost</ProcessName>
+    <Parameter />
+    <Path>..\PLSave</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>false</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4981,6 +5400,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5005,6 +5425,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -5029,6 +5450,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5053,6 +5475,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -5077,6 +5500,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5101,6 +5525,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>true</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -5128,6 +5553,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -5141,7 +5567,7 @@
     <ID>df9d11b1-9591-4c77-8075-eb93a99a6a0a</ID>
     <Name>Realms of Chaos</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter />
+    <Parameter>dosboxROC_single.conf</Parameter>
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -5152,6 +5578,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -5179,6 +5606,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -5203,6 +5631,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -5227,6 +5656,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -5251,6 +5681,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -5275,6 +5706,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -5287,18 +5719,19 @@
   <Game>
     <ID>def3a0e0-a53f-4c72-bc4c-59db3be157bd</ID>
     <Name>RimWorld</Name>
-    <ProcessName>RimWorldWin(64)?$</ProcessName>
+    <ProcessName>RimWorldWin64</ProcessName>
     <Parameter />
     <Path>%LOCALAPPDATA%Low\Ludeon Studios\RimWorld by Ludeon Studios\Saves</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
-    <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>0</BackupLimit>
+    <AppendTimeStamp>true</AppendTimeStamp>
+    <BackupLimit>3</BackupLimit>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>true</IsRegEx>
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>false</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5312,7 +5745,7 @@
     <ID>0c15f2d9-161b-4f09-909c-f1d4322005b0</ID>
     <Name>Rise of the Triad</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter />
+    <Parameter>dosboxRiseOTT_single.conf</Parameter>
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -5323,6 +5756,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -5350,6 +5784,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5374,6 +5809,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -5398,6 +5834,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -5422,6 +5859,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -5446,6 +5884,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -5470,6 +5909,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -5494,6 +5934,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -5518,12 +5959,38 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>0ceaf1aa-9502-43ce-837b-55ad0192285b</ID>
+    <Name>Salt and Sanctuary</Name>
+    <ProcessName>salt</ProcessName>
+    <Parameter />
+    <Path>savedata</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>true</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>false</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5542,6 +6009,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -5566,6 +6034,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -5590,6 +6059,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -5614,6 +6084,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -5638,6 +6109,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -5662,6 +6134,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -5686,6 +6159,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -5710,6 +6184,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -5734,6 +6209,7 @@
     <MonitorOnly>true</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5761,6 +6237,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -5785,6 +6262,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -5809,6 +6287,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -5833,6 +6312,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -5857,6 +6337,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -5881,6 +6362,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -5905,6 +6387,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -5929,6 +6412,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5942,7 +6426,7 @@
     <ID>327400</ID>
     <Name>Sid Meier's Colonization</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter />
+    <Parameter>dosboxCOL_single.conf</Parameter>
     <Path>..\MPS\COLONIZE</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -5953,6 +6437,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -5980,6 +6465,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -6004,6 +6490,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -6028,6 +6515,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments>This configuration excludes cities that are included with the game.</Comments>
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -6052,6 +6540,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -6076,6 +6565,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -6100,6 +6590,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -6124,6 +6615,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -6148,6 +6640,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -6172,6 +6665,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -6196,6 +6690,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -6220,6 +6715,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -6233,7 +6729,7 @@
     <ID>b2a9a6c1-c481-4e6d-9c72-39a8dbb0fbe8</ID>
     <Name>Star Trek: 25th Anniversary</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter />
+    <Parameter>dosbox_st25_single.conf</Parameter>
     <Path>../TREKCD</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -6244,6 +6740,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -6260,7 +6757,7 @@
     <ID>74d2c0c6-4e31-4f3c-b9a8-dcea49103f2e</ID>
     <Name>Star Trek: Judgement Rites</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter />
+    <Parameter>dosbox_stjr_single.conf</Parameter>
     <Path>..\TREK2</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -6271,6 +6768,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -6298,6 +6796,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -6322,6 +6821,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -6346,6 +6846,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -6370,6 +6871,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -6383,7 +6885,7 @@
     <ID>76f1c74f-4a6d-43a7-8e7c-8a9bf629777c</ID>
     <Name>Star Wars: Dark Forces</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter />
+    <Parameter>dosbox_DF_single.conf</Parameter>
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -6394,6 +6896,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -6421,6 +6924,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -6445,6 +6949,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -6469,6 +6974,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -6493,6 +6999,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -6517,6 +7024,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -6541,6 +7049,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -6565,6 +7074,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -6589,6 +7099,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Blizzard</Name>
@@ -6613,6 +7124,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -6637,6 +7149,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -6661,6 +7174,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -6685,6 +7199,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -6709,6 +7224,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments>This configuration excludes boss kill screenshots.</Comments>
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Mod</Name>
@@ -6733,6 +7249,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -6757,6 +7274,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -6774,7 +7292,7 @@
     <Name>Subnautica</Name>
     <ProcessName>Subnautica(32)?$</ProcessName>
     <Parameter />
-    <Path>snappdata\savedgames</Path>
+    <Path>SNAppData\SavedGames</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -6784,6 +7302,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>true</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -6808,6 +7327,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -6832,6 +7352,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -6856,6 +7377,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -6880,6 +7402,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -6904,6 +7427,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -6928,6 +7452,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -6941,7 +7466,7 @@
     <ID>83c6d1ca-0bbc-4dce-9ffb-48597c8693ab</ID>
     <Name>The Elder Scrolls II: Daggerfall</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter />
+    <Parameter>dosbox_daggerfall_single.conf</Parameter>
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -6952,6 +7477,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -6979,6 +7505,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7003,6 +7530,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -7027,6 +7555,7 @@
     <MonitorOnly>true</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -7051,6 +7580,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -7075,6 +7605,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -7088,7 +7619,7 @@
     <ID>a4453fec-934b-43be-b22f-9513a438808f</ID>
     <Name>The Elder Scrolls: Arena</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter />
+    <Parameter>dosbox_arena_single.conf</Parameter>
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -7099,6 +7630,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -7126,6 +7658,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7150,6 +7683,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7174,6 +7708,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7198,34 +7733,8 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
-      <Tag>
-        <Name>GOG</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <ID>91d24444-2eee-4591-bd21-87fbab33b8c7</ID>
-    <Name>The Ultimate DOOM</Name>
-    <ProcessName>DOSBox</ProcessName>
-    <Parameter />
-    <Path>..\</Path>
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>0</BackupLimit>
-    <FileType>DEFAULT.CFG:DOOMSAV?.DSG</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Comments />
-    <IsRegEx>false</IsRegEx>
-    <Tags>
-      <Tag>
-        <Name>DOSBox</Name>
-      </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
@@ -7249,6 +7758,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7273,6 +7783,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7297,6 +7808,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7321,6 +7833,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>true</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -7345,6 +7858,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7369,6 +7883,32 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>6c8e535d-5e41-4175-863c-76f194206110</ID>
+    <Name>Thronebreaker</Name>
+    <ProcessName>Thronebreaker</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\CDProjektRED\Thronebreaker</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>2</BackupLimit>
+    <FileType />
+    <ExcludeList>Unity:*.log:output_log.txt</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>false</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7393,6 +7933,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7417,6 +7958,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7441,6 +7983,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -7465,6 +8008,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -7489,6 +8033,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7513,6 +8058,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7537,6 +8083,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7561,6 +8108,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7585,6 +8133,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>true</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7609,6 +8158,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -7633,6 +8183,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7660,6 +8211,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7684,6 +8236,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7708,6 +8261,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7732,6 +8286,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7756,6 +8311,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -7780,6 +8336,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Mod</Name>
@@ -7807,6 +8364,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7831,6 +8389,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7855,6 +8414,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7879,6 +8439,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7903,6 +8464,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -7930,6 +8492,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -7957,6 +8520,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -7984,6 +8548,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -8009,8 +8574,9 @@
     <FileType>save_data.*</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
+    <Comments>This game has anti-cheat protection that prevents GBM from accessing it's icon or any other game information.</Comments>
     <IsRegEx>true</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -8035,6 +8601,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -8059,6 +8626,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -8083,36 +8651,10 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-    </Tags>
-  </Game>
-  <Game>
-    <ID>38e5076b-fb30-400a-9b67-21b749b26ec9</ID>
-    <Name>Wolfenstein 3D</Name>
-    <ProcessName>DOSBox</ProcessName>
-    <Parameter />
-    <Path>..\</Path>
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>0</BackupLimit>
-    <FileType>CONFIG.WL6:SAVEGAM?.WL6</FileType>
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Comments />
-    <IsRegEx>false</IsRegEx>
-    <Tags>
-      <Tag>
-        <Name>DOSBox</Name>
-      </Tag>
-      <Tag>
-        <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -8134,6 +8676,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -8158,6 +8701,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -8182,6 +8726,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -8206,6 +8751,7 @@
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>GOG</Name>
