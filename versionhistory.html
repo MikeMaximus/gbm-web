@@ -33,7 +33,37 @@
             Version History
           </div>
           <div cass="pageSectionContent">
-            <h3 class="notop">1.1.5</h3>
+            <h3 class="notop">1.1.6</h3>
+            <ul>
+              <li>All Platforms:
+                <ul>
+                  <li>Added support for games that save to the Windows %PROGRAMDATA% location.</li>
+                  <li>The Game Manager now automatically selects the last detected game when opened.</li>
+                  <li>Backup files can no longer be imported into a "Monitor Only" configuration.</li>
+                  <li>Optimized the memory and cpu usage of Regular Expressions when monitoring for games.</li>
+                  <li>Added a "Recurse sub-folders" option
+                    <ul>
+                      <li>This option is set per game configuration, it is available on Include/Exclude window of the Game Manager and Add Game Wizard.</li>
+                      <li>It is enabled by default on all current and new configurations.</li>
+                      <li>Disabling this option prevents 7-Zip and GBM from scanning every sub-folder and file of a save path. This useful when backing up specific files inside an extremely large folder.</li>
+                    </ul></li>
+                  <li>Fixed a possible issue with backups when the configuration uses folder path includes.</li>
+                </ul>
+              </li>
+              <li>Linux:
+                <ul>
+                  <li>Fixed a memory leak issue with Mono and Regular Expressions.</li>
+                  <li>Fixed some issues when detecting the prefix of Wine/Proton games.
+                    <ul>
+                      <li>The default prefix (~/.wine) will be assumed when a detected game does not have the WINEPREFIX variable set.</li>
+                      <li>A prefix can now be fully detected when it contains spaces.</li>
+                    </ul>
+                  </li>
+                  <li>Windows configurations that use a relative save path are now properly converted when detected in Wine/Proton.</li>
+                </ul>
+              </li>
+            </ul>            
+            <h3>1.1.5</h3>
             <ul>
               <li>All Platforms:
                 <ul>
