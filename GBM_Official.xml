@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1542537567" TotalConfigurations="345" AppVer="116">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1547631768" TotalConfigurations="361" AppVer="117">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -410,6 +410,31 @@
     <ProcessName>AssassinsCreed_Dx10</ProcessName>
     <Parameter />
     <Path>%APPDATA%\Ubisoft\Assassin's Creed\Saved Games</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>dafceeb7-ec1e-44f5-9156-6cbcc0c24809</ID>
+    <Name>Aven Colony</Name>
+    <ProcessName>AvenColony</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\AvenColony\Saved\SaveGames</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1286,6 +1311,31 @@
     </Tags>
   </Game>
   <Game>
+    <ID>4df7454c-d9fc-459c-90d2-103f37161342</ID>
+    <Name>Call of Juarez</Name>
+    <ProcessName>CoJ(_DX10)?$</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\call of juarez\out\save\</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>8b4f364e-64a8-4b17-bad0-8695768e64fa</ID>
     <Name>Capitalism 2</Name>
     <ProcessName>Cap2</ProcessName>
@@ -1441,6 +1491,31 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>453580d1-bc49-4d9c-986e-b457ebebae76</ID>
+    <Name>Catherine Classic</Name>
+    <ProcessName>Catherine</ProcessName>
+    <Parameter />
+    <Path>%APPDATA%\TheEccentricApe\Catherine</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>AppSettings.ini</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2029,6 +2104,31 @@
     </Tags>
   </Game>
   <Game>
+    <ID>2127bfee-5208-4d0f-ab48-65bf44a6e640</ID>
+    <Name>Dead Cells</Name>
+    <ProcessName>deadcells(_gl)?$</ProcessName>
+    <Parameter />
+    <Path>save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>user*.dat</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>d403fdd5-8362-448e-b650-bb210d11e153</ID>
     <Name>Dead In Bermuda</Name>
     <ProcessName>Dead In Bermuda</ProcessName>
@@ -2093,6 +2193,31 @@
     <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList>crash_reports:prefs.cs:console.log:*.jpg</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>68808dca-f4f8-4faa-8355-14ebcb671682</ID>
+    <Name>Deadly Premonition: Director's Cut</Name>
+    <ProcessName>DP</ProcessName>
+    <Parameter />
+    <Path>savedata</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>true</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -2906,6 +3031,31 @@
     </Tags>
   </Game>
   <Game>
+    <ID>1aa8c076-8e6b-4f8f-b156-ad0ba485cb1a</ID>
+    <Name>Everspace</Name>
+    <ProcessName>Everspace</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\RSG\Saved\SaveGames</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>2</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>7d566275-aa12-45b2-a4b6-478e357106c2</ID>
     <Name>Expeditions: Conquistador</Name>
     <ProcessName>Expeditions Conquistador</ProcessName>
@@ -3267,6 +3417,31 @@
     <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>d34d7237-4513-4935-98aa-2c12758646fc</ID>
+    <Name>Full Throttle Remastered</Name>
+    <ProcessName>Throttle</ProcessName>
+    <Parameter />
+    <Path>%APPDATA%\Doublefine\fullthrottle\</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>settings.ini</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -4174,6 +4349,56 @@
     </Tags>
   </Game>
   <Game>
+    <ID>2de72b51-40ef-49e3-802b-beee677741dd</ID>
+    <Name>Jalopy</Name>
+    <ProcessName>Jalopy</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\MinskWorks\Jalopy</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>2</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>This backup configuration includes all settings, including graphics settings.</Comments>
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>0ec9c3b9-4089-4004-b23b-7ee9c77c4cfd</ID>
+    <Name>Kenshi</Name>
+    <ProcessName>kenshi_x64</ProcessName>
+    <Parameter />
+    <Path>save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>2</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>6766a309-3cb4-4f03-ad3e-97bb71514657</ID>
     <Name>Kerbal Space Program</Name>
     <ProcessName>KSP</ProcessName>
@@ -5061,6 +5286,31 @@
     </Tags>
   </Game>
   <Game>
+    <ID>87da9d5a-151a-4ac9-a6c8-a3bceaaaf098</ID>
+    <Name>Outcast: Second Contact</Name>
+    <ProcessName>outcast</ProcessName>
+    <Parameter />
+    <Path>outcast_Data\StreamingAssets\userdata\savegames</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>Humble</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>03d7ac8c-d808-4f64-af42-549a9638701a</ID>
     <Name>Outlaws</Name>
     <ProcessName>olwin</ProcessName>
@@ -5870,6 +6120,56 @@
     </Tags>
   </Game>
   <Game>
+    <ID>e3990862-6a70-415a-a39d-1dddd5b08e5d</ID>
+    <Name>RollerCoaster Tycoon 2 Triple Thrill Pack</Name>
+    <ProcessName>RCT2</ProcessName>
+    <Parameter />
+    <Path>Saved Games</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>2</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>18f194a0-e2bc-40aa-949e-dfdf47b93a70</ID>
+    <Name>RollerCoaster Tycoon Deluxe</Name>
+    <ProcessName>RCT</ProcessName>
+    <Parameter />
+    <Path>Saved Games</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>2</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>0a4edbe4-220d-4e30-bd3d-d09ff97ff44c</ID>
     <Name>S.T.A.L.K.E.R. Shadow of Chernobyl</Name>
     <ProcessName>XR_3DA</ProcessName>
@@ -5881,6 +6181,31 @@
     <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>5d52f23d-6b79-400a-9f3e-b2d9141e9c61</ID>
+    <Name>SOMA</Name>
+    <ProcessName>Soma</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\Documents\My Games\Soma\Main\</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>*_user_settings.cfg:*.log</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -6031,6 +6356,31 @@
     <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>1537a960-6ef0-4a9c-a749-a9a99034f146</ID>
+    <Name>Shadow Tactics: Blades of the Shogun</Name>
+    <ProcessName>Shadow Tactics</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\Daedalic Entertainment GmbH\Shadow Tactics Blades of the Shogun\</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>audioSettings.save:videoSettings.save</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -6597,6 +6947,31 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>4e391c85-4fc1-4bb3-9ac6-a8ea5251791b</ID>
+    <Name>Slay the Spire</Name>
+    <ProcessName>SlayTheSpire</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>2</BackupLimit>
+    <FileType>preferences:saves</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>false</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -7418,6 +7793,31 @@
     <ProcessName>Technobabylon</ProcessName>
     <Parameter />
     <Path>Saved Games</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>24233179-c4e3-4f32-874f-24322fd27d05</ID>
+    <Name>Temple of Elemental Evil</Name>
+    <ProcessName>ToEE</ProcessName>
+    <Parameter />
+    <Path>modules\ToEE\Save</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
