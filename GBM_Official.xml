@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1547631768" TotalConfigurations="361" AppVer="117">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1548160546" TotalConfigurations="372" AppVer="117">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -48,6 +48,31 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>04a3eeab-89f7-4b25-a285-1040ecfe2e70</ID>
+    <Name>A Raven Monologue</Name>
+    <ProcessName>A Raven Monologue</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -626,6 +651,31 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>586b90da-01dd-4931-9261-dddc7e7b0639</ID>
+    <Name>Bejeweled 3</Name>
+    <ProcessName>Bejeweled3</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\Steam\Bejeweled3\users\</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>If you want to override different profiles, delete the Bejeweled3 folder first</Comments>
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>false</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1232,6 +1282,34 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>1bc22679-b9c0-4843-ae37-317f792b5dfe</ID>
+    <Name>Botanicula</Name>
+    <ProcessName>Botanicula</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\BotaniculaSaves\</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>settings.txt</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2850,6 +2928,34 @@
     </Tags>
   </Game>
   <Game>
+    <ID>1cff0392-f077-41ac-b59a-73fdcfc802e1</ID>
+    <Name>Dungeon of the Endless</Name>
+    <ProcessName>DungeonoftheEndless</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\Dungeon of the Endless\Users\</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>*.sav:*.pfl</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>be705814-32f8-4350-b74e-c22c3dd91298</ID>
     <Name>Dust: An Elysian Tail</Name>
     <ProcessName>DustAET</ProcessName>
@@ -3531,6 +3637,31 @@
     </Tags>
   </Game>
   <Game>
+    <ID>19a1dff6-d0c1-48a3-a56e-9f3551cea962</ID>
+    <Name>Glass Masquerade</Name>
+    <ProcessName>Glass</ProcessName>
+    <Parameter />
+    <Path>.\Saves</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>fa270d87-d79a-4a88-bc76-629b1f50ff25</ID>
     <Name>Gothic 3</Name>
     <ProcessName>Gothic3</ProcessName>
@@ -4196,6 +4327,34 @@
     </Tags>
   </Game>
   <Game>
+    <ID>0788f1f6-3692-4e0b-b853-ef17e3bab130</ID>
+    <Name>Injustice: Gods Among Us Ultimate Edition</Name>
+    <ProcessName>Injustice</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments>Cloud only accorind to pcgamingwiki</Comments>
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>86a45538-e414-479f-9d4a-d51cd605d264</ID>
     <Name>Inquisitor</Name>
     <ProcessName>Inquisitor</ProcessName>
@@ -4645,6 +4804,34 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>2c1a0d8c-49fc-4257-8632-11310ba4fc34</ID>
+    <Name>METAL GEAR SOLID V: THE PHANTOM PAIN</Name>
+    <ProcessName>mgsvtpp</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments>Only stored in cloud according to pcgamingwiki</Comments>
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5132,6 +5319,31 @@
       </Tag>
       <Tag>
         <Name>Retail</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>cd0a0252-f573-4e24-92a4-af45bec84954</ID>
+    <Name>ONE PIECE: PIRATE WARRIORS 3</Name>
+    <ProcessName>oppw3</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\BNE\One Piece Pirate Warriors 3\SAVEDATA\</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>2</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5810,6 +6022,34 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>fc6ac503-124a-4772-bf39-5e48754a8589</ID>
+    <Name>Quantum Break</Name>
+    <ProcessName>QuantumBreak</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\QuantumBreak\</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>renderer.ini</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
   </Game>
@@ -7763,6 +8003,31 @@
     </Tags>
   </Game>
   <Game>
+    <ID>5cc3a449-746e-4b05-9d27-0f0d31e794a3</ID>
+    <Name>Tactical Monsters Rumble Arena</Name>
+    <ProcessName>Tactical Monsters</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>024e88cf-bc1a-44e9-ad58-14e8b2c91bb0</ID>
     <Name>Tales of Maj'Eyal</Name>
     <ProcessName>t-engine</ProcessName>
@@ -9158,6 +9423,31 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>7f6449d2-571d-4bf3-9c14-6282c22c126b</ID>
+    <Name>Zuma Deluxe</Name>
+    <ProcessName>Zuma</ProcessName>
+    <Parameter />
+    <Path>%PROGRAMDATA%\Steam\Zuma\userdata</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>

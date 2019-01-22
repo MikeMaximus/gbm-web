@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official_Linux.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1542537432" TotalConfigurations="416" AppVer="116">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1548159211" TotalConfigurations="418" AppVer="117">
   <Game>
     <ID>bbf8e00a-d7b8-46a5-b52c-8ba886b8c38a</ID>
     <Name>0 AD</Name>
@@ -2589,6 +2589,9 @@ Saves must be moved manually between those versions.</Comments>
         <Name>Official</Name>
       </Tag>
       <Tag>
+        <Name>Terminal</Name>
+      </Tag>
+      <Tag>
         <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
@@ -3202,6 +3205,34 @@ Saves must be moved manually between those versions.</Comments>
     </Tags>
   </Game>
   <Game>
+    <ID>78019f12-1efd-439d-aeca-d5493c44ee2e</ID>
+    <Name>Danganronpa: Trigger Happy Havoc</Name>
+    <ProcessName>Danganronpa</ProcessName>
+    <Parameter />
+    <Path>${XDG_DATA_HOME:-~/.local/share}/Danganronpa</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>savedata.vfs</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>ab4d9b4d-5bc6-431c-9894-9119a6237c28</ID>
     <Name>Darkest Hour: Europe '44-'45</Name>
     <ProcessName>redorchestra-bin</ProcessName>
@@ -3319,9 +3350,6 @@ Saves must be moved manually between those versions.</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5710,7 +5738,7 @@ No backup for steam version</Comments>
     <FileType>prefs</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
+    <Comments>restores savegames from unknown source</Comments>
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
     <Tags>
@@ -7446,9 +7474,6 @@ Savegame contains settings</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -9455,12 +9480,12 @@ Savegame contains settings</Comments>
     <Name>Star Wars: Dark Forces</Name>
     <ProcessName>dosbox(_i686|_x86_64)?</ProcessName>
     <Parameter>DARK.EXE</Parameter>
-    <Path>./DARKPILO.CFG</Path>
+    <Path>./</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType />
+    <FileType>DARKPILO.CFG</FileType>
     <ExcludeList />
     <MonitorOnly>true</MonitorOnly>
     <Comments>Steam offers only a windows version, data must be run with native dosbox.
@@ -10112,7 +10137,7 @@ GBM can not determine the location of the config file.</Comments>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
-    <RecurseSubFolders>true</RecurseSubFolders>
+    <RecurseSubFolders>false</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -10128,9 +10153,6 @@ GBM can not determine the location of the config file.</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -10366,12 +10388,12 @@ GBM can not determine the location of the config file.</Comments>
     <Name>The Stanley Parable</Name>
     <ProcessName>stanley_linux</ProcessName>
     <Parameter />
-    <Path>./thestanleyparable/save</Path>
+    <Path>./thestanleyparable/SAVE</Path>
     <AbsolutePath>false</AbsolutePath>
-    <FolderSave>true</FolderSave>
+    <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType />
+    <FileType>*.txt:*.sav:*.vtf</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -10389,9 +10411,6 @@ GBM can not determine the location of the config file.</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -11446,11 +11465,11 @@ GBM can not determine the location of the config file.</Comments>
     <Parameter />
     <Path>${XDG_DATA_HOME:-~/.local/share}/Victor Vran/Victor Vran/</Path>
     <AbsolutePath>true</AbsolutePath>
-    <FolderSave>false</FolderSave>
+    <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType>*.lua</FileType>
-    <ExcludeList>DeveloperStorage.lua</ExcludeList>
+    <FileType />
+    <ExcludeList>DeveloperStorage.lua:logs:crashes</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -11464,9 +11483,6 @@ GBM can not determine the location of the config file.</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -11659,7 +11675,7 @@ GBM can not determine the location of the config file.</Comments>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
-    <RecurseSubFolders>true</RecurseSubFolders>
+    <RecurseSubFolders>false</RecurseSubFolders>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -12108,10 +12124,10 @@ GBM can not determine the location of the config file.</Comments>
     <Parameter />
     <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/NoClip/Zombie Night Terror/Users</Path>
     <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
+    <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
-    <FileType />
+    <FileType>Save.sav</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments>Steam uses a subfolder for each user and gog only the main directory.
@@ -12130,9 +12146,6 @@ Saves must be moved manually between those versions.</Comments>
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
-      </Tag>
-      <Tag>
-        <Name>uncheckedBackups</Name>
       </Tag>
     </Tags>
   </Game>
@@ -12198,6 +12211,34 @@ Saves must be moved manually between those versions.</Comments>
       </Tag>
       <Tag>
         <Name>uncheckedBackups</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>3d6a4c8b-9332-4991-ac69-cad485072e7d</ID>
+    <Name>tty-solitaire</Name>
+    <ProcessName>ttysolitaire</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <Tags>
+      <Tag>
+        <Name>FLOSS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Terminal</Name>
       </Tag>
     </Tags>
   </Game>
