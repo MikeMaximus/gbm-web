@@ -30,10 +30,10 @@
       <div id="leftcontent">
         <div class="pageSection">
           <div class="pageSectionHeader">
-            Game Backup Monitor v1.1.5 Manual
+            Game Backup Monitor v1.1.6 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated October 10, 2018</h3>
+            <h3 class="notop">Updated November 18, 2018</h3>
             <h3>Disclaimer:</h3>
             <p>This manual may contain information about features not available in the current stable release.</p>
             <p>If you are having a specific problem, please check the <a href="https://github.com/MikeMaximus/gbm/issues">issues</a> list.</p>
@@ -302,6 +302,21 @@
             <p>You can edit any items you've added by right-clicking them and choosing Edit. Advanced users may want to edit items and add wildcards to refine their configuration.</p>
             <p>You can add custom items by right-clicking on any blank part of the Current Items list and choosing "Add Custom Item"</p>
             <p>And finally if you prefer the old hardcore way of doing things, you can click "Raw Edit" and simply edit a colon delimited list of items.</p>
+            <h4>Include/Exclude Option - Recurse sub-folders:</h4>
+            <p>This option determines if GBM should scan every sub-folder of a save path when determining which files and folders to include or exclude from a backup.</p>
+            <p>This option defaults to enabled and in most cases it does not need to be changed.</p>
+            <p>However, it is highly recommended to disable this option when a backup configuration is saving files from an extremely large folder:
+              <ul>
+                <li>Recursively scanning a large folder can cause a backup configuration to take minutes, when it should take less than a second.</li>
+                <li>When this option is disabled, any items to be included or excluded from the backup need to directly referenced.  For example:
+                  <ul>
+                    <li>A game folder with many thousands of files, contains a "Saved Games" sub-folder and "Campaign" sub-folder with files using the .sav extension.</li>
+                    <li>If "Recurse sub-folders" is disabled, the include items would need to be "Saved Games\*.sav" and "Campaign\*.sav".  This backup would process almost instantly.</li>
+                    <li>If "Recurse sub-folders" is enabled, an include item of simply "*.sav" would be sufficient, but this backup configuration could take minutes to complete.</li>
+                  </ul>
+                </li>
+              </ul>
+            </p>
             <h3>Game Information</h3>
             <h4>Game Path:</h4>
             <p>This is the path to the game's executable file. In most cases GBM will auto-detect this information, but it can be set manually.</p>
