@@ -30,10 +30,10 @@
       <div id="leftcontent">
         <div class="pageSection">
           <div class="pageSectionHeader">
-            Game Backup Monitor v1.1.6 Manual
+            Game Backup Monitor v1.1.8 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated November 18, 2018</h3>
+            <h3 class="notop">Updated March 14, 2019</h3>
             <h3>Disclaimer:</h3>
             <p>This manual may contain information about features not available in the current stable release.</p>
             <p>If you are having a specific problem, please check the <a href="https://github.com/MikeMaximus/gbm/issues">issues</a> list.</p>
@@ -45,6 +45,7 @@
               <li><a href="#mainoverview">Main Window Overview</a></li>
               <li><a href="#settings">Settings</a></li>
               <li><a href="#gamemanager">The Game Manager</a></li>
+              <li><a href="#registry">Windows Registry Backups</a></li>
               <li><a href="#search">Search</a></li>
               <li><a href="#import">Importing Game Configurations</a></li>
               <li><a href="#customvariables">Custom Path Variables</a></li>
@@ -169,11 +170,11 @@
             <p>GBM uses the game Name by default for folder and files names.  After enabling this setting GBM will use the game ID instead.</p>
             <h4>Display notifications about new backups:</h4>
             <p>This indicates if you want GBM to display notifications when new backups are detected or restored.<br /><br />These notifications are presented differently depending on your other settings:
-				<ul>
-					<li>When automatically restoring new backup files, standard Windows notifications are used.  These notifications are not stored in the action center when using Windows 10, this is a known issue that may be addressed in a future release.</li>
-					<li>When manually handling new backup files, a small notification will appear on the menu bar and GBM system tray menu.  Clicking this notification will take you directly to the Game Manager, where you can restore your backups as you see fit.</li>
-				</ul>
-			</p>
+				    <ul>
+					    <li>When automatically restoring new backup files, standard Windows notifications are used.  These notifications are not stored in the action center when using Windows 10, this is a known issue that may be addressed in a future release.</li>
+					    <li>When manually handling new backup files, a small notification will appear on the menu bar and GBM system tray menu.  Clicking this notification will take you directly to the Game Manager, where you can restore your backups as you see fit.</li>
+				    </ul>
+			      </p>
             <h4>Automatically restore new backups:</h4>
             <p>This indicates if GBM will automatically restore new backup files when they are detected.  GBM will automatically restore backup files only if the save folder for the game currently exists.</p>
             <p>When using cloud software (such as Dropbox) it's possible that the new backup file won't be ready to restore at the time it's detected.  GBM will check once every minute and restore the backup once it's ready, after 15 minutes this operation will time out.</p>
@@ -181,6 +182,8 @@
             <p>This indicates if GBM will automatically mark a new backup as restored when the save folder for the game doesn't exist.  This should be used when you don't want to see pending backups for games that aren't currently installed.</p>
             <h4>Disable backup confirmation:</h4>
             <p>This will stop GBM from showing a backup confirmation after each game session.</p>
+            <h4>Disable disk space check prior to backup:</h4>
+            <p>This will stop GBM from checking if enough disk space is available before performing a backup.  Disabling this option can solve issues with certain backup configurations, as well as speed up the backup process in general.
             <h4>Show overwrite warning:</h4>
             <p>This will require GBM to show a confirmation before overwriting any backup file.</p>
             <h3>Startup</h3>        
@@ -274,6 +277,7 @@
             <p>Most games don't tell you where they save. I highly recommend using PC Gaming Wiki or searching common locations such as the game's installation folder, My Documents or AppData for the location of game saves.</p>
             <p>This path can be absolute, or relative to the game's executable.</p>
             <p>GBM will automatically determine absolute or relative path settings. If the save games are located in the game folder itself, you should always strive to use a path relative to the game's executable, this way your configuration will work on any PC regardless of where a game is installed. If you don't know what that means then I highly recommend using the "Add Game Wizard" to add new games.</p>
+            <p>The path can also be certain Windows registry locations, please see the <a href="#registry">Windows registry</a> section of the manual for more details.</p>
             <h4>Save Entire Folder:</h4>
             <p>This indicates if GBM should backup the entire folder indicated in the path. If you don't really know what files are important to be saving, just tick this box. Choosing this option will disable and clear any Include Items.</p>
             <h4>Save Multiple Backups:</h4>
@@ -290,6 +294,8 @@
             <p>GBM checks for dangerous configurations in which this option should not be used and disables it, but even so use caution with this option.</p>
             <h4>Comments:</h4>
             <p>This is used to store any extra information about the configuration.</p>
+            <h4>OS:</h4>
+            <p>This is the target operating system of the configuration.  The OS field cannot be modified in Windows, this field allows Linux users to manage native and Windows games in the same list.
             <h4>Include and Exclude Items:</h4>
             <p>You can configure which file types, specific files or sub-folders should be included in or excluded from the backup using the Include / Exclude Builder.</p>
             <p>Click the Include Items... or Exclude Items.. button to launch the builder.</p>
@@ -372,6 +378,28 @@
         </div>
         <div class="pageSection">
           <div class="pageSectionHeader">
+            <a name="registry" id="registry">Windows Registry Backups</a>
+          </div>
+          <div class="pageSectionContent">
+            <p>Games can also save your progress to the Windows registry instead of using a location on your hard drive.  As of v1.1.8, GBM now supports saving and restoring registry keys.</p>
+            <img class="manual" src="images/manual/manual_24.jpg" width="786" height="688" alt="Registry Configuration" />
+            <h4>Important Details:</h4>
+            <ul>
+              <li>Registry backups are supported in Windows and in Wine/Proton on Linux.</li>
+              <li>The Windows/Wine reg.exe utility is used to manipulate the registry, GBM does not manipulate it directly.</li>
+              <li>In Windows, GBM must be running as administrator to backup from or restore to the registry.</li>
+              <li>GBM cannot backup or restore specific registry values, only entire keys and/or sub-keys.  This is a limitation of reg.exe and regedit.exe.  If that doesn't make sense, <a href="https://docs.microsoft.com/en-us/windows/desktop/SysInfo/structure-of-the-registry" target="_blank">read more</a> about the Windows registry.
+              <li>GBM only supports saving and restoring to the HKEY_LOCAL_MACHINE and HKEY_CURRENT_USER registry hives.</li>
+              <li>GBM will detect registry configurations based on the presence of HKEY_LOCAL_MACHINE or HKEY_CURRENT_USER in the path field.</li>
+              <li>The Game Manager will disable all the features that are not supported when a registry configuration is detected.</li>
+            </ul>
+          </div>
+          <div class="pageSectionFooter">
+            <a href="#toc">Back to Contents</a>
+          </div>
+        </div>
+        <div class="pageSection">
+          <div class="pageSectionHeader">
             <a name="search" id="search">Search</a>
           </div>
           <div class="pageSectionContent">
@@ -413,7 +441,7 @@
           <div class="pageSectionHeader">
             <a name="customvariables" id="customvariables">Custom Path Variables</a>
           </div>
-          <div class="pageSectionContent">
+          <div class="pageSectihhonContent">
             <p>This screen allows you add an unlimited number of custom path variables to use in the configuration of your games.</p><img class="manual" src="images/manual/manual_09.jpg" width="586" height="288" alt="Tags" /><br />
             <p>Some applications and games store save files in common locations that can be slightly different on each computer, this feature allows you account for that and share configurations between any computer.</p>
             <p>For example, games designed for Valve's Steam service can use the Steam "userdata" folder as a common save location.</p>
