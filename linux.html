@@ -102,8 +102,6 @@
               <li>The tray icon does not function correctly in Linux and is disabled. You can minimize GBM to the task bar instead.</li>
 	      <li>GBM can't automatically detect a game's icon, publisher, or version in Linux.  That information can be manually set in the Game Manager.</li>
               <li>You may encounter slight visual or functional glitches with the interface.  These glitches are related to Mono's implementation of certain controls and possibly your window manager, video driver or display server version. I've done my best to minimize the worst of these issues.</li>              
-              <li>Hidden folders cannot be displayed when using a folder browser.  I've been unable to find a proper fix for this.</li>
-              <li>GBM may not exit cleanly if a critical error occurs, the process will need to be killed.</li>
             </ul>
             <p class="large">How do I find the process name and save games?</p>
             <ul>
@@ -118,10 +116,13 @@ ls /tmp/test_*;</pre></li>
               <li>Don't forget to move game configurations to the trash folder (not rm!) and check whether restore works.</li>
             </ul>
             <p class="large">How do I configure GBM to detect Wine games?</p>
+            <img class="centered" src="images/screens/gbm_linux_wine.jpg" width="611" height="443" alt="Wine Example" /><br />
             <ul>
               <li>You don't need to do anything special. Simply set the game's "Process" field to it's Windows executable name (without the extension), exactly the same as configuring a game on Windows.</li>
               <li>Please note that while GBM displays games running as "wine-preloader" from the Wine folder, it still knows the game's actual working directory and will properly backup a relative path configuration.</li>
-            </ul><img class="centered" src="images/screens/gbm_linux_wine.jpg" width="611" height="443" alt="Wine Example" /><br />
+              <li>In recent versions of GBM, you may also import Windows game configurations directly from the offical list.  You can also view and edit details regarding the Wine configuration of each game.</li>
+            </ul>
+            <img class="centered" src="images/screens/gbm_linux_wine_details.jpg" width="915" height="742" alt="Wine Configuration Example" /><br />                              
             <p class="large">Can GBM share the same backup folder between Linux and Windows?</p>
             <ul>
               <li>Yes it can, you can play a game on Linux and have GBM restore your saved games to continue on Windows and vice versa.</li>
