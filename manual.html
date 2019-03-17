@@ -390,7 +390,7 @@
               <li>In Windows, GBM must be running as administrator to backup from or restore to the registry.</li>
               <li>GBM cannot backup or restore specific registry values, only entire keys and/or sub-keys.  This is a limitation of reg.exe and regedit.exe.  If that doesn't make sense, <a href="https://docs.microsoft.com/en-us/windows/desktop/SysInfo/structure-of-the-registry" target="_blank">read more</a> about the Windows registry.
               <li>GBM only supports saving and restoring to the HKEY_LOCAL_MACHINE and HKEY_CURRENT_USER registry hives.</li>
-              <li>GBM will detect registry configurations based on the presence of HKEY_LOCAL_MACHINE or HKEY_CURRENT_USER in the path field.</li>
+              <li>GBM detects registry configurations based on the presence of HKEY_LOCAL_MACHINE, HKLM, HKEY_CURRENT_USER or HKCU at the start of a path.</li>
               <li>The Game Manager will disable all the features that are not supported when a registry configuration is detected.</li>
             </ul>
           </div>
