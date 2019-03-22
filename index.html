@@ -46,7 +46,12 @@
             <h3 class="notop">Important News</h3>
             <ul>              
               <li><a href="https://github.com/MikeMaximus/gbm/releases/tag/v1.1.8">v1.1.8</a> has been released!</li>
-              <li>GOG Galaxy recently implemented <a href="https://www.gog.com/forum/general/dosbox_games_now_with_cloud_saves_5c7ee/page1">DOSBox cloud saving</a>.  It accomplishes this by using a new version of DOSBox that allows redirecting saved game outputs from DOS games to a specific cloud folder.<br /><br />Unfortunately, this may break many of GBM's official DOSBox configurations.  If you launch your DOSBox games from GOG Galaxy and would like to continue using GBM, you will need to <b>disable cloud saving in Galaxy</b>, at least for the specific DOSBox games you'd like GBM to backup.</li>
+              <li>GOG Galaxy recently implemented <a href="https://www.gog.com/forum/general/dosbox_games_now_with_cloud_saves_5c7ee/page1">DOSBox cloud saving</a>.  It accomplishes this by using a new version of DOSBox that allows redirecting saved game outputs from DOS games to a specific cloud folder.  Unfortunately, this will break most of the GOG DOSBox configurations currently being used in GBM.<br /><br />To solve this issue you can choose one of the following options:
+                <ol>
+                  <li>Modify any GOG DOSBox configuration(s) in the Game Manager to use the new saved game path, which would be <b>..\cloud_saves</b>.  I'm still not sure when or if the official configurations will be updated to reflect this new path.</li>
+                  <li>Edit the DOSBox conf file used to launch the game (Ex. dosbox_biomenace_single.conf) and remove the autoexec command that mounts the overlay folder.  <b>mount C "..\cloud_saves" -t overlay</b>.</li>
+                </ol>                
+              </li>              
             </ul>
             <h3>Notices</h3>
             <ul>
