@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official_Linux.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1548159211" TotalConfigurations="418" AppVer="117">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1553248319" TotalConfigurations="418" AppVer="118">
   <Game>
     <ID>bbf8e00a-d7b8-46a5-b52c-8ba886b8c38a</ID>
     <Name>0 AD</Name>
@@ -17,6 +17,7 @@
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -42,6 +43,7 @@
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -70,6 +72,7 @@
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -98,6 +101,7 @@
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -129,6 +133,7 @@
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -160,6 +165,7 @@
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -188,6 +194,7 @@
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -216,6 +223,7 @@
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>NW.js</Name>
@@ -244,6 +252,7 @@
     <Comments>Only highest score is saved</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -269,6 +278,7 @@
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -300,6 +310,7 @@
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -328,6 +339,7 @@
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -356,6 +368,7 @@
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -384,6 +397,7 @@
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -412,6 +426,7 @@
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -441,6 +456,7 @@
 The Continue button starts working again, when you save a game after restoration.</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -469,6 +485,7 @@ The Continue button starts working again, when you save a game after restoration
     <Comments>multiplayer</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -494,6 +511,7 @@ The Continue button starts working again, when you save a game after restoration
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -528,6 +546,7 @@ The Continue button starts working again, when you save a game after restoration
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -553,6 +572,7 @@ The Continue button starts working again, when you save a game after restoration
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -581,6 +601,7 @@ The Continue button starts working again, when you save a game after restoration
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -609,6 +630,7 @@ The Continue button starts working again, when you save a game after restoration
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -643,6 +665,7 @@ The Continue button starts working again, when you save a game after restoration
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -671,6 +694,7 @@ The Continue button starts working again, when you save a game after restoration
     <Comments>save game and config in one file</Comments>
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -699,6 +723,7 @@ The Continue button starts working again, when you save a game after restoration
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -730,6 +755,7 @@ The Continue button starts working again, when you save a game after restoration
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -758,6 +784,7 @@ The Continue button starts working again, when you save a game after restoration
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -789,6 +816,7 @@ The Continue button starts working again, when you save a game after restoration
     <Comments>Steam cloud only</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -817,6 +845,7 @@ The Continue button starts working again, when you save a game after restoration
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -845,6 +874,7 @@ The Continue button starts working again, when you save a game after restoration
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -870,6 +900,7 @@ The Continue button starts working again, when you save a game after restoration
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -901,6 +932,7 @@ The Continue button starts working again, when you save a game after restoration
     <Comments>Only engine is open source</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -929,6 +961,7 @@ The Continue button starts working again, when you save a game after restoration
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -960,6 +993,7 @@ The Continue button starts working again, when you save a game after restoration
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -985,6 +1019,7 @@ The Continue button starts working again, when you save a game after restoration
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1016,6 +1051,7 @@ The Continue button starts working again, when you save a game after restoration
     <Comments>multiplayer</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1043,6 +1079,7 @@ open engine
 closed data</Comments>
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1071,6 +1108,7 @@ closed data</Comments>
     <Comments>Scores and setting in one file</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1096,6 +1134,7 @@ closed data</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1124,6 +1163,7 @@ closed data</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1152,6 +1192,7 @@ closed data</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1180,6 +1221,7 @@ closed data</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GameMaker</Name>
@@ -1214,6 +1256,7 @@ closed data</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1242,6 +1285,7 @@ closed data</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -1276,6 +1320,7 @@ closed data</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1301,6 +1346,7 @@ closed data</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1326,6 +1372,7 @@ closed data</Comments>
     <Comments>Scores are temporary</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1351,6 +1398,7 @@ closed data</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1376,6 +1424,7 @@ closed data</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1407,6 +1456,7 @@ closed data</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1433,6 +1483,7 @@ closed data</Comments>
 no DRM-free version</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1461,6 +1512,7 @@ no DRM-free version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Freeware</Name>
@@ -1489,6 +1541,7 @@ no DRM-free version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1520,6 +1573,7 @@ no DRM-free version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1551,6 +1605,7 @@ no DRM-free version</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1582,6 +1637,7 @@ no DRM-free version</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1610,6 +1666,7 @@ no DRM-free version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -1635,6 +1692,7 @@ no DRM-free version</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -1669,6 +1727,7 @@ no DRM-free version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1705,6 +1764,7 @@ no DRM-free version
 multiple savegames not possible</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1736,6 +1796,7 @@ multiple savegames not possible</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1767,6 +1828,7 @@ multiple savegames not possible</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1798,6 +1860,7 @@ multiple savegames not possible</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1829,6 +1892,7 @@ multiple savegames not possible</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1860,6 +1924,7 @@ multiple savegames not possible</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1891,6 +1956,7 @@ multiple savegames not possible</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1919,6 +1985,7 @@ multiple savegames not possible</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -1944,6 +2011,7 @@ multiple savegames not possible</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -1972,6 +2040,7 @@ multiple savegames not possible</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2003,6 +2072,7 @@ multiple savegames not possible</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Freeware</Name>
@@ -2040,6 +2110,7 @@ multiple savegames not possible</Comments>
     <Comments>Only demo tested</Comments>
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2071,6 +2142,7 @@ multiple savegames not possible</Comments>
     <Comments>Progress and settings in one file</Comments>
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2099,6 +2171,7 @@ multiple savegames not possible</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2127,6 +2200,7 @@ multiple savegames not possible</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2158,6 +2232,7 @@ multiple savegames not possible</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2189,6 +2264,7 @@ multiple savegames not possible</Comments>
     <Comments>Achievements and screen configuration are stored in the same file</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -2217,6 +2293,7 @@ multiple savegames not possible</Comments>
     <Comments>Permadeath deletes savegame on death</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -2242,6 +2319,7 @@ multiple savegames not possible</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2273,6 +2351,7 @@ multiple savegames not possible</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2302,6 +2381,7 @@ multiple savegames not possible</Comments>
 Saves must be moved manually between those versions.</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -2336,6 +2416,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments>Only demo tested</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2367,6 +2448,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2395,6 +2477,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Freeware</Name>
@@ -2432,6 +2515,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2463,6 +2547,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2491,6 +2576,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2516,6 +2602,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Freeware</Name>
@@ -2553,6 +2640,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2581,6 +2669,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -2612,6 +2701,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2640,6 +2730,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments>multiplayer only</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2668,6 +2759,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2696,6 +2788,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Itch.io</Name>
@@ -2730,6 +2823,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Freeware</Name>
@@ -2761,6 +2855,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2789,6 +2884,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2820,6 +2916,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2848,6 +2945,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2876,6 +2974,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2904,6 +3003,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -2935,6 +3035,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GameMaker</Name>
@@ -2972,6 +3073,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -3000,6 +3102,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -3031,6 +3134,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -3059,6 +3163,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3090,6 +3195,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -3124,6 +3230,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -3158,6 +3265,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GameMaker</Name>
@@ -3192,6 +3300,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -3220,6 +3329,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3248,6 +3358,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Mod</Name>
@@ -3276,6 +3387,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -3313,6 +3425,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3341,6 +3454,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3371,6 +3485,7 @@ Paths for savegames can be changed.
 Change path for old drm-free versions in ~/.appdata/DefendersQuest/Local\ Store/path_config.xml and import old savegames ingame.</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -3402,6 +3517,7 @@ Change path for old drm-free versions in ~/.appdata/DefendersQuest/Local\ Store/
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3433,6 +3549,7 @@ Change path for old drm-free versions in ~/.appdata/DefendersQuest/Local\ Store/
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3464,6 +3581,7 @@ Change path for old drm-free versions in ~/.appdata/DefendersQuest/Local\ Store/
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3492,6 +3610,7 @@ Change path for old drm-free versions in ~/.appdata/DefendersQuest/Local\ Store/
     <Comments>Feral includes a softlink to steam's cloud userdata, but it assumes standard steam paths.</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3520,6 +3639,7 @@ Change path for old drm-free versions in ~/.appdata/DefendersQuest/Local\ Store/
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3545,6 +3665,7 @@ Change path for old drm-free versions in ~/.appdata/DefendersQuest/Local\ Store/
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Freeware</Name>
@@ -3579,6 +3700,7 @@ Change path for old drm-free versions in ~/.appdata/DefendersQuest/Local\ Store/
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3611,6 +3733,7 @@ Change path for old drm-free versions in ~/.appdata/DefendersQuest/Local\ Store/
 Launch options: ./DDLC.sh # %command%</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Freeware</Name>
@@ -3648,6 +3771,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3673,6 +3797,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3701,6 +3826,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3732,6 +3858,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Freeware</Name>
@@ -3766,6 +3893,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments>Backups for DRM-free version only</Comments>
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -3800,6 +3928,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments>GBM can not detect the save game location</Comments>
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -3828,6 +3957,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GameMaker</Name>
@@ -3865,6 +3995,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments>Steam Cloud must be disabled otherwise &lt;path-to-game&gt;/savegames/ will be used</Comments>
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -3896,6 +4027,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3927,6 +4059,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3955,6 +4088,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -3986,6 +4120,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4017,6 +4152,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4048,6 +4184,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Freeware</Name>
@@ -4082,6 +4219,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -4113,6 +4251,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments>Save game file also contains settings</Comments>
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -4144,6 +4283,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4175,6 +4315,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4206,6 +4347,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4234,6 +4376,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4259,6 +4402,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Freeware</Name>
@@ -4293,6 +4437,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Freeware</Name>
@@ -4330,6 +4475,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -4358,6 +4504,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4386,6 +4533,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -4420,6 +4568,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4445,6 +4594,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4476,6 +4626,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -4507,6 +4658,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4535,6 +4687,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments>Settings and save game in one file</Comments>
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4560,6 +4713,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -4585,6 +4739,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments>Only code is open</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -4610,6 +4765,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Freeware</Name>
@@ -4644,6 +4800,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -4669,6 +4826,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -4697,6 +4855,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4728,6 +4887,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments>Save game and settings in one file</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4753,6 +4913,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Comments>Settings and savegame in one file</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -4782,6 +4943,7 @@ Launch options: ./DDLC.sh # %command%</Comments>
 No backup for steam version</Comments>
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -4813,6 +4975,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4844,6 +5007,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4872,6 +5036,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4900,6 +5065,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -4928,6 +5094,7 @@ No backup for steam version</Comments>
     <Comments>Backup only for DRM-free version</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -4962,6 +5129,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -4993,6 +5161,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -5018,6 +5187,7 @@ No backup for steam version</Comments>
     <Comments>multiplayer</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5043,6 +5213,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5074,6 +5245,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5102,6 +5274,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5133,6 +5306,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5164,6 +5338,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5192,6 +5367,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -5226,6 +5402,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5254,6 +5431,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5288,6 +5466,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5316,6 +5495,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -5344,6 +5524,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5378,6 +5559,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5412,6 +5594,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5440,6 +5623,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5471,6 +5655,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5499,6 +5684,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5530,6 +5716,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5561,6 +5748,7 @@ No backup for steam version</Comments>
     <Comments>Options and save game is one file</Comments>
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5592,6 +5780,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -5623,6 +5812,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -5651,6 +5841,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GameMaker</Name>
@@ -5682,6 +5873,7 @@ No backup for steam version</Comments>
     <Comments>Save game and setting in one file</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5713,6 +5905,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5741,6 +5934,7 @@ No backup for steam version</Comments>
     <Comments>restores savegames from unknown source</Comments>
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5772,6 +5966,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5800,6 +5995,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5828,6 +6024,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5853,6 +6050,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -5881,6 +6079,7 @@ No backup for steam version</Comments>
     <Comments>Steam savegames and DRM-free savegames appear to be incompatible</Comments>
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -5912,6 +6111,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -5940,6 +6140,7 @@ No backup for steam version</Comments>
     <Comments>No backup for steam version</Comments>
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -5971,6 +6172,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -6002,6 +6204,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -6036,6 +6239,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -6064,6 +6268,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -6092,6 +6297,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -6120,6 +6326,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -6148,6 +6355,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -6176,6 +6384,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -6204,6 +6413,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -6232,6 +6442,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -6257,6 +6468,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -6285,6 +6497,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -6316,6 +6529,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -6347,6 +6561,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -6378,6 +6593,7 @@ No backup for steam version</Comments>
     <Comments>multiplayer only</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -6409,6 +6625,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -6437,6 +6654,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -6465,6 +6683,7 @@ No backup for steam version</Comments>
     <Comments>cloud only</Comments>
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -6493,6 +6712,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -6518,6 +6738,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -6549,6 +6770,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -6577,6 +6799,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -6608,6 +6831,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -6639,6 +6863,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -6664,6 +6889,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -6695,6 +6921,7 @@ No backup for steam version</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -6725,6 +6952,7 @@ Steamcloud not working
 Savegame contains settings</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -6750,6 +6978,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -6778,6 +7007,7 @@ Savegame contains settings</Comments>
     <Comments>Feral includes a softlink to steam's cloud userdata, but it assumes standard steam paths.</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -6806,6 +7036,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Freeware</Name>
@@ -6837,6 +7068,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -6862,6 +7094,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -6893,6 +7126,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -6921,6 +7155,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -6952,6 +7187,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -6977,6 +7213,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -7005,6 +7242,7 @@ Savegame contains settings</Comments>
     <Comments>One file for savegames and settings</Comments>
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -7033,6 +7271,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -7061,6 +7300,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -7089,6 +7329,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -7117,6 +7358,7 @@ Savegame contains settings</Comments>
     <Comments>No backup for steam version</Comments>
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -7148,6 +7390,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -7176,6 +7419,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -7204,6 +7448,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -7232,6 +7477,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -7263,6 +7509,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7291,6 +7538,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7316,6 +7564,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -7347,6 +7596,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -7375,6 +7625,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -7403,6 +7654,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -7431,6 +7683,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7465,6 +7718,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -7493,6 +7747,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -7521,6 +7776,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7552,6 +7808,7 @@ Savegame contains settings</Comments>
     <Comments>Save game and prefs in one file</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -7580,6 +7837,7 @@ Savegame contains settings</Comments>
     <Comments>Is said to not use steam cloud</Comments>
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -7611,6 +7869,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7642,6 +7901,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -7670,6 +7930,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -7701,6 +7962,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -7729,6 +7991,7 @@ Savegame contains settings</Comments>
     <Comments>Steam has special savegame for each user</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7763,6 +8026,7 @@ Savegame contains settings</Comments>
     <Comments>Save game and settings in one file</Comments>
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -7794,6 +8058,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -7828,6 +8093,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -7856,6 +8122,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -7887,6 +8154,7 @@ Savegame contains settings</Comments>
     <Comments>deleting  the save path did not delete the savegames, it is unknown whether this is usable or not</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -7918,6 +8186,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Mod</Name>
@@ -7949,6 +8218,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -7974,6 +8244,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -7999,6 +8270,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -8027,6 +8299,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -8052,6 +8325,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -8086,6 +8360,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -8111,6 +8386,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -8142,6 +8418,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -8167,6 +8444,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -8192,6 +8470,7 @@ Savegame contains settings</Comments>
     <Comments>multiplayer</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -8217,6 +8496,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -8242,6 +8522,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -8270,6 +8551,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -8298,6 +8580,7 @@ Savegame contains settings</Comments>
     <Comments>Backup for drm-free version only</Comments>
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -8332,6 +8615,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Mod</Name>
@@ -8366,6 +8650,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -8397,6 +8682,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -8428,6 +8714,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -8453,6 +8740,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -8481,6 +8769,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -8515,6 +8804,7 @@ Savegame contains settings</Comments>
     <Comments>multiplayer</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -8540,6 +8830,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -8571,6 +8862,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -8599,6 +8891,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -8627,6 +8920,7 @@ Savegame contains settings</Comments>
     <Comments>Steam cloud only</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -8655,6 +8949,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -8686,6 +8981,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GameMaker</Name>
@@ -8717,6 +9013,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -8748,6 +9045,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -8776,6 +9074,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -8801,6 +9100,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -8832,6 +9132,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -8857,6 +9158,7 @@ Savegame contains settings</Comments>
     <Comments>Backup for drm-free version only</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -8888,6 +9190,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -8919,6 +9222,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -8944,6 +9248,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -8969,6 +9274,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -8994,6 +9300,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -9022,6 +9329,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -9050,6 +9358,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -9075,6 +9384,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -9100,6 +9410,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -9131,6 +9442,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -9165,6 +9477,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GameMaker</Name>
@@ -9196,6 +9509,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -9227,6 +9541,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -9258,6 +9573,7 @@ Savegame contains settings</Comments>
     <Comments>steam cloud only</Comments>
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -9286,6 +9602,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -9314,6 +9631,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -9339,6 +9657,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GameMaker</Name>
@@ -9370,6 +9689,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -9404,6 +9724,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -9435,6 +9756,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -9463,6 +9785,7 @@ Savegame contains settings</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -9492,6 +9815,7 @@ Savegame contains settings</Comments>
 GBM can not determine the location of the config file.</Comments>
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>DOSBox</Name>
@@ -9520,6 +9844,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -9551,6 +9876,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -9579,6 +9905,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GameMaker</Name>
@@ -9613,6 +9940,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -9644,6 +9972,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments>Steam version and DRM-free have different save games</Comments>
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -9675,6 +10004,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -9703,6 +10033,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -9731,6 +10062,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Freeware</Name>
@@ -9765,6 +10097,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -9793,6 +10126,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -9821,6 +10155,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -9849,6 +10184,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -9877,6 +10213,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -9902,6 +10239,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -9930,6 +10268,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -9958,6 +10297,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -9986,6 +10326,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -10014,6 +10355,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Crossover</Name>
@@ -10042,6 +10384,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -10073,6 +10416,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -10104,6 +10448,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments>Backup only for DRM-free version</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -10138,6 +10483,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>false</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -10172,6 +10518,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments>Steam version is not backed up</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -10203,6 +10550,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -10231,6 +10579,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -10259,6 +10608,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments>Savegame detection only for GOG's official emulator</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -10287,6 +10637,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -10315,6 +10666,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -10346,6 +10698,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -10371,6 +10724,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -10399,6 +10753,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -10430,6 +10785,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -10458,6 +10814,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -10483,6 +10840,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -10511,6 +10869,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -10536,6 +10895,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -10561,6 +10921,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -10589,6 +10950,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -10620,6 +10982,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments>Backup only for DRM-free version</Comments>
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -10654,6 +11017,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -10682,6 +11046,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -10707,6 +11072,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -10738,6 +11104,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments>Feral includes a softlink to steam's cloud userdata, but it assumes standard steam paths.</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -10766,6 +11133,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -10794,6 +11162,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -10825,6 +11194,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -10853,6 +11223,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -10881,6 +11252,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -10909,6 +11281,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -10937,6 +11310,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -10965,6 +11339,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments>No savegame backup for steam version</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -10996,6 +11371,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments>Only for DRM-free version</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -11030,6 +11406,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -11064,6 +11441,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -11092,6 +11470,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -11117,6 +11496,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -11148,6 +11528,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments>multiplayer only</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -11179,6 +11560,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments>Backup DRM-free version only</Comments>
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -11213,6 +11595,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments>steam cloud does not store savegames</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GameMaker</Name>
@@ -11247,6 +11630,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments>No backup for steam save game</Comments>
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -11278,6 +11662,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -11306,6 +11691,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -11331,6 +11717,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Freeware</Name>
@@ -11359,6 +11746,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GameMaker</Name>
@@ -11393,6 +11781,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -11421,6 +11810,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -11449,6 +11839,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments>Hardcore game without savegames and checkpoints</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -11474,6 +11865,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -11502,6 +11894,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -11530,6 +11923,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -11555,6 +11949,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -11586,6 +11981,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -11620,6 +12016,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -11648,6 +12045,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -11676,6 +12074,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>false</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -11704,6 +12103,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments>Included in Wasteland 2: Director's Cut - Digital Deluxe Edition</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -11735,6 +12135,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -11766,6 +12167,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -11794,6 +12196,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments>No backup for steam version</Comments>
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Humble</Name>
@@ -11825,6 +12228,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -11853,6 +12257,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -11878,6 +12283,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -11903,6 +12309,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -11931,6 +12338,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -11959,6 +12367,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -11987,6 +12396,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -12012,6 +12422,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -12043,6 +12454,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
@@ -12074,6 +12486,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -12105,6 +12518,7 @@ GBM can not determine the location of the config file.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -12134,6 +12548,7 @@ GBM can not determine the location of the config file.</Comments>
 Saves must be moved manually between those versions.</Comments>
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -12165,6 +12580,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments>Only demo tested</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Official</Name>
@@ -12196,6 +12612,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments>Backup DRM-free version only</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>Groupees</Name>
@@ -12230,6 +12647,7 @@ Saves must be moved manually between those versions.</Comments>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
     <Tags>
       <Tag>
         <Name>FLOSS</Name>
