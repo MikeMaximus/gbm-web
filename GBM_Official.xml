@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1553248751" TotalConfigurations="384" AppVer="118">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1557954916" TotalConfigurations="394" AppVer="118">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -1233,6 +1233,32 @@
     </Tags>
   </Game>
   <Game>
+    <ID>bce71c17-6dcd-47d8-aa6b-4d9b4d3af9ac</ID>
+    <Name>Blood - Fresh Supply</Name>
+    <ProcessName>anuket_x64</ProcessName>
+    <Parameter />
+    <Path>%APPDATA%\Nightdive Studios\Blood EX\saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>d1181688-f6e3-484e-ba51-85faea930ff4</ID>
     <Name>Blood Bowl 2</Name>
     <ProcessName>BloodBowl2_(GL_32|DX_32)+$</ProcessName>
@@ -1385,6 +1411,58 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>577245c7-7104-44b4-95ce-f50cc7f46759</ID>
+    <Name>Borderlands 2</Name>
+    <ProcessName>Borderlands2</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\My Games\Borderlands 2\WillowGame\SaveData</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>22977a3b-b6b8-4055-a2d2-082bcaec0b4d</ID>
+    <Name>Borderlands: Game of the Year Enhanced</Name>
+    <ProcessName>BorderlandsGOTY</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\My Games\Borderlands Game of the Year\Binaries\SaveData</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -1761,6 +1839,32 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>22143982-4833-49ec-963b-563c82d93e7d</ID>
+    <Name>Civilization III</Name>
+    <ProcessName>Civ3Conquests</ProcessName>
+    <Parameter />
+    <Path>Saves</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -2427,6 +2531,32 @@
     </Tags>
   </Game>
   <Game>
+    <ID>260e2843-3bbb-4d40-b7ca-42c9c2074c26</ID>
+    <Name>Dead in Vinland</Name>
+    <ProcessName>Dead In Vinland</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\CCCP\Dead In Vinland</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>true</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>Unity:output_log.txt</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>68808dca-f4f8-4faa-8355-14ebcb671682</ID>
     <Name>Deadly Premonition: Director's Cut</Name>
     <ProcessName>DP</ProcessName>
@@ -2727,6 +2857,32 @@
     <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList>options.xml</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>a20e8bf0-a93d-4687-9bca-287c0b4c687e</ID>
+    <Name>Door Kickers - Action Squad</Name>
+    <ProcessName>ActionSquad</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\KillHouseGames\ActionSquad</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>2</BackupLimit>
+    <FileType>userdata.bin</FileType>
+    <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -3494,6 +3650,32 @@
     </Tags>
   </Game>
   <Game>
+    <ID>6ae06dc1-7201-4731-8af6-02ad9f9522ba</ID>
+    <Name>Fade to Silence</Name>
+    <ProcessName>FadeToSilence-Win64-Shipping</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\FadeToSilence\Saved\SaveGames</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>true</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>fef2a09e-ad06-45dc-85a7-b6575af400b5</ID>
     <Name>Fahrenheit (Indigo Prophecy)</Name>
     <ProcessName>Fahrenheit</ProcessName>
@@ -3995,7 +4177,7 @@
     <Name>Grim Dawn</Name>
     <ProcessName>Grim Dawn</ProcessName>
     <Parameter />
-    <Path>%USERPROFILE%\Documents\My Games\Grim Dawn\save\</Path>
+    <Path>%USERDOCUMENTS%\My Games\Grim Dawn\save\</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>true</AppendTimeStamp>
@@ -4201,6 +4383,32 @@
       </Tag>
       <Tag>
         <Name>Tracking</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>1982700c-80d6-4559-ac31-75639b4686a3</ID>
+    <Name>Hellgate London (2007)</Name>
+    <ProcessName>hellgate_sp_(dx9|dx10)_x64$</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\My Games\Hellgate\Save\Singleplayer</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>true</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Retail</Name>
       </Tag>
     </Tags>
   </Game>
@@ -6475,13 +6683,13 @@
     <Name>Project Zomboid</Name>
     <ProcessName>ProjectZomboid(32|64)$</ProcessName>
     <Parameter />
-    <Path>%USERPROFILE%\Zomboid\Saves</Path>
+    <Path>%USERPROFILE%\Zomboid</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>true</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
     <FileType />
-    <ExcludeList />
+    <ExcludeList>Logs:options.ini</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>true</IsRegEx>
@@ -6551,6 +6759,58 @@
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>9425e8d1-d7af-4c62-b930-b3584495cd5a</ID>
+    <Name>Rage of Mages</Name>
+    <ProcessName>rom</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>2</BackupLimit>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>2c2b5b9e-40e4-4b30-a967-d04909ac5b06</ID>
+    <Name>Railroad Tycoon 2</Name>
+    <ProcessName>RT2_PLAT</ProcessName>
+    <Parameter />
+    <Path>games</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -9716,7 +9976,7 @@
     <ProcessName>Volgarr</ProcessName>
     <Parameter />
     <Path>HKEY_CURRENT_USER\Software\Crazy Viking Studios\Volgarr the Viking</Path>
-    <AbsolutePath>true</AbsolutePath>
+    <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
