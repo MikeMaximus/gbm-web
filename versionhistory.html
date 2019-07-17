@@ -33,7 +33,80 @@
             Version History
           </div>
           <div cass="pageSectionContent">
-            <h3 class="notop">1.1.7</h3>
+            <h3 class="notop">1.1.8</h3>
+            <ul>
+              <li>All Platforms:
+                <ul>
+                  <li>Added the ability to backup and restore saved games that are stored in the Windows registry:
+                    <ul>
+                      <li>This feature is also supported in Linux for Windows games running in Wine/Proton.</li>
+                      <li>Please see the <a href="http://mikemaximus.github.io/gbm-web/manual.html#registry">online manual</a> for more details on how to use this feature.</li>
+                    </ul>
+                  </li>
+                  <li>On startup, GBM now waits up to one minute for the current backup location to become available before displaying an error message.
+                    <ul>
+                      <li>The error message can now be canceled to continue waiting.</li>
+                      <li>This is useful for delayed network shares on startup or if you forgot to plug in an external backup drive.</li>
+                    </ul>
+                  </li>
+                  <li>The "Choose Game" window now displays tags in addition to the game name when multiple configurations are detected.</li>
+                  <li>The "Backup Confirmation" window should now always get top focus after a gaming session ends.
+                    <ul>
+                      <li>This fix has also been applied to other important messages to make sure they don't get hidden behind other windows.</li>
+                    </ul>
+                  </li>
+                  <li>The Game Manager and Custom Variable Manager now use a different folder browser where applicable.
+                    <ul>
+                      <li>The new browser provides better usability for power users, other areas of the app will still use the classic folder browser.</li>
+                      <li>The new browser allows Linux users to "Show Hidden Folders", which can't be done using the classic Folder Browser.</li>
+                    </ul>
+                  </li>
+                  <li>When a UNC path is used for the backup folder, the disk space check prior to backups will be automatically disabled because it cannot be done.</li>
+                  <li>The disk space check prior to backups can now be disabled in the "Backup and Restore" settings.</li>
+                  <li>Added "Operating System" field to game configurations:
+                    <ul>
+                      <li>"Windows" and "Linux" are the only valid choices at this time and only Linux users are allowed to change this field.</li>
+                    </ul>
+                  </li>
+                  <li>Changed how GBM initilizes on startup to fix some long standing issues.</li>
+                  <li>Fixed some inconsistencies with form icons and when forms are shown in the task bar.</li>
+                  <li>GBM no longer provides a warning about "Syncing Game IDs" when importing configurations in the Game Manager.
+                    <ul>
+                      <li>The warning was very confusing and is no longer relevant to most users.</li>
+                      <li>The "Sync Game IDs" Tool will continue to be available for now, but the messaging has been changed warning not to use it without reading the manual first.</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>        
+              <li>Windows:
+                <ul>
+                  <li>Updated SQLite to 3.27.2</li>
+                  <li>Updated 7-Zip to 19.00</li>
+                </ul>
+              </li>
+              <li>Linux:
+                <ul>
+                  <li>You can now set GBM to automatically start on log-in via the "Startup" settings.
+                    <ul>
+                      <li>This requires that GBM be installed via a package manager or the makefile, so any required files are in a known location.  The option will be disabled otherwise.</li>
+                      <li>The "Start Minimized" option is now available in "Startup" settings.</li>
+                    </ul>
+                  </li>
+                  <li>GBM now stores all Wine configuration data seperately from the core game configuration:
+                    <ul>
+                      <li>The core configuration is no longer altered in any way when a game is detected running in Wine or Proton.</li>
+                      <li>The Wine configuration data is now automatically updated each time a game is detected, such as when running the game from a new prefix.</li>
+                      <li>This data can be viewed and manually modified on the Game Manager.</li>
+                    </ul>
+                  </li>
+                  <li>Fixed the handling of Wine/Proton games when multiple configurations are detected.</li>
+                  <li>Fixed a crash when using "Backup Only" and "New Backups Pending" filters on the Game Manager.</li>
+                  <li>The Mono and GBM process will now exit cleanly if a critical error occurs during startup.</li>
+                  <li>GBM will no longer show the exit dialog when a critical error occurs.</li>
+                </ul>
+              </li>
+            </ul>
+            <h3>1.1.7</h3>
             <ul>
               <li>All Platforms:
                 <ul>
