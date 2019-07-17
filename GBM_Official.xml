@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1557954916" TotalConfigurations="394" AppVer="118">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1563348111" TotalConfigurations="405" AppVer="119">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -209,6 +209,32 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>98eb931e-0afb-4d27-90ab-2d4c5b18d62f</ID>
+    <Name>Age of Wonders III</Name>
+    <ProcessName>AoW3</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\My Games\AoW3\Profiles\</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>SAVES</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -543,7 +569,7 @@
     <OS>1</OS>
     <Tags>
       <Tag>
-        <Name>Epic Games</Name>
+        <Name>EGS</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -912,6 +938,32 @@
       <Tag>
         <Name>DOSBox</Name>
       </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>b7799dfa-cbdf-427b-9854-6eba68e50e38</ID>
+    <Name>BioShock Infinite</Name>
+    <ProcessName>BioShockInfinite</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\My Games\BioShock Infinite\XGame\SaveData</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
       <Tag>
         <Name>GOG</Name>
       </Tag>
@@ -2294,6 +2346,32 @@
     </Tags>
   </Game>
   <Game>
+    <ID>b29c2c79-e91f-4dfe-962b-544118ba29c1</ID>
+    <Name>Dark Souls: Remastered</Name>
+    <ProcessName>DarkSoulsRemastered</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\Documents\NBGI\DARK SOULS REMASTERED\</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>ec01542b-e94b-485a-93c8-159993efa942</ID>
     <Name>Darkest Dungeon</Name>
     <ProcessName>Darkest</ProcessName>
@@ -2351,6 +2429,32 @@
     <ProcessName>Darksiders2</ProcessName>
     <Parameter />
     <Path>%USERDOCUMENTS%\My Games\Darksiders2</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>a0464321-0d8f-4975-9c65-1d6ead9fc240</ID>
+    <Name>Darksiders 3</Name>
+    <ProcessName>Darksiders3</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\Darksiders3\Saved\SaveGames\</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3442,6 +3546,32 @@
     </Tags>
   </Game>
   <Game>
+    <ID>f884d8f1-0709-41f8-bc02-a2f3d80b8309</ID>
+    <Name>Enter the Gungeon</Name>
+    <ProcessName>EtG</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\Dodge Roll\Enter the Gungeon</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>Crashes:Unity:output_log.txt</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>EGS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>e51edf17-ebdc-416a-a71c-8c756848643c</ID>
     <Name>Euro Truck Simulator 2</Name>
     <ProcessName>eurotrucks2</ProcessName>
@@ -3802,6 +3932,32 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>4c514e5a-3f58-4034-89b1-d9de95474939</ID>
+    <Name>Flashback</Name>
+    <ProcessName>Flashback</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\Microids\Flashback</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>*.SAV</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -5844,6 +6000,32 @@
     </Tags>
   </Game>
   <Game>
+    <ID>63b43a54-b9c3-4dc0-94da-d1a9ec7bc702</ID>
+    <Name>Neverwinter Nights - Enhanced Edition</Name>
+    <ProcessName>nwmain</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\Neverwinter Nights\saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>6150adf6-d64b-4499-87fc-133cf590e94f</ID>
     <Name>Neverwinter Nights 2</Name>
     <ProcessName>nwn2</ProcessName>
@@ -6207,6 +6389,32 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>06d1a749-aea3-4832-a881-6b68d7d8ecae</ID>
+    <Name>PC Building Simulator</Name>
+    <ProcessName>PCBS</ProcessName>
+    <Parameter />
+    <Path>Saves</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -7215,7 +7423,7 @@
     <Name>SOMA</Name>
     <ProcessName>Soma</ProcessName>
     <Parameter />
-    <Path>%USERPROFILE%\Documents\My Games\Soma\Main\</Path>
+    <Path>%USERDOCUMENTS%\My Games\Soma\Main\</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -8815,6 +9023,32 @@
     </Tags>
   </Game>
   <Game>
+    <ID>cf9bf0ab-2fa4-4d88-a793-24d7a21b48ee</ID>
+    <Name>Surviving Mars</Name>
+    <ProcessName>MarsGOG</ProcessName>
+    <Parameter />
+    <Path>%APPDATA%\Surviving Mars\Save</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>1258f9c9-b6ff-497e-9246-24c6eae2af94</ID>
     <Name>System Shock: Enhanced Edition</Name>
     <ProcessName>sshock</ProcessName>
@@ -8877,7 +9111,7 @@
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
     <FileType />
-    <ExcludeList>resolution.cfg:tome.gfx.cfg</ExcludeList>
+    <ExcludeList>resolution.cfg:tome.gfx.cfg:screenshots</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -8967,6 +9201,32 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>3203bfde-dd78-46ca-b601-ea04d44fc901</ID>
+    <Name>The Bard's Tale IV - Barrows Deep</Name>
+    <ProcessName>BardsTale4-Win64-Shipping</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\BardsTale4\Saved\SaveGames</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
   </Game>
@@ -9945,6 +10205,32 @@
     </Tags>
   </Game>
   <Game>
+    <ID>50defcd4-237f-4b1e-a39f-ddf468b3b34b</ID>
+    <Name>Vampyr</Name>
+    <ProcessName>AVGame-Win64-Shipping</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\AVGame\Saved\SaveGames</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>true</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>Settings*</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>9c4d688f-9005-4222-b25d-d0a8aa52ce54</ID>
     <Name>Victor Vran</Name>
     <ProcessName>VictorVran</ProcessName>
@@ -9976,7 +10262,7 @@
     <ProcessName>Volgarr</ProcessName>
     <Parameter />
     <Path>HKEY_CURRENT_USER\Software\Crazy Viking Studios\Volgarr the Viking</Path>
-    <AbsolutePath>false</AbsolutePath>
+    <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>

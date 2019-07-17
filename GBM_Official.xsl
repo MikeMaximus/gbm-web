@@ -104,6 +104,12 @@
                               <xsl:if test="Name='FLOSS'">
                                 <img class="logo_tiny" src="images/floss_logo_tiny.png" width="24" height="24" alt="FLOSS" title="FLOSS" />
                               </xsl:if>
+                              <xsl:if test="Name='EGS'">
+                                <a>
+                                  <xsl:attribute name="href">https://www.epicgames.com/store/en-US/store-search?q=<xsl:value-of select="../../Name"/></xsl:attribute>
+                                  <img class="logo_tiny" src="images/egs_logo_tiny.png" width="24" height="24" alt="Epic Games Store" title="Epic Games Store" />
+                                </a>
+                              </xsl:if>
                             </xsl:for-each>
                           </xsl:for-each>
                           <xsl:if test="MonitorOnly='true'">
