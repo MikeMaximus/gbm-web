@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1563348111" TotalConfigurations="405" AppVer="119">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1566288619" TotalConfigurations="410" AppVer="119">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -493,6 +493,29 @@
       <Tag>
         <Name>GOG</Name>
       </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>661fade7-5a8a-443c-8a3c-6373656ba2a3</ID>
+    <Name>Arx Fatalis (Libertatis)</Name>
+    <ProcessName>arx</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\Saved Games\Arx Libertatis\save</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
       <Tag>
         <Name>Official</Name>
       </Tag>
@@ -2350,7 +2373,7 @@
     <Name>Dark Souls: Remastered</Name>
     <ProcessName>DarkSoulsRemastered</ProcessName>
     <Parameter />
-    <Path>%USERPROFILE%\Documents\NBGI\DARK SOULS REMASTERED\</Path>
+    <Path>%USERDOCUMENTS%\NBGI\DARK SOULS REMASTERED\</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2657,6 +2680,32 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>1738c29b-5ace-4a69-98e8-b6cbe742c30f</ID>
+    <Name>Deadbolt</Name>
+    <ProcessName>deadbolt_game</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\deadbolt_game\</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -7130,6 +7179,32 @@
     </Tags>
   </Game>
   <Game>
+    <ID>83f6737a-fed6-4a12-9328-8fb985e75515</ID>
+    <Name>Remnant: From the Ashes</Name>
+    <ProcessName>Remnant-Win64-Shipping</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\Remnant\Saved\SaveGames</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>true</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>45967072-4b6b-46c2-a70d-26d845af5392</ID>
     <Name>Return to Castle Wolfenstein</Name>
     <ProcessName>WolfSP</ProcessName>
@@ -7423,7 +7498,7 @@
     <Name>SOMA</Name>
     <ProcessName>Soma</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\Soma\Main\</Path>
+    <Path>%USERPROFILE%\Documents\My Games\Soma\Main\</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9523,6 +9598,32 @@
     </Tags>
   </Game>
   <Game>
+    <ID>8522c9ae-ebd4-4d1f-b2fe-ea4e61a5bf74</ID>
+    <Name>The Surge</Name>
+    <ProcessName>TheSurge</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\Documents\The Surge\save</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>8f336aef-58ba-4c54-a9c7-f06c04e20871</ID>
     <Name>The Witcher 2 Enhanced Edition</Name>
     <ProcessName>witcher2</ProcessName>
@@ -9605,13 +9706,13 @@
     <Name>They Are Billions</Name>
     <ProcessName>TheyAreBillions(_x86)?$</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\They Are Billions\Saves</Path>
+    <Path>%USERDOCUMENTS%\My Games\They Are Billions</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
     <FileType />
-    <ExcludeList />
+    <ExcludeList>*.txt</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>true</IsRegEx>
@@ -10001,7 +10102,7 @@
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
     <FileType />
-    <ExcludeList>autosave*:quicksave*</ExcludeList>
+    <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -10231,6 +10332,32 @@
     </Tags>
   </Game>
   <Game>
+    <ID>37e7ff03-5446-4c13-86aa-813fa0ab352e</ID>
+    <Name>Venetica</Name>
+    <ProcessName>Venetica</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\Venetica\save</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>9c4d688f-9005-4222-b25d-d0a8aa52ce54</ID>
     <Name>Victor Vran</Name>
     <ProcessName>VictorVran</ProcessName>
@@ -10262,7 +10389,7 @@
     <ProcessName>Volgarr</ProcessName>
     <Parameter />
     <Path>HKEY_CURRENT_USER\Software\Crazy Viking Studios\Volgarr the Viking</Path>
-    <AbsolutePath>true</AbsolutePath>
+    <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
