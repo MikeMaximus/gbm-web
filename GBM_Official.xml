@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1566288619" TotalConfigurations="410" AppVer="119">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1568276067" TotalConfigurations="414" AppVer="119">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -1571,6 +1571,32 @@
     </Tags>
   </Game>
   <Game>
+    <ID>70284d61-a98c-41bb-8da5-16ff462fd619</ID>
+    <Name>Bound by Flame</Name>
+    <ProcessName>BoundByFlame</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\Bound by Flame</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>graphicconfig.txt</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>cf81d2d1-a143-4091-a5c6-82581ea3d545</ID>
     <Name>Broforce</Name>
     <ProcessName>Broforce_beta</ProcessName>
@@ -2122,6 +2148,32 @@
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>2f33e543-358a-4f5f-b4f1-52c36e85d75c</ID>
+    <Name>Control</Name>
+    <ProcessName>Control_DX(11|12)$</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\Remedy\Control\Default-Epic-User</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>savegame*</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>EGS</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -4374,6 +4426,32 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
+    <ID>88c13049-6b2c-42dd-93fb-eed071aacac5</ID>
+    <Name>GreedFall</Name>
+    <ProcessName>GreedFall</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\GreedFall</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>graphicconfig.txt:default.profile64</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>This configuration excludes the "profile64" file because it includes graphical settings that are not included graphicconfig.txt.</Comments>
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
   </Game>
@@ -7498,7 +7576,7 @@
     <Name>SOMA</Name>
     <ProcessName>Soma</ProcessName>
     <Parameter />
-    <Path>%USERPROFILE%\Documents\My Games\Soma\Main\</Path>
+    <Path>%USERDOCUMENTS%\My Games\Soma\Main\</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -9306,6 +9384,32 @@
     </Tags>
   </Game>
   <Game>
+    <ID>a9274439-4b0c-404e-abc8-62fd9548db4e</ID>
+    <Name>The Bard's Tale IV - Barrows Deep: Director's Cut</Name>
+    <ProcessName>BardsTale4-Win64-Shipping</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\BardsTale4DC\Saved\SaveGames</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+  </Game>
+  <Game>
     <ID>83c6d1ca-0bbc-4dce-9ffb-48597c8693ab</ID>
     <Name>The Elder Scrolls II: Daggerfall</Name>
     <ProcessName>DOSBox</ProcessName>
@@ -9602,7 +9706,7 @@
     <Name>The Surge</Name>
     <ProcessName>TheSurge</ProcessName>
     <Parameter />
-    <Path>%USERPROFILE%\Documents\The Surge\save</Path>
+    <Path>%USERDOCUMENTS%\The Surge\save</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -10389,7 +10493,7 @@
     <ProcessName>Volgarr</ProcessName>
     <Parameter />
     <Path>HKEY_CURRENT_USER\Software\Crazy Viking Studios\Volgarr the Viking</Path>
-    <AbsolutePath>false</AbsolutePath>
+    <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
