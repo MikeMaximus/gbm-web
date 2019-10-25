@@ -30,10 +30,10 @@
       <div id="leftcontent">
         <div class="pageSection">
           <div class="pageSectionHeader">
-            Game Backup Monitor v1.1.8 Manual
+            Game Backup Monitor v1.2.0 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated March 24, 2019</h3>
+            <h3 class="notop">Updated October 25, 2019</h3>
             <h3>Disclaimer:</h3>
             <p>This manual may contain information about features not available in the current stable release.</p>
             <p>If you are having a specific problem, please check the <a href="https://github.com/MikeMaximus/gbm/issues">issues</a> list.</p>
@@ -231,17 +231,19 @@
               <li>Add a new game to monitor by clicking the "+" (plus) button below the list box.</li>
               <li>Delete a game by selecting the game(s) from the list and clicking the the "-" (minus) button below the list box.</li>
               <li>Show all games by clicking the "All" option above the list box.</li>
-              <li>Show only games with backup data by clicking the "Backups Only" option above the list box. This filter displays ALL games with backup data, even games that are not currently configured.</li>
+              <li>Show only games with backup data by clicking the "Backups Only" option above the list box. This filter displays ALL games with backup data.</li>
               <li>Show only games with new save data to restore by clicking the "New Backups Pending" option above the list box.</li>
               <li>You can customize a list of games to display by clicking the "Custom" option above the list box.</li>
               <li>Quickly find games by typing the name in the Quick Filter.  This filter is applied on top of any other filter you may be using.</li>
-              <li>You can assign other programs to run each time one or more games are detected by selecting them and clicking the "Processes..." button.</li>
+              <li>You can assign other programs to run each time one or more games are detected by selecting them and clicking the "Link -> Process..." button.</li>
+              <li>You can link game configurations together using the "Link -> Configuration" button.  Linked configuations execute a backup or restore each time the currently selected configuration is triggered.</li>
               <li>You can edit the Tags for one or more games by selecting them and clicking the "Tags..." button.</li>
               <li>Restore an existing backup for a game by selecting the game(s) from the list and clicking the "Restore" button.</li>
               <li>You can mark a game as restored without restoring the data by selecting the game(s) from the list and clicking the "Mark as Restored" button.</li>
               <li>You can backup immediately without playing a game by selecting the game(s) from the list and click the "Backup" button.</li>
+              <li>You can import an existing backup file for the currently selected game using the "Import Backup Files" button.</li>
               <li>You can delete a backup file by selecting the game from the list, choosing a specific backup and clicking the "Delete Backup" button.  You may also delete all backups for that specific game.</li>
-              <li>You can locate the backup file by selecting the game and clicking the "Open Backup File" button.</li>
+              <li>You can locate the backup file or folder by selecting the game and clicking the "Open Backup" button.</li>
               <li>You can view the restore location of the backup file by selecting the game and clicking the "Open Restore Path" button.</li>
               <li>You can <a href="#import">import new game configurations</a> from the <a href="GBM_Official.xml">official list</a> or an XML file using the Import button.</li>
               <li>You can export your game configurations to an XML file using the Export button.</li>
@@ -265,6 +267,7 @@
               <li>You may also set an appropriate value in the "Parameter" field so GBM can determine exactly which game is running. See the "Parameter" section below for more details.</li>
             </ol></p>
             <p>On Linux, games running in Wine are a special case.  Please see the <a href="linux.html">Linux FAQ</a> for more details.</p>
+            <p>The process field can be left blank.  A configuration with an empty process field can only be triggered manually or by a configuration link.</p>
             <h4>Regular Expression:</h4>
             <p>This indicates that the Process field is a Regular Expression.</p>
             <p>Regular Expressions allow GBM to match based on a pattern, so one configuration can detect multiple executables.</p>
@@ -276,12 +279,23 @@
             <p>The full command is: "C:\GOG Games\Battlespire\DOSBOX\DOSBox.exe" -conf "..\dosbox_battlespire.conf" -conf "..\dosbox_battlespire_single.conf" -noconsole -c exit</p>
             <p>We need to set the "Parameter" to something unique in the command, that no other game would be using.  "dosbox_battlespire.conf" or "dosbox_battlespire_single" would work.</p>
             <p>Please note that GBM cannot detect based on only the Parameter, the correct Process must also be used.</p>
-            <h4>Path:</h4>
-            <p>The location of the save files for the game.</p>
-            <p>Most games don't tell you where they save. I highly recommend using PC Gaming Wiki or searching common locations such as the game's installation folder, My Documents or AppData for the location of game saves.</p>
+            <h4>Save Path:</h4>
+            <p>The location of the save files for the game.</p>            
             <p>This path can be absolute, or relative to the game's executable.</p>
-            <p>GBM will automatically determine absolute or relative path settings. If the save games are located in the game folder itself, you should always strive to use a path relative to the game's executable, this way your configuration will work on any PC regardless of where a game is installed. If you don't know what that means then I highly recommend using the "Add Game Wizard" to add new games.</p>
-            <p>The path can also be certain Windows registry locations, please see the <a href="#registry">Windows registry</a> section of the manual for more details.</p>
+            <p>GBM will automatically determine absolute or relative path settings. If the save games are located in the game folder itself, you should always strive to use a path relative to the game's executable, this way your configuration will work on any PC regardless of where a game is installed.</p>
+            <p>The path may also contain supported environment variables and/or <a href="#customvariables">custom path variables</a>.</p>
+            <p>GBM supports the following environment variables.
+            <ul>
+              <li>%USERDOCUMENTS% (This variable is set and only used by GBM at runtime.)</li>
+              <li>%COMMONDOCUMENTS% (This variable is set and only used by GBM at runtime.)</li>
+              <li>%LOCALAPPDATA%"</li>
+              <li>%APPDATA%</li>
+              <li>%USERPROFILE%</li>
+              <li>%PROGRAMDATA%</li>
+            </ul></p>
+            <p>GBM also supports the <a href="https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html">XDG Base Directory Specification</a> while running in Linux.</p>
+            <p>The path can also be certain Windows registry locations, please see the <a href="#registry">Windows registry</a> section of the manual for more details.</p>            
+            <p>Most games don't tell you where they save. I highly recommend using <a href="https://www.pcgamingwiki.com" target=_blank>PC Gaming Wiki</a> or searching common locations such as the game's installation folder, My Documents or AppData for the location of game saves.</p>
             <h4>Save Entire Folder:</h4>
             <p>This indicates if GBM should backup the entire folder indicated in the path. If you don't really know what files are important to be saving, just tick this box. Choosing this option will disable and clear any Include Items.</p>
             <h4>Save Multiple Backups:</h4>
@@ -330,6 +344,7 @@
             <h3>Game Information</h3>
             <h4>Game Path:</h4>
             <p>This is the path to the game's executable file. In most cases GBM will auto-detect this information, but it can be set manually.</p>
+            <p>This field may also contain same supported environment variables and <a href="#customvariables">custom path variables</a> as the Save Path field.</p>
             <p>The path is used to determine the save location for games with a relative save path. It is also used to properly detect games that share process names, like DOSBox and ScummVM games.</p>
             <h4>Company:</h4>
             <p>You can manually set a company name to be displayed when the game is detected. This takes priority over the company information detected from the game's executable.</p>
@@ -337,16 +352,27 @@
             <p>You can manually set a version value to be displayed when the game is detected. This takes priority over the version information detected from the game's executable.</p>
             <h4>Icon:</h4>
             <p>You can manually set a icon to be displayed when the game is detected. This takes priority over the icon used by the game's executable.</p>
-            <h3>Processes:</h3>            
+            <h3>Link -&gt; Process:</h3>            
             <p>You can assign one or more programs to automatically run when a game is detected.  This could be useful to launch a custom control scheme or overlay whenever you play a particular game.</p><img class="manual" src="images/manual/manual_21.jpg" width="386" height="288" alt="Processes" /><br />
             <p>You can manage (Create, Edit or Delete) any Processes you want to use from the Setup menu or inside the Game Manager.</p><img class="manual" src="images/manual/manual_22.jpg" width="586" height="288" alt="Processes" /><br />            
-            <p>Select the processes and use the appropriate buttons to add or remove them.</p>            
+            <p>Select the processes and use the appropriate buttons to add or remove them.</p>
+            <h3>Link -&gt; Configuration:</h3>
+            <p>You may chain game configuations together.  This is an advanced feature that allows one configuration to trigger the backup or restore of any other linked configuration(s).  This is useful for games that may keep saves or other important files in multiple unique locations.
+            <br /><br /><img class="manual" src="images/manual/manual_25.jpg" width="486" height="388" alt="Configuration Links" />
+            <ul>
+              <li>Configurations are linked <b>one-way</b> by default.  For example, Config #1 -> Config #2 means Config #1 will trigger Config #2, but Config #2 will not trigger Config #1.</li>
+              <li>You can setup two-way links if you wish, but you must do this manually by also linking Config #2 -> Config #1 using the example above.</li>
+              <li>Links continue in a chain.  For example, Config #1 triggers Config #2, then Config #2 can trigger Config #3 and so on.</li>
+              <li>Only one instance of a configuration can exist in the same chain, if there are multiple links to the same configuration over a single chain they are ignored.</li>
+              <li>The XML import/export feature supports configuation linking, however all the configurations in the chain must be imported for it to work correctly.</li>
+              <li>When restoring linked configurations that use the "Save Multiple Backups" option, only the latest backup of each configuration in the chain can be restored. If an older backup is selected, you may still proceed without restoring any linked configuration(s).</li>
+            </ul></p>             
             <h3>Tags</h3>
             <p>You can use Tags to organize your game list. You can manage (Create, Edit or Delete) any Tags you want to use from the Setup menu or inside the Game Manager.</p><img class="manual" src="images/manual/manual_13.jpg" width="586" height="288" alt="Tags" /><br />
             <p>Tags allow you to filter the games you want to view in the Game Manager or the configurations you may want to Export to an XML file.</p><img class="manual" src="images/manual/manual_08.jpg" width="386" height="288" alt="Tags" /><br />
             <p>Select the tags and use the appropriate buttons to add or remove them.</p>
             <h4>Important notice regarding adding tags or processes to multiple games:</h4>
-            <p>When you're modifying processes or tags for multiple games, the "Current" list shows every item used by each game you have selected, this doesn't mean those items are already applied to every game selected. If you'd like to apply an item to each selected game and it's already used, simply remove it then re-add it.</p>
+            <p>When you're modifying processes, tags or linked configurations for multiple games, the "Current" list shows every item used by each game you have selected, this doesn't mean those items are already applied to every game selected. If you'd like to apply an item to each selected game and it's already used, simply remove it then re-add it.</p>
             <h3>Monitor Settings</h3>
             <h4>Monitor this Game:</h4>
             <p>This box indicates that GBM will actively monitor for this game.</p>
@@ -367,12 +393,14 @@
             <ul>
               <li>Importing a single backup file will attempt to overwrite the current backup file if one exists. Enable "Save Multiple Backups" if you don't want to overwrite the current backup.</li>
               <li>Importing multiple backup files requires "Save Multple Backups" to be enabled .</li>
-              <li>GBM currently cannot verify that the backup files being imported are compatible with the current configuration.  It's up to the user to import compatible files.</li>
+              <li>GBM will attempt to verify imported backup files and display warnings if a problem is detected.  However, you can still force GBM to import a backup file using this method.</li>
             </ul></p>
             <h4>Delete Backup:</h4>
             <p>This allows deleting the currently selected backup or all backups for the selected game.</p>
-            <h4>Open Backup File:</h4>
+            <h4>Open Backup -&gt; File:</h4>
             <p>This opens the selected backup file in the default software associated with 7-Zip files.</p>
+            <h4>Open Backup -&gt; Folder:</h4>
+            <p>This opens the folder containing the selected backup file using the default folder browser.</p>
             <h4>Open Restore Path:</h4>
             <p>This automatically opens the backup's restore path in the default file browser software.</p>
           </div>
@@ -467,6 +495,16 @@
             <img class="manual" src="images/manual/manual_10.jpg" width="526" height="247" alt="Tools" />
             <h4>Compact Databases</h4>
             <p>This is used to rebuild GBM's databases to use an optimal amount of disk space. It should only be used when databases are reaching a noticably large size.</p>
+            <h4>Import Backup -&gt; Files/Folder</h4>
+            <p>This allows you to import GBM backup files or folders.
+            <ul>
+              <li>Only 7-Zip backup archives containing metadata(_gbm_backup_metadata.xml) are supported by this feature.  This is any backup file created by GBM v1.2.0 or later.</li>
+              <li>You may force the import of older or other backup archives using the "Import Backup Files" feature in the Game Manager.</li>              
+              <li>When the backup configuration for an imported file doesn't exist, it will be created based on the metadata in the file.</li>
+              <li>When the backup configuration for an imported file exists but doesn't match the metadata, it will be updated to match the metadata in the file.</li>
+              <li>If a backup file already exists, it will be overwritten by the imported file without prompt unless the configuration is using the "Save Multiple Backups" option.</li>
+              <li>Backup files cannot be imported if the source location is the same as the destination.  For example, importing a file that already exists in your current GBM backup folder will fail, if you need to do this copy the file or folder somewhere else first.</li>
+            </ul></p>
             <h4>Log -&gt; Clear</h4>
             <p>This is used to clear the current session log.</p>
             <h4>Log -&gt; Save</h4>
@@ -561,7 +599,8 @@
             <h4>What data is synced?</h4>
             <ul>
               <li>Game Configurations</li>
-              <li>Tags</li>
+              <li>Game Configuration Links</li>
+              <li>Tags</li>              
             </ul>
             <h4>What data is not synced?</h4>
             <ul>
