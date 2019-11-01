@@ -33,7 +33,7 @@
             Game Backup Monitor v1.2.0 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated October 28, 2019</h3>
+            <h3 class="notop">Updated November 1, 2019</h3>
             <h3>Disclaimer:</h3>
             <p>This manual may contain information about features not available in the current stable release.</p>
             <p>If you are having a specific problem, please check the <a href="https://github.com/MikeMaximus/gbm/issues">issues</a> list.</p>
@@ -46,6 +46,7 @@
               <li><a href="#settings">Settings</a></li>
               <li><a href="#gamemanager">The Game Manager</a></li>
               <li><a href="#registry">Windows Registry Backups</a></li>
+              <li><a href="#fullbackuprestore">Full Backup and Restore</a></li>
               <li><a href="#search">Search</a></li>
               <li><a href="#import">Importing Game Configurations</a></li>
               <li><a href="#customvariables">Custom Path Variables</a></li>
@@ -168,6 +169,8 @@
             <img class="manual" src="images/manual/manual_17.jpg" width="556" height="388" alt="Settings" />
             <h4>Backup Folder:</h4>
             <p>This is the backup folder where GBM stores all game backups and it's remote database.</p>
+            <h4>Temp Folder:</h4>
+            <p>This is the temporary folder that GBM uses to process backup files before they are moved to the Backup Folder.</p>
             <h4>Create a sub-folder for each game:</h4>
             <p>This indicates if you want GBM to create a sub-folder in the backup folder for each game. This is handy for keeping your backup folder more organized.</p>
             <h4>Use Game ID for folder and file names:</h4>
@@ -424,6 +427,29 @@
               <li>GBM only supports saving and restoring to the HKEY_LOCAL_MACHINE and HKEY_CURRENT_USER registry hives.</li>
               <li>GBM detects registry configurations based on the presence of HKEY_LOCAL_MACHINE, HKLM, HKEY_CURRENT_USER or HKCU at the start of a path.</li>
               <li>The Game Manager will disable all the features that are not supported when a registry configuration is detected.</li>
+            </ul>
+          </div>
+          <div class="pageSectionFooter">
+            <a href="#toc">Back to Contents</a>
+          </div>
+        </div>
+        <div class="pageSection">
+          <div class="pageSectionHeader">
+            <a name="fullbackuprestore" id="fullbackuprestore">Full Backup and Restore</a>
+          </div>
+          <div class="pageSectionContent">
+            <p>You can easily backup or restore your entire game list using the "Run Full Backup" or "Run Full Restore" options available in the File menu or system tray menu.</p>
+            <img class="manual" src="images/manual/manual_26.jpg" width="526" height="434" alt="Full Backup and Restore" />
+            <h4>Important Details:</h4>
+            <ul>
+              <li>When running a full backup or restore, important checks that normally require user input are automatically dealt with by GBM to ensure the process is quick and easy.
+              <ul>
+                  <li>Backup files will be automatically ovewritten when required.</li>
+                  <li>Missing folders will be automatically created when required.</li>
+                  <li>Any critical error or missing information that requires user input will cancel the individual backup or restore.</li>
+                  <li>When the estimated disk space required for the full backup is more than what is available, the entire operation will be aborted.</li>
+              </ul></li>
+              <li>Notifications about warnings and errors are automatically suppressed when doing a full backup or restore.</li>
             </ul>
           </div>
           <div class="pageSectionFooter">
