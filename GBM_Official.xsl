@@ -110,6 +110,18 @@
                                   <img class="logo_tiny" src="images/egs_logo_tiny.png" width="24" height="24" alt="Epic Games Store" title="Epic Games Store" />
                                 </a>
                               </xsl:if>
+                              <xsl:if test="Name='Microsoft Store'">
+                                <a>
+                                  <xsl:attribute name="href">https://www.microsoft.com/en-us/search?q=<xsl:value-of select="../../Name"/></xsl:attribute>
+                                  <img class="logo_tiny" src="images/ms_store_logo_tiny.png" width="24" height="24" alt="Microsoft Store" title="Microsoft Store" />
+                                </a>
+                              </xsl:if>
+                              <xsl:if test="Name='XGP'">
+                                <a>
+                                  <xsl:attribute name="href">https://www.microsoft.com/en-us/search?q=<xsl:value-of select="../../Name"/></xsl:attribute>
+                                  <img class="logo_tiny" src="images/xgp_logo_tiny.png" width="24" height="24" alt="Xbox Game Pass" title="Xbox Game Pass" />
+                                </a>
+                              </xsl:if>
                             </xsl:for-each>
                           </xsl:for-each>
                           <xsl:if test="MonitorOnly='true'">
@@ -132,7 +144,7 @@
                                 <li><span class="tree_label"><b>Include Specific Files</b></span><div class="indent"><xsl:if test="FileType = ''">None</xsl:if><xsl:value-of select="FileType" /></div></li>
                                 <li><span class="tree_label"><b>Exclude Specific Files</b></span><div class="indent"><xsl:if test="ExcludeList = ''">None</xsl:if><xsl:value-of select="ExcludeList" /></div></li>
                               </xsl:if>
-                              <xsl:if test="Comments"><li><span class="tree_label"><b>Comments</b></span><div class="indent"><xsl:if test="Comments = ''">None</xsl:if><xsl:value-of select="Comments" /></div></li></xsl:if>
+                              <xsl:if test="Comments"><li><span class="tree_label"><b>Comments</b></span><div class="indent"><xsl:if test="Comments = ''">None</xsl:if><xsl:value-of select="Comments" /></div></li></xsl:if>                              
                               <li><span class="tree_label"><b>Tags</b></span><div class="indent"><xsl:for-each select="Tags"><xsl:for-each select="Tag"><a href="#" class="tag">#<xsl:value-of select="Name" /></a>&#160;</xsl:for-each></xsl:for-each></div></li>   
                             </ul>
                           </li>
