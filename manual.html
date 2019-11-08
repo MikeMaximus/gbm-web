@@ -33,7 +33,7 @@
             Game Backup Monitor v1.2.0 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated November 1, 2019</h3>
+            <h3 class="notop">Updated November 8, 2019</h3>
             <h3>Disclaimer:</h3>
             <p>This manual may contain information about features not available in the current stable release.</p>
             <p>If you are having a specific problem, please check the <a href="https://github.com/MikeMaximus/gbm/issues">issues</a> list.</p>
@@ -446,7 +446,7 @@
               <ul>
                   <li>Backup files will be automatically ovewritten when required.</li>
                   <li>Missing folders will be automatically created when required.</li>
-                  <li>Any critical error or missing information that requires user input will cancel the individual backup or restore.</li>
+                  <li>Any critical error or missing information that requires user input will skip the individual backup or restore.  For example, a game uses a relative saved game path and the game path is not set, this game will be automatically skipped.</li>
                   <li>When the estimated disk space required for the full backup is more than what is available, the entire operation will be aborted.</li>
               </ul></li>
               <li>Notifications about warnings and errors are automatically suppressed when doing a full backup or restore.</li>
