@@ -32,8 +32,29 @@
           <div class="pageSectionHeader">
             Version History
           </div>
-          <div cass="pageSectionContent">            
-            <h3 class="notop">1.1.9HF1</h3>
+          <div cass="pageSectionContent">
+			<h3 class="notop">1.1.9HF2</h3>
+			<ul>
+				<li>All Platforms:
+					<ul>
+						<li>Multiple variables in the same path are now supported.
+							<ul>
+								<li>This feature is meant to allow the mix of relative path variables with a single absolute path variable when the situation requires it.</li>
+								<li>Multiple Custom Path Variables in the same path are now supported.</li>
+								<li>Mixing Environment Variables with relative Custom Path Variables is now supported.</li>
+							</ul>
+						</li>
+						<li>Allow saving a game configuration with an empty Process field.
+							<ul>
+								<li>This feature is meant to make life easier for users who want to use GBM for manual backups.</li>
+								<li>New users will receive a one-time warning when saving a configuration with no Process, current users may or may not receive this new warning.</li>
+								<li>Configurations with an empty Process field will be automatically excluded from monitoring, regardless of the "Monitor this Game" setting.</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>		  
+            <h3>1.1.9HF1</h3>
             <ul>
               <li>All Platforms:
                 <ul>
