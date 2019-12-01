@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1568276067" TotalConfigurations="414" AppVer="119">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1575209268" TotalConfigurations="427" AppVer="120">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -26,6 +26,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>d7d873b1-8c68-4657-8e37-c2279766a968</ID>
@@ -52,6 +53,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>04a3eeab-89f7-4b25-a285-1040ecfe2e70</ID>
@@ -78,6 +80,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>88a7d949-b975-44da-9fa5-04b849a2a89d</ID>
@@ -104,6 +107,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>0aa0b767-cab5-4c79-b2be-03a36d14b529</ID>
@@ -130,6 +134,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>dc990ac6-37b9-4055-8035-e23b0e1fedb0</ID>
@@ -156,6 +161,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>e26f9683-f2c5-4809-baaa-ffed4a2a64c9</ID>
@@ -185,6 +191,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>84393ab7-a1b0-4e9f-8032-79f24c28bd2d</ID>
@@ -211,6 +218,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>98eb931e-0afb-4d27-90ab-2d4c5b18d62f</ID>
@@ -237,6 +245,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>e90d3134-ef21-45fd-a76b-28a0c51f0cbd</ID>
@@ -263,6 +272,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>ef9fdf4b-b046-47e3-b041-9b020987a707</ID>
@@ -289,6 +299,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>ec6a6d78-3173-4d00-9a2d-6fef606bcf80</ID>
@@ -315,6 +326,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>f69be15b-815d-4c9d-a343-c321af64cf2b</ID>
@@ -341,6 +353,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>f6def339-a34d-44d3-a63e-1463e43c5916</ID>
@@ -367,6 +380,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>97528858-c143-47bd-b0ec-1f45b57a210b</ID>
@@ -393,6 +407,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>a3c7a6e2-6b19-483f-8248-e6e20d69f71e</ID>
@@ -419,6 +434,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>f944f1f9-2010-4986-8f88-027bbfe908e3</ID>
@@ -445,6 +461,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>d287c110-2a47-46d5-8e8f-23b1adb74161</ID>
@@ -471,6 +488,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>52560048-2f87-461b-b477-f7845bf7ee04</ID>
@@ -497,6 +515,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>661fade7-5a8a-443c-8a3c-6373656ba2a3</ID>
@@ -520,6 +539,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>e08a03c0-33f6-47a8-a31b-64c7f52b0cfb</ID>
@@ -546,6 +566,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>dafceeb7-ec1e-44f5-9156-6cbcc0c24809</ID>
@@ -572,6 +593,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>c52b623f-99f3-451d-a845-9c08e135cffc</ID>
@@ -598,6 +620,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>c7961135-3810-46ab-a49c-530433346ba5</ID>
@@ -624,6 +647,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>bae7904b-7381-4495-bc77-1762acc8f681</ID>
@@ -650,6 +674,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>9c08a164-70be-4363-a64d-948d5b1c4a33</ID>
@@ -676,6 +701,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>172e868c-6329-44d4-b6fd-bb8ed8466821</ID>
@@ -702,6 +728,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>43b03eea-b240-414b-8f33-1220aeeb48d5</ID>
@@ -728,6 +755,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>9ddcb6f5-fed0-40fc-aa9f-6653b3dd36ec</ID>
@@ -754,6 +782,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>860b9f5b-6a97-4b49-9bab-da1aefc64bc8</ID>
@@ -780,6 +809,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>586b90da-01dd-4931-9261-dddc7e7b0639</ID>
@@ -806,6 +836,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>df24c82c-39ae-4c3f-9bce-333a6bf4c0d3</ID>
@@ -835,6 +866,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>72fed0ea-39c6-434e-b90c-c130685ea1a2</ID>
@@ -861,6 +893,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>c078119c-f6e6-4d61-a8ef-61fef1ee6652</ID>
@@ -887,6 +920,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>a2068637-db5e-48da-8ca0-246184009ec0</ID>
@@ -913,6 +947,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>ec2463b2-1992-4c5d-a073-4cd2da1e19d3</ID>
@@ -939,6 +974,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>d981198a-898c-40a9-9e63-c4fb67c87e02</ID>
@@ -968,6 +1004,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>b7799dfa-cbdf-427b-9854-6eba68e50e38</ID>
@@ -994,6 +1031,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>94ee6847-4ac9-4c3d-817a-d31e1db4a855</ID>
@@ -1020,6 +1058,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>02685260-208c-4e3d-bf98-e290c2d5faae</ID>
@@ -1046,6 +1085,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>59cdfffe-ce33-463f-8775-2713a992a642</ID>
@@ -1072,6 +1112,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>c4be2210-c9e8-439c-8fd6-2a13e1d4cbbe</ID>
@@ -1098,6 +1139,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>231c4220-9a51-4090-bb4c-637dd79fcf12</ID>
@@ -1124,6 +1166,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>5eb18831-8cd6-4d37-8d62-02cc1e9185c3</ID>
@@ -1150,6 +1193,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>37621295-6f75-47ea-bc4a-0d8f358492d9</ID>
@@ -1176,6 +1220,7 @@
         <Name>Retail</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>20157626-7c2c-4684-acb3-90736250a4e1</ID>
@@ -1202,6 +1247,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>33f7fbb2-d668-4292-b54f-38768d9efc78</ID>
@@ -1228,6 +1274,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>a8f95551-50c6-4331-aed4-62013bdea23d</ID>
@@ -1254,6 +1301,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>a98acbfc-ebb4-46c0-9c01-0cc6794db4f6</ID>
@@ -1280,6 +1328,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>3572c908-18bc-46e2-8cb8-5cde82adfad7</ID>
@@ -1306,6 +1355,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>bce71c17-6dcd-47d8-aa6b-4d9b4d3af9ac</ID>
@@ -1332,6 +1382,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>d1181688-f6e3-484e-ba51-85faea930ff4</ID>
@@ -1358,6 +1409,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>fcf0f274-43f1-4ac7-b55a-634174212c11</ID>
@@ -1384,6 +1436,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>cefc3812-c0c4-4f4a-8406-eccab2e334f2</ID>
@@ -1410,6 +1463,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>3fbc13d0-1d93-461d-8712-c892f7817aa9</ID>
@@ -1436,6 +1490,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>53d170b8-92ef-418e-b5d6-bb314d4d11f3</ID>
@@ -1462,6 +1517,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>b31b202d-9480-4cdc-bfce-c35f697dd817</ID>
@@ -1488,6 +1544,37 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>394c6865-d9c2-447f-be08-b0b93b1fd1b2</ID>
+    <Name>Bloodstained: Ritual of the Night</Name>
+    <ProcessName>BloodstainedRotN</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\Packages\505GAMESS.P.A.BloodstainedRitualoftheNightPCGP_tefn33qh9azfc\LocalCache\Local\BloodstainedRotN\Saved\SaveGames\</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Microsoft Store</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>XGP</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>577245c7-7104-44b4-95ce-f50cc7f46759</ID>
@@ -1514,6 +1601,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>22977a3b-b6b8-4055-a2d2-082bcaec0b4d</ID>
@@ -1540,6 +1628,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>1bc22679-b9c0-4843-ae37-317f792b5dfe</ID>
@@ -1569,6 +1658,7 @@
         <Name>SteamCloud</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>70284d61-a98c-41bb-8da5-16ff462fd619</ID>
@@ -1595,6 +1685,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>cf81d2d1-a143-4091-a5c6-82581ea3d545</ID>
@@ -1621,6 +1712,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>e1eb1744-6795-4141-805e-16defbbfb711</ID>
@@ -1647,6 +1739,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>2a4df139-9a74-4835-8cf1-9a1dc028ecd6</ID>
@@ -1673,6 +1766,7 @@
         <Name>Retail</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>4df7454c-d9fc-459c-90d2-103f37161342</ID>
@@ -1699,6 +1793,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>8b4f364e-64a8-4b17-bad0-8695768e64fa</ID>
@@ -1725,6 +1820,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>714299b0-6cc8-4af4-a490-40fa94a7ed0c</ID>
@@ -1754,6 +1850,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>06e68d80-462b-467e-bcb0-a0c2a81462d2</ID>
@@ -1783,6 +1880,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>541d6ae8-44c3-4cb7-a657-9d1c217c0146</ID>
@@ -1809,6 +1907,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>c1eadd12-d226-43b6-8161-837f859bc6e3</ID>
@@ -1835,6 +1934,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>4f3ef832-5c5e-4bdf-ab97-24409532951c</ID>
@@ -1864,6 +1964,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>453580d1-bc49-4d9c-986e-b457ebebae76</ID>
@@ -1890,6 +1991,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>df6491b3-f678-4d10-b9e0-60b1052a80da</ID>
@@ -1916,6 +2018,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>76ec6d26-acd5-435c-8723-09ae369cf329</ID>
@@ -1942,6 +2045,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>22143982-4833-49ec-963b-563c82d93e7d</ID>
@@ -1968,6 +2072,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>f367477b-01f6-4d21-a3d7-99b298a11718</ID>
@@ -1994,6 +2099,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>e9e42488-1d8d-44a1-ab93-d68c6fa52db7</ID>
@@ -2020,6 +2126,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>9f4fc7e6-ada1-40fc-a44f-408535aad2db</ID>
@@ -2046,6 +2153,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>75c90c8b-f554-48da-a12b-b184122b472e</ID>
@@ -2072,6 +2180,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>494e2d3b-2e64-4631-93c7-53a2d91b5be6</ID>
@@ -2098,6 +2207,7 @@
         <Name>Retail</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>93b0d982-2bb3-4a12-8e5d-bf87d9b14191</ID>
@@ -2124,6 +2234,7 @@
         <Name>Retail</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>6eb1cdaf-431c-40b5-a861-6ddb97764a96</ID>
@@ -2153,6 +2264,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>2f33e543-358a-4f5f-b4f1-52c36e85d75c</ID>
@@ -2179,6 +2291,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>20f5ee6c-4ca9-4a35-aacc-09730302ce62</ID>
@@ -2205,6 +2318,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>5192d666-441f-4c4c-a467-0da7a0389a4d</ID>
@@ -2231,6 +2345,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>1920bb78-4bcd-4be6-907d-c285111eb599</ID>
@@ -2257,6 +2372,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>cc58397e-fc15-464b-9cc0-14dd3f4e6412</ID>
@@ -2286,6 +2402,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>6be818b6-6dcd-4ccc-a9d5-f18019f6edba</ID>
@@ -2315,6 +2432,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>1dd0c95e-82d8-42ae-8b67-050ca9938ff7</ID>
@@ -2341,6 +2459,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>8896f344-664d-4643-aabf-0f3bbacb3a47</ID>
@@ -2367,6 +2486,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>b661114a-e2bb-4e23-8754-09ff5b3332d0</ID>
@@ -2393,6 +2513,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>690c3392-d005-4451-9b0c-f4f81d799d9d</ID>
@@ -2419,6 +2540,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>b29c2c79-e91f-4dfe-962b-544118ba29c1</ID>
@@ -2445,6 +2567,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>ec01542b-e94b-485a-93c8-159993efa942</ID>
@@ -2471,6 +2594,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>44af7c6c-d966-4d2f-ae86-4b07970f7e4c</ID>
@@ -2497,6 +2621,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>da188b9b-9912-461f-837c-05b58dd5b381</ID>
@@ -2523,6 +2648,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>a0464321-0d8f-4975-9c65-1d6ead9fc240</ID>
@@ -2549,6 +2675,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>000b9689-e866-4376-bbb0-5269dec69d7e</ID>
@@ -2575,6 +2702,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>1a6571a5-c90f-457b-9af6-a76caf5b5db6</ID>
@@ -2601,6 +2729,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>2127bfee-5208-4d0f-ab48-65bf44a6e640</ID>
@@ -2627,6 +2756,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>d403fdd5-8362-448e-b650-bb210d11e153</ID>
@@ -2653,6 +2783,7 @@
         <Name>Origin</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>097d6df4-a7e4-4f1c-ace2-bb5771aed51e</ID>
@@ -2682,6 +2813,7 @@
         <Name>Origin</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>1b800046-3e12-4ad9-adf8-1cb7a6b4a040</ID>
@@ -2708,6 +2840,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>260e2843-3bbb-4d40-b7ca-42c9c2074c26</ID>
@@ -2734,6 +2867,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>1738c29b-5ace-4a69-98e8-b6cbe742c30f</ID>
@@ -2760,6 +2894,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>68808dca-f4f8-4faa-8355-14ebcb671682</ID>
@@ -2786,6 +2921,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>1d1fe9ae-b9ac-4ef7-b128-5ea97c3828b9</ID>
@@ -2812,6 +2948,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>965ffb2c-d468-4ab2-9bcf-c8e1fb5e5516</ID>
@@ -2838,6 +2975,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>e0dae765-277e-4624-96e1-c630dc8e37f5</ID>
@@ -2864,6 +3002,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>c58c0537-c2d6-427a-8291-68c0163ae75f</ID>
@@ -2893,6 +3032,7 @@
         <Name>Tracking</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>68964dd7-f5d8-401b-bdbc-afdc6af6ab9e</ID>
@@ -2919,6 +3059,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>22c01e34-d5e2-41ee-837f-1bc0f54fafdd</ID>
@@ -2945,6 +3086,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>ccb66910-bef8-4231-b603-dd925d1d7ea8</ID>
@@ -2971,6 +3113,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>a1bb7916-1480-4eed-8c8d-0fa08e81e5e0</ID>
@@ -2997,6 +3140,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>3d26f1cc-eb88-45c0-a922-dc3be8d64118</ID>
@@ -3023,6 +3167,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>93c0991f-76e5-4f5f-9628-b46b875fc4dd</ID>
@@ -3049,6 +3194,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>cc09e1bd-a914-48ca-af9c-b0b14e082346</ID>
@@ -3075,6 +3221,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>a20e8bf0-a93d-4687-9bca-287c0b4c687e</ID>
@@ -3101,6 +3248,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>f2564a5d-2d09-4d90-923d-14c306ef1211</ID>
@@ -3127,6 +3275,7 @@
         <Name>Origin</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>27949d82-744d-45b0-9e7a-4b1cffbdb48f</ID>
@@ -3153,6 +3302,7 @@
         <Name>Origin</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>d4927975-2909-4049-89a1-5f7879130374</ID>
@@ -3182,6 +3332,7 @@
         <Name>Origin</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>139de610-9e03-4e1a-bfcb-9bcb01ba6925</ID>
@@ -3208,6 +3359,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>07123609-dc2f-44a5-ae1b-f35514d0661c</ID>
@@ -3234,6 +3386,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>7f287c1c-18ed-46a9-ab18-2e57af8f9dc7</ID>
@@ -3260,6 +3413,7 @@
         <Name>Retail</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>54dd48a2-e729-468b-a095-5b6a2e842c74</ID>
@@ -3289,6 +3443,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>70d0b714-0de7-4383-bee9-c81869a8faab</ID>
@@ -3318,6 +3473,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>35d2cd72-5ff4-44ab-996e-57e96a1f9ab2</ID>
@@ -3347,6 +3503,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>30a803cd-a941-425b-917e-80555846c4f4</ID>
@@ -3373,6 +3530,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>8fa1f655-de26-461f-97e2-ed9184ca4a8c</ID>
@@ -3399,6 +3557,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>63ab7f92-c1ca-417e-b728-eee931fb3202</ID>
@@ -3428,6 +3587,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>7a1de725-676a-49ed-966c-dd104e2ee98e</ID>
@@ -3454,6 +3614,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>1cff0392-f077-41ac-b59a-73fdcfc802e1</ID>
@@ -3483,6 +3644,7 @@
         <Name>SteamCloud</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>be705814-32f8-4350-b74e-c22c3dd91298</ID>
@@ -3509,6 +3671,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>47ccfe64-0f12-4c31-a025-b55ee646d22c</ID>
@@ -3538,6 +3701,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>3962fda4-c442-456b-94bc-13080f81d7fc</ID>
@@ -3567,6 +3731,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>4d4ea9f2-4694-40d8-9660-f249757b049d</ID>
@@ -3593,6 +3758,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>a6ab4b2c-35db-49ba-8bca-36fcbbb34f67</ID>
@@ -3619,6 +3785,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>d917565b-a651-43fb-a0ac-c59088fbddcd</ID>
@@ -3645,6 +3812,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>f884d8f1-0709-41f8-bc02-a2f3d80b8309</ID>
@@ -3671,6 +3839,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>e51edf17-ebdc-416a-a71c-8c756848643c</ID>
@@ -3697,6 +3866,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>1aa8c076-8e6b-4f8f-b156-ad0ba485cb1a</ID>
@@ -3723,6 +3893,34 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>4afb1173-a597-4eba-8951-f692fcbb77a7</ID>
+    <Name>Exanima</Name>
+    <ProcessName>Exanima</ProcessName>
+    <Parameter />
+    <Path>%APPDATA%\Exanima</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>true</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>Exanima.ini:Exanima.log</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>7d566275-aa12-45b2-a4b6-478e357106c2</ID>
@@ -3749,6 +3947,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>ae2ed6fd-8caa-4a22-9efc-6090ff5b8d1d</ID>
@@ -3775,6 +3974,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>2238640f-c394-4a1b-bdbd-ff4a5ca4138c</ID>
@@ -3801,6 +4001,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>cd6102fb-15e0-4f10-9f1b-5d86be108fca</ID>
@@ -3827,6 +4028,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>fb638ce6-296a-4aa6-9caa-74ef3af2e4bc</ID>
@@ -3853,6 +4055,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>d7dc6cd1-0b01-4237-a06b-757191b7dbc5</ID>
@@ -3879,6 +4082,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>6ae06dc1-7201-4731-8af6-02ad9f9522ba</ID>
@@ -3905,6 +4109,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>fef2a09e-ad06-45dc-85a7-b6575af400b5</ID>
@@ -3931,6 +4136,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>51fd0a2e-935b-40df-8971-c217dbf24e6e</ID>
@@ -3957,6 +4163,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>71f509c5-e091-4457-95ee-1499321e9dfd</ID>
@@ -3983,6 +4190,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>91edd20e-54b9-4e00-aa16-95063b1bab75</ID>
@@ -4009,6 +4217,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>bbb7b1a1-5cd2-4ffd-85fb-fd443b3e424d</ID>
@@ -4035,6 +4244,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>4c514e5a-3f58-4034-89b1-d9de95474939</ID>
@@ -4061,6 +4271,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>8756e53f-3ee7-4eed-8374-c168d9c1cb40</ID>
@@ -4087,6 +4298,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>eb9e6170-15f8-4d46-b62a-b763ffb8d63f</ID>
@@ -4113,6 +4325,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>0b185e46-7eac-442a-94ba-086114b66dda</ID>
@@ -4139,6 +4352,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>ca7835ae-50d5-41c6-b773-b2ae56386437</ID>
@@ -4165,6 +4379,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>d34d7237-4513-4935-98aa-2c12758646fc</ID>
@@ -4191,6 +4406,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>d21e7c14-8f71-4451-be51-9b8c988821d5</ID>
@@ -4217,6 +4433,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>06818f13-9daf-4e61-9854-afa5bba7f322</ID>
@@ -4243,6 +4460,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>38473f9b-e554-4f42-a858-696a615f71bb</ID>
@@ -4269,6 +4487,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>a39b6188-e875-4ce5-81dc-d0428f761737</ID>
@@ -4295,6 +4514,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>19a1dff6-d0c1-48a3-a56e-9f3551cea962</ID>
@@ -4324,6 +4544,7 @@
         <Name>SteamCloud</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>fa270d87-d79a-4a88-bc76-629b1f50ff25</ID>
@@ -4350,6 +4571,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>bfe9fe20-0ab2-4205-a586-eb2cf771131e</ID>
@@ -4376,6 +4598,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>2309eab7-4055-4541-b9e0-9f6d38d0b673</ID>
@@ -4402,6 +4625,7 @@
         <Name>Retail</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>7f0046d8-3559-444d-aedf-b43c890aabde</ID>
@@ -4428,6 +4652,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>88c13049-6b2c-42dd-93fb-eed071aacac5</ID>
@@ -4454,6 +4679,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>76b17e6c-16cb-42c0-a01e-b2fa64da6610</ID>
@@ -4480,6 +4706,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>770276f7-640f-487b-a58a-a02e6fdd2491</ID>
@@ -4506,6 +4733,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>6f413280-2d53-4471-88c8-dbebe29f5f9b</ID>
@@ -4532,6 +4760,7 @@
         <Name>Tracking</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>0df46334-6e08-4a70-939a-6957878331cf</ID>
@@ -4561,6 +4790,7 @@
         <Name>Tracking</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>26ed1c43-19ea-4b9f-9da1-16a768a6b413</ID>
@@ -4587,6 +4817,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>e02a4a3d-de76-4c32-8b71-71dc472bdd57</ID>
@@ -4613,6 +4844,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>4133b218-46fc-45f8-b767-cc28fdeac573</ID>
@@ -4639,6 +4871,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>7ea2f2e0-e729-466e-8e05-e4a4784b4fb2</ID>
@@ -4668,6 +4901,7 @@
         <Name>Tracking</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>1982700c-80d6-4559-ac31-75639b4686a3</ID>
@@ -4694,6 +4928,7 @@
         <Name>Retail</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>95224f18-724b-4ede-ac79-0cb5e08be89f</ID>
@@ -4720,6 +4955,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>01851e68-560b-4986-ac72-2978b613c0bb</ID>
@@ -4749,6 +4985,7 @@
         <Name>Tracking</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>3cf08b4b-e920-4fd9-b24d-2064d86c33d2</ID>
@@ -4775,6 +5012,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>f16ec12b-d304-4b6f-b466-ba6b7f4b70bd</ID>
@@ -4801,6 +5039,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>f14aeb85-d513-46bb-979c-7556c8040d03</ID>
@@ -4827,6 +5066,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>e169cdd3-3fd9-425e-8644-2560cf4c23e1</ID>
@@ -4853,6 +5093,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>0e219d34-aa5c-4144-9fb2-7d685f16eaa2</ID>
@@ -4879,6 +5120,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>f5347255-e8b5-4374-92b5-4a271b100930</ID>
@@ -4905,6 +5147,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>0f7cfd3d-f9ea-4a84-83a7-e6ae523b8206</ID>
@@ -4931,6 +5174,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>35114ecd-50f9-4db7-a2b8-63dae686363e</ID>
@@ -4957,6 +5201,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>12548ca7-45fe-481d-8f56-857c9cbfaffc</ID>
@@ -4983,6 +5228,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>7c1756a8-6a56-4d22-97f5-a31292abcdfa</ID>
@@ -5009,6 +5255,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>87920ada-1828-482d-a9a6-6e81ab89aa90</ID>
@@ -5038,6 +5285,7 @@
         <Name>ScummVM</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>061b94e6-75e3-4ae8-aa6c-9be611c4f340</ID>
@@ -5067,6 +5315,7 @@
         <Name>ScummVM</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>9fb1000e-f269-4a29-9ee8-58745a3fc88c</ID>
@@ -5093,6 +5342,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>0788f1f6-3692-4e0b-b853-ef17e3bab130</ID>
@@ -5122,6 +5372,7 @@
         <Name>SteamCloud</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>86a45538-e414-479f-9d4a-d51cd605d264</ID>
@@ -5148,6 +5399,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>de7b5f3b-4af4-4993-a86c-befb35d5de68</ID>
@@ -5174,6 +5426,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>cf9b7ba3-0225-4c19-a993-d063e6fe6f12</ID>
@@ -5200,6 +5453,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>607716b9-0c22-4080-ba69-86ab88f9502d</ID>
@@ -5226,6 +5480,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>41927e16-f4f1-4858-b13e-7886dbffc005</ID>
@@ -5252,6 +5507,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>db56d69b-a118-42f1-aab1-b64fa64ef4f8</ID>
@@ -5281,6 +5537,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>2de72b51-40ef-49e3-802b-beee677741dd</ID>
@@ -5307,6 +5564,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>0ec9c3b9-4089-4004-b23b-7ee9c77c4cfd</ID>
@@ -5333,6 +5591,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>6766a309-3cb4-4f03-ad3e-97bb71514657</ID>
@@ -5359,6 +5618,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>9c56dd9a-46b9-451e-9d12-cca2c816d988</ID>
@@ -5385,6 +5645,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>424b91ed-d656-406b-b74f-2c7a11532eba</ID>
@@ -5411,6 +5672,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>a1d36994-249f-4a78-b9ff-a800d0af2479</ID>
@@ -5437,6 +5699,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>60789e00-9d08-4e24-90fc-a9aa19b488ea</ID>
@@ -5463,6 +5726,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>cd1e73be-f07f-4620-8d86-a1ce6f09db20</ID>
@@ -5489,6 +5753,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>9a828e5f-e9d7-470f-b75c-2b2eda9861bb</ID>
@@ -5515,6 +5780,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>67437a25-5604-4be2-a024-95fedfa17530</ID>
@@ -5541,6 +5807,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>9e2a6d5a-fec7-4721-9188-0fe1707cbf69</ID>
@@ -5567,6 +5834,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>48adfb84-4203-430d-a8d1-5d8df5207725</ID>
@@ -5593,6 +5861,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>2c1a0d8c-49fc-4257-8632-11310ba4fc34</ID>
@@ -5622,6 +5891,7 @@
         <Name>SteamCloud</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>89ee5c26-6dc7-4e65-958f-5a961c34bcbe</ID>
@@ -5648,6 +5918,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>40bd1560-c43f-47bd-87b0-2a3e136208fd</ID>
@@ -5674,6 +5945,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>78933576-f7a8-48de-b574-800d5f9f7e18</ID>
@@ -5700,6 +5972,34 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>0e7da5fa-1181-45ad-a3e6-1d7e70ed9d82</ID>
+    <Name>Mars: War Logs</Name>
+    <ProcessName>MarsWarLogs</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\Mars - War Logs</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>*.txt</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>58fb610a-b978-4d09-9ed6-1e95699b7766</ID>
@@ -5726,6 +6026,7 @@
         <Name>Origin</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>f6b13856-2377-43e0-917c-c353aac9b061</ID>
@@ -5752,6 +6053,7 @@
         <Name>Origin</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>2b3f4eab-4280-4a59-88f5-501f0c9f0679</ID>
@@ -5778,6 +6080,7 @@
         <Name>Origin</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>482cc657-1d55-46ad-b6fa-c3c296b86925</ID>
@@ -5804,6 +6107,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>0e93fab8-bef5-4603-b699-3483fd8f6390</ID>
@@ -5830,6 +6134,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>8ac11c11-8d18-471b-8f0d-aa154dc77f0e</ID>
@@ -5856,6 +6161,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>890d998c-91d0-46ed-a3cd-e8e01fff661a</ID>
@@ -5882,6 +6188,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>f8b0754a-89af-4f5b-b615-f4c71f01f80c</ID>
@@ -5908,6 +6215,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>8d5de3fa-9ff4-4cdf-abef-f859c379bd38</ID>
@@ -5934,6 +6242,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>3a84fb23-2c61-4d21-a679-3c92d1d2f5bb</ID>
@@ -5963,6 +6272,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>d27da0f6-070f-4243-ab5c-3f3f146d216b</ID>
@@ -5992,6 +6302,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>a7adcd70-764f-456a-ad4f-b22b0fc24880</ID>
@@ -6021,6 +6332,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>88a3fa77-0d32-4d5e-bb0a-798f6996a424</ID>
@@ -6047,6 +6359,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>cc09f2e3-96ae-4978-9053-403f27ab4855</ID>
@@ -6073,6 +6386,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>570e62b2-7ddb-41c6-8a38-261dc35858c5</ID>
@@ -6099,6 +6413,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>a0ef3871-0147-458c-8386-aa52e97f1631</ID>
@@ -6125,6 +6440,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>63b43a54-b9c3-4dc0-94da-d1a9ec7bc702</ID>
@@ -6151,6 +6467,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>6150adf6-d64b-4499-87fc-133cf590e94f</ID>
@@ -6177,6 +6494,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>f5ae27d1-a518-4ca0-aead-fbd958263a7a</ID>
@@ -6206,6 +6524,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>103d4778-d806-46b5-b2d5-b632681527e4</ID>
@@ -6232,6 +6551,34 @@
         <Name>Retail</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>d8a90e78-ad2b-49f1-aaff-ded97d674938</ID>
+    <Name>Noita</Name>
+    <ProcessName>noita</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\AppData\LocalLow\Nolla_Games_Noita\</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>save_shared</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>This game closes and restarts each time the player dies, this will trigger a backup.</Comments>
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>55faba74-8d1d-4a15-8ca5-665acb377329</ID>
@@ -6258,6 +6605,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>cd0a0252-f573-4e24-92a4-af45bec84954</ID>
@@ -6284,6 +6632,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>9a7ad0e2-b9b3-4b7b-9115-920f53ca7d5c</ID>
@@ -6310,6 +6659,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>88f77c22-7b58-4b88-ae3f-9c768b562830</ID>
@@ -6336,6 +6686,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>3ade8ff2-77dc-4ac5-97a8-f15219485fc3</ID>
@@ -6362,6 +6713,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>708a2115-f40b-4459-9dfd-7e05ec2984c1</ID>
@@ -6388,6 +6740,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>3099d19f-0bf6-46f7-8554-e6f5b63be39e</ID>
@@ -6414,6 +6767,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>bb4f2224-a344-4945-ad3a-4c96271cc58a</ID>
@@ -6440,6 +6794,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>87da9d5a-151a-4ac9-a6c8-a3bceaaaf098</ID>
@@ -6466,6 +6821,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>03d7ac8c-d808-4f64-af42-549a9638701a</ID>
@@ -6492,6 +6848,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>147b3a16-5aab-4908-b710-d48e148da32a</ID>
@@ -6518,6 +6875,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>06d1a749-aea3-4832-a881-6b68d7d8ecae</ID>
@@ -6544,6 +6902,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>cd7adf8e-5ca6-4f88-a437-74fec8d6a1ca</ID>
@@ -6570,6 +6929,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>621b32ef-7b24-4468-800c-4b5344e06158</ID>
@@ -6596,6 +6956,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>8cebb5ca-4047-4045-a6fe-f218efb7d810</ID>
@@ -6622,6 +6983,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>09a24c2a-ef45-4f49-92cd-9a0b13a821e9</ID>
@@ -6648,6 +7010,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>6b07ba10-ec09-4e49-a630-1ff4f96246a1</ID>
@@ -6674,6 +7037,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>5c17a1b6-188f-48da-a5aa-385247b5fa1e</ID>
@@ -6700,6 +7064,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>1f03cd73-ed5d-4230-8284-424769af61f6</ID>
@@ -6726,6 +7091,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>592a5f4d-b7a5-4f10-bb77-de3c07b60b2b</ID>
@@ -6752,6 +7118,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>30ca84e5-f506-42d5-9360-627f1fe56032</ID>
@@ -6778,6 +7145,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>0b81da11-27f6-46d5-b8d6-cda89a088a96</ID>
@@ -6804,6 +7172,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>aaec76aa-9855-4b8f-a128-7af2c649f7d1</ID>
@@ -6830,6 +7199,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>6940b4de-536c-4a53-aff9-56208dfa27be</ID>
@@ -6856,6 +7226,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>101a4118-0393-4c77-a85e-ede4c5cab61d</ID>
@@ -6882,6 +7253,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>c6a2ba1a-397e-4b07-9b99-1e6eb6d90800</ID>
@@ -6908,6 +7280,7 @@
         <Name>Retail</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>e23fc34a-1d61-4cfe-b2bc-9709f22c73fe</ID>
@@ -6934,11 +7307,12 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>674d9b8d-f4d8-4d34-8dbe-e766a21b4088</ID>
     <Name>Prison Architect</Name>
-    <ProcessName>Prison Architect</ProcessName>
+    <ProcessName>Prison Architect(64)?$</ProcessName>
     <Parameter />
     <Path>%LOCALAPPDATA%\Introversion\Prison Architect\saves</Path>
     <AbsolutePath>true</AbsolutePath>
@@ -6949,10 +7323,13 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
     <OS>1</OS>
     <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
@@ -6960,6 +7337,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>d8bf552b-42b9-4f24-aea6-a6477c4d25c4</ID>
@@ -6986,6 +7364,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>e1b32ac9-a2f3-45cf-b5a9-0c9a645d255c</ID>
@@ -7012,6 +7391,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>922c28d3-dd33-4fe0-9443-5e6fba254681</ID>
@@ -7024,7 +7404,7 @@
     <AppendTimeStamp>true</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
     <FileType />
-    <ExcludeList>Logs:options.ini</ExcludeList>
+    <ExcludeList>Logs:options.ini:examplemod</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>true</IsRegEx>
@@ -7041,6 +7421,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>6c3ec858-1f8b-4240-82ff-2c5b3afa1cbe</ID>
@@ -7067,6 +7448,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>fc6ac503-124a-4772-bf39-5e48754a8589</ID>
@@ -7096,6 +7478,7 @@
         <Name>SteamCloud</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>9425e8d1-d7af-4c62-b930-b3584495cd5a</ID>
@@ -7122,6 +7505,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>2c2b5b9e-40e4-4b30-a967-d04909ac5b06</ID>
@@ -7148,6 +7532,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>df9d11b1-9591-4c77-8075-eb93a99a6a0a</ID>
@@ -7177,6 +7562,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>375da781-28ca-429f-a36e-ae93885a96f9</ID>
@@ -7203,6 +7589,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>9c8e72aa-79be-4e57-a930-577373c34f5e</ID>
@@ -7229,6 +7616,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>9e42360f-24f6-4584-9abf-082dfa108369</ID>
@@ -7255,6 +7643,34 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>e02e7a6d-f272-4cde-9a8e-0323f9b48194</ID>
+    <Name>Redout: Solar Challenge Edition</Name>
+    <ProcessName>redout</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\redout\Saved\SaveGames</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>83f6737a-fed6-4a12-9328-8fb985e75515</ID>
@@ -7281,6 +7697,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>45967072-4b6b-46c2-a70d-26d845af5392</ID>
@@ -7307,6 +7724,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>3be0c5d5-461d-4439-bc13-3e659d328054</ID>
@@ -7333,6 +7751,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>def3a0e0-a53f-4c72-bc4c-59db3be157bd</ID>
@@ -7359,6 +7778,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>0c15f2d9-161b-4f09-909c-f1d4322005b0</ID>
@@ -7388,6 +7808,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>50f79370-ed49-4f22-be30-0392fc151948</ID>
@@ -7414,6 +7835,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>80e086da-5278-469c-8371-eb652d7c42c6</ID>
@@ -7440,6 +7862,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>5b49b743-2995-486f-9e56-b96ec31dfcd5</ID>
@@ -7466,6 +7889,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>6b21dbb7-162c-4a24-a076-1cec36b8005a</ID>
@@ -7492,6 +7916,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>e3990862-6a70-415a-a39d-1dddd5b08e5d</ID>
@@ -7518,6 +7943,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>18f194a0-e2bc-40aa-949e-dfdf47b93a70</ID>
@@ -7544,6 +7970,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>0a4edbe4-220d-4e30-bd3d-d09ff97ff44c</ID>
@@ -7570,6 +7997,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>5d52f23d-6b79-400a-9f3e-b2d9141e9c61</ID>
@@ -7596,6 +8024,61 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>4317b04c-7f9a-477f-8394-2950ec052603</ID>
+    <Name>SWAT 4</Name>
+    <ProcessName>Swat4</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>Campaign.ini</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>781db37d-977d-493d-b598-06ecd7251781</ID>
+    <Name>SWAT 4: The Stetchkov Syndicate</Name>
+    <ProcessName>Swat4X</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>Campaign.ini</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>37a791b2-2011-4210-aa08-96f382653002</ID>
@@ -7622,6 +8105,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>05f20eca-9269-4021-9690-1727b1ec70b6</ID>
@@ -7648,6 +8132,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>7bbc1fea-42dc-4b00-8a84-99b2b843854c</ID>
@@ -7674,6 +8159,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>0ceaf1aa-9502-43ce-837b-55ad0192285b</ID>
@@ -7700,6 +8186,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>6d180308-0f73-46be-9ca6-726ab96bc4d3</ID>
@@ -7726,6 +8213,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>aa8bf8fe-b5cf-4718-a352-90e049e069ca</ID>
@@ -7752,6 +8240,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>1537a960-6ef0-4a9c-a749-a9a99034f146</ID>
@@ -7778,6 +8267,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>b7f9df61-2fba-4188-b006-ffa7c7bb396e</ID>
@@ -7804,6 +8294,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>83c1200b-a5fa-4c6a-9c3f-471d3a90ed05</ID>
@@ -7830,6 +8321,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>e55c752e-f403-4607-a4f6-aa5cfbb94164</ID>
@@ -7856,6 +8348,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>552515d6-1fda-4fb2-b8dd-f279ec558ba8</ID>
@@ -7882,6 +8375,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>731bee04-252a-4de5-92ed-c1c9db7b2abe</ID>
@@ -7908,6 +8402,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>64b07969-5f1a-436d-a53c-2114c5524831</ID>
@@ -7934,6 +8429,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>3367f63e-f3de-4285-80b8-fe30a0dadefc</ID>
@@ -7963,6 +8459,7 @@
         <Name>Tracking</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>41f779ae-49d2-4fcb-a98d-c59d6961f1ee</ID>
@@ -7989,6 +8486,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>b035daf2-92cd-4560-a7ee-ccf0dcd8389e</ID>
@@ -8015,6 +8513,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>f10dac21-538f-44f4-b2b0-af86f8d3a2fa</ID>
@@ -8041,6 +8540,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>2b6f23d4-3020-41f7-b8e2-3a04d1be7bbf</ID>
@@ -8067,6 +8567,34 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>20868d57-310f-40ae-8814-fe40b927cddc</ID>
+    <Name>Shenmue 3</Name>
+    <ProcessName>Shenmue3-Win64-Shipping</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\Shenmue3\Saved\SaveGames</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>This game stores the autosave and the settings in the same file.  This configuration includes the autosave, so most graphics settings will transfer between different PCs.</Comments>
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>EGS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>7139df27-0505-4268-88ba-761add1251a9</ID>
@@ -8093,6 +8621,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>9189cdde-4dc1-4c31-8e8b-222ead401e00</ID>
@@ -8119,6 +8648,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>0d96b6f8-6eae-4738-99e9-e74f2b7e08c3</ID>
@@ -8145,6 +8675,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>ff23dc57-06c5-4ff7-a2a8-8aa0def8bbb9</ID>
@@ -8171,6 +8702,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>327400</ID>
@@ -8200,6 +8732,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>89741429-bc79-43e3-9ebd-a698d4be7388</ID>
@@ -8226,6 +8759,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>0a4cc240-c97d-4d30-ac28-2c889c521824</ID>
@@ -8252,6 +8786,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>14c3fae6-e3d0-412c-8b7d-9c33d395b1e7</ID>
@@ -8278,6 +8813,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>368d10bc-2365-4a21-8f44-ada497f46cf2</ID>
@@ -8304,6 +8840,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>933f6076-47f6-411a-be0c-5578f5b7a757</ID>
@@ -8330,6 +8867,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>93b33362-fa7b-42b7-ba7b-2af09f067cf2</ID>
@@ -8356,6 +8894,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>4e391c85-4fc1-4bb3-9ac6-a8ea5251791b</ID>
@@ -8382,6 +8921,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>f2f60a3d-4e01-46ab-b75f-daf1bb8effe0</ID>
@@ -8408,6 +8948,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>ba454b95-8a05-4141-be8a-af1f557aaed9</ID>
@@ -8434,6 +8975,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>1b0815d1-9112-4538-96c4-c33cea9f7260</ID>
@@ -8460,6 +9002,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>aa53b4d4-3381-4a66-a162-804095506185</ID>
@@ -8486,6 +9029,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>3f16b1c1-0ea1-42ed-bc92-47867a809c8a</ID>
@@ -8512,6 +9056,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>b2a9a6c1-c481-4e6d-9c72-39a8dbb0fbe8</ID>
@@ -8541,6 +9086,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>74d2c0c6-4e31-4f3c-b9a8-dcea49103f2e</ID>
@@ -8570,6 +9116,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>36600109-9599-4a91-87a1-e1605ba90bcf</ID>
@@ -8596,6 +9143,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>154bd065-921b-4281-84c7-3a51e094df6a</ID>
@@ -8622,6 +9170,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>39d769ee-4092-467a-8f18-be530d2abd48</ID>
@@ -8648,6 +9197,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>5b0dea13-ec94-4627-9f76-621c79687d13</ID>
@@ -8674,6 +9224,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>76f1c74f-4a6d-43a7-8e7c-8a9bf629777c</ID>
@@ -8703,6 +9254,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>2bbdaf5c-c94b-43e9-8134-614e3d3ff652</ID>
@@ -8729,6 +9281,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>08108ba9-5fa5-4f63-b139-a2d424ee4d6c</ID>
@@ -8755,6 +9308,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>9f533304-ad3f-4b09-a771-0529b87537a9</ID>
@@ -8781,6 +9335,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>2e050f46-d20a-434c-9216-73cf73d4e191</ID>
@@ -8807,6 +9362,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>22344f1c-659e-4a94-a9a5-18c840a2dd4d</ID>
@@ -8833,6 +9389,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>a99adc5c-5bba-4aa1-a247-6f701fd75386</ID>
@@ -8859,6 +9416,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>9683b2cc-00e7-4109-a55b-b4b4697316eb</ID>
@@ -8885,6 +9443,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>45f4fa25-7c7c-43fb-b3c5-70ac025c318a</ID>
@@ -8911,6 +9470,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>ad2c3fb6-963d-4a23-add1-edcd03b6a67e</ID>
@@ -8937,6 +9497,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>298dd41f-b798-4ef7-bdea-669c556cf97a</ID>
@@ -8963,6 +9524,37 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>f739d656-1a0d-419d-81ff-74b6d3c11446</ID>
+    <Name>State of Decay 2</Name>
+    <ProcessName>StateOfDecay2-UWP64-Shipping</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\Packages\Microsoft.Dayton_8wekyb3d8bbwe\SystemAppData\wgs</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>true</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Microsoft Store</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>XGP</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>2f794704-65a5-4814-b09b-efb15d034ee9</ID>
@@ -8989,6 +9581,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>9424d441-d5ae-4028-8fc5-535d5f50b59f</ID>
@@ -9015,6 +9608,34 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>e0a5bfd5-4cf6-452c-9e6f-3a081f5f112c</ID>
+    <Name>Stranglehold</Name>
+    <ProcessName>Retail-Stranglehold</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\Stranglehold\Checkpoints</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>Since the graphical settings in this game are minimal, this backup includes all settings.</Comments>
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>3d16c315-70d4-40bf-bed4-3434accbaea1</ID>
@@ -9041,6 +9662,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>0f9bfaa5-f1c8-48bf-9c59-8c2f72638d85</ID>
@@ -9067,6 +9689,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>567f5108-ca8a-4665-bcbe-7ff8b225da5f</ID>
@@ -9096,6 +9719,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>897051ea-2795-4abb-9c6c-48498a79c6d4</ID>
@@ -9122,6 +9746,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>e55e38c2-32a7-43d9-8dd8-70b99ba8f597</ID>
@@ -9148,6 +9773,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>cc635311-7c8f-477b-9025-6a99368dd6dd</ID>
@@ -9174,6 +9800,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>cf9bf0ab-2fa4-4d88-a793-24d7a21b48ee</ID>
@@ -9200,6 +9827,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>1258f9c9-b6ff-497e-9246-24c6eae2af94</ID>
@@ -9226,6 +9854,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>5cc3a449-746e-4b05-9d27-0f0d31e794a3</ID>
@@ -9252,6 +9881,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>024e88cf-bc1a-44e9-ad58-14e8b2c91bb0</ID>
@@ -9278,6 +9908,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>7c637e29-7367-464f-914a-db12bb86d616</ID>
@@ -9304,6 +9935,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>24233179-c4e3-4f32-874f-24322fd27d05</ID>
@@ -9330,6 +9962,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>391ea4d5-867b-4dd4-84c9-139b7effc508</ID>
@@ -9356,6 +9989,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>3203bfde-dd78-46ca-b601-ea04d44fc901</ID>
@@ -9382,6 +10016,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>a9274439-4b0c-404e-abc8-62fd9548db4e</ID>
@@ -9408,6 +10043,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>83c6d1ca-0bbc-4dce-9ffb-48597c8693ab</ID>
@@ -9437,6 +10073,34 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>a22f032a-06a4-45b5-839d-f51fe5b55518</ID>
+    <Name>The Elder Scrolls II: Daggerfall (Unity)</Name>
+    <ProcessName>DaggerfallUnity</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\Daggerfall Workshop\Daggerfall Unity\Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Mod</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>ae9bfa16-e8b7-4236-a212-bddaa6c94cc0</ID>
@@ -9463,6 +10127,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>a371f859-328c-4a7f-8b4f-752733c22117</ID>
@@ -9489,6 +10154,7 @@
         <Name>Retail</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>5a96a097-1ca6-46fd-847b-3de42428877f</ID>
@@ -9515,6 +10181,7 @@
         <Name>Tracking</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>b8b191aa-1eec-4d71-8646-50d3b60e1331</ID>
@@ -9541,6 +10208,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>f1289b0a-e751-45fd-92a4-025fd95da3be</ID>
@@ -9567,6 +10235,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>a4453fec-934b-43be-b22f-9513a438808f</ID>
@@ -9596,6 +10265,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>709a6de5-3495-429f-a2b4-8ba952c3ae9c</ID>
@@ -9622,6 +10292,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>b3f8187c-cd34-4986-a84c-3216b879db00</ID>
@@ -9648,6 +10319,37 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>5c143e60-902a-476d-ac3c-82d1ee96c542</ID>
+    <Name>The Outer Worlds</Name>
+    <ProcessName>TheOuterWorlds</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\Saved Games\The Outer Worlds Windows 10</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>This game may show up as detected for a minute or two after closing it, but it will shut down eventually.</Comments>
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Microsoft Store</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>XGP</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>a4f45db7-bda9-421a-b1ac-76581e282172</ID>
@@ -9674,6 +10376,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>f929f710-2a6b-49ce-8845-530793d6170e</ID>
@@ -9700,6 +10403,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>8522c9ae-ebd4-4d1f-b2fe-ea4e61a5bf74</ID>
@@ -9726,6 +10430,34 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>042ccb4f-31bf-451f-a0bf-022fd81b045c</ID>
+    <Name>The Technomancer</Name>
+    <ProcessName>TheTechnomancer</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\The Technomancer</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>graphicconfig.txt</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>8f336aef-58ba-4c54-a9c7-f06c04e20871</ID>
@@ -9752,6 +10484,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>7ee3e6a6-81e9-47e7-ab51-0718f1ebaf7b</ID>
@@ -9778,6 +10511,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>dd94920e-5f92-4c75-9953-3d665325b38e</ID>
@@ -9804,6 +10538,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>2fc4a81a-4cac-4b0a-b96f-598c00742674</ID>
@@ -9830,6 +10565,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>a135dee1-a51e-4349-98c3-d6d598da9408</ID>
@@ -9856,6 +10592,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>36250a0f-1616-4689-9258-914731294871</ID>
@@ -9882,6 +10619,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>6c8e535d-5e41-4175-863c-76f194206110</ID>
@@ -9908,6 +10646,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>86c90a8f-98a9-42dc-9f9d-a6822ad2661a</ID>
@@ -9934,6 +10673,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>9a059303-54cc-4c62-bc05-0ac58ed5f4b3</ID>
@@ -9960,6 +10700,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>52b16eb3-5620-46b7-aaac-2507595eed93</ID>
@@ -9986,6 +10727,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>29245486-4fb0-4f29-a567-48a9c53aac60</ID>
@@ -10012,6 +10754,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>88e290f0-1d28-422b-b152-9b347f909d73</ID>
@@ -10038,6 +10781,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>76c9001d-7dda-4b19-baed-4cf7bab961c7</ID>
@@ -10064,6 +10808,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>6f37dbaa-05de-4526-81a3-c800b4b1f169</ID>
@@ -10090,6 +10835,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>75e2c670-6063-476b-b715-3478832be617</ID>
@@ -10116,6 +10862,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>ff08d835-76dd-44ca-8c90-dce0560aed1f</ID>
@@ -10142,6 +10889,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>7e7b7ea5-310b-47a5-8c3f-dd48d72cb3b4</ID>
@@ -10168,6 +10916,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>d9053367-8407-4ac6-8b89-0f720e2a4e82</ID>
@@ -10194,6 +10943,7 @@
         <Name>Retail</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>ad7254f8-ad82-4ade-bc05-23cff7855fbe</ID>
@@ -10223,6 +10973,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>e41431b2-d539-4f5c-b155-8d4731394903</ID>
@@ -10249,6 +11000,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>8b56d728-f9b7-4380-9229-ca69deab25c0</ID>
@@ -10275,6 +11027,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>dc3d49a4-54ed-42c8-a46e-3309a0d904f5</ID>
@@ -10301,6 +11054,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>2c001049-cb92-4b19-ae60-e0ef372962bb</ID>
@@ -10327,6 +11081,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>de9756c8-f9b9-462a-8ed3-26909d0edd65</ID>
@@ -10353,6 +11108,7 @@
         <Name>Retail</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>988ab40b-b8c1-48bf-928a-ab2584bf7898</ID>
@@ -10382,6 +11138,7 @@
         <Name>Retail</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>2b144c38-4fba-48e2-90c5-30497be1df7b</ID>
@@ -10408,6 +11165,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>50defcd4-237f-4b1e-a39f-ddf468b3b34b</ID>
@@ -10434,6 +11192,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>37e7ff03-5446-4c13-86aa-813fa0ab352e</ID>
@@ -10460,6 +11219,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>9c4d688f-9005-4222-b25d-d0a8aa52ce54</ID>
@@ -10486,6 +11246,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>e4412036-d57c-4e91-8394-cb01c9937cac</ID>
@@ -10515,6 +11276,7 @@
         <Name>Registry</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>2fdbfea4-dadf-4070-ad84-b0f4b9adab19</ID>
@@ -10541,6 +11303,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>a55d7752-a4b6-46b4-95be-89b1d9be1b25</ID>
@@ -10567,6 +11330,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>47261941-49e4-4488-b73f-348635ddb1bd</ID>
@@ -10596,6 +11360,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>bafdbde5-e478-4744-b6f8-a2286cf85d5b</ID>
@@ -10625,6 +11390,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>cce61bf5-342a-4342-bced-9a0995daa55a</ID>
@@ -10654,6 +11420,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>f369b238-0df5-4231-bf65-f72e902bc43b</ID>
@@ -10683,6 +11450,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>ff85d5d0-cc2c-4971-9bab-dd398d6b0c89</ID>
@@ -10709,6 +11477,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>b0ff8654-d927-478f-ab1f-506f47780194</ID>
@@ -10735,6 +11504,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>162ce48b-b0e9-41a8-b030-b8b0c1fd64e8</ID>
@@ -10761,6 +11531,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>88ba30de-742d-46c3-8e1a-9cc0fcf3006a</ID>
@@ -10787,6 +11558,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>6f5aa428-9710-4429-b9f7-f0bd478b5309</ID>
@@ -10813,6 +11585,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>fb4838a7-48f6-455c-9905-3e45854c4120</ID>
@@ -10839,6 +11612,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>b7766c36-d9ba-46fd-9f7b-576b0148570c</ID>
@@ -10865,6 +11639,7 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>880dca35-fea6-4639-9693-7a619bff6ad4</ID>
@@ -10891,6 +11666,7 @@
         <Name>Official</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
   <Game>
     <ID>7f6449d2-571d-4bf3-9c14-6282c22c126b</ID>
@@ -10917,5 +11693,6 @@
         <Name>Steam</Name>
       </Tag>
     </Tags>
+    <ConfigLinks />
   </Game>
 </gbm>
