@@ -8924,6 +8924,33 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>5620c30a-f33e-4854-979a-e8cfdcf64e38</ID>
+    <Name>Sleeping Dogs Definitive Edition</Name>
+    <ProcessName>sdhdship</ProcessName>
+    <Parameter />
+    <Path>data</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>HK Autosave Slot:HK GameSlot 1:HK GameSlot 2:HK GameSlot 3:HK GameSlot 4:HK Options</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>f2f60a3d-4e01-46ab-b75f-daf1bb8effe0</ID>
     <Name>South Park: The Stick of Truth</Name>
     <ProcessName>South Park - The Stick of Truth</ProcessName>
