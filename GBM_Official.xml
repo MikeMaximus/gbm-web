@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1575209268" TotalConfigurations="427" AppVer="120">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1579984244" TotalConfigurations="438" AppVer="120">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -40,6 +40,33 @@
     <BackupLimit>0</BackupLimit>
     <FileType>savedata.vfs</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>3ece9e04-834a-42b1-87f2-ca3d4bc84733</ID>
+    <Name>A Plague Tale: Innocence</Name>
+    <ProcessName>APlagueTaleInnocence_x64</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\My Games\A Plague Tale Innocence\</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>ENGINESETTINGS</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -789,13 +816,13 @@
     <Name>BattleTech</Name>
     <ProcessName>BattleTech</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%\GOG.com\Galaxy\Applications\50593543263669699\Storage\Shared\Files\C0\SGS1</Path>
+    <Path>%LOCALAPPDATA%\GOG.com\Galaxy\Applications\50593543263669699\Storage\Shared\Files</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
     <FileType />
-    <ExcludeList />
+    <ExcludeList>settings_cloud.sav</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -1197,7 +1224,7 @@
   </Game>
   <Game>
     <ID>37621295-6f75-47ea-bc4a-0d8f358492d9</ID>
-    <Name>Blade Runner</Name>
+    <Name>Blade Runner (Retail)</Name>
     <ProcessName>BLADE</ProcessName>
     <Parameter />
     <Path>SAVE</Path>
@@ -1218,6 +1245,63 @@
       </Tag>
       <Tag>
         <Name>Retail</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>46a320f8-63bd-4c39-9c59-43c737d97f05</ID>
+    <Name>Blade Runner (ScummVM)</Name>
+    <ProcessName>scummvm</ProcessName>
+    <Parameter>project_nov.ini</Parameter>
+    <Path>..\saves</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>ScummVM</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>61f40585-e656-4069-ae71-5e787bc91b10</ID>
+    <Name>Blasphemous</Name>
+    <ProcessName>Blasphemous</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\AppData\LocalLow\TheGameKitchen\Blasphemous\Savegames</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>app_settings</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -3040,6 +3124,33 @@
     <ProcessName>DinsCurse</ProcessName>
     <Parameter />
     <Path>%LOCALAPPDATA%\DinsCurse\User\chars</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>d39f6dc4-90e8-48f6-83d5-be6bab9cef0c</ID>
+    <Name>Disco Elysium</Name>
+    <ProcessName>disco</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\AppData\LocalLow\ZAUM Studio\Disco Elysium\SaveGames\</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4904,6 +5015,33 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>ae09bd4b-a737-4d6f-941f-90bf1acfd1c2</ID>
+    <Name>Hellblade: Senua's Sacrifice</Name>
+    <ProcessName>HellbladeGame-Win64-Shipping</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\HellbladeGame\Saved\SaveGames\</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>1982700c-80d6-4559-ac31-75639b4686a3</ID>
     <Name>Hellgate London (2007)</Name>
     <ProcessName>hellgate_sp_(dx9|dx10)_x64$</ProcessName>
@@ -6427,6 +6565,33 @@
     <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList>options.txt</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>e5f23114-3094-4739-bc25-593ad1e3b06e</ID>
+    <Name>My Time at Portia</Name>
+    <ProcessName>Portia</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\AppData\LocalLow\Pathea Games\My Time at Portia\</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>Crashes:Unity:output_log.txt</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -8904,9 +9069,9 @@
     <Path />
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
-    <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
-    <FileType>preferences:saves</FileType>
+    <AppendTimeStamp>true</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>preferences:saves:runs</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -8946,6 +9111,33 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>d175485f-a276-4eed-bbca-aa461f212919</ID>
+    <Name>Soldier of Fortune: Platinum Edition</Name>
+    <ProcessName>SoF</ProcessName>
+    <Parameter />
+    <Path>user\save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -10460,6 +10652,33 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>08c524aa-6c56-4541-bf6e-3d534a83a67b</ID>
+    <Name>The Surge 2</Name>
+    <ProcessName>TheSurge2</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\The Surge 2\save</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>042ccb4f-31bf-451f-a0bf-022fd81b045c</ID>
     <Name>The Technomancer</Name>
     <ProcessName>TheTechnomancer</ProcessName>
@@ -10914,6 +11133,33 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>283a9a36-0174-4d07-9d4e-7a8b54bc3285</ID>
+    <Name>Two Point Hospital</Name>
+    <ProcessName>TPH</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\Two Point Studios\Two Point Hospital\Cloud\</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>preferences.json</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -11610,6 +11856,33 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>344afe05-e18b-4c40-8650-39355e19163f</ID>
+    <Name>Wreckfest</Name>
+    <ProcessName>Wreckfest(_x64)?$</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\My Games\wreckfest\</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>settings.conf</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
