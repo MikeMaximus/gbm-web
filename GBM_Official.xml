@@ -7505,6 +7505,33 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>fc8c2f4b-405a-4f22-a5b4-57834d079c69</ID>
+    <Name>Project CARS 2</Name>
+    <ProcessName>pCARS2AVX</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\Project CARS 2\savegame</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>d8bf552b-42b9-4f24-aea6-a6477c4d25c4</ID>
     <Name>Project Eden</Name>
     <ProcessName>Eden</ProcessName>
