@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1579984244" TotalConfigurations="438" AppVer="120">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1585900794" TotalConfigurations="457" AppVer="120">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -1280,6 +1280,39 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>5002c35a-46e5-40e9-8b80-9265e6cd038d</ID>
+    <Name>Blake Stone: Aliens of Gold</Name>
+    <ProcessName>DOSBox</ProcessName>
+    <Parameter>dosboxBlakeAOG_single.conf</Parameter>
+    <Path>..\cloud_saves</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Galaxy Cloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>61f40585-e656-4069-ae71-5e787bc91b10</ID>
     <Name>Blasphemous</Name>
     <ProcessName>Blasphemous</ProcessName>
@@ -1791,6 +1824,39 @@
     <Tags>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>04b6cc1c-4356-447d-afb4-a9de4e6e4cf6</ID>
+    <Name>Caesar 2</Name>
+    <ProcessName>DOSBox</ProcessName>
+    <Parameter>dosbox_caesar2_single.conf</Parameter>
+    <Path>..\cloud_saves</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Galaxy Cloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -2546,6 +2612,33 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>45e8da64-d15b-49cf-99f7-5405c959ff55</ID>
+    <Name>Dark Messiah of Might &amp; Magic</Name>
+    <ProcessName>mm</ProcessName>
+    <Parameter />
+    <Path>mm\SAVE</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>8896f344-664d-4643-aabf-0f3bbacb3a47</ID>
     <Name>Dark Souls 2</Name>
     <ProcessName>DarkSoulsII</ProcessName>
@@ -3030,6 +3123,120 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>3730a644-3149-4f04-bfbb-ef8129740ea8</ID>
+    <Name>Descent</Name>
+    <ProcessName>DOSBox</ProcessName>
+    <Parameter>dosboxDescent_single.conf</Parameter>
+    <Path>..\</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>DESCENT.CFG:*.PLR:*.SG?</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>7f300991-4eed-47a4-ba46-d03d41f9c25f</ID>
+    <Name>Descent (D1X)</Name>
+    <ProcessName>d1x-rebirth</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>*.sg?:*.plr:*.plx</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Port</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>dd20457b-390b-4dad-bd2b-783b0c36095c</ID>
+    <Name>Descent 2</Name>
+    <ProcessName>DOSBox</ProcessName>
+    <Parameter>dosboxDescent2_single.conf</Parameter>
+    <Path>..\</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>*.PLR:*.SG?:DESCENT.CFG</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>4c457864-dbf4-46c0-85d2-9dd482b21d7e</ID>
+    <Name>Descent 2 (D2X)</Name>
+    <ProcessName>d2x-rebirth</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>*.plr:*.plx:*.sg?</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Port</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -3728,6 +3935,33 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>dc4a3a66-6fe3-4f2a-a777-c67cedb511ce</ID>
+    <Name>Dungeon Siege 2</Name>
+    <ProcessName>DungeonSiege2</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\My Games\Dungeon Siege 2\Save</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Retail</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>1cff0392-f077-41ac-b59a-73fdcfc802e1</ID>
     <Name>Dungeon of the Endless</Name>
     <ProcessName>DungeonoftheEndless</ProcessName>
@@ -4342,6 +4576,33 @@
     <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList>Fallout Shelter.log</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>c15124ce-ada9-48a9-87f2-c8a3970aad18</ID>
+    <Name>Fell Seal: Arbiter's Mark</Name>
+    <ProcessName>Fell Seal</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\Fell Seal\saves\</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -5786,6 +6047,33 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>afe89320-915e-4df9-bb40-5170a74e7cef</ID>
+    <Name>Kingdom Under Fire: The Crusaders</Name>
+    <ProcessName>Kuf2Main</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\KUF2 Crusader</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>*.txt:KUFC.ini:KUFC.log</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>424b91ed-d656-406b-b74f-2c7a11532eba</ID>
     <Name>Kingdom: New Lands</Name>
     <ProcessName>Kingdom</ProcessName>
@@ -6473,6 +6761,33 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>9497b0f5-6efa-4b1f-a385-4ea3f8628ec5</ID>
+    <Name>Mount &amp; Blade II: Bannerlord</Name>
+    <ProcessName>TaleWorlds.MountAndBlade.Launcher</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\Mount and Blade II Bannerlord\Game Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>88a3fa77-0d32-4d5e-bb0a-798f6996a424</ID>
     <Name>Mount &amp; Blade: Warband</Name>
     <ProcessName>mb_warband</ProcessName>
@@ -6538,6 +6853,33 @@
     <BackupLimit>2</BackupLimit>
     <FileType />
     <ExcludeList>GameSettingsSave.sav</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>fa18b479-8c48-400e-85b3-5cfcf14739d4</ID>
+    <Name>My Friend Pedro</Name>
+    <ProcessName>My Friend Pedro - Blood Bullets Bananas</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\AppData\LocalLow\DeadToast Entertainment\My Friend Pedro_ Blood Bullets Bananas\Save data</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -7000,6 +7342,33 @@
     <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>dede3774-b604-4abc-b201-4c0ea15e3120</ID>
+    <Name>Overload</Name>
+    <ProcessName>Overload</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\Revival\Overload</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>Crashes:Unity:mikemaximus.xconfig:output_log.txt</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -7570,6 +7939,33 @@
     <BackupLimit>0</BackupLimit>
     <FileType>prefs.txt:saves</FileType>
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>f70ae1b1-689c-41c4-8bff-6369d92a4257</ID>
+    <Name>Project Warlock</Name>
+    <ProcessName>pw_x64</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\AppData\LocalLow\Buckshot Software\Project Warlock\</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>Unity</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -9803,6 +10199,33 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>e82adb40-8101-47a6-9329-3dcd0e1d07bd</ID>
+    <Name>State of Decay 2: Juggernaut Edition</Name>
+    <ProcessName>StateOfDecay2-Win64-Shipping</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\StateOfDecay2\Saved</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>Logs:Config</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>2f794704-65a5-4814-b09b-efb15d034ee9</ID>
     <Name>State of Decay: YOSE</Name>
     <ProcessName>StateOfDecay</ProcessName>
@@ -9902,10 +10325,10 @@
     <OS>1</OS>
     <Tags>
       <Tag>
-        <Name>Mod</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Port</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -10340,10 +10763,10 @@
     <OS>1</OS>
     <Tags>
       <Tag>
-        <Name>Mod</Name>
+        <Name>Official</Name>
       </Tag>
       <Tag>
-        <Name>Official</Name>
+        <Name>Port</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -11960,10 +12383,94 @@
     <OS>1</OS>
     <Tags>
       <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>7078523a-71aa-4384-a58a-698945c7bfd4</ID>
+    <Name>XCOM 2: War of the Chosen</Name>
+    <ProcessName>XCom2</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\My Games\XCOM2 War of the Chosen\XComGame\SaveData</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>85539787-f565-4e9b-ac18-6ffe1a186d3d</ID>
+    <Name>XCOM: Enemy Unknown</Name>
+    <ProcessName>XComGame</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\My Games\XCOM - Enemy Unknown\XComGame\SaveData</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>e4249416-2894-4fe5-a9dd-681329e1cd88</ID>
+    <Name>XCOM: Enemy Within</Name>
+    <ProcessName>XComEW</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\My Games\XCOM - Enemy Within\XComGame\SaveData</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
