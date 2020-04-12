@@ -5733,6 +5733,33 @@ No backup for steam version</Comments>
     </Tags>
   </Game>
   <Game>
+    <ID>2f142fd1-2e4a-43e6-bc5f-24f18346c51d</ID>
+    <Name>Hollow Knight</Name>
+    <ProcessName>hollow_knight.x86_64</ProcessName>
+    <Parameter />
+    <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Team Cherry/Hollow Knight</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>Crashes:output_log.txt</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>2</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>130bb315-a6d8-4205-8726-a52142114f26</ID>
     <Name>Hue</Name>
     <ProcessName>Hue\.x86(_64)?</ProcessName>
