@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta name="generator" content="HTML Tidy for HTML5 for Windows version 5.1.25" />
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+  <meta name="description" content="Game Backup Monitor - Automatically backup your save games and add cloud support to any game for free!" />
+  <meta name="keywords" content="Game, Games, Save, Saves, Saved, Backup, Restore, Sync, Download, Cloud, Dropbox, GOG, Steam, Origin, Time, Monitor, PC" />
+  <meta name="author" content="Michael J. Seiferling" />
+  <title>Game Backup Monitor [Contribution Guide - Official Game List]</title>
+  <script type="text/javascript" language="javascript" src="script/jquery-1.10.2.min.js">
+  </script>
+  <script type="text/javascript" language="javascript" src="script/jquery.hoverIntent.min.js">
+  </script>
+  <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+  <link rel="shortcut icon" href="images/gbm.ico" />
+</head>
+<body>
+  <div id="top">
+    <!--Include the Header (Starts Content)-->
+    <script type="text/javascript">
+    //<![CDATA[
+        $(function(){
+                $("#header").load("header.html");
+        });
+    //]]>
+    </script>
+    <div id="header"></div>
+    <div id="content">
+      <div id="leftcontent">
+        <div class="pageSection">
+          <div class="pageSectionHeader">
+            Contribution Guide [Official Game List]
+          </div>
+          <div class="pageSectionContent">
+            <p class="large">What do I need to contribute to an official game list?</p>
+            <ul>
+              <li>You need a <a href="https://www.github.com">GitHub account</a> and basic knowledge on how to work with <a href="https://git-scm.com/">Git</a> and GitHub.</li>
+              <li>The <a href="https://github.com/MikeMaximus/gbm/releases">latest release version</a> of Game Backup Monitor</a>.</li>           
+            </ul>
+            <p class="large">Are there any standards to follow?</p>
+            <ul>
+              <li>Refrain from adding tags that do not already exist in the official game list.</li>
+              <li>Try to avoid including files that contain machine specific settings (such as graphics settings) in your backup configurations.  When this isn't possible, make a note of it in the comments field.</li>
+              <li>Game configurations that use a variable save location will be rejected, such as any game that <b>only</b> saves to steam cloud folder.</li>
+            </ul>   
+            <p class="large">How do I contribute?</p>
+            <ol>
+              <li><a href="https://help.github.com/en/github/getting-started-with-github/fork-a-repo">Fork</a> a copy of the <a href="https://github.com/MikeMaximus/gbm-web">gbm-web project</a>.</li>  
+              <li>Import all the game configurations on the current official list (Windows or Linux) you're contributing to into GBM. You can <a href="#seperate_list">maintain a seperate list</a> for contributing if you wish.</li>
+              <li>Add the game configurations you want to contribute, you may also edit existing entries if they are out of date or broken.</li>
+              <li>Make sure to test each configuration you've added or changed.</li>
+              <li>The new configurations must be tagged with #Official and the platforms you've tested. #GOG and/or #Steam for example.</li>              
+              <li>When ready to submit your changes, export your list from the Game Manager to GBM_Official.xml (or GBM_Official_Linux.xml).</li>
+              <li>The export should be filtered by tag #Official and sorted by Name.
+              <li>The following line needs to be added to the XML file with a text editor at <b>line 2</b>:
+                  <ul>
+                      <li>&lt;?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?&gt;</li>
+                      <Li>Replace GBM_Official.xsl with GBM_Official_Linux.xsl for Linux</li>
+                  </ul>
+              </li>
+              <li>Add the completed XML file to your fork of gbm-web, commit and push the changes.</li>
+              <li>Create a <a href="https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork">pull request</a>.</li>
+              <li>Once I approve the pull request, your changes will be added to the official list.</li>              
+            </ol>
+            <p class="large"><a name="seperate_list">How do I maintain a seperate list for contributing?</a></p>
+            <ul>
+              <li>GBM stores it's settings and local configuration list in <b>C:\Users\*username*\AppData\Local\gbm</b> (Windows) or <b>/home/*username*/.local/share/gbm</b> (Linux).</li>
+              <li>You can maintain multiple copies of this folder by renaming it as needed.</li>
+              <li>For example, rename your current folder from "gbm" to "gbm_personal".  Then run GBM to create a fresh list for contributing.  To switch back, rename "gbm" to "gbm_official" and rename "gbm_personal" to "gbm".</li>
+              <li>You can maintain an unlimited amount of lists in this manner, but don't rename folders while GBM is running.</li>
+            </ul>            
+          </div>
+        </div><!--End Left Panel-->
+      </div><!--Include the Footer-->
+      <script type="text/javascript">
+      //<![CDATA[
+                $(function(){
+                        $("#footer").load("footer.html");
+                });
+      //]]>
+      </script>
+      <div id="footer"></div><!--End Content-->
+    </div><!--End Top-->
+  </div>
+</body>
+</html>
