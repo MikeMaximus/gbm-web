@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1585900794" TotalConfigurations="457" AppVer="120">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1592747584" TotalConfigurations="464" AppVer="121">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -2727,7 +2727,7 @@
     <Path>%USERDOCUMENTS%\NBGI\DARK SOULS REMASTERED\</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
-    <AppendTimeStamp>false</AppendTimeStamp>
+    <AppendTimeStamp>true</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
@@ -3237,33 +3237,6 @@
       </Tag>
       <Tag>
         <Name>Port</Name>
-      </Tag>
-    </Tags>
-    <ConfigLinks />
-  </Game>
-  <Game>
-    <ID>965ffb2c-d468-4ab2-9bcf-c8e1fb5e5516</ID>
-    <Name>Destiny 2</Name>
-    <ProcessName>destiny2</ProcessName>
-    <Parameter />
-    <Path />
-    <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
-    <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>0</BackupLimit>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Comments />
-    <IsRegEx>false</IsRegEx>
-    <RecurseSubFolders>true</RecurseSubFolders>
-    <OS>1</OS>
-    <Tags>
-      <Tag>
-        <Name>Blizzard</Name>
-      </Tag>
-      <Tag>
-        <Name>Official</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -3935,6 +3908,33 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>82a7fb83-ead3-4f46-bd0f-6f638c0d0042</ID>
+    <Name>Dungeon Siege</Name>
+    <ProcessName>DungeonSiege</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\Dungeon Siege\Save</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>dc4a3a66-6fe3-4f2a-a777-c67cedb511ce</ID>
     <Name>Dungeon Siege 2</Name>
     <ProcessName>DungeonSiege2</ProcessName>
@@ -3952,6 +3952,9 @@
     <RecurseSubFolders>true</RecurseSubFolders>
     <OS>1</OS>
     <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
@@ -4430,6 +4433,33 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>5afdc7dd-0f93-48f4-8cd3-1010ec8d7db7</ID>
+    <Name>Factorio</Name>
+    <ProcessName>factorio</ProcessName>
+    <Parameter />
+    <Path>%APPDATA%\Factorio\saves\</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>6ae06dc1-7201-4731-8af6-02ad9f9522ba</ID>
     <Name>Fade to Silence</Name>
     <ProcessName>FadeToSilence-Win64-Shipping</ProcessName>
@@ -4565,6 +4595,33 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>dd18dbc2-1ac8-404e-a348-d4cb5ba5613a</ID>
+    <Name>Fallout 76</Name>
+    <ProcessName>Fallout76</ProcessName>
+    <Parameter />
+    <Path />
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Tracking</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>bbb7b1a1-5cd2-4ffd-85fb-fd443b3e424d</ID>
     <Name>Fallout Shelter</Name>
     <ProcessName>FalloutShelter</ProcessName>
@@ -4596,7 +4653,7 @@
     <Name>Fell Seal: Arbiter's Mark</Name>
     <ProcessName>Fell Seal</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Fell Seal\saves\</Path>
+    <Path>%USERPROFILE%\Documents\Fell Seal\saves\</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -5040,6 +5097,33 @@
     <ExcludeList>graphicconfig.txt:default.profile64</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments>This configuration excludes the "profile64" file because it includes graphical settings that are not included graphicconfig.txt.</Comments>
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>ee79add9-fe2b-434d-aa21-db9487fdc2ce</ID>
+    <Name>Griftlands</Name>
+    <ProcessName>Griftlands</ProcessName>
+    <Parameter />
+    <Path>%APPDATA%\Klei\Griftlands</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>cache</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
     <OS>1</OS>
@@ -6065,6 +6149,9 @@
     <OS>1</OS>
     <Tags>
       <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
@@ -6563,6 +6650,33 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>4080571c-59da-4555-a2c4-63b82622522b</ID>
+    <Name>Metro Exodus</Name>
+    <ProcessName>MetroExodus</ProcessName>
+    <Parameter />
+    <Path>saved_games</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>8ac11c11-8d18-471b-8f0d-aa154dc77f0e</ID>
     <Name>Metro Exodus</Name>
     <ProcessName>MetroExodus</ProcessName>
@@ -6580,6 +6694,9 @@
     <RecurseSubFolders>true</RecurseSubFolders>
     <OS>1</OS>
     <Tags>
+      <Tag>
+        <Name>EGS</Name>
+      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
@@ -7339,6 +7456,33 @@
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>553ef63e-8c35-4549-9c96-cebfa3ed8c62</ID>
+    <Name>Outward</Name>
+    <ProcessName>Outward</ProcessName>
+    <Parameter />
+    <Path>SaveGames</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>true</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
@@ -10280,6 +10424,33 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>dbc03d5e-577b-4083-8a9d-3bc7ab1bdafa</ID>
+    <Name>Stoneshard</Name>
+    <ProcessName>StoneShard</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\StoneShard</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>true</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>settings.ini:window_set_cursor.cur</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>e0a5bfd5-4cf6-452c-9e6f-3a081f5f112c</ID>
     <Name>Stranglehold</Name>
     <ProcessName>Retail-Stranglehold</ProcessName>
@@ -10458,6 +10629,33 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>e57f1e7d-0a29-47dd-8a6e-ed5da8c7e379</ID>
+    <Name>Supreme Commander</Name>
+    <ProcessName>SupremeCommander</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\Gas Powered Games\SupremeCommander</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>cache</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>This backup configuration also includes all game settings, due to the campaign progress being stored in the same file.</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
     <OS>1</OS>
