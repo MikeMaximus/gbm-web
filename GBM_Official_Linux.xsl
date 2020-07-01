@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <xsl:import href="date.xsl" />
+  <xsl:import href="url-encode.xsl" />
   <xsl:template match="gbm">
     <html>
       <head>
@@ -120,7 +121,7 @@
                           <ul class="tree">
                           <li>
                             <input type="checkbox"><xsl:attribute name="id"><xsl:value-of select="Name"/><xsl:value-of select="ProcessName"/></xsl:attribute></input>
-                            <label class="tree_label"><xsl:attribute name="title">ID: <xsl:value-of select="ID"/></xsl:attribute><xsl:attribute name="for"><xsl:value-of select="Name"/><xsl:value-of select="ProcessName"/></xsl:attribute><xsl:value-of select="Name" /> <a class="permalink" title="permalink"><xsl:attribute name="href">#?q=id:<xsl:value-of select="ID"/></xsl:attribute>&#x1F517;</a></label>
+                            <label class="tree_label"><xsl:attribute name="title">ID: <xsl:value-of select="ID"/></xsl:attribute><xsl:attribute name="for"><xsl:value-of select="Name"/><xsl:value-of select="ProcessName"/></xsl:attribute><xsl:value-of select="Name" /> <a class="permalink" title="Report Broken Configuration"><xsl:attribute name="href">https://github.com/MikeMaximus/gbm-web/issues/new?title=[Broken%20Linux%20Configuration]%20<xsl:call-template name="url-encode"><xsl:with-param name="str" select="Name" /></xsl:call-template>&amp;body=https://mikemaximus.github.io/gbm-web/GBM_Official_Linux.xml%23?q=id:<xsl:value-of select="ID"/>%0D%0A%23%23%20The%20following%20is%20not%20working:%0D%0A</xsl:attribute>&#x1f4e9;</a> <a class="permalink" title="permalink"><xsl:attribute name="href">#?q=id:<xsl:value-of select="ID"/></xsl:attribute>&#x1F517;</a></label>
                             <ul>
                               <li><span class="tree_label"><b>Monitored Process</b></span><div class="indent"><xsl:value-of select="ProcessName" /><xsl:if test="Parameter != ''"> (<xsl:value-of select="Parameter" />)</xsl:if></div></li>
                                 <xsl:if test="MonitorOnly='false'">
