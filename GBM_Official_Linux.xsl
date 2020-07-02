@@ -111,11 +111,11 @@
                                   <img class="logo_tiny" src="images/egs_logo_tiny.png" width="24" height="24" alt="Epic Games Store" title="Epic Games Store" />
                                 </a>
                               </xsl:if>
+                              <xsl:if test="MonitorOnly='true'">
+                                  <img class="logo_tiny" src="images/tracking_tiny.png" width="24" height="24" alt="Tracking" title="Tracking" />
+                              </xsl:if>
                             </xsl:for-each>
                           </xsl:for-each>
-                          <xsl:if test="MonitorOnly='true'">
-                            <img class="logo_tiny" src="images/tracking_tiny.png" width="24" height="24" alt="Tracking" title="Tracking" />
-                          </xsl:if>
                         </td>
                         <td>                          
                           <ul class="tree">
