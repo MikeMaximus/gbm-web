@@ -30,10 +30,10 @@
       <div id="leftcontent">
         <div class="pageSection">
           <div class="pageSectionHeader">
-            Game Backup Monitor v1.2.0 Manual
+            Game Backup Monitor v1.2.2 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated November 8, 2019</h3>
+            <h3 class="notop">Updated August 1, 2020</h3>
             <h3>Disclaimer:</h3>
             <p>This manual may contain information about features not available in the current stable release.</p>
             <p>If you are having a specific problem, please check the <a href="https://github.com/MikeMaximus/gbm/issues">issues</a> list.</p>
@@ -129,7 +129,7 @@
             <p>The button on the left of the status bar indicates if GBM is running in normal mode (Blue User Icon) or as Administrator (Shield Icon). GBM can handle most situations running with normal mode, clicking this button lets you switch to Administrator quickly when it's required. This feature is not available when running in Linux.</p><img class="manual" src="images/manual/manual_12.jpg" width="526" height="286" alt="Main Screen" /><br />
             <p>A "Cancel" button will appear on the main window during backup &amp; restore operations, clicking this will attempt to cancel the current operation. Please note that clicking Cancel may not have an immediate response, it can take some time before the operation reaches a point where it will be terminated.</p><img class="manual" src="images/manual/manual_04.jpg" width="526" height="247" alt="Main Screen" /><br />
             <p>The "Cancel" button does NOT undo the operation, cancelling an operation may result in an unusable backup file or a corrupted save game. The "Cancel" button is intended for emergencies only, such as an incorrect configuration causing a lengthy backup of the wrong folder.</p>
-            <p>This window can be closed the system tray, all important menu options are available from the system tray menu. The system tray icon and menu are not available in Linux.</p>
+            <p>This window can be closed and hidden to the system tray in Windows, or minimized to the taskbar in Linux.  All important menu options are available from the system tray menu.  The system tray icon and menu may not be available in Linux, depending on the desktop environment and Mono version used.</p>
           </div>
           <div class="pageSectionFooter">
             <a href="#toc">Back to Contents</a>
@@ -204,6 +204,10 @@
             <p>GBM will start detecting games immediately with this setting enabled, otherwise game detection has to be manually started each time you load GBM.</p>            
             <h4>Backup GBM data files on launch:</h4>
             <p>GBM will backup both local and remote data files (as gbm.s3db.launch.bak) each time the application starts.  Only one backup file is kept, the prior one will be overwritten.</p>
+            <h4>Exit when closing main window:</h4>
+            <p>This indicates if you'd like to shut down GBM completely when closing the main window, instead of hiding it to the system tray or taskbar.</p>
+            <h4>Exit without confirmation:</h4>
+            <p>This will disable the confirmation when shutting down GBM.</p>
             <h3>7-Zip</h3>
             <img class="manual" src="images/manual/manual_18.jpg" width="556" height="388" alt="Settings" />
             <h4>Compression:</h4>
