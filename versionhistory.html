@@ -33,77 +33,107 @@
             Version History
           </div>
           <div cass="pageSectionContent">
-      <h3 class="notop">1.2.0</h3>
-      <ul>
-        <li>All Platforms:
-          <ul>
-            <li>Added the ability to easily backup or restore the entire game list.
-              <ul>
-                <li>Use the "Run Full Backup" or "Run Full Restore" options in the File menu or Tray menu to easily backup or restore your entire game list.</li>
-                <li>Any confirmations or checks requiring user input are automatically handled when using these tools. See the "Full Backup and Restore" section of the manual for details.</li>
-              </ul>
-            </li>
-            <li>Added the ability to "link" game configurations.
-              <ul>
-                <li>This allows any linked configuration(s) to automatically run a backup or restore each time their parent is triggered. This can continue in a chain.</li>
-                <li>This feature allows for the proper configuration of rare games that stored their saved games in multiple unique locations. It may also have other creative uses.</li>
-                <li>Please read "Link -> Configuration" in the "Game Manager" section of the manual for details on exactly how this feature works.</li>
-              </ul>
-            </li>
-            <li>Metadata is now added to all backup files.
-              <ul>
-                <li>This is a small XML file that contains important information about the archive and the configuration used to make the backup.</li>
-                <li>This allows GBM and possibly any other software to easily identify and use GBM backup files.</li>
-                <li>This file is not extracted when restoring a backup, it will not be cluttering up your saved game folders.</li>
-              </ul>
-            </li>
-            <li>All backup operations are now performed in a temporary folder before the resulting file is moved to the backup folder.
-              <ul>
-                <li>This change was required to fix periodic issues with cloud software (Dropbox) locking backup files while they were being created.</li>
-                <li>The temporary folder can be manually set in "Settings -> Backup and Restore", it defaults to %LOCALAPPDATA%\gbm (~/.local/share/gbm).</li>
-              </ul>
-            </li>
-            <li>Improved the ability to import backup files using metadata.
-              <ul>
-                <li>There is a now a global tool to import backup files or entire folders available in the "Tools" menu.</li>
-                <li>Only backup files with GBM metadata can be imported using this new tool.</li>
-                <li>You may still force the import of any 7z archive using the "Import Backup Files" tool in the Game Manager.</li>
-              </ul>
-            </li>
-            <li>GBM now properly checks for available disk space when doing batch operations.</li>
-            <li>GBM no longer attempts to search for a game when the process name is a regular expression, it isn't supported.</li>
-            <li>Fixed various long-standing problems with the "Cancel" button.
-              <ul>
-                <li>Using "Cancel" during a backup or restore now properly cancels out of batch operations.</li>
-                <li>Using the "Cancel" button no longer prevents future operations from executing properly.</li>
-              </ul>
-            </li>
-            <li>The Help menu is no longer disabled unnecessarily when the application is busy.</li>
-            <li>Various other small improvements have been made to the GUI and messages to improve usability.</li>
-          </ul>
-        </li>
-      </ul>
-			<h3>1.1.9HF2</h3>
-			<ul>
-				<li>All Platforms:
-					<ul>
-						<li>Multiple variables in the same path are now supported.
-							<ul>
-								<li>This feature is meant to allow the mix of relative path variables with a single absolute path variable when the situation requires it.</li>
-								<li>Multiple Custom Path Variables in the same path are now supported.</li>
-								<li>Mixing Environment Variables with relative Custom Path Variables is now supported.</li>
-							</ul>
-						</li>
-						<li>Allow saving a game configuration with an empty Process field.
-							<ul>
-								<li>This feature is meant to make life easier for users who want to use GBM for manual backups.</li>
-								<li>New users will receive a one-time warning when saving a configuration with no Process, current users may or may not receive this new warning.</li>
-								<li>Configurations with an empty Process field will be automatically excluded from monitoring, regardless of the "Monitor this Game" setting.</li>
-							</ul>
-						</li>
-					</ul>
-				</li>
-			</ul>		  
+            <h3 class="notop">1.2.1</h3>
+            <ul>         
+              <li>All Platforms:
+                <ul>
+                  <li>Fixed a possible crash when renaming a game with existing backup files while a cloud client is monitoring the backup folder.</li>
+                  <li>Fixed a rare issue that could cause the wrong game to be pre-selected when opening the Game Manager.</li>
+                  <li>Fixed an issue causing the ampersand character to be hidden in certain controls.
+                    <ul>
+                      <li>Ex. Mount & Blade II: Bannerlords will now be displayed correctly.</li>
+                    </ul>
+                  </li>
+                  <li>Various changes for debugging and building releases.</li>
+                </ul>
+              </li>    
+              <li>Windows:
+                <ul>
+                  <li>Installers are now built with NSIS 3.05</li>
+                </ul>
+              </li>
+              <li>Linux:
+                <ul>
+                  <li>The system tray icon is now enabled for desktop environments that support it (Cinnamon, LXDE).
+                    <ul>
+                      <li>You'll need an up-to-date version of Mono for the tray icon to work, tested with Mono 6.8.0.</li>
+                    </ul>
+                  </li>
+                  <li>Fixed an issue that caused opening external apps to fail when using the latest versions of Mono.</li>                
+                </ul>
+              </li>
+              </ul>              
+            <h3>1.2.0</h3>
+            <ul>
+              <li>All Platforms:
+                <ul>
+                  <li>Added the ability to easily backup or restore the entire game list.
+                    <ul>
+                      <li>Use the "Run Full Backup" or "Run Full Restore" options in the File menu or Tray menu to easily backup or restore your entire game list.</li>
+                      <li>Any confirmations or checks requiring user input are automatically handled when using these tools. See the "Full Backup and Restore" section of the manual for details.</li>
+                    </ul>
+                  </li>
+                  <li>Added the ability to "link" game configurations.
+                    <ul>
+                      <li>This allows any linked configuration(s) to automatically run a backup or restore each time their parent is triggered. This can continue in a chain.</li>
+                      <li>This feature allows for the proper configuration of rare games that stored their saved games in multiple unique locations. It may also have other creative uses.</li>
+                      <li>Please read "Link -> Configuration" in the "Game Manager" section of the manual for details on exactly how this feature works.</li>
+                    </ul>
+                  </li>
+                  <li>Metadata is now added to all backup files.
+                    <ul>
+                      <li>This is a small XML file that contains important information about the archive and the configuration used to make the backup.</li>
+                      <li>This allows GBM and possibly any other software to easily identify and use GBM backup files.</li>
+                      <li>This file is not extracted when restoring a backup, it will not be cluttering up your saved game folders.</li>
+                    </ul>
+                  </li>
+                  <li>All backup operations are now performed in a temporary folder before the resulting file is moved to the backup folder.
+                    <ul>
+                      <li>This change was required to fix periodic issues with cloud software (Dropbox) locking backup files while they were being created.</li>
+                      <li>The temporary folder can be manually set in "Settings -> Backup and Restore", it defaults to %LOCALAPPDATA%\gbm (~/.local/share/gbm).</li>
+                    </ul>
+                  </li>
+                  <li>Improved the ability to import backup files using metadata.
+                    <ul>
+                      <li>There is a now a global tool to import backup files or entire folders available in the "Tools" menu.</li>
+                      <li>Only backup files with GBM metadata can be imported using this new tool.</li>
+                      <li>You may still force the import of any 7z archive using the "Import Backup Files" tool in the Game Manager.</li>
+                    </ul>
+                  </li>
+                  <li>GBM now properly checks for available disk space when doing batch operations.</li>
+                  <li>GBM no longer attempts to search for a game when the process name is a regular expression, it isn't supported.</li>
+                  <li>Fixed various long-standing problems with the "Cancel" button.
+                    <ul>
+                      <li>Using "Cancel" during a backup or restore now properly cancels out of batch operations.</li>
+                      <li>Using the "Cancel" button no longer prevents future operations from executing properly.</li>
+                    </ul>
+                  </li>
+                  <li>The Help menu is no longer disabled unnecessarily when the application is busy.</li>
+                  <li>Various other small improvements have been made to the GUI and messages to improve usability.</li>
+                </ul>
+              </li>
+            </ul>
+			      <h3>1.1.9HF2</h3>
+			      <ul>
+				      <li>All Platforms:
+					      <ul>
+						      <li>Multiple variables in the same path are now supported.
+							      <ul>
+								      <li>This feature is meant to allow the mix of relative path variables with a single absolute path variable when the situation requires it.</li>
+								      <li>Multiple Custom Path Variables in the same path are now supported.</li>
+								      <li>Mixing Environment Variables with relative Custom Path Variables is now supported.</li>
+							      </ul>
+						      </li>
+						      <li>Allow saving a game configuration with an empty Process field.
+							      <ul>
+								      <li>This feature is meant to make life easier for users who want to use GBM for manual backups.</li>
+								      <li>New users will receive a one-time warning when saving a configuration with no Process, current users may or may not receive this new warning.</li>
+								      <li>Configurations with an empty Process field will be automatically excluded from monitoring, regardless of the "Monitor this Game" setting.</li>
+							      </ul>
+						      </li>
+					      </ul>
+				      </li>
+			      </ul>		  
             <h3>1.1.9HF1</h3>
             <ul>
               <li>All Platforms:
