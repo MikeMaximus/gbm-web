@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1592747584" TotalConfigurations="464" AppVer="121">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1600173377" TotalConfigurations="479" AppVer="122">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -2117,6 +2117,36 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>da9822e4-21f3-4c08-9bcc-6e196bca65f4</ID>
+    <Name>Carrion</Name>
+    <ProcessName>Carrion</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\Packages\DevolverDigital.CarrionWin10_6kzv4j18v0c96\SystemAppData\wgs</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Microsoft Store</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>XGP</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>453580d1-bc49-4d9c-986e-b457ebebae76</ID>
     <Name>Catherine Classic</Name>
     <ProcessName>Catherine</ProcessName>
@@ -2525,6 +2555,36 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>747069f9-559d-49b4-8cc6-bdfee7904ab8</ID>
+    <Name>Crusader Kings III</Name>
+    <ProcessName>ck3</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\Paradox Interactive\Crusader Kings III\save games</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Microsoft Store</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>XGP</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>cc58397e-fc15-464b-9cc0-14dd3f4e6412</ID>
     <Name>Crusader: No Regret</Name>
     <ProcessName>DOSBox</ProcessName>
@@ -2823,6 +2883,36 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>3f0c5eaf-5b31-4776-aede-74e1885a95e9</ID>
+    <Name>Darksiders 3</Name>
+    <ProcessName>Darksiders3-Win64-Shipping</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\Packages\NordicGames.DarksidersIII_46xc33nm0q0f8\LocalCache\Local\Darksiders3\Saved</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Microsoft Store</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>XGP</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -4649,6 +4739,33 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>e32eb44a-0793-453b-bc07-ee1f834c81e7</ID>
+    <Name>Fallout: New Vegas</Name>
+    <ProcessName>FalloutNV</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\My Games\FalloutNV\Saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>c15124ce-ada9-48a9-87f2-c8a3970aad18</ID>
     <Name>Fell Seal: Arbiter's Mark</Name>
     <ProcessName>Fell Seal</ProcessName>
@@ -4976,6 +5093,33 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>19ff5ae9-a0b1-4889-bd0d-3b67110e551a</ID>
+    <Name>God's Trigger</Name>
+    <ProcessName>GodsTrigger</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\One More Level\Gods_Trigger</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>gods.trigger</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>EGS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>fa270d87-d79a-4a88-bc76-629b1f50ff25</ID>
     <Name>Gothic 3</Name>
     <ProcessName>Gothic3</ProcessName>
@@ -5121,7 +5265,7 @@
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
     <FileType />
-    <ExcludeList>cache</ExcludeList>
+    <ExcludeList>cache:feedback</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -5409,6 +5553,33 @@
       </Tag>
       <Tag>
         <Name>Retail</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>8cf95150-9e4e-44e0-81f3-6692b1e2726d</ID>
+    <Name>Hellpoint</Name>
+    <ProcessName>Hellpoint</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\Cradle Games\Hellpoint</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>true</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>*.hp</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -6188,6 +6359,33 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>5ff4099f-cab0-480f-b881-e9b4214b56b7</ID>
+    <Name>Kingdoms of Amalur - Re-Reckoning</Name>
+    <ProcessName>koa</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\THQNOnline\Kingdoms of Amalur Re-Reckoning\autocloud\save</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>a1d36994-249f-4a78-b9ff-a800d0af2479</ID>
     <Name>LIMBO</Name>
     <ProcessName>limbo</ProcessName>
@@ -6623,6 +6821,33 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>cd63d87a-a5eb-447d-a13d-d87d6a5a7b64</ID>
+    <Name>Metal Wolf Chaos XD</Name>
+    <ProcessName>wilson</ProcessName>
+    <Parameter />
+    <Path>save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>mwcxd.ini</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>0e93fab8-bef5-4603-b699-3483fd8f6390</ID>
     <Name>Metro 2033 Redux</Name>
     <ProcessName>metro</ProcessName>
@@ -6772,6 +6997,33 @@
     <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>dca94d69-ce9f-4d63-9b15-49297ef854c0</ID>
+    <Name>Mordheim - City of the Damned</Name>
+    <ProcessName>mordheim</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\My Games\Mordheim</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>true</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>options.sg</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -7934,8 +8186,35 @@
     <ConfigLinks />
   </Game>
   <Game>
-    <ID>c6a2ba1a-397e-4b07-9b99-1e6eb6d90800</ID>
+    <ID>e27b8ef1-b58a-40f9-9ffa-d4ab818d54f9</ID>
     <Name>Prey</Name>
+    <ProcessName>Prey</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\Saved Games\Arkane Studios\Prey\SaveGames</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>c6a2ba1a-397e-4b07-9b99-1e6eb6d90800</ID>
+    <Name>Prey (2006)</Name>
     <ProcessName>PREY</ProcessName>
     <Parameter />
     <Path>%USERDOCUMENTS%\My Games\PREY\base\savegames</Path>
@@ -8975,6 +9254,33 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>498f7899-09b4-4cab-9728-77ec539ea5ca</ID>
+    <Name>Sekiro: Shadows Die Twice</Name>
+    <ProcessName>sekiro</ProcessName>
+    <Parameter />
+    <Path>%APPDATA%\Sekiro</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>GraphicsConfig.xml</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>1537a960-6ef0-4a9c-a749-a9a99034f146</ID>
     <Name>Shadow Tactics: Blades of the Shogun</Name>
     <ProcessName>Shadow Tactics</ProcessName>
@@ -9840,6 +10146,36 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>f1f75eef-b974-4817-b9c8-84d884b830fd</ID>
+    <Name>Star Renegades</Name>
+    <ProcessName>starrenegades</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\Packages\RawFury.StarRenegadesWIN10_9s0pnehqffj7t\SystemAppData\wgs</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Microsoft Store</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>XGP</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -12254,6 +12590,33 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>df865a84-0809-4d67-b983-e62a39c3c6ef</ID>
+    <Name>Warhammer - Chaosbane</Name>
+    <ProcessName>Chaosbane</ProcessName>
+    <Parameter />
+    <Path>..\data\save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>47261941-49e4-4488-b73f-348635ddb1bd</ID>
     <Name>Warhammer 40K: Dawn of War - Dark Crusade</Name>
     <ProcessName>darkcrusade</ProcessName>
@@ -12318,7 +12681,7 @@
     <Name>Warhammer 40K: Dawn of War - Soulstorm</Name>
     <ProcessName>Soulstorm</ProcessName>
     <Parameter />
-    <Path>profiles</Path>
+    <Path>Profiles</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -12401,6 +12764,39 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>c4d7ac11-d0ba-4e23-975f-3cb040ed5413</ID>
+    <Name>Warlords</Name>
+    <ProcessName>DOSBox</ProcessName>
+    <Parameter>dosbox_warlords_single.conf</Parameter>
+    <Path>..\cloud_saves</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Galaxy Cloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>b0ff8654-d927-478f-ab1f-506f47780194</ID>
     <Name>Wasteland 2</Name>
     <ProcessName>WL2</ProcessName>
@@ -12455,6 +12851,63 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>14ec45fa-c194-428e-b4ff-45dc0658e326</ID>
+    <Name>Wasteland 3</Name>
+    <ProcessName>WL3</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\My Games\Wasteland3\Save Games</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>2e2100be-21e8-45ac-bb4c-913dfa0541dd</ID>
+    <Name>Wasteland 3</Name>
+    <ProcessName>WL3</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\Packages\DeepSilver.56575194F7E04_hmv7qcest37me\SystemAppData\wgs</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Microsoft Store</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>XGP</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>88ba30de-742d-46c3-8e1a-9cc0fcf3006a</ID>
     <Name>Widelands</Name>
     <ProcessName>widelands</ProcessName>
@@ -12504,33 +12957,6 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
-      </Tag>
-    </Tags>
-    <ConfigLinks />
-  </Game>
-  <Game>
-    <ID>344afe05-e18b-4c40-8650-39355e19163f</ID>
-    <Name>Wreckfest</Name>
-    <ProcessName>Wreckfest(_x64)?$</ProcessName>
-    <Parameter />
-    <Path>%USERDOCUMENTS%\My Games\wreckfest\</Path>
-    <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
-    <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>0</BackupLimit>
-    <FileType />
-    <ExcludeList>settings.conf</ExcludeList>
-    <MonitorOnly>false</MonitorOnly>
-    <Comments />
-    <IsRegEx>true</IsRegEx>
-    <RecurseSubFolders>true</RecurseSubFolders>
-    <OS>1</OS>
-    <Tags>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>Steam</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
