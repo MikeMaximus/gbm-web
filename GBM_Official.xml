@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1600173377" TotalConfigurations="479" AppVer="122">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1602929917" TotalConfigurations="485" AppVer="123">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -524,6 +524,33 @@
     <Parameter />
     <Path>modules\Arcanum\Save</Path>
     <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>eebe976e-318c-4850-95b9-d827cf0ba2df</ID>
+    <Name>Art of Rally</Name>
+    <ProcessName>artofrally</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\Funselektor Labs\art of rally\GOG_cloud</Path>
+    <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
@@ -4085,6 +4112,33 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>f07cc8f1-ec30-468c-8cf3-afa0d5e2bbd4</ID>
+    <Name>Dungeons &amp; Dragons: Chronicles of Mystara</Name>
+    <ProcessName>ManaGame</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\Saved Games\Capcom\Dungeons &amp; Dragons\Saved Games</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>be705814-32f8-4350-b74e-c22c3dd91298</ID>
     <Name>Dust: An Elysian Tail</Name>
     <ProcessName>DustAET</ProcessName>
@@ -5777,6 +5831,33 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>29f0b511-e586-4153-ac62-69d7d2101322</ID>
+    <Name>Horizon Chase Turbo</Name>
+    <ProcessName>HorizonChase</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\Aquiris\HorizonChaseTurbo\</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>output_log.txt</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>f5347255-e8b5-4374-92b5-4a271b100930</ID>
     <Name>Hotline Miami</Name>
     <ProcessName>HotlineGL</ProcessName>
@@ -7323,12 +7404,12 @@
     <Name>Neverwinter Nights - Enhanced Edition</Name>
     <ProcessName>nwmain</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\Neverwinter Nights\saves</Path>
+    <Path>%USERDOCUMENTS%\Neverwinter Nights</Path>
     <AbsolutePath>true</AbsolutePath>
-    <FolderSave>true</FolderSave>
+    <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
-    <FileType />
+    <FileType>dmvault:localvault:saves:servervault</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -7437,12 +7518,12 @@
     <Path>%USERPROFILE%\AppData\LocalLow\Nolla_Games_Noita\</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
-    <AppendTimeStamp>false</AppendTimeStamp>
+    <AppendTimeStamp>true</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList>save_shared</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments>This game closes and restarts each time the player dies, this will trigger a backup.</Comments>
+    <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
     <OS>1</OS>
@@ -9827,6 +9908,33 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>96e7cea6-8722-46c4-970c-1244a88e2930</ID>
+    <Name>Silverfall - Gold Edition</Name>
+    <ProcessName>silverfall</ProcessName>
+    <Parameter />
+    <Path>save</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>14c3fae6-e3d0-412c-8b7d-9c33d395b1e7</ID>
     <Name>SimCity 3000 Unlimited</Name>
     <ProcessName>SC3U</ProcessName>
@@ -9984,6 +10092,33 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>1e13fa54-8c37-4289-9ca8-77efddd0eb66</ID>
+    <Name>SnowRunner</Name>
+    <ProcessName>SnowRunner</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\My Games\SnowRunner\base\storage\</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>video.dat</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>EGS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -10642,6 +10777,30 @@
       <Tag>
         <Name>GOG</Name>
       </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>dfb0efc5-631c-4c94-92d2-6dde2b608f29</ID>
+    <Name>Starsector</Name>
+    <ProcessName>java</ProcessName>
+    <Parameter>starfarer.api.jar</Parameter>
+    <Path>..\..\saves</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
       <Tag>
         <Name>Official</Name>
       </Tag>
