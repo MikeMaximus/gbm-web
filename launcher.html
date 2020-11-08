@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta name="generator" content="HTML Tidy for HTML5 for Windows version 5.1.25" />
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+  <meta name="description" content="Game Backup Monitor - Automatically backup your save games and add cloud support to any game for free!" />
+  <meta name="keywords" content="Game, Games, Save, Saves, Saved, Backup, Restore, Sync, Download, Cloud, Dropbox, GOG, Steam, Origin, Time, Monitor, PC" />
+  <meta name="author" content="Michael J. Seiferling" />
+  <title>Game Backup Monitor [Launcher]</title>
+  <script type="text/javascript" language="javascript" src="script/jquery-1.10.2.min.js">
+  </script>
+  <script type="text/javascript" language="javascript" src="script/jquery.hoverIntent.min.js">
+  </script>
+  <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+  <link rel="shortcut icon" href="images/gbm.ico" />
+</head>
+<body>
+  <div id="top">
+    <!--Include the Header (Starts Content)-->
+    <script type="text/javascript">
+    //<![CDATA[
+        $(function(){
+                $("#header").load("header.html");
+        });
+    //]]>
+    </script>
+    <div id="header"></div>
+    <div id="content">
+      <div id="leftcontent">
+        <div class="pageSection">
+          <div class="pageSectionHeader">
+            Game Launcher F.A.Q
+          </div>
+          <div class="pageSectionContent">
+            <p class="large">Why would I use Game Backup Monitor to my launch games?</p>
+            <ul>
+              <li>Why not? Game Backup Monitor is always running in the system tray and usually has all the information required to launch any game you already monitor.</li>
+              <li>This feature is fully optional and completely invisible by default if you don't want to use it.</li>
+            </ul>
+            <p class="large">Why can't I launch games with Game Backup Monitor?</p>
+            <ul>
+              <li>The game launcher feature is disabled by default, it must be enabled in the General section of File -> Settings.</li>
+              <li>This feature relies on the optional "Session Tracking" feature, it must be enabled as well.</li>
+            </ul>
+            <p class="large">How do I launch games with Game Backup Monitor?</p>
+            <ul>
+              <li>You can launch any of the last five recently played games by right-clicking the system tray icon and choosing the game you'd like to play.</li>
+              <li>You can also launch any game from the Game Manager using the "Launch Options" button.</li>
+            </ul>
+            <p class="large">Why do I always get an error about missing information when trying to launch my games?</p>
+            <ul>
+              <li>Unless you manually provided the information required to launch a game, it needs to be detected for at least one session before GBM has enough information to launch it.</li>
+            </ul>
+            <p class="large">Why can't I launch a game even after it's been detected once?</p>
+            <ul>
+              <li>In rare cases, required information such as the "Game Path" can't be detected.  The reason is usually displayed in the log.  When this happens you can manually set the missing information in the Game Manager.</li>
+            </ul>
+            <p class="large">Why do some of my games crash when I launch them?</p>
+            <ul>
+              <li>This is a problem with certain games purchased on services such as Steam or Epic Game Store.</li>
+              <li>Some games will simply refuse to work properly when launched directly from their executable and they need to launched with their respective store client.  This can be DRM related or simply a bug.</li>
+              <li>GBM supports launching games using any store client, but the game must be manually configured to do so in the Game Manager.  Please see the <a href="manual.html">manual</a> for more details.</li>
+            </ul>
+            <p class="large">I don't understand how Game Backup Monitor is launching my games.  How does this work?</p>
+            <ul>
+              <li>A priority system is used to decide how to launch games based on the information available.
+                <ol>
+                  <li>If a game has been manually configured to use a store client, it will be used to launch the game.</li>
+                  <li>If a game has been manually configured to use an alternate executable, it will be used to launch the game.</li>
+                  <li>If no information has been manually configured, the detected <b>Game Path</b> along with the configured <b>Process</b> and <b>Parameter</b> will be used to launch the game.</li>
+                </ol>                
+              </li>
+              <li>Please see the <a href="manual.html">manual</a> for more details and advanced information.</li>
+            </ul>
+          </div>
+        </div><!--End Left Panel-->
+      </div><!--Include the Footer-->
+      <script type="text/javascript">
+      //<![CDATA[
+                $(function(){
+                        $("#footer").load("footer.html");
+                });
+      //]]>
+      </script>
+      <div id="footer"></div><!--End Content-->
+    </div><!--End Top-->
+  </div>
+</body>
+</html>
