@@ -36,6 +36,7 @@
             <p class="large">Why would I use Game Backup Monitor to my launch games?</p>
             <ul>
               <li>Why not? Game Backup Monitor is always running in the system tray and usually has all the information required to launch any game you already monitor.</li>
+              <li>This makes GBM a lightweight and simple game launcher.</li>
               <li>This feature is fully optional and completely invisible by default if you don't want to use it.</li>
             </ul>
             <p class="large">Why can't I launch games with Game Backup Monitor?</p>
@@ -61,6 +62,17 @@
               <li>This is a problem with certain games purchased on services such as Steam or Epic Game Store.</li>
               <li>Some games will simply refuse to work properly when launched directly from their executable and they need to launched with their respective store client.  This can be DRM related or simply a bug.</li>
               <li>GBM supports launching games using any store client, but the game must be manually configured to do so in the Game Manager.  Please see the <a href="manual.html">manual</a> for more details.</li>
+            </ul>            
+            <p class="large">I need to launch certain games as Administrator.  Is this supported?</p>
+            <ul>
+              <li>Yes, but not fully supported at this time.
+                <ul>
+                  <li>GBM will launch games with the permissions it currently has.  If it does not have Administrator privileges, neither will the game being launched.</li>
+                  <li>You can quickly restart GBM as Administrator using the user status button on the <a href="http://mikemaximus.github.io/gbm-web/manual.html#mainoverview">main window</a>, then launch your game.</li>
+                  <li>If the game was purchased from a store such as Steam or Epic Games, you can use the Game Manager to configure the game launch through the store app instead.  This usually takes care of any permission issues.</li>
+                </ul>                
+              </li>
+              <li>Launching all games exclusively in Administrator mode is <b>not recommended</b>, it should only be used when required.  Running everything as Administrator when it's not required can be a security risk and may cause issues with games that do not require it.</li>              
             </ul>
             <p class="large">I don't understand how Game Backup Monitor is launching my games.  How does this work?</p>
             <ul>
