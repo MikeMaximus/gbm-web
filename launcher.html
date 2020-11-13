@@ -30,7 +30,7 @@
       <div id="leftcontent">
         <div class="pageSection">
           <div class="pageSectionHeader">
-            Game Launcher F.A.Q
+            Launcher F.A.Q
           </div>
           <div class="pageSectionContent">
             <p class="large">Why would I use Game Backup Monitor to my launch games?</p>
@@ -41,7 +41,7 @@
             </ul>
             <p class="large">Why can't I launch games with Game Backup Monitor?</p>
             <ul>
-              <li>The game launcher feature is disabled by default, it must be enabled in the General section of File -> Settings.</li>
+              <li>The game launching feature is disabled by default, it must be enabled in the General section of File -> Settings.</li>
               <li>This feature relies on the optional "Session Tracking" feature, it must be enabled as well.</li>
             </ul>
             <p class="large">How do I launch games with Game Backup Monitor?</p>
@@ -51,7 +51,7 @@
             </ul>
             <p class="large">Why do I always get an error about missing information when trying to launch my games?</p>
             <ul>
-              <li>Unless you manually provided the information required to launch a game, it needs to be detected for at least one session before GBM has enough information to launch it.</li>
+              <li>Unfortunately, most games will need to be detected for at least one session in v1.2.4 before GBM has enough information to automatically launch it.  You can also manually provide the information required to launch a game in the Game Manager.</li>
             </ul>
             <p class="large">Why can't I launch a game even after it's been detected once?</p>
             <ul>
@@ -61,11 +61,11 @@
             <ul>
               <li>This is a problem with certain games purchased on services such as Steam or Epic Game Store.</li>
               <li>Some games will simply refuse to work properly when launched directly from their executable and they need to launched with their respective store client.  This can be DRM related or simply a bug.</li>
-              <li>GBM supports launching games using any store client, but the game must be manually configured to do so in the Game Manager.  Please see the <a href="manual.html#launcher">manual</a> for more details.</li>
+              <li>GBM supports launching games through compatible store clients, but the game must be manually configured to do so in the Game Manager.  Please see the <a href="manual.html#launcher">manual</a> for more details.</li>
             </ul>            
-            <p class="large">I need to launch certain games as Administrator.  Is this supported?</p>
+            <p class="large">I need to launch certain games as Administrator or with compatability settings.  Is this supported?</p>
             <ul>
-              <li>Yes.  Any game flagged to "Run As Administrator" will request elevation as it normally does.</li>
+              <li>Yes.  Any game executable flagged to "Run As Administrator" will request elevation as it normally does and will use any compatability settings.</li>
               <li>In addition, any game launched while GBM is running as Administrator will automatically launch as Administrator.  However this is not recommended, and GBM will ask for confirmation before every launch.</li>
             </ul>
             <p class="large">I don't understand how Game Backup Monitor is launching my games.  How does this work?</p>
@@ -74,7 +74,7 @@
                 <ol>
                   <li>If a game has been manually configured to use a store client, it will be used to launch the game.</li>
                   <li>If a game has been manually configured to use an alternate executable, it will be used to launch the game.</li>
-                  <li>If no information has been manually configured, the detected <b>Game Path</b> along with the configured <b>Process</b> and <b>Parameter</b> will be used to launch the game.</li>
+                  <li>If no information has been manually configured, the detected <b>Game Path</b> along with the configured <b>Process</b> will be used to launch the game.</li>
                 </ol>                
               </li>
               <li>Please see the <a href="manual.html#launcher">manual</a> for more details and advanced information.</li>

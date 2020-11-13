@@ -80,8 +80,8 @@
           </div>
           <div class="pageSectionContent">
             <h4 class="notop">Verified Operating Systems:</h4>
-            <p>Windows 10, Ubuntu 18.04</p>
-            <a href="http://www.microsoft.com/en-us/windows/default.aspx"><img class="logo" src="images/win10_logo.png" width="64" height="64" alt="Windows 10" /></a><a href="http://www.ubuntu.com"><img class="logo" src="images/ubuntu_logo.png" width="64" height="64" alt="Ubuntu" /></a>
+            <p>Windows 10, Linux Mint 20</p>
+            <a href="http://www.microsoft.com/en-us/windows/default.aspx"><img class="logo" src="images/win10_logo.png" width="64" height="64" alt="Windows 10" /></a><a href="http://www.linuxmint.com"><img class="logo" src="images/mint_logo.png" width="64" height="64" alt="Linux Mint" /></a>
             <p class="small">These operating systems are tested during development with the latest stable versions of <a href="https://dotnet.microsoft.com/download" target=_blank>.NET Framework</a> (Windows) and <a href="https://www.mono-project.com/download/stable/" target=_blank>Mono</a> (Linux).</p>
             <h4>Supported Operating Systems:</h4>
             <p>Windows 8, Windows 7, Windows Vista SP1, Windows XP SP3, Other Linux Distributions</p><a href="http://www.microsoft.com/en-us/windows/default.aspx"><img class="logo" src="images/oldwindows_logo.png" width="64" height="64" alt="Old Windows" /></a><a href="http://www.linux.com/"><img class="logo" src="images/linux_logo.png" width="64" height="64" alt="Linux" /></a>
@@ -519,43 +519,47 @@
             <h3>Launch Configuration</h3>
             <p>GBM will usually be able to launch any monitored game that has been detected at least once without any extra configuration.  Advanced configuration options are also provided for fine tuning and to work around any problems that may be encountered.</p>            
             <p>The launch settings for any game can be modified from the Game Manager, by using the "Launch Options" button and choosing "Settings" to open "Launch Configuration".</p>
-            <img class="manual" src="images/manual/manual_28.jpg" width="786" height="688" alt="Launch Configuration" />
+            <img class="manual" src="images/manual/manual_28.jpg" width="784" height="686" alt="Launch Configuration" />
             <h4>Store Launcher Configuration</h4>
             <p>This section allows you to configure a game to be launched directly from the store client where it was purchased.  This is sometimes required due to <a href="https://en.wikipedia.org/wiki/Digital_rights_management" target=_blank>DRM issues</a> or bugs that occur when a game doesn't support launching the executable directly.  This will be explained in the "Launcher Manager" and "Determining the Command & Game ID" sections below.</p>
             <h4>Alternate Configuration</h4>
-            <p>This section allows you to manually configure a game to use an alternate executable and/or command parameters.</p>
+            <p>This section allows you to manually configure a game to use an alternate executable/script and customize how command parameters are to be handled.</p>
             <h4>Current Launch Command</h4>
             <p>This section displays the command that GBM will use to launch the game.  This field cannot be edited directly, it is provided for troubleshooting and informational purposes.</p>
             <p>GBM uses a priority system to build the launch command based on the information it has available.</p>
             <ol>
               <li>When an external store launcher and game ID are set, it has top priority and will be used to launch the game.</li>
-              <li>When an alternate executable is set, it has secondary priority and will be used to launch the game.</li>
+              <li>When an alternate executable is set, it has secondary priority.</li>
               <li>When no other information is available, GBM will use the "Process" and "Game Path" from the game configuration to automatically build the launch command.</li>                           
             </ol>
             <p>Parameters (Arguments) are also added to the command based on a priorty system.</p>
             <ol>              
               <li>When alternate parameters are set, they have first priority and will be added to the command.</li>
               <li>When alternate parameters are not set, GBM will use the "Parameter" field from the game configuration to automatically build the launch command.</li>
+              <li>When the "Use no parameter" option is checked, no parameters are added to the command.  This can be useful when using a script that already contains the parameters to launch the game.</li>
               <li>When an external store launcher and game ID are set, no parameters are added to the command.  They must be configured in the launcher you are calling, such as Steam.</li>
             </ol>
-            <h4>Launcher Manager</h4>
-            <p>The "Launcher Manager" is used to configure external launchers you may need for launching games.</p>
+            <h3>Launcher Manager</h3>
+            <p>The "Launcher Manager" is used to configure common external launchers you may need for launching games.</p>
             <p>Some popular store launchers will be automatically added and configured for your convenience.</p>
-            <img class="manual" src="images/manual/manual_29.jpg" width="586" height="228" alt="Launcher Manager" /><br />
-            <p>The launcher you want to add must support being triggered via a URI command.  Launchers that are called directly by their executable are not supported.</p>
+            <img class="manual" src="images/manual/manual_29.jpg" width="586" height="228" alt="Launcher Manager" />
             <h4>Name:</h4>
             <p>This field is an identifier for the launcher, it must be unique.</p>
             <h4>Command:</h4>
-            <p>This field is the URI command used to trigger a game launch from this particular launcher.</p>
+            <p>This field is the URI command used to trigger a game launch from this particular launcher.  Currently, only launchers that can be triggered with a URI are supported.</p>
             <p>The %ID% variable should replace the part of the command that contains the ID of the game being launched.</p>                              
             <p>If the %ID% variable is missing, GBM will assume it belongs at the end of the command.</p>
             <h4>Add Defaults</h4>
-            <p>If you accidently deleted any of the default launchers, you can easily re-add them using this button.</p>
+            <p>If you accidently deleted any of the default launchers, you can easily re-add them using this button.</p>            
             <h3>Determining the Command & Game ID</h3>
             <p>The best way to determine both the command used by a launcher and the ID of the game you want to launch, is to create a shortcut for the game from the launcher and view the properties.</p>
             <img class="manual" src="images/manual/manual_31.jpg" width="363" height="509" alt="Launcher Shortcut" /><br />            
             <p>The URL field will contain the command used to trigger the launcher.  You can usually determine the game ID based on the context of the command.</p>
-            <img class="manual" src="images/manual/manual_30.jpg" width="491" height="338" alt="Lanucher Configuration" />
+            <img class="manual" src="images/manual/manual_30.jpg" width="491" height="363" alt="Store Launcher Configuration" /><br />
+            <p>The "Current Launch Command" should match the shortcut once you've configured everything properly.</p>
+            <h3>Unsupported Launchers</h3>
+            <p>Launchers that are called directly by their executable to start a game (such as GOG Galaxy) are not currently supported.  However, you can still trigger a game to start with an unsupported launcher by using alternate executables and parameters on the "Launch Configuration" screen.</p>
+            <img class="manual" src="images/manual/manual_32.jpg" width="491" height="363" alt="Unsupported Lanucher Configuration" /><br />            
           </div>
           <div class="pageSectionFooter">
             <a href="#toc">Back to Contents</a>
