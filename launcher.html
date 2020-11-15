@@ -61,22 +61,20 @@
             <ul>
               <li>This is a problem with certain games purchased on services such as Steam or Epic Game Store.</li>
               <li>Some games will simply refuse to work properly when launched directly from their executable and they need to launched with their respective store client.  This can be DRM related or simply a bug.</li>
-              <li>GBM supports launching games through compatible store clients, but the game must be manually configured to do so in the Game Manager.  Please see the <a href="manual.html#launcher">manual</a> for more details.</li>
+              <li>GBM supports launching games through compatible store clients, but the game must be manually configured to do so in the Game Manager.</li>
             </ul>            
             <p class="large">I need to launch certain games as Administrator or with compatability settings.  Is this supported?</p>
             <ul>
               <li>Yes.  Any game executable flagged to "Run As Administrator" will request elevation as it normally does and will use any compatability settings.</li>
               <li>In addition, any game launched while GBM is running as Administrator will automatically launch as Administrator.  However this is not recommended, and GBM will ask for confirmation before every launch.</li>
             </ul>
-            <p class="large">I don't understand how Game Backup Monitor is launching my games.  How does this work?</p>
+            <p class="large">Is this feature supported on Linux?</p>
             <ul>
-              <li>A priority system is used to decide how to launch games based on the information available.
-                <ol>
-                  <li>If a game has been manually configured to use a store client, it will be used to launch the game.</li>
-                  <li>If a game has been manually configured to use an alternate executable, it will be used to launch the game.</li>
-                  <li>If no information has been manually configured, the detected <b>Game Path</b> along with the configured <b>Process</b> will be used to launch the game.</li>
-                </ol>                
-              </li>
+              <li>Yes, with one limitation.  Any Windows game you are attempting to launch from GBM in Linux will need to be manually configured to launch via an external launcher or script.</li>
+              <li>A future release may support automatically building the launch command using detected Wine/Proton information, but it will not be supported initially.</li>
+            </ul>
+            <p class="large">I don't understand how Game Backup Monitor is launching my games.  How does this work?</p>
+            <ul>              
               <li>Please see the <a href="manual.html#launcher">manual</a> for more details and advanced information.</li>
             </ul>
           </div>
