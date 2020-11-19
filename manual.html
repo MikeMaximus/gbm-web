@@ -33,7 +33,7 @@
             Game Backup Monitor v1.2.4 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated November 18, 2020</h3>
+            <h3 class="notop">Updated November 19, 2020</h3>
             <h3>Disclaimer:</h3>
             <p>This manual may contain information about features not available in the current stable release.</p>
             <p>If you are having a specific problem, please check the <a href="https://github.com/MikeMaximus/gbm/issues">issues</a> list.</p>
@@ -155,7 +155,7 @@
             <h4>Enable session tracking:</h4>
             <p>When enabled, GBM will record individual session data and make the "Session Viewer..." available from the Tools menu.  Toggling this setting has no effect on session data that's already been recorded.</p>
             <h4>Enable game launching:</h4>
-            <p>When enabled, all features related to <a href="#launcher">launching games</a> from GBM become available.  This includes the "Launcher Manager", "Launch Options" on the Game Manager, and the recently played tray menu launcher.  This feature requires "Session Tracking" to be enabled to determine the recently played games.</p>
+            <p>When enabled, all features related to <a href="#launcher">launching games</a> from GBM become available.  This includes the "Launcher Manager", "Quick Launcher", "Launch Options" on the Game Manager, and the recently played tray menu options.  The "Session Tracking" feature needs to be enabled and have enough recorded data to display any recently played games in the system tray menu.</p>
             <h4>Show resolved save paths in Game Manager:</h4>
             <p>When enabled, GBM will display save paths resolved to the location on the current system, such as "C:\Users\User1\Saved Games\kingdomcome\saves".  When disabled, GBM will display save paths with environment variables when applicable,  such as "%USERPROFILE%\Saved Games\kingdomcome\saves".  Save Path fields on the Game Manager will display a tooltip with the resolved path or unresolved path depending on this setting.  
             <h4>Choose Optional Fields:</h4>
@@ -515,17 +515,17 @@
             <p>Starting with v1.2.4, Game Backup Monitor can be used to launch any monitored game.  Please read the <a href="launcher.html">Launcher FAQ</a> for answers to common questions.</p>
             <p>This feature is optional and must be enabled before it can be used.  See the <a href="#settings">Settings</a> section for details.</p>          
             <p>Games can be launched in the following ways:
-              <ol>
-                <li>The tray menu will display up to five recently played games you can select to launch.</li>
+              <ol>                
                 <li>The "Quick Launcher" window allows you to quickly launch any configured game.  See the "Quick Launcher" section below for details.</li>
                 <li>The "Launch Options" button on the Game Manager.</li>
+                <li>If Session Tracking data is available, the tray menu will display up to five recently played games you can select to launch.</li>
               </ol> 
             </p>
             <img class="manual" src="images/manual/manual_27.jpg" width="240" height="336" alt="Tray Menu Example" />
             <h3>Quick Launcher</h3>
             <p>The Quick Launcher provides a way to find and launch any configured game with a few key presses.</p>            
             <img class="manual" src="images/manual/manual_33.jpg" width="411" height="249" alt="Quick Launcher" /><br />
-            <p>The Quick Launcher can be accessed using the option on the tray menu, or using the hot key "Ctrl + L" on the main window.
+            <p>The Quick Launcher can be accessed using the option on the File menu, tray menu, or using the hot key "Ctrl + L" on the main window.
               <ol>
                 <li>Enter the name of the game you want, the available options will filter automatically as you type.</li>
                 <li>Select the game you want and press "Enter" to launch it, or press "Esc" to cancel and close the window.</li>
