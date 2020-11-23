@@ -33,7 +33,54 @@
             Version History
           </div>
           <div cass="pageSectionContent">
-            <h3 class="notop">1.2.2</h3>
+            <h3 class="notop">1.2.3</h3>
+            <ul>
+              <li>All Platforms:
+                <ul>
+                  <li>Improvements to the "Choose Game" window	
+                    <ul>
+                      <li>It should now always be displayed in front of other windows after closing a game.</li>
+                      <li>It now appears in the taskbar, just in case it does get hidden behind other windows.</li>
+                      <li>The GBM icon is now displayed on this window.</li>
+                    </ul>
+                  </li>
+                  <li>Improvements to the "Import Game Configurations" window
+                    <ul>
+                      <li>Added "Show Only Selected" option.
+                        <ul>
+                          <li>This option will filter the current list to show only currently selected configurations.</li>
+                          <li>This option can be combined with the text filter.</li>
+                        </ul>                        
+                      </li>
+                      <li>Added "Detect Saved Games" button.
+                        <ul>
+                          <li>This button allows you to detect configurations with saved games.  This has always been automatically done when the form is opened, but the button is useful if you need to start over.</li>
+                          <li>Using this button will not unselect any configurations you manually selected.</li>
+                        </ul>
+                      </li>
+                      <li>Configurations in an import list that use only a special folder(or custom variable) as the save path, will no longer be incorrectly selected when detecting saved games.
+                        <ul>
+                          <li>These types of configurations cannot currently be detected, this only fixes them being selected by mistake.</li>
+                        </ul>
+                      </li>
+                      <li>You can now maximize or minimize this window.</li>
+                      <li>Increased the default size of the window.</li>
+                      <li>The GBM icon is now displayed on this window and it now appears in the taskbar.</li>
+                    </ul>                    
+                  </li>
+                </ul>
+              <li>Windows:
+                <ul>
+                  <li>Simplified the code used to hide the main window.
+                    <ul>
+                      <li>Prevents the weird flicker effect that could occur when clicking the close button.</li>
+                    </ul>
+                  </li>
+                  <li>Updated SQLite to 3.33.0</li>
+                </ul>
+              </li>
+            </ul>            
+            <h3>1.2.2</h3>
             <ul>         
               <li>All Platforms:
                 <ul>
