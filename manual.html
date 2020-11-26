@@ -33,7 +33,7 @@
             Game Backup Monitor v1.2.4 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated November 19, 2020</h3>
+            <h3 class="notop">Updated November 26, 2020</h3>
             <h3>Disclaimer:</h3>
             <p>This manual may contain information about features not available in the current stable release.</p>
             <p>If you are having a specific problem, please check the <a href="https://github.com/MikeMaximus/gbm/issues">issues</a> list.</p>
@@ -586,14 +586,23 @@
             <a name="customvariables" id="customvariables">Custom Path Variables</a>
           </div>
           <div class="pageSectionContent">
-            <p>This screen allows you add an unlimited number of custom path variables to use in the configuration of your games.</p><img class="manual" src="images/manual/manual_09.jpg" width="586" height="288" alt="Tags" /><br />
-            <p>Some applications and games store save files in common locations that can be slightly different on each computer, this feature allows you account for that and share configurations between any computer.</p>
-            <p>For example, games designed for Valve's Steam service can use the Steam "userdata" folder as a common save location.</p>
-            <p>The problem with this location is that Steam can be installed in many different locations on a computer, as well as every Steam user having a different ID folder, therefore every computer will save in a different location and need a unique configuration.</p>
-            <p>But if we use the custom path variable feature we can create a variable for this location, such as "Steam User Data" and point it to the steam\userdata\*your id* folder.</p>
-            <p>Once we do this, any application configured to use that folder will use the variable instead.</p>
-            <p>Any another computer using that configuration simply has to setup the same variable and point it to the proper folder on their computer.</p>
-            <p>This is an advanced feature and can be completely ignored by most users, the official pre-configured list will never contain games that use a custom path variable.</p>
+            <p>This screen allows you to add an unlimited number of custom path variables to use in the configuration of your games.</p><img class="manual" src="images/manual/manual_09.jpg" width="586" height="288" alt="Custom Path Variables" /><br />
+            <p>Some games store their save files in locations that can be slightly different on each computer, this feature allows you to account for that and share configurations between any computer.</p>
+            <h4>Name:</h4>
+            <p>This is the name of the variable.  It cannot contain the % character, which will be stripped upon saving.</p>
+            <h4>Path:</h4>
+            <p>This is the local path the variable refers to.</p>
+            <h4>Example:</h4>
+            <p>Many games designed for Steam use the "userdata" sub-folder in the Steam folder as a common saved game location.  But since Steam can be installed in a variety of locations, as well as each user having a different ID folder, every computer and user will store their saved games in a different location.</p>
+            <p>We can create a custom path variable for this location, such as "Steam User Data" and point it to the location that changes.  Once we do this, any application configured to use that folder will use the variable instead and any another computer using that configuration simply has to setup the same variable and point it to the proper folder on their computer.</p>
+            <h4>Notes:</h4>
+            <ul>
+              <li>Custom Path Variables can be used in the "Save Path" and "Game Path" fields of a configuration.</li>
+              <li>Multiple custom path variables can be used in the same path, they can also be combined with a Windows environment variable.</li>
+              <li>On the Game Manager, custom path variables will be displayed similar to a Windows environment variable, such as %Variable Name%.  You can change this behavior in "Settings" by using the "Show resolved save paths in Game Manager" option.</li>              
+              <li>After a Custom Path Variable is added, modified or deleted any affected configurations will be updated automatically.</li>
+              <li>This is an advanced feature and can be completely ignored by most users, the official pre-configured list will never contain games that use a custom path variable.</li>
+            </ul>          
           </div>
           <div class="pageSectionFooter">
             <a href="#toc">Back to Contents</a>
