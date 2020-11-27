@@ -33,7 +33,7 @@
             Game Backup Monitor v1.2.4 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated November 26, 2020</h3>
+            <h3 class="notop">Updated November 27, 2020</h3>
             <h3>Disclaimer:</h3>
             <p>This manual may contain information about features not available in the current stable release.</p>
             <p>If you are having a specific problem, please check the <a href="https://github.com/MikeMaximus/gbm/issues">issues</a> list.</p>
@@ -601,6 +601,11 @@
               <li>Multiple custom path variables can be used in the same path, they can also be combined with a Windows environment variable.</li>
               <li>On the Game Manager, custom path variables will be displayed similar to a Windows environment variable, such as %Variable Name%.  You can change this behavior in "Settings" by using the "Show resolved save paths in Game Manager" option.</li>              
               <li>After a Custom Path Variable is added, modified or deleted any affected configurations will be updated automatically.</li>
+              <li>To avoid issues, never manually use a Custom Path Variable in a configuration path before the variable has been created.
+                <ul> 
+                  <li>If you do this, open and make a small change, then save any affected configuration in the Game Manager to fix any problems.</li>
+                </ul>
+              </li>
               <li>This is an advanced feature and can be completely ignored by most users, the official pre-configured list will never contain games that use a custom path variable.</li>
             </ul>          
           </div>

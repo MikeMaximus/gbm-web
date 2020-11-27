@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1602929917" TotalConfigurations="485" AppVer="123">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1606469834" TotalConfigurations="493" AppVer="124">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -194,7 +194,7 @@
     <ID>e26f9683-f2c5-4809-baaa-ffed4a2a64c9</ID>
     <Name>Afterlife</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosbox_afterlife_single.conf</Parameter>
+    <Parameter>-conf "..\dosbox_afterlife.conf" -conf "..\dosbox_afterlife_single.conf" -noconsole -c exit</Parameter>
     <Path>..\save</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
@@ -896,7 +896,7 @@
     <ID>df24c82c-39ae-4c3f-9bce-333a6bf4c0d3</ID>
     <Name>Betrayal at Krondor</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosboxBAK_single.conf</Parameter>
+    <Parameter>-conf "..\dosboxBAK.conf" -conf "..\dosboxBAK_single.conf" -noconsole -c exit</Parameter>
     <Path>..\GAMES</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
@@ -1034,8 +1034,8 @@
     <ID>d981198a-898c-40a9-9e63-c4fb67c87e02</ID>
     <Name>Bio Menace</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosbox_biomenace_single.conf</Parameter>
-    <Path>..\</Path>
+    <Parameter>-conf "..\dosbox_biomenace.conf" -conf "..\dosbox_biomenace_single.conf" -noconsole -c "exit"</Parameter>
+    <Path>..\cloud_saves</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -1280,7 +1280,7 @@
     <ID>46a320f8-63bd-4c39-9c59-43c737d97f05</ID>
     <Name>Blade Runner (ScummVM)</Name>
     <ProcessName>scummvm</ProcessName>
-    <Parameter>project_nov.ini</Parameter>
+    <Parameter>-c "..\project_nov.ini" project-nov</Parameter>
     <Path>..\saves</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
@@ -1310,7 +1310,40 @@
     <ID>5002c35a-46e5-40e9-8b80-9265e6cd038d</ID>
     <Name>Blake Stone: Aliens of Gold</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosboxBlakeAOG_single.conf</Parameter>
+    <Parameter>-conf "..\dosboxBlakeAOG.conf" -conf "..\dosboxBlakeAOG_single.conf" -noconsole -c "exit"</Parameter>
+    <Path>..\cloud_saves</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Galaxy Cloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>f25f6241-dfbc-4d49-85ba-4412aba7e164</ID>
+    <Name>Blake Stone: Planet Strike</Name>
+    <ProcessName>DOSBox</ProcessName>
+    <Parameter>-conf "..\dosboxBlakePS.conf" -conf "..\dosboxBlakePS_single.conf" -noconsole -c "exit"</Parameter>
     <Path>..\cloud_saves</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
@@ -1637,12 +1670,66 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>02ecd04c-9b6f-4a86-ac73-d6cf12afd64f</ID>
+    <Name>BloodRayne - Terminal Cut</Name>
+    <ProcessName>rayne1</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\BloodRayne1\savegame</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>53d170b8-92ef-418e-b5d6-bb314d4d11f3</ID>
     <Name>BloodRayne 2</Name>
     <ProcessName>br2</ProcessName>
     <Parameter />
     <Path>savegame</Path>
     <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>10de4c8a-ef87-4cd1-9485-64a0f0b73408</ID>
+    <Name>BloodRayne 2 - Terminal Cut</Name>
+    <ProcessName>rayne2</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\BloodRayne2\savegame</Path>
+    <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
@@ -1859,10 +1946,43 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>dd50a4fc-cdd3-4a5e-8fbf-0ef0a7f665ad</ID>
+    <Name>Caesar</Name>
+    <ProcessName>DOSBox</ProcessName>
+    <Parameter>-conf "..\dosbox_caesar1.conf" -conf "..\dosbox_caesar1_single.conf" -noconsole -c "exit"</Parameter>
+    <Path>..\cloud_saves</Path>
+    <AbsolutePath>false</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>asdfasdf</Comments>
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Galaxy Cloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>04b6cc1c-4356-447d-afb4-a9de4e6e4cf6</ID>
     <Name>Caesar 2</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosbox_caesar2_single.conf</Parameter>
+    <Parameter>-conf "..\dosbox_caesar2.conf" -conf "..\dosbox_caesar2_single.conf" -noconsole -c "exit"</Parameter>
     <Path>..\cloud_saves</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
@@ -2003,13 +2123,13 @@
     <ID>714299b0-6cc8-4af4-a490-40fa94a7ed0c</ID>
     <Name>Capitalism Plus</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosboxCapPlus_single.conf</Parameter>
-    <Path>..\</Path>
+    <Parameter>-conf "..\dosboxCapPlus.conf" -conf "..\dosboxCapPlus_single.conf" -noconsole -c "exit"</Parameter>
+    <Path>..\cloud_saves</Path>
     <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
+    <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
-    <FileType>*.sav</FileType>
+    <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -2024,6 +2144,9 @@
         <Name>GOG</Name>
       </Tag>
       <Tag>
+        <Name>Galaxy Cloud</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
     </Tags>
@@ -2033,7 +2156,7 @@
     <ID>06e68d80-462b-467e-bcb0-a0c2a81462d2</ID>
     <Name>Carmageddon</Name>
     <ProcessName>dosbox</ProcessName>
-    <Parameter>dosboxCARMA_single.conf</Parameter>
+    <Parameter>-conf "..\dosboxCARMA.conf" -conf "..\dosboxCARMA_single.conf" -noconsole -c exit</Parameter>
     <Path>..\CARMA\DATA\SAVEGAME</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
@@ -2117,7 +2240,7 @@
     <ID>4f3ef832-5c5e-4bdf-ab97-24409532951c</ID>
     <Name>Carmageddon: Splat Pack</Name>
     <ProcessName>dosbox</ProcessName>
-    <Parameter>dosboxCARMA_single.conf</Parameter>
+    <Parameter>-conf "..\dosboxCARMA.conf" -conf "..\dosboxCARMA_single.conf" -noconsole -c exit</Parameter>
     <Path>..\CARSPLAT\DATA\SAVEGAME</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
@@ -2309,6 +2432,33 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>41da70c9-9fc6-429a-bb80-decadfa23c84</ID>
+    <Name>Code Vein</Name>
+    <ProcessName>CodeVein</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\CodeVein\Saved\SaveGames</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>true</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>e9e42488-1d8d-44a1-ab93-d68c6fa52db7</ID>
     <Name>Commandos 2: Men of Courage</Name>
     <ProcessName>comm2</ProcessName>
@@ -2447,13 +2597,13 @@
     <ID>6eb1cdaf-431c-40b5-a861-6ddb97764a96</ID>
     <Name>Conquest of the New World</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosboxConquest_single.conf</Parameter>
-    <Path>..\</Path>
+    <Parameter>-conf "..\dosboxConquest.conf" -conf "..\dosboxConquest_single.conf" -noconsole -c "exit"</Parameter>
+    <Path>..\cloud_saves</Path>
     <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
+    <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
-    <FileType>*.?E2</FileType>
+    <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -2466,6 +2616,9 @@
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Galaxy Cloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -2615,8 +2768,8 @@
     <ID>cc58397e-fc15-464b-9cc0-14dd3f4e6412</ID>
     <Name>Crusader: No Regret</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosboxREGRET_single.conf</Parameter>
-    <Path>..\SAVEGAME</Path>
+    <Parameter>-conf "..\dosboxREGRET.conf" -conf "..\dosboxREGRET_single.conf" -noconsole -c "exit"</Parameter>
+    <Path>..\cloud_saves</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2634,6 +2787,9 @@
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Galaxy Cloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -2645,8 +2801,8 @@
     <ID>6be818b6-6dcd-4ccc-a9d5-f18019f6edba</ID>
     <Name>Crusader: No Remorse</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosboxCRUSADER_single.conf</Parameter>
-    <Path>..\SAVEGAME</Path>
+    <Parameter>-conf "..\dosboxCRUSADER.conf" -conf "..\dosboxCRUSADER_single.conf" -noconsole -c "exit"</Parameter>
+    <Path>..\cloud_saves</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -2664,6 +2820,9 @@
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Galaxy Cloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -3248,7 +3407,7 @@
     <ID>3730a644-3149-4f04-bfbb-ef8129740ea8</ID>
     <Name>Descent</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosboxDescent_single.conf</Parameter>
+    <Parameter>-conf "..\dosboxDescent.conf" -conf "..\dosboxDescent_single.conf" -noconsole -c "exit"</Parameter>
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -3305,7 +3464,7 @@
     <ID>dd20457b-390b-4dad-bd2b-783b0c36095c</ID>
     <Name>Descent 2</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosboxDescent2_single.conf</Parameter>
+    <Parameter>-conf "..\dosboxDescent2.conf" -conf "..\dosboxDescent2_single.conf" -noconsole -c "exit"</Parameter>
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -3605,6 +3764,33 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>50fda878-709a-41bc-80c9-6386c9d2a483</ID>
+    <Name>Doom 64</Name>
+    <ProcessName>DOOM64_x64</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\Saved Games\Nightdive Studios\DOOM 64\saves</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>cc09e1bd-a914-48ca-af9c-b0b14e082346</ID>
     <Name>Door Kickers</Name>
     <ProcessName>DoorKickers</ProcessName>
@@ -3827,13 +4013,13 @@
     <ID>54dd48a2-e729-468b-a095-5b6a2e842c74</ID>
     <Name>Duke Nukem</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosbox_duke_single.conf</Parameter>
-    <Path>..\</Path>
+    <Parameter>-conf "..\dosbox_duke.conf" -conf "..\dosbox_duke_single.conf" -noconsole -c "exit"</Parameter>
+    <Path>..\cloud_saves</Path>
     <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
+    <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
-    <FileType>HIGHS.DN?:KEYS.DN?:MY_DEMO.DN?:SPEED.DN?:USERDEMO.DN?:SAVED?.DN?</FileType>
+    <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -3846,6 +4032,9 @@
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Galaxy Cloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -3857,13 +4046,13 @@
     <ID>70d0b714-0de7-4383-bee9-c81869a8faab</ID>
     <Name>Duke Nukem 2</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosbox_duke2_single.conf</Parameter>
-    <Path>..\</Path>
+    <Parameter>-conf "..\dosbox_duke2.conf" -conf "..\dosbox_duke2_single.conf" -noconsole -c "exit"</Parameter>
+    <Path>..\cloud_saves</Path>
     <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
+    <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
-    <FileType>*.-GT:*.-NM:*.-S1:*.-V1</FileType>
+    <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -3876,6 +4065,9 @@
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Galaxy Cloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -3887,13 +4079,13 @@
     <ID>35d2cd72-5ff4-44ab-996e-57e96a1f9ab2</ID>
     <Name>Duke Nukem 3D Atomic Edition</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosboxDuke3D_single.conf</Parameter>
-    <Path>..\</Path>
+    <Parameter>-conf "..\dosboxDuke3D.conf" -conf "..\dosboxDuke3D_single.conf" -noconsole -c "exit"</Parameter>
+    <Path>..\cloud_saves</Path>
     <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
+    <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
-    <FileType>*.SAV</FileType>
+    <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -3906,6 +4098,9 @@
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Galaxy Cloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -3971,8 +4166,8 @@
     <ID>63ab7f92-c1ca-417e-b728-eee931fb3202</ID>
     <Name>Dungeon Keeper Gold</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosboxDK</Parameter>
-    <Path>..\SAVE</Path>
+    <Parameter>-conf "..\dosboxDK.conf" -conf "..\dosboxDK_single.conf" -noconsole -c "exit"</Parameter>
+    <Path>..\cloud_saves</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -3990,6 +4185,9 @@
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Galaxy Cloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -4169,8 +4367,8 @@
     <ID>47ccfe64-0f12-4c31-a025-b55ee646d22c</ID>
     <Name>Elder Scrolls Adventures: Redguard</Name>
     <ProcessName>dosbox</ProcessName>
-    <Parameter>dosbox_redguard_single.conf</Parameter>
-    <Path>..\redguard\savegame</Path>
+    <Parameter>-conf "..\dosbox_redguard.conf" -conf "..\dosbox_redguard_single.conf" -noconsole -c exit</Parameter>
+    <Path>..\Redguard\SAVEGAME</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -4199,13 +4397,13 @@
     <ID>3962fda4-c442-456b-94bc-13080f81d7fc</ID>
     <Name>Elder Scrolls Legend: Battlespire</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosbox_battlespire_single.conf</Parameter>
-    <Path>..\</Path>
+    <Parameter>-conf "..\dosbox_battlespire.conf" -conf "..\dosbox_battlespire_single.conf" -noconsole -c "exit"</Parameter>
+    <Path>..\cloud_saves</Path>
     <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
+    <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
-    <FileType>SAVE*</FileType>
+    <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -4218,6 +4416,9 @@
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Galaxy Cloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -5117,6 +5318,33 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>44ee768d-22f8-4255-af3c-9ac97ee2e615</ID>
+    <Name>Ghostbusters: The Video Game Remastered</Name>
+    <ProcessName>ghost</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\GHOSTBUSTERS</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>EGS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>19a1dff6-d0c1-48a3-a56e-9f3551cea962</ID>
     <Name>Glass Masquerade</Name>
     <ProcessName>Glass</ProcessName>
@@ -5996,14 +6224,14 @@
     <ID>87920ada-1828-482d-a9a6-6e81ab89aa90</ID>
     <Name>Indiana Jones and the Fate of Atlantis</Name>
     <ProcessName>scummvm</ProcessName>
-    <Parameter />
-    <Path>..\</Path>
+    <Parameter>-c "..\atlantis.ini" atlantis</Parameter>
+    <Path>..\saves</Path>
     <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
+    <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
-    <FileType>*.s??</FileType>
-    <ExcludeList>MONSTER.SOU</ExcludeList>
+    <FileType />
+    <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -6026,13 +6254,13 @@
     <ID>061b94e6-75e3-4ae8-aa6c-9be611c4f340</ID>
     <Name>Indiana Jones and the Last Crusade</Name>
     <ProcessName>scummvm</ProcessName>
-    <Parameter />
-    <Path>..\</Path>
+    <Parameter>-c "..\last-crusade.ini" last-crusade</Parameter>
+    <Path>..\saves</Path>
     <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
+    <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
-    <FileType>*.s??</FileType>
+    <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -6248,7 +6476,7 @@
     <ID>db56d69b-a118-42f1-aab1-b64fa64ef4f8</ID>
     <Name>Jagged Alliance</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosboxja_single.conf</Parameter>
+    <Parameter>-conf "..\dosboxja.conf" -conf "..\dosboxja_single.conf" -noconsole -c "exit"</Parameter>
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -7124,7 +7352,7 @@
     <ID>3a84fb23-2c61-4d21-a679-3c92d1d2f5bb</ID>
     <Name>Mortal Kombat</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosboxMortalKombat.conf</Parameter>
+    <Parameter>-conf "..\dosboxMortalKombat.conf" -conf "..\dosboxMortalKombat_single.conf" -noconsole -c exit</Parameter>
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -7154,7 +7382,7 @@
     <ID>d27da0f6-070f-4243-ab5c-3f3f146d216b</ID>
     <Name>Mortal Kombat 2</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosboxMortalKombat2.conf</Parameter>
+    <Parameter>-conf "..\dosboxMortalKombat2.conf" -conf "..\dosboxMortalKombat2_single.conf" -noconsole -c exit</Parameter>
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -7184,7 +7412,7 @@
     <ID>a7adcd70-764f-456a-ad4f-b22b0fc24880</ID>
     <Name>Mortal Kombat 3</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosboxMortalKombat3.conf</Parameter>
+    <Parameter>-conf "..\dosboxMortalKombat3.conf" -conf "..\dosboxMortalKombat3_single.conf" -noconsole -c exit</Parameter>
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -8630,13 +8858,13 @@
     <ID>df9d11b1-9591-4c77-8075-eb93a99a6a0a</ID>
     <Name>Realms of Chaos</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosboxROC_single.conf</Parameter>
-    <Path>..\</Path>
+    <Parameter>-conf "..\dosboxROC.conf" -conf "..\dosboxROC_single.conf" -noconsole -c "exit"</Parameter>
+    <Path>..\cloud_saves</Path>
     <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
+    <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
-    <FileType>ROC.S*</FileType>
+    <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -8649,6 +8877,9 @@
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Galaxy Cloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -8876,13 +9107,13 @@
     <ID>0c15f2d9-161b-4f09-909c-f1d4322005b0</ID>
     <Name>Rise of the Triad</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosboxRiseOTT_single.conf</Parameter>
-    <Path>..\</Path>
+    <Parameter>-conf "..\dosboxRiseOTT.conf" -conf "..\dosboxRiseOTT_single.conf" -noconsole -c "exit"</Parameter>
+    <Path>..\cloud_saves</Path>
     <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
+    <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
-    <FileType>ROTTGAM?.ROT</FileType>
+    <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -8895,6 +9126,9 @@
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Galaxy Cloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -9827,13 +10061,13 @@
     <ID>327400</ID>
     <Name>Sid Meier's Colonization</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosboxCOL_single.conf</Parameter>
-    <Path>..\MPS\COLONIZE</Path>
+    <Parameter>-conf "..\dosboxCOL.conf" -conf "..\dosboxCOL_single.conf" -noconsole -c "exit"</Parameter>
+    <Path>..\cloud_saves</Path>
     <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
+    <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
-    <FileType>*.SAV</FileType>
+    <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -9846,6 +10080,9 @@
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Galaxy Cloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -10319,13 +10556,13 @@
     <ID>b2a9a6c1-c481-4e6d-9c72-39a8dbb0fbe8</ID>
     <Name>Star Trek: 25th Anniversary</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosbox_st25_single.conf</Parameter>
-    <Path>../TREKCD</Path>
+    <Parameter>-conf "..\dosbox_st25.conf" -conf "..\dosbox_st25_single.conf" -noconsole -c "exit"</Parameter>
+    <Path>..\cloud_saves</Path>
     <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
+    <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
-    <FileType>SAVEGAME.*</FileType>
+    <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -10338,6 +10575,9 @@
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Galaxy Cloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -10349,13 +10589,13 @@
     <ID>74d2c0c6-4e31-4f3c-b9a8-dcea49103f2e</ID>
     <Name>Star Trek: Judgement Rites</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosbox_stjr_single.conf</Parameter>
-    <Path>..\TREK2</Path>
+    <Parameter>-conf "..\dosbox_stjr.conf" -conf "..\dosbox_stjr_single.conf" -noconsole -c "exit"</Parameter>
+    <Path>..\cloud_saves</Path>
     <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
+    <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
-    <FileType>SAVEGAME.*</FileType>
+    <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -10368,6 +10608,9 @@
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Galaxy Cloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -10487,7 +10730,7 @@
     <ID>76f1c74f-4a6d-43a7-8e7c-8a9bf629777c</ID>
     <Name>Star Wars: Dark Forces</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosbox_DF_single.conf</Parameter>
+    <Parameter>-conf "..\dosbox_DF.conf" -conf "..\dosbox_DF_single.conf" -noconsole -c "exit"</Parameter>
     <Path>..\</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>false</FolderSave>
@@ -11030,8 +11273,8 @@
     <ID>567f5108-ca8a-4665-bcbe-7ff8b225da5f</ID>
     <Name>Stronghold: Kingdom Simulator</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosbox_strong_single.conf</Parameter>
-    <Path>..\strong\strong.sav</Path>
+    <Parameter>-conf "..\dosbox_strong.conf" -conf "..\dosbox_strong_single.conf" -noconsole -c "exit"</Parameter>
+    <Path>..\cloud_saves</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -11049,6 +11292,9 @@
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Galaxy Cloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -11411,13 +11657,13 @@
     <ID>83c6d1ca-0bbc-4dce-9ffb-48597c8693ab</ID>
     <Name>The Elder Scrolls II: Daggerfall</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosbox_daggerfall_single.conf</Parameter>
-    <Path>..\</Path>
+    <Parameter>-conf "..\dosbox_daggerfall.conf" -conf "..\dosbox_daggerfall_single.conf" -noconsole -c "exit"</Parameter>
+    <Path>..\cloud_saves</Path>
     <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
+    <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
-    <FileType>SAVE?</FileType>
+    <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -11430,6 +11676,9 @@
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Galaxy Cloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -11603,13 +11852,13 @@
     <ID>a4453fec-934b-43be-b22f-9513a438808f</ID>
     <Name>The Elder Scrolls: Arena</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosbox_arena_single.conf</Parameter>
-    <Path>..\</Path>
+    <Parameter>-conf "..\dosbox_arena.conf" -conf "..\dosbox_arena_single.conf" -noconsole -c "exit"</Parameter>
+    <Path>..\cloud_saves</Path>
     <AbsolutePath>false</AbsolutePath>
-    <FolderSave>false</FolderSave>
+    <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
-    <FileType>*.64:*.00:*.01:NAMES.DAT:VISION.EMS</FileType>
+    <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -11622,6 +11871,9 @@
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Galaxy Cloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -12097,6 +12349,33 @@
     <ProcessName>Warhammer</ProcessName>
     <Parameter />
     <Path>%APPDATA%\The Creative Assembly\Warhammer\save_games</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>2c61c9d7-79ea-41e4-b6c0-7b007a042f68</ID>
+    <Name>Total War: Warhammer 2</Name>
+    <ProcessName>Warhammer2</ProcessName>
+    <Parameter />
+    <Path>%APPDATA%\The Creative Assembly\Warhammer2\save_games</Path>
     <AbsolutePath>true</AbsolutePath>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -12926,7 +13205,7 @@
     <ID>c4d7ac11-d0ba-4e23-975f-3cb040ed5413</ID>
     <Name>Warlords</Name>
     <ProcessName>DOSBox</ProcessName>
-    <Parameter>dosbox_warlords_single.conf</Parameter>
+    <Parameter>-conf "..\dosbox_warlords.conf" -conf "..\dosbox_warlords_single.conf" -noconsole -c "exit"</Parameter>
     <Path>..\cloud_saves</Path>
     <AbsolutePath>false</AbsolutePath>
     <FolderSave>true</FolderSave>
