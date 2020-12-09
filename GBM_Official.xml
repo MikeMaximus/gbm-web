@@ -10334,6 +10334,33 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>69362cd4-5de7-4bd1-9c80-43031289908c</ID>
+    <Name>Sniper: Ghost Warrior</Name>
+    <ProcessName>Sniper_x86</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\Sniper - Ghost Warrior\out\save</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>1e13fa54-8c37-4289-9ca8-77efddd0eb66</ID>
     <Name>SnowRunner</Name>
     <ProcessName>SnowRunner</ProcessName>
