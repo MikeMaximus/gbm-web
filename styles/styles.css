@@ -12,7 +12,7 @@ html {
 body {
     padding: 0;
     font-family: Verdana, Lucida Console, Tahoma;
-    margin: 5px; 
+    margin: 10px; 
     color:#FFF;
 }
 
@@ -183,12 +183,12 @@ td.list_logos {
 /* Main Layout Styles */
 
 #top {
-    width: 100%;
+    width: 1024px;
     margin: auto;
 }
 
 #logobar {
-    width: 100%;
+    width: 1024px;
     height: 185px;
     margin-top: 5px;
     margin-bottom: 10px;
@@ -203,7 +203,7 @@ td.list_logos {
 }
 
 #leftcontent {    
-    width: 100%;
+    width: 1024px;
 }
 
 #rightcontent { 
@@ -297,12 +297,12 @@ td.list_logos {
 }
 
 .pageSection {
-    margin-left: 9px;
-    margin-right: 0px;
+    margin-left: 10px;
+    margin-right: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
     display: inline-block;
-    width: 99%;
+    width: 1000px;
     border-style:solid; 
     border-width:1px;
     border-color: #2D2D2D;
@@ -342,10 +342,10 @@ td.list_logos {
 
 ul.topnav {
 	list-style: none;
-	padding: 0 0 0 20px;	
+	padding: 0 20px;	
 	margin: 0;
 	float: left;
-	width: 99%;
+	width: 984px;
 	background: #2D2D2D;
 	font-size: 14pt;
 	border-top-left-radius: 10px;
