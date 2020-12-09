@@ -11909,6 +11909,33 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>b7566bbc-281a-422a-9cae-5c3660cff6d4</ID>
+    <Name>The Last Remnant</Name>
+    <ProcessName>TLR</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\My Games\The last remnant\RushGame\Save</Path>
+    <AbsolutePath>true</AbsolutePath>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>709a6de5-3495-429f-a2b4-8ba952c3ae9c</ID>
     <Name>The Longest Journey</Name>
     <ProcessName>game</ProcessName>
