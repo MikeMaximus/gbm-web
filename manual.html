@@ -33,7 +33,7 @@
             Game Backup Monitor v1.2.5 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated January 30, 2020</h3>
+            <h3 class="notop">Updated January 31, 2020</h3>
             <h3>Important Notes:</h3>
             <p>An offline version of the manual is available <a href="https://github.com/Darthagnon/gbm-manual">here</a>.  The offline manual is kindly provided by <a href="https://github.com/Darthagnon">Darthagnon</a>.</p>
             <p>This manual may contain information about features not available in the current stable release.</p>
@@ -138,22 +138,22 @@
             </p>
             <p>A detailed log of all the actions GBM has performed in the current session is also displayed, this log can be hidden by resizing the window. If this log becomes too large over a session it will be auto-saved and cleared.</p><img class="manual" src="images/manual/manual_03.jpg" width="736" height="443" alt="Main Screen" /><br />
             <p>The right side of the menu bar will show notifications(if enabled) about new saved games to restore. Clicking the notification will clear it for the current session and bring you directly to the Game Manager.</p>
-            <p>The status bar shows what GBM is currently doing, as well as the monitor status.
+            <img class="manual" src="images/manual/manual_12.jpg" width="493" height="310" alt="Main Screen" /><br />            
+            <p>The status bar shows what GBM is currently doing, the current monitor status and provides quick access to some functions.
               <ul>
-                <li>The monitor status button on the right can be used to control starting, stopping and cancelling game detection. This can also be accomplished with the File menu and system tray menu.</li>
+                <li>The <img class="manualbutton" src="images/manual/buttons/frmMain_Ready.png" width="16" height="16" alt="Ready" /> (Scanning), <img class="manualbutton" src="images/manual/buttons/frmMain_Detected.png" width="16" height="16" alt="Detected" /> (Detected) or <img class="manualbutton" src="images/manual/buttons/frmMain_Stopped.png" width="16" height="16" alt="Stopped" /> (Stopped) status button on the right can be used to control starting, stopping and cancelling game detection. This can also be accomplished with the File menu and system tray menu.</li>
+                <li>The <img class="manualbutton" src="images/manual/buttons/frmMain_Collapse_Left.png" width="16" height="16" alt="Collapse" /> (Collapse) or <img class="manualbutton" src="images/manual/buttons/frmMain_Expand_Right.png" width="16" height="16" alt="Expand" /> (Expand) button on the left of the status bar allows you to toggle displaying the "Game List" section of the window.</li>
+                <li>The <img class="manualbutton" src="images/manual/buttons/frmMain_User.png" width="16" height="16" alt="User" /> (Normal User) or <img class="manualbutton" src="images/manual/buttons/frmMain_Admin.png" width="16" height="16" alt="Admin" /> (Admin) button on the left of the status bar indicates if GBM is running in normal mode or as administrator. GBM can handle most situations running with normal mode, clicking this button lets you switch to Administrator quickly when it's required. This feature is not available when running in Linux.</li>
               </ul>
             </p>
-            <p></p>
-            <p>The first button (Arrows) on the left of the status bar allows you to toggle displaying the "Game List" section of the window.</p>
-            <p>The second button on the left of the status bar indicates if GBM is running in normal mode (Blue User Icon) or as Administrator (Shield Icon). GBM can handle most situations running with normal mode, clicking this button lets you switch to Administrator quickly when it's required. This feature is not available when running in Linux.</p><img class="manual" src="images/manual/manual_12.jpg" width="493" height="310" alt="Main Screen" /><br />
-            <p>A "Cancel" button will appear on the main window during backup &amp; restore operations, clicking this will attempt to cancel the current operation.
+            <img class="manual" src="images/manual/manual_04.jpg" width="493" height="276" alt="Main Screen" /><br />              
+            <p>A <img class="manualbutton" src="images/manual/buttons/Multi_Cancel.png" width="16" height="16" alt="Cancel" /> (Cancel) button will appear on the main window during backup &amp; restore operations, clicking this will attempt to cancel the current operation.
               <ul>
-                <li>Clicking Cancel may not have an immediate response, it can take some time before the operation reaches a point where it can be terminated.</li>
+                <li>Clicking "Cancel" may not have an immediate response, it can take some time before the operation reaches a point where it can be terminated.</li>
                 <li>The "Cancel" button does NOT undo the operation, cancelling an operation may result in an unusable backup file or a corrupted save game.</li>
                 <li>The "Cancel" button is intended for emergencies only, such as an incorrect configuration causing a lengthy backup of the wrong folder.</li>
               </ul>
-            </p>
-            <img class="manual" src="images/manual/manual_04.jpg" width="493" height="276" alt="Main Screen" /><br />            
+            </p>                      
             <p>The main window can be closed and hidden to the system tray in Windows, or minimized to the taskbar in Linux.  All important menu options are available from the system tray menu.  The system tray icon and menu may not be available in Linux, depending on the desktop environment and Mono version used.</p>
             <p>If you prefer classic GBM look from older versions, you can tweak and customize the default appearance of this window in <a href="#settings">Settings</a>.</p>
           </div>
@@ -278,26 +278,26 @@
             <img class="manual" src="images/manual/manual_06.jpg" width="786" height="413" alt="Game Manager" />
             <h3>Game Manager Quick Overview:</h3>
             <ul>
-              <li>Add a new game to monitor by clicking the "New" button below the list box.</li>
-              <li>Delete a game by selecting the game(s) from the list and clicking the "Delete" button below the list box.</li>
+              <li>Add a new game to monitor by clicking the <img class="manualbutton" src="images/manual/buttons/Multi_Add.png" width="16" height="16" alt="New" /> (New) button below the list box.</li>
+              <li>Delete a game by selecting the game(s) from the list and clicking the <img class="manualbutton" src="images/manual/buttons/Multi_Delete.png" width="16" height="16" alt="Delete" /> (Delete) button below the list box.</li>
               <li>Show all games by selecting the "All Games" option from the filter drop-down list.</li>
               <li>Show only games with backup data by selecting the "Games with Backups" option from the filter drop-down list.</li>
               <li>Show only games with new save data to restore by selecting the "Games with Pending Backups" option from the filter drop-down list.</li>
               <li>You can customize a list of games to display by selecting the "Custom" option from the filter drop-down list.</li>
-              <li>Quickly find games by typing a name (partial match) or a tag (exact match) in the "Search" field.  This filter is applied on top of any other filter you may be using.</li>
-              <li>You can assign other programs to run each time one or more games are detected by selecting them and clicking the <img class="manualbutton" src="images/manual/buttons/frmGameManager_Link.png" width="16" height="16" alt="Link" /> (Link options) button and selecting the "Link Process..." option.</li>
-              <li>You can link game configurations together by clicking the <img class="manualbutton" src="images/manual/buttons/frmGameManager_Link.png" width="16" height="16" alt="Link" /> (Link options) button and selecting the "Link Configuration..." option.  Linked configuations execute a backup or restore each time the currently selected configuration is triggered.</li>
-              <li>You can edit the Tags for one or more games by selecting them and clicking directly on the list of tags.</li>
-              <li>When available, clicking the <img class="manualbutton" src="images/manual/buttons/frmGameManager_Advanced.png" width="16" height="16" alt="Tools" /> (Advanced) button and selecting "Launch Settings..." allows you to configure how the currently selected game is launched.</li>
-              <li>Restore an existing backup for a game by selecting the game(s) from the list and clicking the <img class="manualbutton" src="images/manual/buttons/Multi_Restore.png" width="16" height="16" alt="Restore Folder" /> (Restore) button in the "Backup Management" section.</li>
-              <li>You can mark a game as restored without restoring the data by selecting the game(s) from the list and clicking the <img class="manualbutton" src="images/manual/buttons/frmGameManager_Mark.png" width="16" height="16" alt="Mark" /> (Mark as Restored) button in the "Backup Management" section.</li>
+              <li>Quickly find games by typing a name (partial match) or a tag (exact match) in the "Search" field.  This filter is applied on top of any other filter you may be using.</li>              
+              <li>You can edit the Tags for one or more games by selecting them and clicking directly on the list of tags.</li>              
               <li>You can backup immediately without playing a game by selecting the game(s) from the list and click the <img class="manualbutton" src="images/manual/buttons/Multi_Backup.png" width="16" height="16" alt="Backup Folder" /> (Backup) button in the "Backup Management" section.</li>
+              <li>Restore an existing backup for a game by selecting the game(s) from the list and clicking the <img class="manualbutton" src="images/manual/buttons/Multi_Restore.png" width="16" height="16" alt="Restore Folder" /> (Restore) button in the "Backup Management" section.</li>
+              <li>You can mark a game as restored without restoring the data by selecting the game(s) from the list and clicking the <img class="manualbutton" src="images/manual/buttons/frmGameManager_Mark.png" width="16" height="16" alt="Mark" /> (Mark as Restored) button in the "Backup Management" section.</li>              
               <li>You can import an existing backup file for the currently selected game using the <img class="manualbutton" src="images/manual/buttons/frmGameManager_Backup_Data.png" width="16" height="16" alt="Recycle Bin" /> (Manage Backup Data) button in the "Backup Management" section.</li>
               <li>You can delete a backup file by selecting the game from the list, choosing a specific backup and clicking the <img class="manualbutton" src="images/manual/buttons/frmGameManager_Backup_Data.png" width="16" height="16" alt="Recycle Bin" /> (Manage Backup Data) button in the "Backup Management" section.  You may also delete all backups for that specific game.</li>
               <li>You can locate the backup file or folder by selecting the game and clicking directly on the name of the backup file or the <img class="manualbutton" src="images/manual/buttons/frmGameManager_Folder_Open.png" width="16" height="16" alt="Open Folder" /> (Open backup folder) button in the "Backup Management" section.</li>
               <li>You can view the restore location of the backup file by selecting the game and clicking directly on the restore path in the "Backup Management" section.</li>
-              <li>You can <a href="#import">import new game configurations</a> from the <a href="GBM_Official.xml">official list</a> or an XML file using the "Import" button.</li>
-              <li>You can export your game configurations to an XML file using the "Export" button.</li>
+              <li>You can <a href="#import">import new game configurations</a> from the <a href="GBM_Official.xml">official list</a> or an XML file using the <img class="manualbutton" src="images/manual/buttons/Multi_Import.png" width="16" height="16" alt="Import" /> (Import) button.</li>
+              <li>You can export your game configurations to an XML file using the <img class="manualbutton" src="images/manual/buttons/Multi_Export.png" width="16" height="16" alt="Export" /> (Export) button.</li>
+              <li>You can assign other programs to run each time one or more games are detected by selecting them and clicking the <img class="manualbutton" src="images/manual/buttons/frmGameManager_Link.png" width="16" height="16" alt="Link" /> (Link options) button and selecting the "Link Process..." option.</li>
+              <li>You can link game configurations together by clicking the <img class="manualbutton" src="images/manual/buttons/frmGameManager_Link.png" width="16" height="16" alt="Link" /> (Link options) button and selecting the "Link Configuration..." option.  Linked configuations execute a backup or restore each time the currently selected configuration is triggered.</li>
+              <li>When available, clicking the <img class="manualbutton" src="images/manual/buttons/frmGameManager_Advanced.png" width="16" height="16" alt="Tools" /> (Advanced) button and selecting "Launch Settings..." allows you to configure how the currently selected game is launched.</li>
             </ul>
             <p>The Game Manager is a central hub for all important GBM functions. However, i'd highly recommend the "Add Game Wizard" to add new games to monitor until you become familiar with GBM.</p>
             <img class="manual" src="images/manual/manual_07.jpg" width="493" height="276" alt="Wizard" />
@@ -357,7 +357,7 @@
             <ul>
               <li>%USERDOCUMENTS% (This variable is set and only used by GBM at runtime.)</li>
               <li>%COMMONDOCUMENTS% (This variable is set and only used by GBM at runtime.)</li>
-              <li>%LOCALAPPDATA%"</li>
+              <li>%LOCALAPPDATA%</li>
               <li>%APPDATA%</li>
               <li>%USERPROFILE%</li>
               <li>%PROGRAMDATA%</li>
