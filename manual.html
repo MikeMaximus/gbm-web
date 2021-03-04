@@ -180,7 +180,7 @@
             <h4>Enable session tracking:</h4>
             <p>When enabled, GBM will record individual session data and make the "Session Viewer..." available from the Tools menu.  Toggling this setting has no effect on session data that's already been recorded.</p>
             <h4>Enable game launching:</h4>
-            <p>When enabled, all features related to <a href="#launcher">launching games</a> from GBM become available.  This includes the "Launcher Manager", "Launch Options", the "Play" button on the main window and the recently played tray menu options.  The "Session Tracking" feature needs to be enabled and have enough recorded data to display any recently played games in the system tray menu.</p>            
+            <p>When enabled, all features related to <a href="#launcher">launching games</a> from GBM become available.  This includes the "Launcher Manager", "Launch Settings", the "Play" button on the main window and the recently played tray menu options.  The "Session Tracking" feature needs to be enabled and have enough recorded data to display any recently played games in the system tray menu.</p>            
             <h4>Ignore sessions shorter than X minutes:</h4>
             <p>GBM can suppress backups if a session time is too short. This is useful to prevent unwanted backups just because you loaded a game for a few minutes. If session tracking is enabled, it will use this setting and ignore short sessions.</p>
             <h4>Show detection notifications:</h4>
@@ -346,7 +346,7 @@
             <p>The full command is: "C:\GOG Games\Battlespire\DOSBOX\DOSBox.exe" -conf "..\dosbox_battlespire.conf" -conf "..\dosbox_battlespire_single.conf" -noconsole -c exit</p>
             <p>We need to set the "Parameter" to something unique in the command, that no other game would be using.  "dosbox_battlespire.conf" or "dosbox_battlespire_single" would work.</p>
             <p>Please note that GBM cannot detect based on only the Parameter, the correct Process must also be used.</p>
-            <p>It's highly recommended to use the full command so you can properly launch the game from GBM.  You can also set alternate launch parameters in "Launch Options -> Settings".</p>
+            <p>It's highly recommended to use the full command so you can properly launch the game from GBM.  You can also set alternate launch parameters in "Advanced -> Launch Settings...".</p>
             <h4>Game Path:</h4>
             <p>This is the path to the game's executable file. In most cases GBM will auto-detect this information, but it can be set manually.</p>
             <p>This field may also contain same supported environment variables and <a href="#customvariables">custom path variables</a> as the Save Path field.</p>
