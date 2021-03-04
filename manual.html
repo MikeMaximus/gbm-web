@@ -33,7 +33,7 @@
             Game Backup Monitor v1.2.5 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated January 31, 2020</h3>
+            <h3 class="notop">Updated March 4, 2021</h3>
             <h3>Important Notes:</h3>
             <p>An offline version of the manual is available <a href="https://github.com/Darthagnon/gbm-manual">here</a>.  The offline manual is kindly provided by <a href="https://github.com/Darthagnon">Darthagnon</a>.</p>
             <p>This manual may contain information about features not available in the current stable release.</p>
@@ -332,9 +332,13 @@
             <h4>Use Window Title:</h4>
             <p>This indicates that the "Process" field should be used to match on the title of a window and not a process name.  This can be used in combination with the "Regular Expression" option.</p>
             <p>This option is located in the <img class="manualbutton" src="images/manual/buttons/frmGameManager_Process.png" width="16" height="16" alt="CPU" /> (Process options) sub-menu button to the right of the "Process" field.</p>
-            <p>This allows GBM to detect games based on the title of a window, which can be useful for games running in a web browser, cloud gaming client, emulators, etc.</p>            
-            <p>The Process field cannot be used to launch a game if it's a Window Title, use "Advanced -> Launch Settings..." to select an alternate executable.</p>
-            <p>Detecting games via window title is currently not supported in Linux due to unimplemented features in Mono.</p>
+            <p>This allows GBM to detect games based on the title of a window, which can be useful for games running in a web browser, cloud gaming client, emulators, etc.</p>
+            <p>Important Notes:
+            <ol>
+              <li>The Process field cannot be used to launch a game if it's a Window Title, use "Advanced -> Launch Settings..." to select an alternate executable.</li>
+              <li>Monitoring a game using the window title is unreliable when a game is running as Administrator and GBM is not.  If you're having issues in this scenario, run GBM as Administrator as well.</li>
+              <li>Detecting games via window title is currently not supported in Linux due to unimplemented features in Mono.</li>
+            </ol></p>            
             <h4>Parameter:</h4>
             <p>A command parameter value to match on when detecting the game.  This field is mainly used for detecting games running in emulator software, but also used as the default command parameters when launching a game from GBM.</p>
             <p>GBM will detect the "Process", then match the "Parameter" to any part of the full command.  This IS case-sensitive.</p>
