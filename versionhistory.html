@@ -33,7 +33,87 @@
             Version History
           </div>
           <div cass="pageSectionContent">
-            <h3 class="notop">1.2.4</h3>
+            <h3 class="notop">1.2.5</h3>
+            <ul>
+              <li>All Platforms:
+                <ul>
+                  <li>Overhauled the user interface.
+                    <ul>
+                      <li>The "Start-Up Wizard" and "Add Game Wizard" instructions are now easier to read with a larger font.</li>
+                      <li>Most buttons in the application are now larger with icons (Thanks to @Darthagnon for help with icons).</li>
+                      <li>The redundant "Close" button has been removed from many forms.</li>
+                      <li>The "Main Window" now has a collapsible game list with a search filter and quick access to features such backup, restore and game launching.
+                        <ul>
+                          <li>These new features can be disabled or hidden by default in Settings -> User Interface.</li>
+                        </ul>
+                      </li>
+                      <li>The "Game Manager" has been slimmed down for ease of use.
+                        <ul>
+                          <li>The size of the form has been reduced and the sections have been split into tabs.</li>
+                          <li>Certain buttons and checkboxes have been moved into sub-menus.</li>
+                        </ul>
+                      </li>
+                      <li>The "Settings" form has been reorganized into more sections.</li>
+                      <li>The "Quick Launch" feature introduced in v1.2.4 has been removed since games can now be launched directly from the main window.</li>
+                    </ul>
+                  </li>
+                  <li>Added the option to detect games using a window title instead of a process name.
+                    <ul>
+                      <li>This adds another option for detecting games that all run from the same executable. Such as emulated games, browser games, or cloud service games.</li>
+                      <li>In addition to the process ending, GBM will also end monitoring when the window title no longer matches the game configuration.</li>
+                      <li>This feature is not supported in Linux, see the "Known Issues" section for details.</li>
+                    </ul>
+                  </li>
+                  <li>Added option to show a notification when a backup operation has been completed.
+                    <ul>
+                      <li>This option is available in the "Backup and Restore" section of the Settings window, it defaults to disabled.</li>
+                      <li>A single notification will be shown when a backup operation is completed, even if the operation included multiple games.</li>
+                    </ul>
+                  </li>
+                  <li>Added "Detection Speed" setting.
+                    <ul>
+                      <li>Allows users monitoring for hundreds or even thousands of games at once to greatly lower CPU usage at the cost of detection speed.</li>
+                      <li>The average user with a normal sized game list should never need to adjust this setting, even the "Fast" setting will use very little CPU power every few seconds.</li>
+                      <li>This option is available in the "General" section of the Settings window, it defaults to "Fast".</li>
+                    </ul>
+                  </li>
+                  <li>The "Icon" field now supports the use of Environment and Custom Path variables.</li>
+                  <li>The "Search" filter on the Main Window and Game Manager now supports filtering by tag.
+                    <ul>
+                      <li>Tags must be an exact match.</li>
+                    </ul>
+                  </li>
+                  <li>AbsolutePath is now a calculated field and no longer stored.
+                    <ul>
+                      <li>This will break official lists for prior versions of GBM (v1.1.5 - v1.2.4). The last official list(s) compatible with these versions will be archived so they can still be accessed.</li>
+                    </ul>
+                  </li>
+                  <li>Application settings are now handled more efficiently.</li>
+                  <li>Added missing code to properly update or delete existing launch data when certain configuration changes are made.</li>
+                  <li>Fixed issues with changing the Game ID when that configuration had existing backup files.</li>
+                </ul>
+              </li>
+              <li>Windows:
+                <ul>
+                  <li>The icons from game executables are now cached after a session.
+                    <ul>
+                      <li>The "Main Window" and "Game Manager" will display the cached icon when viewing the game details, unless a custom icon has been set.</li>
+                      <li>Cached icons are stored using the PNG format in the GBM temporary folder (can be customized in Settings).</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>Known Issues (Linux):
+                <ul>
+                  <li>Detecting games by window title does not work.
+                    <ul>
+                      <li>Mono hasn't implemented the "MainWindowTitle" property in System.Diagnostics.Process, so this feature is not supported in Linux at this time.</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h3>1.2.4</h3>
             <ul>
               <li>All Platforms:
                 <ul>
