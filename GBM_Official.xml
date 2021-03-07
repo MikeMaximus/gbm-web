@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1612517248" TotalConfigurations="505" AppVer="125">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1615098018" TotalConfigurations="509" AppVer="126">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -657,7 +657,7 @@
     <Path>%USERDOCUMENTS%\SavedGames\AxiomVerge\Saves</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList>Settings.xml</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
@@ -3879,7 +3879,7 @@
     <Path>%LOCALAPPDATA%\KillHouseGames\ActionSquad</Path>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType>userdata.bin</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
@@ -3993,6 +3993,33 @@
     <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>12396863-6106-46f8-83c4-1374bec552a6</ID>
+    <Name>Drakensang</Name>
+    <ProcessName>drakensang</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\Drakensang\profiles</Path>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>save</FileType>
+    <ExcludeList>profile.xml</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -4623,7 +4650,7 @@
     <Path>%LOCALAPPDATA%\RSG\Saved\SaveGames</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
@@ -5079,7 +5106,7 @@
     <Name>Fell Seal: Arbiter's Mark</Name>
     <ProcessName>Fell Seal</ProcessName>
     <Parameter />
-    <Path>%USERPROFILE%\Documents\Fell Seal\saves\</Path>
+    <Path>%USERDOCUMENTS%\Fell Seal\saves\</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
@@ -6681,7 +6708,7 @@
     <Path>%LOCALAPPDATA%Low\MinskWorks\Jalopy</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
@@ -6735,7 +6762,7 @@
     <Path>save</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
@@ -7028,6 +7055,33 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>52a0c47a-4642-4540-bc0c-19baf9fd352a</ID>
+    <Name>Loop Hero</Name>
+    <ProcessName>Loop Hero</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\Loop_hero</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>9e2a6d5a-fec7-4721-9188-0fe1707cbf69</ID>
     <Name>Lords of Xulima</Name>
     <ProcessName>LoX</ProcessName>
@@ -7284,6 +7338,33 @@
     <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Origin</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>b9f0f11f-0f08-45a9-b05b-00cb77a74c0e</ID>
+    <Name>Mass Effect: Andromeda</Name>
+    <ProcessName>MassEffectAndromeda</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\Documents\BioWare\Mass Effect Andromeda\Save</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>ProfOpts_profile</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -7779,7 +7860,7 @@
     <Path>%LOCALAPPDATA%\ZoneUE4\Saved\SaveGames</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList>GameSettingsSave.sav</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
@@ -8052,7 +8133,7 @@
     <Path>%USERDOCUMENTS%\BNE\One Piece Pirate Warriors 3\SAVEDATA\</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
@@ -9060,7 +9141,7 @@
     <Path />
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType>*.sav</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
@@ -9504,7 +9585,7 @@
     <Path>Saved Games</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
@@ -9531,7 +9612,7 @@
     <Path>Saved Games</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
@@ -9909,7 +9990,7 @@
     <Path>%USERPROFILE%\Saved Games\Flying Wild Hog\Shadow Warrior 2\profiles</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList>config.cfg</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
@@ -12603,7 +12684,7 @@
     <Path>%LOCALAPPDATA%Low\CDProjektRED\Thronebreaker</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList>Unity:*.log:output_log.txt</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
@@ -12738,7 +12819,7 @@
     <Path>%LOCALAPPDATA%Low\Event horizon\Tower of Time</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList>Unity:*.log</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
@@ -13107,6 +13188,33 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>26571649-72de-415c-840d-208f677ec441</ID>
+    <Name>Valheim</Name>
+    <ProcessName>valheim</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\IronGate\Valheim</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>true</AppendTimeStamp>
+    <BackupLimit>3</BackupLimit>
+    <FileType />
+    <ExcludeList>*.log:*.old:*.vdf</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
