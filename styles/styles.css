@@ -136,6 +136,15 @@ li {
     padding: 3pt;
 }
 
+div.awards {
+    line-height: 140px;
+    text-align: center;
+}
+
+img.middle {
+    vertical-align: middle;
+}
+
 img.centered {
     margin: 0 auto;
     display: block;
@@ -144,7 +153,7 @@ img.centered {
     -webkit-border-radius: 7px;
 }
 
-img.logo_border {
+img.logo_border {    
 	border-radius: 7px;
     -moz-border-radius: 7px;
     -webkit-border-radius: 7px;
