@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1615098018" TotalConfigurations="509" AppVer="126">
+<gbm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Exported="1619539364" TotalConfigurations="514" AppVer="127">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -3431,6 +3431,33 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>37ee297c-63d2-435f-9f74-551d737819ee</ID>
+    <Name>Death Stranding</Name>
+    <ProcessName>DeathStranding</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\KojimaProductions\DeathStranding</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Tags>
+      <Tag>
+        <Name>EGS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>1d1fe9ae-b9ac-4ef7-b128-5ea97c3828b9</ID>
     <Name>Democracy 3</Name>
     <ProcessName>Democracy3</ProcessName>
@@ -3658,7 +3685,7 @@
   <Game>
     <ID>d39f6dc4-90e8-48f6-83d5-be6bab9cef0c</ID>
     <Name>Disco Elysium</Name>
-    <ProcessName>disco</ProcessName>
+    <ProcessName>Disco Elysium</ProcessName>
     <Parameter />
     <Path>%USERPROFILE%\AppData\LocalLow\ZAUM Studio\Disco Elysium\SaveGames\</Path>
     <FolderSave>true</FolderSave>
@@ -6284,6 +6311,33 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>75f1ceaa-d204-4938-b855-00886e25a65d</ID>
+    <Name>Horizon Zero Dawn</Name>
+    <ProcessName>HorizonZeroDawn</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\Horizon Zero Dawn\Saved Game</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>graphicsconfig.ini</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>f5347255-e8b5-4374-92b5-4a271b100930</ID>
     <Name>Hotline Miami</Name>
     <ProcessName>HotlineGL</ProcessName>
@@ -7166,6 +7220,33 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>26bcf2cc-4080-483c-80f4-4895581349a1</ID>
+    <Name>Mad Max</Name>
+    <ProcessName>MadMax</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\WB Games\Mad Max\Saves</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>89ee5c26-6dc7-4e65-958f-5a961c34bcbe</ID>
     <Name>Magicka 2</Name>
     <ProcessName>Magicka2</ProcessName>
@@ -7740,6 +7821,36 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>7fc7169e-e570-4ed9-b3c4-2b8e145e7d63</ID>
+    <Name>Mortal Kombat 4</Name>
+    <ProcessName>mk4</ProcessName>
+    <Parameter />
+    <Path>HKEY_CURRENT_USER\SOFTWARE\Classes\VirtualStore\MACHINE\SOFTWARE\Wow6432Node\GT Interactive\Mortal Kombat 4\1.00</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>This configuration assumes you are NOT running the game as Administrator.</Comments>
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Registry</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -9951,6 +10062,33 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>0dd9601a-a368-4e72-9140-7beacb3ede89</ID>
+    <Name>Shadow Man Remastered</Name>
+    <ProcessName>thoth_x64</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\Saved Games\Nightdive Studios\Shadowman EX\saves</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
