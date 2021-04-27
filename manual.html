@@ -30,10 +30,10 @@
       <div id="leftcontent">
         <div class="pageSection">
           <div class="pageSectionHeader">
-            Game Backup Monitor v1.2.5 Manual
+            Game Backup Monitor v1.2.7 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated March 4, 2021</h3>
+            <h3 class="notop">Updated April 27, 2021</h3>
             <h3>Important Notes:</h3>
             <p>An offline version of the manual is available <a href="https://github.com/Darthagnon/gbm-manual">here</a>.  The offline manual is kindly provided by <a href="https://github.com/Darthagnon">Darthagnon</a>.</p>
             <p>This manual may contain information about features not available in the current stable release.</p>
@@ -187,6 +187,13 @@
             <p>This will require GBM to show a standard Windows notification when a game is detected.</p>
             <h4>Detection Speed:</h4>
             <p>This allows you to customize how fast GBM will detect games.  A slower setting will reduce CPU usage when monitoring for a large amount of games.</p>
+            <h4>Two-Pass Detection:</h4>
+            <p>This setting allows you to customize the method GBM uses to detect games.  
+              <ul>
+                <li>When Two-Pass Detection is enabled, the same process needs to be found on two consecutive detection passes to trigger GBM.  This makes detection slower, but more reliable.  This is the default.</li>
+                <li>When Two-Pass Detection is disabled, a process is registered as detected after a single pass.  This makes detection twice as fast, but it may be unreliable in certain situations.</li>
+              </ul>
+            </p>
             <h4>Disable sync event messages:</h4>
             <p>This will prevent all sync related messages from being displayed in the log.</p>
             <h4>Autosave log when max length is exceeded:</h4>
@@ -595,7 +602,7 @@
             <p>GBM will usually be able to launch any monitored game that has been detected at least once without any extra configuration.  Advanced configuration options are also provided for fine tuning and to work around any problems that may be encountered.</p>            
             <p>The launch settings for any game can be modified from the Game Manager, by clicking the <img class="manualbutton" src="images/manual/buttons/frmGameManager_Advanced.png" width="16" height="16" alt="Tools" /> (Advanced) button and choosing "Launch Settings..." to open "Launch Configuration".</p>
             <img class="manual" src="images/manual/manual_28.jpg" width="491" height="388" alt="Launch Configuration" />
-            <h4>Store Launcher Configuration</h4>
+            <h4>Launcher Configuration</h4>
             <p>This section allows you to configure a game to be launched directly from the store client where it was purchased.  This is sometimes required due to <a href="https://en.wikipedia.org/wiki/Digital_rights_management" target=_blank>DRM issues</a> or bugs that occur when a game doesn't support launching the executable directly.  This will be explained in the "Launcher Manager" and "Determining the Command & Game ID" sections below.</p>
             <h4>Alternate Configuration</h4>
             <p>This section allows you to manually configure a game to use an alternate executable/script and customize how command parameters are to be handled.</p>
@@ -603,7 +610,7 @@
             <p>This section displays the command that GBM will use to launch the game.  This field cannot be edited directly, it is provided for troubleshooting and informational purposes.</p>
             <p>GBM uses a priority system to build the launch command based on the information it has available.</p>
             <ol>
-              <li>When an external store launcher and game ID are set, it has top priority and will be used to launch the game.</li>
+              <li>When an external launcher and game ID are set, it has top priority and will be used to launch the game.</li>
               <li>When an alternate executable is set, it has secondary priority.</li>
               <li>When no other information is available, GBM will use the "Process" and "Game Path" from the game configuration to automatically build the launch command.</li>                           
             </ol>
@@ -616,25 +623,40 @@
             </ol>
             <h3>Launcher Manager</h3>
             <p>The "Launcher Manager" is used to configure common external launchers you may need for launching games.</p>
-            <p>Some popular store launchers will be automatically added and configured for your convenience.</p>
+            <p>Some popular launchers will be automatically added and configured for your convenience.  Currently, executable based launchers (GOG Galaxy) will only be automatically configured when installed to their default location.</p>
             <img class="manual" src="images/manual/manual_29.jpg" width="586" height="248" alt="Launcher Manager" />
+            <h4>Launcher Type:</h4>
+            <p>This setting indicates the type of launcher:
+              <ul>
+                <li>URI - The launcher uses a uniform resource identifier to start games.</li>
+                <li>Executable - The launcher starts games using it's own executable file and parameters.</li>
+              </ul>
+            </p>
             <h4>Name:</h4>
             <p>This field is an identifier for the launcher, it must be unique.</p>
-            <h4>Command:</h4>
-            <p>This field is the URI command used to trigger a game launch from this particular launcher.  Currently, only launchers that can be triggered with a URI are supported.</p>
-            <p>An %ID% variable should replace the part of the command that contains the ID of the game being launched.  This variable refers to the "Game ID" field from the "Launch Configuration" screen.</p>
-            <p>If the %ID% variable is missing, GBM will assume it belongs at the end of the command.</p>
+            <h4>Command / Executable:</h4>
+            <p>This field is the URI command or Executable used to trigger a game launch from this particular launcher, it changes based on the "Launcher Type" setting.</p>
+            <h4>Parameters:</h4>
+            <p>This field is for the parameters used by an "Executable" type launcher to start a game, it is disabled when configuring a URI launcher.</p>
+            <h4>Variables:</h4>
+            <p>Various variables can be used in the configuration of launchers, either in the URI "Command" or the Executable "Parameters" field.
+              <ul>
+                <li>%ID% - The external "Game ID" from the "Launch Configuration" screen.</li>
+                <li>%INTERNALID% - The internal "Game ID" assigned by GBM.</li>
+                <li>%NAME% - The full name of the game.</li>
+                <li>%PROCESS% - The process name of the game (does not include file extensions).</li>
+                <li>%PARAMETER% - The parameters GBM uses to detect and/or launch the game.</li>
+                <li>%GAMEPATH% - The working path of the game's process.</li>
+              </ul>            
+            </p>
             <h4>Add Defaults</h4>
-            <p>If you accidently deleted any of the default launchers, you can easily re-add them using this button.</p>            
+            <p>If any of the default launchers are missing or have been removed, you can re-add them using this button.</p>
             <h3>Determining the Command & Game ID</h3>
             <p>The best way to determine both the command used by a launcher and the ID of the game you want to launch, is to create a shortcut for the game from the launcher and view the properties.</p>
             <img class="manual" src="images/manual/manual_31.jpg" width="363" height="509" alt="Launcher Shortcut" /><br />            
             <p>The URL field will contain the command used to trigger the launcher.  You can usually determine the game ID based on the context of the command.</p>
-            <img class="manual" src="images/manual/manual_30.jpg" width="491" height="388" alt="Store Launcher Configuration" /><br />
-            <p>The "Current Launch Command" should match the shortcut once you've configured everything properly.</p>
-            <h3>Unsupported Launchers</h3>
-            <p>Launchers that are called directly by their executable to start a game (such as GOG Galaxy) are not currently supported.  However, you can still trigger a game to start with an unsupported launcher by using alternate executables and parameters on the "Launch Configuration" screen.</p>
-            <img class="manual" src="images/manual/manual_32.jpg" width="491" height="388" alt="Unsupported Lanucher Configuration" /><br />            
+            <img class="manual" src="images/manual/manual_30.jpg" width="491" height="388" alt="Launcher Configuration" /><br />
+            <p>The "Current Launch Command" should match the shortcut once you've configured everything properly.</p>            
           </div>
           <div class="pageSectionFooter">
             <a href="#toc">Back to Contents</a>
