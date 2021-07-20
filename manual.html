@@ -30,10 +30,10 @@
       <div id="leftcontent">
         <div class="pageSection">
           <div class="pageSectionHeader">
-            Game Backup Monitor v1.2.7 Manual
+            Game Backup Monitor v1.2.8 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated April 27, 2021</h3>
+            <h3 class="notop">Updated July 20, 2021</h3>
             <h3>Important Notes:</h3>
             <p>An offline version of the manual is available <a href="https://github.com/Darthagnon/gbm-manual">here</a>.  The offline manual is kindly provided by <a href="https://github.com/Darthagnon">Darthagnon</a>.</p>
             <p>This manual may contain information about features not available in the current stable release.</p>
@@ -45,7 +45,15 @@
               <li><a href="#quickstart">Quick Start</a></li>
               <li><a href="#mainoverview">Main Window Overview</a></li>
               <li><a href="#settings">Settings</a></li>
-              <li><a href="#gamemanager">The Game Manager</a></li>
+              <li>
+                <a href="#gamemanager">The Game Manager</a>
+                <ol>
+                  <li><a href="#gmcore">Core Configuration</a></li>
+                  <li><a href="#gminfo">Game Information</a></li>
+                  <li><a href="#gmbackup">Backup Management</a></li>
+                </ol>
+              </li>
+              <li><a href="#differential">Differential Backups</a></li>
               <li><a href="#registry">Windows Registry Backups</a></li>
               <li><a href="#fullbackuprestore">Full Backup and Restore</a></li>
               <li><a href="#search">Search</a></li>
@@ -311,7 +319,7 @@
             <h3>Game Manager Detailed Overview:</h3>
             <p>The Game Manager splits a configuration into three tabbed sections, "Core Configuation", "Game Information" and "Backup Management".  Click the tab button for each section to switch between them.
             <p>The following is advanced information on each field used to configure a game.</p>            
-            <h3>Core Configuration</h3>
+            <h3><a name="gmcore" id="gmcore">Core Configuration</a></h3>
             <h4>Name:</h4>
             <p>The name of the game to monitor.  Multiple entries with the same name are allowed.</p>
             <h4>Game ID:</h4>
@@ -454,7 +462,7 @@
             <h4>OS:</h4>
             <p>This is the target operating system of the configuration, the OS field is hidden and cannot be modified in Windows.</p>
             <p>This field allows Linux users to manage native and Windows games in the same list.</p>            
-            <h3>Game Information</h3>
+            <h3><a name="gminfo" id="gminfo">Game Information</a></h3>
             <img class="manual" src="images/manual/manual_35.jpg" width="786" height="413" alt="Game Manager" />
             <h4>Comments:</h4>
             <p>This is used to store any extra information about the configuration.</p>            
@@ -464,7 +472,7 @@
             <p>You can manually set a version value to be displayed when the game is detected. This takes priority over the version information detected from the game's executable.</p>
             <h4>Icon:</h4>
             <p>You can manually set a icon to be displayed when the game is detected. This takes priority over the icon used by the game's executable.</p>            
-            <h3>Backup Management</h3>
+            <h3><a name="gmbackup" id="gmbackup">Backup Management</a></h3>
             <img class="manual" src="images/manual/manual_36.jpg" width="786" height="413" alt="Game Manager" />
             <h4>Backup Data:</h4>
             <p>This field lists all the available backup data.  You may select older entries if you need to restore or delete it.</p>
@@ -494,6 +502,42 @@
             <h4>Restore:</h4>
             <p>The <img class="manualbutton" src="images/manual/buttons/Multi_Restore.png" width="16" height="16" alt="Restore Folder" /> (Restore) button will trigger a restore of the currently selected backup data.</p>
             <p>When multiple games are selected, GBM will trigger a restore of the latest backup data for each selected game.</p>
+          </div>
+          <div class="pageSectionFooter">
+            <a href="#toc">Back to Contents</a>
+          </div>
+        </div>
+        <div class="pageSection">
+          <div class="pageSectionHeader">
+            <a name="differential" id="differential">Differential Backups</a>
+          </div>
+          <div class="pageSectionContent">
+            <p>Game Backup Monitor supports using the differential backup method, it can be enabled for specific games by using the "Differential backup" checkbox on the Game Manager.</p>
+            <p>This method involves creating a full backup, then having the following backups only save the changes made since the last full backup.</p>
+            <p>For most games, using the differential backup method will have no benefit and is not recommended.  However for games with extremely large saved game folders (such as Kenshi or Project Zomboid) using the differential backup method may save a lot of time and storage space.</p>
+            <img class="manual" src="images/manual/manual_37.jpg" width="786" height="413" alt="Differential Backups" />
+            <h4>Important Details:</h4>
+            <ul>
+              <li>The "Differential backup" option will change the interface when enabled and allow you to set a "Full backup interval" value.
+                <ul>
+                  <li>This value is the maximum amount of differential backups between each full backup.</li>
+                  <li>An interval value is highly recommended, since the efficiency of differential backups will decrease over time as more and more changes are made to a saved game folder.</li>
+                  <li>A value of zero means there is no interval and only a single full backup will be created.  This is not recommended, but may be useful if you'd like to micromanage your backups.</li>
+                </ul>    
+              </li>
+              <li>GBM will properly handle backups (Full or Differential) based on their type.  For example:
+                <ul>
+                  <li>Restoring a differential backup will automatically trigger the restore of it's associated full backup first.</li>
+                  <li>Deleting a full backup will automatically delete any associated differential backups.</li>
+                </ul>
+              </li>
+              <li>Full and differential backups may be imported just like any other backup file.
+                <ul>
+                  <li>When importing a differential backup, it's associated full backup must be imported first.  GBM will take care of this automatically when importing entire folders.</li>
+                </ul>
+              </li>
+              <li>The filenames of full backups will be appended with "- Full" and differential backups with "- Diff"</li>
+            </ul>
           </div>
           <div class="pageSectionFooter">
             <a href="#toc">Back to Contents</a>
