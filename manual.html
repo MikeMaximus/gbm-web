@@ -33,7 +33,7 @@
             Game Backup Monitor v1.2.8 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated July 20, 2021</h3>
+            <h3 class="notop">Updated July 23, 2021</h3>
             <h3>Important Notes:</h3>
             <p>An offline version of the manual is available <a href="https://github.com/Darthagnon/gbm-manual">here</a>.  The offline manual is kindly provided by <a href="https://github.com/Darthagnon">Darthagnon</a>.</p>
             <p>This manual may contain information about features not available in the current stable release.</p>
@@ -320,6 +320,7 @@
             <p>The Game Manager splits a configuration into three tabbed sections, "Core Configuation", "Game Information" and "Backup Management".  Click the tab button for each section to switch between them.
             <p>The following is advanced information on each field used to configure a game.</p>            
             <h3><a name="gmcore" id="gmcore">Core Configuration</a></h3>
+            <img class="manual" src="images/manual/manual_38.jpg" width="786" height="413" alt="Core Configuration" />
             <h4>Name:</h4>
             <p>The name of the game to monitor.  Multiple entries with the same name are allowed.</p>
             <h4>Game ID:</h4>
@@ -514,17 +515,24 @@
             <a name="differential" id="differential">Differential Backups</a>
           </div>
           <div class="pageSectionContent">
-            <p>Game Backup Monitor supports using the differential backup method, it can be enabled for specific games by using the "Differential backup" checkbox on the Game Manager.</p>
-            <p>This method involves creating a full backup, then having the following backups only save the changes made since the last full backup.</p>
-            <p>For most games, using the differential backup method will have no benefit and is not recommended.  However for games with extremely large saved game folders (such as Kenshi or Project Zomboid) using the differential backup method may save a lot of time and storage space.</p>
+            <p>Game Backup Monitor supports using the <a href="https://en.wikipedia.org/wiki/Differential_backup" target=_blank>differential backup</a> method, it can be enabled for specific games by using the "Differential backup" checkbox on the Game Manager.</p>
+            <p>This method involves creating a full backup, then having the following backups only save the changes made since the last full backup.  This can result in much faster and smaller backups for specific games.</p>
+            <p>Differential backups can be much more efficient for the following types of games:
+              <ul>
+                <li>Sandbox or Simulation games with huge worlds.</li>
+                <li>Games that create many checkpoint and autosaves over the course of the game, such as Open world RPGs.</li>
+                <li>Games that save a large amount of historical data in many different files.</li>
+              </ul>
+            </p>
+            <p>For the majority of games outside of the examples listed above, enabling Differential backup will not provide much benefit and <b>is not recommended</b>.</p>
             <img class="manual" src="images/manual/manual_37.jpg" width="786" height="413" alt="Differential Backups" />
             <h4>Important Details:</h4>
             <ul>
               <li>The "Differential backup" option will change the interface when enabled and allow you to set a "Full backup interval" value.
                 <ul>
                   <li>This value is the maximum amount of differential backups between each full backup.</li>
-                  <li>An interval value is highly recommended, since the efficiency of differential backups will decrease over time as more and more changes are made to a saved game folder.</li>
-                  <li>A value of zero means there is no interval and only a single full backup will be created.  This is not recommended, but may be useful if you'd like to micromanage your backups.</li>
+                  <li>An interval value is highly recommended, the efficiency of differential backups will decrease over time as more and more changes are made to a saved game folder.</li>
+                  <li>A value of zero means there is no interval and only a single full backup will be created.  This is not recommended, but may be useful if you'd like to micromanage when full backups are created.</li>
                 </ul>    
               </li>
               <li>GBM will properly handle backups (Full or Differential) based on their type.  For example:
@@ -535,10 +543,10 @@
               </li>
               <li>Full and differential backups may be imported just like any other backup file.
                 <ul>
-                  <li>When importing a differential backup, it's associated full backup must be imported first.  GBM will take care of this automatically when importing entire folders.</li>
+                  <li>When importing a differential backup, it's associated full backup must be imported first.  GBM will take care of this automatically when importing multiple backup files at the same time.</li>
                 </ul>
               </li>
-              <li>The filenames of full backups will be appended with "- Full" and differential backups with "- Diff"</li>
+              <li>The filenames of full backups will be appended with "- Full" and differential backups with "- Diff".  The backup type can also be identified using the metadata stored in the backup archive.</li>              
             </ul>
           </div>
           <div class="pageSectionFooter">
