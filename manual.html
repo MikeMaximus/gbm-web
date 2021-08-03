@@ -33,7 +33,7 @@
             Game Backup Monitor v1.2.8 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated July 23, 2021</h3>
+            <h3 class="notop">Updated August 3, 2021</h3>
             <h3>Important Notes:</h3>
             <p>An offline version of the manual is available <a href="https://github.com/Darthagnon/gbm-manual">here</a>.  The offline manual is kindly provided by <a href="https://github.com/Darthagnon">Darthagnon</a>.</p>
             <p>This manual may contain information about features not available in the current stable release.</p>
@@ -434,8 +434,9 @@
             <p>GBM checks for dangerous configurations in which this option should not be used and disables it, but even so use caution with this option.</p>
             <h4>Save Multiple Backups:</h4>
             <p>This indicates if you want GBM to keep multiple backups for that game.  When using this option you can set a limit on the amount of backups to keep, any value from 0 to 100.  Set the limit to 0 if you'd like to keep an unlimited number of backups, this is the default.  When backups are limited, GBM will delete the oldest backup(s) automatically when new ones are made or if the limit is reduced.</p>
-            <p>Expired backups are only deleted when a new backup for that particular game is made, not at the time a setting is changed.</p>
-            <p>Expired backups are not deleted automatically if the "Save multiple backups" option is disabled after being used.</p>
+            <p>For "Differential Backup" configurations, this setting allows you to set a limit of how many full backup files to keep.  Once the limit it reached, previous full backups and their associated differential backups will be automatically removed.</p>
+            <p>Expired backups are only deleted when a new backup for that particular game is successfully created, not at the time this setting is changed.</p>
+            <p>Expired backups are not deleted automatically if the "Save multiple backups" option is disabled after being used.</p>            
             <p>All expired backups go to the Recycle Bin in Windows, but are permenantly deleted in Linux.</p>
             <h4>Differential Backup:</h4>
             <p>This indicates you'd like to use the differential backup method for this game.  Please see the <a href="#differential">Differential Backups</a> section of the manaul for more details.</p>            
@@ -520,7 +521,7 @@
             <p>Differential backups can be much more efficient for the following types of games:
               <ul>
                 <li>Sandbox or Simulation games with huge worlds.</li>
-                <li>Games that create many checkpoint and autosaves over the course of the game, such as Open world RPGs.</li>
+                <li>Games that create an extreme amount of checkpoints and/or autosaves over the course of the game.</li>
                 <li>Games that save a large amount of historical data in many different files.</li>
               </ul>
             </p>
@@ -528,11 +529,12 @@
             <img class="manual" src="images/manual/manual_37.jpg" width="786" height="413" alt="Differential Backups" />
             <h4>Important Details:</h4>
             <ul>
-              <li>The "Differential backup" option will change the interface when enabled and allow you to set a "Full backup interval" value.
+              <li>The "Differential backup" option will allow you to set a "Full backup interval" value.
                 <ul>
-                  <li>This value is the maximum amount of differential backups between each full backup.</li>
-                  <li>An interval value is highly recommended, the efficiency of differential backups will decrease over time as more and more changes are made to a saved game folder.</li>
-                  <li>A value of zero means there is no interval and only a single full backup will be created.  This is not recommended, but may be useful if you'd like to micromanage when full backups are created.</li>
+                  <li>This value is the maximum amount of differential backups between each full backup.  The default is 6, but the most efficient value will greatly vary depending on the composition of the saved game folder and how many files are changed each session.</li>
+                  <li>By default, only one set of backups will be kept.  Once the "Full backup interval" value is reached, the prior set will be automatically deleted and a new full backup file will be created.</li>
+                  <li>The "Save Multiple Backups" setting can be used to keep multiple sets of backups.</li>
+                  <li>A value of zero means there is no interval and only a single full backup will ever be created.  This is not recommended, but may be useful if you'd like to micromanage when full backups are created.</li>
                 </ul>    
               </li>
               <li>GBM will properly handle backups (Full or Differential) based on their type.  For example:
