@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1627992044" TotalConfigurations="522" AppVer="128">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1633624479" TotalConfigurations="535" AppVer="129">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -246,6 +246,35 @@
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
     <FileType>*.sav</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>bb0e0029-0176-406d-ae18-280da1ab6805</ID>
+    <Name>Age of Wonders - Planetfall</Name>
+    <ProcessName>AowPF</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\Paradox Interactive\Age of Wonders Planetfall\Saves</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -806,6 +835,35 @@
     <Tags>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>2dea2b02-962d-4054-aae1-b54f40d28632</ID>
+    <Name>Batman: Arkham Asylum GOTY</Name>
+    <ProcessName>ShippingPC-BmGame</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\Square Enix\Batman Arkham Asylum GOTY\SaveData</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>EGS</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -1777,6 +1835,35 @@
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>44b50ed8-57b5-486b-8daa-a4a04ba92d77</ID>
+    <Name>Blood Omen - Legacy of Kain</Name>
+    <ProcessName>Kain</ProcessName>
+    <Parameter />
+    <Path />
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>Saves:Cfg\bconfig.cfg:Cfg\jconfig.cfg</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>false</RecurseSubFolders>
     <OS>1</OS>
     <UseWindowTitle>false</UseWindowTitle>
     <Differential>false</Differential>
@@ -3444,6 +3531,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>76558a25-0ed1-4d19-8684-8bce664db40d</ID>
+    <Name>Darksiders: Genesis</Name>
+    <ProcessName>DarksidersGenesis</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\THQ Nordic\Darksiders Genesis\Saved\SaveGames</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>000b9689-e866-4376-bbb0-5269dec69d7e</ID>
     <Name>Darksiders: Warmastered Edition</Name>
     <ProcessName>darksiders1</ProcessName>
@@ -3737,6 +3853,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>36a0faef-2753-422e-b21a-9a54c5470cc8</ID>
+    <Name>Death Trash</Name>
+    <ProcessName>DeathTrash</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\Crafting Legends\Death Trash</Path>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>UserData*</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>1d1fe9ae-b9ac-4ef7-b128-5ea97c3828b9</ID>
     <Name>Democracy 3</Name>
     <ProcessName>Democracy3</ProcessName>
@@ -3897,6 +4042,35 @@
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
     <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>7d35dddb-581a-4110-947d-215a5672a679</ID>
+    <Name>Diablo</Name>
+    <ProcessName>Diablo</ProcessName>
+    <Parameter />
+    <Path />
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>*.sv</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -6198,6 +6372,74 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>9141f963-f34b-46a2-a16f-408a764abdc2</ID>
+    <Name>Gun</Name>
+    <ProcessName>Gun</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\Activision\Gun\saves</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks>
+      <ConfigLink>
+        <ID>c6620df0-d45b-4301-b62e-28e2981e60c7</ID>
+      </ConfigLink>
+    </ConfigLinks>
+  </Game>
+  <Game>
+    <ID>c6620df0-d45b-4301-b62e-28e2981e60c7</ID>
+    <Name>Gun (Control Configuration)</Name>
+    <ProcessName />
+    <Parameter />
+    <Path>HKCU\SOFTWARE\Activision\Gun\Controls</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Configuration</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Registry</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>0df46334-6e08-4a70-939a-6957878331cf</ID>
     <Name>Gwent: The Witcher Card Game</Name>
     <ProcessName>Gwent</ProcessName>
@@ -7284,6 +7526,35 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments>This backup configuration includes all settings, including graphics settings.</Comments>
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>f0b30878-624d-4a84-85f4-4b3391e20728</ID>
+    <Name>Jupiter Hell</Name>
+    <ProcessName>jh</ProcessName>
+    <Parameter />
+    <Path />
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>true</AppendTimeStamp>
+    <BackupLimit>3</BackupLimit>
+    <FileType>player.dat:score.dat:save:mortem.txt</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
     <OS>1</OS>
@@ -8830,6 +9101,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>9a1183f3-b2b7-4969-ad4f-84a472e6e156</ID>
+    <Name>Nioh: The Complete Edition</Name>
+    <ProcessName>nioh</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\KoeiTecmo\NIOH\Savedata</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>EGS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>f5ae27d1-a518-4ca0-aead-fbd958263a7a</ID>
     <Name>No Man's Sky</Name>
     <ProcessName>NMS</ProcessName>
@@ -9794,11 +10094,11 @@
     <Name>Prison Architect</Name>
     <ProcessName>Prison Architect(64)?$</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%\Introversion\Prison Architect\saves</Path>
-    <FolderSave>true</FolderSave>
+    <Path>%LOCALAPPDATA%\Introversion\Prison Architect</Path>
+    <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
-    <FileType />
+    <FileType>saves:unlocked.txt</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -9944,7 +10244,7 @@
     <Parameter />
     <Path>%USERPROFILE%\Zomboid</Path>
     <FolderSave>true</FolderSave>
-    <AppendTimeStamp>true</AppendTimeStamp>
+    <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList>Logs:options.ini:examplemod</ExcludeList>
@@ -9954,8 +10254,8 @@
     <RecurseSubFolders>true</RecurseSubFolders>
     <OS>1</OS>
     <UseWindowTitle>false</UseWindowTitle>
-    <Differential>false</Differential>
-    <DiffInterval>0</DiffInterval>
+    <Differential>true</Differential>
+    <DiffInterval>6</DiffInterval>
     <Tags>
       <Tag>
         <Name>GOG</Name>
@@ -9989,6 +10289,38 @@
     <Differential>false</Differential>
     <DiffInterval>0</DiffInterval>
     <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>b41dc29f-8961-44b6-a469-a22435af0d3a</ID>
+    <Name>Quake - The Offering</Name>
+    <ProcessName>DOSBox</ProcessName>
+    <Parameter>-conf "..\dosbox_quake.conf" -conf "..\dosbox_quake_single.conf" -noconsole -c exit</Parameter>
+    <Path>..\</Path>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>id1\*.SAV:hipnotic\*.SAV:rogue\*.SAV</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>false</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
@@ -10148,6 +10480,35 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>1819df6a-29e3-4489-8656-56671c5b5993</ID>
+    <Name>Red Dead Redemption 2</Name>
+    <ProcessName>RDR2</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\Rockstar Games\Red Dead Redemption 2\Profiles</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Rockstar Games Launcher</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -11825,21 +12186,24 @@
     <Name>Solasta: Crown of the Magister</Name>
     <ProcessName>Solasta</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%Low\Tactical Adventures\Solasta\Saves</Path>
-    <FolderSave>true</FolderSave>
+    <Path>%LOCALAPPDATA%Low\Tactical Adventures\Solasta</Path>
+    <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
-    <FileType />
+    <FileType>Characters:Saves</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
-    <RecurseSubFolders>true</RecurseSubFolders>
+    <RecurseSubFolders>false</RecurseSubFolders>
     <OS>1</OS>
     <UseWindowTitle>false</UseWindowTitle>
     <Differential>false</Differential>
     <DiffInterval>0</DiffInterval>
     <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
       <Tag>
         <Name>Microsoft Store</Name>
       </Tag>
@@ -13216,6 +13580,35 @@
     <ProcessName>BardsTale4-Win64-Shipping</ProcessName>
     <Parameter />
     <Path>%LOCALAPPDATA%\BardsTale4DC\Saved\SaveGames</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>344baa27-ad26-47b9-b020-dab880ce3ecc</ID>
+    <Name>The Bureau: XCOM Declassified</Name>
+    <ProcessName>TheBureau</ProcessName>
+    <Parameter />
+    <Path>..\..\XGame\Saves</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
