@@ -33,7 +33,33 @@
             Version History
           </div>
           <div cass="pageSectionContent">
-            <h3 class="notop">1.2.7</h3>
+            <h3 class="notop">1.2.8</h3>
+            <ul>
+              <li>All Platforms:
+                <ul>
+                  <li>Differential backups are now supported and can be enabled in the Game Manager.
+                    <ul>
+                      <li>Read the online manual for details on how and when to use this backup method.</li>
+                    </ul>
+                  </li>
+                  <li>Validation on "Game Path" will now trim off a file name if it's been included.</li>
+                  <li>Fixed importing multiple backup files for a single game.
+                    <ul>
+                      <li>GBM will now create manifest entries for each file when appropriate, instead of just the newest file.</li>
+                    </ul>
+                  </li>
+                  <li>The "Save multiple backups" option used with a specific backup limit will now only clean up expired backups when a new backup is successfully completed.</li>
+                  <li>Fixed unhandled exception on the Launcher Manager when using the "..." (Browse) button with an empty "Executable" field.</li>
+                </ul>
+              </li>
+              <li>Windows:
+                <ul>
+                  <li>GBM no longer tries to determine a relative save path when the "Game Path" and "Save Path" are on different drives.</li>
+                  <li>Updated SQLite to 3.36.0</li>
+                </ul>
+              </li>
+            </ul>
+            <h3>1.2.7</h3>
             <ul>
               <li>All Platforms:
                 <ul>
