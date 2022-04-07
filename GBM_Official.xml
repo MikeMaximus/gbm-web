@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1633624479" TotalConfigurations="535" AppVer="129">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1649319880" TotalConfigurations="550" AppVer="130">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -1485,6 +1485,35 @@
       </Tag>
       <Tag>
         <Name>ScummVM</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>fe233fb4-91e8-42c1-b9d3-e579cb338c37</ID>
+    <Name>Blade of Darkness</Name>
+    <ProcessName>Blade</ProcessName>
+    <Parameter />
+    <Path>..\..\Save</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -3020,6 +3049,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>c77db037-016e-4735-aceb-7c19c2ddcd2f</ID>
+    <Name>Control</Name>
+    <ProcessName>Control_DX(11|12)$</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\My Games\Control\Saves</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>preferences_data</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>20f5ee6c-4ca9-4a35-aacc-09730302ce62</ID>
     <Name>Cossacks - Art Of War</Name>
     <ProcessName>dmcr</ProcessName>
@@ -3133,6 +3191,9 @@
         <Name>Official</Name>
       </Tag>
       <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
         <Name>XGP</Name>
       </Tag>
     </Tags>
@@ -3218,6 +3279,35 @@
     <AppendTimeStamp>true</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
     <FileType>backup_save.txt:save.txt</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>27abef82-9fac-45cc-8881-4e46eb81a493</ID>
+    <Name>Cyberpunk 2077</Name>
+    <ProcessName>Cyberpunk2077</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\Saved Games\CD Projekt Red\Cyberpunk 2077</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -3404,6 +3494,35 @@
     <Tags>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>6e4f7e87-4caa-49e1-b777-81020173619e</ID>
+    <Name>Darkest Dungeon II</Name>
+    <ProcessName>Darkest Dungeon II</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\RedHook\Darkest Dungeon II\SaveFiles</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>true</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>*.zip</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>EGS</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -3613,6 +3732,35 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>6a04262a-0f06-4974-9861-5a7a43ced1be</ID>
+    <Name>Days Gone</Name>
+    <ProcessName>DaysGone</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\BendGame\Saved</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>Config:Logs:steam_autocloud.vdf</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -4028,6 +4176,35 @@
       </Tag>
       <Tag>
         <Name>Port</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>fde08f80-fbc1-47fd-91d6-462bd884b837</ID>
+    <Name>Desperados III</Name>
+    <ProcessName>Desperados III</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\Desperados III</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>videoSettings.save</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -5093,6 +5270,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>3390a404-149b-4679-8db6-3f4c3270648b</ID>
+    <Name>Elex 2</Name>
+    <ProcessName>ELEX2</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\Saved Games\ELEX2\SaveGames</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>a6ab4b2c-35db-49ba-8bca-36fcbbb34f67</ID>
     <Name>Elminage Gothic</Name>
     <ProcessName>Elminage</ProcessName>
@@ -5272,6 +5478,35 @@
     <ProcessName>Expeditions Conquistador</ProcessName>
     <Parameter />
     <Path>%USERDOCUMENTS%\My Games\Expeditions Conquistador\Saves</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>622b6661-a13a-4b0a-a467-1eb529394142</ID>
+    <Name>Expeditions: Viking</Name>
+    <ProcessName>Expeditions Viking</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\My Games\Expeditions Viking\Savegames</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
@@ -6077,6 +6312,35 @@
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>0227ea23-26d0-4903-bb2e-6147dad10622</ID>
+    <Name>God of War</Name>
+    <ProcessName>GoW</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\Saved Games\God of War</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>true</AppendTimeStamp>
+    <BackupLimit>3</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>God of War uses a single 32 MB file to store ALL saved games.  For this reason, the configuration is set to keep at least 3 different backups.</Comments>
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -7434,6 +7698,35 @@
     <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>67077409-e77b-40ac-aa48-314c95a28d6b</ID>
+    <Name>Iratus: Lord of the Dead</Name>
+    <ProcessName>Iratus</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\Unfrozen\Iratus</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>true</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>settings:Unity</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -9043,6 +9336,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>f56c36d6-eb87-4eb3-9904-b10f1fc71f51</ID>
+    <Name>Necromunda - Hired Gun</Name>
+    <ProcessName>Necromunda</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\Streumon\Necromunda\Saved\SaveGames</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>63b43a54-b9c3-4dc0-94da-d1a9ec7bc702</ID>
     <Name>Neverwinter Nights - Enhanced Edition</Name>
     <ProcessName>nwmain</ProcessName>
@@ -10200,6 +10522,9 @@
     <DiffInterval>0</DiffInterval>
     <Tags>
       <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
@@ -10244,8 +10569,8 @@
     <Parameter />
     <Path>%USERPROFILE%\Zomboid</Path>
     <FolderSave>true</FolderSave>
-    <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>0</BackupLimit>
+    <AppendTimeStamp>true</AppendTimeStamp>
+    <BackupLimit>2</BackupLimit>
     <FileType />
     <ExcludeList>Logs:options.ini:examplemod</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
@@ -10781,6 +11106,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>1e3025f2-6269-4f0f-8e2f-aaf610478d3d</ID>
+    <Name>Risen 2 - Dark Waters</Name>
+    <ProcessName>Risen</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\Saved Games\Risen2\SaveGames</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>80e086da-5278-469c-8371-eb652d7c42c6</ID>
     <Name>Risen 3 - Titan Lords</Name>
     <ProcessName>Risen3</ProcessName>
@@ -11149,6 +11503,9 @@
     <DiffInterval>0</DiffInterval>
     <Tags>
       <Tag>
+        <Name>EGS</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
@@ -11254,7 +11611,7 @@
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
     <FileType />
-    <ExcludeList>GraphicsConfig.xml</ExcludeList>
+    <ExcludeList>GraphicsConfig.xml:steam_autocloud.vdf</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -11694,7 +12051,7 @@
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments>This game stores the autosave and the settings in the same file.  This configuration includes the autosave, so most graphics settings will transfer between different PCs.</Comments>
+    <Comments>This game stores the autosave and the settings in the same file.  This configuration includes the autosave, so most graphics settings will transfer between different PCs.  Shenmue 3 saved games are NOT compatible across different store versions, even if renamed.</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
     <OS>1</OS>
@@ -11704,6 +12061,9 @@
     <Tags>
       <Tag>
         <Name>EGS</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -12333,6 +12693,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>0b1c6c72-adfd-469a-a275-495b7d7e702e</ID>
+    <Name>SpellForce 3</Name>
+    <ProcessName>SF3ClientFinal</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\My Games\SpellForce 3\save</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>aa53b4d4-3381-4a66-a162-804095506185</ID>
     <Name>Spellforce 2: Anniversary Edition</Name>
     <ProcessName>SpellForce2</ProcessName>
@@ -12575,6 +12964,35 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>ce4146a9-909c-4831-a38e-39be04db3419</ID>
+    <Name>Star Wars Jedi: Fallen Order</Name>
+    <ProcessName>SwGame-Win64-Shipping</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\Saved Games\Respawn\JediFallenOrder</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Origin</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -14020,6 +14438,35 @@
       </Tag>
       <Tag>
         <Name>XGP</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>7295fbba-d985-4459-a153-47141cbc8b07</ID>
+    <Name>The Riftbreaker</Name>
+    <ProcessName>riftbreaker_win_release</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\The Riftbreaker\campaignV2</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
