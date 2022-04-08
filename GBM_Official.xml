@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1649319880" TotalConfigurations="550" AppVer="130">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1649407385" TotalConfigurations="551" AppVer="130">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -6034,6 +6034,35 @@
     <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList>*.cfg</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>de366f73-84cf-4e9c-ad90-2831e255583c</ID>
+    <Name>Forgive Me Father</Name>
+    <ProcessName>FMF</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\FMF\Saved\SaveGames</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
