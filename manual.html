@@ -33,7 +33,7 @@
             Game Backup Monitor v1.3.0 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated April 8, 2022</h3>
+            <h3 class="notop">Updated April 19, 2022</h3>
             <h3>Important Notes:</h3>
             <p>An offline version of the manual is available <a href="https://github.com/Darthagnon/gbm-manual">here</a>.  The offline manual is kindly provided by <a href="https://github.com/Darthagnon">Darthagnon</a>.</p>
             <p>This manual may contain information about features not available in the current stable release.</p>
@@ -651,14 +651,8 @@
             <img class="manual" src="images/manual/manual_39.jpg" width="736" height="443" alt="Web Import" /><br />
             <p>The following is some tips for sharing your own XML file from a web server.</p>
             <ul>
-              <li>Do not use redirects, if the link doesn't point directly to an XML file GBM will not accept it.  This may change in a future release.</li>
-              <li>You can save bandwidth on the web server by including a checksum file in the same location as your XML file.  This is completely <b>optional</b>.
-                <ol>                  
-                  <li>The checksum file should be in the same directory and use same base name as your configuration file with a sha256 extension. For example: <b>configurations.xml and configurations.sha256</b></li>
-                  <li>The checksum file is a text file and should only include the sha256 checksum of the XML file with no whitespace or line breaks.</li>
-                  <li>You'll need to use your own tool to generate the checksum each time the file is changed.  Such as <b>sha256sum</b> in Linux or <b>Get-FileHash</b> in Windows PowerShell.</li>
-                </ol>
-              </li>              
+              <li>Do not use redirects, if a URL doesn't point directly at a supported file type GBM will not accept it.  This may change in a future release.</li>
+              <li>Try to use a unique file name for every list you share, GBM identifies and caches lists based on file name.</li>              
             </ul>
           </div>
           <div class="pageSectionFooter">
