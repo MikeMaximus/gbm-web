@@ -682,18 +682,19 @@
               <li><a href="https://github.com/mtkennerly/ludusavi">Ludusavi</a> is an excellent open source saved game backup tool.</li>
               <li><a href="https://github.com/mtkennerly/ludusavi-manifest">Ludusavi Manfiest</a> is a YAML structure for saved game backup configurations.  The primary manifest is sourced from <a href="https://www.pcgamingwiki.com/wiki/Home">PCGamingWiki</a> and automatically updated daily.</li>
             </ul>
-            <p>This gives you access to thousands of saved game backup configurations, but there are limitations and other possible issues.</p>
+            <p>The Ludusavi manifest gives you access to thousands of saved game backup configurations, but there are limitations and other possible issues outlined below.</p>
+            <p>In general, you'll always want to use official GBM configurations when possible, but configurations imported from the Ludusavi Manifest are a perfect starting point for games missing from the official list.</p>
+            <h3>Limitations and Issues</h3>
             <ul>
-              <li>GBM cannot detect and automatically backup saved games from these configurations.
+              <li>GBM cannot detect game sessions and automatically backup saved games using these configurations.
                 <ul>
                   <li>By default, these configuations are suitable for manual backups only.</li>
-                  <li>You can edit these configurations and select the correct "Process" to monitor for each game, this will enable automatic backups.</li>
+                  <li>You can edit these configurations and select the correct "Process" to monitor for each game, this will enable detection and automatic backups.</li>
                 </ul>
               </li>
               <li>These configurations are untested and may not always work correctly.
                 <ul>
-                  <li>GBM can have trouble converting the manifest data, which can lead to broken configurations or multiple configurations for the same game.</li> 
-                  <li>The information on PCGamingWiki can be incorrect, incomplete or in an inconsistent format.</li>                         
+                  <li>The information on PCGamingWiki can be incorrect, incomplete or in an unoptimal format for GBM.  This can lead to broken configurations or unnecessary multiple configurations for the same game.</li>                  
                 </ul>
               </li>
               <li>Some saved game backup configurations may also include unwanted configuration files.
@@ -701,7 +702,15 @@
                   <li>The "Configuration" tag will be automatically applied to these, so they can be can be identified.</li>
                 </ul>
               </li>
+              <li>Configurations that use a Steam Cloud save location are supported, but may not always be converted correctly.
+                <ul>
+                  <li>PCGamingWiki currently doesn't differentiate between Steam ID types, this can lead to issues with certain game configurations.
+                  </li>
+                </ul>
+              </li>
             </ul>
+            <h3>General Information</h3>
+            <p>Tags are automatically added to these configurations to help identify the type of configuration and store.</p>
             <p>There are some limited filter options when importing from a Ludusavi Manifest.</p>
             <ul>
               <li>You can choose to include or exclude configurations that backup "Saved Games" or only "Configuration Files".</li>
