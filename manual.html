@@ -30,10 +30,10 @@
       <div id="leftcontent">
         <div class="pageSection">
           <div class="pageSectionHeader">
-            Game Backup Monitor v1.3.0 Manual
+            Game Backup Monitor v1.3.1 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated April 19, 2022</h3>
+            <h3 class="notop">Updated May 11, 2022</h3>
             <h3>Important Notes:</h3>
             <p>An offline version of the manual is available <a href="https://github.com/Darthagnon/gbm-manual">here</a>.  The offline manual is kindly provided by <a href="https://github.com/Darthagnon">Darthagnon</a>.</p>
             <p>This manual may contain information about features not available in the current stable release.</p>
@@ -59,6 +59,7 @@
               <li><a href="#search">Search</a></li>
               <li><a href="#import">Importing Game Configurations</a></li>
               <li><a href="#hosting">Hosting Game Configurations</a></li>
+              <li><a href="#ludusavi">Ludusavi Manfiest</a></li>
               <li><a href="#launcher">Launching Games</a></li>
               <li><a href="#customvariables">Custom Path Variables</a></li>
               <li><a href="#tools">Tools</a></li>
@@ -624,10 +625,22 @@
           <div class="pageSectionContent">            
             <p>Importing game configurations is done from the File menu, system tray menu, or the <a href="#gamemanager">Game Manager</a>.</p>
             <p>You can import pre-made backup configurations from the <a href="GBM_Official.xml">official list</a> or an XML file exported from GBM.</p>
+            <p>You can also import <a href="#ludusavi">unofficial configurations</a> from the primary <a href="https://github.com/mtkennerly/ludusavi-manifest">Ludusavi Manifest</a> or any file using the Ludusavi structure.</p>
             <img class="manual" src="images/manual/manual_16.jpg" width="786" height="643" alt="Import" />
             <ul>
-              <li>The import window detects saved games currently on your PC and will automatically select valid configurations by default.  You can run this process again using the "Detect Saved Games" button.</li>
-              <li>The import window only shows new or updated configurations, it will not display games you've already configured.  If you're seeing games you've already configured, then your Game IDs do not match the official list.  Please see "Sync Game IDs" in the "Tools" section later on in the manual.</li>              
+              <li>The import window detects saved games currently on your PC and will automatically select valid configurations by default.
+                <ul>
+                  <li>You can run this process again using the "Detect Saved Games" button.</li>
+                  <li>Saved games that are stored in a location relative to the game's installation folder will not be automatically detected.</li>
+                </ul>                
+              </li>
+              <li>The import window can display and auto-detect games you may have already configured.
+                <ul>
+                  <li>The import identifies each backup configuration based on a unique ID.</li>
+                  <li>Official, Ludusavi, and your own custom configurations all have their own unique ID and will not overwrite each other.</li>
+                  <li>Always review the game configurations that were auto-detected and only select the ones you need.</li>
+                </ul>
+              </li>              
               <li>New configurations are indicated with a plus icon, updated configurations are indicated with an arrow icon.</li>
               <li>You can toggle selecting and de-selecting all available configurations by clicking the "Select All" checkbox.</li>
               <li>You can search for specific games or by tag using the "Filter" field. The filter is applied as you type, remove all text from the field to clear the filter.</li>
@@ -653,6 +666,50 @@
             <ul>
               <li>Do not use redirects, if a URL doesn't point directly at a supported file type GBM will not accept it.  This may change in a future release.</li>
               <li>Try to use a unique file name for every list you share, GBM identifies and caches lists based on file name.</li>              
+            </ul>
+          </div>
+          <div class="pageSectionFooter">
+            <a href="#toc">Back to Contents</a>
+          </div>
+        </div>
+        <div class="pageSection">
+          <div class="pageSectionHeader">
+            <a name="hosting" id="ludusavi">Ludusavi Manifest</a>
+          </div>
+          <div class="pageSectionContent">            
+            <p>Game Backup Monitor supports importing configurations from the primary <a href="https://github.com/mtkennerly/ludusavi-manifest">Ludusavi Manifest</a> or any file using the Ludusavi structure.</p>
+            <ul>
+              <li><a href="https://github.com/mtkennerly/ludusavi">Ludusavi</a> is an excellent open source saved game backup tool.</li>
+              <li><a href="https://github.com/mtkennerly/ludusavi-manifest">Ludusavi Manfiest</a> is a YAML structure for saved game backup configurations.  The primary manifest is sourced from <a href="https://www.pcgamingwiki.com/wiki/Home">PCGamingWiki</a> and automatically updated daily.</li>
+            </ul>
+            <p>This gives you access to thousands of saved game backup configurations, but there are limitations and other possible issues.</p>
+            <ul>
+              <li>GBM cannot detect and automatically backup saved games from these configurations.
+                <ul>
+                  <li>By default, these configuations are suitable for manual backups only.</li>
+                  <li>You can edit these configurations and select the correct "Process" to monitor for each game, this will enable automatic backups.</li>
+                </ul>
+              </li>
+              <li>These configurations are untested and may not always work correctly.
+                <ul>
+                  <li>GBM can have trouble converting the manifest data, which can lead to broken configurations or multiple configurations for the same game.</li> 
+                  <li>The information on PCGamingWiki can be incorrect, incomplete or in an inconsistent format.</li>                         
+                </ul>
+              </li>
+              <li>Some saved game backup configurations may also include unwanted configuration files.
+                <ul>
+                  <li>The "Configuration" tag will be automatically applied to these, so they can be can be identified.</li>
+                </ul>
+              </li>
+            </ul>
+            <p>There are some limited filter options when importing from a Ludusavi Manifest.</p>
+            <ul>
+              <li>You can choose to include or exclude configurations that backup "Saved Games" or only "Configuration Files".</li>
+              <li>In Linux, you can choose to include or exclude configurations based on "Operating System".</li>
+            </ul>
+            <p>Linux users can import Windows game configurations to be used with Wine or Proton.</p>
+            <ul>              
+              <li>These configurations need to be updated with a process to monitor and detected at least once in Wine or Proton before manual backups will work correctly.</li>
             </ul>
           </div>
           <div class="pageSectionFooter">
