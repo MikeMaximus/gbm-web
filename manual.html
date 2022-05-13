@@ -812,13 +812,13 @@
           <div class="pageSectionContent">
             <p>This screen allows you to add an unlimited number of custom path variables to use in the configuration of your games.</p><img class="manual" src="images/manual/manual_09.jpg" width="586" height="253" alt="Custom Path Variables" /><br />
             <p>Some games store their save files in locations that can be slightly different on each computer, this feature allows you to account for that and share configurations between any computer.</p>
-            <p>You may see some automatically configured variables here, please see the <a href="#storevariables">Preconfigured Store Variables</a> for more details.</p>
             <h4>Name:</h4>
             <p>This is the name of the variable.  It cannot contain the % character, which will be stripped upon saving.</p>
             <h4>Path:</h4>
             <p>This can be a local path or simply a string that the variable refers to.</p>            
             <h4>Notes:</h4>
             <ul>
+              <li>You may see some automatically configured variables here, please see the <a href="#storevariables">Preconfigured Store Variables</a> for more details.</li>
               <li>Custom Path Variables can be used in the "Save Path" and "Game Path" fields of a configuration.</li>
               <li>Multiple custom path variables can be used in the same path, they can also be combined with a Windows environment variable.</li>
               <li>On the Game Manager, custom path variables will be displayed similar to a Windows environment variable, such as %Variable Name%.  You can change this behavior in "Settings" by using the "Show resolved save paths in Game Manager" option.</li>              
@@ -841,7 +841,8 @@
           <div class="pageSectionContent">
             <p>On startup, GBM attempts to automatically create custom path variables to support cloud save locations of popular stores.  Currently only Steam is supported.
               <ul>
-                <li>You can edit or delete these automatically created variables, but GBM will just restore them the next time it starts.</li>
+                <li>You can edit these variables if GBM detected them incorrectly.</li>
+                <li>If you rename or delete these variables, GBM will restore them the next time it starts.</li>
               </ul>
             </p>
             <p>If you've previously setup your own stores variables, GBM may automatically rename or duplicate them.</p>
@@ -852,20 +853,20 @@
                 <li>Restart GBM and it will create a single set of variables.</li>
               </ol>
             </p>
-            <p>If you've received a warning that a store failed to automatically configure, follow the instructions below for each store to configure it yourself.</p>            
+            <p>GBM can fail to automatically configure variables, read the <a href="#customvariables">Custom Path Variables</a> section to create or edit the required variables using the information below.</p>
             <h3>Steam</h3>
-            <p>GBM uses two variables for Steam by default.  If you need to create these variables manually read the <a href="#customvariables">Custom Path Variables</a> section and the instructions below.
+            <p>GBM can detect SteamID3 incorrectly if multiple steam accounts have been used on your PC.  If backups are failing in Steam Cloud locations this may be the reason.</p>
               <ul>
                 <li>Steam
                   <ul>
-                    <li>Create a variable with the name <b>Steam</b> and the path of your Steam installation folder.</li>
+                    <li>The variable is named <b>Steam</b> and the path is your Steam installation folder.</li>
                     <li>The Steam installation folder contains <b>steam.exe</b> and a <b>userdata</b> folder.</li>
                   </ul>
                 </li>
                 <li>SteamID3
                   <ul>
-                    <li>Create a variable with the name <b>SteamID3</b> and enter only your SteamID3 as the path.</li>  
-                    <li>You can find your SteamID3 by opening the <b>userdata</b> folder inside your Steam installation folder
+                    <li>The variable is named <b>SteamID3</b> and the path value is your SteamID3 only.</li>  
+                    <li>You can find your SteamID3 by opening the <b>userdata</b> folder inside your Steam installation folder.
                       <ul>
                         <li>This folder will contain one or more numbered folders.  One of these numbers is your SteamID3.</li>
                         <li>If you see multiple folders here, you may need to use <a href="https://www.steamidfinder.com/">Steam ID Finder</a> to determine which ID is for your Steam account.</li>
