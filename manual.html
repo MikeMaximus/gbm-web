@@ -33,7 +33,7 @@
             Game Backup Monitor v1.3.1 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated May 11, 2022</h3>
+            <h3 class="notop">Updated May 13, 2022</h3>
             <h3>Important Notes:</h3>
             <p>An offline version of the manual is available <a href="https://github.com/Darthagnon/gbm-manual">here</a>.  The offline manual is kindly provided by <a href="https://github.com/Darthagnon">Darthagnon</a>.</p>
             <p>This manual may contain information about features not available in the current stable release.</p>
@@ -62,6 +62,7 @@
               <li><a href="#ludusavi">Ludusavi Manfiest</a></li>
               <li><a href="#launcher">Launching Games</a></li>
               <li><a href="#customvariables">Custom Path Variables</a></li>
+              <li><a href="#storevariables">Preconfigured Store Variables</a></li>
               <li><a href="#tools">Tools</a></li>
               <li><a href="#filtering">Custom Filters</a></li>
               <li><a href="#syncing">Automatic Syncing</a></li>
@@ -809,15 +810,13 @@
             <a name="customvariables" id="customvariables">Custom Path Variables</a>
           </div>
           <div class="pageSectionContent">
-            <p>This screen allows you to add an unlimited number of custom path variables to use in the configuration of your games.</p><img class="manual" src="images/manual/manual_09.jpg" width="586" height="248" alt="Custom Path Variables" /><br />
+            <p>This screen allows you to add an unlimited number of custom path variables to use in the configuration of your games.</p><img class="manual" src="images/manual/manual_09.jpg" width="586" height="253" alt="Custom Path Variables" /><br />
             <p>Some games store their save files in locations that can be slightly different on each computer, this feature allows you to account for that and share configurations between any computer.</p>
+            <p>You may see some automatically configured variables here, please see the <a href="#storevariables">Preconfigured Store Variables</a> for more details.</p>
             <h4>Name:</h4>
             <p>This is the name of the variable.  It cannot contain the % character, which will be stripped upon saving.</p>
             <h4>Path:</h4>
-            <p>This is the local path the variable refers to.</p>
-            <h4>Example:</h4>
-            <p>Many games designed for Steam use the "userdata" sub-folder in the Steam folder as a common saved game location.  But since Steam can be installed in a variety of locations, as well as each user having a different ID folder, every computer and user will store their saved games in a different location.</p>
-            <p>We can create a custom path variable for this location, such as "Steam User Data" and point it to the location that changes.  Once we do this, any application configured to use that folder will use the variable instead and any another computer using that configuration simply has to setup the same variable and point it to the proper folder on their computer.</p>
+            <p>This can be a local path or simply a string that the variable refers to.</p>            
             <h4>Notes:</h4>
             <ul>
               <li>Custom Path Variables can be used in the "Save Path" and "Game Path" fields of a configuration.</li>
@@ -829,8 +828,53 @@
                   <li>If you do this, open and make a small change, then save any affected configuration in the Game Manager to fix any problems.</li>
                 </ul>
               </li>
-              <li>This is an advanced feature and can be completely ignored by most users, the official pre-configured list will never contain games that use a custom path variable.</li>
             </ul>          
+          </div>
+          <div class="pageSectionFooter">
+            <a href="#toc">Back to Contents</a>
+          </div>
+        </div>
+        <div class="pageSection">
+          <div class="pageSectionHeader">
+            <a name="storevariables" id="storevariables">Preconfigured Store Variables</a>
+          </div>
+          <div class="pageSectionContent">
+            <p>On startup, GBM attempts to automatically create custom path variables to support cloud save locations of popular stores.  Currently only Steam is supported.
+              <ul>
+                <li>You can edit or delete these automatically created variables, but GBM will just restore them the next time it starts.</li>
+              </ul>
+            </p>
+            <p>If you've previously setup your own stores variables, GBM may automatically rename or duplicate them.</p>
+            <p>This shouldn't be a problem, but if you'd like to clean up duplicated variables follow the instructions below:
+              <ol>
+                <li>Open Setup -> Custom Path Variables... from the menu.</li>
+                <li>Delete all variables related to the store (Ex. Steam).</li>
+                <li>Restart GBM and it will create a single set of variables.</li>
+              </ol>
+            </p>
+            <p>If you've received a warning that a store failed to automatically configure, follow the instructions below for each store to configure it yourself.</p>            
+            <h3>Steam</h3>
+            <p>GBM uses two variables for Steam by default.  If you need to create these variables manually read the <a href="#customvariables">Custom Path Variables</a> section and the instructions below.
+              <ul>
+                <li>Steam
+                  <ul>
+                    <li>Create a variable with the name <b>Steam</b> and the path of your Steam installation folder.</li>
+                    <li>The Steam installation folder contains <b>steam.exe</b> and a <b>userdata</b> folder.</li>
+                  </ul>
+                </li>
+                <li>SteamID3
+                  <ul>
+                    <li>Create a variable with the name <b>SteamID3</b> and enter only your SteamID3 as the path.</li>  
+                    <li>You can find your SteamID3 by opening the <b>userdata</b> folder inside your Steam installation folder
+                      <ul>
+                        <li>This folder will contain one or more numbered folders.  One of these numbers is your SteamID3.</li>
+                        <li>If you see multiple folders here, you may need to use <a href="https://www.steamidfinder.com/">Steam ID Finder</a> to determine which ID is for your Steam account.</li>
+                      </ul>
+                    </li> 
+                  </ul>
+                </li>                               
+              </ul>
+            </p>
           </div>
           <div class="pageSectionFooter">
             <a href="#toc">Back to Contents</a>
@@ -869,12 +913,7 @@
             <img class="manual" src="images/manual/manual_20.jpg" width="286" height="303" alt="Tools" /><br />            
             <p>You may choose between CSV (Comma Seperated Values) and XML formats.</p>
             <p>You may choose to export dates using the Unix timestamp format or your current locale settings.</p>
-            <p>The CSV format can be exported with or without headers.</p>
-            <h4>Sync Game IDs</h4>
-            <p>GBM uses the game ID to determine which game configurations you already have when importing game configurations from the official list or an XML file.  If these IDs do not match, all configurations will be seen as "New".</p>
-            <p>To solve this problem you can sync your Game IDs with the official list or an export file using this tool.  This tool is not 100% effective and some games will be missed if their names have changed substantially.</p>
-            <p>This tool is mainly for upgrading configurations from old versions of GBM so they will be recognized by the official import.</p>                                  
-            <p><b>Important:</b> If you share a backup folder with multiple PCs, using this feature may cause data loss.  Read the <a href="#syncing">Automatic Syncing</a> section for more details.</p>
+            <p>The CSV format can be exported with or without headers.</p>            
           </div>
           <div class="pageSectionFooter">
             <a href="#toc">Back to Contents</a>
