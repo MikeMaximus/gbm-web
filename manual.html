@@ -33,7 +33,7 @@
             Game Backup Monitor v1.3.1 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated May 13, 2022</h3>
+            <h3 class="notop">Updated May 14, 2022</h3>
             <h3>Important Notes:</h3>
             <p>An offline version of the manual is available <a href="https://github.com/Darthagnon/gbm-manual">here</a>.  The offline manual is kindly provided by <a href="https://github.com/Darthagnon">Darthagnon</a>.</p>
             <p>This manual may contain information about features not available in the current stable release.</p>
@@ -57,9 +57,9 @@
               <li><a href="#registry">Windows Registry Backups</a></li>
               <li><a href="#fullbackuprestore">Full Backup and Restore</a></li>
               <li><a href="#search">Search</a></li>
-              <li><a href="#import">Importing Game Configurations</a></li>
-              <li><a href="#hosting">Hosting Game Configurations</a></li>
+              <li><a href="#import">Importing Game Configurations</a></li>              
               <li><a href="#ludusavi">Ludusavi Manfiest</a></li>
+              <li><a href="#hosting">Hosting Game Configurations</a></li>
               <li><a href="#launcher">Launching Games</a></li>
               <li><a href="#customvariables">Custom Path Variables</a></li>
               <li><a href="#storevariables">Preconfigured Store Variables</a></li>
@@ -655,26 +655,7 @@
           <div class="pageSectionFooter">
             <a href="#toc">Back to Contents</a>
           </div>
-        </div>
-        <div class="pageSection">
-          <div class="pageSectionHeader">
-            <a name="hosting" id="hosting">Hosting Game Configurations</a>
-          </div>
-          <div class="pageSectionContent">            
-            <p>Game configurations can be shared with others by exporting an XML file in GBM and sharing it.</p>
-            <p>Exporting can be done from the File menu, system tray menu or the <a href="#gamemanager">Game Manager</a>.</p>
-            <p>One of the most convenient ways to share configurations with many users is hosting the XML file on a web server and sharing the link.</p>
-            <img class="manual" src="images/manual/manual_39.jpg" width="736" height="443" alt="Web Import" /><br />
-            <p>The following is some tips for sharing your own XML file from a web server.</p>
-            <ul>
-              <li>Do not use redirects, if a URL doesn't point directly at a supported file type GBM will not accept it.  This may change in a future release.</li>
-              <li>Try to use a unique file name for every list you share, GBM identifies and caches lists based on file name.</li>              
-            </ul>
-          </div>
-          <div class="pageSectionFooter">
-            <a href="#toc">Back to Contents</a>
-          </div>
-        </div>
+        </div>        
         <div class="pageSection">
           <div class="pageSectionHeader">
             <a name="hosting" id="ludusavi">Ludusavi Manifest</a>
@@ -732,6 +713,25 @@
         </div>
         <div class="pageSection">
           <div class="pageSectionHeader">
+            <a name="hosting" id="hosting">Hosting Game Configurations</a>
+          </div>
+          <div class="pageSectionContent">            
+            <p>Game configurations can be shared with others by exporting an XML file in GBM and sharing it.</p>
+            <p>Exporting can be done from the File menu, system tray menu or the <a href="#gamemanager">Game Manager</a>.</p>
+            <p>One of the most convenient ways to share configurations with many users is hosting the XML file on a web server and sharing the link.</p>
+            <img class="manual" src="images/manual/manual_39.jpg" width="355" height="152" alt="Web Import" /><br />
+            <p>The following is some tips for sharing your own XML file from a web server.</p>
+            <ul>
+              <li>Do not use redirects, if a URL doesn't point directly at a supported file type GBM will not accept it.  This may change in a future release.</li>
+              <li>Try to use a unique file name for every list you share, GBM identifies and caches lists based on file name.</li>              
+            </ul>
+          </div>
+          <div class="pageSectionFooter">
+            <a href="#toc">Back to Contents</a>
+          </div>
+        </div>
+        <div class="pageSection">
+          <div class="pageSectionHeader">
             <a name="launcher" id="launcher">Launching Games</a>
           </div>
           <div class="pageSectionContent"> 
@@ -744,7 +744,7 @@
                 <li>If Session Tracking data is available, the tray menu will display up to five recently played games you can select to launch.</li>
               </ol>
             </p>
-            <img class="manual" src="images/manual/manual_27.jpg" width="245" height="314" alt="Tray Menu Example" />            
+            <img class="manual" src="images/manual/manual_27.jpg" width="240" height="286" alt="Tray Menu Example" />            
             <h3>Launch Configuration</h3>
             <p>GBM will usually be able to launch any monitored game that has been detected at least once without any extra configuration.  Advanced configuration options are also provided for fine tuning and to work around any problems that may be encountered.</p>            
             <p>The launch settings for any game can be modified from the Game Manager, by clicking the <img class="manualbutton" src="images/manual/buttons/frmGameManager_Advanced.png" width="16" height="16" alt="Tools" /> (Advanced) button and choosing "Launch Settings..." to open "Launch Configuration".</p>
@@ -857,7 +857,7 @@
                 <li>Restart GBM and it will create a single set of variables.</li>
               </ol>
             </p>
-            <p>GBM can fail to automatically configure variables, read the <a href="#customvariables">Custom Path Variables</a> section to create or edit the required variables using the information below.</p>
+            <p>GBM can fail to automatically configure variables.  Read the <a href="#customvariables">Custom Path Variables</a> section, then create or edit the required variables using the information below.</p>
             <h3>Steam</h3>
             <p>GBM can detect SteamID3 incorrectly if multiple steam accounts have been used on your PC.  If backups are failing in Steam Cloud locations this may be the reason.</p>
               <ul>
