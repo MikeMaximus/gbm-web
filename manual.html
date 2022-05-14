@@ -626,13 +626,15 @@
           <div class="pageSectionContent">            
             <p>Importing game configurations is done from the File menu, system tray menu, or the <a href="#gamemanager">Game Manager</a>.</p>
             <p>You can import pre-made backup configurations from the <a href="GBM_Official.xml">official list</a> or an XML file exported from GBM.</p>
-            <p>You can also import <a href="#ludusavi">unofficial configurations</a> from the primary <a href="https://github.com/mtkennerly/ludusavi-manifest">Ludusavi Manifest</a> or any file using the Ludusavi structure.</p>
+            <p>You can import <a href="#ludusavi">unofficial configurations</a> from the primary <a href="https://github.com/mtkennerly/ludusavi-manifest">Ludusavi Manifest</a> or any file using the Ludusavi structure.</p>
+            <p>The information displayed on the import window will slightly differ depending on the type of import selected.</p>
             <img class="manual" src="images/manual/manual_16.jpg" width="786" height="643" alt="Import" />
             <ul>
-              <li>The import window detects saved games currently on your PC and will automatically select valid configurations by default.
+              <li>The import window detects saved games currently on your PC and will display only detected configurations by default.
                 <ul>
                   <li>You can run this process again using the "Detect Saved Games" button.</li>
-                  <li>Saved games that are stored in a location relative to the game's installation folder will not be automatically detected.</li>
+                  <li>Configurations that store saved games in a location relative to the game's installation folder cannot be automatically detected.</li>
+                  <li>Configurations that use <a href="#storevariables">store variables</a> (Ex. Steam Cloud) will not be detected or offered for import if the required store variables aren't available.</li>
                 </ul>                
               </li>
               <li>The import window can display and auto-detect games you may have already configured.
@@ -685,6 +687,7 @@
             </ul>
             <p>The Ludusavi manifest gives you access to thousands of saved game backup configurations, but there are limitations and other possible issues outlined below.</p>
             <p>In general, you'll always want to use official GBM configurations when possible, but configurations imported from the Ludusavi Manifest are a perfect starting point for games missing from the official list.</p>
+            <img class="manual" src="images/manual/manual_41.jpg" width="786" height="643" alt="Ludusavi Import" />
             <h3>Limitations and Issues</h3>
             <ul>
               <li>GBM cannot detect game sessions and automatically backup saved games using these configurations.
@@ -712,7 +715,8 @@
             </ul>
             <h3>General Information</h3>
             <p>Tags are automatically added to these configurations to help identify the type of configuration and store.</p>
-            <p>There are some limited filter options when importing from a Ludusavi Manifest.</p>
+            <img class="manual" src="images/manual/manual_40.jpg" width="226" height="253" alt="Ludusavi Options" /><br />
+            <p>There are some limited filter options when importing from a Ludusavi Manifest.</p>            
             <ul>
               <li>You can choose to include or exclude configurations that backup "Saved Games" or only "Configuration Files".</li>
               <li>In Linux, you can choose to include or exclude configurations based on "Operating System".</li>
