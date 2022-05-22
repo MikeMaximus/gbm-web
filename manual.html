@@ -33,7 +33,7 @@
             Game Backup Monitor v1.3.1 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated May 14, 2022</h3>
+            <h3 class="notop">Updated May 22, 2022</h3>
             <h3>Important Notes:</h3>
             <p>An offline version of the manual is available <a href="https://github.com/Darthagnon/gbm-manual">here</a>.  The offline manual is kindly provided by <a href="https://github.com/Darthagnon">Darthagnon</a>.</p>
             <p>This manual may contain information about features not available in the current stable release.</p>
@@ -210,7 +210,7 @@
             <h4>Autosave log when max length is exceeded:</h4>
             <p>This will automatically save a copy of the session log each time it's automatically cleared.</p>            
             <h3>Files and Folders</h3>
-            <img class="manual" src="images/manual/manual_17.jpg" width="556" height="413" alt="Settings" />
+            <img class="manual" src="images/manual/manual_17.jpg" width="556" height="418" alt="Settings" />
             <h4>Backup Folder:</h4>
             <p>This is the backup folder where GBM stores all game backups and it's remote database.</p>
             <h4>Temp Folder:</h4>
@@ -219,6 +219,8 @@
             <p>This indicates if you want GBM to create a sub-folder in the backup folder for each game. This is handy for keeping your backup folder more organized.</p>
             <h4>Use Game ID for folder and file names:</h4>
             <p>GBM uses the game Name by default for folder and files names.  After enabling this setting GBM will use the game ID instead.</p>
+            <h4>Create path variables for supported stores:</h4>
+            <p>This indicates if you want GBM to automatically create path variables for store specific locations, such as Steam Cloud.  See the <a href="#storevariables">Preconfigured Store Variables</a> section for more details.</p>
             <h3>Backup and Restore</h3>
             <img class="manual" src="images/manual/manual_33.jpg" width="556" height="413" alt="Settings" />
             <h4>Display notifications about new backups:</h4>
@@ -845,8 +847,9 @@
           <div class="pageSectionContent">
             <p>On startup, GBM attempts to automatically create custom path variables to support cloud save locations of popular stores.  Currently only Steam is supported.
               <ul>
+                <li>You can disable this feature in the "Files & Folders" section of the Settings window by deselecting "Create path variables for supported stores".</li>
                 <li>You can edit these variables if GBM detected them incorrectly.</li>
-                <li>If you rename or delete these variables, GBM will restore them the next time it starts.</li>
+                <li>If you rename or delete these variables, GBM will restore them the next time it starts if the feature is still enabled.</li>
               </ul>
             </p>
             <p>If you've previously setup your own stores variables, GBM may automatically rename or duplicate them.</p>
