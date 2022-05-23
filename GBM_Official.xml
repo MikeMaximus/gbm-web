@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1650351630" TotalConfigurations="553" AppVer="130">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1653316986" TotalConfigurations="556" AppVer="130">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -5174,6 +5174,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>818846f9-6e44-4092-843a-a7c1b5fbe4bd</ID>
+    <Name>Elden Ring</Name>
+    <ProcessName>eldenring</ProcessName>
+    <Parameter />
+    <Path>%APPDATA%\EldenRing</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>GraphicsConfig.xml:steam_autocloud.vdf</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>47ccfe64-0f12-4c31-a025-b55ee646d22c</ID>
     <Name>Elder Scrolls Adventures: Redguard</Name>
     <ProcessName>dosbox</ProcessName>
@@ -9452,6 +9481,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>ba7f1fac-1a16-41e2-9b39-edfc4cb7ea99</ID>
+    <Name>Nightmare Reaper</Name>
+    <ProcessName>NightmareReaper</ProcessName>
+    <Parameter />
+    <Path>MyProject\Content\Settings</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>Settings*.cfg</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>9a1183f3-b2b7-4969-ad4f-84a472e6e156</ID>
     <Name>Nioh: The Complete Edition</Name>
     <ProcessName>nioh</ProcessName>
@@ -12457,16 +12515,16 @@
   <Game>
     <ID>4e391c85-4fc1-4bb3-9ac6-a8ea5251791b</ID>
     <Name>Slay the Spire</Name>
-    <ProcessName>SlayTheSpire</ProcessName>
-    <Parameter />
-    <Path />
+    <ProcessName>javaw</ProcessName>
+    <Parameter>desktop-1.0.jar</Parameter>
+    <Path>..\..\</Path>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>true</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
     <FileType>preferences:saves:runs</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
+    <Comments>The configuration for this game may not work depending how the game is launched.  Steam currently launches the Java platform directly by default, but SlayTheSpire.exe can also be used.  This official configuration detects and saves based on the location of the Java platform.</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>false</RecurseSubFolders>
     <OS>1</OS>
@@ -12615,6 +12673,35 @@
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
     <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>7e29cf08-17cc-4933-a374-6cca6a0eca40</ID>
+    <Name>Songs of Conquest</Name>
+    <ProcessName>SongsOfConquest</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\Lavapotion\SongsOfConquest</Path>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>Campaign:Savegames</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
