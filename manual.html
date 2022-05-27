@@ -33,7 +33,7 @@
             Game Backup Monitor v1.3.1 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated May 23, 2022</h3>
+            <h3 class="notop">Updated May 27, 2022</h3>
             <h3>Important Notes:</h3>
             <p>An offline version of the manual is available <a href="https://github.com/Darthagnon/gbm-manual">here</a>.  The offline manual is kindly provided by <a href="https://github.com/Darthagnon">Darthagnon</a>.</p>
             <p>This manual may contain information about features not available in the current stable release.</p>
@@ -698,9 +698,16 @@
             </ul>
             <h3>General Information</h3>
             <p>Tags are automatically added to these configurations to help identify the type of configuration and store.</p>
-            <img class="manual" src="images/manual/manual_40.jpg" width="226" height="253" alt="Ludusavi Options" /><br />
-            <p>There are some limited filter options when importing from a Ludusavi Manifest.</p>            
+            <img class="manual" src="images/manual/manual_40.jpg" width="286" height="308" alt="Ludusavi Options" /><br />
+            <p>There are some filter options available when importing from a Ludusavi Manifest.</p>            
             <ul>
+              <li>You can enter the name of a game in "Quick Search" to find a specific game configuration without processing the entire manifest file.
+                <ul>                  
+                  <li>This search can be a regular expression.</li>
+                  <li>This search is always case-insensitive.</li>
+                  <li>This is always faster than loading and filtering the entire manifest.</li>
+                </ul>
+              </li>
               <li>You can choose to include or exclude configurations that backup "Saved Games" or only "Configuration Files".</li>
               <li>In Linux, you can choose to include or exclude configurations based on "Operating System".</li>
             </ul>
