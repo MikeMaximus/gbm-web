@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1653316986" TotalConfigurations="556" AppVer="130">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1653995029" TotalConfigurations="557" AppVer="130">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -9490,7 +9490,7 @@
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
     <FileType />
-    <ExcludeList>Settings*.cfg</ExcludeList>
+    <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -9922,6 +9922,35 @@
     <ID>553ef63e-8c35-4549-9c96-cebfa3ed8c62</ID>
     <Name>Outward</Name>
     <ProcessName>Outward</ProcessName>
+    <Parameter />
+    <Path>SaveGames</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>true</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>13a6ecbe-b29e-4d65-af69-9778a2658105</ID>
+    <Name>Outward Definitive Edition</Name>
+    <ProcessName>Outward Definitive Edition</ProcessName>
     <Parameter />
     <Path>SaveGames</Path>
     <FolderSave>true</FolderSave>
