@@ -669,19 +669,20 @@
               <li><a href="https://github.com/mtkennerly/ludusavi-manifest">Ludusavi Manfiest</a> is a YAML structure for saved game backup configurations.  The primary manifest is sourced from <a href="https://www.pcgamingwiki.com/wiki/Home">PCGamingWiki</a> and automatically updated daily.</li>
             </ul>
             <p>The Ludusavi manifest gives you access to thousands of saved game backup configurations, but there are limitations and other possible issues outlined below.</p>
-            <p>In general, you'll always want to use official GBM configurations when possible, but configurations imported from the Ludusavi Manifest are a perfect starting point for games missing from the official list.</p>
+            <p>You will always want to use official GBM configurations when possible, but configurations imported from the Ludusavi Manifest are a perfect replacement or starting point for games missing from the official list.</p>
             <img class="manual" src="images/manual/manual_41.jpg" width="786" height="643" alt="Ludusavi Import" />
             <h3>Limitations and Issues</h3>
             <ul>
-              <li>GBM cannot detect game sessions and automatically backup saved games using these configurations.
+              <li>The Ludusavi Manifest contains Steam launch information for all applicable games.  GBM uses this information when it's available determine a process to monitor for each game configuration.  This procedure isn't completely accurate and will result in some game configurations having the incorrect process selected or no process at all.
                 <ul>
-                  <li>By default, these configuations are suitable for manual backups only.</li>
-                  <li>You can edit these configurations and select the correct "Process" to monitor for each game, this will enable detection and automatic backups.</li>
+                  <li>Configurations with no process to monitor are suitable for manual backups only.</li>
+                  <li>Configurations with the incorrect process will not be detected and prevent automatic backups.</li>                  
+                  <li>You can always edit these configurations and select the correct "Process" to monitor, this will enable proper detection and automatic backups.</li>
                 </ul>
               </li>
               <li>These configurations are untested and may not always work correctly.
                 <ul>
-                  <li>The information on PCGamingWiki can be incorrect, incomplete or in an unoptimal format for GBM.  This can lead to broken configurations or unnecessary multiple configurations for the same game.</li>                  
+                  <li>The information on PCGamingWiki can be incorrect, incomplete or in an unoptimal format for GBM.  This can lead to broken configurations or unnecessary multiple configurations for the same game.</li>
                 </ul>
               </li>
               <li>Some saved game backup configurations may also include unwanted configuration files.
@@ -689,9 +690,9 @@
                   <li>The "Configuration" tag will be automatically applied to these, so they can be can be identified.</li>
                 </ul>
               </li>
-              <li>Configurations that use a Steam Cloud save location are supported, but may not always be converted correctly.
+              <li>Configurations that use a Steam Cloud\Steam ID based save location are supported, but may not always be correct.
                 <ul>
-                  <li>PCGamingWiki currently doesn't differentiate between Steam ID types, this can lead to issues with certain game configurations.
+                  <li>PCGamingWiki doesn't differentiate between Steam ID types, this can lead to issues with certain game configurations.
                   </li>
                 </ul>
               </li>
@@ -712,7 +713,7 @@
             </ul>
             <p>Linux users can import Windows game configurations to be used with Wine or Proton.</p>
             <ul>              
-              <li>These configurations need to be updated with a process to monitor and detected at least once in Wine or Proton before manual backups will work correctly.</li>
+              <li>These configurations may need to be updated with a process to monitor and must detected at least once in Wine or Proton before manual backups will work correctly.</li>
             </ul>
           </div>
           <div class="pageSectionFooter">
