@@ -700,13 +700,12 @@
                   <li>The "Configuration" tag will be automatically applied to these, so they can be can be identified.</li>
                 </ul>
               </li>
-              <li>Configurations that use a store cloud\store ID based save location are supported, but may not always be displayed or correct.
+              <li>Configurations that use a store cloud\store ID based save location are supported, but they may not always be displayed or function properly.
                 <ul>                  
                   <li><a href="#storevariables">Store Variables</a> need to be setup before GBM will display configurations using store specific locations.</li>
-                  <li>GBM can configure <a href="#storevariables">Store Variables</a> automatically in most cases.  Turn on the "Enable automatic configuration of store paths" feature in the <a href="#settings_general">General</a> section of <a href="#settings">Settings</a>.</li>
-                  <li>PCGamingWiki doesn't differentiate between store ID types, this can lead to problems with some game configurations.
+                  <li>PCGamingWiki doesn't differentiate between Steam ID types, this can lead to problems with some game configurations.
                     <ul>
-                      <li>GBM can determine some store ID types based on the save path and will automatically makes changes to provide a useable backup configuration.</li>
+                      <li>GBM can guess the Steam ID type based on the save path and may automatically makes changes to provide a useable backup configuration.</li>
                     </ul>
                   </li>
                 </ul>
@@ -847,15 +846,10 @@
             <h4>Notes:</h4>
             <ul>
               <li>You may see some automatically configured variables here, please see the <a href="#storevariables">Store Variables</a> for more details.</li>
-              <li>Custom Path Variables can be used in the "Save Path" and "Game Path" fields of a configuration.</li>
+              <li>Custom Path Variables can be used in the various "Path" fields of a configuration.</li>
               <li>Multiple custom path variables can be used in the same path, they can also be combined with a Windows environment variable.</li>
-              <li>On the Game Manager, custom path variables will be displayed similar to a Windows environment variable, such as %Variable Name%.  You can change this behavior in "Settings" by using the "Show resolved save paths in Game Manager" option.</li>              
-              <li>After a Custom Path Variable is added, modified or deleted any affected configurations will be updated automatically.</li>
-              <li>To avoid issues, never manually use a Custom Path Variable in a configuration path before the variable has been created.
-                <ul> 
-                  <li>If you do this, open and make a small change, then save any affected configuration in the Game Manager to fix any problems.</li>
-                </ul>
-              </li>
+              <li>On the Game Manager, custom path variables will be displayed similar to a Windows environment variable, such as %Variable Name%.  You can change this behavior in "Settings" by using the "Show resolved save paths in Game Manager" option.</li>
+              <li>After a Custom Path Variable is added, modified or deleted any affected configurations will be updated automatically.</li>              
             </ul>          
           </div>
           <div class="pageSectionFooter">
@@ -867,7 +861,7 @@
             <a name="storevariables" id="storevariables">Store Variables</a>
           </div>
           <div class="pageSectionContent">
-            <p>GBM can automatically create custom path variables to support the cloud save locations of popular stores.  Currently only Steam Cloud is supported.
+            <p>GBM can automatically create custom path variables to support the save locations of popular stores.  Currently only Steam is supported.
               <ul>
                 <li>This feature is optional and must be manually enabled.  See the <a href="#settings">Settings</a> section for details.</li>
                 <li>If you've already setup your own variables for supported store locations, it's recommended you delete them before enabling this feature.</li>             
