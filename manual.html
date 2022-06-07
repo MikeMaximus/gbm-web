@@ -33,7 +33,7 @@
             Game Backup Monitor v1.3.1 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated June 4, 2022</h3>
+            <h3 class="notop">Updated June 7, 2022</h3>
             <h3>Important Notes:</h3>
             <p>An offline version of the manual is available <a href="https://github.com/Darthagnon/gbm-manual">here</a>.  The offline manual is kindly provided by <a href="https://github.com/Darthagnon">Darthagnon</a>.</p>
             <p>This manual may contain information about features not available in the current stable release.</p>
@@ -44,7 +44,16 @@
               <li><a href="#requirements">Requirements</a></li>
               <li><a href="#quickstart">Quick Start</a></li>
               <li><a href="#mainoverview">Main Window Overview</a></li>
-              <li><a href="#settings">Settings</a></li>
+              <li><a href="#settings">Settings</a>
+                  <ol>
+                    <li><a href="#settings_general">General</a></li>
+                    <li><a href="#settings_filesandfolders">Files and Folders</a></li>
+                    <li><a href="#settings_backupandrestore">Backup and Restore</a></li>
+                    <li><a href="#settings_startup">Startup</a></li>
+                    <li><a href="#settings_ui">User Interface</a></li>
+                    <li><a href="#settings_7z">7-Zip</a></li>
+                  </ol>
+              </li>
               <li>
                 <a href="#gamemanager">The Game Manager</a>
                 <ol>
@@ -184,7 +193,7 @@
             <p>The "Reset Warnings" button will reset all one-time warnings or messages that have been hidden.  You need to click "Save" after using this button for it to take effect.</p>
             <p>Clicking Cancel or closing the window will cancel any changes made on this screen.</p>
             <p>When modifying the backup folder or any sync settings, be sure to read any warning messages carefully.</p>
-            <h3>General</h3>
+            <h3><a name="settings_general" id="settings_general">General</a></h3>
             <img class="manual" src="images/manual/manual_15.jpg" width="556" height="418" alt="Settings" />            
             <h4>Enable time tracking:</h4>
             <p>GBM will record and display game session times when this is enabled. When it's disabled no time data is recorded or displayed. Toggling this setting has no effect on time data that's already been recorded.</p>
@@ -207,7 +216,7 @@
                 <li>When Two-Pass Detection is disabled, a process is registered as detected after a single pass.  This makes detection twice as fast, but it may be unreliable in certain situations.</li>
               </ul>
             </p>                       
-            <h3>Files and Folders</h3>
+            <h3><a name="settings_filesandfolders" id="settings_filesandfolders">Files and Folders</a></h3>
             <img class="manual" src="images/manual/manual_17.jpg" width="556" height="418" alt="Settings" />
             <h4>Backup Folder:</h4>
             <p>This is the backup folder where GBM stores all game backups and it's remote database.</p>
@@ -217,7 +226,8 @@
             <p>This indicates if you want GBM to create a sub-folder in the backup folder for each game. This is handy for keeping your backup folder more organized.</p>
             <h4>Use Game ID for folder and file names:</h4>
             <p>GBM uses the game Name by default for folder and files names.  After enabling this setting GBM will use the game ID instead.</p>
-            <h3>Backup and Restore</h3>
+            <p>GBM may ignore this setting in some cases and use the game ID to prevent certain configurations from overwriting other backup files.</p>
+            <h3><a name="settings_backupandrestore" id="settings_backupandrestore">Backup and Restore</a></h3>
             <img class="manual" src="images/manual/manual_33.jpg" width="556" height="418" alt="Settings" />
             <h4>Display notifications about new backups:</h4>
             <p>This indicates if you want GBM to display notifications when new backups are detected or restored.<br /><br />These notifications are presented differently depending on your other settings:
@@ -240,7 +250,7 @@
             <h4>Show notification when a backup is completed:</h4>
             <p>This enables showing a notification any time a backup operation is completed.</p>
             <p>This always displays a single notification, even if the operation included multiple backups.</p>
-            <h3>Startup</h3>        
+            <h3><a name="settings_startup" id="settings_startup">Startup</a></h3>
             <img class="manual" src="images/manual/manual_23.jpg" width="556" height="418" alt="Settings" />
             <h4>Start automatically on log-in:</h4>
             <p>This indicates if you want GBM to start automatically when you log-in. This setting applies to the current user only.</p>
@@ -251,7 +261,7 @@
             <p>GBM will start detecting games immediately with this setting enabled, otherwise game detection has to be manually started each time you load GBM.</p>            
             <h4>Backup GBM data files on launch:</h4>
             <p>GBM will backup both local and remote data files (as gbm.s3db.launch.bak) each time the application starts.  Only one backup file is kept, the prior one will be overwritten.</p>
-            <h3>User Interface</h3>
+            <h3><a name="settings_ui" id="settings_ui">User Interface</a></h3>
             <img class="manual" src="images/manual/manual_34.jpg" width="556" height="418" alt="Settings" />
             <h4>Exit when closing main window:</h4>
             <p>This indicates if you'd like to shut down GBM completely when closing the main window, instead of hiding it to the system tray or taskbar.</p>
@@ -271,7 +281,7 @@
             <p>This will prevent all sync related messages from being displayed in the log.</p>
             <h4>Autosave log when max length is exceeded:</h4>
             <p>This will automatically save a copy of the session log each time it's automatically cleared.</p> 
-            <h3>7-Zip</h3>
+            <h3><a name="settings_7z" id="settings_7z">7-Zip</a></h3>
             <img class="manual" src="images/manual/manual_18.jpg" width="556" height="413" alt="Settings" />
             <h4>Compression:</h4>
             <p>This allows you to set the compression level of your backups. The default is Normal. Ultra is highly recommended if you're using a modern PC.</p>
@@ -690,12 +700,17 @@
                   <li>The "Configuration" tag will be automatically applied to these, so they can be can be identified.</li>
                 </ul>
               </li>
-              <li>Configurations that use a Steam Cloud\Steam ID based save location are supported, but may not always be correct.
-                <ul>
-                  <li>PCGamingWiki doesn't differentiate between Steam ID types, this can lead to issues with certain game configurations.
+              <li>Configurations that use a store cloud\store ID based save location are supported, but may not always be displayed or correct.
+                <ul>                  
+                  <li><a href="#storevariables">Store Variables</a> need to be setup before GBM will display configurations using store specific locations.</li>
+                  <li>GBM can configure <a href="#storevariables">Store Variables</a> automatically in most cases.  Turn on the "Enable automatic configuration of store paths" feature in the <a href="#settings_general">General</a> section of <a href="#settings">Settings</a>.</li>
+                  <li>PCGamingWiki doesn't differentiate between store ID types, this can lead to problems with some game configurations.
+                    <ul>
+                      <li>GBM can determine some store ID types based on the save path and will automatically makes changes to provide a useable backup configuration.</li>
+                    </ul>
                   </li>
                 </ul>
-              </li>
+              </li>              
             </ul>
             <h3>General Information</h3>
             <p>Tags are automatically added to these configurations to help identify the type of configuration and store.</p>
