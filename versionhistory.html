@@ -33,7 +33,44 @@
             Version History
           </div>
           <div cass="pageSectionContent">
-            <h3 class="notop">1.2.9</h3>
+            <h3 class="notop">1.3.0</h3>
+            <ul>
+              <li>All Platforms:
+                <ul>
+                  <li>New features for importing & exporting game configurations.
+                    <ul>
+                      <li>Added the ability to import any valid XML file from a HTTP or HTTPS URL.
+                        <ul>
+                          <li>This makes it a little easier to host and share your own configuration lists.</li>
+                          <li>The last URL will be automatically saved to make it easier to repeatedly check the same list.</li>
+                        </ul>
+                      </li>
+                      <li>Added the ability to use import and export features from the "File" menu on the main window and system tray.</li>
+                      <li>XML files are now cached in GBM's temporary folder when importing from the internet.</li>
+                      <li>Added an optional method of greatly reducing the bandwidth used when hosting XML files.</li>
+                    </ul>
+                  </li>
+                  <li>System tray menu has been changed to prevent it from getting too large.
+                    <ul>
+                      <li>A "File" sub-menu has been added and some features have been moved to this menu.</li>
+                    </ul>
+                  </li>
+                  <li>Removed the "Sync Game IDs" feature.
+                    <ul>
+                      <li>This feature was designed to ease upgrades from old versions of GBM and should no longer be required.</li>
+                    </ul>
+                  </li>
+                  <li>Fixed an issue with some browse windows on the Game Manager not opening to the correct location when using path variables.</li>
+                </ul>
+              </li>
+              <li>Windows:
+                <ul>
+                  <li>Updated 7-Zip to 21.07</li>
+                  <li>Due to TLS 1.2 support, GBM now requires .NET Framework v4.5 or later.</li>
+                </ul>
+              </li>
+            </ul>
+            <h3>1.2.9</h3>
             <ul>
               <li>All Platforms:
                 <ul>
