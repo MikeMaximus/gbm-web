@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1653995029" TotalConfigurations="557" AppVer="130">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1655713774" TotalConfigurations="574" AppVer="131">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -1812,6 +1812,9 @@
     <DiffInterval>0</DiffInterval>
     <Tags>
       <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
@@ -1823,9 +1826,9 @@
   <Game>
     <ID>fcf0f274-43f1-4ac7-b55a-634174212c11</ID>
     <Name>Blood Bowl: Chaos Edition</Name>
-    <ProcessName>BB_Chaos</ProcessName>
+    <ProcessName>BB(_Chaos)?$</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\bloodbowlchaos\saves</Path>
+    <Path>%USERDOCUMENTS%\BloodBowlChaos\saves</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
@@ -1833,13 +1836,16 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
     <OS>1</OS>
     <UseWindowTitle>false</UseWindowTitle>
     <Differential>false</Differential>
     <DiffInterval>0</DiffInterval>
     <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
       <Tag>
         <Name>Official</Name>
       </Tag>
@@ -2196,9 +2202,6 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -2690,6 +2693,38 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>14c389b1-3a32-4e4c-8531-6dc10dea17eb</ID>
+    <Name>Children of Morta</Name>
+    <ProcessName>ChildrenOfMorta</ProcessName>
+    <Parameter />
+    <Path>%Steam%\userdata\%SteamID3%\330020\remote</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -3824,6 +3859,70 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>2156922b-1bd4-4587-8870-6d916c746a9c</ID>
+    <Name>Dead Rising</Name>
+    <ProcessName>DeadRising</ProcessName>
+    <Parameter />
+    <Path>%Steam%\userdata\%SteamID3%\427190\remote</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>3cc33c2e-5256-4aaf-8c6e-348bb27e92c5</ID>
+    <Name>Dead Rising 2: Off the Record</Name>
+    <ProcessName>deadrising2otr</ProcessName>
+    <Parameter />
+    <Path>%Steam%\userdata\%SteamID3%\45770\remote\1100001009bf31e</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>DCOPTNS.DOF:GFWLSaveRoot.txt</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>097d6df4-a7e4-4f1c-ace2-bb5771aed51e</ID>
     <Name>Dead Space</Name>
     <ProcessName>Dead Space</ProcessName>
@@ -4339,6 +4438,35 @@
     <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>0b377f94-0e34-48d1-a821-69cae0b26469</ID>
+    <Name>Dishonored - Definitive Edition</Name>
+    <ProcessName>Dishonored</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\My Games\Dishonored\DishonoredGame\SaveData</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>OPTIONS.sav</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -5108,9 +5236,6 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -6169,6 +6294,38 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>5e76b069-3c4a-45d0-8c85-b0a254d3a9aa</ID>
+    <Name>Frostpunk</Name>
+    <ProcessName>Frostpunk</ProcessName>
+    <Parameter />
+    <Path>%Steam%\userdata\%SteamID3%\323190\remote</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>d34d7237-4513-4935-98aa-2c12758646fc</ID>
     <Name>Full Throttle Remastered</Name>
     <ProcessName>Throttle</ProcessName>
@@ -6367,9 +6524,6 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -6930,6 +7084,9 @@
     <DiffInterval>0</DiffInterval>
     <Tags>
       <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
@@ -6961,6 +7118,9 @@
     <Differential>false</Differential>
     <DiffInterval>0</DiffInterval>
     <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
@@ -7112,6 +7272,9 @@
     <Differential>false</Differential>
     <DiffInterval>0</DiffInterval>
     <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
@@ -7652,9 +7815,6 @@
       <Tag>
         <Name>Steam</Name>
       </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
     </Tags>
     <ConfigLinks />
   </Game>
@@ -8158,6 +8318,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>59d6016f-b7dc-4512-b0b7-29d9baf21ed1</ID>
+    <Name>Landlord's Super</Name>
+    <ProcessName>LandlordsSuper</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\Minskworks\LandlordsSuper</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>true</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>Unity</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>60789e00-9d08-4e24-90fc-a9aa19b488ea</ID>
     <Name>Legend of Grimrock</Name>
     <ProcessName>grimrock</ProcessName>
@@ -8356,38 +8545,6 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
-      </Tag>
-    </Tags>
-    <ConfigLinks />
-  </Game>
-  <Game>
-    <ID>2c1a0d8c-49fc-4257-8632-11310ba4fc34</ID>
-    <Name>METAL GEAR SOLID V: THE PHANTOM PAIN</Name>
-    <ProcessName>mgsvtpp</ProcessName>
-    <Parameter />
-    <Path />
-    <FolderSave>false</FolderSave>
-    <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>0</BackupLimit>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
-    <Comments>Only stored in cloud according to pcgamingwiki</Comments>
-    <IsRegEx>false</IsRegEx>
-    <RecurseSubFolders>true</RecurseSubFolders>
-    <OS>1</OS>
-    <UseWindowTitle>false</UseWindowTitle>
-    <Differential>false</Differential>
-    <DiffInterval>0</DiffInterval>
-    <Tags>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -8794,6 +8951,70 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>e2d882fb-3515-40f5-8844-03a6e0cf3221</ID>
+    <Name>Metal Gear Solid V: Ground Zeroes</Name>
+    <ProcessName>MgsGroundZeroes</ProcessName>
+    <Parameter />
+    <Path>%Steam%\userdata\%SteamID3%\311340\remote</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>2c1a0d8c-49fc-4257-8632-11310ba4fc34</ID>
+    <Name>Metal Gear Solid V: The Phantom Pain</Name>
+    <ProcessName>mgsvtpp</ProcessName>
+    <Parameter />
+    <Path>%Steam%\userdata\%SteamID3%\311340\remote</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -10325,6 +10546,38 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>6d36688c-8ed1-4c35-aad7-6c2ed38d8cb6</ID>
+    <Name>Poly Bridge</Name>
+    <ProcessName>polybridge</ProcessName>
+    <Parameter />
+    <Path>%Steam%\userdata\%SteamID3%\367450\remote</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>0b81da11-27f6-46d5-b8d6-cda89a088a96</ID>
     <Name>Populous - The Beginning</Name>
     <ProcessName>D3DPopTB</ProcessName>
@@ -10797,9 +11050,6 @@
       <Tag>
         <Name>Steam</Name>
       </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
     </Tags>
     <ConfigLinks />
   </Game>
@@ -11066,6 +11316,102 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>4d80a080-5b6b-43db-913d-edaadebbe7a4</ID>
+    <Name>Resident Evil 2 (2019)</Name>
+    <ProcessName>re2</ProcessName>
+    <Parameter />
+    <Path>%Steam%\userdata\%SteamID3%\883710\remote</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>014c6461-85a5-414d-a886-45c17b2012f4</ID>
+    <Name>Resident Evil 3 (2020)</Name>
+    <ProcessName>re3</ProcessName>
+    <Parameter />
+    <Path>%Steam%\userdata\%SteamID3%\952060\remote</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>dc82f75b-ac42-4103-aa68-841f7fe9fd33</ID>
+    <Name>Resident Evil 7: Biohazard</Name>
+    <ProcessName>re7</ProcessName>
+    <Parameter />
+    <Path>%Steam%\userdata\%SteamID3%\418370\remote</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -11950,6 +12296,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>1e49c00e-b2b4-4bec-baea-ddea110f4022</ID>
+    <Name>Shadow of the Tomb Raider</Name>
+    <ProcessName>SOTTR</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\Shadow of the Tomb Raider</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>steam_autocloud.vdf:*.log</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>731bee04-252a-4de5-92ed-c1c9db7b2abe</ID>
     <Name>Shadowgate</Name>
     <ProcessName>Shadowgate</ProcessName>
@@ -12151,6 +12526,70 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>45225d36-395f-4826-a5a0-54ccc2d3f450</ID>
+    <Name>Shenmue</Name>
+    <ProcessName>Shenmue</ProcessName>
+    <Parameter />
+    <Path>%Steam%\userdata\%SteamID3%\758330\remote\sm1saves</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>Settings</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>e4e4996e-22f6-432d-ac2f-8e0e99e7e34b</ID>
+    <Name>Shenmue 2</Name>
+    <ProcessName>Shenmue2</ProcessName>
+    <Parameter />
+    <Path>%Steam%\userdata\%SteamID3%\758330\remote\sm2saves</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>Settings</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -16001,6 +16440,38 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>7ec40ab6-bde4-47cf-bf4b-b7f068730999</ID>
+    <Name>Warhammer 40K: Space Marine</Name>
+    <ProcessName>SpaceMarine</ProcessName>
+    <Parameter />
+    <Path>%Steam%\userdata\%SteamID3%\55150</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>ff85d5d0-cc2c-4971-9bab-dd398d6b0c89</ID>
     <Name>Warhammer: Vermintide 2</Name>
     <ProcessName>vermintide2(_dx12)?$</ProcessName>
@@ -16233,6 +16704,9 @@
     <DiffInterval>0</DiffInterval>
     <Tags>
       <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
         <Name>GOG</Name>
       </Tag>
       <Tag>
@@ -16266,6 +16740,35 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>344afe05-e18b-4c40-8650-39355e19163f</ID>
+    <Name>Wreckfest</Name>
+    <ProcessName>Wreckfest(_x64)?$</ProcessName>
+    <Parameter />
+    <Path>%Steam%\userdata\%SteamID3%\228380\local\wreckfest</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>settings.conf</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -16443,6 +16946,38 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>60aa0b34-4a78-4bae-a69d-90b231b4c426</ID>
+    <Name>Yakuza 0</Name>
+    <ProcessName>Yakuza0</ProcessName>
+    <Parameter />
+    <Path>%Steam%\userdata\%SteamID3%\638970\remote</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
     <ConfigLinks />

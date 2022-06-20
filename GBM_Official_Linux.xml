@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official_Linux.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1649320621" TotalConfigurations="419" AppVer="130">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1655715947" TotalConfigurations="419" AppVer="131">
   <Game>
     <ID>bbf8e00a-d7b8-46a5-b52c-8ba886b8c38a</ID>
     <Name>0 AD</Name>
@@ -204,10 +204,10 @@
     <Path>${XDG_DATA_HOME:-~/.local/share}/CircuitGameData/</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
@@ -396,10 +396,10 @@
     <Path>~/.aboutloveandhate/</Path>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType>*.save</FileType>
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
@@ -460,10 +460,10 @@
     <Path>${XDG_DATA_HOME:-~/.local/share}/Shuggy</Path>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType>*.sav</FileType>
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
@@ -822,10 +822,10 @@ The Continue button starts working again, when you save a game after restoration
     <Path>~/.Anomaly 2</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
@@ -887,12 +887,12 @@ The Continue button starts working again, when you save a game after restoration
     <ProcessName>AnomalyWarzoneEarth</ProcessName>
     <Parameter />
     <Path>~/.Anomaly</Path>
-    <FolderSave>false</FolderSave>
+    <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments>Steam cloud only</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
@@ -1374,10 +1374,10 @@ closed data</Comments>
     <Path>${XDG_DATA_HOME:-~/.local/share}/Back to Bed</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
@@ -1929,12 +1929,12 @@ no DRM-free version</Comments>
     <ProcessName>bioshock.i386</ProcessName>
     <Parameter />
     <Path>${XDG_DATA_HOME:-~/.local/share}/irrationalgames/bioshockinfinite/GameDocuments/My Games/BioShock Infinite/</Path>
-    <FolderSave>false</FolderSave>
+    <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments>cloud only
 no DRM-free version
 multiple savegames not possible</Comments>
@@ -2204,10 +2204,10 @@ multiple savegames not possible</Comments>
     <Path>~/.BlocksThatMatterUserDatas/</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
@@ -2990,12 +2990,12 @@ Saves must be moved manually between those versions.</Comments>
     <ProcessName>UDKGame-Linux</ProcessName>
     <Parameter />
     <Path>${XDG_DATA_HOME:-~/.local/share}/TornBanner/Chivalry/</Path>
-    <FolderSave>false</FolderSave>
+    <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments>multiplayer only</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
@@ -3196,10 +3196,10 @@ Saves must be moved manually between those versions.</Comments>
     <Path>${XDG_DATA_HOME:-~/.local/share}/Eyebrow Interactive/Closure</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
@@ -3260,10 +3260,10 @@ Saves must be moved manually between those versions.</Comments>
     <Path>${XDG_DATA_HOME:-~/.local/share}/Cogs</Path>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType>playerInfo.dat</FileType>
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
@@ -3678,12 +3678,12 @@ Saves must be moved manually between those versions.</Comments>
     <ProcessName>redorchestra-bin</ProcessName>
     <Parameter>-mod=DarkestHour</Parameter>
     <Path>~/.redorchestra/DarkestHour</Path>
-    <FolderSave>false</FolderSave>
+    <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
@@ -3956,10 +3956,10 @@ Change path for old drm-free versions in ~/.appdata/DefendersQuest/Local\ Store/
     <Path>${XDG_DATA_HOME:-~/.local/share}/feral-interactive/Deus Ex Mankind Divided/SaveData</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments>Feral includes a softlink to steam's cloud userdata, but it assumes standard steam paths.</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
@@ -4304,10 +4304,10 @@ Launch options: ./DDLC.sh # %command%</Comments>
     <Path>../data/</Path>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType>GAME*.SAV</FileType>
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments>GBM can not detect the save game location</Comments>
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
@@ -7715,10 +7715,10 @@ Savegame contains settings</Comments>
     <Path>${XDG_DATA_HOME:-~/.local/share}/feral-interactive/ShadowOfMordor/SaveData</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments>Feral includes a softlink to steam's cloud userdata, but it assumes standard steam paths.</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
@@ -8137,10 +8137,10 @@ Savegame contains settings</Comments>
     <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/tinyBuild GAMES/No Time To Explain/</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
@@ -8428,10 +8428,10 @@ Savegame contains settings</Comments>
     <Path>${XDG_DATA_HOME:-~/.local/share}/Housemarque/Outland/</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
@@ -9201,12 +9201,12 @@ Savegame contains settings</Comments>
     <ProcessName>quiet city\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/_/quiet city</Path>
-    <FolderSave>false</FolderSave>
+    <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
@@ -9325,10 +9325,10 @@ Savegame contains settings</Comments>
     <Path>~/.redorchestra/</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments>multiplayer</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
@@ -9692,10 +9692,10 @@ Savegame contains settings</Comments>
     <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Facepunch Studios LTD/Rust</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments>multiplayer</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
@@ -9820,10 +9820,10 @@ Savegame contains settings</Comments>
     <Path>${XDG_DATA_HOME:-~/.local/share}/Sanctum2/</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments>Steam cloud only</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
@@ -10539,10 +10539,10 @@ Savegame contains settings</Comments>
     <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Fabraz/Slime-san</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments>steam cloud only</Comments>
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
@@ -10804,10 +10804,10 @@ Savegame contains settings</Comments>
     <Path>./</Path>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType>DARKPILO.CFG</FileType>
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments>Steam offers only a windows version, data must be run with native dosbox.
 GBM can not determine the location of the config file.</Comments>
     <IsRegEx>true</IsRegEx>
@@ -11399,10 +11399,10 @@ GBM can not determine the location of the config file.</Comments>
     <Path>~/.systemshock2/systemshock2/drive_c/Program Files/SystemShock2/</Path>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType>save_*</FileType>
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
@@ -11706,12 +11706,12 @@ GBM can not determine the location of the config file.</Comments>
     <ProcessName>TheLittleAcre.x86</ProcessName>
     <Parameter />
     <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Curve Digital/The Little Acre</Path>
-    <FolderSave>false</FolderSave>
+    <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
@@ -11801,13 +11801,13 @@ GBM can not determine the location of the config file.</Comments>
     <Name>The Raven - Legaly of a Master Thief</Name>
     <ProcessName>(Rr)aven(_game\.x86(_64)?)?</ProcessName>
     <Parameter />
-    <Path>~/.local/share/raven/</Path>
+    <Path>${XDG_DATA_HOME:-~/.local/share}/raven/</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
@@ -12159,10 +12159,10 @@ GBM can not determine the location of the config file.</Comments>
     <Path>${XDG_DATA_HOME:-~/.local/share}/freebirdgames/tothemoon</Path>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType>*.rxdata</FileType>
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
@@ -12223,10 +12223,10 @@ GBM can not determine the location of the config file.</Comments>
     <Path>${XDG_DATA_HOME:-~/.local/share}/feral-interactive/Tomb Raider/SaveData</Path>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType>*.macdat</FileType>
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments>Feral includes a softlink to steam's cloud userdata, but it assumes standard steam paths.</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
@@ -12416,12 +12416,12 @@ GBM can not determine the location of the config file.</Comments>
     <ProcessName>train-valley\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Oroboro games/Train Valley</Path>
-    <FolderSave>false</FolderSave>
+    <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
@@ -12625,10 +12625,10 @@ GBM can not determine the location of the config file.</Comments>
     <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/The Quantum Astrophysicists Guild/Tumblestone</Path>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType>*.local</FileType>
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
@@ -13610,12 +13610,12 @@ GBM can not determine the location of the config file.</Comments>
     <ProcessName>YookaLaylee\.x86(_64)?</ProcessName>
     <Parameter />
     <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Playtonic Ltd/Yooka-Laylee/</Path>
-    <FolderSave>false</FolderSave>
+    <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
@@ -13778,10 +13778,10 @@ GBM can not determine the location of the config file.</Comments>
     <Path>${XDG_CONFIG_HOME:-~/.config}/unity3d/Home Net Games/Zombie Defense</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>2</BackupLimit>
+    <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
-    <MonitorOnly>true</MonitorOnly>
+    <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
