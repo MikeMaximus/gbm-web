@@ -3895,7 +3895,7 @@
     <Name>Dead Rising 2: Off the Record</Name>
     <ProcessName>deadrising2otr</ProcessName>
     <Parameter />
-    <Path>%Steam%\userdata\%SteamID3%\45770\remote\1100001009bf31e</Path>
+    <Path>%Steam%\userdata\%SteamID3%\45770\remote</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
