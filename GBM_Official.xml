@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1655713774" TotalConfigurations="574" AppVer="131">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1658074117" TotalConfigurations="577" AppVer="131">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -2640,6 +2640,38 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>067af9ba-a45d-4b5e-946c-f00bf0f0a41a</ID>
+    <Name>Castlevania Anniversary Collection</Name>
+    <ProcessName>game</ProcessName>
+    <Parameter />
+    <Path>%Steam%\userdata\%SteamID3%\1018010\remote</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>This game stores save data in two different locations, however only the data in the Steam Cloud location is relevant.</Comments>
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>453580d1-bc49-4d9c-986e-b457ebebae76</ID>
     <Name>Catherine Classic</Name>
     <ProcessName>Catherine</ProcessName>
@@ -4075,7 +4107,7 @@
     <Name>Death Stranding</Name>
     <ProcessName>DeathStranding</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%Low\KojimaProductions\DeathStranding</Path>
+    <Path>%LOCALAPPDATA%\KojimaProductions\DeathStranding</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
@@ -4359,6 +4391,35 @@
     <Tags>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>8055199a-ee65-4494-bf50-1b982c5284d1</ID>
+    <Name>Diablo 2: Resurrected</Name>
+    <ProcessName>D2R</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\Diablo II</Path>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>Save</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Blizzard</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -6336,6 +6397,35 @@
     <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList>settings.ini</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>0decae79-f23f-42b9-8088-911c4ce1e7ad</ID>
+    <Name>GWENT - Rogue Mage</Name>
+    <ProcessName>RogueMage</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\CDProjektRED\RogueMage</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>output_log.txt:*.log:Unity</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -16769,6 +16859,9 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
