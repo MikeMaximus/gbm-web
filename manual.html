@@ -30,10 +30,10 @@
       <div id="leftcontent">
         <div class="pageSection">
           <div class="pageSectionHeader">
-            Game Backup Monitor v1.3.1 Manual
+            Game Backup Monitor v1.3.2 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated June 7, 2022</h3>
+            <h3 class="notop">Updated August 6, 2022</h3>
             <h3>Important Notes:</h3>
             <p>An offline version of the manual is available <a href="https://github.com/Darthagnon/gbm-manual">here</a>.  The offline manual is kindly provided by <a href="https://github.com/Darthagnon">Darthagnon</a>.</p>
             <p>This manual may contain information about features not available in the current stable release.</p>
@@ -146,7 +146,8 @@
             <p>The left portion of the window displays a list of all currently configured games and a search field to quickly filter the list.
               <ul>
                 <li>Selecting a game from the list will display related information and any available options in the right portion of the window.</li>
-                <li>The "Search" field allows filtering by Game Name (partial match) or by Tag (exact match).</li>
+                <li>Double-click a selected game in the list to quickly open it's configuration in the Game Manager.</li>
+                <li>The "Search" field allows filtering by Game Name (partial match) or by Tag (exact match).  Use a hashtag to indicate a Tag search, like #Steam.</li>
                 <li>The button to the right of the "Search" field can be used to clear the current filter and/or selected game.</li>            
               </ul>
             </p>
@@ -223,10 +224,7 @@
             <h4>Temp Folder:</h4>
             <p>This is the temporary folder that GBM uses to process backup files before they are moved to the Backup Folder.</p>
             <h4>Create a sub-folder for each game:</h4>
-            <p>This indicates if you want GBM to create a sub-folder in the backup folder for each game. This is handy for keeping your backup folder more organized.</p>
-            <h4>Use Game ID for folder and file names:</h4>
-            <p>GBM uses the game Name by default for folder and files names.  After enabling this setting GBM will use the game ID instead.</p>
-            <p>GBM may ignore this setting in some cases and use the game ID to prevent certain configurations from overwriting other backup files.</p>
+            <p>This indicates if you want GBM to create a sub-folder in the backup folder for each game. This is handy for keeping your backup folder more organized.</p>            
             <h3><a name="settings_backupandrestore" id="settings_backupandrestore">Backup and Restore</a></h3>
             <img class="manual" src="images/manual/manual_33.jpg" width="556" height="418" alt="Settings" />
             <h4>Display notifications about new backups:</h4>
@@ -305,16 +303,17 @@
             <a name="gamemanager" id="gamemanager">The Game Manager</a>
           </div>
           <div class="pageSectionContent">
-            <img class="manual" src="images/manual/manual_06.jpg" width="786" height="413" alt="Game Manager" />
+            <img class="manual" src="images/manual/manual_06.jpg" width="786" height="418" alt="Game Manager" />
             <h3>Game Manager Quick Overview:</h3>
             <ul>
               <li>Add a new game to monitor by clicking the <img class="manualbutton" src="images/manual/buttons/Multi_Add.png" width="16" height="16" alt="New" /> (New) button below the list box.</li>
+              <li>Copy a game by selecting the game(s) from the list and clicking the <img class="manualbutton" src="images/manual/buttons/frmGameManager_Copy.png" width="16" height="16" alt="Copy" /> (Copy) button below the list box.</li>
               <li>Delete a game by selecting the game(s) from the list and clicking the <img class="manualbutton" src="images/manual/buttons/Multi_Delete.png" width="16" height="16" alt="Delete" /> (Delete) button below the list box.</li>
               <li>Show all games by selecting the "All Games" option from the filter drop-down list.</li>
               <li>Show only games with backup data by selecting the "Games with Backups" option from the filter drop-down list.</li>
               <li>Show only games with new save data to restore by selecting the "Games with Pending Backups" option from the filter drop-down list.</li>
               <li>You can customize a list of games to display by selecting the "Custom" option from the filter drop-down list.</li>
-              <li>Quickly find games by typing a name (partial match) or a tag (exact match) in the "Search" field.  This filter is applied on top of any other filter you may be using.</li>              
+              <li>Quickly find games by typing a name (partial match) or a tag (exact match) in the "Search" field.  Use a hashtag to indicate a Tag search, like #Steam.  This filter is applied on top of any other filter you may be using.</li>              
               <li>You can edit the Tags for one or more games by selecting them and clicking directly on the list of tags.</li>              
               <li>You can backup immediately without playing a game by selecting the game(s) from the list and click the <img class="manualbutton" src="images/manual/buttons/Multi_Backup.png" width="16" height="16" alt="Backup Folder" /> (Backup) button in the "Backup Management" section.</li>
               <li>Restore an existing backup for a game by selecting the game(s) from the list and clicking the <img class="manualbutton" src="images/manual/buttons/Multi_Restore.png" width="16" height="16" alt="Restore Folder" /> (Restore) button in the "Backup Management" section.</li>
@@ -335,9 +334,10 @@
             <p>The Game Manager splits a configuration into three tabbed sections, "Core Configuation", "Game Information" and "Backup Management".  Click the tab button for each section to switch between them.
             <p>The following is advanced information on each field used to configure a game.</p>            
             <h3><a name="gmcore" id="gmcore">Core Configuration</a></h3>
-            <img class="manual" src="images/manual/manual_38.jpg" width="786" height="413" alt="Core Configuration" />
+            <img class="manual" src="images/manual/manual_38.jpg" width="786" height="418" alt="Core Configuration" />
             <h4>Name:</h4>
             <p>The name of the game to monitor.  Multiple entries with the same name are allowed.</p>
+            <p>The "Game ID" will be appended to folder and filenames automatically in the event of duplicate names.  For example, Metro Exodus [8ac11c11-8d18-471b-8f0d-aa154dc77f0e].</p>            
             <h4>Game ID:</h4>
             <p>A unique identifier for the game, GBM will generate it automatically.  There is no need to manually set this unless you want to.</p>            
             <p>Use the <img class="manualbutton" src="images/manual/buttons/frmGameManager_GameID.png" width="16" height="16" alt="Database" /> (Modify Game ID) button to the right of the "Name" field to change the "Game ID".</p>            
@@ -380,11 +380,13 @@
             <p>It's highly recommended to use the full command so you can properly launch the game from GBM.  You can also set alternate launch parameters in "Advanced -> Launch Settings...".</p>
             <h4>Game Path:</h4>
             <p>This is the path to the game's executable file. In most cases GBM will auto-detect this information, but it can be set manually.</p>
+            <p>Use the <img class="manualbutton" src="images/manual/buttons/frmGameManager_Folder_Open.png" width="16" height="16" alt="Open Folder" /> (Open Game Folder) button to quickly explore the current game path.</p>
             <p>This field may also contain same supported environment variables and <a href="#customvariables">custom path variables</a> as the Save Path field.</p>
             <p>The path is used to determine the save location for games with a relative save path. It is also used to properly detect games that share process names, like DOSBox and ScummVM games.</p>
             <p>This field is also used to determine the default location of the executable when launching a game from GBM.</p>            
             <h4>Save Path:</h4>
-            <p>The location of the save files for the game.</p>            
+            <p>The location of the save files for the game.</p>
+            <p>Use the <img class="manualbutton" src="images/manual/buttons/frmGameManager_Folder_Open.png" width="16" height="16" alt="Open Folder" /> (Open Save Folder) button to quickly explore the current save path.</p>
             <p>This path can be absolute, or relative to the game's executable.</p>
             <p>GBM will automatically determine absolute or relative path settings. If the save games are located in the game folder itself, you should always strive to use a path relative to the game's executable, this way your configuration will work on any PC regardless of where a game is installed.</p>
             <p>The path may also contain supported environment variables and/or <a href="#customvariables">custom path variables</a>.</p>
@@ -455,12 +457,12 @@
             <p>All expired backups go to the Recycle Bin in Windows, but are permenantly deleted in Linux.</p>
             <h4>Differential Backup:</h4>
             <p>This indicates you'd like to use the differential backup method for this game.  Please see the <a href="#differential">Differential Backups</a> section of the manaul for more details.</p>            
-            <h4>Monitor this Game:</h4>
+            <h4>Allow monitoring:</h4>
             <p>This option indicates that GBM will actively monitor for this game.</p>
-            <p>This option is avaiable in the <img class="manualbutton" src="images/manual/buttons/Multi_Search.png" width="16" height="16" alt="Magnifying Glass" /> (Monitor options) sub-menu button.</p>
-            <h4>Monitor Only:</h4>
-            <p>This option indicates that GBM will not trigger a backup when the game is closed.</p>
-            <p>This option is avaiable in the <img class="manualbutton" src="images/manual/buttons/Multi_Search.png" width="16" height="16" alt="Magnifying Glass" /> (Monitor options) sub-menu button.</p>
+            <p>This option is available in the <img class="manualbutton" src="images/manual/buttons/Multi_Search.png" width="16" height="16" alt="Magnifying Glass" /> (Monitor options) sub-menu button.</p>
+            <h4>No backup when game ends:</h4>
+            <p>This option indicates that GBM will not trigger a backup when the game session ends.</p>
+            <p>This option is available in the <img class="manualbutton" src="images/manual/buttons/Multi_Search.png" width="16" height="16" alt="Magnifying Glass" /> (Monitor options) sub-menu button.</p>
             <h3>Link Configuration:</h3>
             <p>This option is avaiable in the <img class="manualbutton" src="images/manual/buttons/frmGameManager_Link.png" width="16" height="16" alt="Chain" /> (Link options) sub-menu button.</p>
             <p>You may chain game configuations together.  This is an advanced feature that allows one configuration to trigger the backup or restore of any other linked configuration(s).  This is useful for games that may keep saves or other important files in multiple unique locations.
@@ -482,7 +484,7 @@
             <p>This is the target operating system of the configuration, the OS field is hidden and cannot be modified in Windows.</p>
             <p>This field allows Linux users to manage native and Windows games in the same list.</p>            
             <h3><a name="gminfo" id="gminfo">Game Information</a></h3>
-            <img class="manual" src="images/manual/manual_35.jpg" width="786" height="413" alt="Game Manager" />
+            <img class="manual" src="images/manual/manual_35.jpg" width="786" height="418" alt="Game Manager" />
             <h4>Comments:</h4>
             <p>This is used to store any extra information about the configuration.</p>            
             <h4>Company:</h4>
@@ -492,7 +494,7 @@
             <h4>Icon:</h4>
             <p>You can manually set a icon to be displayed when the game is detected. This takes priority over the icon used by the game's executable.</p>            
             <h3><a name="gmbackup" id="gmbackup">Backup Management</a></h3>
-            <img class="manual" src="images/manual/manual_36.jpg" width="786" height="413" alt="Game Manager" />
+            <img class="manual" src="images/manual/manual_36.jpg" width="786" height="418" alt="Game Manager" />
             <h4>Backup Data:</h4>
             <p>This field lists all the available backup data.  You may select older entries if you need to restore or delete it.</p>
             <p>You may notice one or more entries automatically disappearing from this field when it's accessed.  This occurs when backup files for those entries have been manually deleted.
@@ -541,7 +543,7 @@
               </ul>
             </p>
             <p>For the majority of games outside of the examples listed above, enabling Differential backup will not provide much benefit and <b>is not recommended</b>.</p>
-            <img class="manual" src="images/manual/manual_37.jpg" width="786" height="413" alt="Differential Backups" />
+            <img class="manual" src="images/manual/manual_37.jpg" width="786" height="418" alt="Differential Backups" />
             <h4>Important Details:</h4>
             <ul>
               <li>The "Differential backup" option will allow you to set a "Full backup interval" value.
@@ -576,7 +578,7 @@
           </div>
           <div class="pageSectionContent">
             <p>Games can also save your progress to the Windows registry instead of using a location on your hard drive.  As of v1.1.8, GBM now supports saving and restoring registry keys.</p>
-            <img class="manual" src="images/manual/manual_24.jpg" width="786" height="413" alt="Registry Configuration" />
+            <img class="manual" src="images/manual/manual_24.jpg" width="786" height="418" alt="Registry Configuration" />
             <h4>Important Details:</h4>
             <ul>
               <li>Registry backups are supported in Windows and in Wine/Proton on Linux.</li>
@@ -653,12 +655,26 @@
                 <ul>
                   <li>The import identifies each backup configuration based on a unique ID.</li>
                   <li>Official, Ludusavi, and your own custom configurations all have their own unique ID and will not overwrite each other.</li>
-                  <li>Always review the game configurations that were auto-detected and only select the ones you need.</li>
+                  <li>Always review the game configurations that were auto-detected and only select the ones you need.</li>                  
                 </ul>
-              </li>              
-              <li>New configurations are indicated with a plus icon, updated configurations are indicated with an arrow icon.</li>
+              </li>
+              <li>Configurations you never want to import or update can be added to an ignore list.
+                <ul>
+                  <li>Select any configurations you want to ignore, right-click and choose "Ignore".</li>
+                  <li>You can show or hide ignored configurations by toggling the "Hide Ignored" checkbox.</li>
+                  <li>You can remove configurations from the ignore list by selecting ignored configurations, right-click and choose "Unignore".</li>
+                </ul>
+              </li>
+              <li>Configurations are identified with a variety of icons.
+                <ul>
+                  <li>The <img class="manualbutton" src="images/manual/buttons/frmAdvancedImport_Update.png" width="16" height="16" alt="Updated" /> icon indicates a configuration has updates available.</li>
+                  <li>The <img class="manualbutton" src="images/manual/buttons/frmAdvancedImport_New.png" width="16" height="16" alt="New" /> icon indicates a new configuration that can be imported.</li>
+                  <li>The <img class="manualbutton" src="images/manual/buttons/frmAdvancedImport_Detected.png" width="16" height="16" alt="Detected" /> icon indicates the configuration's save location was auto-detected.</li>
+                  <li>The <img class="manualbutton" src="images/manual/buttons/frmAdvancedImport_Ignored.png" width="16" height="16" alt="Ignored" /> icon indicates the configuration is currently being ignored.</li>                  
+                </ul>
+              </li>
               <li>You can toggle selecting and de-selecting all available configurations by clicking the "Select All" checkbox.</li>
-              <li>You can search for specific games or by tag using the "Filter" field. The filter is applied as you type, remove all text from the field to clear the filter.</li>
+              <li>You can search for specific games or by tag using the "Filter" field.  Use a hashtag to indicate a Tag search, like #Steam.  The filter is applied as you type, remove all text from the field to clear the filter.</li>
               <li>You can display only currently selected configurations using the "Show Only Selected" checkbox.  This can be combined with the "Filter" field.</li>
               <li>The bottom of the import window shows how many configurations you have selected and how many are currently displayed.</li>
               <li>GBM remembers all configurations you've selected, even if they are not displayed by your current filter.</li>              
