@@ -33,7 +33,95 @@
             Version History
           </div>
           <div cass="pageSectionContent">
-            <h3 class="notop">1.3.1</h3>
+            <h3 class="notop">1.3.2</h3>
+            <ul>
+              <li>All Platforms:
+                <ul>
+                  <li>Fixed an issue that could cause imports from the web to stop functioning after a failed download.</li>
+                  <li>Fixed an issue that caused recent changes to be lost if GBM was unexpectedly closed while working in certain windows, like the Game Manager.</li>
+                  <li>Fixed a crash that occurred when the "Configuration Links" window is opened on the Game Manager while adding a new configuration.</li>
+                  <li>Fixed various issues when importing backup files:
+                    <ul>
+                      <li>Backup files created by v1.2.8 can now be imported without errors.</li>
+                      <li>Fixed the broken 7z file filter when importing backup files.</li>
+                      <li>Fixed an issue that could cause ManifestID constraint errors.</li>
+                      <li>Fixed an issue that could cause differential backup imports to always fail.</li>
+                    </ul>
+                  </li>
+                  <li>Changes to folder and file naming:
+                    <ul>
+                      <li>Removed the "Use Game ID for folder and file names" option from Settings.</li>
+                      <li>Configurations using duplicate names will now use a more descriptive name format:
+                        <ul>
+                          <li>Game Name [Game ID] Ex. Metro Exodus [8ac11c11-8d18-471b-8f0d-aa154dc77f0e]</li>
+                        </ul>
+                      </li>
+                      <li>The length of folder and file names is now more strict to minimize issues with the Windows max path limitation.
+                        <ul>
+                          <li>Only the first 64 characters of a game name will be used when creating folder and file names.</li>
+                        </ul>
+                      </li>
+                      <li>Modifying the name of a configuration will no longer automatically rename existing backup folders and files.</li>
+                      <li>The above changes are only applied when creating new backup files.</li>
+                      <li>I understand the recent naming changes may be frustrating to some users. Please leave any feedback in the GitHub issues or discussions section.</li>
+                    </ul>                  
+                  </li>
+                  <li>Improvements to the Game Manager:
+                    <ul>
+                      <li>Added a "Copy" feature.
+                        <ul>
+                          <li>This will make a copy of the currently selected game configuration(s).</li>
+                          <li>The Core Configuration, Game Information, Tags, Processes and Configuration Links are included in the copy.</li>
+                        </ul>
+                      </li>
+                      <li>Added buttons to quickly open the current "Game Path" or "Save Path".</li>
+                      <li>Some game configuration options have been renamed for clarification.
+                        <ul>
+                          <li>The "Monitor this game" option has been renamed to "Allow monitoring".</li>
+                          <li>The "Monitor only" option has been renamed to "No backup when game ends".</li>
+                        </ul>
+                      </li>
+                      <li>The "Backup limit" and "Full backup interval" fields will no longer reset to 0 in the Game Manager if toggled off during an edit.</li>
+                    </ul>
+                  </li>
+                  <li>Improvements to Importing Game Configurations:
+                    <ul>
+                      <li>The list will now try to retain the last scroll position after being refreshed.</li>
+                      <li>You can now "Ignore" (or "Unignore") any configurations on the import window using the right-click menu.
+                        <ul>
+                          <li>This allows you to hide any configuration(s) that you never want to add or update during an import.</li>
+                          <li>The ignored configurations are saved and persist between sessions.</li>
+                          <li>You can show any hidden configurations by unticking the "Hide Ignored" checkbox.</li>
+                        </ul>
+                      </li>
+                      <li>Added new icons to indicate auto-detected and ignored configurations.</li>
+                    </ul>
+                  </li>
+                  <li>General Interface improvements:
+                    <ul>
+                      <li>Added an "Open Backup Folder" option to the File menu (Main window and system tray).</li>
+                      <li>You can now filter by "Tag" specifically in some search fields by using a hashtag in the search term. Ex. #Steam
+                        <ul>
+                          <li>In prior versions you didn't need to use a hashtag in the search term to filter by tag, but the results included both name and tag matches.</li>
+                          <li>This feature is supported on the Main window, the Game Manager, and the Import window.</li>
+                        </ul>
+                      </li>
+                      <li>All windows can now be closed and/or canceled out of edit mode by using the "Escape" key.</li>
+                      <li>More windows will now ask for confirmation before closing if changes aren't yet saved.</li>
+                      <li>Double-clicking a game in the main window list will now open it in the Game Manager.</li>
+                      <li>You can now use the "Enter" key to confirm the "Ludusavi Options" window.</li>
+                    </ul>
+                  </li>
+                  <li>General performance improvements:
+                    <ul>
+                      <li>Some features that caused the interface to become unresponsive now run on a seperate thread.</li>
+                      <li>Optimized various database queries.</li>
+                    </ul>
+                  </li>
+                </ul>  
+              </li>
+            </ul>                
+            <h3>1.3.1</h3>
             <ul>
               <li>All Platforms:
                 <ul>
