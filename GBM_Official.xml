@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1658074117" TotalConfigurations="577" AppVer="131">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1668933746" TotalConfigurations="589" AppVer="133">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -780,6 +780,64 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>097f56b0-82a6-4f32-b3b8-14be53641b0b</ID>
+    <Name>Baldur's Gate: Dark Alliance</Name>
+    <ProcessName>Baldur's Gate - Dark Alliance</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\Baldur's Gate - Dark Alliance\savedata</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>8533298e-0ecb-48b9-bf69-ed0342b92843</ID>
+    <Name>Baldur's Gate: Dark Alliance II</Name>
+    <ProcessName>Baldur's Gate - Dark Alliance II</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\Baldur's Gate - Dark Alliance II\savedata</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -7700,6 +7758,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>b4ad45b5-3e68-48f4-bc41-26acf24c5b7a</ID>
+    <Name>Huntdown</Name>
+    <ProcessName>Huntdown</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\Coffee Stain Publishing\Huntdown</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>35114ecd-50f9-4db7-a2b8-63dae686363e</ID>
     <Name>INSIDE</Name>
     <ProcessName>INSIDE</ProcessName>
@@ -8553,6 +8640,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>2ea1d46b-cc4d-4f30-a567-9b67b6542c52</ID>
+    <Name>Lonely Mountains: Downhill</Name>
+    <ProcessName>LMD_Win_x64</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\Megagon Industries\Lonely Mountains_ Downhill\steamuser</Path>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>data_*.sav</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>52a0c47a-4642-4540-bc0c-19baf9fd352a</ID>
     <Name>Loop Hero</Name>
     <ProcessName>Loop Hero</ProcessName>
@@ -8652,6 +8768,35 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>69ece3d8-6087-4bdb-9e83-74aa79839515</ID>
+    <Name>Mafia: Definitive Edition</Name>
+    <ProcessName>mafiadefinitiveedition</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\My Games\Mafia Definitive Edition\Data</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>profile_videosettings.pf</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>This backup configuration includes all game settings expect video settings.</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
     <OS>1</OS>
@@ -9705,6 +9850,38 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>522c715a-7055-4f70-a943-623c95060552</ID>
+    <Name>NEO Scavenger</Name>
+    <ProcessName>NEOScavenger</ProcessName>
+    <Parameter />
+    <Path>%APPDATA%\Macromedia\Flash Player\#SharedObjects</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>true</AppendTimeStamp>
+    <BackupLimit>3</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>f56c36d6-eb87-4eb3-9904-b10f1fc71f51</ID>
     <Name>Necromunda - Hired Gun</Name>
     <ProcessName>Necromunda</ProcessName>
@@ -10466,7 +10643,7 @@
     <Name>Pathfinder: Kingmaker</Name>
     <ProcessName>Kingmaker</ProcessName>
     <Parameter />
-    <Path>%USERPROFILE%\AppData\LocalLow\Owlcat Games\Pathfinder Kingmaker</Path>
+    <Path>%LOCALAPPDATA%Low\Owlcat Games\Pathfinder Kingmaker</Path>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
@@ -10476,6 +10653,35 @@
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>false</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>1ebf0e19-be39-415e-a9df-b195a59905cc</ID>
+    <Name>Pathfinder: Wrath of the Righteous</Name>
+    <ProcessName>Wrath</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\Owlcat Games\Pathfinder Wrath Of The Righteous</Path>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>Portraits:Saved Games</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <OS>1</OS>
     <UseWindowTitle>false</UseWindowTitle>
     <Differential>false</Differential>
@@ -10779,6 +10985,38 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>5ba7c3ac-c524-4a26-a089-5a4c8512c0bb</ID>
+    <Name>Potionomics</Name>
+    <ProcessName>Potionomics</ProcessName>
+    <Parameter />
+    <Path>%Steam%\userdata\%SteamID3%\1874490\remote</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -11480,6 +11718,38 @@
     <ProcessName>re7</ProcessName>
     <Parameter />
     <Path>%Steam%\userdata\%SteamID3%\418370\remote</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+      <Tag>
+        <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>9673871f-4e4b-41db-9530-1df55d2b80f8</ID>
+    <Name>Resident Evil Village</Name>
+    <ProcessName>re8</ProcessName>
+    <Parameter />
+    <Path>%Steam%\userdata\%SteamID3%\1196590\remote\win64_save</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
@@ -12833,7 +13103,7 @@
     <ConfigLinks />
   </Game>
   <Game>
-    <ID>327400</ID>
+    <ID>5348d74f-c01a-439c-8d13-ff55a41ccf59</ID>
     <Name>Sid Meier's Colonization</Name>
     <ProcessName>DOSBox</ProcessName>
     <Parameter>-conf "..\dosboxCOL.conf" -conf "..\dosboxCOL_single.conf" -noconsole -c "exit"</Parameter>
@@ -14522,6 +14792,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>0e5f8ece-3844-4b25-93ec-950466523fa3</ID>
+    <Name>Synthetik: Legion Rising</Name>
+    <ProcessName>Synthetik</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\Synthetik</Path>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>Save.sav</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>1258f9c9-b6ff-497e-9246-24c6eae2af94</ID>
     <Name>System Shock: Enhanced Edition</Name>
     <ProcessName>sshock</ProcessName>
@@ -15027,6 +15326,64 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>2c07d92f-2bff-4b0e-b22c-3b9d93aec0cc</ID>
+    <Name>The Evil Within</Name>
+    <ProcessName>EvilWithin</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\Saved Games\TangoGameworks\The Evil Within\base\savegame</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>4754330d-18ab-499b-a464-1f86a3766b03</ID>
+    <Name>The Evil Within 2</Name>
+    <ProcessName>TEW2</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\Saved Games\TangoGameworks\The Evil Within 2\base\savegame</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>b7566bbc-281a-422a-9cae-5c3660cff6d4</ID>
     <Name>The Last Remnant</Name>
     <ProcessName>TLR</ProcessName>
@@ -15179,11 +15536,11 @@
     <Name>The Riftbreaker</Name>
     <ProcessName>riftbreaker_win_release</ProcessName>
     <Parameter />
-    <Path>%USERDOCUMENTS%\The Riftbreaker\campaignV2</Path>
-    <FolderSave>true</FolderSave>
+    <Path>%USERDOCUMENTS%\The Riftbreaker</Path>
+    <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
-    <FileType />
+    <FileType>campaignV2:user_profile</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
