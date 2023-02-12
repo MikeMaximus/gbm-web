@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1671963060" TotalConfigurations="595" AppVer="134">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1676189536" TotalConfigurations="602" AppVer="134">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -416,6 +416,35 @@
     <ProcessName>dmcr</ProcessName>
     <Parameter />
     <Path>save</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>ec10c257-d5fa-48f7-a079-878108457bba</ID>
+    <Name>American Fugitive</Name>
+    <ProcessName>AmericanFugitive</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\Fallen Tree Games Ltd\American Fugitive\SaveGame</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
@@ -1543,6 +1572,35 @@
       </Tag>
       <Tag>
         <Name>ScummVM</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>69c0aa35-418d-431f-8f8e-eda14a9b10f1</ID>
+    <Name>Blade Runner: Enhanced Edition</Name>
+    <ProcessName>BladeRunnerRemastered</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\Saved Games\Nightdive Studios\Blade Runner EX\save</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -5601,6 +5659,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>b1dbf249-5194-413d-bdaa-e50b16992ac0</ID>
+    <Name>Encased</Name>
+    <ProcessName>Encased</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\Dark Crystal Games\Encased\UserProfiles</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>Settings.bin</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>EGS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>d917565b-a651-43fb-a0ac-c59088fbddcd</ID>
     <Name>Enclave</Name>
     <ProcessName>Enclave</ProcessName>
@@ -6524,6 +6611,35 @@
     <Tags>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>6c48be6a-2f37-4423-8164-fc3950448e62</ID>
+    <Name>Gamedec</Name>
+    <ProcessName>GameDEC-Win64-Shipping</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\GameDEC\Saved\SaveGames</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>EGS</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -9432,6 +9548,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>139ee53a-787b-4b07-b968-99ef0686a8dc</ID>
+    <Name>Middle-earth: Shadow of War</Name>
+    <ProcessName>ShadowOfWar</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\WB Games\Shadow of War</Path>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>*.sav</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>f8b0754a-89af-4f5b-b615-f4c71f01f80c</ID>
     <Name>Mini Ghost</Name>
     <ProcessName>minighost</ProcessName>
@@ -10022,6 +10167,35 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>5a1a93fb-83a2-41b9-897c-595602f75b0d</ID>
+    <Name>Nioh 2: The Complete Edition</Name>
+    <ProcessName>nioh2</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\KoeiTecmo\NIOH2\Savedata</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -14031,7 +14205,7 @@
   <Game>
     <ID>ce4146a9-909c-4831-a38e-39be04db3419</ID>
     <Name>Star Wars Jedi: Fallen Order</Name>
-    <ProcessName>SwGame-Win64-Shipping</ProcessName>
+    <ProcessName>starwarsjedifallenorder</ProcessName>
     <Parameter />
     <Path>%USERPROFILE%\Saved Games\Respawn\JediFallenOrder</Path>
     <FolderSave>true</FolderSave>
@@ -17361,6 +17535,35 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>0a14141d-e3cf-4629-933c-46699b721754</ID>
+    <Name>World of Horror</Name>
+    <ProcessName>worldofhorror</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\wohgame</Path>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>save.ito</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
