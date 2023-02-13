@@ -25,16 +25,21 @@
           <div id="content">
             <div id="leftcontent">
               <div class="pageSection">
-                <div class="pageSectionHeader">Information</div>
+                <div class="pageSectionHeader">Important Information</div>
                 <div class="pageSectionContent">
                 <ul>
-                  <li>The official list includes games that are pre-configured to work with GBM.</li>
+                  <li>The official list includes games that are pre-configured to work with GBM.</li>                  
                   <li>Check the <a href="manual.html#import">manual</a> to learn how to easily import configurations on this list.</li>
+                  <li>Is your game missing from this list? Check the <a href="manual.html#ludusavi">Ludusavi Manifest</a> for access to thousands of unofficial GBM configurations.</li>
                   <li>This list contains game configurations for Microsoft Windows.</li>
                   <li>Icons indicate the version(s) of the game tested with GBM.</li>
-                  <li>Official configurations exclude graphics settings, logs, screenshots and other extras when possible.</li>
-				          <li>Official configurations may exclude autosaves and/or quicksaves when they greatly increase backup size.</li>
-				          <li>Official configurations may not be fully compatible with old versions of GBM.</li>
+                  <li>Warnings:
+                    <ul>
+                      <li>Official configurations exclude graphics settings, logs, screenshots and other extras when possible.</li>
+                      <li>Official configurations may exclude autosaves and/or quicksaves when they greatly increase backup size.</li>
+				              <li>Official configurations may not be fully compatible with old versions of GBM.</li>
+                    </ul>
+                  </li>
                 </ul>
                 </div>
               </div>
