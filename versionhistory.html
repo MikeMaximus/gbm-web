@@ -33,7 +33,46 @@
             Version History
           </div>
           <div cass="pageSectionContent">
-            <h3 class="notop">1.3.4</h3>
+            <h3 class="notop">1.3.5</h3>
+            <ul>
+              <li>All Platforms:
+                <ul>
+                  <li>Fixed an issue that prevented GBM from properly refreshing the main window when the database file is updated by another app.</li>
+                  <li>Fixed issues that could cause an unnecessary sync operation to be triggered.</li>
+                  <li>GBM will no longer perform database syncs or automatically handle new backups while a game is being monitored or during other operations.
+                    <ul>
+                        <li>These actions running simultaneously could cause errors and/or leave the app in an broken state.</li>
+                    </ul>
+                  </li>
+                  <li>The remote database backup created when GBM is launched will now include the name of the PC in the file name.
+                    <ul>
+                      <li>The remote database is "gbm.s3db" in your backup folder.</li>
+                      <li>This change makes the database backup more useful when using GBM on multiple PCs with a shared backup folder.</li>
+                      <li>This change prevents conflict issues with cloud services, as multiple PCs could be overwriting the same backup file with varying versions.</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>Windows:
+                <ul>
+                  <li>Added a Setting (Settings -> Files & Folders) to toggle the deleting of files to the Recycling Bin.
+                    <ul>
+                      <li>This setting is enabled by default to match functionality of prior versions.</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>Linux:
+                <ul>
+                  <li>Fixed a crash that occurred when attempting to automatically restore new backups on app start.
+                    <ul>
+                      <li>GBM will now wait 60 seconds before attempting to automatically handle new backups after the app starts.</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h3>1.3.4</h3>
             <ul>
               <li>All Platforms:
                 <ul>
