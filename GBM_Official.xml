@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1676189536" TotalConfigurations="602" AppVer="134">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1680591833" TotalConfigurations="608" AppVer="135">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -4277,6 +4277,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>d4cc928f-d942-4020-bcb6-cd8dfc63dcc3</ID>
+    <Name>Deep Sky Derelicts</Name>
+    <ProcessName>Deep Sky Derelicts</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\Snowhound\Deep Sky Derelicts</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>output_log.txt</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>1d1fe9ae-b9ac-4ef7-b128-5ea97c3828b9</ID>
     <Name>Democracy 3</Name>
     <ProcessName>Democracy3</ProcessName>
@@ -4803,6 +4832,35 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>b79ce2c2-dfa6-4da7-8f64-c2c896cd3469</ID>
+    <Name>Doom (2016)</Name>
+    <ProcessName>DOOMx64(vk)?$</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\Saved Games\id Software\DOOM\base</Path>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>savegame.user</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -12154,6 +12212,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>5e694d02-5312-47eb-9de4-562b659ed5cc</ID>
+    <Name>Rise of Industry</Name>
+    <ProcessName>Rise of Industry</ProcessName>
+    <Parameter />
+    <Path>%APPDATA%\RiseOfIndustry</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>EGS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>0c15f2d9-161b-4f09-909c-f1d4322005b0</ID>
     <Name>Rise of the Triad</Name>
     <ProcessName>DOSBox</ProcessName>
@@ -13742,6 +13829,35 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>f2c68b9b-d9db-4fea-8d8d-91c3ee289c42</ID>
+    <Name>SnowRunner</Name>
+    <ProcessName>SnowRunner</ProcessName>
+    <Parameter />
+    <Path>%Steam%\userdata\%SteamID3%\1465360</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>true</AppendTimeStamp>
+    <BackupLimit>3</BackupLimit>
+    <FileType />
+    <ExcludeList>video.cfg</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>SnowRunner may not recognize your restored saved games on a fresh install, this is a problem with Steam Cloud (even if it's disabled) and the remotecache.vdf file being overwritten by Steam.</Comments>
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -15674,6 +15790,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>48a49bbf-d9a0-4744-a263-d82d651b851d</ID>
+    <Name>The Forest</Name>
+    <ProcessName>TheForest</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\SKS\TheForest</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>b7566bbc-281a-422a-9cae-5c3660cff6d4</ID>
     <Name>The Last Remnant</Name>
     <ProcessName>TLR</ProcessName>
@@ -17323,6 +17468,35 @@
       </Tag>
       <Tag>
         <Name>Galaxy Cloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>feb2e2d7-a37f-4ea1-8ec9-6b2a5b380e2b</ID>
+    <Name>Warpips</Name>
+    <ProcessName>Warpips</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\Skirmish Mode Games\Warpips</Path>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>*.dat</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>EGS</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
