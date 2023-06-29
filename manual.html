@@ -30,10 +30,10 @@
       <div id="leftcontent">
         <div class="pageSection">
           <div class="pageSectionHeader">
-            Game Backup Monitor v1.3.2 Manual
+            Game Backup Monitor v1.3.6 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated August 6, 2022</h3>
+            <h3 class="notop">Updated June 29, 2023</h3>
             <h3>Important Notes:</h3>
             <p>An offline version of the manual is available <a href="https://github.com/Darthagnon/gbm-manual">here</a>.  The offline manual is kindly provided by <a href="https://github.com/Darthagnon">Darthagnon</a>.</p>
             <p>This manual may contain information about features not available in the current stable release.</p>
@@ -51,6 +51,7 @@
                     <li><a href="#settings_backupandrestore">Backup and Restore</a></li>
                     <li><a href="#settings_startup">Startup</a></li>
                     <li><a href="#settings_ui">User Interface</a></li>
+                    <li><a href="#settings_globalhotkeys">Global Hotkeys</a></li>
                     <li><a href="#settings_7z">7-Zip</a></li>
                   </ol>
               </li>
@@ -224,7 +225,10 @@
             <h4>Temp Folder:</h4>
             <p>This is the temporary folder that GBM uses to process backup files before they are moved to the Backup Folder.</p>
             <h4>Create a sub-folder for each game:</h4>
-            <p>This indicates if you want GBM to create a sub-folder in the backup folder for each game. This is handy for keeping your backup folder more organized.</p>            
+            <p>This indicates if you want GBM to create a sub-folder in the backup folder for each game. This is handy for keeping your backup folder more organized.</p>
+            <h4>Delete files to the Recycle Bin:</h4>
+            <p>This indicates if you want GBM to move files, such as manually deleted or expired backups, to the Recycle Bin instead of permenantly deleting them.</p>
+            <p>This setting does not apply in Linux where files will be permenantly deleted.</p>
             <h3><a name="settings_backupandrestore" id="settings_backupandrestore">Backup and Restore</a></h3>
             <img class="manual" src="images/manual/manual_33.jpg" width="556" height="418" alt="Settings" />
             <h4>Display notifications about new backups:</h4>
@@ -278,9 +282,29 @@
             <h4>Disable sync event messages:</h4>
             <p>This will prevent all sync related messages from being displayed in the log.</p>
             <h4>Autosave log when max length is exceeded:</h4>
-            <p>This will automatically save a copy of the session log each time it's automatically cleared.</p> 
+            <p>This will automatically save a copy of the session log each time it's automatically cleared.</p>
+            <h3><a name="settings_globalhotkeys" id="settings_globalhotkeys">Global Hotkeys</a></h3>
+            <ul>
+              <li>Global Hotkeys allow you to trigger functions in GBM during a game or while working in another application.
+                <ul>
+                  <li>It is safest to make backups or restore saved games while in a game's main menu.</li>
+                  <li><b>Use caution</b>, running a backup or restoring saved games in the middle of gameplay is <b>not safe</b>.</li>                  
+                </ul>
+              </li>
+              <li>Functions triggered by a Global Hotkey will play a unique sound when the operation is completed or if it fails.</li>
+              <li>To change a Hotkey, select the field then hold any combination of modifiers (Shift, Alt, Ctrl) and press a key.</li>
+              <li>Use the reset button to the right of a field to restore the default hotkey.</li>              
+              <li>Global Hotkeys are not available in Linux.</li>
+            </ul>
+            <img class="manual" src="images/manual/manual_42.jpg" width="556" height="418" alt="Settings" />
+            <h4>Enable Global Hotkeys:</h4>
+            <p>This enables the binding and detection of Global Hotkeys.</p>
+            <h4>Backup:</h4>
+            <p>This key combination triggers a backup of the currently monitored, currently selected or last played game on the main window.</p>            
+            <h4>Restore:</h4>
+            <p>This key combination restores the latest backup of the currently monitored, currently selected or last played game on the main window.</p>
             <h3><a name="settings_7z" id="settings_7z">7-Zip</a></h3>
-            <img class="manual" src="images/manual/manual_18.jpg" width="556" height="413" alt="Settings" />
+            <img class="manual" src="images/manual/manual_18.jpg" width="556" height="418" alt="Settings" />
             <h4>Compression:</h4>
             <p>This allows you to set the compression level of your backups. The default is Normal. Ultra is highly recommended if you're using a modern PC.</p>
             <h4>Custom Arguments:</h4>
