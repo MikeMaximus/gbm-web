@@ -63,6 +63,7 @@
                   <li><a href="#gmbackup">Backup Management</a></li>
                 </ol>
               </li>
+              <li><a href="#limitations">Limitations</a></li>
               <li><a href="#differential">Differential Backups</a></li>
               <li><a href="#registry">Windows Registry Backups</a></li>
               <li><a href="#fullbackuprestore">Full Backup and Restore</a></li>
@@ -76,7 +77,7 @@
               <li><a href="#tools">Tools</a></li>
               <li><a href="#filtering">Custom Filters</a></li>
               <li><a href="#syncing">Automatic Syncing</a></li>
-              <li><a href="#limitations">Current Limitations</a></li>
+              <li><a href="#techissues">Technical Issues</a></li>
               <li><a href="#techdetails">Technical Details</a></li>
             </ol>
           </div>
@@ -286,10 +287,9 @@
             <h3><a name="settings_globalhotkeys" id="settings_globalhotkeys">Global Hotkeys</a></h3>
             <ul>
               <li>Global Hotkeys allow you to trigger functions in GBM during a game or while working in another application.
-                <ul>
-                  <li>It is safest to make backups or restore saved games while in a game's main menu.</li>
-                  <li><b>Use caution</b>, running a backup or restoring saved games in the middle of gameplay is <b>not safe</b>.</li>                  
-                </ul>
+              <ul>
+                <li>Please read the <a href="#limitations">Limitations</a> section before enabling this feature.</li>
+              </ul>
               </li>
               <li>Functions triggered by a Global Hotkey will play a unique sound when the operation is completed or if it fails.</li>
               <li>To change a Hotkey, select the field then hold any combination of modifiers (Shift, Alt, Ctrl) and press a key.</li>
@@ -547,6 +547,38 @@
             <h4>Restore:</h4>
             <p>The <img class="manualbutton" src="images/manual/buttons/Multi_Restore.png" width="16" height="16" alt="Restore Folder" /> (Restore) button will trigger a restore of the currently selected backup data.</p>
             <p>When multiple games are selected, GBM will trigger a restore of the latest backup data for each selected game.</p>
+          </div>
+          <div class="pageSectionFooter">
+            <a href="#toc">Back to Contents</a>
+          </div>
+        </div>
+        <div class="pageSection">
+          <div class="pageSectionHeader">
+            <a name="limitations" id="limitations">Limitations</a>
+          </div>
+          <div class="pageSectionContent">
+            <p>GBM has some limitations when detecting and while monitoring a game.</p>
+            <ul>
+              <li>Only one game can be monitored at a time.</li>
+              <li>If multiple games are running, detection is based on what game appeared first in the process list.</li>
+              <li>Most application functions are locked while a game is being monitored.</li>
+            </ul>
+            <p>As of v1.3.6, GBM allows you to make or restore backups while a game is being monitored.</p>
+            <P>This is useful for quickly save scumming without needing to cancel monitoring in GBM.</P>
+            <p>There are multiple ways to trigger a backup or restore while a game is being monitored.</p>
+            <img class="manual" src="images/manual/manual_43.jpg" width="736" height="443" alt="Save Scumming" />
+            <ul>
+              <li>Use the "Backup" or "Restore" buttons on the GBM main window. (Windows or Linux)</li>
+              <li>Use a <a href="#settings_globalhotkeys">Global Hotkey</a> (Windows Only).</li>
+            </ul>
+            <h4>Recommendations:</h4>
+            <ul>
+              <li>It is safest to make backups or restore saved games while in a game's main menu.</li>
+              <li>Never make backups or restore saved games during gameplay, especially if the game uses an autosave system.</li>                
+            </ul>
+            <h4>Disclaimer:</h4>
+            <p>Manipulating saved games while a game is running can be dangerous, it can lead to saved game corruption or a crash.</p> 
+            <p><b>Not all games will support this feature.</b></p>
           </div>
           <div class="pageSectionFooter">
             <a href="#toc">Back to Contents</a>
@@ -1068,11 +1100,10 @@
         </div>
         <div class="pageSection">
           <div class="pageSectionHeader">
-            <a name="limitations" id="limitations">Current Limitations</a>
+            <a name="techissues" id="techissues">Technical Issues</a>
           </div>
           <div class="pageSectionContent">
             <ul>
-              <li>Only one game can be detected at a time and most GBM features are locked until that game is closed.</li>
               <li>GBM may appear blurry on PCs using high DPI settings.  Modify the appropriate DPI compatability settings on GBM.exe to solve this problem.</li>
             </ul>
           </div>
