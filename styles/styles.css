@@ -78,6 +78,13 @@ h2 {
     padding:0;
 }
 
+h3.subsection {
+    text-align: center;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    border-radius: 2px;
+}
+
 h3.notop {
     margin-top:0;
     padding-top:0;

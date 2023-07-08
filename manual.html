@@ -33,12 +33,12 @@
             Game Backup Monitor v1.3.6 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated June 29, 2023</h3>
+            <h3 class="notop">Updated July 7, 2023</h3>
             <h3>Important Notes:</h3>
             <p>An offline version of the manual is available <a href="https://github.com/Darthagnon/gbm-manual">here</a>.  The offline manual is kindly provided by <a href="https://github.com/Darthagnon">Darthagnon</a>.</p>
             <p>This manual may contain information about features not available in the current stable release.</p>
             <p>If you are having a specific problem, please check the <a href="https://github.com/MikeMaximus/gbm/issues">issues</a> list.</p>            
-            <h3><a name="toc" id="toc">Table of Contents:</a></h3>
+            <h3 class="subsection"><a name="toc" id="toc">Table of Contents</a></h3>
             <ol>
               <li><a href="#whatis">What is Game Backup Monitor?</a></li>
               <li><a href="#requirements">Requirements</a></li>
@@ -55,15 +55,14 @@
                     <li><a href="#settings_7z">7-Zip</a></li>
                   </ol>
               </li>
-              <li>
-                <a href="#gamemanager">The Game Manager</a>
+              <li><a href="#gamemanager_summary">The Game Manager (Summary)</a></li>
+              <li><a href="#gamemanager_detailed">The Game Manager (Detailed)</a>  
                 <ol>
                   <li><a href="#gmcore">Core Configuration</a></li>
                   <li><a href="#gminfo">Game Information</a></li>
                   <li><a href="#gmbackup">Backup Management</a></li>
                 </ol>
               </li>
-              <li><a href="#limitations">Limitations</a></li>
               <li><a href="#livebackup">Backup and Restore during Gameplay</a></li>
               <li><a href="#differential">Differential Backups</a></li>
               <li><a href="#registry">Windows Registry Backups</a></li>
@@ -78,6 +77,7 @@
               <li><a href="#tools">Tools</a></li>
               <li><a href="#filtering">Custom Filters</a></li>
               <li><a href="#syncing">Automatic Syncing</a></li>
+              <li><a href="#limitations">Limitations</a></li>
               <li><a href="#techissues">Technical Issues</a></li>
               <li><a href="#techdetails">Technical Details</a></li>
             </ol>
@@ -197,7 +197,7 @@
             <p>The "Reset Warnings" button will reset all one-time warnings or messages that have been hidden.  You need to click "Save" after using this button for it to take effect.</p>
             <p>Clicking Cancel or closing the window will cancel any changes made on this screen.</p>
             <p>When modifying the backup folder or any sync settings, be sure to read any warning messages carefully.</p>
-            <h3><a name="settings_general" id="settings_general">General</a></h3>
+            <h3 class="subsection"><a name="settings_general" id="settings_general">General</a></h3>
             <img class="manual" src="images/manual/manual_15.jpg" width="556" height="418" alt="Settings" />            
             <h4>Enable time tracking:</h4>
             <p>GBM will record and display game session times when this is enabled. When it's disabled no time data is recorded or displayed. Toggling this setting has no effect on time data that's already been recorded.</p>
@@ -220,7 +220,7 @@
                 <li>When Two-Pass Detection is disabled, a process is registered as detected after a single pass.  This makes detection twice as fast, but it may be unreliable in certain situations.</li>
               </ul>
             </p>                       
-            <h3><a name="settings_filesandfolders" id="settings_filesandfolders">Files and Folders</a></h3>
+            <h3 class="subsection"><a name="settings_filesandfolders" id="settings_filesandfolders">Files and Folders</a></h3>
             <img class="manual" src="images/manual/manual_17.jpg" width="556" height="418" alt="Settings" />
             <h4>Backup Folder:</h4>
             <p>This is the backup folder where GBM stores all game backups and it's remote database.</p>
@@ -231,7 +231,7 @@
             <h4>Delete files to the Recycle Bin:</h4>
             <p>This indicates if you want GBM to move files, such as manually deleted or expired backups, to the Recycle Bin instead of permenantly deleting them.</p>
             <p>This setting does not apply in Linux where files will be permenantly deleted.</p>
-            <h3><a name="settings_backupandrestore" id="settings_backupandrestore">Backup and Restore</a></h3>
+            <h3 class="subsection"><a name="settings_backupandrestore" id="settings_backupandrestore">Backup and Restore</a></h3>
             <img class="manual" src="images/manual/manual_33.jpg" width="556" height="418" alt="Settings" />
             <h4>Display notifications about new backups:</h4>
             <p>This indicates if you want GBM to display notifications when new backups are detected or restored.<br /><br />These notifications are presented differently depending on your other settings:
@@ -258,7 +258,7 @@
             <p>This enables backup and restore operations for the currently monitored game.</p>
             <p><b>Manipulating saved games while a game is running can be unsafe.</b></p>
             <p>Please read the <a href="#livebackup">Backup and Restore during Gameplay</a> section of the manual.</p>
-            <h3><a name="settings_startup" id="settings_startup">Startup</a></h3>
+            <h3 class="subsection"><a name="settings_startup" id="settings_startup">Startup</a></h3>
             <img class="manual" src="images/manual/manual_23.jpg" width="556" height="418" alt="Settings" />
             <h4>Start automatically on log-in:</h4>
             <p>This indicates if you want GBM to start automatically when you log-in. This setting applies to the current user only.</p>
@@ -269,7 +269,7 @@
             <p>GBM will start detecting games immediately with this setting enabled, otherwise game detection has to be manually started each time you load GBM.</p>            
             <h4>Backup GBM data files on launch:</h4>
             <p>GBM will backup both local and remote data files (as gbm.s3db.launch.bak) each time the application starts.  Only one backup file is kept, the prior one will be overwritten.</p>
-            <h3><a name="settings_ui" id="settings_ui">User Interface</a></h3>
+            <h3 class="subsection"><a name="settings_ui" id="settings_ui">User Interface</a></h3>
             <img class="manual" src="images/manual/manual_34.jpg" width="556" height="418" alt="Settings" />
             <h4>Exit when closing main window:</h4>
             <p>This indicates if you'd like to shut down GBM completely when closing the main window, instead of hiding it to the system tray or taskbar.</p>
@@ -289,7 +289,7 @@
             <p>This will prevent all sync related messages from being displayed in the log.</p>
             <h4>Autosave log when max length is exceeded:</h4>
             <p>This will automatically save a copy of the session log each time it's automatically cleared.</p>
-            <h3><a name="settings_globalhotkeys" id="settings_globalhotkeys">Global Hotkeys</a></h3>
+            <h3 class="subsection"><a name="settings_globalhotkeys" id="settings_globalhotkeys">Global Hotkeys</a></h3>
             <ul>
               <li>Global Hotkeys allow you to trigger functions in GBM during a game or while working in another application.
               <ul>
@@ -308,7 +308,7 @@
             <p>This key combination triggers a backup of the currently monitored, currently selected or last played game on the main window.</p>            
             <h4>Restore:</h4>
             <p>This key combination restores the latest backup of the currently monitored, currently selected or last played game on the main window.</p>
-            <h3><a name="settings_7z" id="settings_7z">7-Zip</a></h3>
+            <h3 class="subsection"><a name="settings_7z" id="settings_7z">7-Zip</a></h3>
             <img class="manual" src="images/manual/manual_18.jpg" width="556" height="418" alt="Settings" />
             <h4>Compression:</h4>
             <p>This allows you to set the compression level of your backups. The default is Normal. Ultra is highly recommended if you're using a modern PC.</p>
@@ -329,11 +329,10 @@
         </div>
         <div class="pageSection">
           <div class="pageSectionHeader">
-            <a name="gamemanager" id="gamemanager">The Game Manager</a>
+            <a name="gamemanager_summary" id="gamemanager_summary">The Game Manager (Summary)</a>
           </div>
           <div class="pageSectionContent">
             <img class="manual" src="images/manual/manual_06.jpg" width="786" height="418" alt="Game Manager" />
-            <h3>Game Manager Quick Overview:</h3>
             <ul>
               <li>Add a new game to monitor by clicking the <img class="manualbutton" src="images/manual/buttons/Multi_Add.png" width="16" height="16" alt="New" /> (New) button below the list box.</li>
               <li>Copy a game by selecting the game(s) from the list and clicking the <img class="manualbutton" src="images/manual/buttons/frmGameManager_Copy.png" width="16" height="16" alt="Copy" /> (Copy) button below the list box.</li>
@@ -359,10 +358,19 @@
             </ul>
             <p>The Game Manager is a central hub for all important GBM functions. However, i'd highly recommend the "Add Game Wizard" to add new games to monitor until you become familiar with GBM.</p>
             <img class="manual" src="images/manual/manual_07.jpg" width="493" height="276" alt="Wizard" />
-            <h3>Game Manager Detailed Overview:</h3>
+          </div>
+          <div class="pageSectionFooter">
+            <a href="#toc">Back to Contents</a>
+          </div>
+        </div>
+        <div class="pageSection">
+          <div class="pageSectionHeader">
+            <a name="gamemanager_detailed" id="gamemanager_detailed">The Game Manager (Detailed)</a>
+          </div>
+          <div class="pageSectionContent">
             <p>The Game Manager splits a configuration into three tabbed sections, "Core Configuation", "Game Information" and "Backup Management".  Click the tab button for each section to switch between them.
             <p>The following is advanced information on each field used to configure a game.</p>            
-            <h3><a name="gmcore" id="gmcore">Core Configuration</a></h3>
+            <h3 class="subsection"><a name="gmcore" id="gmcore">Core Configuration</a></h3>
             <img class="manual" src="images/manual/manual_38.jpg" width="786" height="418" alt="Core Configuration" />
             <h4>Name:</h4>
             <p>The name of the game to monitor.  Multiple entries with the same name are allowed.</p>
@@ -492,7 +500,7 @@
             <h4>No backup when game ends:</h4>
             <p>This option indicates that GBM will not trigger a backup when the game session ends.</p>
             <p>This option is available in the <img class="manualbutton" src="images/manual/buttons/Multi_Search.png" width="16" height="16" alt="Magnifying Glass" /> (Monitor options) sub-menu button.</p>
-            <h3>Link Configuration:</h3>
+            <h4>Link Configuration:</h4>
             <p>This option is avaiable in the <img class="manualbutton" src="images/manual/buttons/frmGameManager_Link.png" width="16" height="16" alt="Chain" /> (Link options) sub-menu button.</p>
             <p>You may chain game configuations together.  This is an advanced feature that allows one configuration to trigger the backup or restore of any other linked configuration(s).  This is useful for games that may keep saves or other important files in multiple unique locations.
             <br /><br /><img class="manual" src="images/manual/manual_25.jpg" width="486" height="313" alt="Configuration Links" />
@@ -504,7 +512,7 @@
               <li>The XML import/export feature supports configuation linking, however all the configurations in the chain must be imported for it to work correctly.</li>
               <li>When restoring linked configurations that use the "Save Multiple Backups" option, only the latest backup of each configuration in the chain can be restored. If an older backup is selected, you may still proceed without restoring any linked configuration(s).</li>
             </ul></p>                                     
-            <h3>Link Process:</h3>
+            <h4>Link Process:</h4>
             <p>This option is avaiable in the <img class="manualbutton" src="images/manual/buttons/frmGameManager_Link.png" width="16" height="16" alt="Chain" /> (Link options) sub-menu button.</p>
             <p>You can assign one or more programs to automatically run when a game is detected.  This could be useful to launch a custom control scheme or overlay whenever you play a particular game.</p><img class="manual" src="images/manual/manual_21.jpg" width="386" height="313" alt="Processes" /><br />
             <p>You can manage (Create, Edit or Delete) any Processes you want to use from the Setup menu or inside the Game Manager.</p><img class="manual" src="images/manual/manual_22.jpg" width="586" height="248" alt="Processes" /><br />            
@@ -512,7 +520,7 @@
             <h4>OS:</h4>
             <p>This is the target operating system of the configuration, the OS field is hidden and cannot be modified in Windows.</p>
             <p>This field allows Linux users to manage native and Windows games in the same list.</p>            
-            <h3><a name="gminfo" id="gminfo">Game Information</a></h3>
+            <h3 class="subsection"><a name="gminfo" id="gminfo">Game Information</a></h3>
             <img class="manual" src="images/manual/manual_35.jpg" width="786" height="418" alt="Game Manager" />
             <h4>Comments:</h4>
             <p>This is used to store any extra information about the configuration.</p>            
@@ -521,8 +529,10 @@
             <h4>Version:</h4>
             <p>You can manually set a version value to be displayed when the game is detected. This takes priority over the version information detected from the game's executable.</p>
             <h4>Icon:</h4>
-            <p>You can manually set a icon to be displayed when the game is detected. This takes priority over the icon used by the game's executable.</p>            
-            <h3><a name="gmbackup" id="gmbackup">Backup Management</a></h3>
+            <p>You can manually set a icon to be displayed when the game is detected. This takes priority over the icon used by the game's executable.</p>
+            <h4>Hours:</h4>
+            <p>You can manually set the amount of hours played for the current game.  This value is only displayed and automatically updated when <a href="#settings_general">Time Tracking</a> is enabled.</p>            
+            <h3 class="subsection"><a name="gmbackup" id="gmbackup">Backup Management</a></h3>
             <img class="manual" src="images/manual/manual_36.jpg" width="786" height="418" alt="Game Manager" />
             <h4>Backup Data:</h4>
             <p>This field lists all the available backup data.  You may select older entries if you need to restore or delete it.</p>
@@ -556,23 +566,7 @@
           <div class="pageSectionFooter">
             <a href="#toc">Back to Contents</a>
           </div>
-        </div>
-        <div class="pageSection">
-          <div class="pageSectionHeader">
-            <a name="limitations" id="limitations">Limitations</a>
-          </div>
-          <div class="pageSectionContent">
-            <p>GBM has some limitations when detecting and while monitoring a game.</p>
-            <ul>
-              <li>Only one game can be monitored at a time.</li>
-              <li>If multiple games are running, detection is based on what game appeared first in the process list.</li>
-              <li>Most application functions are locked while a game is being monitored.</li>
-            </ul>
-          </div>
-          <div class="pageSectionFooter">
-            <a href="#toc">Back to Contents</a>
-          </div>
-        </div>
+        </div>        
         <div class="pageSection">
           <div class="pageSectionHeader">
             <a name="livebackup" id="livebackup">Backup and Restore during Gameplay</a>
@@ -582,7 +576,8 @@
             <p>This is useful for save scumming in various games without needing to cancel monitoring in GBM.</p>
             <p>This feature is turned off by default and must be enabled in the <a href="#settings_backupandrestore">Backup and Restore</a> section of <a href="#settings">Settings</a>.</p>            
             <h4>Disclaimer:</h4>
-            <p>Manipulating saved games while a game is running can be dangerous, it may lead to saved game corruption or crash.</p> 
+            <p>Manipulating saved games while a game is running can be dangerous, it may lead to saved game corruption or a crash.</p>
+            <p>Using this feature safely will require experimentation and will vary based on the game.</p> 
             <h4>Options:</h4>
             <p>There are multiple ways to trigger a backup or restore while a game is being monitored.</p>
             <img class="manual" src="images/manual/manual_43.jpg" width="736" height="443" alt="Save Scumming" />
@@ -592,7 +587,7 @@
             </ul>
             <h4>Recommendations:</h4>
             <ul>
-              <li>Always use the "Save multiple backups" configuration setting, just in case you run into problems.</li>
+              <li>Always use the <a href="#gmcore">Save multiple backups</a> configuration setting, just in case you run into problems.</li>
               <li>It is safest to make backups or restore saved games while in a game's initial main menu, not the pause menu.</li>
               <li>Never make backups or restore saved games during gameplay, especially if the game uses an autosave system.</li>                
             </ul>
@@ -770,7 +765,7 @@
             <p>The Ludusavi manifest gives you access to thousands of saved game backup configurations, but there are limitations and other possible issues outlined below.</p>
             <p>You will always want to use official GBM configurations when possible, but configurations imported from the Ludusavi Manifest are a perfect replacement or starting point for games missing from the official list.</p>
             <img class="manual" src="images/manual/manual_41.jpg" width="786" height="643" alt="Ludusavi Import" />
-            <h3>Limitations and Issues</h3>
+            <h3 class="subsection">Limitations and Issues</h3>
             <ul>
               <li>The Ludusavi Manifest contains Steam launch information for all applicable games.  GBM uses this information when it's available to determine a process to monitor for each game configuration.  This procedure isn't completely accurate and will result in some game configurations having the incorrect process selected or no process at all.
                 <ul>
@@ -800,7 +795,7 @@
                 </ul>
               </li>              
             </ul>
-            <h3>General Information</h3>
+            <h3 class="subsection">General Information</h3>
             <p>Tags are automatically added to these configurations to help identify the type of configuration and store.</p>
             <img class="manual" src="images/manual/manual_40.jpg" width="286" height="308" alt="Ludusavi Options" /><br />
             <p>There are some filter options available when importing from a Ludusavi Manifest.</p>            
@@ -857,7 +852,7 @@
               </ol>
             </p>
             <img class="manual" src="images/manual/manual_27.jpg" width="240" height="286" alt="Tray Menu Example" />            
-            <h3>Launch Configuration</h3>
+            <h3 class="subsection">Launch Configuration</h3>
             <p>GBM will usually be able to launch any monitored game that has been detected at least once without any extra configuration.  Advanced configuration options are also provided for fine tuning and to work around any problems that may be encountered.</p>            
             <p>The launch settings for any game can be modified from the Game Manager, by clicking the <img class="manualbutton" src="images/manual/buttons/frmGameManager_Advanced.png" width="16" height="16" alt="Tools" /> (Advanced) button and choosing "Launch Settings..." to open "Launch Configuration".</p>
             <img class="manual" src="images/manual/manual_28.jpg" width="491" height="388" alt="Launch Configuration" />
@@ -880,7 +875,7 @@
               <li>When the "Use no parameter" option is checked, no parameters are added to the command.  This can be useful when using a script that already contains the parameters to launch the game.</li>
               <li>When an external store launcher and game ID are set, no parameters are added to the command.  They must be configured in the launcher you are calling, such as Steam.</li>
             </ol>
-            <h3>Launcher Manager</h3>
+            <h3 class="subsection">Launcher Manager</h3>
             <p>The "Launcher Manager" is used to configure common external launchers you may need for launching games.</p>
             <p>Some popular launchers will be automatically added and configured for your convenience.  Currently, executable based launchers (GOG Galaxy) will only be automatically configured when installed to their default location.</p>
             <img class="manual" src="images/manual/manual_29.jpg" width="586" height="248" alt="Launcher Manager" />
@@ -910,7 +905,7 @@
             </p>
             <h4>Add Defaults</h4>
             <p>If any of the default launchers are missing or have been removed, you can re-add them using this button.</p>
-            <h3>Determining the Command & Game ID</h3>
+            <h3 class="subsection">Determining the Command & Game ID</h3>
             <p>The best way to determine both the command used by a launcher and the ID of the game you want to launch, is to create a shortcut for the game from the launcher and view the properties.</p>
             <img class="manual" src="images/manual/manual_31.jpg" width="363" height="509" alt="Launcher Shortcut" /><br />            
             <p>The URL field will contain the command used to trigger the launcher.  You can usually determine the game ID based on the context of the command.</p>
@@ -960,7 +955,7 @@
               </ul>
             </p>
             <p>In some situations, GBM can fail to automatically configure store variables.  If this occurs, read the <a href="#customvariables">Custom Path Variables</a> section, then manually create or edit the required variables for each store using the information below.</p>
-            <h3>Steam</h3>            
+            <h3 class="subsection">Steam</h3>            
               <ul>
                 <li>Steam
                   <ul>
@@ -1032,7 +1027,7 @@
           <div class="pageSectionContent">
             <p>When using the Game Manager or exporting your game list to an XML file, you'll have the option to use a custom filter.</p>
             <p>You can choose to filter by Game Information and by Tag.</p>
-            <h4>Game Information</h4>
+            <h3 class="subsection">Game Information</h3>
             <ul>
               <li>Choose an available field to filter on, depending on the field you will have different filter options.</li>
               <li>Click the "Not" checkbox if you'd like to reverse the filter.</li>
@@ -1048,7 +1043,7 @@
             </ul>
 
             </ul><img class="manual" src="images/manual/manual_11.jpg" width="436" height="628" alt="Filter" />
-            <h4>Tag</h4>
+            <h3 class="subsection">Tag</h3>
             <ul>
               <li>Choose the Tags you want to filter by or exclude and use the appropriate buttons to add or remove them.</li>
               <li>There are different options available when filtering by tag:
@@ -1110,6 +1105,22 @@
             <p>If the ID of a game is changed, either via the "Game Manager" or the "Sync Game IDs" tool, it has the same effect as deleting and re-adding it.</p>
             <p>This means other PCs sharing the backup folder will delete extra data associated with any game that has their ID changed.</p>
             <p>This does NOT affect the PC that actually makes the ID change.</p>
+          </div>
+          <div class="pageSectionFooter">
+            <a href="#toc">Back to Contents</a>
+          </div>
+        </div>
+        <div class="pageSection">
+          <div class="pageSectionHeader">
+            <a name="limitations" id="limitations">Limitations</a>
+          </div>
+          <div class="pageSectionContent">
+            <p>GBM has some limitations when detecting and while monitoring a game.</p>
+            <ul>
+              <li>Only one game can be monitored at a time.</li>
+              <li>If multiple games are running, detection is based on what game appeared first in the process list.</li>
+              <li>Most application functions are locked while a game is being monitored.</li>
+            </ul>
           </div>
           <div class="pageSectionFooter">
             <a href="#toc">Back to Contents</a>
