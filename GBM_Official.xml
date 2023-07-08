@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1680591833" TotalConfigurations="608" AppVer="135">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1688831778" TotalConfigurations="616" AppVer="136">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -1096,6 +1096,9 @@
     <Tags>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Galaxy Cloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -2686,6 +2689,9 @@
         <Name>GOG</Name>
       </Tag>
       <Tag>
+        <Name>Galaxy Cloud</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
     </Tags>
@@ -3195,6 +3201,35 @@
       </Tag>
       <Tag>
         <Name>Galaxy Cloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>ac403c3f-dc7d-488b-9407-5418dbbf9bb4</ID>
+    <Name>Contra Anniversary Collection</Name>
+    <ProcessName>game</ProcessName>
+    <Parameter />
+    <Path>%APPDATA%\Contra Anniversary Collection\savedata</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -4605,6 +4640,38 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>efc5bd0f-54e0-4cda-9b8e-01b10a63459e</ID>
+    <Name>Diablo 4</Name>
+    <ProcessName>Diablo IV</ProcessName>
+    <Parameter />
+    <Path />
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>true</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Blizzard</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Tracking</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>68964dd7-f5d8-401b-bdbc-afdc6af6ab9e</ID>
     <Name>Din's Curse</Name>
     <ProcessName>DinsCurse</ProcessName>
@@ -5064,6 +5131,9 @@
     <Tags>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Galaxy Cloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -8442,7 +8512,7 @@
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>true</AppendTimeStamp>
     <BackupLimit>3</BackupLimit>
-    <FileType>player.dat:score.dat:save:mortem.txt</FileType>
+    <FileType>player.dat:score.dat:save?:mortem.txt</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -8953,6 +9023,9 @@
         <Name>GOG</Name>
       </Tag>
       <Tag>
+        <Name>Galaxy Cloud</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
     </Tags>
@@ -9360,6 +9433,35 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>47840c02-f078-4b36-8f0e-939f9faf9769</ID>
+    <Name>Messiah</Name>
+    <ProcessName>Messiah(D3D|Glide3x)$</ProcessName>
+    <Parameter />
+    <Path>SAVE</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -10196,6 +10298,35 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>f4e8d02a-8cd3-4a3f-bf27-2d1d82a2958d</ID>
+    <Name>NieR: Automata</Name>
+    <ProcessName>NieRAutomata</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\My Games\NieR_Automata</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>Graphic.ini</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -11931,6 +12062,9 @@
     <Tags>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Galaxy Cloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -14853,7 +14987,7 @@
     <AppendTimeStamp>true</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
     <FileType />
-    <ExcludeList>settings.ini:window_set_cursor.cur</ExcludeList>
+    <ExcludeList>settings.ini</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -15668,6 +15802,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>8e67ab26-9203-4528-9c4c-70731802e4ef</ID>
+    <Name>The Elder Scrolls V: Skyrim SE</Name>
+    <ProcessName>SkyrimSE</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\My Games\Skyrim Special Edition GOG\Saves</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>f1289b0a-e751-45fd-92a4-025fd95da3be</ID>
     <Name>The Elder Scrolls V: Skyrim SE</Name>
     <ProcessName>SkyrimSE</ProcessName>
@@ -16329,6 +16492,35 @@
     <Comments />
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>false</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>1737e446-8d6e-48d3-84f6-d309cd624043</ID>
+    <Name>Thymesia</Name>
+    <ProcessName>PlagueProject-Win64-Shipping</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\Team17\Thymesia\Saved\SaveGames</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>DeviceSpecificConfigSave.sav</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
     <OS>1</OS>
     <UseWindowTitle>false</UseWindowTitle>
     <Differential>false</Differential>
@@ -17624,6 +17816,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>4415fc54-14d1-4d76-bf95-e0e32ee6a61a</ID>
+    <Name>Weird West</Name>
+    <ProcessName>WeirdWest-Win64-Shipping</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\Nova\Saved\SaveGames</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>88ba30de-742d-46c3-8e1a-9cc0fcf3006a</ID>
     <Name>Widelands</Name>
     <ProcessName>widelands</ProcessName>
@@ -17944,6 +18165,38 @@
     <Tags>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>3de6e24b-8e12-4660-93eb-3597e890c2f1</ID>
+    <Name>Yakuza 0</Name>
+    <ProcessName>Yakuza0</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\GOG.com\Galaxy\Applications\55966314534907843\Storage\Shared\Files</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Galaxy Cloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
