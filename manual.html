@@ -33,7 +33,7 @@
             Game Backup Monitor v1.3.6 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated July 7, 2023</h3>
+            <h3 class="notop">Updated July 13, 2023</h3>
             <h3>Important Notes:</h3>
             <p>An offline version of the manual is available <a href="https://github.com/Darthagnon/gbm-manual">here</a>.  The offline manual is kindly provided by <a href="https://github.com/Darthagnon">Darthagnon</a>.</p>
             <p>This manual may contain information about features not available in the current stable release.</p>
@@ -213,6 +213,7 @@
             <p>This will require GBM to show a standard Windows notification when a game is detected.</p>
             <h4>Detection Speed:</h4>
             <p>This allows you to customize how fast GBM will detect games.  A slower setting will reduce CPU usage when monitoring for a large amount of games.</p>
+            <p>This setting also affects how long it takes GBM to detect when a game session has ended.</p>
             <h4>Two-Pass Detection:</h4>
             <p>This setting allows you to customize the method GBM uses to detect games.  
               <ul>
@@ -296,7 +297,12 @@
                 <li>Read the <a href="#livebackup">Backup and Restore during Gameplay</a> section for more details.</li>
               </ul>
               </li>
-              <li>Functions triggered by a Global Hotkey will play a unique sound when the operation is completed or if it fails.</li>
+              <li>Functions triggered by a Global Hotkey will play a unique sound when the operation is completed or if it fails.
+                <ul>
+                  <li>These notification sounds are located in the "Sounds" folder of your GBM installation.</li>
+                  <li>You can replace them with your own custom wav files, or delete them if you prefer no sounds.</li>
+                </ul>
+              </li>
               <li>To change a Hotkey, select the field then hold any combination of modifiers (Shift, Alt, Ctrl) and press a key.</li>
               <li>Use the reset button to the right of a field to restore the default hotkey.</li>              
               <li>Global Hotkeys are not available in Linux.</li>
