@@ -30,10 +30,10 @@
       <div id="leftcontent">
         <div class="pageSection">
           <div class="pageSectionHeader">
-            Game Backup Monitor v1.3.6 Manual
+            Game Backup Monitor v1.3.7 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated July 13, 2023</h3>
+            <h3 class="notop">Updated September 11, 2023</h3>
             <h3>Important Notes:</h3>
             <p>An offline version of the manual is available <a href="https://github.com/Darthagnon/gbm-manual">here</a>.  The offline manual is kindly provided by <a href="https://github.com/Darthagnon">Darthagnon</a>.</p>
             <p>This manual may contain information about features not available in the current stable release.</p>
@@ -255,10 +255,10 @@
             <h4>Show notification when a backup is completed:</h4>
             <p>This enables showing a notification any time a backup operation is completed.</p>
             <p>This always displays a single notification, even if the operation included multiple backups.</p>
-            <h4>Allow backups and restores for currently monitored game:</h4>
-            <p>This enables backup and restore operations for the currently monitored game.</p>
+            <h4>Enable backup and restore features for currently monitored games:</h4>
+            <p>This enables all features that allow you to execute backup or restore operations while a game is running and currently being monitored.  This enables the <a href="#gmcore">Time Interval Backup</a> setting in the Game Manager.</p>
             <p><b>Manipulating saved games while a game is running can be unsafe.</b></p>
-            <p>Please read the <a href="#livebackup">Backup and Restore during Gameplay</a> section of the manual.</p>
+            <p>Please read the <a href="#livebackup">Backup and Restore during Gameplay</a> section of the manual if you enable these features.</p>
             <h3 class="subsection"><a name="settings_startup" id="settings_startup">Startup</a></h3>
             <img class="manual" src="images/manual/manual_23.jpg" width="556" height="418" alt="Settings" />
             <h4>Start automatically on log-in:</h4>
@@ -500,6 +500,11 @@
             <p>All expired backups go to the Recycle Bin in Windows, but are permenantly deleted in Linux.</p>
             <h4>Differential Backup:</h4>
             <p>This indicates you'd like to use the differential backup method for this game.  Please see the <a href="#differential">Differential Backups</a> section of the manaul for more details.</p>            
+            <h4>Time Interval Backup:</h4>
+            <p>This option allows you to schedule backups to automatically run on a time interval (in minutes) while the game is running and currently being monitored.  The minimum interval is 1 minute.</p>
+            <p>This feature is hidden and disabled unless "Enable backup and restore features for currently monitored games" is enabled in <a href="#settings_backupandrestore">Backup and Restore</a> settings.</p>
+            <p><b>Manipulating saved games while a game is running can be unsafe.</b></p>
+            <p>Please read the <a href="#livebackup">Backup and Restore during Gameplay</a> section of the manual if you enable this option.</p>
             <h4>Allow monitoring:</h4>
             <p>This option indicates that GBM will actively monitor for this game.</p>
             <p>This option is available in the <img class="manualbutton" src="images/manual/buttons/Multi_Search.png" width="16" height="16" alt="Magnifying Glass" /> (Monitor options) sub-menu button.</p>
@@ -578,24 +583,33 @@
             <a name="livebackup" id="livebackup">Backup and Restore during Gameplay</a>
           </div>
           <div class="pageSectionContent">           
-            <p>As of v1.3.6, GBM allows you to create or restore backups for the currently monitored game.</p>
-            <p>This is useful for save scumming in various games without needing to cancel monitoring in GBM.</p>
-            <p>This feature is turned off by default and must be enabled in the <a href="#settings_backupandrestore">Backup and Restore</a> section of <a href="#settings">Settings</a>.</p>            
+            <p>GBM has various features that allow you to create or restore backups while a game is currently running and being monitored.</p>
+            <p>These features can be useful for:
+              <ul>
+                <li>Save scumming in various games without needing to cancel monitoring in GBM.</li>
+                <li>A safety net for stability issues or power outages.</li>
+              </ul> 
+            </p>
+            <p>These features are turned off by default and must be enabled in the <a href="#settings_backupandrestore">Backup and Restore</a> section of <a href="#settings">Settings</a>.</p>            
             <h4>Disclaimer:</h4>
             <p>Manipulating saved games while a game is running can be dangerous, it may lead to saved game corruption or a crash.</p>
-            <p>Using this feature safely will require experimentation and will vary based on the game.</p> 
+            <p>Using these feature safely will require experimentation and will vary based on the game.</p> 
             <h4>Options:</h4>
             <p>There are multiple ways to trigger a backup or restore while a game is being monitored.</p>
             <img class="manual" src="images/manual/manual_43.jpg" width="736" height="443" alt="Save Scumming" />
             <ul>
               <li>Use the "Backup" or "Restore" buttons on the GBM main window. (Windows or Linux)</li>
               <li>Use a <a href="#settings_globalhotkeys">Global Hotkey</a> (Windows Only).</li>
+              <li>Use the <a href="#gmcore">Time Interval Backup</a> configuration setting to schedule automatic backups during gameplay. 
+                <ul>
+                  <li>This was a highly requested feature but it also has the most potential to create problems, since backups automatically trigger at set times during active gameplay.</li>                  
+                </ul>
+              </li>
             </ul>
             <h4>Recommendations:</h4>
             <ul>
               <li>Always use the <a href="#gmcore">Save multiple backups</a> configuration setting, just in case you run into problems.</li>
-              <li>It is safest to make backups or restore saved games while in a game's initial main menu, not the pause menu.</li>
-              <li>Never make backups or restore saved games during gameplay, especially if the game uses an autosave system.</li>                
+              <li>It is safest to make backups or restore saved games while in a game's initial main menu or the pause menu, not during active gameplay.</li>           
             </ul>
           </div>
           <div class="pageSectionFooter">
