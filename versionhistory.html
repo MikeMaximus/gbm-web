@@ -33,7 +33,60 @@
             Version History
           </div>
           <div cass="pageSectionContent">
-            <h3 class="notop">1.3.5</h3>
+            <h3 class="notop">1.3.6</h3>
+            <ul>
+              <li>All Platforms:
+                <ul>
+                  <li>Added the ability to backup and restore saved games for the currently monitored game by using the "Backup" and "Restore" buttons on the main window.
+                    <ul>
+                      <li>This allows you to save scum while a game is running, without interrupting the current session.</li>
+                      <li>Read the "Backup and Restore during Gameplay" section of the manual for more details and recommendations when using this feature.</li>
+                      <li>This feature is disabled by default.  Enable it in "Settings -> Backup and Restore".</li>
+                    </ul>
+                  </li>
+                  <li>Fixed issues that could cause the Ludusavi Manifest import to fail.</li>
+                  <li>Fixed a crash that could occur when cancelling detection and re-enabling while using the "Fast" detection speed.</li>
+                  <li>Changed how concurrent operations are handled.
+                    <ul>
+                      <li>A backup, restore or import operation cannot be queued while another is currently in progress, a warning notification is now displayed if this occurs.</li>
+                      <li>Syncs triggered by another application and automatic backup restores can now execute while GBM is currently monitoring a session or paused while working in another window such as the Game Manager.
+                        <ul>
+                          <li>Automatic backup restores may still fail if they happen to queue during another operation in progress.</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>The "Esc" key can now be used to shutdown the app or hide the main window to the system tray, depending on the "User Interface" settings.</li>
+                  <li>Updated YamlDotNet to 13.1.1.</li>
+                </ul>
+              </li>             
+              <li>Windows:
+                <ul>
+                  <li>Added the ability to backup or restore saved games for the last played, selected or currently monitored game by using global hotkeys.
+                    <ul>
+                      <li>This allows you to quickly backup or restore your save(s) without the need to switch to GBM.</li>
+                      <li>This feature is disabled by default, it can be configured in "Settings -> Global Hotkeys" and "Settings -> Backup and Restore".</li>
+                      <li>This feature is not available in Linux.</li>
+                    </ul>
+                  </li>
+                  <li>Added unique "Success" or "Failure" audio that will play when a backup or restore is triggered from a hotkey.</li>
+                  <li>Updated SQLite3 to 3.42.0.</li>
+                  <li>Updated 7-Zip to 23.01.</li>
+                </ul>
+              </li>
+              <li>Linux:
+                <ul>
+                  <li>The main window can now be hidden to the system tray when closed.  
+                    <ul>
+                      <li>Uncheck "Exit when closing window" in "Main Window Options" of "Settings -> User Interface" to enable this feature.</li>
+                      <li>It can also be hidden automatically on startup by checking the "Start minimized" option in "Settings -> Startup".</li>
+                    </ul>
+                  </li>
+                  <li>GBM no longer needs to wait 60 seconds before automatically restoring new backups (if enabled) when the app starts.</li>
+                </ul>
+              </li>
+            </ul>
+            <h3>1.3.5</h3>
             <ul>
               <li>All Platforms:
                 <ul>
