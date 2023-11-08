@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1691932301" TotalConfigurations="618" AppVer="136">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1699428455" TotalConfigurations="625" AppVer="137">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -374,6 +374,35 @@
     <Tags>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>2a3c9df2-558c-4e6d-b790-62b105c8c384</ID>
+    <Name>Alan Wake Remastered</Name>
+    <ProcessName>Game_f_x64_EOS</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\Remedy\AlanWakeRemastered</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>resolution.xml</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>EGS</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -951,6 +980,38 @@
     <Tags>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>2ad2c5a2-102d-4364-b5ad-d8bc71b70685</ID>
+    <Name>Barony</Name>
+    <ProcessName>barony</ProcessName>
+    <Parameter />
+    <Path />
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>savegames:config:scores.dat:scores_multiplayer.dat</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Configuration</Name>
+      </Tag>
+      <Tag>
+        <Name>EGS</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -6358,6 +6419,9 @@
     <DiffInterval>0</DiffInterval>
     <Tags>
       <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
@@ -7451,6 +7515,35 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>979a53b2-8dd5-4330-90f2-f76281633796</ID>
+    <Name>Hardspace: Shipbreaker</Name>
+    <ProcessName>Shipbreaker</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\Blackbird Interactive\Hardspace_ Shipbreaker\Saves</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -11806,7 +11899,7 @@
     <Parameter />
     <Path>%LOCALAPPDATA%Low\Lazy Bear Games\Punch Club</Path>
     <FolderSave>false</FolderSave>
-    <AppendTimeStamp>false</AppendTimeStamp>
+    <AppendTimeStamp>true</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
     <FileType>*.dat</FileType>
     <ExcludeList />
@@ -12253,6 +12346,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>70ef132e-2f25-4bd3-9793-d092c91ea731</ID>
+    <Name>Resident Evil 5</Name>
+    <ProcessName>re5dx9</ProcessName>
+    <Parameter />
+    <Path>%Steam%\userdata\%SteamID3%\21690\remote</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>dc82f75b-ac42-4103-aa68-841f7fe9fd33</ID>
     <Name>Resident Evil 7: Biohazard</Name>
     <ProcessName>re7</ProcessName>
@@ -12584,6 +12706,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>2b51c6b9-7d46-4676-987e-96bb2ecb39d5</ID>
+    <Name>RoboCop: Rogue City</Name>
+    <ProcessName>RoboCop-Win64-Shipping</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\RoboCop\Saved\SaveGames</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>6b21dbb7-162c-4a24-a076-1cec36b8005a</ID>
     <Name>Rogue Legacy</Name>
     <ProcessName>RogueLegacy</ProcessName>
@@ -12695,6 +12846,35 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>18827ea0-4ac6-4486-9b73-1a35b587e5a1</ID>
+    <Name>SIGNALIS</Name>
+    <ProcessName>SIGNALIS</ProcessName>
+    <Parameter />
+    <Path>SIGNALIS_Data\save</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>settings.ini:steam_autocloud.vdf</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -14857,6 +15037,35 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>57400642-a404-4292-8df2-d7870a1ef573</ID>
+    <Name>Starfield</Name>
+    <ProcessName>Starfield</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\My Games\Starfield\Saves</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
