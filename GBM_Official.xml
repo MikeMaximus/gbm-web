@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1708595170" TotalConfigurations="632" AppVer="138">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1714027835" TotalConfigurations="641" AppVer="138">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -374,6 +374,35 @@
     <Tags>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>6514c895-b820-4cda-aee7-793f6e29141d</ID>
+    <Name>Alan Wake II</Name>
+    <ProcessName>AlanWake2</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\Remedy\AlanWake2</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>renderer.ini</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>EGS</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -1818,10 +1847,42 @@
     <DiffInterval>0</DiffInterval>
     <Tags>
       <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>491157f4-f495-43c9-a06a-89573d65cb89</ID>
+    <Name>Blasphemous 2</Name>
+    <ProcessName>Blasphemous 2</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\The Game Kitchen\Blasphemous 2</Path>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>*.bin:*.data</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -4132,6 +4193,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>09c758a9-ea68-b0a3-1839-0690382af2ba</ID>
+    <Name>Dead Island 2</Name>
+    <ProcessName>DeadIsland</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\DeadIslandSteam\Saved\SaveGames</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>2156922b-1bd4-4587-8870-6d916c746a9c</ID>
     <Name>Dead Rising</Name>
     <ProcessName>DeadRising</ProcessName>
@@ -6370,6 +6460,64 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>e9dbe0e2-fe4a-4fd7-acc9-c3b8255aab0c</ID>
+    <Name>Fallout</Name>
+    <ProcessName>fallout(w|wHR|-ce)$</ProcessName>
+    <Parameter />
+    <Path>data\SAVEGAME</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>0dae68d3-f6db-4835-b76f-889d7dd874f5</ID>
+    <Name>Fallout 2</Name>
+    <ProcessName>fallout2(HR|-ce)?$</ProcessName>
+    <Parameter />
+    <Path>data\SAVEGAME</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>71f509c5-e091-4457-95ee-1499321e9dfd</ID>
     <Name>Fallout 3</Name>
     <ProcessName>Fallout3</ProcessName>
@@ -8119,6 +8267,35 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>aeb87d69-7d16-432e-83f2-365c424eacbb</ID>
+    <Name>Humankind</Name>
+    <ProcessName>Humankind</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\Humankind\Save Files</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -16011,6 +16188,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>6bfffac7-e54c-4c24-a02e-61d835fcaa0e</ID>
+    <Name>The Callisto Protocol</Name>
+    <ProcessName>TheCallistoProtocol</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\CallistoProtocol\Saved\SaveGames</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>83c6d1ca-0bbc-4dce-9ffb-48597c8693ab</ID>
     <Name>The Elder Scrolls II: Daggerfall</Name>
     <ProcessName>DOSBox</ProcessName>
@@ -16601,6 +16807,35 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>42932999-3618-4051-8c21-0f9a5a9da910</ID>
+    <Name>The Sinking City</Name>
+    <ProcessName>TSCGame-Win64-Shipping</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\TSCGame\Saved\SaveGames</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -17680,6 +17915,35 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>526715bb-f91d-4042-8cc9-a3a056f8cc43</ID>
+    <Name>Victoria 3</Name>
+    <ProcessName>victoria3</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\Paradox Interactive\Victoria 3\save games</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
