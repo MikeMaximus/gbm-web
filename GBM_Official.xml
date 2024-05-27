@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1714202458" TotalConfigurations="643" AppVer="138">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1716797192" TotalConfigurations="647" AppVer="138">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -903,7 +903,7 @@
   <Game>
     <ID>0a7cc1bd-4de5-4811-b60c-01f9e764bf39</ID>
     <Name>Baldur's Gate III</Name>
-    <ProcessName>bg3(_dx11)?$</ProcessName>
+    <ProcessName>^bg3(_dx11)?$</ProcessName>
     <Parameter />
     <Path>%LOCALAPPDATA%\Larian Studios\Baldur's Gate 3\PlayerProfiles\Public\Savegames\Story</Path>
     <FolderSave>true</FolderSave>
@@ -1611,9 +1611,9 @@
   <Game>
     <ID>231c4220-9a51-4090-bb4c-637dd79fcf12</ID>
     <Name>Blackwell Legacy, The</Name>
-    <ProcessName>blackwell1</ProcessName>
+    <ProcessName>Blackwell Legacy</ProcessName>
     <Parameter />
-    <Path>%USERPROFILE%\Saved Games\Blackwell Legacy v1.7</Path>
+    <Path>%USERPROFILE%\Saved Games\Blackwell Legacy</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
@@ -2093,7 +2093,7 @@
   <Game>
     <ID>d1181688-f6e3-484e-ba51-85faea930ff4</ID>
     <Name>Blood Bowl 2</Name>
-    <ProcessName>BloodBowl2_(GL_32|DX_32)+$</ProcessName>
+    <ProcessName>^BloodBowl2_(GL_32|DX_32)+$</ProcessName>
     <Parameter />
     <Path>%USERDOCUMENTS%\BloodBowl2</Path>
     <FolderSave>true</FolderSave>
@@ -2125,7 +2125,7 @@
   <Game>
     <ID>fcf0f274-43f1-4ac7-b55a-634174212c11</ID>
     <Name>Blood Bowl: Chaos Edition</Name>
-    <ProcessName>BB(_Chaos)?$</ProcessName>
+    <ProcessName>^BB(_Chaos)?$</ProcessName>
     <Parameter />
     <Path>%USERDOCUMENTS%\BloodBowlChaos\saves</Path>
     <FolderSave>true</FolderSave>
@@ -2694,7 +2694,7 @@
   <Game>
     <ID>4df7454c-d9fc-459c-90d2-103f37161342</ID>
     <Name>Call of Juarez</Name>
-    <ProcessName>CoJ(_DX10)?$</ProcessName>
+    <ProcessName>^CoJ(_DX10)?$</ProcessName>
     <Parameter />
     <Path>%USERDOCUMENTS%\call of juarez\out\save\</Path>
     <FolderSave>true</FolderSave>
@@ -3420,7 +3420,7 @@
   <Game>
     <ID>2f33e543-358a-4f5f-b4f1-52c36e85d75c</ID>
     <Name>Control</Name>
-    <ProcessName>Control_DX(11|12)$</ProcessName>
+    <ProcessName>^Control_DX(11|12)$</ProcessName>
     <Parameter />
     <Path>%LOCALAPPDATA%\Remedy\Control\Default-Epic-User</Path>
     <FolderSave>false</FolderSave>
@@ -3449,7 +3449,7 @@
   <Game>
     <ID>c77db037-016e-4735-aceb-7c19c2ddcd2f</ID>
     <Name>Control</Name>
-    <ProcessName>Control_DX(11|12)$</ProcessName>
+    <ProcessName>^Control_DX(11|12)$</ProcessName>
     <Parameter />
     <Path>%USERDOCUMENTS%\My Games\Control\Saves</Path>
     <FolderSave>true</FolderSave>
@@ -4166,7 +4166,7 @@
   <Game>
     <ID>2127bfee-5208-4d0f-ab48-65bf44a6e640</ID>
     <Name>Dead Cells</Name>
-    <ProcessName>deadcells(_gl)?$</ProcessName>
+    <ProcessName>^deadcells(_gl)?$</ProcessName>
     <Parameter />
     <Path>save</Path>
     <FolderSave>false</FolderSave>
@@ -5115,7 +5115,7 @@
   <Game>
     <ID>b79ce2c2-dfa6-4da7-8f64-c2c896cd3469</ID>
     <Name>Doom (2016)</Name>
-    <ProcessName>DOOMx64(vk)?$</ProcessName>
+    <ProcessName>^DOOMx64(vk)?$</ProcessName>
     <Parameter />
     <Path>%USERPROFILE%\Saved Games\id Software\DOOM\base</Path>
     <FolderSave>false</FolderSave>
@@ -5638,7 +5638,7 @@
   <Game>
     <ID>7a1de725-676a-49ed-966c-dd104e2ee98e</ID>
     <Name>Dungeon Rats</Name>
-    <ProcessName>DR(64)?$</ProcessName>
+    <ProcessName>^DR(64)?$</ProcessName>
     <Parameter />
     <Path>%USERDOCUMENTS%\My Games\Dungeon Rats</Path>
     <FolderSave>false</FolderSave>
@@ -6491,7 +6491,7 @@
   <Game>
     <ID>e9dbe0e2-fe4a-4fd7-acc9-c3b8255aab0c</ID>
     <Name>Fallout</Name>
-    <ProcessName>fallout(w|wHR|-ce)$</ProcessName>
+    <ProcessName>^fallout(w|wHR|-ce)$</ProcessName>
     <Parameter />
     <Path>data\SAVEGAME</Path>
     <FolderSave>true</FolderSave>
@@ -6520,7 +6520,7 @@
   <Game>
     <ID>0dae68d3-f6db-4835-b76f-889d7dd874f5</ID>
     <Name>Fallout 2</Name>
-    <ProcessName>fallout2(HR|-ce)?$</ProcessName>
+    <ProcessName>^fallout2(HR|-ce)?$</ProcessName>
     <Parameter />
     <Path>data\SAVEGAME</Path>
     <FolderSave>true</FolderSave>
@@ -7888,7 +7888,7 @@
   <Game>
     <ID>1982700c-80d6-4559-ac31-75639b4686a3</ID>
     <Name>Hellgate London (2007)</Name>
-    <ProcessName>hellgate_sp_(dx9|dx10)_x64$</ProcessName>
+    <ProcessName>^hellgate_sp_(dx9|dx10)_x64$</ProcessName>
     <Parameter />
     <Path>%USERDOCUMENTS%\My Games\Hellgate\Save\Singleplayer</Path>
     <FolderSave>true</FolderSave>
@@ -8035,6 +8035,35 @@
       </Tag>
       <Tag>
         <Name>Tracking</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>0d824104-7421-43ac-a1e9-ee1d1f5fa9fe</ID>
+    <Name>Hi-Fi Rush</Name>
+    <ProcessName>Hi-Fi-RUSH</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\Saved Games\TangoGameworks\Hi-Fi RUSH (STEAM)\Saved\SaveGames</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -8541,7 +8570,7 @@
   <Game>
     <ID>9fb1000e-f269-4a29-9ee8-58745a3fc88c</ID>
     <Name>Industry Giant 2</Name>
-    <ProcessName>ig2_AddOn(_ns)?$</ProcessName>
+    <ProcessName>^ig2_AddOn(_ns)?$</ProcessName>
     <Parameter />
     <Path>save</Path>
     <FolderSave>true</FolderSave>
@@ -9861,7 +9890,7 @@
   <Game>
     <ID>47840c02-f078-4b36-8f0e-939f9faf9769</ID>
     <Name>Messiah</Name>
-    <ProcessName>Messiah(D3D|Glide3x)$</ProcessName>
+    <ProcessName>^Messiah(D3D|Glide3x)$</ProcessName>
     <Parameter />
     <Path>SAVE</Path>
     <FolderSave>true</FolderSave>
@@ -11485,7 +11514,7 @@
     <Name>Pathfinder: Kingmaker</Name>
     <ProcessName>Kingmaker</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%Low\Owlcat Games\Pathfinder Kingmaker</Path>
+    <Path>%USERPROFILE%\AppData\LocalLow\Owlcat Games\Pathfinder Kingmaker</Path>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
@@ -12040,7 +12069,7 @@
   <Game>
     <ID>674d9b8d-f4d8-4d34-8dbe-e766a21b4088</ID>
     <Name>Prison Architect</Name>
-    <ProcessName>Prison Architect(64)?$</ProcessName>
+    <ProcessName>^Prison Architect(64)?$</ProcessName>
     <Parameter />
     <Path>%LOCALAPPDATA%\Introversion\Prison Architect</Path>
     <FolderSave>false</FolderSave>
@@ -12191,7 +12220,7 @@
   <Game>
     <ID>922c28d3-dd33-4fe0-9443-5e6fba254681</ID>
     <Name>Project Zomboid</Name>
-    <ProcessName>ProjectZomboid(32|64)$</ProcessName>
+    <ProcessName>^ProjectZomboid(32|64)$</ProcessName>
     <Parameter />
     <Path>%USERPROFILE%\Zomboid</Path>
     <FolderSave>true</FolderSave>
@@ -14664,7 +14693,7 @@
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
-    <FileType>Campaign:Savegames</FileType>
+    <FileType>Campaign:Savegames:WielderVault:Misc</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -14764,6 +14793,41 @@
     <Tags>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>b9aa9a48-6222-445c-8854-8461b5736c74</ID>
+    <Name>Spear of Destiny</Name>
+    <ProcessName>DOSBox</ProcessName>
+    <Parameter>-conf "..\dosbox_sod.conf" -conf "..\dosbox_sod_single.conf" -noconsole -c "exit"</Parameter>
+    <Path>..\cloud_saves</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Galaxy Cloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -15463,8 +15527,8 @@
     <Parameter>starfarer.api.jar</Parameter>
     <Path>..\..\saves</Path>
     <FolderSave>true</FolderSave>
-    <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>0</BackupLimit>
+    <AppendTimeStamp>true</AppendTimeStamp>
+    <BackupLimit>3</BackupLimit>
     <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
@@ -15813,7 +15877,7 @@
   <Game>
     <ID>897051ea-2795-4abb-9c6c-48498a79c6d4</ID>
     <Name>Subnautica</Name>
-    <ProcessName>Subnautica(32)?$</ProcessName>
+    <ProcessName>^Subnautica(32)?$</ProcessName>
     <Parameter />
     <Path>SNAppData\SavedGames</Path>
     <FolderSave>true</FolderSave>
@@ -16606,6 +16670,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>3471a4e0-f673-42c4-a0bc-8dcd4114a6e8</ID>
+    <Name>The Excavation of Hob's Barrow</Name>
+    <ProcessName>TEOHB</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\Saved Games\The Excavation of Hob's Barrow</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>48a49bbf-d9a0-4744-a263-d82d651b851d</ID>
     <Name>The Forest</Name>
     <ProcessName>TheForest</ProcessName>
@@ -17075,7 +17168,7 @@
   <Game>
     <ID>2fc4a81a-4cac-4b0a-b96f-598c00742674</ID>
     <Name>They Are Billions</Name>
-    <ProcessName>TheyAreBillions(_x86)?$</ProcessName>
+    <ProcessName>^TheyAreBillions(_x86)?$</ProcessName>
     <Parameter />
     <Path>%USERDOCUMENTS%\My Games\They Are Billions</Path>
     <FolderSave>true</FolderSave>
@@ -17539,7 +17632,7 @@
   <Game>
     <ID>7e7b7ea5-310b-47a5-8c3f-dd48d72cb3b4</ID>
     <Name>Tyranny</Name>
-    <ProcessName>Tyranny(32|64)+$</ProcessName>
+    <ProcessName>^Tyranny(32|64)+$</ProcessName>
     <Parameter />
     <Path>%USERPROFILE%\Saved Games\Tyranny</Path>
     <FolderSave>true</FolderSave>
@@ -18070,7 +18163,7 @@
   <Game>
     <ID>46bca4c1-f96f-4359-84e2-afbe620df4dc</ID>
     <Name>Warcraft II</Name>
-    <ProcessName>Warcraft II BNE(_dx)?$</ProcessName>
+    <ProcessName>^Warcraft II BNE(_dx)?$</ProcessName>
     <Parameter />
     <Path>save</Path>
     <FolderSave>true</FolderSave>
@@ -18346,7 +18439,7 @@
   <Game>
     <ID>ff85d5d0-cc2c-4971-9bab-dd398d6b0c89</ID>
     <Name>Warhammer: Vermintide 2</Name>
-    <ProcessName>vermintide2(_dx12)?$</ProcessName>
+    <ProcessName>^vermintide2(_dx12)?$</ProcessName>
     <Parameter />
     <Path>%APPDATA%\Fatshark\Vermintide 2</Path>
     <FolderSave>false</FolderSave>
@@ -18646,6 +18739,41 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>13c79b39-42bc-4d75-87ae-f378feeeadeb</ID>
+    <Name>Wolfenstein 3D</Name>
+    <ProcessName>DOSBox</ProcessName>
+    <Parameter>-conf "..\dosbox_wolf3d.conf" -conf "..\dosbox_wolf3d_single.conf" -noconsole -c "exit"</Parameter>
+    <Path>..\cloud_saves</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Galaxy Cloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>6f5aa428-9710-4429-b9f7-f0bd478b5309</ID>
     <Name>World in Conflict: Complete Edition</Name>
     <ProcessName>wic</ProcessName>
@@ -18706,7 +18834,7 @@
   <Game>
     <ID>344afe05-e18b-4c40-8650-39355e19163f</ID>
     <Name>Wreckfest</Name>
-    <ProcessName>Wreckfest(_x64)?$</ProcessName>
+    <ProcessName>^Wreckfest(_x64)?$</ProcessName>
     <Parameter />
     <Path>%Steam%\userdata\%SteamID3%\228380\local\wreckfest</Path>
     <FolderSave>true</FolderSave>

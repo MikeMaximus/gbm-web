@@ -33,7 +33,7 @@
             Game Backup Monitor v1.3.9 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated May 21, 2024</h3>
+            <h3 class="notop">Updated May 27, 2024</h3>
             <h3>Important Notes:</h3>
             <p>An offline version of the manual is available <a href="https://github.com/Darthagnon/gbm-manual">here</a>.  The offline manual is kindly provided by <a href="https://github.com/Darthagnon">Darthagnon</a>.</p>
             <p>This manual may contain information about features not available in the current stable release.</p>
@@ -78,7 +78,7 @@
               <li><a href="#filtering">Custom Filters</a></li>
               <li><a href="#syncing">Automatic Syncing</a></li>
               <li><a href="#limitations">Limitations</a></li>
-              <li><a href="#techissues">Technical Issues</a></li>
+              <li><a href="#dpisetting">High DPI Setting</a></li>
               <li><a href="#techdetails">Technical Details</a></li>
             </ol>
           </div>
@@ -104,11 +104,11 @@
           </div>
           <div class="pageSectionContent">
             <h4 class="notop">Verified Operating Systems:</h4>
-            <p>Windows 10, Linux Mint 21</p>
+            <p>Windows 11, Windows 10, Linux Mint 21</p>
             <a href="http://www.microsoft.com/en-us/windows/default.aspx"><img class="logo" src="images/win10_logo.png" width="64" height="64" alt="Windows 10" /></a><a href="http://www.linuxmint.com"><img class="logo" src="images/mint_logo.png" width="64" height="64" alt="Linux Mint" /></a>
             <p class="small">These operating systems are tested during development with the latest stable versions of <a href="https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48" target=_blank>.NET Framework</a> (Windows) and <a href="https://www.mono-project.com/download/stable/" target=_blank>Mono</a> (Linux).</p>
             <h4>Supported Operating Systems:</h4>
-            <p>Windows 11, Windows 8, Windows 7 SP1, Other Linux Distributions</p><a href="http://www.microsoft.com/en-us/windows/default.aspx"><img class="logo" src="images/oldwindows_logo.png" width="64" height="64" alt="Old Windows" /></a><a href="http://www.linux.com/"><img class="logo" src="images/linux_logo.png" width="64" height="64" alt="Linux" /></a>
+            <p>Windows 8, Windows 7 SP1, Other Linux Distributions</p><a href="http://www.microsoft.com/en-us/windows/default.aspx"><img class="logo" src="images/oldwindows_logo.png" width="64" height="64" alt="Old Windows" /></a><a href="http://www.linux.com/"><img class="logo" src="images/linux_logo.png" width="64" height="64" alt="Linux" /></a>
             <p class="small">These operating systems are supported, but are NOT tested during development.</p>
             <h4>Minimum Spec:</h4>
             <p>Single-core Processor at 1 GHz or higher with 512 MB RAM</p>
@@ -1149,11 +1149,18 @@
         </div>
         <div class="pageSection">
           <div class="pageSectionHeader">
-            <a name="techissues" id="techissues">Technical Issues</a>
+            <a name="dpisetting" id="dpisetting">High DPI Setting</a>
           </div>
           <div class="pageSectionContent">
             <ul>
               <li>GBM may appear blurry on PCs using high DPI settings.  Modify the appropriate DPI compatability settings on GBM.exe to solve this problem.</li>
+              <li>Use the following screenshots as a guide for the optimal setting in Windows 11.
+                <ul>
+                  <li>Windows 10 and older may not have the same DPI options available.</li>
+                </ul>
+              </li>              
+              <img class="manual_sidebyside" src="images/manual/manual_44.jpg" width="482" height="676" alt="Change DPI Settings" />
+              <img class="manual_sidebyside" src="images/manual/manual_45.jpg" width="394" height="493" alt="Optimal DPI Setting" />
             </ul>
           </div>
           <div class="pageSectionFooter">

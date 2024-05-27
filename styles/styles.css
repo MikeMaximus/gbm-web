@@ -171,6 +171,12 @@ img.manual {
     display: block;
 }
 
+img.manual_sidebyside {
+    margin: 0 auto;
+    display: inline;
+    vertical-align: top;
+}
+
 img.manualbutton {
     margin: 0 auto;
     border: 3px;
