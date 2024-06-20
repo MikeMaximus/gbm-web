@@ -33,7 +33,7 @@
             Game Backup Monitor v1.3.9 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated May 27, 2024</h3>
+            <h3 class="notop">Updated June 20, 2024</h3>
             <h3>Important Notes:</h3>
             <p>An offline version of the manual is available <a href="https://github.com/Darthagnon/gbm-manual">here</a>.  The offline manual is kindly provided by <a href="https://github.com/Darthagnon">Darthagnon</a>.</p>
             <p>This manual may contain information about features not available in the current stable release.</p>
@@ -150,7 +150,30 @@
               <ul>
                 <li>Selecting a game from the list will display related information and any available options in the right portion of the window.</li>
                 <li>Double-click a selected game in the list to quickly open it's configuration in the Game Manager.</li>
-                <li>The "Search" field allows filtering by Game Name (partial match) or by Tag (exact match).  Use a hashtag to indicate a Tag search, like #Steam.</li>
+                <li>The "Search" field allows quick filtering of the game list:  
+                  <ul>
+                    <li>The search filters on any partial match of the following game information:
+                      <ul>
+                        <li>Name, Process, Parameter, Path, Version, Company, Comments or any matching Tag.</li>
+                      </ul>
+                    </li>
+                    <li>Prepend the query with a field name and a colon to match on that field only.  The field names are case-sensitive.
+                      <ul>
+                        <li>Ex. Company:Sega</li>
+                      </ul>
+                    </li>
+                    <li>Prepend the query with a hashtag to match only on Tags.  
+                      <ul>
+                        <li>Ex. #Steam</li>
+                      </ul>
+                    </li>
+                    <li>You cannot do a combination of queries in a single quick search. 
+                      <ul>
+                        <li>Use the <a href="#filtering">Custom Filter</a> on the Game Manager for complex queries.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
                 <li>The button to the right of the "Search" field can be used to clear the current filter and/or selected game.</li>            
               </ul>
             </p>
@@ -347,7 +370,26 @@
               <li>Show only games with backup data by selecting the "Games with Backups" option from the filter drop-down list.</li>
               <li>Show only games with new save data to restore by selecting the "Games with Pending Backups" option from the filter drop-down list.</li>
               <li>You can customize a list of games to display by selecting the "Custom" option from the filter drop-down list.</li>
-              <li>Quickly find games by typing a name (partial match) or a tag (exact match) in the "Search" field.  Use a hashtag to indicate a Tag search, like #Steam.  This filter is applied on top of any other filter you may be using.</li>              
+              <li>The "Search" field allows quick filtering of the game list:  
+                <ul>
+                  <li>The search filters on any partial match of the following game information:
+                    <ul>
+                      <li>Name, Process, Parameter, Path, Version, Company, Comments or any matching Tag.</li>
+                    </ul>
+                  </li>
+                  <li>Prepend the query with a field name and a colon to match on that field only.  The field names are case-sensitive.
+                    <ul>
+                      <li>Ex. Company:Sega</li>
+                    </ul>
+                  </li>
+                  <li>Prepend the query with a hashtag to match only on Tags.  
+                    <ul>
+                      <li>Ex. #Steam</li>
+                    </ul>
+                  </li>
+                  <li>This quick filter is applied on top of any other filter you may be using.</li>
+                </ul>
+              </li>         
               <li>You can edit the Tags for one or more games by selecting them and clicking directly on the list of tags.</li>              
               <li>You can backup immediately without playing a game by selecting the game(s) from the list and click the <img class="manualbutton" src="images/manual/buttons/Multi_Backup.png" width="16" height="16" alt="Backup Folder" /> (Backup) button in the "Backup Management" section.</li>
               <li>Restore an existing backup for a game by selecting the game(s) from the list and clicking the <img class="manualbutton" src="images/manual/buttons/Multi_Restore.png" width="16" height="16" alt="Restore Folder" /> (Restore) button in the "Backup Management" section.</li>
