@@ -45,6 +45,10 @@
               <br />
               The biggest benefit of using GBM is that it compresses your save files, some games have extremely large save files that can be compressed to a mere fraction of their original size.  Most clients do not compress your saved games before uploading, wasting your bandwidth and slowing down your connection with large and lengthy uploads.</li>
             </ul>
+            <p class="large">Does GBM interfere with existing cloud features in clients such as Steam or GOG Galaxy?</p>
+            <ul>
+              <li>No.  You can use GBM and continue to use the cloud backup features in your game client(s) if you really want to.</li>
+            </ul>
             <p class="large">Is GBM safe to use and does it respect my privacy?</p>
             <ul>
               <li>GBM does not perform any operation without request and consent until the user sets it up that way.<br />
@@ -53,9 +57,18 @@
               <br />
               If you're really paranoid you can look at the source code available with each release.</li>
             </ul>
+            <p class="large">Why does Windows inform me that Game Backup Monitor is a potentially unsafe application?</p>
+            <ul>
+              <li>In short, because of a poorly designed security feature intended to protect novice PC users.
+                <ul>
+                  <li>GBM is not digitally signed.  Microsoft automatically flags any installer or application that isn't signed with a purchased certificate as unsafe.</li>
+                  <li>An application is also flagged as unsafe if it doesn't have enough Windows Defender cloud submissions, this happens with any unsigned app with a small user base.</li>
+                </ul>
+              </li>
+            </ul>
             <p class="large">How is GBM a cloud solution if it never uploads anything to the internet?</p>
             <ul>
-              <li>GBM is only a cloud solution if you want it to be. GBM needs to be paired with a cloud storage provider and a folder sync client to be a true cloud solution.</li>              
+              <li>GBM is only a cloud solution if you want it to be. GBM needs to be paired with a cloud storage provider and a folder sync client to be a true cloud solution.</li>          
             </ul>
             <p class="large">Why isn't GBM directly intergrated with a cloud service?</p>
             <ul>
@@ -76,15 +89,16 @@
             <p class="large">The <a href="GBM_Official.xml">official game list</a> isn't updated very often and why aren't my games already configured?</p>
             <ul>
               <li>Installing, configuring and testing games with GBM requires a lot of time. Not to mention a copy of every game is required to do this properly.</li>
+              <li>You may also import game backup configurations from the <a href="manual.html#ludusavi">Ludusavi Manifest</a>, this gives you access to thousands of unofficial configurations.  These are untested, but many of them will work just fine or only require minor tweaking.</li>
             </ul>
             <p class="large">Will GBM be avaliable for Linux or MacOS?</p>
             <ul>
-              <li>As of v0.96 or higher GBM will run in <a href="linux.html">Linux using Mono</a>. MacOS has not been tested, technically it "should" work with Mono as well.</li>
+              <li>GBM runs in <a href="linux.html">Linux using Mono</a>. MacOS has not been tested, technically it "should" work with Mono as well.</li>
               <li>GBM also runs in <a href="https://www.winehq.org/">Wine</a> with very limited usefulness. Check out the <a href="wine.html">Wine FAQ</a> for details.</li>
             </ul>
             <p class="large">Will GBM be avaliable in other languages?</p>
             <ul>
-              <li>There are no plans to support other languages at this time. However, as of v0.95 GBM can be easily translated. Check out the <a href="translations.html">Translation FAQ</a> if you're interested.</li>
+              <li>GBM is available in English and Simplified Chinese, the language is chosen based on your OS language setting.  Check out the <a href="translations.html">Translation FAQ</a> if you're interested in helping out with other languages.</li>
             </ul>
           </div>
         </div><!--End Left Panel-->
