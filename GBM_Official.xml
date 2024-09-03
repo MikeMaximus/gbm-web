@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1716797192" TotalConfigurations="647" AppVer="138">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1725353996" TotalConfigurations="657" AppVer="139">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -171,6 +171,35 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>35e51f12-b004-4961-b566-5dda0084e955</ID>
+    <Name>Abiotic Factor</Name>
+    <ProcessName>AbioticFactor</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\AbioticFactor\Saved\SaveGames</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -905,7 +934,7 @@
     <Name>Baldur's Gate III</Name>
     <ProcessName>^bg3(_dx11)?$</ProcessName>
     <Parameter />
-    <Path>%LOCALAPPDATA%\Larian Studios\Baldur's Gate 3\PlayerProfiles\Public\Savegames\Story</Path>
+    <Path>%LOCALAPPDATA%\Larian Studios\Baldur's Gate 3\PlayerProfiles</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
@@ -1551,11 +1580,98 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>bceff683-dd11-4ae5-accb-a9efd23c2bfc</ID>
+    <Name>Black Mesa</Name>
+    <ProcessName>bms</ProcessName>
+    <Parameter />
+    <Path>bms\save</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>59cdfffe-ce33-463f-8775-2713a992a642</ID>
     <Name>Blackguards Special Edition</Name>
     <ProcessName>Blackguards</ProcessName>
     <Parameter />
     <Path>%LOCALAPPDATA%\Daedalic Entertainment GmbH\Blackguards</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>870a459f-7fcd-4fa6-8169-026d2dc6c59b</ID>
+    <Name>Blackwell Convergence, The</Name>
+    <ProcessName>Convergence</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\Saved Games\Blackwell Convergence</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>6ea3d90d-5d14-150a-2b39-32772bd7df2e</ID>
+    <Name>Blackwell Deception</Name>
+    <ProcessName>Deception</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\Saved Games\Blackwell Deception</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
@@ -3726,6 +3842,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>f4ba1a9d-8e09-43d1-a00c-45f87ae01eae</ID>
+    <Name>DOOM + DOOM II</Name>
+    <ProcessName>doom_gog</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\Saved Games\Nightdive Studios\DOOM\saves</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>45e8da64-d15b-49cf-99f7-5405c959ff55</ID>
     <Name>Dark Messiah of Might &amp; Magic</Name>
     <ProcessName>mm</ProcessName>
@@ -4222,7 +4367,7 @@
     <ConfigLinks />
   </Game>
   <Game>
-    <ID>09c758a9-ea68-b0a3-1839-0690382af2ba</ID>
+    <ID>544157e0-3330-4bac-b5cd-8bec72da4dfc</ID>
     <Name>Dead Island 2</Name>
     <ProcessName>DeadIsland</ProcessName>
     <Parameter />
@@ -4414,6 +4559,35 @@
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
     <FileType>*.sav</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>6dd5def4-3606-41bb-a8bd-34e11ba7d047</ID>
+    <Name>Deadly Premonition 2: A Blessing in Disguise</Name>
+    <ProcessName>DeadlyPremonition2</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\ToyBox Inc\DeadlyPremonition2\Saved\SaveGames</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>true</AppendTimeStamp>
+    <BackupLimit>3</BackupLimit>
+    <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -5162,6 +5336,9 @@
     <DiffInterval>0</DiffInterval>
     <Tags>
       <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
@@ -5815,7 +5992,7 @@
   <Game>
     <ID>818846f9-6e44-4092-843a-a7c1b5fbe4bd</ID>
     <Name>Elden Ring</Name>
-    <ProcessName>eldenring</ProcessName>
+    <ProcessName>^(eldenring)?$|^(start_protected_game)?$</ProcessName>
     <Parameter />
     <Path>%APPDATA%\EldenRing</Path>
     <FolderSave>true</FolderSave>
@@ -5824,8 +6001,8 @@
     <FileType />
     <ExcludeList>GraphicsConfig.xml:steam_autocloud.vdf</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
-    <IsRegEx>false</IsRegEx>
+    <Comments>This configuration also detects the game when you've renamed the executable to disable Easy Anti-Cheat.</Comments>
+    <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
     <OS>1</OS>
     <UseWindowTitle>false</UseWindowTitle>
@@ -10431,6 +10608,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>503595d9-fef0-4522-adce-09b58ac4a943</ID>
+    <Name>Mother Russia Bleeds</Name>
+    <ProcessName>Mother Russia Bleeds</ProcessName>
+    <Parameter />
+    <Path />
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>Savegame.nekro</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>9497b0f5-6efa-4b1f-a385-4ea3f8628ec5</ID>
     <Name>Mount &amp; Blade II: Bannerlord</Name>
     <ProcessName>TaleWorlds.MountAndBlade.Launcher</ProcessName>
@@ -11563,6 +11769,35 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>a4db18e4-4e5e-4424-95be-8d4d021c72e4</ID>
+    <Name>Perfect Dark</Name>
+    <ProcessName>^pd(\.jpn|\.pal)?$</ProcessName>
+    <Parameter />
+    <Path />
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>eeprom.bin</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>https://github.com/fgsfdsfgs/perfect_dark</Comments>
+    <IsRegEx>true</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Port</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -17621,6 +17856,9 @@
     <DiffInterval>0</DiffInterval>
     <Tags>
       <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
@@ -17845,9 +18083,9 @@
     <AppendTimeStamp>true</AppendTimeStamp>
     <BackupLimit>3</BackupLimit>
     <FileType />
-    <ExcludeList>*.log:*.old:*.vdf</ExcludeList>
+    <ExcludeList>*.log:*.old</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
-    <Comments />
+    <Comments>This configuration is only useful when Steam Cloud is disabled.</Comments>
     <IsRegEx>false</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
     <OS>1</OS>
@@ -17926,7 +18164,7 @@
     <ID>988ab40b-b8c1-48bf-928a-ab2584bf7898</ID>
     <Name>Vampire: The Masquerade - Bloodlines (Unofficial Patch)</Name>
     <ProcessName>Vampire</ProcessName>
-    <Parameter>Unofficial_Patch</Parameter>
+    <Parameter>-game Unofficial_Patch</Parameter>
     <Path>unofficial_patch\save</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
@@ -18104,7 +18342,7 @@
     <Name>Volgarr the Viking</Name>
     <ProcessName>Volgarr</ProcessName>
     <Parameter />
-    <Path>HKEY_CURRENT_USER\Software\Crazy Viking Studios\Volgarr the Viking</Path>
+    <Path>%APPDATA%\Crazy Viking Studios\Volgarr the Viking</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
@@ -18124,9 +18362,6 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>Registry</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -18766,6 +19001,64 @@
       </Tag>
       <Tag>
         <Name>Galaxy Cloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>6c4a6176-0e97-4f10-996d-302241758a14</ID>
+    <Name>Wolfenstein: The New Order</Name>
+    <ProcessName>WolfNewOrder_x64</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\Saved Games\MachineGames\Wolfenstein The New Order\base\savegame</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>63e3ff55-aad0-4aa3-a7b4-9c5cfb10803e</ID>
+    <Name>Workers &amp; Resources: Soviet Republic</Name>
+    <ProcessName>^SOVIET(64)?_g$</ProcessName>
+    <Parameter />
+    <Path>media_soviet\save</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>autosave*</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
