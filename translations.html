@@ -57,7 +57,6 @@
               <li>[PARAM] indicates that variable text will be inserted into that part of string. [PARAM] usually indicates the name of an item or a numeric value and can be determined based on the context of the string. Feel free to <a href="mailto:gamebackupmonitor@gmail.com">ask for help</a> if you can't figure out what a [PARAM] is referring to.</li>
               <li>[BR] indicates a line break, which is used to help make some messages more readable.</li>
               <li>Please be aware that not all strings support the use of [BR] and [PARAM], do not add them to strings that don't currently use them.</li>
-              <li>If you want to add more parameters or breaks to a string that doesn't currently support them, you'll need to modify the source code that displays that particular string.</li>
             </ol>
             <p class="large">Why are there duplicates of the same string with different identifiers?</p>
             <ul>
@@ -65,11 +64,15 @@
             </ul>
             <p class="large">What do I do once everything is translated?</p>
             <ul>
-              <li>Press F5 or F7 to build the application and test it out. You may have issues with translated text isn't fitting on certain forms, this will require you to resize some controls in the form designer.</li>
+              <li>Press F5 or F7 to build the application and test it.
+                <ul>
+                  <li>Other instances of GBM need to be shut down first.</li>
+                </ul>  
+              </li>
             </ul>
             <p class="large">Can I provide my translation to include in the official build?</p>
             <ul>
-              <li>I'll consider adding multi-language support to the official build, if there are enough translations to be worth the effort. Once you're finished translating, you can <a href="mailto:gamebackupmonitor@gmail.com">email me</a> the "Resources.resx" file from your source code folder.</li>
+              <li>Once the translation is complete, <a href="mailto:gamebackupmonitor@gmail.com">email</a> the "Resources.resx" file from your source code folder.  After review and testing, it will be included in the next release.</li>
             </ul>
           </div>
         </div><!--End Left Panel-->
