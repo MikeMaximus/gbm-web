@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1737103046" TotalConfigurations="671" AppVer="140">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1738661856" TotalConfigurations="668" AppVer="141">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -420,7 +420,7 @@
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
     <FileType />
-    <ExcludeList>renderer.ini</ExcludeList>
+    <ExcludeList>renderer.ini:*.log</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -4550,38 +4550,6 @@
     <ConfigLinks />
   </Game>
   <Game>
-    <ID>71bdef7c-3021-4e79-a924-e250b6e5b30d</ID>
-    <Name>Dead Rising Deluxe Remaster</Name>
-    <ProcessName>DRDR</ProcessName>
-    <Parameter />
-    <Path>%Steam%\userdata\%SteamID3%\2527390\remote\win64_save</Path>
-    <FolderSave>true</FolderSave>
-    <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>0</BackupLimit>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Comments />
-    <IsRegEx>false</IsRegEx>
-    <RecurseSubFolders>true</RecurseSubFolders>
-    <OS>1</OS>
-    <UseWindowTitle>false</UseWindowTitle>
-    <Differential>false</Differential>
-    <DiffInterval>0</DiffInterval>
-    <Tags>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-    </Tags>
-    <ConfigLinks />
-  </Game>
-  <Game>
     <ID>097d6df4-a7e4-4f1c-ace2-bb5771aed51e</ID>
     <Name>Dead Space</Name>
     <ProcessName>Dead Space</ProcessName>
@@ -5642,38 +5610,6 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
-      </Tag>
-    </Tags>
-    <ConfigLinks />
-  </Game>
-  <Game>
-    <ID>e3eb3c7c-fec5-4eaa-be78-0df7e8c0f2e4</ID>
-    <Name>Dragon's Dogma II</Name>
-    <ProcessName>DD2</ProcessName>
-    <Parameter />
-    <Path>%Steam%\userdata\%SteamID3%\2054970\remote\win64_save</Path>
-    <FolderSave>true</FolderSave>
-    <AppendTimeStamp>true</AppendTimeStamp>
-    <BackupLimit>0</BackupLimit>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Comments />
-    <IsRegEx>false</IsRegEx>
-    <RecurseSubFolders>true</RecurseSubFolders>
-    <OS>1</OS>
-    <UseWindowTitle>false</UseWindowTitle>
-    <Differential>false</Differential>
-    <DiffInterval>0</DiffInterval>
-    <Tags>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -13298,38 +13234,6 @@
     <ConfigLinks />
   </Game>
   <Game>
-    <ID>9ba405d7-80a0-4fc6-a847-777aefcddfae</ID>
-    <Name>Resident Evil 4 (2023)</Name>
-    <ProcessName>re4</ProcessName>
-    <Parameter />
-    <Path>%Steam%\userdata\%SteamID3%\2050650\remote\win64_save</Path>
-    <FolderSave>true</FolderSave>
-    <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>0</BackupLimit>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Comments />
-    <IsRegEx>false</IsRegEx>
-    <RecurseSubFolders>true</RecurseSubFolders>
-    <OS>1</OS>
-    <UseWindowTitle>false</UseWindowTitle>
-    <Differential>false</Differential>
-    <DiffInterval>0</DiffInterval>
-    <Tags>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-    </Tags>
-    <ConfigLinks />
-  </Game>
-  <Game>
     <ID>70ef132e-2f25-4bd3-9793-d092c91ea731</ID>
     <Name>Resident Evil 5</Name>
     <ProcessName>re5dx9</ProcessName>
@@ -13367,38 +13271,6 @@
     <ProcessName>re7</ProcessName>
     <Parameter />
     <Path>%Steam%\userdata\%SteamID3%\418370\remote</Path>
-    <FolderSave>true</FolderSave>
-    <AppendTimeStamp>false</AppendTimeStamp>
-    <BackupLimit>0</BackupLimit>
-    <FileType />
-    <ExcludeList />
-    <MonitorOnly>false</MonitorOnly>
-    <Comments />
-    <IsRegEx>false</IsRegEx>
-    <RecurseSubFolders>true</RecurseSubFolders>
-    <OS>1</OS>
-    <UseWindowTitle>false</UseWindowTitle>
-    <Differential>false</Differential>
-    <DiffInterval>0</DiffInterval>
-    <Tags>
-      <Tag>
-        <Name>Official</Name>
-      </Tag>
-      <Tag>
-        <Name>Steam</Name>
-      </Tag>
-      <Tag>
-        <Name>SteamCloud</Name>
-      </Tag>
-    </Tags>
-    <ConfigLinks />
-  </Game>
-  <Game>
-    <ID>9673871f-4e4b-41db-9530-1df55d2b80f8</ID>
-    <Name>Resident Evil Village</Name>
-    <ProcessName>re8</ProcessName>
-    <Parameter />
-    <Path>%Steam%\userdata\%SteamID3%\1196590\remote\win64_save</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
