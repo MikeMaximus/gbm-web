@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1738661856" TotalConfigurations="668" AppVer="141">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1741683508" TotalConfigurations="673" AppVer="141">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -5729,6 +5729,35 @@
       </Tag>
       <Tag>
         <Name>Retail</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>66d95983-d532-4cde-8e4f-dd0f0a72e987</ID>
+    <Name>Dredge</Name>
+    <ProcessName>DREDGE</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\Black Salt Games\DREDGE\eos\saves</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>true</AppendTimeStamp>
+    <BackupLimit>3</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>EGS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -14949,6 +14978,64 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>6d1aeb32-fa7e-454b-bd53-cf8340a96d09</ID>
+    <Name>Skald: Against the Black Priory</Name>
+    <ProcessName>SKALD Against the Black Priory</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\High North Studios\SKALD_ Against the Black Priory\SaveFiles</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>ded31304-da0a-440f-965f-4c96dc04f11c</ID>
+    <Name>Slain: Back from Hell</Name>
+    <ProcessName>Slain</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\Wolfbrew Games\Slain</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>4e391c85-4fc1-4bb3-9ac6-a8ea5251791b</ID>
     <Name>Slay the Spire</Name>
     <ProcessName>javaw</ProcessName>
@@ -16505,6 +16592,35 @@
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
     <FileType>Save.sav</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>fdb47058-d4e3-4bad-a943-a6a1b24babbb</ID>
+    <Name>System Shock (2023)</Name>
+    <ProcessName>SystemShock</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\Saved Games\Nightdive Studios\SystemShock\Saved\SaveGames</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -18363,6 +18479,67 @@
     <Differential>false</Differential>
     <DiffInterval>0</DiffInterval>
     <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>d21f1e5c-ac9f-4517-bfc4-2cf72e9dec4a</ID>
+    <Name>Valfaris</Name>
+    <ProcessName>Valfaris</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\Steel Mantis\Valfaris</Path>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>Valfaris_Progress.dat:Valfaris_Slot_*.dat</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>a4a48421-8c41-444b-9154-aaceecba14ed</ID>
+    <Name>Valfaris - Mecha Therion</Name>
+    <ProcessName>Valfaris Mecha Therion</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\Steel Mantis\Valfaris Mecha Therion</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>Unity</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Configuration</Name>
+      </Tag>
       <Tag>
         <Name>GOG</Name>
       </Tag>
