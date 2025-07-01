@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1747825886" TotalConfigurations="678" AppVer="141">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1751354753" TotalConfigurations="684" AppVer="141">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -4814,6 +4814,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>13882c27-f0cc-4f0e-8eb6-f88246e8cea4</ID>
+    <Name>Deliver At All Costs</Name>
+    <ProcessName>Deliver At All Costs</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\Far Out Games\Deliver At All Costs\Profiles</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>settings.json</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>EGS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>1d1fe9ae-b9ac-4ef7-b128-5ea97c3828b9</ID>
     <Name>Democracy 3</Name>
     <ProcessName>Democracy3</ProcessName>
@@ -6411,6 +6440,38 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>e80766cf-6fd1-49f0-ab07-39373319c78b</ID>
+    <Name>Epic Pinball - The Complete Collection</Name>
+    <ProcessName>DOSBox</ProcessName>
+    <Parameter>-conf "..\dosbox_epin.conf" -conf "..\dosbox_epin_single.conf" -noconsole -c "exit"</Parameter>
+    <Path>..\</Path>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>CONFIG.PIN:HISCORE.PIN</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>e51edf17-ebdc-416a-a71c-8c756848643c</ID>
     <Name>Euro Truck Simulator 2</Name>
     <ProcessName>eurotrucks2</ProcessName>
@@ -7601,6 +7662,38 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>bfe7cf41-d496-4232-b0fc-9198f717e292</ID>
+    <Name>Grand Theft Auto IV</Name>
+    <ProcessName>GTAIV</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\Rockstar Games\GTA IV\Profiles</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Rockstar Games Launcher</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -11170,7 +11263,7 @@
   <Game>
     <ID>6150adf6-d64b-4499-87fc-133cf590e94f</ID>
     <Name>Neverwinter Nights 2</Name>
-    <ProcessName>nwn2</ProcessName>
+    <ProcessName>^nwn2(main)?$</ProcessName>
     <Parameter />
     <Path>%USERDOCUMENTS%\Neverwinter Nights 2\saves</Path>
     <FolderSave>true</FolderSave>
@@ -11180,7 +11273,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
     <OS>1</OS>
     <UseWindowTitle>false</UseWindowTitle>
@@ -12819,7 +12912,7 @@
     <AppendTimeStamp>true</AppendTimeStamp>
     <BackupLimit>2</BackupLimit>
     <FileType />
-    <ExcludeList>Logs:options.ini:examplemod</ExcludeList>
+    <ExcludeList>Logs:options.ini:examplemod:Screenshots</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>true</IsRegEx>
@@ -13085,7 +13178,7 @@
   <Game>
     <ID>f8a86547-ed2b-4f04-b11e-cea0b70aa246</ID>
     <Name>Red Dead Redemption</Name>
-    <ProcessName>PlayRDR</ProcessName>
+    <ProcessName>RDR</ProcessName>
     <Parameter />
     <Path>%USERDOCUMENTS%\Rockstar Games\Red Dead Redemption\Profiles</Path>
     <FolderSave>true</FolderSave>
@@ -13107,6 +13200,9 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Rockstar Games Launcher</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -16760,6 +16856,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>51327dd7-7f7c-4272-9ea7-0ddc77c0822f</ID>
+    <Name>System Shock 2 - 25th Anniversary Remaster</Name>
+    <ProcessName>^hathor_Shipping_Playfab(.)*_x64$</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\Saved Games\Nightdive Studios\System Shock 2 Remastered</Path>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>cam_user.cfg:user.bnd:*.sav</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>1258f9c9-b6ff-497e-9246-24c6eae2af94</ID>
     <Name>System Shock: Enhanced Edition</Name>
     <ProcessName>sshock</ProcessName>
@@ -16958,6 +17083,35 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>cce55df5-9d03-8113-a29b-04786b6eb272</ID>
+    <Name>The Alters</Name>
+    <ProcessName>TheAltersGOG-Win64-Shipping</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\11bitstudios\TheAlters\GOG\Saved\SaveGames</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -18983,6 +19137,41 @@
     <Tags>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>5a0fea5a-1564-49ca-9356-01e261cdd402</ID>
+    <Name>Warcraft - Orcs &amp; Humans</Name>
+    <ProcessName>DOSBox</ProcessName>
+    <Parameter>-conf "..\dosbox_warcraft.conf" -conf "..\dosbox_warcraft_single.conf" -noconsole -c "exit"</Parameter>
+    <Path>..\cloud_saves</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Galaxy Cloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
