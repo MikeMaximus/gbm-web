@@ -30,10 +30,10 @@
       <div id="leftcontent">
         <div class="pageSection">
           <div class="pageSectionHeader">
-            Game Backup Monitor v1.4.0 Manual
+            Game Backup Monitor v1.4.2 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated March 12, 2025</h3>
+            <h3 class="notop">Updated July 28, 2025</h3>
             <h3>Important Notes:</h3>
             <p>An offline version of the manual is available <a href="https://github.com/Darthagnon/gbm-manual">here</a>.  The offline manual is kindly provided by <a href="https://github.com/Darthagnon">Darthagnon</a>.</p>
             <p>This manual may contain information about features not available in the current stable release.</p>
@@ -224,7 +224,7 @@
             <p>Clicking Cancel or closing the window will cancel any changes made on this screen.</p>
             <p>When modifying the backup folder or any sync settings, be sure to read any warning messages carefully.</p>
             <h3 class="subsection"><a name="settings_general" id="settings_general">General</a></h3>
-            <img class="manual" src="images/manual/manual_15.jpg" width="556" height="418" alt="Settings" />            
+            <img class="manual" src="images/manual/manual_15.jpg" width="555" height="418" alt="Settings" />            
             <h4>Enable time tracking:</h4>
             <p>GBM will record and display game session times when this is enabled. When it's disabled no time data is recorded or displayed. Toggling this setting has no effect on time data that's already been recorded.</p>
             <h4>Enable session tracking:</h4>
@@ -233,6 +233,10 @@
             <p>When enabled, all features related to <a href="#launcher">launching games</a> from GBM become available.  This includes the "Launcher Manager", "Launch Settings", the "Play" button on the main window and the recently played tray menu options.  The "Session Tracking" feature needs to be enabled and have enough recorded data to display any recently played games in the system tray menu.</p>
             <h4>Enable automatic configuration of store paths:</h4>
             <p>When enabled, GBM will attempt to automatically create path variables for store specific locations such as Steam Cloud.  See the <a href="#storevariables">Store Variables</a> section for more details.</p>            
+            <h4>Enable OS color mode (Requires app restart)</h4>
+            <p>When enabled, GBM will use Light or Dark mode depending on your Windows operating system setting.  You need to restart GBM for this setting to fully take effect.</p>
+            <p>When disabled, GBM will always use the classic WinForms colors (Light mode).</p>
+            <p>This setting is not available in Linux.</p>
             <h4>Ignore sessions shorter than X minutes:</h4>
             <p>GBM can suppress backups if a session time is too short. This is useful to prevent unwanted backups just because you loaded a game for a few minutes. If session tracking is enabled, it will use this setting and ignore short sessions.</p>
             <h4>Show detection notifications:</h4>
