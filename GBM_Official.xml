@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1754463259" TotalConfigurations="689" AppVer="142">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1757490209" TotalConfigurations="694" AppVer="142">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -8446,6 +8446,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>8d58a970-464b-414e-ac65-daabb048b76e</ID>
+    <Name>Heretic + Hexen</Name>
+    <ProcessName>heretic_gog</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\Saved Games\Nightdive Studios\Heretic\saves</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>f9f73525-df9a-44f8-ae26-f5c74fdbacbd</ID>
     <Name>Heretic - Shadow of the Serpent Riders </Name>
     <ProcessName>DOSBox</ProcessName>
@@ -8668,6 +8697,35 @@
     <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList>Crashes:*.log</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>2b436556-5ac3-42f7-9682-692498329833</ID>
+    <Name>Hollow Knight: Silksong</Name>
+    <ProcessName>Hollow Knight Silksong</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\Team Cherry\Hollow Knight Silksong</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -15782,6 +15840,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>931e5f4f-2fe1-4369-a267-e24ae33091d8</ID>
+    <Name>Star Renegades</Name>
+    <ProcessName>Star Renegades</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\Star Renegades</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>true</AppendTimeStamp>
+    <BackupLimit>3</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>f1f75eef-b974-4817-b9c8-84d884b830fd</ID>
     <Name>Star Renegades</Name>
     <ProcessName>starrenegades</ProcessName>
@@ -17703,6 +17790,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>79d217a3-02d2-440d-ac65-82f56ee25a88</ID>
+    <Name>The House of the Dead: Remake</Name>
+    <ProcessName>The House of the Dead Remake</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\TheHouseOfTheDead_Remake</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>b7566bbc-281a-422a-9cae-5c3660cff6d4</ID>
     <Name>The Last Remnant</Name>
     <ProcessName>TLR</ProcessName>
@@ -19445,6 +19561,35 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>7a2c8c1b-48b8-4aff-bef3-0bb14e2ae686</ID>
+    <Name>Warhammer 40K: Dawn of War - Definitive Edition</Name>
+    <ProcessName>^W40k(_gog)?$</ProcessName>
+    <Parameter />
+    <Path>%APPDATA%\Relic Entertainment\Dawn of War\Profiles</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
