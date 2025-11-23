@@ -30,10 +30,10 @@
       <div id="leftcontent">
         <div class="pageSection">
           <div class="pageSectionHeader">
-            Game Backup Monitor v1.4.2 Manual
+            Game Backup Monitor v1.4.3 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated July 28, 2025</h3>
+            <h3 class="notop">Updated November 23, 2025</h3>
             <h3>Important Notes:</h3>
             <p>An offline version of the manual is available <a href="https://github.com/Darthagnon/gbm-manual">here</a>.  The offline manual is kindly provided by <a href="https://github.com/Darthagnon">Darthagnon</a>.</p>
             <p>This manual may contain information about features not available in the current stable release.</p>
@@ -42,6 +42,7 @@
             <ol>
               <li><a href="#whatis">What is Game Backup Monitor?</a></li>
               <li><a href="#requirements">Requirements</a></li>
+              <li><a href="#modes">Normal and Portable Mode</a></li>
               <li><a href="#quickstart">Quick Start</a></li>
               <li><a href="#mainoverview">Main Window Overview</a></li>
               <li><a href="#settings">Settings</a>
@@ -124,6 +125,39 @@
             <h4>Legacy Support:</h4>
             <p><a href="https://github.com/MikeMaximus/gbm/releases/tag/v1.2.9">v1.2.9</a> is the most recent version that supports Windows XP and Vista using .NET Framework 4.0.</p>
           </div>
+          <div class="pageSectionFooter">
+            <a href="#toc">Back to Contents</a>
+          </div>
+        </div>
+        <div class="pageSection">
+          <div class="pageSectionHeader">
+            <a name="modes" id="modes">Normal and Portable Mode</a>
+          </div>
+          <div class="pageSectionContent">
+            <p>GBM can run in two different modes, normal mode or portable mode.</p>
+            <p>The mode dictates where all configuration and user files are stored.</p>            
+            <h4>Normal Mode</h4>
+            <p>This is the mode used by default and suitable for most users.</p>
+            <p>In normal mode, all configuration and user files are stored in the local user profile folder.</p>
+            <p>This is usually <b>C:\Users\*Your User Name*\AppData\Local\gbm</b> (Windows) or <b>/home/*Your User Name*/.local/share/gbm</b> (Linux).</p>
+            <h4>Portable Mode</h4>            
+            <p>Support for portable mode was added in v1.4.3 and requires being toggled on outside of the application.</p>
+            <p>In portable mode, all configuration and user files are stored in the application folder itself.</p>            
+            <h4>Switching Modes</h4>
+            <p>You can toggle between normal and portable mode by using a script in the application folder.</p>
+            <p>Close the application, then run <b>Toggle Portable Mode.bat</b> (Windows) or <b>Toggle Portable Mode.sh</b> (Linux) to toggle the mode.</p>
+            <p>You can also switch modes manually:</p>
+            <ul>
+              <li>Create an empty file named "portable.ini" (case-sensitive) in the application folder to enable portable mode.</li>
+              <li>Delete the "portable.ini" file to return the application to normal mode.</li>
+            </ul>
+            <h4>Important Details</h4>
+            <ul>              
+              <li>Existing configuration and user data is not automatically moved or copied when switching modes.</li>
+              <li>Portable mode requires create and write permissions to the application folder.</li>
+              <li>The installer packages are not designed for use with portable mode, use a 7z release package.</li>
+            </ul>            
+          </div>          
           <div class="pageSectionFooter">
             <a href="#toc">Back to Contents</a>
           </div>
