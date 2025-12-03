@@ -33,10 +33,11 @@
             Game Backup Monitor v1.4.3 Manual
           </div>
           <div class="pageSectionContent">
-            <h3 class="notop">Updated November 23, 2025</h3>
+            <h3 class="notop">Updated December 3, 2025</h3>
             <h3>Important Notes:</h3>
             <p>An offline version of the manual is available <a href="https://github.com/Darthagnon/gbm-manual">here</a>.  The offline manual is kindly provided by <a href="https://github.com/Darthagnon">Darthagnon</a>.</p>
             <p>This manual may contain information about features not available in the current stable release.</p>
+            <p>Screenshots may slightly differ from the current stable release.</p>
             <p>If you are having a specific problem, please check the <a href="https://github.com/MikeMaximus/gbm/issues">issues</a> list.</p>            
             <h3 class="subsection"><a name="toc" id="toc">Table of Contents</a></h3>
             <ol>
@@ -135,7 +136,9 @@
           </div>
           <div class="pageSectionContent">
             <p>GBM can run in two different modes, normal mode or portable mode.</p>
-            <p>The mode dictates where all configuration and user files are stored.</p>            
+            <p>The mode dictates where all configuration and user files are stored.</p>
+            <p>You can identify the current mode by checking the icon displayed on GBM's main window status bar.</p>
+            <p><img class="manualbutton" src="images/manual/buttons/frmMain_Normal.png" width="16" height="16" alt="Normal Icon" /> indicates normal mode while <img class="manualbutton" src="images/manual/buttons/frmMain_Portable.png" width="16" height="16" alt="Portable Icon" /> indicates portable mode.</p>
             <h4>Normal Mode</h4>
             <p>This is the mode used by default and suitable for most users.</p>
             <p>In normal mode, all configuration and user files are stored in the local user profile folder.</p>
@@ -153,8 +156,8 @@
             </ul>
             <h4>Important Details</h4>
             <ul>              
-              <li>Existing configuration and user data is not automatically moved or copied when switching modes.</li>
-              <li>Portable mode requires create and write permissions to the application folder.</li>
+              <li>Existing configuration and user data is <b>not automatically moved or copied when switching modes</b>.</li>
+              <li>GBM will not start in portable mode unless it has write permissions to the application folder.</li>
               <li>The installer packages are not designed for use with portable mode, use a 7z release package.</li>
             </ul>            
           </div>          
@@ -220,17 +223,18 @@
                 <li>The options displayed in this area depend on the current status of the application, as well as the options you have enabled in <a href="#settings">Settings</a>.</li>
               </ul>
             </p>
-            <p>A detailed log of all the actions GBM has performed in the current session is also displayed, this log can be hidden by resizing the window. If this log becomes too large over a session it will be auto-saved and cleared.</p><img class="manual" src="images/manual/manual_03.jpg" width="736" height="443" alt="Main Screen" /><br />
+            <p>A detailed log of all the actions GBM has performed in the current session is also displayed, this log can be hidden by resizing the window. If this log becomes too large over a session it will be auto-saved and cleared.</p><img class="manual" src="images/manual/manual_03.jpg" width="786" height="493" alt="Main Screen" /><br />
             <p>The right side of the menu bar will show notifications(if enabled) about new saved games to restore. Clicking the notification will clear it for the current session and bring you directly to the Game Manager.</p>
-            <img class="manual" src="images/manual/manual_12.jpg" width="493" height="310" alt="Main Screen" /><br />            
+            <img class="manual" src="images/manual/manual_12.jpg" width="528" height="318" alt="Main Screen" /><br />            
             <p>The status bar shows what GBM is currently doing, the current monitor status and provides quick access to some functions.
               <ul>
                 <li>The <img class="manualbutton" src="images/manual/buttons/frmMain_Ready.png" width="16" height="16" alt="Ready" /> (Scanning), <img class="manualbutton" src="images/manual/buttons/frmMain_Detected.png" width="16" height="16" alt="Detected" /> (Detected) or <img class="manualbutton" src="images/manual/buttons/frmMain_Stopped.png" width="16" height="16" alt="Stopped" /> (Stopped) status button on the right can be used to control starting, stopping and cancelling game detection. This can also be accomplished with the File menu and system tray menu.</li>
                 <li>The <img class="manualbutton" src="images/manual/buttons/frmMain_Collapse_Left.png" width="16" height="16" alt="Collapse" /> (Collapse) or <img class="manualbutton" src="images/manual/buttons/frmMain_Expand_Right.png" width="16" height="16" alt="Expand" /> (Expand) button on the left of the status bar allows you to toggle displaying the "Game List" section of the window.</li>
-                <li>The <img class="manualbutton" src="images/manual/buttons/frmMain_User.png" width="16" height="16" alt="User" /> (Normal User) or <img class="manualbutton" src="images/manual/buttons/frmMain_Admin.png" width="16" height="16" alt="Admin" /> (Admin) button on the left of the status bar indicates if GBM is running in normal mode or as administrator. GBM can handle most situations running with normal mode, clicking this button lets you switch to Administrator quickly when it's required. This feature is not available when running in Linux.</li>
+                <li>The <img class="manualbutton" src="images/manual/buttons/frmMain_User.png" width="16" height="16" alt="User" /> (Normal User) or <img class="manualbutton" src="images/manual/buttons/frmMain_Admin.png" width="16" height="16" alt="Admin" /> (Admin) button on the left of the status bar indicates if GBM is running as a normal user or as administrator. GBM can handle most situations running with normal mode, clicking this button lets you switch to Administrator quickly when it's required. This feature is not available when running in Linux.</li>
+                <li>The <img class="manualbutton" src="images/manual/buttons/frmMain_Normal.png" width="16" height="16" alt="Normal Icon" /> (Normal Mode) or <img class="manualbutton" src="images/manual/buttons/frmMain_Portable.png" width="16" height="16" alt="Portable Icon" /> (Portable Mode) button on the left of the status bar indicates if GBM is running in <a href="#modes">normal or portable mode</a>.  Clicking this button will load the appropriate section of this manual.</li>
               </ul>
             </p>
-            <img class="manual" src="images/manual/manual_04.jpg" width="493" height="276" alt="Main Screen" /><br />              
+            <img class="manual" src="images/manual/manual_04.jpg" width="528" height="278" alt="Main Screen" /><br />              
             <p>A <img class="manualbutton" src="images/manual/buttons/Multi_Cancel.png" width="16" height="16" alt="Cancel" /> (Cancel) button will appear on the main window during backup &amp; restore operations, clicking this will attempt to cancel the current operation.
               <ul>
                 <li>Clicking "Cancel" may not have an immediate response, it can take some time before the operation reaches a point where it can be terminated.</li>
@@ -238,7 +242,7 @@
                 <li>The "Cancel" button is intended for emergencies only, such as an incorrect configuration causing a lengthy backup of the wrong folder.</li>
               </ul>
             </p>                      
-            <p>The main window can be closed and hidden to the system tray in Windows, or minimized to the taskbar in Linux.  All important menu options are available from the system tray menu.  The system tray icon and menu may not be available in Linux, depending on the desktop environment and Mono version used.</p>
+            <p>The main window can be closed and hidden to the system tray.  All important menu options are available from the system tray menu.  The system tray icon and menu may not be available in Linux, depending on the desktop environment and Mono version used.</p>
             <p>If you prefer classic GBM look from older versions, you can tweak and customize the default appearance of this window in <a href="#settings">Settings</a>.</p>
           </div>
           <div class="pageSectionFooter">
@@ -335,7 +339,7 @@
             <h4>Backup GBM data files on launch:</h4>
             <p>GBM will backup both local and remote data files (as gbm.s3db.launch.bak) each time the application starts.  Only one backup file is kept, the prior one will be overwritten.</p>
             <h3 class="subsection"><a name="settings_ui" id="settings_ui">User Interface</a></h3>
-            <img class="manual" src="images/manual/manual_34.jpg" width="556" height="418" alt="Settings" />
+            <img class="manual" src="images/manual/manual_34.jpg" width="586" height="468" alt="Settings" />
             <h4>Exit when closing main window:</h4>
             <p>This indicates if you'd like to shut down GBM completely when closing the main window, instead of hiding it to the system tray or taskbar.</p>
             <h4>Exit without confirmation:</h4>
@@ -354,6 +358,8 @@
             <p>This will prevent all sync related messages from being displayed in the log.</p>
             <h4>Autosave log when max length is exceeded:</h4>
             <p>This will automatically save a copy of the session log each time it's automatically cleared.</p>
+            <h4>Language:</h4>
+            <p>You can manually select one of the available UI languages here.  GBM uses the language of your operating system if possible, otherwise English is used.</p>
             <h3 class="subsection"><a name="settings_globalhotkeys" id="settings_globalhotkeys">Global Hotkeys</a></h3>
             <ul>
               <li>Global Hotkeys allow you to trigger functions in GBM during a game or while working in another application.
@@ -609,7 +615,7 @@
             <h4>Link Process:</h4>
             <p>This option is avaiable in the <img class="manualbutton" src="images/manual/buttons/frmGameManager_Link.png" width="16" height="16" alt="Chain" /> (Link options) sub-menu button.</p>
             <p>You can assign one or more programs to automatically run when a game is detected.  This could be useful to launch a custom control scheme or overlay whenever you play a particular game.</p><img class="manual" src="images/manual/manual_21.jpg" width="386" height="313" alt="Processes" /><br />
-            <p>You can manage (Create, Edit or Delete) any Processes you want to use from the Setup menu or inside the Game Manager.</p><img class="manual" src="images/manual/manual_22.jpg" width="586" height="248" alt="Processes" /><br />            
+            <p>You can manage (Create, Edit or Delete) any Processes you want to use from the Setup menu or inside the Game Manager.</p><img class="manual" src="images/manual/manual_22.jpg" width="586" height="253" alt="Processes" /><br />            
             <p>Select the processes and use the appropriate buttons to add or remove them.</p>            
             <h4>OS:</h4>
             <p>This is the target operating system of the configuration, the OS field is hidden and cannot be modified in Windows.</p>
