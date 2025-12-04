@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1757490209" TotalConfigurations="694" AppVer="142">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1764843795" TotalConfigurations="706" AppVer="143">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -186,6 +186,35 @@
     <BackupLimit>3</BackupLimit>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>2cba3a0a-90ac-4e0d-8811-6ca6e6ca695f</ID>
+    <Name>Absolum</Name>
+    <ProcessName>Absolum</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\Absolum_SaveGame_Steam</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>true</AppendTimeStamp>
+    <BackupLimit>3</BackupLimit>
+    <FileType />
+    <ExcludeList>Config.txt</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -6494,9 +6523,9 @@
   <Game>
     <ID>e80766cf-6fd1-49f0-ab07-39373319c78b</ID>
     <Name>Epic Pinball - The Complete Collection</Name>
-    <ProcessName>DOSBox</ProcessName>
-    <Parameter>-conf "..\dosbox_epin.conf" -conf "..\dosbox_epin_single.conf" -noconsole -c "exit"</Parameter>
-    <Path>..\</Path>
+    <ProcessName>^([dD][Oo][sS][Bb][Oo][xX])$</ProcessName>
+    <Parameter>dosbox_epin.conf</Parameter>
+    <Path>..\cloud_saves</Path>
     <FolderSave>false</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
@@ -6504,7 +6533,7 @@
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
-    <IsRegEx>false</IsRegEx>
+    <IsRegEx>true</IsRegEx>
     <RecurseSubFolders>true</RecurseSubFolders>
     <OS>1</OS>
     <UseWindowTitle>false</UseWindowTitle>
@@ -6516,6 +6545,9 @@
       </Tag>
       <Tag>
         <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Galaxy Cloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -7131,6 +7163,35 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>d66503b0-1fdb-4612-b997-b2fa1d211722</ID>
+    <Name>Farthest Frontier</Name>
+    <ProcessName>Farthest Frontier</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\Saved Games\Farthest Frontier\Save</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -9561,6 +9622,35 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>1f427a2a-181f-4396-975e-26b4b4871b89</ID>
+    <Name>King's Bounty: The Legend</Name>
+    <ProcessName>kb</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\My Games\Kings Bounty</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>game.ini</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -13524,6 +13614,96 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>382f0305-ad34-49a3-948a-8cb1e93db9cd</ID>
+    <Name>Resident Evil (1997)</Name>
+    <ProcessName>ResidentEvil</ProcessName>
+    <Parameter />
+    <Path>save</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>61fc7d6c-af93-4c6c-a8c1-073dbf61847b</ID>
+    <Name>Resident Evil 0</Name>
+    <ProcessName>re0hd</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\GOG.com\Galaxy\Applications\58342960733154355\Storage\Shared\Files</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>config.ini</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Galaxy Cloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>ccbb48bb-7b30-48a8-9093-1c61008cbdd1</ID>
+    <Name>Resident Evil 2 (1998)</Name>
+    <ProcessName>^(ClaireU)$|^(LeonU)$</ProcessName>
+    <Parameter />
+    <Path />
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>Saves:savedata</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments>This configuration should work with the base GOG version and the SourceNext version.</Comments>
+    <IsRegEx>true</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>4d80a080-5b6b-43db-913d-edaadebbe7a4</ID>
     <Name>Resident Evil 2 (2019)</Name>
     <ProcessName>re2</ProcessName>
@@ -13551,6 +13731,35 @@
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>760393e0-d4a1-4f70-8c6f-4aa2fe52f457</ID>
+    <Name>Resident Evil 3 (1999)</Name>
+    <ProcessName>^(ResidentEvil3)$|^(RE3_MERCE)$</ProcessName>
+    <Parameter />
+    <Path>saves</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -13647,6 +13856,35 @@
       </Tag>
       <Tag>
         <Name>SteamCloud</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>eab6979d-7193-4f67-bd16-cbafb93e23c3</ID>
+    <Name>Resident Evil HD</Name>
+    <ProcessName>bhd</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\GOG.com\Galaxy\Applications\58424498340553405\Storage\Shared\Files</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -13895,6 +14133,35 @@
     <ProcessName>Risen3</ProcessName>
     <Parameter />
     <Path>%USERPROFILE%\Saved Games\Risen3\SaveGames</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>ed4192d7-2e7b-4a3b-81c3-bed129c451d5</ID>
+    <Name>River City Girls</Name>
+    <ProcessName>RiverCityGirls</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\WayForward Technologies\River City Girls\_savedata</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
@@ -14439,6 +14706,41 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>a5f758eb-bb41-41b3-ad91-c325de82fa9f</ID>
+    <Name>Sensible World of Soccer 96/97</Name>
+    <ProcessName>^([dD][Oo][sS][Bb][Oo][xX])$</ProcessName>
+    <Parameter>dosbox_SWOS.conf</Parameter>
+    <Path>..\cloud_saves</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Galaxy Cloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -17996,6 +18298,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>a79b571e-a373-4f2a-951b-56210b26538f</ID>
+    <Name>The Outer Worlds: Spacer's Choice Edition</Name>
+    <ProcessName>TheOuterWorldsSpacersChoiceEdition</ProcessName>
+    <Parameter />
+    <Path>%USERPROFILE%\Saved Games\The Outer Worlds Epic Games</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>EGS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>7295fbba-d985-4459-a153-47141cbc8b07</ID>
     <Name>The Riftbreaker</Name>
     <ProcessName>riftbreaker_win_release</ProcessName>
@@ -19248,6 +19579,35 @@
     <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList>Settings*</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>4ed644ae-8073-4172-8deb-14dc2b4e155b</ID>
+    <Name>Vaporum</Name>
+    <ProcessName>VaporumGame</ProcessName>
+    <Parameter />
+    <Path>Saves</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
