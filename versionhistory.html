@@ -33,7 +33,31 @@
             Version History
           </div>
           <div cass="pageSectionContent">
-            <h3 class="notop">1.4.1</h3>
+            <h3 class="notop">1.4.2</h3>
+            <ul>
+              <li>Windows:
+                <ul>
+                  <li>Added a new setting (General -> Optional Features) that allows enabling or disabling the OS color mode in GBM.
+                    <ul>
+                      <li>When enabled, GBM will match the OS color mode (Light or Dark).</li>
+                      <li>When disabled, GBM will always use the classic WinForms colors (Light).</li>
+                      <li>This setting is enabled by default as this behavior matches prior versions.</li>
+                      <li>Changing this setting requires restarting the application.</li>
+                      <li>This setting is not available in Linux.</li>
+                    </ul>
+                  </li>
+                  <li>Fixed the system tray menu sometimes not being set to the correct color mode.</li>
+                  <li>Updated 7-Zip to 25.00.</li>
+                  <li>Updated SQLite to 3.50.2.</li>
+                </ul>
+              </li>
+              <li>General:
+                <ul>
+                  <li>Changed the error message to be more descriptive when a required system path can't be set on start-up.</li>
+                </ul>
+              </li>    
+            </ul>
+            <h3>1.4.1</h3>
             <ul>
               <li>General:
                   <ul>
