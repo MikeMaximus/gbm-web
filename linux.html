@@ -56,10 +56,17 @@
             <ul>
               <li>GBM requires a few prerequisites to be installed. Many of these may be pre-installed on your distribution. 
                 <ul>
-                  <li>Mono Framework with Visual Basic .NET and WinForms
+                  <li>Mono Framework with Visual Basic .NET.
                     <ul>
                       <li>The <b>mono-vbnc</b> package and it's dependencies should cover this on debian based distros.</li>
                       <li>Visit <a href="http://www.mono-project.com/download/">mono-project.com</a> for the best way to install this on your distro.</li>
+                      <li>Please note that the versions of Mono included with Linux distributions and from <a href="http://www.mono-project.com/download/">mono-project.com</a> are very old, and may become unavailable.  GBM is functional on old versions of Mono, but it's not optimal and you will run into issues.  For the best results going forward, compile Mono yourself from the <a href="https://gitlab.winehq.org/mono">latest source</a> maintained by WineHQ.<br /><br />You will need to compile the following components to run GBM.
+                      <ul>
+                        <li><a href="https://gitlab.winehq.org/mono/mono">Framework Mono</a></li>
+                        <li><a href="https://gitlab.winehq.org/mono/mono-basic">Mono Basic</a></li>
+                        <li><a href="https://gitlab.winehq.org/mono/libgdiplus">libgdiplus</a></li>
+                      </ul>
+                      </li>
                     </ul>
                   </li>
                   <li>SQLite3 library
