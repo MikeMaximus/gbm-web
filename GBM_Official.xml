@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1770141627" TotalConfigurations="714" AppVer="144">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1773518836" TotalConfigurations="724" AppVer="144">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -490,6 +490,41 @@
     <Tags>
       <Tag>
         <Name>EGS</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>b9be9a7a-1114-461c-a98c-111fb95625b0</ID>
+    <Name>Alien Rampage</Name>
+    <ProcessName>^([dD][Oo][sS][Bb][Oo][xX])$</ProcessName>
+    <Parameter>dosbox_alienrampage.conf</Parameter>
+    <Path>..\cloud_saves</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>true</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>DOSBox</Name>
+      </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Galaxy Cloud</Name>
       </Tag>
       <Tag>
         <Name>Official</Name>
@@ -1149,6 +1184,35 @@
     <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>5ae29c04-ebe5-43ad-8b32-27faef020466</ID>
+    <Name>Banquet for Fools</Name>
+    <ProcessName>Banquet for Fools</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\Hannah and Joseph Games\Banquet for Fools</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>Player.log:Settings.es3</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -6315,6 +6379,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>a56c68d2-a345-4339-95f8-dcdbb98ea345</ID>
+    <Name>Dying Light</Name>
+    <ProcessName>DyingLightGame</ProcessName>
+    <Parameter />
+    <Path>%Steam%\userdata\%SteamID3%\239140\remote\out</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>818846f9-6e44-4092-843a-a7c1b5fbe4bd</ID>
     <Name>Elden Ring</Name>
     <ProcessName>^(eldenring)?$|^(start_protected_game)?$</ProcessName>
@@ -7281,10 +7374,42 @@
     <DiffInterval>0</DiffInterval>
     <Tags>
       <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
         <Name>Official</Name>
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>d1e7243a-bc1c-45fd-8cd5-83bd3dd5f016</ID>
+    <Name>Final Fantasy VII</Name>
+    <ProcessName>FFVII</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\FINAL FANTASY VII GOG Edition</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>config.txt</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -8377,6 +8502,35 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>84d88c6b-d8fb-4542-bc54-87ca45a0b822</ID>
+    <Name>Haunted Lands</Name>
+    <ProcessName>Haunted_Lands</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\Haunted_Lands_GM2</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>hl_config.ini</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -12292,6 +12446,35 @@
     <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList>Crashes:Unity:mikemaximus.xconfig:output_log.txt</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>0e32bbba-ae44-4533-bbcc-1ffb17275106</ID>
+    <Name>Overlord</Name>
+    <ProcessName>Overlord</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\Overlord</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>Settings.dat</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
@@ -17332,6 +17515,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>610bd3eb-9b55-498e-a969-257e14a1bd54</ID>
+    <Name>Sulfur</Name>
+    <ProcessName>Sulfur</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\Perfect Random\Sulfur</Path>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>true</AppendTimeStamp>
+    <BackupLimit>3</BackupLimit>
+    <FileType>*.es3</FileType>
+    <ExcludeList>Unity</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>e55e38c2-32a7-43d9-8dd8-70b99ba8f597</ID>
     <Name>Sunless Sea</Name>
     <ProcessName>Sunless Sea</ProcessName>
@@ -19003,6 +19215,64 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>39281f70-9bea-4c87-8271-fe5d1cd660cf</ID>
+    <Name>Tomb Raider I-III Remastered</Name>
+    <ProcessName>tomb123</ProcessName>
+    <Parameter />
+    <Path>%APPDATA%\TRX</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>39f629fd-bdbe-4ee8-841e-b09941cdde4c</ID>
+    <Name>Tomb Raider IV-VI Remastered</Name>
+    <ProcessName>tomb456</ProcessName>
+    <Parameter />
+    <Path>%APPDATA%\TRX2</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>9a059303-54cc-4c62-bc05-0ac58ed5f4b3</ID>
     <Name>Torment: Tides of Numenera</Name>
     <ProcessName>TidesOfNumenera</ProcessName>
@@ -19013,6 +19283,35 @@
     <BackupLimit>0</BackupLimit>
     <FileType />
     <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>5306cfbb-5e39-4c6c-ba3c-37c9461e48a6</ID>
+    <Name>Tormented Souls</Name>
+    <ProcessName>TormentedSouls</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\duale-abstractd\Tormented Souls Release GOG\Saves</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>usersettings</ExcludeList>
     <MonitorOnly>false</MonitorOnly>
     <Comments />
     <IsRegEx>false</IsRegEx>
