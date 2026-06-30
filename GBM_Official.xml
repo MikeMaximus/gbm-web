@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="GBM_Official.xsl"?>
-<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1773518836" TotalConfigurations="724" AppVer="144">
+<gbm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Exported="1782807655" TotalConfigurations="739" AppVer="145">
   <Game>
     <ID>aa50a788-7366-4853-865d-7aa78dd5bc0e</ID>
     <Name>1954 Alcatraz</Name>
@@ -936,6 +936,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>2777ba3a-fb52-45e6-9b77-1c895a6d6af5</ID>
+    <Name>Astlibra Revision</Name>
+    <ProcessName>ASTLIBRA</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\ASTLIBRA\SAVE\</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>SAVE_CONFIG.DAT</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>dafceeb7-ec1e-44f5-9156-6cbcc0c24809</ID>
     <Name>Aven Colony</Name>
     <ProcessName>AvenColony</ProcessName>
@@ -1018,6 +1047,38 @@
       </Tag>
       <Tag>
         <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>069f03e1-fb77-4fe2-aa9f-d5dd21a7cde2</ID>
+    <Name>Baby Steps</Name>
+    <ProcessName>BabySteps</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\DefaultCompany\BabySteps</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>Unity:Player.log:baby.cfg</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
@@ -1441,6 +1502,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>be1c3bcf-c536-493c-8ef3-8478f09584a6</ID>
+    <Name>Battlestar Galactica: Scattered Hopes</Name>
+    <ProcessName>BattlestarGalacticaScatteredHopes</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\Alt Shift\Battlestar Galactica Scattered Hopes\Saves</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>586b90da-01dd-4931-9261-dddc7e7b0639</ID>
     <Name>Bejeweled 3</Name>
     <ProcessName>Bejeweled3</ProcessName>
@@ -1640,6 +1730,35 @@
       <Tag>
         <Name>DOSBox</Name>
       </Tag>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>72880879-9955-448d-8bbe-145a3c19d451</ID>
+    <Name>Bio Menace Remastered</Name>
+    <ProcessName>BioMenace Remastered</ProcessName>
+    <Parameter />
+    <Path>saves</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList>Options.json</ExcludeList>
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
       <Tag>
         <Name>GOG</Name>
       </Tag>
@@ -2366,7 +2485,7 @@
   <Game>
     <ID>b72d2293-4e5c-4561-b252-c2c0433f8e58</ID>
     <Name>Blood - Refreshed Supply</Name>
-    <ProcessName>anuket_Shipping_Playfab_Galaxy_x64</ProcessName>
+    <ProcessName>BloodRefreshedSupply</ProcessName>
     <Parameter />
     <Path>%USERPROFILE%\Saved Games\Nightdive Studios\Blood EX\saves</Path>
     <FolderSave>true</FolderSave>
@@ -5679,6 +5798,38 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>e8c99f20-e415-4082-981b-48b397542dd7</ID>
+    <Name>Doom Eternal</Name>
+    <ProcessName>DOOMEternalx64vk</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\GOG.com\Galaxy\Applications\58995454904957791\Storage\Shared\Files</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Galaxy Cloud</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>cc09e1bd-a914-48ca-af9c-b0b14e082346</ID>
     <Name>Door Kickers</Name>
     <ProcessName>DoorKickers</ProcessName>
@@ -7502,6 +7653,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>bb390b3a-cff1-4bfb-b096-ff288cfc49b5</ID>
+    <Name>Forbidden Solitaire</Name>
+    <ProcessName>ForbiddenSolitaire</ProcessName>
+    <Parameter />
+    <Path>%USERDOCUMENTS%\Grey Alien Games\Forbidden Solitaire</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>de366f73-84cf-4e9c-ad90-2831e255583c</ID>
     <Name>Forgive Me Father</Name>
     <ProcessName>FMF</ProcessName>
@@ -9285,6 +9465,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>a6099352-d789-42f7-bdb2-798ca242f90f</ID>
+    <Name>HuniePop 2: Double Date</Name>
+    <ProcessName>HuniePop 2 - Double Date</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\HuniePot\HuniePop 2 - Double Date</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>b4ad45b5-3e68-48f4-bc41-26acf24c5b7a</ID>
     <Name>Huntdown</Name>
     <ProcessName>Huntdown</ProcessName>
@@ -9697,6 +9906,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>d4f7e2d3-a096-4653-baf2-488406af28fa</ID>
+    <Name>JDM: Japanese Drift Master</Name>
+    <ProcessName>JDM</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\JDM\Saved\SaveGames</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>db56d69b-a118-42f1-aab1-b64fa64ef4f8</ID>
     <Name>Jagged Alliance</Name>
     <ProcessName>DOSBox</ProcessName>
@@ -10056,6 +10294,35 @@
     <ProcessName>limbo</ProcessName>
     <Parameter />
     <Path>save_game</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>58856e56-6531-4304-906b-2b005f7c20b1</ID>
+    <Name>Labyrinth of the Demon King</Name>
+    <ProcessName>Shinigami</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%\Shinigami\Saved\SaveGames</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
@@ -11151,6 +11418,35 @@
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
     <FileType>*.sav</FileType>
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>0d602f1f-a355-47ab-8c93-f4958f515b49</ID>
+    <Name>Mina the Hollower</Name>
+    <ProcessName>MinaTheHollower</ProcessName>
+    <Parameter />
+    <Path>%APPDATA%\Yacht Club Games\Mina the Hollower</Path>
+    <FolderSave>false</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType>saveData.yc</FileType>
     <ExcludeList />
     <MonitorOnly>false</MonitorOnly>
     <Comments />
@@ -13527,6 +13823,35 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>911efdbd-307a-4590-b8ab-8199581ac3ee</ID>
+    <Name>Puzzle Quest: Immortal Edition</Name>
+    <ProcessName>PuzzleQuestImmortal</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\505 Games\Puzzle Quest - Immortal Edition</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>b41dc29f-8961-44b6-a469-a22435af0d3a</ID>
     <Name>Quake - The Offering</Name>
     <ProcessName>DOSBox</ProcessName>
@@ -15672,6 +15997,64 @@
     <ConfigLinks />
   </Game>
   <Game>
+    <ID>737e1bc7-090e-4626-b722-fb4e8758c28b</ID>
+    <Name>SiNiSistar</Name>
+    <ProcessName>SiNiSistar</ProcessName>
+    <Parameter />
+    <Path>SaveData</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>d0f60dfb-465a-4a29-9cce-5cb0f253e49b</ID>
+    <Name>SiNiSistar 2</Name>
+    <ProcessName>SiNiSistar2</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\Uu\SiNiSistar2\SaveData_S</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+      <Tag>
+        <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
     <ID>9189cdde-4dc1-4c31-8e8b-222ead401e00</ID>
     <Name>Sid Meier's Alien Crossfire</Name>
     <ProcessName>terranx</ProcessName>
@@ -16330,6 +16713,35 @@
     <ProcessName>Space Colony</ProcessName>
     <Parameter />
     <Path>%USERDOCUMENTS%\Space Colony\users</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>a3a2dcd9-6677-4a06-8723-f6098e35fdaa</ID>
+    <Name>Space Haven</Name>
+    <ProcessName>spacehaven</ProcessName>
+    <Parameter />
+    <Path>savegames</Path>
     <FolderSave>true</FolderSave>
     <AppendTimeStamp>false</AppendTimeStamp>
     <BackupLimit>0</BackupLimit>
@@ -18569,6 +18981,35 @@
       </Tag>
       <Tag>
         <Name>Steam</Name>
+      </Tag>
+    </Tags>
+    <ConfigLinks />
+  </Game>
+  <Game>
+    <ID>6ffa93ed-ca17-4963-9fc0-016bebce6585</ID>
+    <Name>The Last Spell</Name>
+    <ProcessName>The Last Spell</ProcessName>
+    <Parameter />
+    <Path>%LOCALAPPDATA%Low\Ishtar Games\The Last Spell\Save</Path>
+    <FolderSave>true</FolderSave>
+    <AppendTimeStamp>false</AppendTimeStamp>
+    <BackupLimit>0</BackupLimit>
+    <FileType />
+    <ExcludeList />
+    <MonitorOnly>false</MonitorOnly>
+    <Comments />
+    <IsRegEx>false</IsRegEx>
+    <RecurseSubFolders>true</RecurseSubFolders>
+    <OS>1</OS>
+    <UseWindowTitle>false</UseWindowTitle>
+    <Differential>false</Differential>
+    <DiffInterval>0</DiffInterval>
+    <Tags>
+      <Tag>
+        <Name>GOG</Name>
+      </Tag>
+      <Tag>
+        <Name>Official</Name>
       </Tag>
     </Tags>
     <ConfigLinks />
